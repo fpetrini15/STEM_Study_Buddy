@@ -1,0 +1,539 @@
+{
+  "title": "Circulation and Gas Exchange Quiz",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary difference in how nutrients and gases are distributed between a simple body plan and a complex body plan with a circulatory system?"
+      },
+      "options": [
+        "A simple body plan uses active transport to move nutrients, while a circulatory system relies only on gravity.",
+        "A simple body plan relies on direct diffusion between cells and the environment, while a circulatory system uses fluid to transport materials over long distances.",
+        "A simple body plan uses a heart to pump water, while a circulatory system uses blood vessels to store fat.",
+        "A simple body plan lacks any internal organs, while a circulatory system is only found in organisms with an exoskeleton."
+      ],
+      "answer": "A simple body plan relies on direct diffusion between cells and the environment, while a circulatory system uses fluid to transport materials over long distances."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How can certain animals, such as flatworms and jellies, survive and function effectively without a dedicated circulatory system?"
+      },
+      "options": [
+        "They utilize high-pressure air pockets to force nutrients through solid tissue layers.",
+        "They possess a body plan where most cells are in direct contact with the environment or a gastrovascular cavity.",
+        "They remain completely dormant for most of their lives to avoid the need for nutrient distribution.",
+        "They use specialized muscular pumps to move nutrients through a series of hollow skeletal tubes."
+      ],
+      "answer": "They possess a body plan where most cells are in direct contact with the environment or a gastrovascular cavity."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following correctly identifies the three fundamental components required for a functional circulatory system?"
+      },
+      "options": [
+        "A muscular pump, a circulatory fluid, and a set of interconnecting vessels",
+        "Gills, a digestive tract, and a network of nerves",
+        "Hemoglobin, white blood cells, and bone marrow",
+        "A respiratory surface, an alimentary canal, and a heart"
+      ],
+      "answer": "A muscular pump, a circulatory fluid, and a set of interconnecting vessels"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does the action of the heart pumping result in the circulation of fluid throughout the body?"
+      },
+      "options": [
+        "The heart uses electrical impulses to pull nutrients through the vessel walls via magnetism.",
+        "The heart creates hydrostatic pressure that pushes circulatory fluid through a circuit of vessels.",
+        "The heart acts as a vacuum that sucks fluid from the extremities back into the lungs.",
+        "The heart vibrates at a high frequency to liquefy solid nutrients for easier movement."
+      ],
+      "answer": "The heart creates hydrostatic pressure that pushes circulatory fluid through a circuit of vessels."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary difference between an open and a closed circulatory system?"
+      },
+      "options": [
+        "An open system uses a heart to pump fluid, while a closed system relies entirely on body movements to circulate blood.",
+        "In an open system, fluid bathes organs directly in a sinus, while in a closed system, blood is confined to vessels and kept distinct from interstitial fluid.",
+        "In an open system, blood carries only nutrients, while in a closed system, blood carries only oxygen and carbon dioxide.",
+        "An open system is found only in vertebrates, while a closed system is found only in insects and mollusks."
+      ],
+      "answer": "In an open system, fluid bathes organs directly in a sinus, while in a closed system, blood is confined to vessels and kept distinct from interstitial fluid."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary difference between hemolymph and blood as circulatory fluids?"
+      },
+      "options": [
+        "Hemolymph is only used for waste removal, while blood is used exclusively for oxygen transport.",
+        "Hemolymph is the same as the interstitial fluid that bathes body cells, while blood is a distinct fluid kept separate from interstitial fluid.",
+        "Hemolymph is found only in vertebrates, while blood is found only in invertebrates like insects and spiders.",
+        "Hemolymph contains red blood cells for gas exchange, while blood lacks specialized cells for carrying oxygen."
+      ],
+      "answer": "Hemolymph is the same as the interstitial fluid that bathes body cells, while blood is a distinct fluid kept separate from interstitial fluid."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The term 'cardiovascular system' specifically highlights which two essential components of a vertebrate's circulatory system?"
+      },
+      "options": [
+        "The lungs and the diaphragm",
+        "The heart and the blood vessels",
+        "The liver and the hepatic portal vein",
+        "The brain and the spinal cord"
+      ],
+      "answer": "The heart and the blood vessels"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following correctly identifies the three main types of blood vessels found in the cardiovascular system?"
+      },
+      "options": [
+        "Atria, Ventricles, and Valves",
+        "Arteries, Capillaries, and Veins",
+        "Hemoglobin, Plasma, and Platelets",
+        "Sinuses, Bronchioles, and Alveoli"
+      ],
+      "answer": "Arteries, Capillaries, and Veins"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following best describes the primary functional difference between arteries and veins?"
+      },
+      "options": [
+        "Arteries always carry oxygenated blood, while veins always carry deoxygenated blood.",
+        "Arteries carry blood away from the heart toward organs, while veins return blood back to the heart.",
+        "Arteries use valves to prevent backflow, while veins use high pressure to move blood forward.",
+        "Arteries are the primary site of gas exchange, while veins are used only for nutrient storage."
+      ],
+      "answer": "Arteries carry blood away from the heart toward organs, while veins return blood back to the heart."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "T/F: Arteries are the blood vessels that always carry oxygenated blood."
+      },
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary structural and functional difference between arteries and arterioles?"
+      },
+      "options": [
+        "Arteries are the site of gas exchange, while arterioles only transport deoxygenated blood.",
+        "Arteries are large vessels that carry blood away from the heart, while arterioles are smaller branches that regulate blood flow into capillary beds.",
+        "Arteries lack muscular walls, while arterioles use thick elastic fibers to maintain the highest blood pressure in the body.",
+        "Arteries return blood directly to the atria, while arterioles connect veins to the lymphatic system."
+      ],
+      "answer": "Arteries are large vessels that carry blood away from the heart, while arterioles are smaller branches that regulate blood flow into capillary beds."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary physiological importance of capillary beds in the circulatory system?"
+      },
+      "options": [
+        "To provide a high-pressure environment to accelerate blood flow back to the heart.",
+        "To act as the sole site for the production of red and white blood cells.",
+        "To facilitate the exchange of gases, nutrients, and wastes between the blood and interstitial fluid.",
+        "To serve as a storage reservoir for excess oxygenated blood during rest."
+      ],
+      "answer": "To facilitate the exchange of gases, nutrients, and wastes between the blood and interstitial fluid."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary relationship and difference between venules and veins?"
+      },
+      "options": [
+        "Venules are larger vessels that carry blood to the heart, while veins are the tiny vessels that connect directly to arteries.",
+        "Venules are small vessels that collect blood from capillary beds, which then converge to form the larger veins that return blood to the heart.",
+        "Venules carry oxygenated blood to the tissues, while veins carry deoxygenated blood away from the tissues.",
+        "Venules contain thick muscular walls to pump blood, while veins rely on the lungs to move blood through the body."
+      ],
+      "answer": "Venules are small vessels that collect blood from capillary beds, which then converge to form the larger veins that return blood to the heart."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following best distinguishes the structure and function of atria from ventricles?"
+      },
+      "options": [
+        "Atria are the thick-walled chambers that pump blood out of the heart, while ventricles are thin-walled chambers that receive blood.",
+        "Atria are the chambers that receive blood entering the heart, while ventricles are the thick-walled chambers responsible for pumping blood out of the heart.",
+        "Atria are responsible for gas exchange with the lungs, while ventricles are responsible for filtering toxins from the blood.",
+        "Atria always contain deoxygenated blood, while ventricles always contain oxygenated blood."
+      ],
+      "answer": "Atria are the chambers that receive blood entering the heart, while ventricles are the thick-walled chambers responsible for pumping blood out of the heart."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In the human heart, which side is responsible for receiving oxygenated blood from the lungs?"
+      },
+      "options": [
+        "The right side",
+        "The left side",
+        "Both sides simultaneously",
+        "Neither side; oxygenated blood bypasses the heart"
+      ],
+      "answer": "The left side"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary difference between single circulation and double circulation systems in vertebrates?"
+      },
+      "options": [
+        "Single circulation uses one vessel for both blood and lymph, while double circulation uses two separate systems.",
+        "In single circulation, blood passes through the heart once per complete circuit, whereas in double circulation, blood passes through the heart twice.",
+        "Single circulation occurs only in organisms with an open system, while double circulation occurs only in closed systems.",
+        "In single circulation, the heart has four chambers, while in double circulation, the heart only has one chamber."
+      ],
+      "answer": "In single circulation, blood passes through the heart once per complete circuit, whereas in double circulation, blood passes through the heart twice."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "From an evolutionary standpoint, what is the main advantage of double circulation over single circulation?"
+      },
+      "options": [
+        "It allows blood to be pumped at a higher pressure to the body tissues after it has lost pressure in the capillary beds of the lungs.",
+        "It reduces the total volume of blood needed, allowing the organism to maintain a much smaller heart size.",
+        "It eliminates the need for red blood cells by allowing oxygen to dissolve directly into the plasma.",
+        "It prevents the mixing of nutrients and waste products within the same blood vessels."
+      ],
+      "answer": "It allows blood to be pumped at a higher pressure to the body tissues after it has lost pressure in the capillary beds of the lungs."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following best defines the 'cardiac cycle' in a healthy human?"
+      },
+      "options": [
+        "The total amount of blood pumped by the heart in a single minute.",
+        "The complete sequence of events from the beginning of one heartbeat to the beginning of the next.",
+        "The path blood takes as it travel specifically from the right atrium to the left atrium.",
+        "The electrical signal that travels from the brain to the heart to initiate a contraction."
+      ],
+      "answer": "The complete sequence of events from the beginning of one heartbeat to the beginning of the next."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary difference between the systole and diastole phases of the cardiac cycle?"
+      },
+      "options": [
+        "Systole is the phase where the heart chambers relax and fill with blood, while diastole is the phase of active contraction.",
+        "Systole involves the contraction of the heart to pump blood out, while diastole involves the relaxation of the heart to allow chambers to fill.",
+        "Systole refers to blood entering the lungs, while diastole refers to blood entering the systemic circuit.",
+        "Systole is the electrical signal from the brain, while diastole is the physical movement of the heart muscle."
+      ],
+      "answer": "Systole involves the contraction of the heart to pump blood out, while diastole involves the relaxation of the heart to allow chambers to fill."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What does the term 'cardiac output' represent in the study of cardiovascular physiology?"
+      },
+      "options": [
+        "The total volume of blood contained within the heart's four chambers at any given time.",
+        "The volume of blood pumped by each ventricle per minute.",
+        "The maximum pressure exerted on the arterial walls during a single contraction.",
+        "The amount of time it takes for blood to complete one full circuit through the body."
+      ],
+      "answer": "The volume of blood pumped by each ventricle per minute."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does the heart ensure that blood flows in only one direction and prevent backflow between chambers and vessels?"
+      },
+      "options": [
+        "By using electrical impulses to repel blood cells moving in the wrong direction.",
+        "Through the presence of one-way valves that open and close in response to pressure changes.",
+        "By maintaining a constant vacuum in the ventricles that pulls blood forward.",
+        "Through specialized muscle fibers that squeeze the blood vessels shut after each beat."
+      ],
+      "answer": "Through the presence of one-way valves that open and close in response to pressure changes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following correctly matches the four heart valves with their specific locations?"
+      },
+      "options": [
+        "Atrioventricular (AV) valves are located between the atria and ventricles; Semilunar valves are located at the exits of the heart.",
+        "Semilunar valves are located between the atria and ventricles; Atrioventricular (AV) valves are located at the exits of the heart.",
+        "Tricuspid valves are located at the exit of the aorta; Bicuspid valves are located at the exit of the pulmonary artery.",
+        "Atrioventricular (AV) valves are located in the veins of the legs; Semilunar valves are located only in the coronary arteries."
+      ],
+      "answer": "Atrioventricular (AV) valves are located between the atria and ventricles; Semilunar valves are located at the exits of the heart."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary physical cause of a heart murmur?"
+      },
+      "options": [
+        "An electrical misfire in the SA node that causes the heart to skip a beat.",
+        "The sound of blood leaking backward through a defective or poorly closed heart valve.",
+        "A buildup of cholesterol that blocks the flow of blood through the coronary arteries.",
+        "The rapid vibration of the diaphragm against the pericardium during heavy exercise."
+      ],
+      "answer": "The sound of blood leaking backward through a defective or poorly closed heart valve."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the correct chronological path of the electrical impulse that coordinates a single heartbeat?"
+      },
+      "options": [
+        "AV node → Purkinje fibers → SA node → Bundle branches",
+        "SA node → AV node → Bundle branches → Purkinje fibers",
+        "Purkinje fibers → Bundle branches → AV node → SA node",
+        "SA node → Purkinje fibers → AV node → Bundle branches"
+      ],
+      "answer": "SA node → AV node → Bundle branches → Purkinje fibers"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which component of the heart's conduction system is known as the natural pacemaker because it initiates the electrical impulses that set the heart rate?"
+      },
+      "options": [
+        "Atrioventricular (AV) node",
+        "Sinoatrial (SA) node",
+        "Purkinje fibers",
+        "Bundle of His"
+      ],
+      "answer": "Sinoatrial (SA) node"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary physiological purpose of the 0.1-second delay that occurs at the AV node?"
+      },
+      "options": [
+        "To allow the blood to become fully oxygenated before entering the left ventricle.",
+        "To ensure the atria have completely emptied their blood into the ventricles before the ventricles contract.",
+        "To give the SA node time to recharge its electrical potential for the next heartbeat.",
+        "To prevent the heart rate from exceeding 100 beats per minute during intense exercise."
+      ],
+      "answer": "To ensure the atria have completely emptied their blood into the ventricles before the ventricles contract."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following are the thinnest of all blood vessels, consisting of only a single layer of epithelial cells?"
+      },
+      "options": ["Arterioles", "Venules", "Capillaries", "Arteries"],
+      "answer": "Capillaries"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary structural difference between the walls of arteries and the walls of veins?"
+      },
+      "options": [
+        "Arteries have much thinner walls because they carry blood under lower pressure than veins.",
+        "Arteries have thick, elastic walls to withstand high pressure, while veins have thinner walls and possess valves to prevent backflow.",
+        "Veins have thick muscular walls to pump blood to the heart, while arteries rely on valves to move blood forward.",
+        "Both have identical wall thickness, but veins are composed of bone tissue while arteries are made of cartilage."
+      ],
+      "answer": "Arteries have thick, elastic walls to withstand high pressure, while veins have thinner walls and possess valves to prevent backflow."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which combination of factors is primarily responsible for the high blood pressure found in arteries compared to veins?"
+      },
+      "options": [
+        "The use of one-way valves and the large diameter of arterial lumens.",
+        "The distance from the heart and the high elasticity of venous walls.",
+        "The force of ventricular contraction and the resistance provided by narrow arterial lumens.",
+        "The constant vacuum created by the atria and the lack of smooth muscle in arteries."
+      ],
+      "answer": "The force of ventricular contraction and the resistance provided by narrow arterial lumens."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What happens to the several liters of fluid that leak out of the blood capillaries and into the body tissues each day?"
+      },
+      "options": [
+        "The fluid is permanently stored in specialized tissue reservoirs to provide hydration during drought.",
+        "The fluid is collected by lymphatic vessels, filtered in lymph nodes, and eventually returned to the bloodstream.",
+        "The fluid is absorbed by the skin and evaporated through pores to regulate internal temperature.",
+        "The fluid is transformed into new red blood cells by the interstitial tissue to replace lost volume."
+      ],
+      "answer": "The fluid is collected by lymphatic vessels, filtered in lymph nodes, and eventually returned to the bloodstream."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the technical biological name for the specialized red blood cells that transport oxygen throughout the body?"
+      },
+      "options": ["Leukocyte", "Thrombocyte", "Erythrocyte", "Lymphocyte"],
+      "answer": "Erythrocyte"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the technical biological name for white blood cells, which are primarily responsible for the body's immune response?"
+      },
+      "options": ["Thrombocyte", "Erythrocyte", "Leukocyte", "Adipocyte"],
+      "answer": "Leukocyte"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the technical term for a blood clot that forms within a blood vessel and remains attached to its site of origin?"
+      },
+      "options": ["Erythrocyte", "Embolus", "Thrombus", "Leukocyte"],
+      "answer": "Thrombus"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the medical and technical term for a 'heart attack,' which occurs when blood flow to the heart muscle is blocked, causing tissue damage?"
+      },
+      "options": [
+        "Atherosclerosis",
+        "Myocardial infarction",
+        "Hypertension",
+        "Angina pectoris"
+      ],
+      "answer": "Myocardial infarction"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which two primary gases are exchanged between an organism's body and its environment during the process of respiration?"
+      },
+      "options": [
+        "Nitrogen and Helium",
+        "Carbon Monoxide and Hydrogen",
+        "Oxygen and Carbon Dioxide",
+        "Oxygen and Methane"
+      ],
+      "answer": "Oxygen and Carbon Dioxide"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary physical process that allows oxygen and carbon dioxide to move across respiratory surfaces?"
+      },
+      "options": [
+        "Active transport using ATP",
+        "Osmosis through semi-permeable membranes",
+        "Passive diffusion driven by partial pressure gradients",
+        "Facilitated transport via protein pumps"
+      ],
+      "answer": "Passive diffusion driven by partial pressure gradients"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following correctly describes the main structural difference between gills and lungs as respiratory surfaces?"
+      },
+      "options": [
+        "Gills are internal structures used for air-breathing, while lungs are external outfoldings for water.",
+        "Gills are outfoldings of the body surface suspended in water, while lungs are infoldings of the body surface localized in one area.",
+        "Gills rely on active transport to move gases, while lungs rely purely on muscular suction.",
+        "Gills are found only in invertebrates, while lungs are found only in mammals."
+      ],
+      "answer": "Gills are outfoldings of the body surface suspended in water, while lungs are infoldings of the body surface localized in one area."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the relationship between alveoli and surfactant in the human respiratory system?"
+      },
+      "options": [
+        "Alveoli provide the surface area for gas exchange, while surfactant is a secretion that prevents them from collapsing by reducing surface tension.",
+        "Alveoli store oxygen for later use, while surfactant is an enzyme that breaks down carbon dioxide in the blood.",
+        "Alveoli act as mechanical filters for dust, while surfactant is a lubricant that allows the lungs to slide against the rib cage.",
+        "Alveoli are the muscular tubes that carry air, while surfactant is a hormone that triggers the diaphragm to contract."
+      ],
+      "answer": "Alveoli provide the surface area for gas exchange, while surfactant is a secretion that prevents them from collapsing by reducing surface tension."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does negative pressure breathing allow mammals to pull air into their lungs?"
+      },
+      "options": [
+        "By using the tongue to push air down into the trachea at high velocity.",
+        "By contracting the diaphragm to expand the thoracic cavity, lowering internal pressure and drawing air in.",
+        "By using specialized cilia to create a vacuum that pulls oxygen through the skin.",
+        "By increasing the pressure inside the lungs so that air is forced out and then rapidly sucked back in."
+      ],
+      "answer": "By contracting the diaphragm to expand the thoracic cavity, lowering internal pressure and drawing air in."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary role of hemoglobin once oxygen has diffused into the blood from the alveoli?"
+      },
+      "options": [
+        "It acts as a buffer to neutralize the acidity of carbon dioxide in the plasma.",
+        "It reversibly binds oxygen molecules to iron-containing heme groups for transport to tissues.",
+        "It converts oxygen into glucose to provide immediate energy for the heart muscle.",
+        "It creates a magnetic field that pulls oxygen molecules toward the mitochondria of cells."
+      ],
+      "answer": "It reversibly binds oxygen molecules to iron-containing heme groups for transport to tissues."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following best defines 'Tidal Volume' in the human respiratory system?"
+      },
+      "options": [
+        "The maximum amount of air a person can inhale after a forceful exhalation.",
+        "The volume of air inhaled and exhaled with each breath during normal, resting breathing.",
+        "The amount of air that always remains in the lungs to prevent them from collapsing.",
+        "The total capacity of the lungs when fully expanded."
+      ],
+      "answer": "The volume of air inhaled and exhaled with each breath during normal, resting breathing."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What does the 'Vital Capacity' of an individual represent?"
+      },
+      "options": [
+        "The volume of air that is impossible to exhale even with maximum effort.",
+        "The amount of oxygen consumed by the brain during a one-minute interval.",
+        "The maximum volume of air that can be inhaled and then exhaled with maximum effort.",
+        "The speed at which air moves through the trachea during a sneeze."
+      ],
+      "answer": "The maximum volume of air that can be inhaled and then exhaled with maximum effort."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why is 'Residual Volume' important for the maintenance of lung function?"
+      },
+      "options": [
+        "It is the air used for gas exchange during periods of holding one's breath.",
+        "It is the extra air inhaled during intense exercise to increase cardiac output.",
+        "It is the air that remains in the lungs after a forced exhalation, keeping the alveoli open.",
+        "It is the volume of fluid that builds up in the lungs during a respiratory infection."
+      ],
+      "answer": "It is the air that remains in the lungs after a forced exhalation, keeping the alveoli open."
+    }
+  ]
+}

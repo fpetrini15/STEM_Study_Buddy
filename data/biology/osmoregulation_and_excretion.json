@@ -1,0 +1,269 @@
+{
+  "title": "Osmoregulation and Excretion Quiz",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In biological systems, which of the following best defines the process of osmoregulation?"
+      },
+      "options": [
+        "The regulation of body temperature through the evaporation of sweat from the skin.",
+        "The process by which animals control solute concentrations and balance water gain and loss.",
+        "The mechanical breakdown of food particles within a gastrovascular cavity.",
+        "The transport of oxygen from the alveoli into the systemic circulatory circuit."
+      ],
+      "answer": "The process by which animals control solute concentrations and balance water gain and loss."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which nitrogenous byproduct is considered the most toxic and requires immediate conversion or elimination to prevent cellular damage?"
+      },
+      "options": ["Urea", "Uric Acid", "Ammonia", "Creatinine"],
+      "answer": "Ammonia"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A red blood cell placed in a solution with a higher solute concentration than the cell's cytoplasm."
+      },
+      "categories": [
+        "Hypertonic (Cell Shrivels)",
+        "Isotonic (No Net Change)",
+        "Hypotonic (Cell Swells/Bursts)"
+      ],
+      "answer": "Hypertonic (Cell Shrivels)"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A cell placed in pure distilled water with no dissolved salts."
+      },
+      "categories": [
+        "Hypertonic (Cell Shrivels)",
+        "Isotonic (No Net Change)",
+        "Hypotonic (Cell Swells/Bursts)"
+      ],
+      "answer": "Hypotonic (Cell Swells/Bursts)"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A cell placed in a solution where the solute concentration is equal to its own internal concentration."
+      },
+      "categories": [
+        "Hypertonic (Cell Shrivels)",
+        "Isotonic (No Net Change)",
+        "Hypotonic (Cell Swells/Bursts)"
+      ],
+      "answer": "Isotonic (No Net Change)"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Saltwater fish cells exposed to a freshwater environment."
+      },
+      "categories": [
+        "Hypertonic (Cell Shrivels)",
+        "Isotonic (No Net Change)",
+        "Hypotonic (Cell Swells/Bursts)"
+      ],
+      "answer": "Hypotonic (Cell Swells/Bursts)"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary difference in how osmoconformers and osmoregulators interact with their environment?"
+      },
+      "options": [
+        "Osmoconformers maintain a constant internal osmolarity regardless of their surroundings, while osmoregulators allow their internal osmolarity to match the environment.",
+        "Osmoconformers remain isoosmotic with their surroundings, while osmoregulators use energy to control internal osmolarity in a fluctuating environment.",
+        "Osmoconformers live only in freshwater, while osmoregulators are exclusively found in marine environments.",
+        "Osmoconformers use active transport to move water, while osmoregulators rely entirely on simple diffusion to balance salts."
+      ],
+      "answer": "Osmoconformers remain isoosmotic with their surroundings, while osmoregulators use energy to control internal osmolarity in a fluctuating environment."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do humans and most other mammals safely manage and excrete the highly toxic ammonia produced during protein metabolism?"
+      },
+      "options": [
+        "They excrete it directly as a dilute liquid through the skin's sweat glands.",
+        "The liver converts ammonia into urea, a much less toxic substance that is then excreted by the kidneys.",
+        "The lungs convert ammonia into a gas that is expelled during exhalation.",
+        "The large intestine converts ammonia into solid crystals that are removed during defecation."
+      ],
+      "answer": "The liver converts ammonia into urea, a much less toxic substance that is then excreted by the kidneys."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Even though it requires more metabolic energy (ATP) to produce, why do birds and many reptiles excrete nitrogenous waste as uric acid instead of urea?"
+      },
+      "options": [
+        "Uric acid is highly soluble in water, allowing these animals to hydrate while they excrete waste.",
+        "Uric acid is relatively non-toxic and insoluble, allowing it to be excreted as a semi-solid paste with very little water loss.",
+        "Uric acid acts as a lightweight structural component for feathers and scales, reducing the need for bone density.",
+        "Uric acid can be converted back into glucose during flight to provide an immediate source of emergency energy."
+      ],
+      "answer": "Uric acid is relatively non-toxic and insoluble, allowing it to be excreted as a semi-solid paste with very little water loss."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why is the production of uric acid a critical evolutionary adaptation for birds and reptiles developing inside shelled eggs?"
+      },
+      "options": [
+        "It allows the embryo to absorb nitrogen back into its tissues to build muscle before hatching.",
+        "Because it is relatively non-toxic and insoluble, it can be safely stored as a solid precipitate within the egg without poisoning the embryo.",
+        "It provides a liquid medium that keeps the embryo moist and prevents it from sticking to the shell.",
+        "It acts as a primary fuel source for the embryo, replacing the need for a high-fat yolk."
+      ],
+      "answer": "Because it is relatively non-toxic and insoluble, it can be safely stored as a solid precipitate within the egg without poisoning the embryo."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following correctly describes the flow of fluid through the human kidney, from initial filtration to the final storage of urine?"
+      },
+      "options": [
+        "Ureter → Renal Pelvis → Nephron → Bladder",
+        "Nephron → Renal Pelvis → Ureter → Urinary Bladder",
+        "Urinary Bladder → Ureter → Renal Pelvis → Nephron",
+        "Renal Pelvis → Ureter → Nephron → Urethra"
+      ],
+      "answer": "Nephron → Renal Pelvis → Ureter → Urinary Bladder"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary difference between the filtration and reabsorption stages of urine production?"
+      },
+      "options": [
+        "Filtration uses active transport to move toxins, while reabsorption uses gravity.",
+        "Filtration is the non-selective movement of water and small solutes into the nephron, while reabsorption is the selective return of valuable substances to the blood.",
+        "Filtration occurs in the bladder, while reabsorption occurs in the renal pelvis.",
+        "Filtration moves blood cells into the urine, while reabsorption moves them back to the heart."
+      ],
+      "answer": "Filtration is the non-selective movement of water and small solutes into the nephron, while reabsorption is the selective return of valuable substances to the blood."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which structure within the nephron is responsible for the initial filtration of blood?"
+      },
+      "options": [
+        "The Loop of Henle",
+        "The Glomerulus (surrounded by Bowman's capsule)",
+        "The Collecting Duct",
+        "The Distal Tubule"
+      ],
+      "answer": "The Glomerulus (surrounded by Bowman's capsule)"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary role of the Loop of Henle in the mammalian kidney?"
+      },
+      "options": [
+        "To produce urea from ammonia.",
+        "To create a concentration gradient in the renal medulla that allows for the reabsorption of water.",
+        "To filter large proteins and red blood cells out of the filtrate.",
+        "To store urine before it enters the renal pelvis."
+      ],
+      "answer": "To create a concentration gradient in the renal medulla that allows for the reabsorption of water."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which part of the nephron is the primary site for the selective reabsorption of nearly all glucose, amino acids, and about 65% of the water and salt?"
+      },
+      "options": [
+        "Proximal Tubule",
+        "Distal Tubule",
+        "Collecting Duct",
+        "Descending limb of the Loop of Henle"
+      ],
+      "answer": "Proximal Tubule"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a major function of the Distal Tubule?"
+      },
+      "options": [
+        "Initiating the filtration of blood from the glomerulus.",
+        "Regulating the K+ and NaCl concentration of body fluids by varying secretion and reabsorption.",
+        "Providing a physical barrier that prevents any solutes from entering the collecting duct.",
+        "Transporting urine from the bladder to the urethra."
+      ],
+      "answer": "Regulating the K+ and NaCl concentration of body fluids by varying secretion and reabsorption."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does the Collecting Duct contribute to the final concentration of urine?"
+      },
+      "options": [
+        "It actively secretes large amounts of glucose into the urine to lower blood sugar.",
+        "It processes the filtrate into urine by reabsorbing water and, occasionally, urea under hormonal control.",
+        "It acts as a pump that forces urine back into the Loop of Henle for secondary filtration.",
+        "It converts uric acid back into ammonia to save energy."
+      ],
+      "answer": "It processes the filtrate into urine by reabsorbing water and, occasionally, urea under hormonal control."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does Antidiuretic Hormone (ADH) function to help the body conserve water during periods of dehydration?"
+      },
+      "options": [
+        "It triggers the heart to pump faster, increasing the pressure of filtration in the glomerulus.",
+        "It increases the permeability of the collecting duct by triggering the insertion of aquaporins (water channels), allowing more water to be reabsorbed into the blood.",
+        "It causes the bladder to expand so that more urine can be stored without needing to be excreted.",
+        "It signals the liver to stop producing urea, which prevents the kidneys from needing to use water for excretion."
+      ],
+      "answer": "It increases the permeability of the collecting duct by triggering the insertion of aquaporins (water channels), allowing more water to be reabsorbed into the blood."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why do substances like alcohol often lead to increased urination and potential dehydration?"
+      },
+      "options": [
+        "They increase the amount of salt in the blood, forcing the kidneys to flush it out with water.",
+        "They inhibit the release of Antidiuretic Hormone (ADH), preventing the collecting ducts from reabsorbing water.",
+        "They act as a direct fuel source for the nephrons, causing them to filter blood at twice the normal speed.",
+        "They physically block the aquaporins in the distal tubule, trapping water inside the filtrate."
+      ],
+      "answer": "They inhibit the release of Antidiuretic Hormone (ADH), preventing the collecting ducts from reabsorbing water."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why is the presence of glucose in the urine often an indicator of Diabetes Mellitus?"
+      },
+      "options": [
+        "The kidneys begin producing glucose as a waste byproduct of a viral infection.",
+        "Blood glucose levels exceed the reabsorption capacity of the proximal tubules, causing the 'overflow' to remain in the filtrate.",
+        "The bladder loses its ability to distinguish between urea and sugar during the excretion phase.",
+        "A lack of ADH causes the collecting duct to actively secrete glucose into the urine to balance blood pressure."
+      ],
+      "answer": "Blood glucose levels exceed the reabsorption capacity of the proximal tubules, causing the 'overflow' to remain in the filtrate."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary physiological significance of finding persistent protein (proteinuria) in a patient's urine?"
+      },
+      "options": [
+        "It indicates that the body is successfully breaking down excess muscle tissue for energy.",
+        "It is a sign that the glomerular filtration barrier is damaged or compromised, allowing large molecules to leak through.",
+        "It shows that the liver is overproducing proteins to help fight an active bacterial infection.",
+        "It indicates that the collecting duct has been converted into a storage site for essential nutrients."
+      ],
+      "answer": "It is a sign that the glomerular filtration barrier is damaged or compromised, allowing large molecules to leak through."
+    }
+  ]
+}

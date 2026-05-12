@@ -1,0 +1,312 @@
+{
+  "title": "Animal Nutrition Quiz",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary structural difference between vitamins and minerals?"
+      },
+      "options": [
+        "Vitamins are inorganic elements from the earth, while minerals are organic compounds made by plants or animals.",
+        "Vitamins are organic compounds produced by living organisms, while minerals are inorganic elements found in soil and water.",
+        "Vitamins provide direct caloric energy, while minerals only act as structural components for bones.",
+        "Vitamins can only be obtained through supplements, while minerals are exclusively found in leafy green vegetables."
+      ],
+      "answer": "Vitamins are organic compounds produced by living organisms, while minerals are inorganic elements found in soil and water."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do carnivores, herbivores, and omnivores differ based on their primary food sources?"
+      },
+      "options": [
+        "Carnivores eat only plants, herbivores eat only meat, and omnivores eat both.",
+        "Carnivores eat only meat, herbivores eat only plants, and omnivores eat both plants and meat.",
+        "Carnivores eat both plants and meat, herbivores eat only meat, and omnivores eat only plants.",
+        "Carnivores eat only plants, herbivores eat both plants and meat, and omnivores eat only meat."
+      ],
+      "answer": "Carnivores eat only meat, herbivores eat only plants, and omnivores eat both plants and meat."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following correctly identifies the chronological stages of food processing?"
+      },
+      "options": [
+        "Ingestion, Absorption, and Secretion",
+        "Mastication, Digestion, and Filtration",
+        "Ingestion, Digestion, and Absorption",
+        "Digestion, Metabolism, and Elimination"
+      ],
+      "answer": "Ingestion, Digestion, and Absorption"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following correctly lists the four main feeding mechanisms observed in animals?"
+      },
+      "options": [
+        "Absorption, Osmosis, Diffusion, and Active Transport",
+        "Filter, Substrate, Fluid, and Bulk feeders",
+        "Herbivore, Carnivore, Omnivore, and Detritivore",
+        "Filter, Substrate, Predatory, and Parasitic feeders"
+      ],
+      "answer": "Filter, Substrate, Fluid, and Bulk feeders"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A caterpillar eating its way through the leaves is an example of a: "
+      },
+      "categories": [
+        "Filter Feeder",
+        "Substrate Feeder",
+        "Fluid Feeder",
+        "Bulk Feeder"
+      ],
+      "answer": "Substrate Feeder"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A blue whale straining small crustaceans from the water is an example of a: "
+      },
+      "categories": [
+        "Filter Feeder",
+        "Substrate Feeder",
+        "Fluid Feeder",
+        "Bulk Feeder"
+      ],
+      "answer": "Filter Feeder"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A python swallowing a large deer whole is an example of a: "
+      },
+      "categories": [
+        "Filter Feeder",
+        "Substrate Feeder",
+        "Fluid Feeder",
+        "Bulk Feeder"
+      ],
+      "answer": "Bulk Feeder"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A hummingbird sipping nectar from a flower is an example of a: "
+      },
+      "categories": [
+        "Filter Feeder",
+        "Substrate Feeder",
+        "Fluid Feeder",
+        "Bulk Feeder"
+      ],
+      "answer": "Fluid Feeder"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following best distinguishes the process of digestion from the process of absorption?"
+      },
+      "options": [
+        "Digestion involves the intake of food into the body, while absorption is the removal of undigested waste.",
+        "Digestion is the mechanical and chemical breakdown of food, while absorption is the uptake of small nutrient molecules into the blood.",
+        "Digestion refers to the transport of nutrients through the bloodstream, while absorption is the physical chewing of food.",
+        "Digestion is the chemical synthesis of new proteins, while absorption is the breakdown of carbohydrates into simple sugars."
+      ],
+      "answer": "Digestion is the mechanical and chemical breakdown of food, while absorption is the uptake of small nutrient molecules into the blood."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do food vacuoles allow for the safe breakdown of nutrients within a cell without damaging the rest of the cytoplasm?"
+      },
+      "options": [
+        "Vacuoles transport food directly to the nucleus where genetic material neutralizes the acidic waste.",
+        "Vacuoles use a process of simple diffusion to move nutrients into the cell wall for external breakdown.",
+        "Vacuoles create a compartmentalized environment that isolates powerful hydrolytic enzymes from other cellular components.",
+        "Vacuoles increase the cell's internal temperature to boil and sterilize the captured food particles."
+      ],
+      "answer": "Vacuoles create a compartmentalized environment that isolates powerful hydrolytic enzymes from other cellular components."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following best describes the structural difference between a gastrovascular cavity and an alimentary canal?"
+      },
+      "options": [
+        "A gastrovascular cavity is used for respiration, while an alimentary canal is used exclusively for nutrient storage.",
+        "A gastrovascular cavity has a single opening for both ingestion and elimination, while an alimentary canal is a complete tube with two separate openings.",
+        "A gastrovascular cavity contains specialized organs like a gizzard, while an alimentary canal relies on simple diffusion across the skin.",
+        "A gastrovascular cavity moves food using cilia, while an alimentary canal lacks any specialized tissue for moving food particles."
+      ],
+      "answer": "A gastrovascular cavity has a single opening for both ingestion and elimination, while an alimentary canal is a complete tube with two separate openings."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary physiological purpose of mechanical digestion during the food processing sequence?"
+      },
+      "options": [
+        "To synthesize complex proteins from amino acids before they enter the stomach.",
+        "To increase the surface area of food particles, making them more accessible to chemical enzymes.",
+        "To neutralize the acidic pH of saliva to prevent damage to the esophagus.",
+        "To break down molecular bonds using hydrolytic enzymes before absorption occurs."
+      ],
+      "answer": "To increase the surface area of food particles, making them more accessible to chemical enzymes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which process involves rhythmic waves of muscular contraction and relaxation that move food through the alimentary canal?"
+      },
+      "options": [
+        "Osmosis and facilitated diffusion",
+        "Voluntary mastication and swallowing",
+        "Peristalsis",
+        "Sphincter constriction and filtration"
+      ],
+      "answer": "Peristalsis"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary difference between a bolus and chyme?"
+      },
+      "options": [
+        "A bolus is found in the large intestine, while chyme is found in the mouth and esophagus.",
+        "A bolus is the ball of food swallowed from the mouth, while chyme is the acidic, fluid mix of food and gastric juice found in the stomach.",
+        "A bolus is food that has been fully absorbed, while chyme is food that is waiting to be ingested.",
+        "A bolus is created by chemical digestion in the liver, while chyme is created by mechanical digestion in the small intestine."
+      ],
+      "answer": "A bolus is the ball of food swallowed from the mouth, while chyme is the acidic, fluid mix of food and gastric juice found in the stomach."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following correctly identifies the primary components found in gastric juice?"
+      },
+      "options": [
+        "Amylase, bile salts, and sodium bicarbonate",
+        "Hydrochloric acid (HCl) and the protease pepsin",
+        "Insulin, glucagon, and pancreatic juices",
+        "Mucus, saliva, and specialized intestinal bacteria"
+      ],
+      "answer": "Hydrochloric acid (HCl) and the protease pepsin"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do the functions of hydrochloric acid (HCl) and pepsin differ within the stomach?"
+      },
+      "options": [
+        "HCl breaks down lipids into fatty acids, while pepsin neutralizes the stomach's pH.",
+        "HCl provides the acidic environment needed to denature proteins and activate enzymes, while pepsin chemically digests proteins into smaller polypeptides.",
+        "HCl acts as a protective mucus layer, while pepsin triggers the release of bile from the gallbladder.",
+        "HCl is responsible for mechanical churning, while pepsin is responsible for the absorption of vitamins."
+      ],
+      "answer": "HCl provides the acidic environment needed to denature proteins and activate enzymes, while pepsin chemically digests proteins into smaller polypeptides."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does the stomach prevent gastric juice from digesting its own lining?"
+      },
+      "options": [
+        "The stomach uses a high-pH alkaline fluid to neutralize hydrochloric acid as soon as it is secreted.",
+        "The stomach lining is coated with a thick layer of mucus and replaced by new cells every few days.",
+        "The stomach remains in a state of constant contraction to prevent the liquid juice from touching the walls.",
+        "The gastric juice is stored in specialized vacuoles that only release acid during active mechanical churning."
+      ],
+      "answer": "The stomach lining is coated with a thick layer of mucus and replaced by new cells every few days."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which region of the small intestine serves as the primary site where chyme mixes with digestive juices from the pancreas, liver, and gallbladder?"
+      },
+      "options": ["The Ileum", "The Jejunum", "The Duodenum", "The Cecum"],
+      "answer": "The Duodenum"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What substance is released into the duodenum to neutralize the acidity of chyme, making it safe for the small intestine?"
+      },
+      "options": [
+        "Bile salts from the liver",
+        "Bicarbonate from the pancreas",
+        "Amylase from the salivary glands",
+        "Hydrochloric acid from the parietal cells"
+      ],
+      "answer": "Bicarbonate from the pancreas"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary role of bile in the digestive process?"
+      },
+      "options": [
+        "To chemically break down proteins into amino acids.",
+        "To emulsify large fat globules into smaller droplets, increasing surface area for enzymes.",
+        "To neutralize stomach acid using bicarbonate ions.",
+        "To stimulate the rhythmic contractions of peristalsis in the large intestine."
+      ],
+      "answer": "To emulsify large fat globules into smaller droplets, increasing surface area for enzymes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do villi and microvilli facilitate the process of nutrient absorption in the small intestine?"
+      },
+      "options": [
+        "By secreting powerful acids to dissolve complex carbohydrate chains.",
+        "By increasing the total surface area available for the transport of nutrients into the blood.",
+        "By acting as mechanical filters that trap harmful bacteria and toxins.",
+        "By pumping oxygen into the intestinal lumen to aid aerobic digestion."
+      ],
+      "answer": "By increasing the total surface area available for the transport of nutrients into the blood."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which blood vessel is responsible for transporting nutrient-rich blood from the villi of the small intestine directly to the liver?"
+      },
+      "options": [
+        "The Hepatic Artery",
+        "The Hepatic Portal Vein",
+        "The Inferior Vena Cava",
+        "The Pulmonary Vein"
+      ],
+      "answer": "The Hepatic Portal Vein"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary importance of the liver in the nutrient absorption process?"
+      },
+      "options": [
+        "It produces the majority of digestive enzymes used to break down complex carbohydrates.",
+        "It regulates nutrient distribution and detoxifies harmful substances before they reach the rest of the body.",
+        "It acts as the primary site for the absorption of water and water-soluble vitamins.",
+        "It mechanically churns the chyme to ensure it is fully mixed with intestinal bacteria."
+      ],
+      "answer": "It regulates nutrient distribution and detoxifies harmful substances before they reach the rest of the body."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following best describes the composition of digestive waste (feces) produced in the large intestine?"
+      },
+      "options": [
+        "A liquid mixture of pure bile and excess stomach acids.",
+        "Unabsorbed organic material, undigested fiber (cellulose), and bacteria.",
+        "A collection of nitrogenous waste filtered from the blood by the kidneys.",
+        "Leftover proteins that were synthesized into new tissues during metabolism."
+      ],
+      "answer": "Unabsorbed organic material, undigested fiber (cellulose), and bacteria."
+    }
+  ]
+}

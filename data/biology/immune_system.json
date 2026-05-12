@@ -1,0 +1,505 @@
+{
+  "title": "Immune System Quiz",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In the context of biology and health, which of the following best defines a 'pathogen'?"
+      },
+      "options": [
+        "A beneficial bacterium that helps the body digest complex carbohydrates.",
+        "An infectious agent, such as a virus, bacterium, or fungus, that causes disease in its host.",
+        "A specialized white blood cell that identifies and destroys cancerous tissue.",
+        "A type of environmental toxin, like lead or mercury, that damages the nervous system."
+      ],
+      "answer": "An infectious agent, such as a virus, bacterium, or fungus, that causes disease in its host."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following is NOT classified as a pathogen?"
+      },
+      "options": [
+        "A fungus that causes athlete's foot",
+        "A vector, such as a mosquito, that carries a disease",
+        "A virus that causes the common cold",
+        "A bacterium that causes strep throat"
+      ],
+      "answer": "A vector, such as a mosquito, that carries a disease"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are the two primary types of immunity that work together to protect the vertebrate body?"
+      },
+      "options": [
+        "Active immunity and Passive immunity",
+        "Innate immunity and Adaptive immunity",
+        "Bacterial immunity and Viral immunity",
+        "Internal immunity and External immunity"
+      ],
+      "answer": "Innate immunity and Adaptive immunity"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A broad, rapid response that includes physical barriers like skin and internal defenses like inflammation."
+      },
+      "categories": ["Innate Immunity", "Adaptive Immunity"],
+      "answer": "Innate Immunity"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A highly specific response involving B cells and T cells that 'remembers' previous infections."
+      },
+      "categories": ["Innate Immunity", "Adaptive Immunity"],
+      "answer": "Adaptive Immunity"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Phagocytic cells, such as macrophages, that consume any foreign particles they encounter."
+      },
+      "categories": ["Innate Immunity", "Adaptive Immunity"],
+      "answer": "Innate Immunity"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "The production of customized antibodies designed to neutralize a specific strain of virus."
+      },
+      "categories": ["Innate Immunity", "Adaptive Immunity"],
+      "answer": "Adaptive Immunity"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary process by which specialized immune cells, such as macrophages and neutrophils, ingest and destroy invading pathogens?"
+      },
+      "options": ["Pinocytosis", "Exocytosis", "Phagocytosis", "Apoptosis"],
+      "answer": "Phagocytosis"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following are considered the body's primary 'barrier defenses' within the innate immune system?"
+      },
+      "options": [
+        "B cells, T cells, and memory cells",
+        "Skin, mucous membranes, and secretions like lysozyme",
+        "Inflammation, fever, and the release of histamine",
+        "Antibodies, antigens, and cytotoxic proteins"
+      ],
+      "answer": "Skin, mucous membranes, and secretions like lysozyme"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary function of Toll-like receptors (TLRs) in the innate immune system?"
+      },
+      "options": [
+        "To produce customized antibodies that target specific viral proteins.",
+        "To recognize general molecular patterns common to groups of pathogens and trigger an immune response.",
+        "To act as a physical barrier that prevents bacteria from entering the bloodstream.",
+        "To transport oxygen to infected tissues to speed up the healing process."
+      ],
+      "answer": "To recognize general molecular patterns common to groups of pathogens and trigger an immune response."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which two types of cells are the primary phagocytic agents that circulate in the body to ingest and destroy pathogens?"
+      },
+      "options": [
+        "B cells and T cells",
+        "Neutrophils and Macrophages",
+        "Erythrocytes and Platelets",
+        "Basophils and Eosinophils"
+      ],
+      "answer": "Neutrophils and Macrophages"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary role of eosinophils within the innate immune system?"
+      },
+      "options": [
+        "To produce large quantities of antibodies during a secondary infection.",
+        "To discharge destructive enzymes that combat large, multicellular parasites like worms.",
+        "To act as the primary structural component of the skin's barrier defense.",
+        "To filter lymph fluid within the specialized nodes of the neck and groin."
+      ],
+      "answer": "To discharge destructive enzymes that combat large, multicellular parasites like worms."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do dendritic cells contribute to the overall immune response?"
+      },
+      "options": [
+        "They remain in the bloodstream to transport oxygen to site of injury.",
+        "They act as 'scouts' that ingest pathogens and then migrate to lymph nodes to activate adaptive immunity.",
+        "They form the physical mucus layer that traps dust and pollen in the trachea.",
+        "They are the primary cells responsible for the production of histamine during an allergic reaction."
+      ],
+      "answer": "They act as 'scouts' that ingest pathogens and then migrate to lymph nodes to activate adaptive immunity."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary function of Natural Killer (NK) cells in the innate immune system?"
+      },
+      "options": [
+        "They ingest bacteria through phagocytosis and digest them in vacuoles.",
+        "They identify and release chemicals to kill infected or cancerous body cells.",
+        "They produce memory cells that provide long-term immunity against viruses.",
+        "They create a physical barrier on the skin to prevent pathogen entry."
+      ],
+      "answer": "They identify and release chemicals to kill infected or cancerous body cells."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What role do mast cells play in the body's response to an injury or infection?"
+      },
+      "options": [
+        "They circulate in the blood to transport carbon dioxide away from the wound.",
+        "They release histamine, which triggers blood vessels to dilate and become more permeable.",
+        "They produce customized antibodies to neutralize specific bacterial toxins.",
+        "They transform into macrophages to eat dead tissue at the site of the injury."
+      ],
+      "answer": "They release histamine, which triggers blood vessels to dilate and become more permeable."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does the inflammatory response facilitate the movement of immune cells to the site of an infection?"
+      },
+      "options": [
+        "By constricting blood vessels to trap pathogens in a localized area until they starve.",
+        "By triggering blood vessel dilation and increased permeability, which amplifies chemical signals and allows immune cells to easily exit the bloodstream.",
+        "By thickening the blood to prevent signaling molecules from reaching the brain and causing pain.",
+        "By reducing blood flow to the area to prevent the amplification of inflammatory markers."
+      ],
+      "answer": "By triggering blood vessel dilation and increased permeability, which amplifies chemical signals and allows immune cells to easily exit the bloodstream."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the composition and primary significance of 'pus' at the site of an inflammatory response?"
+      },
+      "options": [
+        "It is a collection of beneficial vitamins used to rebuild the skin's surface layer.",
+        "It is a fluid rich in white blood cells, dead pathogens, and cell debris, signaling that the immune system is actively fighting an infection.",
+        "It is a specialized mucus used to transport oxygen directly to damaged muscle tissue.",
+        "It is a liquid form of histamine that prevents blood from clotting too quickly at the wound site."
+      ],
+      "answer": "It is a fluid rich in white blood cells, dead pathogens, and cell debris, signaling that the immune system is actively fighting an infection."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What eventually happens to the pus that accumulates at the site of a resolving infection?"
+      },
+      "options": [
+        "It is permanently hardened into a calcium deposit to strengthen the surrounding tissue.",
+        "It is gradually absorbed by the body's lymphatic system and digested by macrophages.",
+        "It is converted into red blood cells to replenish the volume lost during the inflammatory phase.",
+        "It evaporates through the skin's pores as part of the body's cooling mechanism."
+      ],
+      "answer": "It is gradually absorbed by the body's lymphatic system and digested by macrophages."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What role do the lymph nodes play in the 'cleanup' phase of an infection?"
+      },
+      "options": [
+        "They act as the primary site for the production of red blood cells to replace those lost in pus.",
+        "They filter the lymphatic fluid, allowing specialized immune cells to destroy the remaining pathogens and cellular debris.",
+        "They secrete a high-pressure fluid that pushes pus out through the skin's pores.",
+        "They store the pus indefinitely to prevent it from ever reaching the heart."
+      ],
+      "answer": "They filter the lymphatic fluid, allowing specialized immune cells to destroy the remaining pathogens and cellular debris."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary role of interferons in the body's innate defense against viruses?"
+      },
+      "options": [
+        "They act as digestive enzymes that dissolve the outer shell of any bacteria they touch.",
+        "They are proteins secreted by virus-infected cells that signal neighboring uninfected cells to produce substances that inhibit viral replication.",
+        "They are structural proteins that thicken the cell membrane to physically block viruses from entering.",
+        "They are chemical signals that trigger the brain to increase body temperature to kill the virus through heat."
+      ],
+      "answer": "They are proteins secreted by virus-infected cells that signal neighboring uninfected cells to produce substances that inhibit viral replication."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary role of the complement system within the immune response?"
+      },
+      "options": [
+        "To produce oxygen for muscle cells during periods of high inflammation.",
+        "A group of proteins that circulate in an inactive state and can be activated to lyse (burst) pathogens or mark them for destruction.",
+        "To act as the main structural component of the bone marrow where blood cells are born.",
+        "To permanently store viral DNA so the body can use it to build new cell membranes."
+      ],
+      "answer": "A group of proteins that circulate in an inactive state and can be activated to lyse (burst) pathogens or mark them for destruction."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following best describes the fundamental difference in how the innate and adaptive immune systems respond to a pathogen?"
+      },
+      "options": [
+        "Innate immunity provides a rapid, non-specific response to broad groups of pathogens, while adaptive immunity provides a slower, highly specific response that develops 'memory'.",
+        "Innate immunity uses antibodies to target specific viruses, while adaptive immunity uses physical barriers like skin to block all bacteria.",
+        "Innate immunity is only found in invertebrates, while adaptive immunity is the only system found in vertebrates like humans.",
+        "Innate immunity is activated only after the adaptive immune system fails to clear an infection after several weeks."
+      ],
+      "answer": "Innate immunity provides a rapid, non-specific response to broad groups of pathogens, while adaptive immunity provides a slower, highly specific response that develops 'memory'."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do vaccines utilize the adaptive immune system's 'memory' to protect the body against future infections?"
+      },
+      "options": [
+        "By providing a high dose of general antibodies that circulate in the bloodstream for the rest of a person's life.",
+        "By introducing a harmless version of a pathogen to trigger a primary immune response and the creation of long-lasting memory cells.",
+        "By temporarily strengthening the skin's physical barrier to prevent any pathogens from entering the body.",
+        "By increasing the speed of the innate inflammatory response to ensure all pathogens are destroyed within minutes."
+      ],
+      "answer": "By introducing a harmless version of a pathogen to trigger a primary immune response and the creation of long-lasting memory cells."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In the context of the adaptive immune system, what is an 'antigen'?"
+      },
+      "options": [
+        "A specialized protein produced by B cells to neutralize viruses in the blood.",
+        "Any substance or part of a pathogen that is recognized by immune cells and triggers a specific immune response.",
+        "A chemical signal released by damaged tissues to initiate the inflammatory response.",
+        "A protective coating found on the surface of helpful gut bacteria to prevent them from being digested."
+      ],
+      "answer": "Any substance or part of a pathogen that is recognized by immune cells and triggers a specific immune response."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Regarding the specificity of the adaptive immune system, how many different types of antigens can a single individual B or T cell recognize?"
+      },
+      "options": [
+        "Each cell possesses thousands of different receptors, allowing it to recognize any pathogen it encounters.",
+        "Each cell has only one type of antigen-specific receptor, meaning it can only recognize one specific epitope.",
+        "B cells can recognize millions of different antigens, while T cells are limited to only three specific types.",
+        "The number of antigens a cell can recognize changes every hour based on the body's internal temperature."
+      ],
+      "answer": "Each cell has only one type of antigen-specific receptor, meaning it can only recognize one specific epitope."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is an 'epitope' in the context of an immune response?"
+      },
+      "options": [
+        "The entire DNA sequence of a pathogenic bacterium.",
+        "The specific small, accessible portion of an antigen that an antigen receptor actually binds to.",
+        "A specialized enzyme used by macrophages to dissolve the cell wall of a virus.",
+        "The tail-like structure that allows a B cell to move through the lymphatic system."
+      ],
+      "answer": "The specific small, accessible portion of an antigen that an antigen receptor actually binds to."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following best describes the difference in how B cells and T cells recognize antigens?"
+      },
+      "options": [
+        "B cells only recognize antigens that have been dissolved in gastric juice, while T cells recognize intact proteins on the skin.",
+        "B cells bind to intact antigens on the surface of pathogens or in body fluids, while T cells only bind to fragments of antigens presented on the surface of host cells.",
+        "B cells must have antigens presented to them by red blood cells, while T cells can bind to any intact virus they encounter in the plasma.",
+        "B cells recognize only the internal DNA of a pathogen, while T cells bind to the intact outer lipid membrane of a bacterium."
+      ],
+      "answer": "B cells bind to intact antigens on the surface of pathogens or in body fluids, while T cells only bind to fragments of antigens presented on the surface of host cells."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are the specialized host cell proteins that bind to antigen fragments and display them on the cell surface for T cells to recognize?"
+      },
+      "options": [
+        "Immunoglobulins",
+        "MHC (Major Histocompatibility Complex) molecules",
+        "Complement proteins",
+        "Toll-like receptors"
+      ],
+      "answer": "MHC (Major Histocompatibility Complex) molecules"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "During the maturation of lymphocytes in the bone marrow and thymus, what is the typical fate of a B or T cell that displays receptors specific for the body's own molecules?"
+      },
+      "options": [
+        "They are converted into memory cells to prevent future internal inflammation.",
+        "They undergo apoptosis or are otherwise inactivated to ensure self-tolerance.",
+        "They are released into the lymphatic system to serve as the primary defense against cancerous growth.",
+        "They are stored in the spleen and only activated during periods of extreme systemic stress."
+      ],
+      "answer": "They undergo apoptosis or are otherwise inactivated to ensure self-tolerance."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary difference in how B cells and T cells combat pathogens in the adaptive immune system?"
+      },
+      "options": [
+        "B cells directly attack infected body cells, while T cells remain in the bone marrow to produce plasma.",
+        "B cells provide humoral immunity by secreting antibodies into body fluids, while T cells provide cell-mediated immunity by interacting directly with infected or abnormal cells.",
+        "B cells are part of the innate immune system's barrier defense, while T cells are the primary component of the inflammatory response.",
+        "B cells only recognize viral antigens, while T cells are specialized exclusively for detecting fungal infections."
+      ],
+      "answer": "B cells provide humoral immunity by secreting antibodies into body fluids, while T cells provide cell-mediated immunity by interacting directly with infected or abnormal cells."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "When an antigen activates a specific B cell, what two types of cell populations are produced through the process of clonal selection?"
+      },
+      "options": [
+        "Helper T cells and Cytotoxic T cells",
+        "Short-lived plasma cells and long-lived memory cells",
+        "Red blood cells and platelets",
+        "Macrophages and natural killer cells"
+      ],
+      "answer": "Short-lived plasma cells and long-lived memory cells"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Once a T cell is activated by an antigen-MHC complex, it undergoes clonal selection to produce which two functional populations of cells?"
+      },
+      "options": [
+        "Antibody-secreting plasma cells and cytotoxic granules",
+        "Effector T cells (such as helper or cytotoxic) and memory T cells",
+        "Mast cells and histamine-releasing basophils",
+        "Innate phagocytes and adaptive neutrophils"
+      ],
+      "answer": "Effector T cells (such as helper or cytotoxic) and memory T cells"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "Plasma Cells" },
+      "categories": [
+        "Use toxic proteins to kill infected host cells directly",
+        "Trigger both humoral and cell-mediated responses by releasing cytokines",
+        "Secrete thousands of antibodies into the blood",
+        "Provide a rapid, enhanced response upon re-exposure to a pathogen"
+      ],
+      "answer": "Secrete thousands of antibodies into the blood"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "Helper T Cells" },
+      "categories": [
+        "Use toxic proteins to kill infected host cells directly",
+        "Trigger both humoral and cell-mediated responses by releasing cytokines",
+        "Secrete thousands of antibodies into the blood",
+        "Provide a rapid, enhanced response upon re-exposure to a pathogen"
+      ],
+      "answer": "Trigger both humoral and cell-mediated responses by releasing cytokines"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "Cytotoxic T Cells" },
+      "categories": [
+        "Use toxic proteins to kill infected host cells directly",
+        "Trigger both humoral and cell-mediated responses by releasing cytokines",
+        "Secrete thousands of antibodies into the blood",
+        "Provide a rapid, enhanced response upon re-exposure to a pathogen"
+      ],
+      "answer": "Use toxic proteins to kill infected host cells directly"
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "Memory Cells" },
+      "categories": [
+        "Use toxic proteins to kill infected host cells directly",
+        "Trigger both humoral and cell-mediated responses by releasing cytokines",
+        "Secrete thousands of antibodies into the blood",
+        "Provide a rapid, enhanced response upon re-exposure to a pathogen"
+      ],
+      "answer": "Provide a rapid, enhanced response upon re-exposure to a pathogen"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following describes a primary mechanism by which antibodies physically neutralize a virus?"
+      },
+      "options": [
+        "They use digestive enzymes to eat the viral protein coat.",
+        "They bind to surface proteins of the virus, preventing it from entering a host cell.",
+        "They transport the virus to the stomach to be destroyed by hydrochloric acid.",
+        "They penetrate the viral membrane and scramble its genetic code."
+      ],
+      "answer": "They bind to surface proteins of the virus, preventing it from entering a host cell."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary difference in the timing and magnitude between a primary and secondary immune response?"
+      },
+      "options": [
+        "The primary response is faster and stronger because it relies on the innate immune system.",
+        "The primary response and secondary response are identical in speed and strength.",
+        "The secondary response is faster and of greater magnitude because it relies on a reservoir of memory cells.",
+        "The secondary response is slower because the body must create new T cells from scratch."
+      ],
+      "answer": "The secondary response is faster and of greater magnitude because it relies on a reservoir of memory cells."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the fundamental difference between active immunity and passive immunity?"
+      },
+      "options": [
+        "Active immunity is immediate and temporary, while passive immunity takes weeks to develop but lasts a lifetime.",
+        "Active immunity involves the body's own production of antibodies and memory cells, while passive immunity involves receiving pre-made antibodies from another source.",
+        "Active immunity only protects against bacteria, while passive immunity is used exclusively for viral infections.",
+        "Active immunity occurs only through vaccination, while passive immunity only occurs through natural infection."
+      ],
+      "answer": "Active immunity involves the body's own production of antibodies and memory cells, while passive immunity involves receiving pre-made antibodies from another source."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which characteristic of antibodies explains why an individual can have immunity to one strain of the flu but still be susceptible to a different strain?"
+      },
+      "options": [
+        "Antibodies are universal proteins that can bind to any foreign molecular shape.",
+        "Antibodies have highly specific variable regions that must provide a complementary fit to a unique epitope.",
+        "Antibodies only recognize the internal genetic material of a virus, which is the same in every strain.",
+        "Antibodies are large enough to physically wrap around several different types of viruses simultaneously."
+      ],
+      "answer": "Antibodies have highly specific variable regions that must provide a complementary fit to a unique epitope."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In the adaptive immune system, how do the humoral and cell-mediated responses differ in their targets?"
+      },
+      "options": [
+        "The humoral response targets pathogens in blood and lymph using antibodies, while the cell-mediated response targets infected host cells using T cells.",
+        "The humoral response uses phagocytes to eat bacteria, while the cell-mediated response uses skin barriers to block entry.",
+        "The humoral response targets cells that have already died, while the cell-mediated response prevents viruses from ever touching the body.",
+        "The humoral response is only active during the primary infection, while the cell-mediated response only functions during a secondary infection."
+      ],
+      "answer": "The humoral response targets pathogens in blood and lymph using antibodies, while the cell-mediated response targets infected host cells using T cells."
+    }
+  ]
+}
