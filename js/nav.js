@@ -46,8 +46,12 @@ const Nav = {
   updateQuizCrumb(title) {
     const crumb = document.getElementById("crumb-quiz");
     if (crumb) {
-      crumb.textContent = title.replace(/ Quiz$/, "");
+      crumb.textContent = / Quiz$/.test(title) ? title : `${title} Quiz`;
     }
+  },
+
+  formatSubjectLabel(subject) {
+    return subject.charAt(0).toUpperCase() + subject.slice(1);
   },
 
   renderHeader() {
@@ -85,16 +89,23 @@ const Nav = {
     const crumbs = [{ label: "Home", href: "index.html" }];
 
     if (page === "subject" && subject) {
-      const title =
-        subject.charAt(0).toUpperCase() + subject.slice(1);
-      crumbs.push({ label: title, href: null });
+      crumbs.push({ label: this.formatSubjectLabel(subject), href: null });
     }
 
     if (page === "quiz" && subject) {
-      const title =
-        subject.charAt(0).toUpperCase() + subject.slice(1);
+      const title = this.formatSubjectLabel(subject);
       crumbs.push({ label: title, href: `${subject}.html` });
-      crumbs.push({ label: "Quiz", id: "crumb-quiz", href: null });
+      crumbs.push({ label: `${title} Quiz`, id: "crumb-quiz", href: null });
+    }
+
+    if (page === "lewis" && subject) {
+      const title = this.formatSubjectLabel(subject);
+      crumbs.push({ label: title, href: `${subject}.html` });
+      crumbs.push({
+        label: "Lewis Dot Structures",
+        id: "crumb-lewis",
+        href: null,
+      });
     }
 
     container.replaceChildren();

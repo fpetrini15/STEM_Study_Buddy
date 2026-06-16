@@ -63,7 +63,43 @@ const CatalogUtils = {
     }
   },
 
+  async loadPracticeStats(subjectKey, dataFile) {
+    try {
+      const res = await fetch(`data/${subjectKey}/${dataFile}.json`);
+      if (!res.ok) return null;
+
+      const data = await res.json();
+      const itemCount = data.molecules?.length ?? 0;
+
+      return {
+        itemCount,
+        title: data.title,
+      };
+    } catch {
+      return null;
+    }
+  },
+
+  formatPracticeMeta(quiz) {
+    if (quiz.itemCount > 0) {
+      return `${quiz.itemCount} structures · Interactive practice`;
+    }
+    return "Interactive practice";
+  },
+
   async enrichQuiz(subjectKey, quiz) {
+    if (quiz.href) {
+      const dataFile = quiz.dataFile || quiz.id;
+      const stats = await this.loadPracticeStats(subjectKey, dataFile);
+
+      return {
+        ...quiz,
+        available: stats !== null,
+        itemCount: stats?.itemCount ?? 0,
+        quizTitle: stats?.title ?? quiz.title,
+      };
+    }
+
     const stats = await this.loadQuizStats(subjectKey, quiz.id);
 
     return {
@@ -80,17 +116,19 @@ const CatalogUtils = {
     card.className = "subject-card quiz-card";
     card.dataset.search = searchText || `${quiz.title} ${quiz.description}`.toLowerCase();
 
+    const meta = quiz.href ? this.formatPracticeMeta(quiz) : this.formatMeta(quiz);
+
     card.innerHTML = `
       <div class="subject-icon">${quiz.icon}</div>
       <h3>${quiz.title}</h3>
       <p>${quiz.description}</p>
-      <p class="quiz-meta">${this.formatMeta(quiz)}</p>
+      <p class="quiz-meta">${meta}</p>
     `;
 
     if (quiz.available) {
       const link = document.createElement("a");
       link.className = "btn btn-full card-link";
-      link.href = `quiz.html?quiz=${subjectKey}/${quiz.id}`;
+      link.href = quiz.href || `quiz.html?quiz=${subjectKey}/${quiz.id}`;
       link.textContent = "Start Quiz";
       card.appendChild(link);
     } else {

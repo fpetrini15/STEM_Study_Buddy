@@ -99,19 +99,19 @@
             "id": "hormones_and_the_endocrine_system",
             "title": "Hormones and the Endocrine System",
             "icon": "\ud83d\udce1",
-            "description": "Endocrine glands, hormone signaling, and feedback loops."
+            "description": "Test your knowledge of hormone and endocrine signaling pathways."
           },
           {
             "id": "neurons_synapses_and_signaling",
             "title": "Neurons, Synapses, and Signaling",
-            "icon": "\u26a1",
-            "description": "Action potentials, synaptic transmission, and neural signaling."
+            "icon": "𖣂⚡",
+            "description": "Test your knowledge of neural communication and signaling pathways."
           },
           {
             "id": "nervous_system",
             "title": "Nervous System",
             "icon": "\ud83e\udde0",
-            "description": "CNS/PNS organization, brain regions, and autonomic control."
+            "description": "Test your knowledge of the brain and the surrounding nervous system."
           }
         ]
       }
@@ -137,7 +137,16 @@
         "description": "Classify common acids and bases by strength."
       },
       {
-        "id": "polyatomic_ions",
+        "id": "lewis",
+        "title": "Lewis Dot Structures",
+        "icon": "💠",
+        "description": "Build Lewis diagrams by placing bond lines and lone-pair electrons.",
+        "href": "lewis.html",
+        "dataFile": "lewis_structures"
+      }
+    ],
+    "comingSoon": [
+      {
         "title": "Polyatomic Ions",
         "icon": "\u269b\ufe0f",
         "description": "Formulas and charges of common polyatomic ions."

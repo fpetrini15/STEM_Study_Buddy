@@ -1,0 +1,77 @@
+{
+  "title": "Lewis Dot Structures",
+  "molecules": [
+    {
+      "id": "co2",
+      "name": "Carbon dioxide",
+      "formula": "CO₂",
+      "layout": "linear",
+      "atoms": [
+        { "id": "o1", "symbol": "O" },
+        { "id": "c", "symbol": "C" },
+        { "id": "o2", "symbol": "O" }
+      ],
+      "answer": {
+        "bonds": { "0-1": 2, "1-2": 2 },
+        "loneDots": {
+          "o1": 4,
+          "o2": 4
+        }
+      },
+      "explanation": "Carbon forms double bonds to each oxygen. Each oxygen has two lone pairs (four electrons total). You can place those pairs on any open sides of the oxygen — they do not have to be above and below."
+    },
+    {
+      "id": "so2",
+      "name": "Sulfur dioxide",
+      "formula": "SO₂",
+      "layout": "linear",
+      "atoms": [
+        { "id": "o1", "symbol": "O" },
+        { "id": "s", "symbol": "S" },
+        { "id": "o2", "symbol": "O" }
+      ],
+      "answer": {
+        "variants": [
+          {
+            "bonds": { "0-1": 2, "1-2": 2 },
+            "loneDots": { "o1": 4, "s": 2, "o2": 4 }
+          },
+          {
+            "bonds": { "0-1": 2, "1-2": 1 },
+            "loneDots": { "o1": 4, "s": 2, "o2": 6 }
+          },
+          {
+            "bonds": { "0-1": 1, "1-2": 2 },
+            "loneDots": { "o1": 6, "s": 2, "o2": 4 }
+          }
+        ]
+      },
+      "explanation": "SO₂ has resonance. Valid structures include two S=O double bonds (each O with two lone pairs, S with one lone pair), or one double bond and one single bond — the singly bonded oxygen then has three lone pairs (six electrons), while the doubly bonded oxygen has two lone pairs (four electrons). Sulfur keeps one lone pair in each case."
+    },
+    {
+      "id": "no2_minus",
+      "name": "Nitrite ion",
+      "formula": "NO₂⁻",
+      "charge": -1,
+      "layout": "linear",
+      "atoms": [
+        { "id": "o1", "symbol": "O" },
+        { "id": "n", "symbol": "N" },
+        { "id": "o2", "symbol": "O" }
+      ],
+      "answer": {
+        "variants": [
+          {
+            "bonds": { "0-1": 2, "1-2": 1 },
+            "loneDots": { "o1": 4, "n": 2, "o2": 6 }
+          },
+          {
+            "bonds": { "0-1": 1, "1-2": 2 },
+            "loneDots": { "o1": 6, "n": 2, "o2": 4 }
+          }
+        ]
+      },
+      "explanation": "The nitrite ion has two equivalent resonance structures. In each, nitrogen has one lone pair (two electrons). One N–O bond is a double bond and the other is a single bond — the singly bonded oxygen has three lone pairs (six electrons), and the doubly bonded oxygen has two lone pairs (four electrons). The −1 charge is delocalized over the ion."
+    }
+  ]
+}
