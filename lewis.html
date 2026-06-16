@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-T3NE3G0PNN"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-T3NE3G0PNN");
+    </script>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Practice Lewis dot structures — build diagrams by placing bond lines and lone-pair electrons, with instant feedback."
+    />
+
+    <title>Lewis Dot Structures | STEM Study Buddy</title>
+    <link rel="icon" href="images/favicons/chemistry.svg" />
+    <script src="js/theme.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body
+    class="subject-chemistry"
+    data-page="lewis"
+    data-subject="chemistry"
+  >
+    <div class="container">
+      <div id="loading-screen">
+        <div class="science-loader">
+          <div class="loader-ring"></div>
+
+          <div class="science-emoji">⚗️</div>
+        </div>
+
+        <p class="loading-text">Loading structures...</p>
+      </div>
+
+      <div id="lewis-error" class="load-error hidden">
+        <h2>Couldn't load tool</h2>
+        <p id="lewis-error-message"></p>
+        <a href="chemistry.html" class="btn btn-small nav-link">Back to Chemistry</a>
+      </div>
+
+      <div id="lewis-content" class="hidden">
+        <h1 id="lewis-title">Lewis Dot Structures</h1>
+
+        <p id="question-progress" class="question-progress"></p>
+
+        <div class="progress-container">
+          <div id="progress-bar"></div>
+        </div>
+
+        <div class="instruction-container">
+          <div id="instruction-text">
+            Select Bond or Electron, then click slots to place multiple items.
+            Use Erase to remove one at a time.
+          </div>
+        </div>
+
+        <div id="lewis-question-area" class="lewis-question-area">
+          <div class="lewis-workspace">
+            <div class="lewis-board-wrap">
+              <p id="lewis-formula" class="lewis-formula stem-text"></p>
+              <div id="lewis-ion-display" class="lewis-ion-display">
+                <span class="lewis-ion-bracket" aria-hidden="true">[</span>
+                <div class="lewis-ion-body">
+                  <div
+                    id="lewis-board"
+                    class="lewis-board"
+                    aria-label="Lewis diagram"
+                  ></div>
+                </div>
+                <span class="lewis-ion-bracket" aria-hidden="true">]</span>
+                <sup id="lewis-ion-charge" class="lewis-ion-charge"></sup>
+              </div>
+            </div>
+
+            <aside class="lewis-palette" aria-label="Drawing tools">
+              <p class="lewis-palette-title">Drag onto the diagram</p>
+              <div
+                class="lewis-token lewis-token--bond"
+                draggable="true"
+                data-token="bond"
+                role="button"
+                tabindex="0"
+                aria-label="Bond line"
+              >
+                <span class="lewis-token-glyph">−</span>
+                <span class="lewis-token-label">Bond</span>
+              </div>
+              <div
+                class="lewis-token lewis-token--dot"
+                draggable="true"
+                data-token="dot"
+                role="button"
+                tabindex="0"
+                aria-label="Lone electron"
+              >
+                <span class="lewis-token-glyph">·</span>
+                <span class="lewis-token-label">Electron</span>
+              </div>
+              <div
+                class="lewis-token lewis-token--erase"
+                data-token="erase"
+                role="button"
+                tabindex="0"
+                aria-label="Erase from slot"
+              >
+                <span class="lewis-token-glyph">⌫</span>
+                <span class="lewis-token-label">Erase</span>
+              </div>
+              <p class="lewis-palette-hint">
+                Select a tool, then click slots to place. Click the tool again
+                to deselect. Use Erase to remove one item at a time.
+              </p>
+            </aside>
+          </div>
+
+          <div class="lewis-actions">
+            <button id="lewis-reset-btn" class="btn btn-small" type="button">
+              Reset diagram
+            </button>
+            <button id="lewis-check-btn" class="btn btn-small" type="button">
+              Check
+            </button>
+          </div>
+        </div>
+
+        <div id="lewis-feedback" class="lewis-feedback" aria-live="polite"></div>
+
+        <div class="score">
+          Score:
+          <span id="score">0</span>
+          /
+          <span id="total">0</span>
+        </div>
+
+        <div class="lewis-session-actions">
+          <button id="continue-btn" class="btn btn-small" style="display: none">
+            Continue
+          </button>
+
+          <button id="skip-btn" class="btn btn-small">Skip</button>
+        </div>
+
+        <div id="final-screen" style="display: none">
+          <h2 id="final-heading" tabindex="-1">Practice Complete!</h2>
+
+          <p id="final-tier" class="final-tier"></p>
+
+          <p id="final-score" class="final-score-display"></p>
+
+          <p id="final-detail" class="final-detail"></p>
+
+          <div class="final-actions">
+            <button id="retry-btn" class="btn btn-small">Try Again</button>
+          </div>
+        </div>
+
+        <footer>
+          <p>STEM Study Buddy © 2026</p>
+        </footer>
+      </div>
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/stem-text.js"></script>
+    <script src="js/lewis.js"></script>
+  </body>
+</html>
