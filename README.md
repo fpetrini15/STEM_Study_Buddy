@@ -1,35 +1,70 @@
 # STEM Study Buddy
 
-Interactive web quizzes for biology, chemistry, and more. Live site: [stemstudybuddy.com](https://stemstudybuddy.com/)
+Interactive study tools and quizzes for biology, chemistry, and more. Live site: [stemstudybuddy.com](https://stemstudybuddy.com/)
 
 ## Project structure
 
 ```
-index.html          Home page (subjects)
-biology.html        Biology quiz catalog
-chemistry.html      Chemistry quiz catalog
-quiz.html           Quiz player
+index.html              Home page (subject cards)
+biology.html            Biology quiz catalog
+chemistry.html          Chemistry quiz catalog
+quiz.html               Standard quiz player (MC + drag & drop)
+lewis.html              Lewis dot structure practice
 data/
-  catalog.json      Subject layout, quiz metadata, and grouping
-  biology/*.json    Biology quiz content
-  chemistry/*.json  Chemistry quiz content
+  catalog.json          Subject layout, quiz metadata, and coming-soon entries
+  biology/*.json        Biology quiz content
+  chemistry/*.json      Chemistry quiz content and interactive tools
+images/
+  backgrounds/          Subject page background patterns (light/dark)
+  favicons/             Subject icons
+  biology/              Quiz images
 js/
-  catalog-utils.js  Shared catalog and card rendering
-  subject.js        Subject page logic
-  quiz.js           Quiz engine
-  nav.js            Header, breadcrumbs, recent quizzes
-  theme.js          Dark mode
-  stem-text.js      Formula/subscript rendering
-css/styles.css      Global styles
+  catalog-utils.js      Shared catalog loading and card rendering
+  subject.js            Subject page logic
+  quiz.js               Quiz engine
+  lewis.js              Lewis diagram builder and validation
+  nav.js                Header, breadcrumbs, recent quizzes
+  theme.js              Dark mode
+  stem-text.js          Formula/subscript rendering
+css/styles.css          Global styles (subject themes, dark mode)
 ```
+
+## Catalog (`data/catalog.json`)
+
+Each subject defines its own layout:
+
+- **Biology** uses grouped `units` (each with a name and quiz list), plus an optional `comingSoon` section.
+- **Chemistry** uses a flat `quizzes` list and a `comingSoon` section.
+
+Catalog entries need `id`, `title`, `icon`, and `description`. Question count, types, and availability are detected automatically from the JSON file when present.
+
+If the JSON file exists, the entry appears as available with a **Start Quiz** button. If not, it shows as **Coming soon**.
+
+### Interactive practice entries
+
+Tools that are not standard quizzes (e.g. Lewis dot structures) can link to a dedicated page:
+
+```json
+{
+  "id": "lewis",
+  "title": "Lewis Dot Structures",
+  "icon": "💠",
+  "description": "Build Lewis diagrams by placing bond lines and lone-pair electrons.",
+  "href": "lewis.html",
+  "dataFile": "lewis_structures"
+}
+```
+
+- `href` — page to open instead of `quiz.html`
+- `dataFile` — JSON filename (without `.json`) used to load structure count and title
 
 ## Adding a new quiz
 
 1. **Create the quiz JSON** at `data/{subject}/{quiz_id}.json`
-2. **Register it** in `data/catalog.json` under the subject (include `id`, `title`, `icon`, `description`, and unit if biology)
-3. Question count, types, and availability are detected automatically from the JSON file
+2. **Register it** in `data/catalog.json` under the subject (include unit grouping for biology)
+3. Reload the subject page — metadata fills in automatically
 
-If the JSON file exists, the quiz appears as available. If not, the catalog entry shows as "Coming soon."
+To show a placeholder before content is ready, add a catalog entry without creating the JSON file, or move it to `comingSoon`.
 
 ## Quiz JSON format
 
@@ -71,6 +106,44 @@ If the JSON file exists, the quiz appears as available. If not, the catalog entr
 
 - `categories` — shared drop zones for all drag questions in a quiz (alternative to per-question `categories`)
 
+## Lewis dot structures
+
+Data lives at `data/chemistry/lewis_structures.json`. Each molecule defines atoms, bonds, lone-pair counts, and optional resonance variants.
+
+```json
+{
+  "title": "Lewis Dot Structures",
+  "molecules": [
+    {
+      "id": "co2",
+      "name": "Carbon dioxide",
+      "formula": "CO₂",
+      "layout": "linear",
+      "atoms": [
+        { "id": "o1", "symbol": "O" },
+        { "id": "c", "symbol": "C" },
+        { "id": "o2", "symbol": "O" }
+      ],
+      "answer": {
+        "bonds": { "0-1": 2, "1-2": 2 },
+        "loneDots": { "o1": 4, "o2": 4 }
+      },
+      "explanation": "Optional feedback after checking."
+    }
+  ]
+}
+```
+
+| Field | Description |
+|-------|-------------|
+| `layout` | `"linear"` — atoms in a row |
+| `answer.bonds` | Bond order between atom indices (`"0-1": 2` = double bond) |
+| `answer.loneDots` | Total lone electrons per atom ID |
+| `answer.variants` | Array of alternate valid answers (resonance structures) |
+| `charge` | Ion charge (e.g. `-1`); displays brackets and superscript |
+
+Lone-pair placement is validated by total electron count per atom, not fixed slot positions. Wrong answers and skips show an example diagram.
+
 ## Quiz modes
 
 Quizzes support three modes (chosen on the quiz page):
@@ -83,13 +156,7 @@ URL parameter: `quiz.html?quiz=biology/mitosis&mode=exam`
 
 ## Local development
 
-This is a static site — no build step required. Serve the folder with any static file server:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000`
+This is a static site — no build step required. Serve the project root with any static file server and open it in a browser.
 
 ## Analytics
 
