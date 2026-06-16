@@ -1,5 +1,5 @@
 {
-  "title": "Gene Expression Quiz",
+  "title": "Gene to Protein Quiz",
   "questions": [
     {
       "type": "multiple_choice",
@@ -12,7 +12,8 @@
         "Phenotypes are determined solely by the environment, which then modifies the proteins to create the genotype.",
         "Proteins are converted directly into mRNA to provide the genetic instructions for the cell's physical characteristics."
       ],
-      "answer": "The DNA sequence (genotype) specifies the sequence of amino acids in a protein, and the resulting protein's function determines the physical trait (phenotype)."
+      "answer": "The DNA sequence (genotype) specifies the sequence of amino acids in a protein, and the resulting protein's function determines the physical trait (phenotype).",
+      "explanation": "Genotype is encoded in DNA, but phenotype emerges from protein structure and function\u2014enzymes, structural proteins, and regulators that produce observable traits. Proteins translate genetic information into cellular and organismal characteristics."
     },
     {
       "type": "multiple_choice",
@@ -25,23 +26,32 @@
         "Transcription involves the duplication of the entire genome, while translation involves the selective copying of specific gene sequences.",
         "Transcription uses ribosomes to read DNA sequences, while translation uses RNA polymerase to assemble amino acids."
       ],
-      "answer": "Transcription is the synthesis of RNA using a DNA template, while translation is the synthesis of a polypeptide using the information in mRNA."
+      "answer": "Transcription is the synthesis of RNA using a DNA template, while translation is the synthesis of a polypeptide using the information in mRNA.",
+      "explanation": "Transcription copies DNA into RNA in the nucleus (in eukaryotes); translation reads mRNA codons to assemble a polypeptide on ribosomes in the cytoplasm. They are sequential steps in the central dogma, not interchangeable processes."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: Transcription and translation can occur simultaneously in prokaryotes."
       },
-      "options": ["True", "False"],
-      "answer": "True"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "In prokaryotes, lack of a nuclear envelope allows ribosomes to translate mRNA while it is still being transcribed. Coupled transcription\u2013translation speeds protein production in bacteria."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: Transcription and translation can occur simultaneously in eukaryotes."
       },
-      "options": ["True", "False"],
-      "answer": "False"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Eukaryotic mRNA is processed in the nucleus and must be exported before translation in the cytoplasm, so the two processes are separated in space and usually in time."
     },
     {
       "type": "multiple_choice",
@@ -54,7 +64,8 @@
         "Transfer RNA (tRNA)",
         "Exon"
       ],
-      "answer": "Primary transcript"
+      "answer": "Primary transcript",
+      "explanation": "The primary transcript is the initial RNA copied from DNA before 5' capping, polyadenylation, and splicing. Mature mRNA is processed; tRNA and exons are different entities."
     },
     {
       "type": "multiple_choice",
@@ -67,7 +78,8 @@
         "3 nucleotides",
         "4 nucleotides"
       ],
-      "answer": "3 nucleotides"
+      "answer": "3 nucleotides",
+      "explanation": "The genetic code is read in triplets: each codon of three nucleotides specifies one amino acid (or a stop signal). One or two nucleotides alone cannot encode the full 20-amino-acid alphabet unambiguously."
     },
     {
       "type": "multiple_choice",
@@ -80,15 +92,22 @@
         "Lagging strand",
         "Nontemplate strand"
       ],
-      "answer": "Template strand"
+      "answer": "Template strand",
+      "explanation": "RNA polymerase reads the template (antisense) strand to synthesize RNA complementary to it. The coding strand matches the RNA sequence (with U instead of T) but is not the polymerase template."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "What is the term for a sequence of three consecutive nucleotides on a messenger RNA (mRNA) molecule that specifies a particular amino acid during translation?"
       },
-      "options": ["Anticodon", "Codon", "Promoter", "Intron"],
-      "answer": "Codon"
+      "options": [
+        "Anticodon",
+        "Codon",
+        "Promoter",
+        "Intron"
+      ],
+      "answer": "Codon",
+      "explanation": "A codon is a three-nucleotide sequence on mRNA that specifies an amino acid during translation. Anticodons are on tRNA; promoters and introns serve other roles in gene expression."
     },
     {
       "type": "multiple_choice",
@@ -101,7 +120,8 @@
         "It is the sequence that is translated into the first few amino acids of a protein.",
         "It removes introns from the primary transcript before it leaves the nucleus."
       ],
-      "answer": "It serves as the binding site for RNA polymerase and determines where transcription begins."
+      "answer": "It serves as the binding site for RNA polymerase and determines where transcription begins.",
+      "explanation": "Promoters are DNA sequences where transcription factors and RNA polymerase bind to initiate transcription at a defined start site. Terminators signal stop; they do not serve as the polymerase entry point."
     },
     {
       "type": "multiple_choice",
@@ -114,7 +134,8 @@
         "They catalyze the addition of a 5' cap and a poly-A tail to the primary transcript.",
         "They transport the completed messenger RNA molecule from the nucleus to the cytoplasm."
       ],
-      "answer": "They assist the binding of RNA polymerase to the promoter and help initiate transcription."
+      "answer": "They assist the binding of RNA polymerase to the promoter and help initiate transcription.",
+      "explanation": "Transcription factors help RNA polymerase recognize and bind the promoter, assembling the initiation complex. They do not splice RNA, add caps, or transport mRNA to the cytoplasm."
     },
     {
       "type": "multiple_choice",
@@ -127,15 +148,20 @@
         "Ribosomes and transfer RNA",
         "Spliceosomes and small nuclear RNA"
       ],
-      "answer": "RNA polymerase and transcription factors"
+      "answer": "RNA polymerase and transcription factors",
+      "explanation": "Transcription initiation in eukaryotes requires RNA polymerase plus general and gene-specific transcription factors at the promoter. DNA polymerase, ribosomes, and spliceosomes participate in other processes."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: A single gene can be transcribed simultaneously by several molecules of RNA polymerase."
       },
-      "options": ["True", "False"],
-      "answer": "True"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Multiple RNA polymerases can transcribe the same gene simultaneously, producing several mRNA copies in parallel. This increases the rate of mRNA output from highly expressed genes."
     },
     {
       "type": "multiple_choice",
@@ -148,7 +174,8 @@
         "Pre-mRNA is synthesized by ribosomes, while mature mRNA is synthesized by RNA polymerase.",
         "Pre-mRNA consists of a single nucleotide, while mature mRNA consists of a triplet codon."
       ],
-      "answer": "Pre-mRNA contains both introns and exons, while mature mRNA has had the introns removed through splicing."
+      "answer": "Pre-mRNA contains both introns and exons, while mature mRNA has had the introns removed through splicing.",
+      "explanation": "Pre-mRNA includes both exons and introns; splicing removes introns to produce mature mRNA containing only exons ready for translation. The mature transcript is exported to the cytoplasm, not confined to the nucleus."
     },
     {
       "type": "multiple_choice",
@@ -161,7 +188,8 @@
         "Introns at the 5' end and exons at the 3' end.",
         "A transcription factor at the 5' end and an anticodon at the 3' end."
       ],
-      "answer": "A 5' cap (modified guanine) and a 3' poly-A tail (chain of adenines)."
+      "answer": "A 5' cap (modified guanine) and a 3' poly-A tail (chain of adenines).",
+      "explanation": "The 5' cap (modified guanine) protects mRNA from degradation and aids ribosome recognition; the 3' poly-A tail adds stability and assists export and translation. Introns and promoters are not mRNA end modifications."
     },
     {
       "type": "multiple_choice",
@@ -174,7 +202,8 @@
         "Introns are found only in the DNA template, while exons are found only in the resulting RNA transcript.",
         "Introns determine where transcription starts, while exons determine where transcription ends."
       ],
-      "answer": "Introns are non-coding regions that are removed from the pre-mRNA, while exons are the sequences joined together to be translated into protein."
+      "answer": "Introns are non-coding regions that are removed from the pre-mRNA, while exons are the sequences joined together to be translated into protein.",
+      "explanation": "Introns are noncoding sequences spliced out of pre-mRNA; exons are joined to form the coding sequence translated into protein. This arrangement allows one gene to yield multiple mRNAs through alternative splicing."
     },
     {
       "type": "multiple_choice",
@@ -187,7 +216,8 @@
         "It acts as a template for RNA polymerase to begin transcription.",
         "It transports mature mRNA across the nuclear membrane to the ribosome."
       ],
-      "answer": "It catalyzes the removal of introns and joins the remaining exons together."
+      "answer": "It catalyzes the removal of introns and joins the remaining exons together.",
+      "explanation": "The spliceosome is an RNA\u2013protein complex that removes introns and ligates exons during pre-mRNA processing. Poly-A tail addition and nuclear export are separate steps handled by other machinery."
     },
     {
       "type": "multiple_choice",
@@ -200,7 +230,8 @@
         "It provides a mechanism for DNA to be replicated more quickly during the S phase of the cell cycle.",
         "It prevents mutations by correcting errors made by RNA polymerase during transcription."
       ],
-      "answer": "It allows a single gene to produce multiple different polypeptides by including different combinations of exons."
+      "answer": "It allows a single gene to produce multiple different polypeptides by including different combinations of exons.",
+      "explanation": "Alternative splicing joins different exon combinations from one primary transcript, enabling a single gene to encode multiple related proteins. It expands proteomic diversity without requiring additional genes."
     },
     {
       "type": "multiple_choice",
@@ -213,7 +244,8 @@
         "It is a three-nucleotide sequence on a tRNA molecule that is complementary to a specific mRNA codon.",
         "It is a region on the ribosome where the polypeptide chain is synthesized."
       ],
-      "answer": "It is a three-nucleotide sequence on a tRNA molecule that is complementary to a specific mRNA codon."
+      "answer": "It is a three-nucleotide sequence on a tRNA molecule that is complementary to a specific mRNA codon.",
+      "explanation": "Each tRNA carries an anticodon\u2014a triplet complementary to an mRNA codon\u2014at one end and a specific amino acid at the other. Codons are on mRNA; anticodons base-pair with them during translation."
     },
     {
       "type": "multiple_choice",
@@ -226,7 +258,8 @@
         "It catalyzes the formation of the peptide bond between adjacent amino acids in the polypeptide chain.",
         "It adds a 5' cap and poly-A tail to the mRNA molecule before it leaves the nucleus."
       ],
-      "answer": "It acts as an adapter by carrying a specific amino acid and matching its anticodon to a complementary mRNA codon."
+      "answer": "It acts as an adapter by carrying a specific amino acid and matching its anticodon to a complementary mRNA codon.",
+      "explanation": "tRNA adapts the nucleotide language of mRNA to the amino acid language of proteins by matching anticodons to codons while delivering the correct amino acid. Ribosomes catalyze peptide bonds; tRNA does not."
     },
     {
       "type": "multiple_choice",
@@ -239,7 +272,8 @@
         "It unwinds the DNA double helix to allow tRNA to bind to the template strand.",
         "It removes introns from the tRNA molecule before it enters the cytoplasm."
       ],
-      "answer": "It accurately matches a specific amino acid to its corresponding tRNA molecule."
+      "answer": "It accurately matches a specific amino acid to its corresponding tRNA molecule.",
+      "explanation": "Aminoacyl-tRNA synthetases charge each tRNA with the correct amino acid by recognizing both the tRNA and its cognate amino acid. Accurate charging is essential for faithful translation."
     },
     {
       "type": "multiple_choice",
@@ -252,7 +286,8 @@
         "The tendency of RNA polymerase to make errors during the transcription of repetitive DNA sequences.",
         "The process where a tRNA molecule briefly loses its amino acid before entering the P site."
       ],
-      "answer": "The flexible base-pairing rules at the third position of a codon, allowing one tRNA to recognize multiple mRNA codons."
+      "answer": "The flexible base-pairing rules at the third position of a codon, allowing one tRNA to recognize multiple mRNA codons.",
+      "explanation": "Wobble refers to relaxed base pairing at the third codon position, allowing one tRNA anticodon to recognize several synonymous codons. This reduces the number of tRNA species a cell needs."
     },
     {
       "type": "multiple_choice",
@@ -265,7 +300,8 @@
         "It is the site where the empty tRNA molecule is released from the ribosome.",
         "It is the site where the 5' cap of the mRNA molecule is initially recognized."
       ],
-      "answer": "It is the entry point where the next incoming tRNA carrying an amino acid binds to the mRNA codon."
+      "answer": "It is the entry point where the next incoming tRNA carrying an amino acid binds to the mRNA codon.",
+      "explanation": "The A (aminoacyl) site accepts the incoming charged tRNA that base-pairs with the next mRNA codon during elongation. The P site holds the peptidyl-tRNA; the E site is for exiting tRNA."
     },
     {
       "type": "multiple_choice",
@@ -278,7 +314,8 @@
         "It is the location where the start codon is first recognized by the small ribosomal subunit.",
         "It is where the aminoacyl-tRNA synthetase enzyme attaches amino acids to tRNA."
       ],
-      "answer": "It holds the tRNA molecule that is currently attached to the growing polypeptide chain."
+      "answer": "It holds the tRNA molecule that is currently attached to the growing polypeptide chain.",
+      "explanation": "The P (peptidyl) site holds the tRNA attached to the growing polypeptide chain. New amino acids are added when the A-site tRNA forms a peptide bond with the P-site chain."
     },
     {
       "type": "multiple_choice",
@@ -291,7 +328,8 @@
         "Discharged tRNA molecules that have lost their amino acids leave the ribosome.",
         "New amino acids are chemically modified before being added to the protein."
       ],
-      "answer": "Discharged tRNA molecules that have lost their amino acids leave the ribosome."
+      "answer": "Discharged tRNA molecules that have lost their amino acids leave the ribosome.",
+      "explanation": "The E (exit) site is where uncharged tRNA leaves the ribosome after transferring its amino acid to the growing chain. It completes the translocation cycle of elongation."
     },
     {
       "type": "multiple_choice",
@@ -304,7 +342,8 @@
         "Splicing, capping, and tailing",
         "Binding, synthesis, and release"
       ],
-      "answer": "Initiation, elongation, and termination"
+      "answer": "Initiation, elongation, and termination",
+      "explanation": "Translation proceeds in three stages\u2014initiation (start codon recognition), elongation (repeated amino acid addition), and termination (stop codon release). Splicing and capping are RNA processing steps, not translation stages."
     },
     {
       "type": "multiple_choice",
@@ -317,7 +356,8 @@
         "mRNA binding, tRNA charging, and ribosomal exit",
         "Initiation complex assembly, elongation, and translocation"
       ],
-      "answer": "Codon recognition, peptide bond formation, and translocation"
+      "answer": "Codon recognition, peptide bond formation, and translocation",
+      "explanation": "Each elongation cycle adds one amino acid via codon recognition (A-site binding), peptide bond formation (transfer to P-site chain), and translocation (ribosome shifts along mRNA). This order repeats until a stop codon."
     },
     {
       "type": "multiple_choice",
@@ -330,15 +370,20 @@
         "Free ribosomes produce only structural proteins, while bound ribosomes produce only enzymes for digestion.",
         "Free ribosomes move freely between the nucleus and cytoplasm, while bound ribosomes are permanently fixed to the plasma membrane to export proteins directly out of the cell."
       ],
-      "answer": "Free ribosomes are suspended in the cytosol and mostly synthesize proteins that function within the cytosol, while bound ribosomes are attached to the endoplasmic reticulum and synthesize proteins destined for secretion or membranes."
+      "answer": "Free ribosomes are suspended in the cytosol and mostly synthesize proteins that function within the cytosol, while bound ribosomes are attached to the endoplasmic reticulum and synthesize proteins destined for secretion or membranes.",
+      "explanation": "Free ribosomes in the cytosol make proteins that stay in the cytosol, nucleus, or other internal compartments. Bound ribosomes on the rough ER make secreted, membrane, or organelle proteins that enter the endomembrane system."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: All ribosomes initially start as free ribosomes."
       },
-      "options": ["True", "False"],
-      "answer": "True"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "All ribosomal subunits assemble in the nucleolus and enter the cytosol as free ribosomes; some later attach to the ER when a signal sequence emerges from a translating ribosome. They do not start permanently bound to membranes."
     },
     {
       "type": "multiple_choice",
@@ -351,7 +396,8 @@
         "Deletion",
         "Frameshift mutation"
       ],
-      "answer": "Nucleotide-pair substitution"
+      "answer": "Nucleotide-pair substitution",
+      "explanation": "A nucleotide-pair substitution replaces one base pair with another without adding or removing nucleotides, so the reading frame stays intact. Insertions and deletions not in multiples of three cause frameshifts."
     },
     {
       "type": "multiple_choice",
@@ -364,7 +410,8 @@
         "One amino acid is changed to a different amino acid in the resulting protein.",
         "Every amino acid following the mutation site is changed due to a shift in the reading frame."
       ],
-      "answer": "One amino acid is changed to a different amino acid in the resulting protein."
+      "answer": "One amino acid is changed to a different amino acid in the resulting protein.",
+      "explanation": "A missense mutation changes a codon so a different amino acid is incorporated into the polypeptide. Silent mutations preserve the same amino acid; nonsense mutations create stop codons; frameshifts alter all downstream codons."
     },
     {
       "type": "multiple_choice",
@@ -377,7 +424,8 @@
         "The addition of three nucleotides that does not disrupt the reading frame.",
         "A mutation that only occurs in the non-coding intron regions of a gene."
       ],
-      "answer": "A mutation that changes an amino acid codon into a stop codon, nearly always leading to a nonfunctional protein."
+      "answer": "A mutation that changes an amino acid codon into a stop codon, nearly always leading to a nonfunctional protein.",
+      "explanation": "A nonsense mutation converts an amino acid codon into a stop codon, causing premature termination and usually a truncated, nonfunctional protein. Silent mutations do not change the amino acid; frameshifts alter the entire downstream sequence."
     },
     {
       "type": "multiple_choice",
@@ -390,7 +438,8 @@
         "Nucleotides are inserted or deleted in a number not divisible by three, altering the reading of all subsequent codons.",
         "The mRNA molecule is prematurely degraded by enzymes before it can reach a ribosome."
       ],
-      "answer": "Nucleotides are inserted or deleted in a number not divisible by three, altering the reading of all subsequent codons."
+      "answer": "Nucleotides are inserted or deleted in a number not divisible by three, altering the reading of all subsequent codons.",
+      "explanation": "Frameshift mutations insert or delete nucleotides in numbers not divisible by three, shifting every subsequent codon. All amino acids downstream of the mutation are usually altered, often producing a nonfunctional protein."
     }
   ]
 }

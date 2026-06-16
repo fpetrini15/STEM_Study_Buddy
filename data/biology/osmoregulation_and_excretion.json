@@ -12,15 +12,22 @@
         "The mechanical breakdown of food particles within a gastrovascular cavity.",
         "The transport of oxygen from the alveoli into the systemic circulatory circuit."
       ],
-      "answer": "The process by which animals control solute concentrations and balance water gain and loss."
+      "answer": "The process by which animals control solute concentrations and balance water gain and loss.",
+      "explanation": "Osmoregulation maintains stable internal solute concentrations and water balance despite changes in the external environment."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "Which nitrogenous byproduct is considered the most toxic and requires immediate conversion or elimination to prevent cellular damage?"
       },
-      "options": ["Urea", "Uric Acid", "Ammonia", "Creatinine"],
-      "answer": "Ammonia"
+      "options": [
+        "Urea",
+        "Uric Acid",
+        "Ammonia",
+        "Creatinine"
+      ],
+      "answer": "Ammonia",
+      "explanation": "Ammonia (NH₃) is highly toxic and soluble, requiring rapid dilution or conversion; urea and uric acid are less toxic alternatives."
     },
     {
       "type": "drag_and_drop",
@@ -32,7 +39,8 @@
         "Isotonic (No Net Change)",
         "Hypotonic (Cell Swells/Bursts)"
       ],
-      "answer": "Hypertonic (Cell Shrivels)"
+      "answer": "Hypertonic (Cell Shrivels)",
+      "explanation": "A hypertonic solution has higher solute concentration outside the cell, so water exits by osmosis and the cell shrivels."
     },
     {
       "type": "drag_and_drop",
@@ -44,7 +52,8 @@
         "Isotonic (No Net Change)",
         "Hypotonic (Cell Swells/Bursts)"
       ],
-      "answer": "Hypotonic (Cell Swells/Bursts)"
+      "answer": "Hypotonic (Cell Swells/Bursts)",
+      "explanation": "Pure water is hypotonic relative to cell cytoplasm, so water enters the cell by osmosis, causing swelling and possible lysis."
     },
     {
       "type": "drag_and_drop",
@@ -56,7 +65,8 @@
         "Isotonic (No Net Change)",
         "Hypotonic (Cell Swells/Bursts)"
       ],
-      "answer": "Isotonic (No Net Change)"
+      "answer": "Isotonic (No Net Change)",
+      "explanation": "In an isotonic solution, solute concentrations are equal inside and out, so there is no net water movement across the membrane."
     },
     {
       "type": "drag_and_drop",
@@ -68,7 +78,8 @@
         "Isotonic (No Net Change)",
         "Hypotonic (Cell Swells/Bursts)"
       ],
-      "answer": "Hypotonic (Cell Swells/Bursts)"
+      "answer": "Hypotonic (Cell Swells/Bursts)",
+      "explanation": "Saltwater fish cells are hypertonic to freshwater; in fresh water, water floods in osmotically, making the environment hypotonic to their cells."
     },
     {
       "type": "multiple_choice",
@@ -81,7 +92,8 @@
         "Osmoconformers live only in freshwater, while osmoregulators are exclusively found in marine environments.",
         "Osmoconformers use active transport to move water, while osmoregulators rely entirely on simple diffusion to balance salts."
       ],
-      "answer": "Osmoconformers remain isoosmotic with their surroundings, while osmoregulators use energy to control internal osmolarity in a fluctuating environment."
+      "answer": "Osmoconformers remain isoosmotic with their surroundings, while osmoregulators use energy to control internal osmolarity in a fluctuating environment.",
+      "explanation": "Osmoconformers match their internal osmolarity to seawater without active regulation; osmoregulators actively maintain internal osmolarity different from surroundings."
     },
     {
       "type": "multiple_choice",
@@ -94,7 +106,8 @@
         "The lungs convert ammonia into a gas that is expelled during exhalation.",
         "The large intestine converts ammonia into solid crystals that are removed during defecation."
       ],
-      "answer": "The liver converts ammonia into urea, a much less toxic substance that is then excreted by the kidneys."
+      "answer": "The liver converts ammonia into urea, a much less toxic substance that is then excreted by the kidneys.",
+      "explanation": "Mammals convert toxic ammonia to urea in the liver via the ornithine cycle; kidneys then excrete urea in a concentrated urine solution."
     },
     {
       "type": "multiple_choice",
@@ -107,7 +120,8 @@
         "Uric acid acts as a lightweight structural component for feathers and scales, reducing the need for bone density.",
         "Uric acid can be converted back into glucose during flight to provide an immediate source of emergency energy."
       ],
-      "answer": "Uric acid is relatively non-toxic and insoluble, allowing it to be excreted as a semi-solid paste with very little water loss."
+      "answer": "Uric acid is relatively non-toxic and insoluble, allowing it to be excreted as a semi-solid paste with very little water loss.",
+      "explanation": "Uric acid's low solubility lets birds and reptiles excrete nitrogen waste as a paste with minimal water—a critical adaptation for dry environments."
     },
     {
       "type": "multiple_choice",
@@ -120,7 +134,8 @@
         "It provides a liquid medium that keeps the embryo moist and prevents it from sticking to the shell.",
         "It acts as a primary fuel source for the embryo, replacing the need for a high-fat yolk."
       ],
-      "answer": "Because it is relatively non-toxic and insoluble, it can be safely stored as a solid precipitate within the egg without poisoning the embryo."
+      "answer": "Because it is relatively non-toxic and insoluble, it can be safely stored as a solid precipitate within the egg without poisoning the embryo.",
+      "explanation": "Inside a shelled egg, waste cannot be flushed away with water; insoluble uric acid precipitates safely, avoiding toxic ammonia buildup around the embryo."
     },
     {
       "type": "multiple_choice",
@@ -133,7 +148,8 @@
         "Urinary Bladder → Ureter → Renal Pelvis → Nephron",
         "Renal Pelvis → Ureter → Nephron → Urethra"
       ],
-      "answer": "Nephron → Renal Pelvis → Ureter → Urinary Bladder"
+      "answer": "Nephron → Renal Pelvis → Ureter → Urinary Bladder",
+      "explanation": "Filtrate forms in nephrons, drains into the renal pelvis, travels through ureters to the bladder, and exits via the urethra."
     },
     {
       "type": "multiple_choice",
@@ -146,7 +162,8 @@
         "Filtration occurs in the bladder, while reabsorption occurs in the renal pelvis.",
         "Filtration moves blood cells into the urine, while reabsorption moves them back to the heart."
       ],
-      "answer": "Filtration is the non-selective movement of water and small solutes into the nephron, while reabsorption is the selective return of valuable substances to the blood."
+      "answer": "Filtration is the non-selective movement of water and small solutes into the nephron, while reabsorption is the selective return of valuable substances to the blood.",
+      "explanation": "Glomerular filtration passively pushes water and small solutes into Bowman's capsule; reabsorption selectively returns needed substances like glucose and Na⁺ to blood."
     },
     {
       "type": "multiple_choice",
@@ -159,7 +176,8 @@
         "The Collecting Duct",
         "The Distal Tubule"
       ],
-      "answer": "The Glomerulus (surrounded by Bowman's capsule)"
+      "answer": "The Glomerulus (surrounded by Bowman's capsule)",
+      "explanation": "The glomerulus is a high-pressure capillary tuft where blood is filtered into Bowman's capsule to begin urine formation."
     },
     {
       "type": "multiple_choice",
@@ -172,7 +190,8 @@
         "To filter large proteins and red blood cells out of the filtrate.",
         "To store urine before it enters the renal pelvis."
       ],
-      "answer": "To create a concentration gradient in the renal medulla that allows for the reabsorption of water."
+      "answer": "To create a concentration gradient in the renal medulla that allows for the reabsorption of water.",
+      "explanation": "The loop of Henle establishes an osmotic gradient in the medulla by countercurrent multiplication, enabling water reabsorption from the collecting duct."
     },
     {
       "type": "multiple_choice",
@@ -185,7 +204,8 @@
         "Collecting Duct",
         "Descending limb of the Loop of Henle"
       ],
-      "answer": "Proximal Tubule"
+      "answer": "Proximal Tubule",
+      "explanation": "The proximal tubule reabsorbs virtually all filtered glucose and amino acids plus most NaCl and water—essential for conserving nutrients."
     },
     {
       "type": "multiple_choice",
@@ -198,7 +218,8 @@
         "Providing a physical barrier that prevents any solutes from entering the collecting duct.",
         "Transporting urine from the bladder to the urethra."
       ],
-      "answer": "Regulating the K+ and NaCl concentration of body fluids by varying secretion and reabsorption."
+      "answer": "Regulating the K+ and NaCl concentration of body fluids by varying secretion and reabsorption.",
+      "explanation": "The distal tubule fine-tunes salt balance by regulated reabsorption and secretion of K⁺ and NaCl under hormonal control (e.g., aldosterone)."
     },
     {
       "type": "multiple_choice",
@@ -211,7 +232,8 @@
         "It acts as a pump that forces urine back into the Loop of Henle for secondary filtration.",
         "It converts uric acid back into ammonia to save energy."
       ],
-      "answer": "It processes the filtrate into urine by reabsorbing water and, occasionally, urea under hormonal control."
+      "answer": "It processes the filtrate into urine by reabsorbing water and, occasionally, urea under hormonal control.",
+      "explanation": "The collecting duct's water permeability is hormonally regulated, determining final urine concentration as filtrate passes through the medullary gradient."
     },
     {
       "type": "multiple_choice",
@@ -224,7 +246,8 @@
         "It causes the bladder to expand so that more urine can be stored without needing to be excreted.",
         "It signals the liver to stop producing urea, which prevents the kidneys from needing to use water for excretion."
       ],
-      "answer": "It increases the permeability of the collecting duct by triggering the insertion of aquaporins (water channels), allowing more water to be reabsorbed into the blood."
+      "answer": "It increases the permeability of the collecting duct by triggering the insertion of aquaporins (water channels), allowing more water to be reabsorbed into the blood.",
+      "explanation": "ADH binds collecting duct cells, inserting aquaporins so more water is reabsorbed osmotically into the hypertonic medulla, producing concentrated urine."
     },
     {
       "type": "multiple_choice",
@@ -237,7 +260,8 @@
         "They act as a direct fuel source for the nephrons, causing them to filter blood at twice the normal speed.",
         "They physically block the aquaporins in the distal tubule, trapping water inside the filtrate."
       ],
-      "answer": "They inhibit the release of Antidiuretic Hormone (ADH), preventing the collecting ducts from reabsorbing water."
+      "answer": "They inhibit the release of Antidiuretic Hormone (ADH), preventing the collecting ducts from reabsorbing water.",
+      "explanation": "Alcohol suppresses ADH release, so collecting ducts stay water-impermeable and excess water is lost in dilute urine, promoting dehydration."
     },
     {
       "type": "multiple_choice",
@@ -250,7 +274,8 @@
         "The bladder loses its ability to distinguish between urea and sugar during the excretion phase.",
         "A lack of ADH causes the collecting duct to actively secrete glucose into the urine to balance blood pressure."
       ],
-      "answer": "Blood glucose levels exceed the reabsorption capacity of the proximal tubules, causing the 'overflow' to remain in the filtrate."
+      "answer": "Blood glucose levels exceed the reabsorption capacity of the proximal tubules, causing the 'overflow' to remain in the filtrate.",
+      "explanation": "Proximal tubules normally reabsorb all filtered glucose; in diabetes, blood glucose exceeds the transport maximum (Tₘ), so glucose spills into urine."
     },
     {
       "type": "multiple_choice",
@@ -263,7 +288,8 @@
         "It shows that the liver is overproducing proteins to help fight an active bacterial infection.",
         "It indicates that the collecting duct has been converted into a storage site for essential nutrients."
       ],
-      "answer": "It is a sign that the glomerular filtration barrier is damaged or compromised, allowing large molecules to leak through."
+      "answer": "It is a sign that the glomerular filtration barrier is damaged or compromised, allowing large molecules to leak through.",
+      "explanation": "Healthy glomeruli block large proteins from filtration; proteinuria indicates a damaged filtration barrier allowing albumin and other proteins to leak through."
     }
   ]
 }

@@ -20,12 +20,24 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <meta
+      name="description"
+      content="Free interactive biology and chemistry quizzes with practice, study, and exam modes. Instant feedback and explanations on STEM Study Buddy."
+    />
+
     <title>STEM Study Buddy</title>
     <link rel="icon" href="images/favicons/test_tube.svg" />
+    <script src="js/theme.js"></script>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body>
+  <body data-page="home">
     <div class="container">
       <header class="hero">
         <h1>STEM Study Buddy</h1>
@@ -33,41 +45,19 @@
         <p>Interactive quizzes for Biology, Chemistry, and more.</p>
       </header>
 
-      <h2>Choose a Subject</h2>
+      <div id="recent-quizzes" class="recent-section hidden"></div>
 
-      <div class="subject-grid">
-        <!-- BIOLOGY -->
+      <h2 class="section-title">Choose a Subject</h2>
 
-        <div class="subject-card">
-          <div class="subject-icon">🧬</div>
-
-          <h3>Biology</h3>
-
-          <p>Cells, genetics, biological systems and more.</p>
-
-          <a href="biology.html">
-            <button class="btn btn-full">Open Biology</button>
-          </a>
-        </div>
-
-        <!-- CHEMISTRY -->
-
-        <div class="subject-card">
-          <div class="subject-icon">⚗️</div>
-
-          <h3>Chemistry</h3>
-
-          <p>Acids, bases, polyatomic ions and more.</p>
-
-          <a href="chemistry.html">
-            <button class="btn btn-full">Open Chemistry</button>
-          </a>
-        </div>
-      </div>
+      <div id="subject-grid" class="subject-grid"></div>
 
       <footer>
         <p>STEM Study Buddy © 2026</p>
       </footer>
     </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/catalog-utils.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

@@ -16,12 +16,14 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Prophase I"
+      "answer": "Prophase I",
+      "explanation": "Prophase I opens meiosis I with nuclear envelope breakdown, centrosome migration, and spindle assembly\u2014the same early mitotic events, but here they prepare homologous chromosomes for pairing and crossing over."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Chromosomes condense progressively." },
+      "prompt": {
+        "text": "Chromosomes condense progressively."
+      },
       "categories": [
         "Prophase I",
         "Metaphase I",
@@ -32,9 +34,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Prophase I"
+      "answer": "Prophase I",
+      "explanation": "Chromosomes progressively condense during prophase I so homologs can synapse, recombine, and later be sorted accurately. Condensation makes chromosomes visible and manageable for the spindle."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -50,12 +52,14 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Prophase I"
+      "answer": "Prophase I",
+      "explanation": "Homologous chromosomes pair and exchange segments by crossing over during prophase I. This recombination shuffles alleles between maternal and paternal chromosomes before the first division."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Chiasmatas first appear." },
+      "prompt": {
+        "text": "Chiasmatas first appear."
+      },
       "categories": [
         "Prophase I",
         "Metaphase I",
@@ -66,9 +70,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Prophase I"
+      "answer": "Prophase I",
+      "explanation": "Chiasmata\u2014the X-shaped junctions where homologs stay connected after crossover\u2014first appear in prophase I. They mark recombination sites and help hold homolog pairs together until anaphase I."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -84,9 +88,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Prophase I"
+      "answer": "Prophase I",
+      "explanation": "In prophase I, spindle microtubules attach to kinetochores on homologous chromosomes as pairs form. This attachment sets up alignment and separation of homologs, not sister chromatids, in meiosis I."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -102,9 +106,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Metaphase I"
+      "answer": "Metaphase I",
+      "explanation": "At metaphase I, homologous pairs (not individual chromatids) align at the metaphase plate. This arrangement is the prerequisite for homologs to be pulled to opposite poles in anaphase I."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -120,9 +124,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Metaphase I"
+      "answer": "Metaphase I",
+      "explanation": "Independent assortment occurs at metaphase I: each homolog pair orients randomly relative to every other pair. The alignment of one pair does not dictate how any other pair is oriented."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -138,9 +142,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Metaphase I"
+      "answer": "Metaphase I",
+      "explanation": "At metaphase I, both sister chromatids of a homolog attach to microtubules from the same pole, so the homolog moves as a unit. Sister chromatids are not separated until meiosis II."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -156,9 +160,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Anaphase I"
+      "answer": "Anaphase I",
+      "explanation": "In anaphase I, cohesin along chromatid arms is cleaved, releasing homologous chromosomes from each other. Cohesin at centromeres still holds sister chromatids together until anaphase II."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -174,9 +178,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Anaphase I"
+      "answer": "Anaphase I",
+      "explanation": "Anaphase I is defined by homologous chromosomes moving to opposite spindle poles. This is the reduction division that halves the chromosome number while keeping each chromosome duplicated."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -192,9 +196,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Anaphase I"
+      "answer": "Anaphase I",
+      "explanation": "During anaphase I, sister chromatids remain joined at their centromeres and travel together to the same pole. Only homologs separate\u2014unlike mitotic or meiosis II anaphase, where sisters split."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -210,12 +214,14 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Telophase I and Cytokinesis"
+      "answer": "Telophase I and Cytokinesis",
+      "explanation": "After telophase I, each pole holds a haploid set of chromosomes, each still composed of two sister chromatids. The cell is haploid in chromosome number but not yet haploid in DNA content per chromatid."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Cytokinesis forms two haploid daughter cells." },
+      "prompt": {
+        "text": "Cytokinesis forms two haploid daughter cells."
+      },
       "categories": [
         "Prophase I",
         "Metaphase I",
@@ -226,9 +232,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Telophase I and Cytokinesis"
+      "answer": "Telophase I and Cytokinesis",
+      "explanation": "Telophase I and cytokinesis complete the first meiotic division, producing two haploid daughter cells. No DNA replication occurs before the second division begins."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -244,12 +250,14 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Telophase I and Cytokinesis"
+      "answer": "Telophase I and Cytokinesis",
+      "explanation": "The two cells entering meiosis II are haploid and contain unduplicated chromosomes only in the sense that no new S phase occurs between divisions; each chromosome still consists of two sister chromatids."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Spindle apparatus forms in a haploid cell." },
+      "prompt": {
+        "text": "Spindle apparatus forms in a haploid cell."
+      },
       "categories": [
         "Prophase I",
         "Metaphase I",
@@ -260,9 +268,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Prophase II"
+      "answer": "Prophase II",
+      "explanation": "Prophase II begins in haploid cells with spindle reformation and nuclear envelope breakdown. Unlike prophase I, there is no homolog pairing or crossing over in the second division."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -278,9 +286,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Prophase II"
+      "answer": "Prophase II",
+      "explanation": "Late prophase II includes spindle attachment and movement of individual chromosomes toward the metaphase plate. Meiosis II sorts sister chromatids, not homologous pairs."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -296,9 +304,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Metaphase II"
+      "answer": "Metaphase II",
+      "explanation": "At metaphase II, duplicated chromosomes align individually at the metaphase plate, with kinetochores of sister chromatids facing opposite poles. This resembles mitotic metaphase but occurs in haploid cells."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -314,9 +322,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Anaphase II"
+      "answer": "Anaphase II",
+      "explanation": "In anaphase II, centromeric cohesin is cleaved, allowing sister chromatids to separate and move to opposite poles\u2014mechanistically similar to anaphase of mitosis."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -332,12 +340,14 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Anaphase II"
+      "answer": "Anaphase II",
+      "explanation": "Once sisters separate in anaphase II, each chromatid is an independent chromosome in a haploid nucleus. This completes the reduction of DNA to the gamete state."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Nuclei form and chromosomes begin condensing." },
+      "prompt": {
+        "text": "Nuclei form and chromosomes begin condensing."
+      },
       "categories": [
         "Prophase I",
         "Metaphase I",
@@ -348,9 +358,9 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Telophase II and Cytokinesis"
+      "answer": "Telophase II and Cytokinesis",
+      "explanation": "Telophase II includes nuclear envelope reformation and chromosome decondensation as division ends. These events reverse the changes initiated in prophase II."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -366,39 +376,60 @@
         "Anaphase II",
         "Telophase II and Cytokinesis"
       ],
-      "answer": "Telophase II and Cytokinesis"
+      "answer": "Telophase II and Cytokinesis",
+      "explanation": "After cytokinesis following meiosis II, four haploid, genetically distinct gametes exist\u2014variation arising from crossing over in prophase I and independent assortment at metaphase I."
     },
     {
       "type": "multiple_choice",
       "prompt": {
-        "text": "An ordered display of an individual’s complete set of chromosomes, arranged in homologous pairs from longest to shortest, is known as a(n) __."
+        "text": "An ordered display of an individual\u2019s complete set of chromosomes, arranged in homologous pairs from longest to shortest, is known as a(n) __."
       },
-      "options": ["Genome", "Genotype", "Karyotype", "Phenotype"],
-      "answer": "Karyotype"
+      "options": [
+        "Genome",
+        "Genotype",
+        "Karyotype",
+        "Phenotype"
+      ],
+      "answer": "Karyotype",
+      "explanation": "A karyotype is a standardized display of an individual's chromosomes arranged in homologous pairs by size and banding pattern. It reveals chromosome number and major structural abnormalities, unlike genotype or phenotype descriptions."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "If a specialized somatic cell of a specific animal species contains a total of 38 chromosomes, how many chromosomes would be present in a mature sperm cell of the same individual?"
       },
-      "options": ["76", "38", "19", "9"],
-      "answer": "19"
+      "options": [
+        "76",
+        "38",
+        "19",
+        "9"
+      ],
+      "answer": "19",
+      "explanation": "Gametes are haploid (n), containing half the chromosome number of somatic (2n) cells. If 2n = 38, then n = 19 chromosomes in a mature sperm cell."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: A sperm can contain an X or a Y chromosome."
       },
-      "options": ["True", "False"],
-      "answer": "True"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Human sperm carry either an X or a Y sex chromosome (plus 22 autosomes), so fertilization determines whether the zygote is XX or XY. Eggs always contribute an X chromosome."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: Chromosome count directly correlates to species complexity."
       },
-      "options": ["True", "False"],
-      "answer": "False"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Chromosome number does not correlate with organismal complexity\u2014some ferns have hundreds of chromosomes while humans have 46. Gene content and regulation matter more than chromosome count alone."
     },
     {
       "type": "multiple_choice",
@@ -411,23 +442,32 @@
         "Zygote, diploid",
         "Spore, haploid"
       ],
-      "answer": "Zygote, diploid"
+      "answer": "Zygote, diploid",
+      "explanation": "Fusion of haploid egg and sperm produces a diploid zygote, restoring the full chromosome complement of the species. Gametes are haploid; embryos develop after the zygote begins dividing."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: Animals, plants, fungi, and protists all utilize meiosis."
       },
-      "options": ["True", "False"],
-      "answer": "True"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Sexual eukaryotes\u2014including animals, plants, fungi, and many protists\u2014use meiosis to produce haploid cells for fertilization. It is the conserved mechanism for genetic reduction and recombination."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: Hapoloids can undergo meiosis."
       },
-      "options": ["True", "False"],
-      "answer": "False"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Standard meiosis requires a preceding DNA replication in a diploid cell; haploid cells cannot undergo typical meiosis without first becoming duplicated. Organisms with haploid life stages enter meiosis only from a diploid precursor such as a zygote."
     },
     {
       "type": "multiple_choice",
@@ -440,7 +480,8 @@
         "Determined by the location of the centrosomes",
         "Dependent on whether the chromosomes are maternal or paternal"
       ],
-      "answer": "Independent of the orientation of other homologous pairs"
+      "answer": "Independent of the orientation of other homologous pairs",
+      "explanation": "Mendel's principle of independent assortment reflects random orientation of each homolog pair at metaphase I. How one pair aligns is independent of how any other homolog pair aligns."
     }
   ]
 }

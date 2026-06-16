@@ -12,7 +12,8 @@
         "It is the region that is translated into the first regulatory enzyme of a metabolic pathway.",
         "It provides the template for the synthesis of the regulatory protein itself."
       ],
-      "answer": "It serves as a genetic 'on-off' switch where a repressor protein can bind to physically block RNA polymerase."
+      "answer": "It serves as a genetic 'on-off' switch where a repressor protein can bind to physically block RNA polymerase.",
+      "explanation": "The operator lies between the promoter and structural genes and is where repressor proteins bind to block transcription. RNA polymerase binds the promoter, not the operator."
     },
     {
       "type": "multiple_choice",
@@ -25,7 +26,8 @@
         "It acts as an enzyme that degrades mRNA immediately after it is synthesized.",
         "It is a signaling molecule that binds to the ribosome to stop translation."
       ],
-      "answer": "It attaches to the operator to block RNA polymerase from transcribing the genes."
+      "answer": "It attaches to the operator to block RNA polymerase from transcribing the genes.",
+      "explanation": "Repressor proteins are regulatory proteins that bind the operator and physically obstruct RNA polymerase passage. They regulate transcription, not translation or mRNA degradation."
     },
     {
       "type": "multiple_choice",
@@ -38,7 +40,8 @@
         "It requires the presence of lactose to remove a repressor from the operator site.",
         "It only functions when the cell's internal concentration of glucose is extremely high."
       ],
-      "answer": "It is usually 'on' but can be inhibited when a specific small molecule binds allosterically to a regulatory protein."
+      "answer": "It is usually 'on' but can be inhibited when a specific small molecule binds allosterically to a regulatory protein.",
+      "explanation": "Repressible operons like trp are transcribed by default and turned off when the pathway end product (corepressor) activates the repressor. Inducible operons like lac are the opposite—they start off and are turned on by an inducer."
     },
     {
       "type": "multiple_choice",
@@ -51,7 +54,8 @@
         "When the repressor protein is successfully bound to the operator, blocking RNA polymerase.",
         "When the cell has no need for the enzymes encoded by that specific operon."
       ],
-      "answer": "When a specific inducer molecule is present to inactivate the repressor protein."
+      "answer": "When a specific inducer molecule is present to inactivate the repressor protein.",
+      "explanation": "Inducible operons are normally repressed; an inducer (such as allolactose in the lac operon) binds the repressor and prevents it from blocking the operator. High end-product levels turn off repressible, not inducible, operons."
     },
     {
       "type": "multiple_choice",
@@ -64,7 +68,8 @@
         "It is an enzyme that breaks down the repressor protein when the cell needs more product.",
         "It is a DNA sequence that increases the rate of transcription by attracting activators."
       ],
-      "answer": "It is a small molecule that cooperates with a repressor protein to switch an operon off."
+      "answer": "It is a small molecule that cooperates with a repressor protein to switch an operon off.",
+      "explanation": "In repressible operons, the corepressor (often the pathway end product) binds allosterically to the repressor, enabling it to attach to the operator and halt transcription. This prevents wasteful synthesis when the product is already abundant."
     },
     {
       "type": "multiple_choice",
@@ -77,7 +82,8 @@
         "Repressible operons require RNA polymerase to function, while inducible operons do not require any enzymes.",
         "Repressible operons are turned on by high concentrations of enzymes, while inducible operons are turned off by the presence of substrate."
       ],
-      "answer": "Repressible operons are usually active and are turned off by a corepressor, while inducible operons are usually inactive and are turned on by an inducer."
+      "answer": "Repressible operons are usually active and are turned off by a corepressor, while inducible operons are usually inactive and are turned on by an inducer.",
+      "explanation": "Repressible operons (e.g., trp) default to on and shut down when product accumulates; inducible operons (e.g., lac) default to off and activate only when substrate is available. Both are bacterial mechanisms that still require RNA polymerase."
     },
     {
       "type": "multiple_choice",
@@ -90,7 +96,8 @@
         "Both inducible and repressible operons are found exclusively in anabolic pathways to ensure constant production of proteins.",
         "Inducible operons regulate the synthesis of enzymes for DNA replication, while repressible operons regulate the enzymes for RNA processing."
       ],
-      "answer": "Inducible operons usually function in catabolic pathways to break down a nutrient, while repressible operons function in anabolic pathways to synthesize essential precursors."
+      "answer": "Inducible operons usually function in catabolic pathways to break down a nutrient, while repressible operons function in anabolic pathways to synthesize essential precursors.",
+      "explanation": "Cells induce catabolic enzymes only when a substrate like lactose is present, and repress anabolic enzymes when the end product (e.g., tryptophan) is already sufficient. This matches the lac and trp operon models."
     },
     {
       "type": "multiple_choice",
@@ -98,7 +105,8 @@
         "text": "In a bacterial cell that prefers glucose as its primary energy source, which small signaling molecule accumulates when glucose levels are scarce?"
       },
       "options": ["Lactose", "Cyclic AMP (cAMP)", "ATP", "Tryptophan"],
-      "answer": "Cyclic AMP (cAMP)"
+      "answer": "Cyclic AMP (cAMP)",
+      "explanation": "Low glucose raises intracellular cAMP, which binds the CRP (CAP) activator to boost transcription of alternative carbon-source operons like lac. Lactose is the inducer for lac, not the glucose-scarcity signal."
     },
     {
       "type": "multiple_choice",
@@ -111,7 +119,8 @@
         "It acts as an enzyme that converts lactose directly into glucose for the cell.",
         "It binds to the repressor protein, causing it to attach more tightly to the operator."
       ],
-      "answer": "It binds to the CRP binding site near the promoter, increasing the affinity of RNA polymerase for the promoter."
+      "answer": "It binds to the CRP binding site near the promoter, increasing the affinity of RNA polymerase for the promoter.",
+      "explanation": "The cAMP-CRP complex is a positive regulator that binds upstream of the lac promoter and helps RNA polymerase initiate transcription. The lac repressor, not CRP, binds the operator to block transcription."
     },
     {
       "type": "multiple_choice",
@@ -124,7 +133,8 @@
         "Negative control involves the 5' cap and poly-A tail, while positive control involves the removal of introns by the spliceosome.",
         "Negative control refers to the breakdown of lactose, while positive control refers to the synthesis of glucose."
       ],
-      "answer": "Negative control is mediated by the lac repressor blocking transcription, while positive control is mediated by the CRP-cAMP complex increasing transcription."
+      "answer": "Negative control is mediated by the lac repressor blocking transcription, while positive control is mediated by the CRP-cAMP complex increasing transcription.",
+      "explanation": "Negative regulation removes a block (repressor off operator), while positive regulation adds an activator (CRP-cAMP) that enhances RNA polymerase binding. RNA capping and splicing are eukaryotic post-transcriptional processes unrelated to lac operon control."
     },
     {
       "type": "multiple_choice",
@@ -137,7 +147,8 @@
         "The muscle cell has lost all the genes related to nervous system function through specialized cell division.",
         "The nerve cell uses a completely different genetic code to translate its mRNA into proteins."
       ],
-      "answer": "They undergo differential gene expression, where each cell type transcribes only a specific subset of its genes."
+      "answer": "They undergo differential gene expression, where each cell type transcribes only a specific subset of its genes.",
+      "explanation": "All somatic cells in an organism share the same DNA, but each cell type activates a unique combination of genes during development. Genes are not lost and the genetic code is universal across cell types."
     },
     {
       "type": "multiple_choice",
@@ -150,7 +161,8 @@
         "It involves the addition of methyl groups to certain bases, usually resulting in reduced transcription and gene silencing.",
         "It triggers the ribosome to begin translation at a faster rate."
       ],
-      "answer": "It involves the addition of methyl groups to certain bases, usually resulting in reduced transcription and gene silencing."
+      "answer": "It involves the addition of methyl groups to certain bases, usually resulting in reduced transcription and gene silencing.",
+      "explanation": "Methylation of cytosine bases (especially in CpG islands) typically condenses chromatin and blocks transcription factor access. Intron removal is carried out by the spliceosome, not by methylation."
     },
     {
       "type": "multiple_choice",
@@ -163,7 +175,8 @@
         "The process by which mitochondrial DNA is inherited strictly from the maternal parent.",
         "The reshuffling of alleles that occurs during crossing over in meiosis."
       ],
-      "answer": "The inheritance of traits transmitted by mechanisms not involving the nucleotide sequence of the genome itself."
+      "answer": "The inheritance of traits transmitted by mechanisms not involving the nucleotide sequence of the genome itself.",
+      "explanation": "Epigenetic inheritance passes chromatin modifications such as DNA methylation or histone acetylation to daughter cells without changing the underlying DNA sequence. Permanent DNA sequence changes are mutations, not epigenetics."
     },
     {
       "type": "multiple_choice",
@@ -176,7 +189,8 @@
         "Cytoplasmic determination",
         "Homeostasis"
       ],
-      "answer": "Morphogenesis"
+      "answer": "Morphogenesis",
+      "explanation": "Morphogenesis encompasses the cell movements, divisions, and tissue rearrangements that sculpt an organism's body plan. Differentiation produces specialized cell types; morphogenesis organizes them into structures."
     },
     {
       "type": "multiple_choice",
@@ -184,7 +198,8 @@
         "text": "T/F: The cytoplasm of an unfertilized egg is not homogenous and profoundly impacts development.."
       },
       "options": ["True", "False"],
-      "answer": "True"
+      "answer": "True",
+      "explanation": "Unfertilized eggs contain unevenly distributed cytoplasmic determinants (mRNAs and proteins) that specify different developmental fates in daughter cells after fertilization. This regionalization is a key mechanism of early embryonic patterning."
     },
     {
       "type": "multiple_choice",
@@ -197,7 +212,8 @@
         "Cellular differentiation",
         "Morphogenetic induction"
       ],
-      "answer": "Cellular differentiation"
+      "answer": "Cellular differentiation",
+      "explanation": "Differentiation involves progressive changes in gene expression that give a cell its specialized structure and function. Totipotency is the opposite—the ability to become any cell type."
     },
     {
       "type": "multiple_choice",
@@ -210,7 +226,8 @@
         "Transduction",
         "Morphogenesis"
       ],
-      "answer": "Induction"
+      "answer": "Induction",
+      "explanation": "Induction occurs when signaling molecules from one group of embryonic cells alter the developmental fate of adjacent target cells. Cytoplasmic determination relies on maternal factors within the egg, not signals from neighbors."
     },
     {
       "type": "multiple_choice",
@@ -223,7 +240,8 @@
         "Pattern formation",
         "Induction"
       ],
-      "answer": "Determination"
+      "answer": "Determination",
+      "explanation": "Determination is the commitment step that fixes a cell's developmental fate before visible differentiation occurs. A determined cell will follow its assigned pathway even when transplanted to a new embryonic location."
     },
     {
       "type": "multiple_choice",
@@ -236,7 +254,8 @@
         "Positional information is the final specialized state of a cell, while pattern formation is the initial stage where the sperm enters the egg.",
         "Pattern formation refers only to the development of limbs, while positional information refers to the development of internal organs."
       ],
-      "answer": "Pattern formation is the development of a spatial organization of tissues and organs, while positional information consists of the molecular cues that tell a cell its location relative to the body axes."
+      "answer": "Pattern formation is the development of a spatial organization of tissues and organs, while positional information consists of the molecular cues that tell a cell its location relative to the body axes.",
+      "explanation": "Positional information (morphogen gradients, Hox genes, etc.) tells each cell where it sits along body axes, enabling appropriate pattern formation throughout the entire embryo. Pattern formation is not limited to limbs or internal organs alone."
     },
     {
       "type": "multiple_choice",
@@ -249,7 +268,8 @@
         "Proto-oncogenes function as 'brakes' for the cell cycle, while oncogenes function as the 'accelerators' that initiate mitosis.",
         "Proto-oncogenes are only present in embryonic cells, while oncogenes are developed in adult cells through epigenetic silencing."
       ],
-      "answer": "Proto-oncogenes are normal genes that stimulate responsible cell growth, while oncogenes are mutated versions that lead to excessive cell division."
+      "answer": "Proto-oncogenes are normal genes that stimulate responsible cell growth, while oncogenes are mutated versions that lead to excessive cell division.",
+      "explanation": "Proto-oncogenes encode growth-promoting proteins under normal regulation; gain-of-function mutations convert them into oncogenes that drive uncontrolled proliferation. Tumor-suppressor genes, not proto-oncogenes, act as cell-cycle brakes."
     },
     {
       "type": "multiple_choice",
@@ -262,7 +282,8 @@
         "The mutation causes the Ras protein to permanently inhibit the cell cycle at the G1 checkpoint.",
         "The mutated Ras protein acts as a transcription factor that directly deletes tumor-suppressor genes."
       ],
-      "answer": "The mutated Ras protein becomes hyperactive and triggers the phosphorylation cascade even in the absence of a growth factor."
+      "answer": "The mutated Ras protein becomes hyperactive and triggers the phosphorylation cascade even in the absence of a growth factor.",
+      "explanation": "Ras is a GTPase relay in growth-factor signaling; oncogenic ras mutations lock it in the active GTP-bound state, sending continuous proliferative signals. Loss of membrane binding or G1 inhibition would suppress, not promote, division."
     },
     {
       "type": "multiple_choice",
@@ -270,7 +291,8 @@
         "text": "Which of the following is a well-known tumor-suppressor gene that, when functioning normally, encodes a protein that inhibits the cell cycle or triggers apoptosis in response to DNA damage?"
       },
       "options": ["Ras", "p53", "Reverse transcriptase", "Bicoid"],
-      "answer": "p53"
+      "answer": "p53",
+      "explanation": "p53 is called the 'guardian of the genome' because it halts the cell cycle or initiates apoptosis when DNA damage is detected. Ras is a proto-oncogene, and bicoid is a developmental morphogen."
     },
     {
       "type": "multiple_choice",
@@ -283,7 +305,8 @@
         "They serve as the structural components of the large ribosomal subunit.",
         "They facilitate the splicing of introns out of the primary transcript."
       ],
-      "answer": "They bind to complementary sequences in mRNA molecules to either degrade them or block their translation."
+      "answer": "They bind to complementary sequences in mRNA molecules to either degrade them or block their translation.",
+      "explanation": "miRNAs are short noncoding RNAs that base-pair with target mRNAs via RISC, leading to mRNA cleavage or translational repression. Ribosomal RNA forms ribosome structure; the spliceosome removes introns."
     },
     {
       "type": "multiple_choice",
@@ -296,7 +319,8 @@
         "siRNAs only function within the nucleus, while miRNAs only function within the mitochondria.",
         "siRNAs are used to increase transcription rates, while miRNAs are used to decrease translation rates."
       ],
-      "answer": "siRNAs usually arise from longer double-stranded RNA molecules (often from viruses), while miRNAs are processed from specific hairpins encoded by the cell's own genes."
+      "answer": "siRNAs usually arise from longer double-stranded RNA molecules (often from viruses), while miRNAs are processed from specific hairpins encoded by the cell's own genes.",
+      "explanation": "siRNAs are diced from long dsRNA (often exogenous), while miRNAs are trimmed from endogenous stem-loop precursors transcribed from the genome. Both primarily silence gene expression post-transcriptionally in the cytoplasm."
     }
   ]
 }

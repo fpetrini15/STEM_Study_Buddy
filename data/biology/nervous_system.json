@@ -12,7 +12,8 @@
         "Gray matter is found only in the brain, while white matter is found only in the spinal cord.",
         "Gray matter is responsible for metabolic energy production, while white matter is responsible for filtering the blood-brain barrier."
       ],
-      "answer": "Gray matter primarily contains neuron cell bodies and unmyelinated fibers, while white matter consists of bundles of myelinated axons."
+      "answer": "Gray matter primarily contains neuron cell bodies and unmyelinated fibers, while white matter consists of bundles of myelinated axons.",
+      "explanation": "Gray matter contains neuron cell bodies, dendrites, and synapses (processing); white matter consists of myelinated axon tracts (communication)."
     },
     {
       "type": "multiple_choice",
@@ -25,7 +26,8 @@
         "The Central system and the Peripheral system",
         "The Myelinated system and the Unmyelinated system"
       ],
-      "answer": "The Somatic (motor) system and the Autonomic nervous system"
+      "answer": "The Somatic (motor) system and the Autonomic nervous system",
+      "explanation": "The somatic nervous system controls voluntary skeletal muscle; the autonomic nervous system regulates involuntary organs via sympathetic and parasympathetic divisions."
     },
     {
       "type": "multiple_choice",
@@ -38,7 +40,8 @@
         "The sympathetic division is located entirely in the brain, while the parasympathetic division is located only in the spinal cord.",
         "The sympathetic division speeds up digestion to provide quick energy, while the parasympathetic division slows it down to save glucose."
       ],
-      "answer": "The sympathetic division prepares the body for 'fight or flight' (energy expenditure), while the parasympathetic division promotes 'rest and digest' (energy conservation)."
+      "answer": "The sympathetic division prepares the body for 'fight or flight' (energy expenditure), while the parasympathetic division promotes 'rest and digest' (energy conservation).",
+      "explanation": "Sympathetic activation mobilizes energy for stress ('fight or flight'); parasympathetic activation conserves energy and supports digestion and recovery ('rest and digest')."
     },
     {
       "type": "drag_and_drop",
@@ -49,7 +52,8 @@
         "Sympathetic Nervous System",
         "Parasympathetic Nervous System"
       ],
-      "answer": "Sympathetic Nervous System"
+      "answer": "Sympathetic Nervous System",
+      "explanation": "Epinephrine and norepinephrine from sympathetic activation increase heart rate and contractility to boost cardiac output during stress."
     },
     {
       "type": "drag_and_drop",
@@ -60,7 +64,8 @@
         "Sympathetic Nervous System",
         "Parasympathetic Nervous System"
       ],
-      "answer": "Parasympathetic Nervous System"
+      "answer": "Parasympathetic Nervous System",
+      "explanation": "Parasympathetic (vagal) stimulation slows the SA node, decreasing heart rate during rest."
     },
     {
       "type": "drag_and_drop",
@@ -71,7 +76,8 @@
         "Sympathetic Nervous System",
         "Parasympathetic Nervous System"
       ],
-      "answer": "Sympathetic Nervous System"
+      "answer": "Sympathetic Nervous System",
+      "explanation": "Sympathetic fibers to the iris dilator muscle enlarge the pupil to admit more light during alert states."
     },
     {
       "type": "drag_and_drop",
@@ -82,7 +88,8 @@
         "Sympathetic Nervous System",
         "Parasympathetic Nervous System"
       ],
-      "answer": "Parasympathetic Nervous System"
+      "answer": "Parasympathetic Nervous System",
+      "explanation": "Parasympathetic fibers to the iris sphincter constrict the pupil, protecting the retina and improving near focus."
     },
     {
       "type": "drag_and_drop",
@@ -93,7 +100,8 @@
         "Sympathetic Nervous System",
         "Parasympathetic Nervous System"
       ],
-      "answer": "Sympathetic Nervous System"
+      "answer": "Sympathetic Nervous System",
+      "explanation": "Sympathetic activation shunts blood away from the digestive tract toward skeletal muscles during emergency responses."
     },
     {
       "type": "drag_and_drop",
@@ -104,15 +112,22 @@
         "Sympathetic Nervous System",
         "Parasympathetic Nervous System"
       ],
-      "answer": "Parasympathetic Nervous System"
+      "answer": "Parasympathetic Nervous System",
+      "explanation": "Parasympathetic stimulation increases GI motility and secretions, promoting nutrient breakdown and absorption during rest."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "Which major brain region is responsible for complex functions such as learning, memory, and the processing of sensory input?"
       },
-      "options": ["Forebrain", "Midbrain", "Hindbrain", "Spinal Cord"],
-      "answer": "Forebrain"
+      "options": [
+        "Forebrain",
+        "Midbrain",
+        "Hindbrain",
+        "Spinal Cord"
+      ],
+      "answer": "Forebrain",
+      "explanation": "The forebrain (cerebrum, thalamus, hypothalamus) handles higher cognition, sensation, and emotion; midbrain and hindbrain manage more basic functions."
     },
     {
       "type": "multiple_choice",
@@ -125,23 +140,36 @@
         "Managing higher-level emotional intelligence and language development.",
         "Controlling involuntary muscle movements like the heartbeat."
       ],
-      "answer": "Coordinating the routing of sensory input to other specific areas of the brain."
+      "answer": "Coordinating the routing of sensory input to other specific areas of the brain.",
+      "explanation": "The midbrain contains relay nuclei (e.g., superior colliculus) that route visual and auditory signals to appropriate forebrain regions."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "Which brain region primarily coordinates involuntary activities, such as blood circulation and basic motor locomotion?"
       },
-      "options": ["Forebrain", "Midbrain", "Hindbrain", "Cerebrum"],
-      "answer": "Hindbrain"
+      "options": [
+        "Forebrain",
+        "Midbrain",
+        "Hindbrain",
+        "Cerebrum"
+      ],
+      "answer": "Hindbrain",
+      "explanation": "The hindbrain (medulla, pons, cerebellum) coordinates vital functions like breathing, heart rate, and motor coordination."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "Which structure consists of the midbrain, pons, and medulla oblongata and controls essential 'homeostatic' functions like breathing, heart rate, and swallowing?"
       },
-      "options": ["Cerebellum", "Brainstem", "Cerebral Cortex", "Thalamus"],
-      "answer": "Brainstem"
+      "options": [
+        "Cerebellum",
+        "Brainstem",
+        "Cerebral Cortex",
+        "Thalamus"
+      ],
+      "answer": "Brainstem",
+      "explanation": "The brainstem (midbrain, pons, medulla) controls autonomic homeostatic functions essential for survival, including respiration and cardiovascular regulation."
     },
     {
       "type": "multiple_choice",
@@ -154,7 +182,8 @@
         "Cerebellum",
         "Cerebral Cortex"
       ],
-      "answer": "Cerebellum"
+      "answer": "Cerebellum",
+      "explanation": "The cerebellum compares intended and actual movement, fine-tuning balance, posture, and coordinated motor sequences."
     },
     {
       "type": "multiple_choice",
@@ -167,7 +196,8 @@
         "It is the thick band of axons that allows the two hemispheres of the brain to communicate.",
         "It produces hormones that regulate the menstrual cycle and sperm production."
       ],
-      "answer": "It acts as the main input center for sensory information going to the cerebrum, sorting and relaying data to the correct destinations."
+      "answer": "It acts as the main input center for sensory information going to the cerebrum, sorting and relaying data to the correct destinations.",
+      "explanation": "Nearly all sensory information (except olfaction) passes through thalamic nuclei, which relay it to the appropriate cerebral cortex area."
     },
     {
       "type": "multiple_choice",
@@ -180,7 +210,8 @@
         "Hypothalamus",
         "Brainstem"
       ],
-      "answer": "Hypothalamus"
+      "answer": "Hypothalamus",
+      "explanation": "The hypothalamus maintains homeostasis—regulating temperature, hunger, thirst, sleep cycles, and linking to the endocrine system via the pituitary."
     },
     {
       "type": "multiple_choice",
@@ -193,7 +224,8 @@
         "It filters toxins out of the cerebrospinal fluid before they reach the brainstem.",
         "It stores long-term memories regarding spatial navigation."
       ],
-      "answer": "It is the communication bridge consisting of axon bundles that connects the left and right cerebral hemispheres."
+      "answer": "It is the communication bridge consisting of axon bundles that connects the left and right cerebral hemispheres.",
+      "explanation": "The corpus callosum is a large bundle of commissural axons enabling the left and right cerebral hemispheres to share information."
     },
     {
       "type": "multiple_choice",
@@ -206,7 +238,8 @@
         "Cerebral Cortex",
         "Medulla Oblongata"
       ],
-      "answer": "Cerebral Cortex"
+      "answer": "Cerebral Cortex",
+      "explanation": "The cerebral cortex is the outer gray matter layer where conscious perception, voluntary movement, and higher cognition occur."
     },
     {
       "type": "multiple_choice",
@@ -219,7 +252,8 @@
         "Temporal Lobe",
         "Occipital Lobe"
       ],
-      "answer": "Frontal Lobe"
+      "answer": "Frontal Lobe",
+      "explanation": "The frontal lobe contains the primary motor cortex and prefrontal areas governing planning, decision-making, and voluntary movement control."
     },
     {
       "type": "multiple_choice",
@@ -232,7 +266,8 @@
         "Temporal Lobe",
         "Occipital Lobe"
       ],
-      "answer": "Parietal Lobe"
+      "answer": "Parietal Lobe",
+      "explanation": "The parietal lobe's somatosensory cortex processes touch, temperature, pain, and proprioception from the body surface."
     },
     {
       "type": "multiple_choice",
@@ -245,7 +280,8 @@
         "Temporal Lobe",
         "Parietal Lobe"
       ],
-      "answer": "Temporal Lobe"
+      "answer": "Temporal Lobe",
+      "explanation": "The temporal lobe processes auditory input and is critical for language comprehension (Wernicke's area) and memory formation."
     },
     {
       "type": "multiple_choice",
@@ -258,7 +294,8 @@
         "Parietal Lobe",
         "Frontal Lobe"
       ],
-      "answer": "Occipital Lobe"
+      "answer": "Occipital Lobe",
+      "explanation": "The occipital lobe contains the primary visual cortex, dedicated to processing visual information from the retina."
     },
     {
       "type": "drag_and_drop",
@@ -272,7 +309,8 @@
         "Occipital Lobe",
         "Cerebellum"
       ],
-      "answer": "Cerebellum"
+      "answer": "Cerebellum",
+      "explanation": "Catching a falling object requires rapid, coordinated motor timing and balance—core cerebellar functions, not primarily cortical planning."
     },
     {
       "type": "drag_and_drop",
@@ -286,7 +324,8 @@
         "Occipital Lobe",
         "Cerebellum"
       ],
-      "answer": "Frontal Lobe"
+      "answer": "Frontal Lobe",
+      "explanation": "Weighing long-term consequences of a major decision engages the prefrontal cortex of the frontal lobe."
     },
     {
       "type": "drag_and_drop",
@@ -300,7 +339,8 @@
         "Occipital Lobe",
         "Cerebellum"
       ],
-      "answer": "Parietal Lobe"
+      "answer": "Parietal Lobe",
+      "explanation": "Detecting heat through fingertip touch is processed in the somatosensory cortex of the parietal lobe."
     },
     {
       "type": "drag_and_drop",
@@ -314,7 +354,8 @@
         "Occipital Lobe",
         "Cerebellum"
       ],
-      "answer": "Temporal Lobe"
+      "answer": "Temporal Lobe",
+      "explanation": "Recognizing melody and lyrics involves auditory processing in the temporal lobe's primary and association areas."
     },
     {
       "type": "drag_and_drop",
@@ -328,7 +369,8 @@
         "Occipital Lobe",
         "Cerebellum"
       ],
-      "answer": "Occipital Lobe"
+      "answer": "Occipital Lobe",
+      "explanation": "Visually scanning for a face relies on the occipital lobe's visual processing pathways and associated cortical areas."
     },
     {
       "type": "multiple_choice",
@@ -341,7 +383,8 @@
         "The process by which the brain replaces neurons lost to injury by converting glial cells into stem cells.",
         "The physical stretching of the axon to reach distant target tissues during periods of rapid growth."
       ],
-      "answer": "The ability of the nervous system to be modified and reorganized through the strengthening or weakening of synaptic connections in response to experience."
+      "answer": "The ability of the nervous system to be modified and reorganized through the strengthening or weakening of synaptic connections in response to experience.",
+      "explanation": "Neuroplasticity is the brain's ability to reorganize synaptic connections—strengthening or pruning them—based on learning and experience."
     },
     {
       "type": "multiple_choice",
@@ -354,7 +397,8 @@
         "By moving the electrical impulses into the white matter where they are stored as static magnetic fields.",
         "By creating a protective protein shell around the cell body to shield the memory from being overwritten."
       ],
-      "answer": "Through long-term potentiation (LTP), which involves a lasting increase in the strength of synaptic transmission between specific neurons."
+      "answer": "Through long-term potentiation (LTP), which involves a lasting increase in the strength of synaptic transmission between specific neurons.",
+      "explanation": "Long-term potentiation (LTP) persistently strengthens synapses that are repeatedly activated, providing a cellular basis for converting short-term into long-term memory."
     }
   ]
 }

@@ -20,12 +20,24 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <meta
+      name="description"
+      content="Chemistry quizzes covering acids, bases, and more. Classify compounds and test your knowledge with STEM Study Buddy."
+    />
+
     <title>Chemistry | STEM Study Buddy</title>
     <link rel="icon" href="images/favicons/chemistry.svg" />
+    <script src="js/theme.js"></script>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body>
+  <body class="subject-chemistry" data-page="subject" data-subject="chemistry">
     <div class="container">
       <header class="hero">
         <h1>Chemistry</h1>
@@ -33,46 +45,17 @@
         <p>Select a quiz to begin studying.</p>
       </header>
 
-      <h2>Available Quizzes</h2>
+      <div id="recent-quizzes" class="recent-section hidden"></div>
 
-      <div class="subject-grid">
-        <!-- MITOSIS -->
-
-        <div class="subject-card">
-          <div class="subject-icon">🥽</div>
-
-          <h3>Acids and Bases</h3>
-
-          <p>Test your knowledge of acids and bases</p>
-
-          <a href="quiz.html?quiz=chemistry/acids_and_bases">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">⚛️</div>
-
-          <h3>Polyatomic Ions</h3>
-
-          <p>
-            Test your knowledge of the formulas and charges of the polyatomic
-            ions.
-          </p>
-
-          <a href="quiz.html?quiz=biology/polyatomic_ions">
-            <button class="btn btn-full btn-disabled">Coming Soon</button>
-          </a>
-        </div>
-      </div>
-
-      <button class="btn btn-small" onclick="location.href = 'index.html'">
-        ← Back to Subjects
-      </button>
+      <div id="quiz-catalog"></div>
 
       <footer>
         <p>STEM Study Buddy © 2026</p>
       </footer>
     </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/catalog-utils.js"></script>
+    <script src="js/subject.js"></script>
   </body>
 </html>
