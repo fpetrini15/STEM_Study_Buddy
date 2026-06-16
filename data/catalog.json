@@ -1,0 +1,147 @@
+{
+  "biology": {
+    "title": "Biology",
+    "summary": "Cells, genetics, biological systems and more.",
+    "cardIcon": "🧬",
+    "icon": "images/favicons/dna.svg",
+    "units": [
+      {
+        "name": "Cell Division",
+        "quizzes": [
+          {
+            "id": "mitosis",
+            "title": "Mitosis",
+            "icon": "\ud83e\uddeb",
+            "description": "Interphase and mitotic phases \u2014 identify events and microscope images."
+          },
+          {
+            "id": "meiosis",
+            "title": "Meiosis",
+            "icon": "\u2640\ufe0f\u2642\ufe0f",
+            "description": "Meiosis I and II \u2014 crossing over, segregation, and gamete formation."
+          }
+        ]
+      },
+      {
+        "name": "Genetics & Inheritance",
+        "quizzes": [
+          {
+            "id": "genetics",
+            "title": "Mendelian Genetics",
+            "icon": "\ud83e\udedb",
+            "description": "Genotypes, phenotypes, dominance, and Punnett square reasoning."
+          },
+          {
+            "id": "chromosomal_basis_of_inheritance",
+            "title": "Chromosomal Basis of Inheritance",
+            "icon": "\ud83e\uddec",
+            "description": "Linked genes, sex linkage, recombination, and pedigree analysis."
+          },
+          {
+            "id": "molecular_basis_of_inheritance",
+            "title": "Molecular Basis of Inheritance",
+            "icon": "\ud83d\udd2c",
+            "description": "DNA structure, replication enzymes, and repair mechanisms."
+          }
+        ]
+      },
+      {
+        "name": "Gene Expression",
+        "quizzes": [
+          {
+            "id": "gene_expression",
+            "title": "Gene to Protein",
+            "icon": "\ud83d\udda8\ufe0f",
+            "description": "Transcription, RNA processing, translation, and mutations."
+          },
+          {
+            "id": "regulation_of_gene_expression",
+            "title": "Gene Regulation",
+            "icon": "\ud83d\udea6",
+            "description": "Operons, epigenetics, differentiation, and cell specialization."
+          }
+        ]
+      },
+      {
+        "name": "Animal Systems",
+        "quizzes": [
+          {
+            "id": "animal_form_and_function",
+            "title": "Animal Form and Function",
+            "icon": "\ud83e\udd8e",
+            "description": "Homeostasis, thermoregulation, tissues, and organ systems overview."
+          },
+          {
+            "id": "animal_nutrition",
+            "title": "Animal Nutrition",
+            "icon": "\ud83e\udd66",
+            "description": "Digestive tracts, enzymes, and nutrient processing across animals."
+          },
+          {
+            "id": "circulation_and_gas_exchange",
+            "title": "Circulation and Gas Exchange",
+            "icon": "\u2764\ufe0f\ud83e\udec1",
+            "description": "Cardiovascular anatomy, blood flow, and respiratory gas exchange."
+          },
+          {
+            "id": "immune_system",
+            "title": "The Immune System",
+            "icon": "\ud83e\udda0",
+            "description": "Innate and adaptive immunity, antibodies, and immune responses."
+          },
+          {
+            "id": "osmoregulation_and_excretion",
+            "title": "Osmoregulation and Excretion",
+            "icon": "\ud83d\udca7",
+            "description": "Kidney function, nephron segments, and water/solute balance."
+          },
+          {
+            "id": "hormones_and_the_endocrine_system",
+            "title": "Hormones and the Endocrine System",
+            "icon": "\ud83d\udce1",
+            "description": "Endocrine glands, hormone signaling, and feedback loops."
+          },
+          {
+            "id": "neurons_synapses_and_signaling",
+            "title": "Neurons, Synapses, and Signaling",
+            "icon": "\u26a1",
+            "description": "Action potentials, synaptic transmission, and neural signaling."
+          },
+          {
+            "id": "nervous_system",
+            "title": "Nervous System",
+            "icon": "\ud83e\udde0",
+            "description": "CNS/PNS organization, brain regions, and autonomic control."
+          }
+        ]
+      }
+    ],
+    "comingSoon": [
+      {
+        "title": "More Biology",
+        "icon": "\ud83e\uddea",
+        "description": "Additional quizzes coming soon."
+      }
+    ]
+  },
+  "chemistry": {
+    "title": "Chemistry",
+    "summary": "Acids, bases, polyatomic ions and more.",
+    "cardIcon": "⚗️",
+    "icon": "images/favicons/chemistry.svg",
+    "quizzes": [
+      {
+        "id": "acids_and_bases",
+        "title": "Acids and Bases",
+        "icon": "\ud83e\udd7d",
+        "description": "Classify common acids and bases by strength."
+      },
+      {
+        "id": "polyatomic_ions",
+        "title": "Polyatomic Ions",
+        "icon": "\u269b\ufe0f",
+        "description": "Formulas and charges of common polyatomic ions."
+      }
+    ]
+  }
+}

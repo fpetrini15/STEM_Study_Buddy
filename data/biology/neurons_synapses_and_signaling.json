@@ -12,7 +12,8 @@
         "Dendrites and axons are identical in structure, but dendrites only carry electrical signals while axons carry chemical signals.",
         "Dendrites emerge from the axon hillock to initiate action potentials, while the axon provides the surface area for receiving neurotransmitters."
       ],
-      "answer": "Dendrites act as the receiving end that conducts signals toward the cell body, while the single axon conducts impulses away from the cell body toward a synapse."
+      "answer": "Dendrites act as the receiving end that conducts signals toward the cell body, while the single axon conducts impulses away from the cell body toward a synapse.",
+      "explanation": "Dendrites receive signals from other neurons and conduct graded potentials toward the soma; the axon transmits action potentials away to synapses."
     },
     {
       "type": "multiple_choice",
@@ -25,7 +26,8 @@
         "Myelin is a type of glial cell that provides structural support to neurons.",
         "Myelin is a protein that forms the cytoskeleton of neurons, maintaining their shape and integrity."
       ],
-      "answer": "Myelin is a fatty substance that insulates axons, increasing the speed of electrical signal transmission."
+      "answer": "Myelin is a fatty substance that insulates axons, increasing the speed of electrical signal transmission.",
+      "explanation": "Myelin sheaths insulate axons and force current to jump between nodes, dramatically increasing the speed of action potential propagation."
     },
     {
       "type": "multiple_choice",
@@ -38,7 +40,8 @@
         "Motor Output → Sensory Input → Integration",
         "Sensory Input → Motor Output → Integration"
       ],
-      "answer": "Sensory Input → Integration → Motor Output"
+      "answer": "Sensory Input → Integration → Motor Output",
+      "explanation": "Information flows from sensory receptors (input) through integration in the CNS to motor/effector responses (output)."
     },
     {
       "type": "multiple_choice",
@@ -51,7 +54,8 @@
         "The CNS consists only of motor neurons, while the PNS consists only of sensory neurons.",
         "The CNS regulates the endocrine system, while the PNS operates entirely independently of the brain to control muscle movement."
       ],
-      "answer": "The CNS consists of the brain and spinal cord and acts as the integration center, while the PNS consists of nerves that carry information into and out of the CNS."
+      "answer": "The CNS consists of the brain and spinal cord and acts as the integration center, while the PNS consists of nerves that carry information into and out of the CNS.",
+      "explanation": "The CNS (brain and spinal cord) processes and integrates information; the PNS (cranial and spinal nerves) links the CNS to the rest of the body."
     },
     {
       "type": "drag_and_drop",
@@ -62,7 +66,8 @@
         "Central Nervous System (CNS)",
         "Peripheral Nervous System (PNS)"
       ],
-      "answer": "Central Nervous System (CNS)"
+      "answer": "Central Nervous System (CNS)",
+      "explanation": "The brain is the central integration and control center, protected within the skull as part of the CNS."
     },
     {
       "type": "drag_and_drop",
@@ -73,7 +78,8 @@
         "Central Nervous System (CNS)",
         "Peripheral Nervous System (PNS)"
       ],
-      "answer": "Central Nervous System (CNS)"
+      "answer": "Central Nervous System (CNS)",
+      "explanation": "The spinal cord is CNS tissue running through the vertebral column, relaying signals between brain and peripheral nerves."
     },
     {
       "type": "drag_and_drop",
@@ -84,7 +90,8 @@
         "Central Nervous System (CNS)",
         "Peripheral Nervous System (PNS)"
       ],
-      "answer": "Peripheral Nervous System (PNS)"
+      "answer": "Peripheral Nervous System (PNS)",
+      "explanation": "Cranial nerves emerge from the brain and innervate head and neck structures—they are peripheral, not central, nervous tissue."
     },
     {
       "type": "drag_and_drop",
@@ -95,7 +102,8 @@
         "Central Nervous System (CNS)",
         "Peripheral Nervous System (PNS)"
       ],
-      "answer": "Peripheral Nervous System (PNS)"
+      "answer": "Peripheral Nervous System (PNS)",
+      "explanation": "Spinal nerves branch from the spinal cord to the body trunk and limbs, carrying sensory and motor fibers of the PNS."
     },
     {
       "type": "multiple_choice",
@@ -108,7 +116,8 @@
         "The speed at which an electrical impulse travels from the dendrites to the axon hillock.",
         "The pressure exerted by the cytoplasm against the cell membrane during an action potential."
       ],
-      "answer": "The charge difference across the plasma membrane, with the inside of the cell being negative relative to the outside."
+      "answer": "The charge difference across the plasma membrane, with the inside of the cell being negative relative to the outside.",
+      "explanation": "The resting membrane potential (~−70 mV) results from unequal ion distribution and selective permeability, making the cytosol negative relative to the extracellular fluid."
     },
     {
       "type": "multiple_choice",
@@ -121,7 +130,8 @@
         "It pumps negative electrons into the cell while moving positive protons into the extracellular fluid.",
         "It converts sodium into potassium to ensure the cell has a constant supply of energy for neurotransmission."
       ],
-      "answer": "It uses ATP to actively transport 3 sodium ions out of the cell for every 2 potassium ions it brings in, helping maintain a negative internal charge."
+      "answer": "It uses ATP to actively transport 3 sodium ions out of the cell for every 2 potassium ions it brings in, helping maintain a negative internal charge.",
+      "explanation": "The Na⁺/K⁺ pump exports three Na⁺ for every two K⁺ imported, net exporting positive charge and maintaining the negative resting potential."
     },
     {
       "type": "multiple_choice",
@@ -134,7 +144,8 @@
         "The activation of the sodium-potassium pump to move all positive ions into the surrounding tissue.",
         "The release of neurotransmitters from the dendrites into the cell body."
       ],
-      "answer": "The rapid opening of voltage-gated sodium channels, allowing Na+ to flow into the cell and make the inside more positive."
+      "answer": "The rapid opening of voltage-gated sodium channels, allowing Na+ to flow into the cell and make the inside more positive.",
+      "explanation": "Depolarization occurs when voltage-gated Na⁺ channels open and Na⁺ rushes in, reversing the membrane potential toward positive values."
     },
     {
       "type": "multiple_choice",
@@ -147,7 +158,8 @@
         "The sodium-potassium pump stops working, causing the internal and external charges to equalize at 0 mV.",
         "Voltage-gated sodium channels open rapidly, allowing the cell to reach a peak positive charge."
       ],
-      "answer": "The membrane potential becomes more negative than the resting potential, increasing the 'distance' to the threshold."
+      "answer": "The membrane potential becomes more negative than the resting potential, increasing the 'distance' to the threshold.",
+      "explanation": "After repolarization, K⁺ efflux briefly overshoots resting potential, making the inside even more negative and harder to reach threshold again."
     },
     {
       "type": "multiple_choice",
@@ -160,7 +172,8 @@
         "The neuron uses all of its ATP to fire a single signal and then must wait several days to recharge.",
         "The signal can stop halfway down the axon if the initial energy provided by the cell body was insufficient."
       ],
-      "answer": "The action potential either occurs fully once the threshold is reached or it does not occur at all, regardless of the stimulus strength."
+      "answer": "The action potential either occurs fully once the threshold is reached or it does not occur at all, regardless of the stimulus strength.",
+      "explanation": "Once threshold is reached, an action potential fires at full amplitude every time; stronger stimuli increase firing frequency, not signal strength."
     },
     {
       "type": "multiple_choice",
@@ -173,7 +186,8 @@
         "It is a period of high energy where the neuron can fire multiple action potentials simultaneously to amplify the signal.",
         "It allows the myelin sheath to regrow after being dissolved by the electrical current of the impulse."
       ],
-      "answer": "It prevents the action potential from traveling backward and ensures that nerve impulses move in only one direction toward the synaptic terminals."
+      "answer": "It prevents the action potential from traveling backward and ensures that nerve impulses move in only one direction toward the synaptic terminals.",
+      "explanation": "During the refractory period, Na⁺ channels are inactivated, preventing backward propagation and ensuring one-directional signal flow down the axon."
     },
     {
       "type": "multiple_choice",
@@ -186,7 +200,8 @@
         "By providing extra ATP at each node to push the sodium-potassium pump into overdrive.",
         "By narrowing the axon at the nodes to increase the pressure and velocity of the ionic flow."
       ],
-      "answer": "By forcing the action potential to 'jump' from one node to the next, skipping the insulated myelinated sections and depolarizing only at the gaps."
+      "answer": "By forcing the action potential to 'jump' from one node to the next, skipping the insulated myelinated sections and depolarizing only at the gaps.",
+      "explanation": "Saltatory conduction regenerates the action potential only at unmyelinated nodes of Ranvier, skipping myelinated segments for faster transmission."
     },
     {
       "type": "multiple_choice",
@@ -199,7 +214,8 @@
         "Electrical jumping similar to saltatory conduction",
         "Pressure-driven flow through specialized microscopic tubes"
       ],
-      "answer": "Passive diffusion across the narrow gap"
+      "answer": "Passive diffusion across the narrow gap",
+      "explanation": "Neurotransmitters diffuse down their concentration gradient across the ~20 nm synaptic cleft—too short a distance to require active transport."
     }
   ]
 }

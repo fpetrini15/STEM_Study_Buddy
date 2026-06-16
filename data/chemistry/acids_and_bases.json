@@ -7,7 +7,8 @@
         "text": "HCl"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Acid"
+      "answer": "Strong Acid",
+      "explanation": "Hydrochloric acid is one of the seven common strong acids and dissociates completely in water. Unlike weak acids such as HF or CH₃COOH, essentially no undissociated HCl remains in aqueous solution."
     },
     {
       "type": "drag_and_drop",
@@ -15,15 +16,8 @@
         "text": "HClO₄"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Acid"
-    },
-    {
-      "type": "drag_and_drop",
-      "prompt": {
-        "text": "HCl"
-      },
-      "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Acid"
+      "answer": "Strong Acid",
+      "explanation": "Perchloric acid is among the strongest common acids and ionizes completely in water. Its conjugate base, ClO₄⁻, is extremely weak and cannot pull protons back from water."
     },
     {
       "type": "drag_and_drop",
@@ -31,7 +25,8 @@
         "text": "HBr"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Acid"
+      "answer": "Strong Acid",
+      "explanation": "Hydrobromic acid is a strong binary acid that dissociates completely in water. The H–Br bond is sufficiently polar and weak that proton transfer to water goes essentially to completion."
     },
     {
       "type": "drag_and_drop",
@@ -39,7 +34,8 @@
         "text": "HI"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Acid"
+      "answer": "Strong Acid",
+      "explanation": "Hydroiodic acid is one of the common strong acids and ionizes completely in aqueous solution. Among the hydrogen halides, HI is actually the strongest acid because the large, diffuse iodide stabilizes the conjugate base."
     },
     {
       "type": "drag_and_drop",
@@ -47,7 +43,8 @@
         "text": "HNO₃"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Acid"
+      "answer": "Strong Acid",
+      "explanation": "Nitric acid is a common oxyacid classified as strong and dissociates completely in dilute aqueous solution. Do not confuse it with nitrous acid (HNO₂), which is a weak acid."
     },
     {
       "type": "drag_and_drop",
@@ -55,7 +52,8 @@
         "text": "H₂SO₄"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Acid"
+      "answer": "Strong Acid",
+      "explanation": "Sulfuric acid is a strong acid; its first proton dissociates completely in water. H₂SO₃ (sulfurous acid) is a different, weaker oxyacid and should not be grouped with H₂SO₄."
     },
     {
       "type": "drag_and_drop",
@@ -63,7 +61,8 @@
         "text": "H₂SO₃"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Weak Acid"
+      "answer": "Weak Acid",
+      "explanation": "Sulfurous acid only partially ionizes in water, establishing an equilibrium between H₂SO₃ and its ions. H₂SO₄ (sulfuric acid) is strong, but adding oxygen one step lower in oxidation state makes H₂SO₃ significantly weaker."
     },
     {
       "type": "drag_and_drop",
@@ -71,7 +70,8 @@
         "text": "H₃PO₄"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Weak Acid"
+      "answer": "Weak Acid",
+      "explanation": "Phosphoric acid is a triprotic acid that dissociates only partially at each step in water. Even its first proton is not fully transferred, so it is classified as weak rather than among the common strong acids."
     },
     {
       "type": "drag_and_drop",
@@ -79,7 +79,8 @@
         "text": "HNO₂"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Weak Acid"
+      "answer": "Weak Acid",
+      "explanation": "Nitrous acid establishes an equilibrium in water and does not fully dissociate. HNO₃ (nitric acid) is the strong oxyacid of nitrogen; replacing one oxygen with hydrogen lowers acidity."
     },
     {
       "type": "drag_and_drop",
@@ -87,7 +88,8 @@
         "text": "CH₃COOH"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Weak Acid"
+      "answer": "Weak Acid",
+      "explanation": "Acetic acid is the classic weak organic acid—only a small fraction of molecules ionize in water at equilibrium. Its conjugate base, acetate, is stable enough that the reaction does not go to completion."
     },
     {
       "type": "drag_and_drop",
@@ -95,7 +97,8 @@
         "text": "HF"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Weak Acid"
+      "answer": "Weak Acid",
+      "explanation": "Despite being a hydrogen halide, HF is classified as a weak acid because the small, highly electronegative fluoride ion strongly holds the proton. HCl, HBr, and HI are strong, but HF does not fully dissociate in water."
     },
     {
       "type": "drag_and_drop",
@@ -103,7 +106,8 @@
         "text": "NH₃"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Weak Base"
+      "answer": "Weak Base",
+      "explanation": "Ammonia accepts a proton from water to form NH₄⁺, but only a small fraction of molecules react at equilibrium. Group 1 hydroxides such as NaOH are strong bases; NH₃ is a molecular weak base."
     },
     {
       "type": "drag_and_drop",
@@ -111,7 +115,8 @@
         "text": "C₅H₅N"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Weak Base"
+      "answer": "Weak Base",
+      "explanation": "Pyridine's nitrogen lone pair can accept a proton, but it ionizes only partially in water. Like NH₃, it is a molecular base rather than a strong base such as NaOH or KOH."
     },
     {
       "type": "drag_and_drop",
@@ -119,7 +124,8 @@
         "text": "NaOH"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Base"
+      "answer": "Strong Base",
+      "explanation": "Sodium hydroxide dissociates completely in water to Na⁺ and OH⁻. Hydroxides of group 1 metals are strong bases; NH₃ and other molecular bases only partially accept protons."
     },
     {
       "type": "drag_and_drop",
@@ -127,7 +133,8 @@
         "text": "LiOH"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Base"
+      "answer": "Strong Base",
+      "explanation": "Lithium hydroxide is a group 1 metal hydroxide and dissociates fully in aqueous solution. It behaves like NaOH and KOH rather than weak bases such as ammonia."
     },
     {
       "type": "drag_and_drop",
@@ -135,7 +142,8 @@
         "text": "KOH"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Base"
+      "answer": "Strong Base",
+      "explanation": "Potassium hydroxide ionizes completely in water, making it a strong base. Group 1 hydroxides are strong; molecular nitrogen bases like NH₃ are weak."
     },
     {
       "type": "drag_and_drop",
@@ -143,7 +151,8 @@
         "text": "Ba(OH)₂"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Base"
+      "answer": "Strong Base",
+      "explanation": "Barium hydroxide is a strong base because it dissociates completely in water, yielding two OH⁻ ions per formula unit. Heavier group 2 hydroxides such as Ba(OH)₂ and Ca(OH)₂ are considered strong."
     },
     {
       "type": "drag_and_drop",
@@ -151,7 +160,8 @@
         "text": "Ca(OH)₂"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Base"
+      "answer": "Strong Base",
+      "explanation": "Calcium hydroxide dissociates fully in aqueous solution and is classified as a strong base. Mg(OH)₂ is much less soluble and behaves more weakly, but Ca(OH)₂ is treated as strong among common hydroxides."
     }
   ]
 }

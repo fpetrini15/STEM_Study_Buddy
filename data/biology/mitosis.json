@@ -3,7 +3,9 @@
   "questions": [
     {
       "type": "drag_and_drop",
-      "prompt": { "image": "images/biology/mitosis/g1phase.png" },
+      "prompt": {
+        "image": "images/biology/mitosis/g1phase.png"
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -12,12 +14,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "G1 Phase"
+      "answer": "G1 Phase",
+      "explanation": "G1 is the first gap phase of interphase, when the cell grows and performs its normal functions before S-phase DNA replication. The image shows a cell with unreplicated chromatin and no mitotic spindle."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Sister chromatids condense." },
+      "prompt": {
+        "text": "Sister chromatids condense."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -26,12 +30,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Prophase"
+      "answer": "Prophase",
+      "explanation": "Sister chromatids first become visibly condensed during prophase, when chromatin compacts into discrete chromosomes. Condensation allows orderly attachment to the spindle and separation later in division."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Nucleoli disappear." },
+      "prompt": {
+        "text": "Nucleoli disappear."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -40,12 +46,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Prophase"
+      "answer": "Prophase",
+      "explanation": "Nucleoli disappear in prophase as ribosomal RNA synthesis pauses and the nucleolus disassembles. This accompanies chromosome condensation and nuclear reorganization at the start of mitosis."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Mitotic spindle begins to form." },
+      "prompt": {
+        "text": "Mitotic spindle begins to form."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -54,12 +62,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Prophase"
+      "answer": "Prophase",
+      "explanation": "The mitotic spindle begins forming in prophase as centrosomes separate and microtubules polymerize. Spindle assembly is essential for later chromosome alignment and movement."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Centrosomes begin moving away from each other." },
+      "prompt": {
+        "text": "Centrosomes begin moving away from each other."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -68,12 +78,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Prophase"
+      "answer": "Prophase",
+      "explanation": "Centrosomes migrate toward opposite poles during prophase, establishing the bipolar spindle. Their separation defines the axis along which chromosomes will be divided."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "image": "images/biology/mitosis/prophase.png" },
+      "prompt": {
+        "image": "images/biology/mitosis/prophase.png"
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -82,12 +94,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Prophase"
+      "answer": "Prophase",
+      "explanation": "Prophase is marked by condensed chromosomes, spindle initiation, and centrosome separation\u2014events visible in the phase diagram. Prometaphase follows once the nuclear envelope breaks down."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Nuclear envelope fragments." },
+      "prompt": {
+        "text": "Nuclear envelope fragments."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -96,9 +110,9 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Prometaphase"
+      "answer": "Prometaphase",
+      "explanation": "The nuclear envelope fragments in prometaphase, allowing spindle microtubules to reach chromosomes. This transition separates prophase from metaphase."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -112,9 +126,9 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Prometaphase"
+      "answer": "Prometaphase",
+      "explanation": "Prometaphase is when centrosomal microtubules invade the former nuclear area after envelope breakdown. Spindle fibers can then attach to kinetochores on condensing chromosomes."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -128,9 +142,9 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Prometaphase"
+      "answer": "Prometaphase",
+      "explanation": "Kinetochores assemble at centromeres during prometaphase as the nuclear envelope breaks down. Each sister chromatid has its own kinetochore, giving two per replicated chromosome."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -144,9 +158,9 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Prometaphase"
+      "answer": "Prometaphase",
+      "explanation": "Kinetochore microtubules first connect to chromosomes in prometaphase, generating the pulling forces that congress chromosomes to the metaphase plate."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -160,12 +174,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Prometaphase"
+      "answer": "Prometaphase",
+      "explanation": "Non-kinetochore microtubules from opposite poles overlap and push apart during prometaphase, elongating the cell. This polar microtubule interaction helps position centrosomes at opposite ends."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "image": "images/biology/mitosis/prometaphase.png" },
+      "prompt": {
+        "image": "images/biology/mitosis/prometaphase.png"
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -174,12 +190,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Prometaphase"
+      "answer": "Prometaphase",
+      "explanation": "Prometaphase features a fragmenting nuclear envelope, invading microtubules, and chromosomes being captured by the spindle\u2014events shown in the prometaphase image."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Centrosomes are now at opposite ends of the cell." },
+      "prompt": {
+        "text": "Centrosomes are now at opposite ends of the cell."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -188,9 +206,9 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Metaphase"
+      "answer": "Metaphase",
+      "explanation": "By metaphase, centrosomes have completed migration to opposite poles. A bipolar spindle is fully formed and ready to separate sister chromatids."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -204,12 +222,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Metaphase"
+      "answer": "Metaphase",
+      "explanation": "Metaphase is defined by chromosomes aligned at the metaphase plate, equidistant from both spindle poles. This alignment ensures equal distribution of chromatids to daughter cells."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "image": "images/biology/mitosis/metaphase.png" },
+      "prompt": {
+        "image": "images/biology/mitosis/metaphase.png"
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -218,12 +238,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Metaphase"
+      "answer": "Metaphase",
+      "explanation": "The metaphase image shows chromosomes congressed at the cell equator with spindle fibers attached. This is the staging point immediately before sister chromatid separation."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Shortest stage of mitosis." },
+      "prompt": {
+        "text": "Shortest stage of mitosis."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -232,12 +254,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Anaphase"
+      "answer": "Anaphase",
+      "explanation": "Anaphase is the shortest mitotic stage because cohesin cleavage triggers rapid, simultaneous separation of all sister chromatids. Chromosomes move quickly toward opposite poles."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Cohesion proteins are cleaved." },
+      "prompt": {
+        "text": "Cohesion proteins are cleaved."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -246,12 +270,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Anaphase"
+      "answer": "Anaphase",
+      "explanation": "Cohesin proteins holding sister chromatids together are cleaved at the onset of anaphase. Their removal allows sisters to separate and move toward opposite poles."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Sister chromatids separate abruptly." },
+      "prompt": {
+        "text": "Sister chromatids separate abruptly."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -260,12 +286,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Anaphase"
+      "answer": "Anaphase",
+      "explanation": "Sister chromatids separate abruptly in anaphase once centromeric cohesin is destroyed. Each former chromatid is then pulled poleward as an independent chromosome."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Sister chromatids become independent chromosomes." },
+      "prompt": {
+        "text": "Sister chromatids become independent chromosomes."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -274,9 +302,9 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Anaphase"
+      "answer": "Anaphase",
+      "explanation": "When sisters separate in anaphase, each chromatid becomes a full chromosome in its own right. The cell briefly doubles its chromosome count until cytokinesis partitions them."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -290,12 +318,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Anaphase"
+      "answer": "Anaphase",
+      "explanation": "In anaphase, kinetochore microtubules shorten, pulling daughter chromosomes toward opposite poles. Motor proteins and microtubule depolymerization drive this movement."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "image": "images/biology/mitosis/anaphase.png" },
+      "prompt": {
+        "image": "images/biology/mitosis/anaphase.png"
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -304,12 +334,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Anaphase"
+      "answer": "Anaphase",
+      "explanation": "The anaphase image shows sister chromatids moving toward opposite spindle poles. This is the key moment when identical genetic material is partitioned between future nuclei."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Two daughter nuclei form." },
+      "prompt": {
+        "text": "Two daughter nuclei form."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -318,9 +350,9 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Telophase"
+      "answer": "Telophase",
+      "explanation": "Telophase reverses prophase: two distinct daughter nuclei form at opposite poles. Nuclear division is essentially complete before cytokinesis splits the cytoplasm."
     },
-
     {
       "type": "drag_and_drop",
       "prompt": {
@@ -334,12 +366,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Telophase"
+      "answer": "Telophase",
+      "explanation": "During telophase, nuclear envelope vesicles fuse around each chromosome set, re-forming intact nuclei from ER and parent envelope fragments."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Nucleoli reappear." },
+      "prompt": {
+        "text": "Nucleoli reappear."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -348,12 +382,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Telophase"
+      "answer": "Telophase",
+      "explanation": "Nucleoli reappear in telophase as ribosomal RNA transcription resumes in the newly forming nuclei. Their return signals restoration of interphase nuclear organization."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Chromosomes become less condensed." },
+      "prompt": {
+        "text": "Chromosomes become less condensed."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -362,12 +398,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Telophase"
+      "answer": "Telophase",
+      "explanation": "Chromosomes decondense in telophase back into chromatin, making them less visible under the microscope. Decondensation accompanies the return to interphase gene expression."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "text": "Remaining spindle microtubules are depolymerized." },
+      "prompt": {
+        "text": "Remaining spindle microtubules are depolymerized."
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -376,12 +414,14 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Telophase"
+      "answer": "Telophase",
+      "explanation": "Remaining spindle microtubules depolymerize in telophase as the mitotic apparatus disassembles. The cell prepares to return to interphase once division finishes."
     },
-
     {
       "type": "drag_and_drop",
-      "prompt": { "image": "images/biology/mitosis/telophase.png" },
+      "prompt": {
+        "image": "images/biology/mitosis/telophase.png"
+      },
       "categories": [
         "G1 Phase",
         "Prophase",
@@ -390,55 +430,90 @@
         "Anaphase",
         "Telophase"
       ],
-      "answer": "Telophase"
+      "answer": "Telophase",
+      "explanation": "Telophase shows decondensing chromosomes enclosed in re-forming nuclei at opposite poles\u2014the final stage of nuclear division before cytokinesis."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "Sister chromatids are attached together but a structure known as a __."
       },
-      "options": ["Centromere", "Centrosome", "Chromosome", "Kinetechore"],
-      "answer": "Centromere"
+      "options": [
+        "Centromere",
+        "Centrosome",
+        "Chromosome",
+        "Kinetechore"
+      ],
+      "answer": "Centromere",
+      "explanation": "Sister chromatids are held together at the centromere, the constricted region where kinetochores attach and cohesin links the two copies. Centrosomes organize spindle poles; kinetochores bind microtubules."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "All body cells, not including sex cells, are known as __."
       },
-      "options": ["Gametes", "Somatic Cells", "Haploid Cells", "Germ Cells"],
-      "answer": "Somatic Cells"
+      "options": [
+        "Gametes",
+        "Somatic Cells",
+        "Haploid Cells",
+        "Germ Cells"
+      ],
+      "answer": "Somatic Cells",
+      "explanation": "Somatic cells are all body cells except gametes\u2014they are typically diploid and undergo mitosis for growth and repair. Gametes and germ cells are specialized for reproduction."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "Sister chromatids are attached down their length by protein complexes called __."
       },
-      "options": ["Condensins", "Cohesins", "Histones", "Centromeres"],
-      "answer": "Cohesins"
+      "options": [
+        "Condensins",
+        "Cohesins",
+        "Histones",
+        "Centromeres"
+      ],
+      "answer": "Cohesins",
+      "explanation": "Cohesin protein complexes bind sister chromatids along their length after DNA replication, keeping them paired until anaphase. Condensins compact chromosomes; histones package DNA; centromeres are attachment sites."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "A portion of chromatid to either side of the centromere is known as a(n) __."
       },
-      "options": ["Chromatid Segment", "Arm", "Kinetichore", "Telomere"],
-      "answer": "Cohesins"
+      "options": [
+        "Chromatid Segment",
+        "Arm",
+        "Kinetichore",
+        "Telomere"
+      ],
+      "answer": "Cohesins",
+      "explanation": "The segment of a chromatid on either side of the centromere is called an arm (short p arm, long q arm). Cohesins hold sisters together but are not the name for these chromosomal regions."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "A portion of chromatid to either side of the centromere is known as a(n) __."
       },
-      "options": ["Chromatid Segment", "Arm", "Kinetichore", "Telomere"],
-      "answer": "Cohesins"
+      "options": [
+        "Chromatid Segment",
+        "Arm",
+        "Kinetichore",
+        "Telomere"
+      ],
+      "answer": "Cohesins",
+      "explanation": "The segment of a chromatid on either side of the centromere is called an arm (short p arm, long q arm). Cohesins hold sisters together but are not the name for these chromosomal regions."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: Chromosomes, regardless of replication status, always have a centromere."
       },
-      "options": ["True", "False"],
-      "answer": "True"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Every chromosome has a centromere\u2014the region where kinetochores assemble and sister chromatids attach\u2014even before replication produces two chromatids. It defines the chromosome's attachment point to the spindle."
     },
     {
       "type": "multiple_choice",
@@ -451,39 +526,58 @@
         "Mitosis occurs only in plant cells, while cytokinesis occurs only in animal cells.",
         "Mitosis and cytokinesis are different names for the exact same process."
       ],
-      "answer": "Mitosis is the division of the nucleus, while cytokinesis is the division of the cytoplasm."
+      "answer": "Mitosis is the division of the nucleus, while cytokinesis is the division of the cytoplasm.",
+      "explanation": "Mitosis divides the nucleus (karyokinesis), while cytokinesis divides the cytoplasm into two cells. They are sequential but distinct processes that together complete cell division."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: Mitosis in plant cells requires centrioles."
       },
-      "options": ["True", "False"],
-      "answer": "False"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Plant cells form spindles without centrioles, using other microtubule-organizing centers. Centrioles are not required for mitosis in plants, unlike the common textbook emphasis on animal cells."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: Plant cells do not form a clevage furrow during mitosis."
       },
-      "options": ["True", "False"],
-      "answer": "True"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Plant cells divide by forming a cell plate instead of a cleavage furrow during cytokinesis. The cleavage furrow is characteristic of animal cell cytokinesis, not plant cells."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: Both prokaryotes and eukaryotes replicate via mitosis."
       },
-      "options": ["True", "False"],
-      "answer": "False"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Prokaryotes divide by binary fission, not mitosis\u2014there is no nuclear envelope or mitotic spindle. Mitosis is a eukaryotic process for partitioning a nucleus between daughter cells."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "The process by which prokaryotic cells, such as bacteria, undergo cell division is known as __."
       },
-      "options": ["Mitosis", "Budding", "Binary fission", "Fragmentation"],
-      "answer": "Binary fission"
+      "options": [
+        "Mitosis",
+        "Budding",
+        "Binary fission",
+        "Fragmentation"
+      ],
+      "answer": "Binary fission",
+      "explanation": "Binary fission is the prokaryotic mode of reproduction: the circular chromosome replicates and the cell splits in two. Mitosis, budding, and fragmentation are eukaryotic or other mechanisms."
     },
     {
       "type": "multiple_choice",
@@ -496,15 +590,22 @@
         "Growth factors that initiate DNA replication",
         "APC/C complexes that degrade sister chromatids"
       ],
-      "answer": "Cyclins that bind with Cdk to form active complexes"
+      "answer": "Cyclins that bind with Cdk to form active complexes",
+      "explanation": "MPF activity peaks when cyclin accumulates and binds Cdk to form an active kinase complex at the G2/M transition. Cyclin alone is inactive; APC/C degrades cyclin later to turn MPF off."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "Most human cells are in the __ phase."
       },
-      "options": ["G1", "G2", "G0", "S"],
-      "answer": "Binary fission"
+      "options": [
+        "G1",
+        "G2",
+        "G0",
+        "S"
+      ],
+      "answer": "Binary fission",
+      "explanation": "Most human cells spend the longest part of the cell cycle in G1 (or G0 if non-dividing), carrying out growth and normal functions. S, G2, and mitosis occupy much less total time."
     },
     {
       "type": "multiple_choice",
@@ -517,23 +618,36 @@
         "Competitive inhibition by p53 proteins",
         "Export of the complex out of the nucleus"
       ],
-      "answer": "Degradation of its cyclin subunit"
+      "answer": "Degradation of its cyclin subunit",
+      "explanation": "MPF inactivates in anaphase when APC/C ubiquitinates and degrades its cyclin subunit, dropping kinase activity. Without cyclin, the Cdk subunit cannot drive further mitotic events."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "Chromosomes are divided into two sections by the centromere; the shorter arm is designated as the __ arm, while the longer arm is the __ arm."
       },
-      "options": ["q, p", "p, q", "p, s", "l, s"],
-      "answer": "p, q"
+      "options": [
+        "q, p",
+        "p, q",
+        "p, s",
+        "l, s"
+      ],
+      "answer": "p, q",
+      "explanation": "Cytogenetic convention labels the short chromosomal arm p and the long arm q. These arm designations describe regions flanking the centromere on each chromatid."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "In a human somatic cell that typically contains 46 chromosomes, how many sister chromatids are present immediately following the completion of S phase?"
       },
-      "options": ["23", "46", "92", "184"],
-      "answer": "92"
+      "options": [
+        "23",
+        "46",
+        "92",
+        "184"
+      ],
+      "answer": "92",
+      "explanation": "After S phase, each of the 46 chromosomes consists of two sister chromatids, giving 92 chromatids total. Chromatid count doubles during replication even though chromosome number stays 46 until anaphase."
     }
   ]
 }

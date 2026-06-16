@@ -19,12 +19,24 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <meta
+      name="description"
+      content="Biology quizzes on cell division, genetics, gene expression, and animal systems. Search topics and study with instant feedback."
+    />
+
     <title>Biology | STEM Study Buddy</title>
     <link rel="icon" href="images/favicons/dna.svg" />
+    <script src="js/theme.js"></script>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body>
+  <body class="subject-biology" data-page="subject" data-subject="biology">
     <div class="container">
       <header class="hero">
         <h1>Biology</h1>
@@ -32,233 +44,28 @@
         <p>Select a quiz to begin studying.</p>
       </header>
 
-      <h2>Available Quizzes</h2>
-
-      <div class="subject-grid">
-        <!-- MITOSIS -->
-
-        <div class="subject-card">
-          <div class="subject-icon">🧫</div>
-
-          <h3>Mitosis</h3>
-
-          <p>Test your knowledge of cell division.</p>
-
-          <a href="quiz.html?quiz=biology/mitosis">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">♀️♂️</div>
-
-          <h3>Meiosis</h3>
-
-          <p>Test your knowledge of gamete production.</p>
-
-          <a href="quiz.html?quiz=biology/meiosis">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">🫛</div>
-
-          <h3>Mendelian Genetics</h3>
-
-          <p>Test your knowledge of genotypes, phenotypes, alleles and more.</p>
-
-          <a href="quiz.html?quiz=biology/genetics">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">🧬</div>
-
-          <h3>Chromosomal Basis of Inheritance</h3>
-
-          <p>
-            Test your knowledge of linked and sex-linked genes, recombinants,
-            and more.
-          </p>
-          <a href="quiz.html?quiz=biology/chromosomal_basis_of_inheritance">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">🔬</div>
-
-          <h3>Molecular Basis of Inheritance</h3>
-
-          <p>
-            Test your knowledge of the molecules and enzymes involved in DNA
-            replication.
-          </p>
-
-          <a href="quiz.html?quiz=biology/molecular_basis_of_inheritance">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">🖨️</div>
-
-          <h3>Gene to Protein</h3>
-
-          <p>Test your knowledge of transcription and translation.</p>
-
-          <a href="quiz.html?quiz=biology/gene_expression">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">🚦</div>
-
-          <h3>Gene Regulation</h3>
-
-          <p>
-            Test your knowledge of gene regulation, differentiation,
-            specialization and more.
-          </p>
-
-          <a href="quiz.html?quiz=biology/regulation_of_gene_expression">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">🦎</div>
-
-          <h3>Animal Form and Function</h3>
-
-          <p>
-            Test your knowledge of homeostasis, thermoregulation, tissues and
-            more.
-          </p>
-
-          <a href="quiz.html?quiz=biology/animal_form_and_function">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">🥦</div>
-
-          <h3>Animal Nutrition</h3>
-
-          <p>Test your knowledge of nutrition and animal digestive tracts.</p>
-
-          <a href="quiz.html?quiz=biology/animal_nutrition">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">❤️🫁</div>
-
-          <h3>Circulation and Gas Exchange</h3>
-
-          <p>
-            Test your knowledge of the cardiovascular and respiratory systems.
-          </p>
-
-          <a href="quiz.html?quiz=biology/circulation_and_gas_exchange">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">🦠</div>
-
-          <h3>The Immune System</h3>
-
-          <p>Test your knowledge of the immune system and its responses.</p>
-
-          <a href="quiz.html?quiz=biology/immune_system">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">💧</div>
-
-          <h3>Osmoregulation and Excretion</h3>
-
-          <p>
-            Test your knowledge of osmoregulation, kidney function, and
-            excretion.
-          </p>
-
-          <a href="quiz.html?quiz=biology/osmoregulation_and_excretion">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">📡</div>
-
-          <h3>Hormones and the Endocrine System</h3>
-
-          <p>
-            Test your knowledge of hormone and endocrine signaling pathways.
-          </p>
-
-          <a href="quiz.html?quiz=biology/hormones_and_the_endocrine_system">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">𖣂⚡</div>
-
-          <h3>Neurons, Synapses, and Signaling</h3>
-
-          <p>
-            Test your knowledge of neural communication and signaling pathways.
-          </p>
-
-          <a href="quiz.html?quiz=biology/neurons_synapses_and_signaling">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <div class="subject-card">
-          <div class="subject-icon">🧠</div>
-
-          <h3>Nervous System</h3>
-
-          <p>
-            Test your knowledge of the brain and the surrounding nervous system.
-          </p>
-
-          <a href="quiz.html?quiz=biology/nervous_system">
-            <button class="btn btn-full">Start Quiz</button>
-          </a>
-        </div>
-
-        <!-- FUTURE QUIZ -->
-
-        <div class="subject-card">
-          <div class="subject-icon">🧪</div>
-
-          <h3>More Biology</h3>
-
-          <p>Additional quizzes coming soon.</p>
-
-          <button class="btn btn-full btn-disabled">Coming Soon</button>
-        </div>
+      <div id="recent-quizzes" class="recent-section hidden"></div>
+
+      <div id="quiz-search-wrap" class="quiz-search-wrap hidden">
+        <label class="search-label" for="quiz-search">Search quizzes</label>
+        <input
+          type="search"
+          id="quiz-search"
+          class="quiz-search"
+          placeholder="Search by topic or keyword..."
+          autocomplete="off"
+        />
       </div>
 
-      <button class="btn btn-small" onclick="location.href = 'index.html'">
-        ← Back to Subjects
-      </button>
+      <div id="quiz-catalog"></div>
 
       <footer>
         <p>STEM Study Buddy © 2026</p>
       </footer>
     </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/catalog-utils.js"></script>
+    <script src="js/subject.js"></script>
   </body>
 </html>

@@ -12,7 +12,8 @@
         "A simple body plan uses a heart to pump water, while a circulatory system uses blood vessels to store fat.",
         "A simple body plan lacks any internal organs, while a circulatory system is only found in organisms with an exoskeleton."
       ],
-      "answer": "A simple body plan relies on direct diffusion between cells and the environment, while a circulatory system uses fluid to transport materials over long distances."
+      "answer": "A simple body plan relies on direct diffusion between cells and the environment, while a circulatory system uses fluid to transport materials over long distances.",
+      "explanation": "Small, thin organisms can rely on diffusion because every cell is close to the environment; a circulatory system is needed when body size exceeds the distance over which diffusion alone is efficient."
     },
     {
       "type": "multiple_choice",
@@ -25,7 +26,8 @@
         "They remain completely dormant for most of their lives to avoid the need for nutrient distribution.",
         "They use specialized muscular pumps to move nutrients through a series of hollow skeletal tubes."
       ],
-      "answer": "They possess a body plan where most cells are in direct contact with the environment or a gastrovascular cavity."
+      "answer": "They possess a body plan where most cells are in direct contact with the environment or a gastrovascular cavity.",
+      "explanation": "Flatworms and cnidarians have thin bodies or a gastrovascular cavity that brings nutrients and gases within diffusion range of most cells, eliminating the need for separate vessels."
     },
     {
       "type": "multiple_choice",
@@ -38,7 +40,8 @@
         "Hemoglobin, white blood cells, and bone marrow",
         "A respiratory surface, an alimentary canal, and a heart"
       ],
-      "answer": "A muscular pump, a circulatory fluid, and a set of interconnecting vessels"
+      "answer": "A muscular pump, a circulatory fluid, and a set of interconnecting vessels",
+      "explanation": "Every circulatory system needs a pump (heart), a fluid medium (blood or hemolymph), and vessels or sinuses to connect tissues in a circuit."
     },
     {
       "type": "multiple_choice",
@@ -51,7 +54,8 @@
         "The heart acts as a vacuum that sucks fluid from the extremities back into the lungs.",
         "The heart vibrates at a high frequency to liquefy solid nutrients for easier movement."
       ],
-      "answer": "The heart creates hydrostatic pressure that pushes circulatory fluid through a circuit of vessels."
+      "answer": "The heart creates hydrostatic pressure that pushes circulatory fluid through a circuit of vessels.",
+      "explanation": "Cardiac contraction raises pressure in the vessels, driving fluid through arteries, capillaries, and veins in a continuous loop."
     },
     {
       "type": "multiple_choice",
@@ -64,7 +68,8 @@
         "In an open system, blood carries only nutrients, while in a closed system, blood carries only oxygen and carbon dioxide.",
         "An open system is found only in vertebrates, while a closed system is found only in insects and mollusks."
       ],
-      "answer": "In an open system, fluid bathes organs directly in a sinus, while in a closed system, blood is confined to vessels and kept distinct from interstitial fluid."
+      "answer": "In an open system, fluid bathes organs directly in a sinus, while in a closed system, blood is confined to vessels and kept distinct from interstitial fluid.",
+      "explanation": "In open systems, hemolymph leaves vessels and bathes tissues directly; in closed systems, blood stays confined to vessels, separate from interstitial fluid."
     },
     {
       "type": "multiple_choice",
@@ -77,7 +82,8 @@
         "Hemolymph is found only in vertebrates, while blood is found only in invertebrates like insects and spiders.",
         "Hemolymph contains red blood cells for gas exchange, while blood lacks specialized cells for carrying oxygen."
       ],
-      "answer": "Hemolymph is the same as the interstitial fluid that bathes body cells, while blood is a distinct fluid kept separate from interstitial fluid."
+      "answer": "Hemolymph is the same as the interstitial fluid that bathes body cells, while blood is a distinct fluid kept separate from interstitial fluid.",
+      "explanation": "In open circulatory systems, hemolymph is essentially the interstitial fluid bathing cells; in closed systems, blood remains a distinct compartment within vessels."
     },
     {
       "type": "multiple_choice",
@@ -90,7 +96,8 @@
         "The liver and the hepatic portal vein",
         "The brain and the spinal cord"
       ],
-      "answer": "The heart and the blood vessels"
+      "answer": "The heart and the blood vessels",
+      "explanation": "'Cardio-' refers to the heart and '-vascular' to the blood vessels—the two core components of vertebrate circulation."
     },
     {
       "type": "multiple_choice",
@@ -103,7 +110,8 @@
         "Hemoglobin, Plasma, and Platelets",
         "Sinuses, Bronchioles, and Alveoli"
       ],
-      "answer": "Arteries, Capillaries, and Veins"
+      "answer": "Arteries, Capillaries, and Veins",
+      "explanation": "Arteries carry blood away from the heart, capillaries exchange materials with tissues, and veins return blood to the heart."
     },
     {
       "type": "multiple_choice",
@@ -116,15 +124,20 @@
         "Arteries use valves to prevent backflow, while veins use high pressure to move blood forward.",
         "Arteries are the primary site of gas exchange, while veins are used only for nutrient storage."
       ],
-      "answer": "Arteries carry blood away from the heart toward organs, while veins return blood back to the heart."
+      "answer": "Arteries carry blood away from the heart toward organs, while veins return blood back to the heart.",
+      "explanation": "Arteries and veins are defined by direction of flow relative to the heart, not by oxygen content; pulmonary arteries carry deoxygenated blood."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "T/F: Arteries are the blood vessels that always carry oxygenated blood."
       },
-      "options": ["True", "False"],
-      "answer": "False"
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Pulmonary arteries carry deoxygenated blood from the heart to the lungs, so 'always oxygenated' is incorrect for arteries in general."
     },
     {
       "type": "multiple_choice",
@@ -137,7 +150,8 @@
         "Arteries lack muscular walls, while arterioles use thick elastic fibers to maintain the highest blood pressure in the body.",
         "Arteries return blood directly to the atria, while arterioles connect veins to the lymphatic system."
       ],
-      "answer": "Arteries are large vessels that carry blood away from the heart, while arterioles are smaller branches that regulate blood flow into capillary beds."
+      "answer": "Arteries are large vessels that carry blood away from the heart, while arterioles are smaller branches that regulate blood flow into capillary beds.",
+      "explanation": "Arteries are large, high-pressure conduits from the heart; arterioles are smaller branches whose smooth muscle can constrict or dilate to regulate capillary blood flow."
     },
     {
       "type": "multiple_choice",
@@ -150,7 +164,8 @@
         "To facilitate the exchange of gases, nutrients, and wastes between the blood and interstitial fluid.",
         "To serve as a storage reservoir for excess oxygenated blood during rest."
       ],
-      "answer": "To facilitate the exchange of gases, nutrients, and wastes between the blood and interstitial fluid."
+      "answer": "To facilitate the exchange of gases, nutrients, and wastes between the blood and interstitial fluid.",
+      "explanation": "Capillary walls are one cell thick, maximizing surface area for diffusion of O₂, CO₂, nutrients, and wastes between blood and interstitial fluid."
     },
     {
       "type": "multiple_choice",
@@ -163,7 +178,8 @@
         "Venules carry oxygenated blood to the tissues, while veins carry deoxygenated blood away from the tissues.",
         "Venules contain thick muscular walls to pump blood, while veins rely on the lungs to move blood through the body."
       ],
-      "answer": "Venules are small vessels that collect blood from capillary beds, which then converge to form the larger veins that return blood to the heart."
+      "answer": "Venules are small vessels that collect blood from capillary beds, which then converge to form the larger veins that return blood to the heart.",
+      "explanation": "Blood leaving capillaries drains into venules, which merge into progressively larger veins that return it to the heart at low pressure."
     },
     {
       "type": "multiple_choice",
@@ -176,7 +192,8 @@
         "Atria are responsible for gas exchange with the lungs, while ventricles are responsible for filtering toxins from the blood.",
         "Atria always contain deoxygenated blood, while ventricles always contain oxygenated blood."
       ],
-      "answer": "Atria are the chambers that receive blood entering the heart, while ventricles are the thick-walled chambers responsible for pumping blood out of the heart."
+      "answer": "Atria are the chambers that receive blood entering the heart, while ventricles are the thick-walled chambers responsible for pumping blood out of the heart.",
+      "explanation": "Thin-walled atria receive blood returning to the heart; thick-walled ventricles generate the force needed to pump blood out to the lungs or body."
     },
     {
       "type": "multiple_choice",
@@ -189,7 +206,8 @@
         "Both sides simultaneously",
         "Neither side; oxygenated blood bypasses the heart"
       ],
-      "answer": "The left side"
+      "answer": "The left side",
+      "explanation": "Pulmonary veins deliver oxygenated blood to the left atrium; the right side handles deoxygenated blood from the body."
     },
     {
       "type": "multiple_choice",
@@ -202,7 +220,8 @@
         "Single circulation occurs only in organisms with an open system, while double circulation occurs only in closed systems.",
         "In single circulation, the heart has four chambers, while in double circulation, the heart only has one chamber."
       ],
-      "answer": "In single circulation, blood passes through the heart once per complete circuit, whereas in double circulation, blood passes through the heart twice."
+      "answer": "In single circulation, blood passes through the heart once per complete circuit, whereas in double circulation, blood passes through the heart twice.",
+      "explanation": "Fish have single circulation (heart → gills → body → heart); mammals and birds have double circulation, with blood passing through the heart twice per full circuit."
     },
     {
       "type": "multiple_choice",
@@ -215,7 +234,8 @@
         "It eliminates the need for red blood cells by allowing oxygen to dissolve directly into the plasma.",
         "It prevents the mixing of nutrients and waste products within the same blood vessels."
       ],
-      "answer": "It allows blood to be pumped at a higher pressure to the body tissues after it has lost pressure in the capillary beds of the lungs."
+      "answer": "It allows blood to be pumped at a higher pressure to the body tissues after it has lost pressure in the capillary beds of the lungs.",
+      "explanation": "After losing pressure in pulmonary capillaries, blood is re-pressurized by the left ventricle, enabling high-pressure delivery to systemic tissues."
     },
     {
       "type": "multiple_choice",
@@ -228,7 +248,8 @@
         "The path blood takes as it travel specifically from the right atrium to the left atrium.",
         "The electrical signal that travels from the brain to the heart to initiate a contraction."
       ],
-      "answer": "The complete sequence of events from the beginning of one heartbeat to the beginning of the next."
+      "answer": "The complete sequence of events from the beginning of one heartbeat to the beginning of the next.",
+      "explanation": "One cardiac cycle spans a complete heartbeat—from the start of one beat to the start of the next—including both filling and pumping phases."
     },
     {
       "type": "multiple_choice",
@@ -241,7 +262,8 @@
         "Systole refers to blood entering the lungs, while diastole refers to blood entering the systemic circuit.",
         "Systole is the electrical signal from the brain, while diastole is the physical movement of the heart muscle."
       ],
-      "answer": "Systole involves the contraction of the heart to pump blood out, while diastole involves the relaxation of the heart to allow chambers to fill."
+      "answer": "Systole involves the contraction of the heart to pump blood out, while diastole involves the relaxation of the heart to allow chambers to fill.",
+      "explanation": "Systole is ventricular (and atrial) contraction that ejects blood; diastole is relaxation that allows chambers to refill."
     },
     {
       "type": "multiple_choice",
@@ -254,7 +276,8 @@
         "The maximum pressure exerted on the arterial walls during a single contraction.",
         "The amount of time it takes for blood to complete one full circuit through the body."
       ],
-      "answer": "The volume of blood pumped by each ventricle per minute."
+      "answer": "The volume of blood pumped by each ventricle per minute.",
+      "explanation": "Cardiac output equals stroke volume × heart rate—the total volume each ventricle pumps per minute."
     },
     {
       "type": "multiple_choice",
@@ -267,7 +290,8 @@
         "By maintaining a constant vacuum in the ventricles that pulls blood forward.",
         "Through specialized muscle fibers that squeeze the blood vessels shut after each beat."
       ],
-      "answer": "Through the presence of one-way valves that open and close in response to pressure changes."
+      "answer": "Through the presence of one-way valves that open and close in response to pressure changes.",
+      "explanation": "AV and semilunar valves open when upstream pressure exceeds downstream pressure and close to prevent backflow into atria or ventricles."
     },
     {
       "type": "multiple_choice",
@@ -280,7 +304,8 @@
         "Tricuspid valves are located at the exit of the aorta; Bicuspid valves are located at the exit of the pulmonary artery.",
         "Atrioventricular (AV) valves are located in the veins of the legs; Semilunar valves are located only in the coronary arteries."
       ],
-      "answer": "Atrioventricular (AV) valves are located between the atria and ventricles; Semilunar valves are located at the exits of the heart."
+      "answer": "Atrioventricular (AV) valves are located between the atria and ventricles; Semilunar valves are located at the exits of the heart.",
+      "explanation": "AV valves (tricuspid, bicuspid) sit between atria and ventricles; semilunar valves (aortic, pulmonary) guard the exits from the ventricles."
     },
     {
       "type": "multiple_choice",
@@ -293,7 +318,8 @@
         "A buildup of cholesterol that blocks the flow of blood through the coronary arteries.",
         "The rapid vibration of the diaphragm against the pericardium during heavy exercise."
       ],
-      "answer": "The sound of blood leaking backward through a defective or poorly closed heart valve."
+      "answer": "The sound of blood leaking backward through a defective or poorly closed heart valve.",
+      "explanation": "A murmur is turbulent flow caused by a valve failing to close completely, allowing regurgitation of blood in the wrong direction."
     },
     {
       "type": "multiple_choice",
@@ -306,7 +332,8 @@
         "Purkinje fibers → Bundle branches → AV node → SA node",
         "SA node → Purkinje fibers → AV node → Bundle branches"
       ],
-      "answer": "SA node → AV node → Bundle branches → Purkinje fibers"
+      "answer": "SA node → AV node → Bundle branches → Purkinje fibers",
+      "explanation": "The SA node initiates the impulse, the AV node delays it briefly, then bundle branches and Purkinje fibers spread it through the ventricles."
     },
     {
       "type": "multiple_choice",
@@ -319,7 +346,8 @@
         "Purkinje fibers",
         "Bundle of His"
       ],
-      "answer": "Sinoatrial (SA) node"
+      "answer": "Sinoatrial (SA) node",
+      "explanation": "The sinoatrial (SA) node in the right atrium spontaneously depolarizes fastest, setting the intrinsic heart rate."
     },
     {
       "type": "multiple_choice",
@@ -332,15 +360,22 @@
         "To give the SA node time to recharge its electrical potential for the next heartbeat.",
         "To prevent the heart rate from exceeding 100 beats per minute during intense exercise."
       ],
-      "answer": "To ensure the atria have completely emptied their blood into the ventricles before the ventricles contract."
+      "answer": "To ensure the atria have completely emptied their blood into the ventricles before the ventricles contract.",
+      "explanation": "The AV node delay ensures atrial contraction finishes and ventricles fill before ventricular systole begins, maximizing stroke volume."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "Which of the following are the thinnest of all blood vessels, consisting of only a single layer of epithelial cells?"
       },
-      "options": ["Arterioles", "Venules", "Capillaries", "Arteries"],
-      "answer": "Capillaries"
+      "options": [
+        "Arterioles",
+        "Venules",
+        "Capillaries",
+        "Arteries"
+      ],
+      "answer": "Capillaries",
+      "explanation": "Capillaries have walls only one endothelial cell thick, minimizing the diffusion distance for exchange with tissues."
     },
     {
       "type": "multiple_choice",
@@ -353,7 +388,8 @@
         "Veins have thick muscular walls to pump blood to the heart, while arteries rely on valves to move blood forward.",
         "Both have identical wall thickness, but veins are composed of bone tissue while arteries are made of cartilage."
       ],
-      "answer": "Arteries have thick, elastic walls to withstand high pressure, while veins have thinner walls and possess valves to prevent backflow."
+      "answer": "Arteries have thick, elastic walls to withstand high pressure, while veins have thinner walls and possess valves to prevent backflow.",
+      "explanation": "Arteries withstand high systolic pressure with thick elastic and muscular walls; veins operate at low pressure and use valves to prevent backflow."
     },
     {
       "type": "multiple_choice",
@@ -366,7 +402,8 @@
         "The force of ventricular contraction and the resistance provided by narrow arterial lumens.",
         "The constant vacuum created by the atria and the lack of smooth muscle in arteries."
       ],
-      "answer": "The force of ventricular contraction and the resistance provided by narrow arterial lumens."
+      "answer": "The force of ventricular contraction and the resistance provided by narrow arterial lumens.",
+      "explanation": "Strong ventricular contraction creates high arterial pressure, and narrow arterioles add resistance that maintains it between beats."
     },
     {
       "type": "multiple_choice",
@@ -379,31 +416,50 @@
         "The fluid is absorbed by the skin and evaporated through pores to regulate internal temperature.",
         "The fluid is transformed into new red blood cells by the interstitial tissue to replace lost volume."
       ],
-      "answer": "The fluid is collected by lymphatic vessels, filtered in lymph nodes, and eventually returned to the bloodstream."
+      "answer": "The fluid is collected by lymphatic vessels, filtered in lymph nodes, and eventually returned to the bloodstream.",
+      "explanation": "Capillary filtration produces ~3–4 L of interstitial fluid daily; lymphatic vessels collect it, lymph nodes filter it, and it re-enters the venous blood."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "What is the technical biological name for the specialized red blood cells that transport oxygen throughout the body?"
       },
-      "options": ["Leukocyte", "Thrombocyte", "Erythrocyte", "Lymphocyte"],
-      "answer": "Erythrocyte"
+      "options": [
+        "Leukocyte",
+        "Thrombocyte",
+        "Erythrocyte",
+        "Lymphocyte"
+      ],
+      "answer": "Erythrocyte",
+      "explanation": "Erythrocytes (red blood cells) contain hemoglobin and carry oxygen; leukocytes are white blood cells and thrombocytes are platelets."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "What is the technical biological name for white blood cells, which are primarily responsible for the body's immune response?"
       },
-      "options": ["Thrombocyte", "Erythrocyte", "Leukocyte", "Adipocyte"],
-      "answer": "Leukocyte"
+      "options": [
+        "Thrombocyte",
+        "Erythrocyte",
+        "Leukocyte",
+        "Adipocyte"
+      ],
+      "answer": "Leukocyte",
+      "explanation": "Leukocytes are white blood cells involved in immune defense; erythrocytes carry oxygen and thrombocytes aid clotting."
     },
     {
       "type": "multiple_choice",
       "prompt": {
         "text": "What is the technical term for a blood clot that forms within a blood vessel and remains attached to its site of origin?"
       },
-      "options": ["Erythrocyte", "Embolus", "Thrombus", "Leukocyte"],
-      "answer": "Thrombus"
+      "options": [
+        "Erythrocyte",
+        "Embolus",
+        "Thrombus",
+        "Leukocyte"
+      ],
+      "answer": "Thrombus",
+      "explanation": "A thrombus is a stationary clot attached at its site of formation; an embolus is a clot fragment that travels and lodges elsewhere."
     },
     {
       "type": "multiple_choice",
@@ -416,7 +472,8 @@
         "Hypertension",
         "Angina pectoris"
       ],
-      "answer": "Myocardial infarction"
+      "answer": "Myocardial infarction",
+      "explanation": "Myocardial infarction is death of heart muscle from blocked coronary blood flow; atherosclerosis is plaque buildup, not the attack itself."
     },
     {
       "type": "multiple_choice",
@@ -429,7 +486,8 @@
         "Oxygen and Carbon Dioxide",
         "Oxygen and Methane"
       ],
-      "answer": "Oxygen and Carbon Dioxide"
+      "answer": "Oxygen and Carbon Dioxide",
+      "explanation": "Cellular respiration consumes O₂ and produces CO₂; gas exchange at respiratory surfaces reverses these gradients."
     },
     {
       "type": "multiple_choice",
@@ -442,7 +500,8 @@
         "Passive diffusion driven by partial pressure gradients",
         "Facilitated transport via protein pumps"
       ],
-      "answer": "Passive diffusion driven by partial pressure gradients"
+      "answer": "Passive diffusion driven by partial pressure gradients",
+      "explanation": "O₂ and CO₂ are small, nonpolar molecules that cross membranes by passive diffusion down their partial pressure gradients—no ATP required."
     },
     {
       "type": "multiple_choice",
@@ -455,7 +514,8 @@
         "Gills rely on active transport to move gases, while lungs rely purely on muscular suction.",
         "Gills are found only in invertebrates, while lungs are found only in mammals."
       ],
-      "answer": "Gills are outfoldings of the body surface suspended in water, while lungs are infoldings of the body surface localized in one area."
+      "answer": "Gills are outfoldings of the body surface suspended in water, while lungs are infoldings of the body surface localized in one area.",
+      "explanation": "Gills are external, highly branched outfoldings for aquatic gas exchange; lungs are internal, folded invaginations that hold air in terrestrial animals."
     },
     {
       "type": "multiple_choice",
@@ -468,7 +528,8 @@
         "Alveoli act as mechanical filters for dust, while surfactant is a lubricant that allows the lungs to slide against the rib cage.",
         "Alveoli are the muscular tubes that carry air, while surfactant is a hormone that triggers the diaphragm to contract."
       ],
-      "answer": "Alveoli provide the surface area for gas exchange, while surfactant is a secretion that prevents them from collapsing by reducing surface tension."
+      "answer": "Alveoli provide the surface area for gas exchange, while surfactant is a secretion that prevents them from collapsing by reducing surface tension.",
+      "explanation": "Surfactant reduces alveolar surface tension, preventing the tiny air sacs from collapsing during exhalation and maintaining gas exchange surface area."
     },
     {
       "type": "multiple_choice",
@@ -481,7 +542,8 @@
         "By using specialized cilia to create a vacuum that pulls oxygen through the skin.",
         "By increasing the pressure inside the lungs so that air is forced out and then rapidly sucked back in."
       ],
-      "answer": "By contracting the diaphragm to expand the thoracic cavity, lowering internal pressure and drawing air in."
+      "answer": "By contracting the diaphragm to expand the thoracic cavity, lowering internal pressure and drawing air in.",
+      "explanation": "Diaphragm contraction expands the thoracic cavity, lowering lung pressure below atmospheric pressure so air flows in—negative-pressure breathing."
     },
     {
       "type": "multiple_choice",
@@ -494,7 +556,8 @@
         "It converts oxygen into glucose to provide immediate energy for the heart muscle.",
         "It creates a magnetic field that pulls oxygen molecules toward the mitochondria of cells."
       ],
-      "answer": "It reversibly binds oxygen molecules to iron-containing heme groups for transport to tissues."
+      "answer": "It reversibly binds oxygen molecules to iron-containing heme groups for transport to tissues.",
+      "explanation": "Hemoglobin's heme groups bind O₂ reversibly in the lungs and release it in tissues where partial pressure is lower."
     },
     {
       "type": "multiple_choice",
@@ -507,7 +570,8 @@
         "The amount of air that always remains in the lungs to prevent them from collapsing.",
         "The total capacity of the lungs when fully expanded."
       ],
-      "answer": "The volume of air inhaled and exhaled with each breath during normal, resting breathing."
+      "answer": "The volume of air inhaled and exhaled with each breath during normal, resting breathing.",
+      "explanation": "Tidal volume is the normal resting breath size—the air moved in and out with each quiet inhalation and exhalation."
     },
     {
       "type": "multiple_choice",
@@ -520,7 +584,8 @@
         "The maximum volume of air that can be inhaled and then exhaled with maximum effort.",
         "The speed at which air moves through the trachea during a sneeze."
       ],
-      "answer": "The maximum volume of air that can be inhaled and then exhaled with maximum effort."
+      "answer": "The maximum volume of air that can be inhaled and then exhaled with maximum effort.",
+      "explanation": "Vital capacity is the maximum air you can move with a forced breath after a maximal inhalation—the largest voluntary lung volume change."
     },
     {
       "type": "multiple_choice",
@@ -533,7 +598,8 @@
         "It is the air that remains in the lungs after a forced exhalation, keeping the alveoli open.",
         "It is the volume of fluid that builds up in the lungs during a respiratory infection."
       ],
-      "answer": "It is the air that remains in the lungs after a forced exhalation, keeping the alveoli open."
+      "answer": "It is the air that remains in the lungs after a forced exhalation, keeping the alveoli open.",
+      "explanation": "Residual volume remains after maximal exhalation, keeping alveoli partially inflated so they do not collapse completely."
     }
   ]
 }

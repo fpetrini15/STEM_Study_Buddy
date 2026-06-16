@@ -7,13 +7,15 @@
         "text": "A specific, heritable feature that varies among individuals is known as a __."
       },
       "options": ["Character", "Allele", "Genotype", "Zygote"],
-      "answer": "Character"
+      "answer": "Character",
+      "explanation": "A character is the heritable feature itself (such as flower color), while alleles are the specific variants of a gene and genotype is the allelic combination an organism carries."
     },
     {
       "type": "multiple_choice",
       "prompt": { "text": "Each variant for a character is know as a __." },
       "options": ["Characteristic", "Trait", "Gene", "Combination"],
-      "answer": "Trait"
+      "answer": "Trait",
+      "explanation": "A trait is a variant form of a character (such as purple vs. white flowers). A gene is the unit of heredity, and 'character' refers to the feature being studied, not each variant."
     },
     {
       "type": "multiple_choice",
@@ -21,7 +23,8 @@
         "text": "Alternate versions of genes account for variations in inherited character. These alternate versions are called __."
       },
       "options": ["Characteristics", "Hybrids", "True breeds", "Alleles"],
-      "answer": "Alleles"
+      "answer": "Alleles",
+      "explanation": "Alleles are different versions of the same gene at a locus (such as P vs. p for flower color). Hybrids and true breeds describe breeding lines, not the gene variants themselves."
     },
     {
       "type": "multiple_choice",
@@ -29,7 +32,8 @@
         "text": "An organism with a pair of identical alleles (e.g., AA) is said to be __."
       },
       "options": ["Homozygous", "Heterozygous", "Dominant", "Recessive"],
-      "answer": "Homozygous"
+      "answer": "Homozygous",
+      "explanation": "Homozygous means both alleles at a locus are the same (AA or aa). Heterozygous (Aa) carries two different alleles; dominant and recessive describe allele expression, not zygosity."
     },
     {
       "type": "multiple_choice",
@@ -37,7 +41,8 @@
         "text": "An organism with a pair of different alleles (e.g., Aa) is said to be __."
       },
       "options": ["Homozygous", "Heterozygous", "Dominant", "Recessive"],
-      "answer": "Heterozygous"
+      "answer": "Heterozygous",
+      "explanation": "Heterozygous organisms carry two different alleles at a locus (Aa). Homozygous means identical alleles; dominant and recessive refer to how alleles affect the phenotype, not whether they differ."
     },
     {
       "type": "multiple_choice",
@@ -45,7 +50,8 @@
         "text": "A collection of an organism's observable traits is its __."
       },
       "options": ["Character", "Genome", "Phenotype", "Genotype"],
-      "answer": "Phenotype"
+      "answer": "Phenotype",
+      "explanation": "Phenotype is the set of observable traits an organism displays. Genotype is the underlying genetic makeup; genome is the complete DNA sequence, not the outward appearance."
     },
     {
       "type": "multiple_choice",
@@ -53,7 +59,8 @@
         "text": "The genetic makeup responsible for an organism's observable characteristics is known as a __."
       },
       "options": ["Character", "Trait", "Phenotype", "Genotype"],
-      "answer": "Genotype"
+      "answer": "Genotype",
+      "explanation": "Genotype refers to the alleles an organism possesses (such as PP or Pp). Phenotype is what is actually observed; a character is the feature, and a trait is a specific variant of it."
     },
     {
       "type": "multiple_choice",
@@ -66,7 +73,8 @@
         "Trait, genome",
         "Phenotype, genotype"
       ],
-      "answer": "Phenotype, genotype"
+      "answer": "Phenotype, genotype",
+      "explanation": "Purple is what we see—the phenotype—while PP is the allelic combination—the genotype. The first option reverses these terms."
     },
     {
       "type": "multiple_choice",
@@ -79,7 +87,8 @@
         "Test cross",
         "Allele extraction"
       ],
-      "answer": "Test cross"
+      "answer": "Test cross",
+      "explanation": "A test cross mates a dominant-phenotype individual with a homozygous recessive parent; offspring ratios reveal whether the dominant parent is homozygous or heterozygous. The other options are not standard genetics terminology."
     },
     {
       "type": "multiple_choice",
@@ -92,7 +101,8 @@
         "On different chromosomes or are very close together",
         "On the same chromosome or are very close together"
       ],
-      "answer": "On different chromosomes or are very far away"
+      "answer": "On different chromosomes or are very far away",
+      "explanation": "Independent assortment holds when genes assort into gametes independently—either because they are on different chromosomes or far enough apart on the same chromosome that crossing over separates them frequently. Linked genes close together on one chromosome violate this assumption."
     },
     {
       "type": "multiple_choice",
@@ -100,7 +110,8 @@
         "text": "T/F: Dominant alleles are more common than recessive alleles."
       },
       "options": ["True", "False"],
-      "answer": "False"
+      "answer": "False",
+      "explanation": "Dominance describes expression in heterozygotes, not allele frequency. Many recessive alleles (such as those for certain disorders) are actually more common in populations than their dominant counterparts."
     },
     {
       "type": "multiple_choice",
@@ -108,7 +119,8 @@
         "text": "T/F: Recessive alleles are more common than dominant alleles."
       },
       "options": ["True", "False"],
-      "answer": "False"
+      "answer": "False",
+      "explanation": "Neither dominance nor recessiveness predicts how common an allele is in a population. Allele frequency depends on selection, drift, and other factors—not on whether the allele is dominant."
     },
     {
       "type": "multiple_choice",
@@ -121,7 +133,8 @@
         "Epistasis",
         "Pleiotropy"
       ],
-      "answer": "Incomplete dominance"
+      "answer": "Incomplete dominance",
+      "explanation": "Incomplete dominance produces an intermediate blended phenotype (pink) in heterozygotes rather than both alleles showing fully. Codominance would display both traits distinctly, as in AB blood type."
     },
     {
       "type": "multiple_choice",
@@ -134,7 +147,8 @@
         "Epistasis",
         "Pleiotropy"
       ],
-      "answer": "Codominance"
+      "answer": "Codominance",
+      "explanation": "In codominance, both alleles are expressed simultaneously and distinguishably—type AB red blood cells display both A and B antigens. Incomplete dominance would yield a blended intermediate, not two separate markers."
     },
     {
       "type": "multiple_choice",
@@ -147,7 +161,8 @@
         "Epistasis",
         "Pleiotropy"
       ],
-      "answer": "Pleiotropy"
+      "answer": "Pleiotropy",
+      "explanation": "Pleiotropy occurs when one gene influences multiple, seemingly unrelated phenotypic traits (such as sickle-cell allele effects on blood and disease resistance). Epistasis is interaction between different genes, not one gene with many effects."
     },
     {
       "type": "multiple_choice",
@@ -160,7 +175,8 @@
         "Epistasis",
         "Pleiotropy"
       ],
-      "answer": "Epistasis"
+      "answer": "Epistasis",
+      "explanation": "Epistasis is when one gene's expression masks or modifies another gene's phenotype (such as coat color genes in Labrador retrievers). Pleiotropy is one gene affecting many traits, not gene-to-gene interaction."
     },
     {
       "type": "multiple_choice",
@@ -168,7 +184,8 @@
         "text": "Which of the following is not an example of a quantitative phenotype?"
       },
       "options": ["Skin color", "Freckles", "Height", "Hair texture"],
-      "answer": "Freckles"
+      "answer": "Freckles",
+      "explanation": "Quantitative phenotypes vary along a continuous spectrum and are typically polygenic (skin color, height, hair texture). Freckles are usually treated as a discrete, present-or-absent trait rather than a graded measurement."
     },
     {
       "type": "multiple_choice",
@@ -176,7 +193,8 @@
         "text": "Quantitative variation usually indicates __ inheritance."
       },
       "options": ["Complex", "Epigenetic", "Polygenic", "Binary"],
-      "answer": "Polygenic"
+      "answer": "Polygenic",
+      "explanation": "Continuous traits such as height and skin color usually reflect the combined additive effects of many genes. 'Binary' describes discrete either/or traits; epigenetic refers to regulation beyond DNA sequence."
     },
     {
       "type": "multiple_choice",
@@ -184,7 +202,8 @@
         "text": "T/F: Character phenotypes can also depend on the organism's environment"
       },
       "options": ["True", "False"],
-      "answer": "True"
+      "answer": "True",
+      "explanation": "Phenotype results from genotype interacting with the environment—nutrition affects height, sunlight affects skin pigmentation, and temperature can influence gene expression. Genes set potential, but environment helps shape the outcome."
     },
     {
       "type": "multiple_choice",
@@ -192,7 +211,8 @@
         "text": "If a homozygous dominant male (AA) crosses with a homozygous recessive female (aa), what percent chance is there that the offspring will be dominant-displaying?"
       },
       "options": ["0%", "50%", "75%", "100%"],
-      "answer": "100%"
+      "answer": "100%",
+      "explanation": "Every offspring receives one A from the AA parent and one a from the aa parent, making all F₁ individuals Aa heterozygotes who display the dominant phenotype. There is no chance of aa recessive offspring in this cross."
     }
   ]
 }

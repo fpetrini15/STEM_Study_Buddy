@@ -12,7 +12,8 @@
         "Vitamins provide direct caloric energy, while minerals only act as structural components for bones.",
         "Vitamins can only be obtained through supplements, while minerals are exclusively found in leafy green vegetables."
       ],
-      "answer": "Vitamins are organic compounds produced by living organisms, while minerals are inorganic elements found in soil and water."
+      "answer": "Vitamins are organic compounds produced by living organisms, while minerals are inorganic elements found in soil and water.",
+      "explanation": "Vitamins are carbon-based organic molecules (e.g., vitamin C), while minerals are simple inorganic elements or ions (e.g., calcium, iron) absorbed from the environment. Neither vitamins nor minerals are primary calorie sources."
     },
     {
       "type": "multiple_choice",
@@ -25,7 +26,8 @@
         "Carnivores eat both plants and meat, herbivores eat only meat, and omnivores eat only plants.",
         "Carnivores eat only plants, herbivores eat both plants and meat, and omnivores eat only meat."
       ],
-      "answer": "Carnivores eat only meat, herbivores eat only plants, and omnivores eat both plants and meat."
+      "answer": "Carnivores eat only meat, herbivores eat only plants, and omnivores eat both plants and meat.",
+      "explanation": "These dietary categories are defined by the primary food source: carni- (flesh), herbi- (plants), and omni- (both). The '-vore' suffix refers to what an animal consumes, not its digestive anatomy."
     },
     {
       "type": "multiple_choice",
@@ -38,7 +40,8 @@
         "Ingestion, Digestion, and Absorption",
         "Digestion, Metabolism, and Elimination"
       ],
-      "answer": "Ingestion, Digestion, and Absorption"
+      "answer": "Ingestion, Digestion, and Absorption",
+      "explanation": "Food processing begins with ingestion (taking in food), followed by digestion (breaking it into absorbable molecules), then absorption (uptake into the body). Secretion and elimination are supporting steps but not the three core sequential stages."
     },
     {
       "type": "multiple_choice",
@@ -51,7 +54,8 @@
         "Herbivore, Carnivore, Omnivore, and Detritivore",
         "Filter, Substrate, Predatory, and Parasitic feeders"
       ],
-      "answer": "Filter, Substrate, Fluid, and Bulk feeders"
+      "answer": "Filter, Substrate, Fluid, and Bulk feeders",
+      "explanation": "These four categories describe how animals obtain food mechanically: straining suspended particles, eating material on or in a substrate, consuming liquids, or ingesting large pieces whole. Dietary types (herbivore/carnivore) and membrane transport mechanisms are different classifications."
     },
     {
       "type": "drag_and_drop",
@@ -64,7 +68,8 @@
         "Fluid Feeder",
         "Bulk Feeder"
       ],
-      "answer": "Substrate Feeder"
+      "answer": "Substrate Feeder",
+      "explanation": "Caterpillars feed on solid plant material (the leaf substrate) by chewing through it, which is the defining behavior of substrate feeders. They do not strain water, sip fluids, or swallow prey whole."
     },
     {
       "type": "drag_and_drop",
@@ -77,7 +82,8 @@
         "Fluid Feeder",
         "Bulk Feeder"
       ],
-      "answer": "Filter Feeder"
+      "answer": "Filter Feeder",
+      "explanation": "Baleen whales take in large volumes of water and use baleen plates to filter out tiny krill and crustaceans. This passive straining of suspended food particles is the hallmark of filter feeding."
     },
     {
       "type": "drag_and_drop",
@@ -90,7 +96,8 @@
         "Fluid Feeder",
         "Bulk Feeder"
       ],
-      "answer": "Bulk Feeder"
+      "answer": "Bulk Feeder",
+      "explanation": "Bulk feeders ingest large pieces of food—or entire prey—without extensive prior breakdown. A python swallowing a deer whole exemplifies this strategy of consuming big food items in one gulp."
     },
     {
       "type": "drag_and_drop",
@@ -103,7 +110,8 @@
         "Fluid Feeder",
         "Bulk Feeder"
       ],
-      "answer": "Fluid Feeder"
+      "answer": "Fluid Feeder",
+      "explanation": "Hummingbirds use a long bill and tongue to extract liquid nectar from flowers, which is characteristic of fluid feeding. They do not chew solid substrate, strain plankton, or swallow large prey whole."
     },
     {
       "type": "multiple_choice",
@@ -116,7 +124,8 @@
         "Digestion refers to the transport of nutrients through the bloodstream, while absorption is the physical chewing of food.",
         "Digestion is the chemical synthesis of new proteins, while absorption is the breakdown of carbohydrates into simple sugars."
       ],
-      "answer": "Digestion is the mechanical and chemical breakdown of food, while absorption is the uptake of small nutrient molecules into the blood."
+      "answer": "Digestion is the mechanical and chemical breakdown of food, while absorption is the uptake of small nutrient molecules into the blood.",
+      "explanation": "Digestion reduces complex food macromolecules to small absorbable units; absorption moves those units across the gut epithelium into circulation. Ingestion is food intake; elimination removes undigested waste."
     },
     {
       "type": "multiple_choice",
@@ -129,7 +138,8 @@
         "Vacuoles create a compartmentalized environment that isolates powerful hydrolytic enzymes from other cellular components.",
         "Vacuoles increase the cell's internal temperature to boil and sterilize the captured food particles."
       ],
-      "answer": "Vacuoles create a compartmentalized environment that isolates powerful hydrolytic enzymes from other cellular components."
+      "answer": "Vacuoles create a compartmentalized environment that isolates powerful hydrolytic enzymes from other cellular components.",
+      "explanation": "Food vacuoles in protists and phagocytic cells fuse with lysosomes, confining destructive hydrolytic enzymes to a membrane-bound compartment. This prevents autodigestion of the cell's own cytoplasmic proteins and organelles."
     },
     {
       "type": "multiple_choice",
@@ -142,7 +152,8 @@
         "A gastrovascular cavity contains specialized organs like a gizzard, while an alimentary canal relies on simple diffusion across the skin.",
         "A gastrovascular cavity moves food using cilia, while an alimentary canal lacks any specialized tissue for moving food particles."
       ],
-      "answer": "A gastrovascular cavity has a single opening for both ingestion and elimination, while an alimentary canal is a complete tube with two separate openings."
+      "answer": "A gastrovascular cavity has a single opening for both ingestion and elimination, while an alimentary canal is a complete tube with two separate openings.",
+      "explanation": "Cnidarians and flatworms use a sac-like gastrovascular cavity with one mouth; most animals have a one-way alimentary canal (mouth to anus) enabling continuous food processing. Gizzards and peristalsis are features of more complex digestive systems."
     },
     {
       "type": "multiple_choice",
@@ -155,7 +166,8 @@
         "To neutralize the acidic pH of saliva to prevent damage to the esophagus.",
         "To break down molecular bonds using hydrolytic enzymes before absorption occurs."
       ],
-      "answer": "To increase the surface area of food particles, making them more accessible to chemical enzymes."
+      "answer": "To increase the surface area of food particles, making them more accessible to chemical enzymes.",
+      "explanation": "Chewing and churning physically fragment food so digestive enzymes can attack more surface area. Breaking molecular bonds with enzymes is chemical digestion, not mechanical."
     },
     {
       "type": "multiple_choice",
@@ -168,7 +180,8 @@
         "Peristalsis",
         "Sphincter constriction and filtration"
       ],
-      "answer": "Peristalsis"
+      "answer": "Peristalsis",
+      "explanation": "Peristalsis is the coordinated smooth-muscle wave that propels boluses and chyme through the esophagus, stomach, and intestines. Mastication is voluntary chewing; osmosis and diffusion move molecules, not bulk food."
     },
     {
       "type": "multiple_choice",
@@ -181,7 +194,8 @@
         "A bolus is food that has been fully absorbed, while chyme is food that is waiting to be ingested.",
         "A bolus is created by chemical digestion in the liver, while chyme is created by mechanical digestion in the small intestine."
       ],
-      "answer": "A bolus is the ball of food swallowed from the mouth, while chyme is the acidic, fluid mix of food and gastric juice found in the stomach."
+      "answer": "A bolus is the ball of food swallowed from the mouth, while chyme is the acidic, fluid mix of food and gastric juice found in the stomach.",
+      "explanation": "After chewing and swallowing, food travels as a bolus through the esophagus; gastric mixing and acid produce the semi-liquid chyme in the stomach. Chyme then passes to the small intestine for further digestion and absorption."
     },
     {
       "type": "multiple_choice",
@@ -194,7 +208,8 @@
         "Insulin, glucagon, and pancreatic juices",
         "Mucus, saliva, and specialized intestinal bacteria"
       ],
-      "answer": "Hydrochloric acid (HCl) and the protease pepsin"
+      "answer": "Hydrochloric acid (HCl) and the protease pepsin",
+      "explanation": "Gastric juice is secreted by stomach lining cells and contains HCl (from parietal cells) to acidify the lumen and pepsin (from chief cells) to begin protein digestion. Amylase is in saliva; bile and bicarbonate come from the liver and pancreas."
     },
     {
       "type": "multiple_choice",
@@ -207,7 +222,8 @@
         "HCl acts as a protective mucus layer, while pepsin triggers the release of bile from the gallbladder.",
         "HCl is responsible for mechanical churning, while pepsin is responsible for the absorption of vitamins."
       ],
-      "answer": "HCl provides the acidic environment needed to denature proteins and activate enzymes, while pepsin chemically digests proteins into smaller polypeptides."
+      "answer": "HCl provides the acidic environment needed to denature proteins and activate enzymes, while pepsin chemically digests proteins into smaller polypeptides.",
+      "explanation": "HCl lowers gastric pH to denature proteins and convert pepsinogen to active pepsin; pepsin then cleaves peptide bonds. Lipid digestion and bile release occur in the small intestine, not the stomach."
     },
     {
       "type": "multiple_choice",
@@ -220,7 +236,8 @@
         "The stomach remains in a state of constant contraction to prevent the liquid juice from touching the walls.",
         "The gastric juice is stored in specialized vacuoles that only release acid during active mechanical churning."
       ],
-      "answer": "The stomach lining is coated with a thick layer of mucus and replaced by new cells every few days."
+      "answer": "The stomach lining is coated with a thick layer of mucus and replaced by new cells every few days.",
+      "explanation": "Mucus from goblet cells forms a protective barrier against acid and pepsin, while rapid epithelial cell turnover replaces damaged cells. The stomach maintains low pH in the lumen; neutralization occurs in the duodenum, not the stomach itself."
     },
     {
       "type": "multiple_choice",
@@ -228,7 +245,8 @@
         "text": "Which region of the small intestine serves as the primary site where chyme mixes with digestive juices from the pancreas, liver, and gallbladder?"
       },
       "options": ["The Ileum", "The Jejunum", "The Duodenum", "The Cecum"],
-      "answer": "The Duodenum"
+      "answer": "The Duodenum",
+      "explanation": "The duodenum is the first segment of the small intestine and receives chyme from the stomach plus bile from the gallbladder and pancreatic enzymes and bicarbonate. The jejunum and ileum are primarily sites of continued digestion and absorption."
     },
     {
       "type": "multiple_choice",
@@ -241,7 +259,8 @@
         "Amylase from the salivary glands",
         "Hydrochloric acid from the parietal cells"
       ],
-      "answer": "Bicarbonate from the pancreas"
+      "answer": "Bicarbonate from the pancreas",
+      "explanation": "Pancreatic juice contains bicarbonate ions that raise duodenal pH to protect the intestinal lining and allow pancreatic enzymes to function. Bile emulsifies fats but does not neutralize acid; HCl would worsen, not correct, the acidity."
     },
     {
       "type": "multiple_choice",
@@ -254,7 +273,8 @@
         "To neutralize stomach acid using bicarbonate ions.",
         "To stimulate the rhythmic contractions of peristalsis in the large intestine."
       ],
-      "answer": "To emulsify large fat globules into smaller droplets, increasing surface area for enzymes."
+      "answer": "To emulsify large fat globules into smaller droplets, increasing surface area for enzymes.",
+      "explanation": "Bile salts act as detergents that break large fat globules into smaller micelles, allowing lipase enzymes greater access. Bile does not chemically hydrolyze fats, neutralize acid, or drive peristalsis."
     },
     {
       "type": "multiple_choice",
@@ -267,7 +287,8 @@
         "By acting as mechanical filters that trap harmful bacteria and toxins.",
         "By pumping oxygen into the intestinal lumen to aid aerobic digestion."
       ],
-      "answer": "By increasing the total surface area available for the transport of nutrients into the blood."
+      "answer": "By increasing the total surface area available for the transport of nutrients into the blood.",
+      "explanation": "Villi are fingerlike projections and microvilli form the brush border, together vastly expanding the absorptive surface of the small intestine. Nutrients cross the epithelium via transport proteins, not by acid secretion or oxygen pumping."
     },
     {
       "type": "multiple_choice",
@@ -280,7 +301,8 @@
         "The Inferior Vena Cava",
         "The Pulmonary Vein"
       ],
-      "answer": "The Hepatic Portal Vein"
+      "answer": "The Hepatic Portal Vein",
+      "explanation": "Absorbed nutrients enter capillaries in the villi and drain into the hepatic portal vein, which carries blood directly to the liver for processing before it reaches systemic circulation. The hepatic artery supplies oxygenated blood to the liver, not absorbed nutrients."
     },
     {
       "type": "multiple_choice",
@@ -293,7 +315,8 @@
         "It acts as the primary site for the absorption of water and water-soluble vitamins.",
         "It mechanically churns the chyme to ensure it is fully mixed with intestinal bacteria."
       ],
-      "answer": "It regulates nutrient distribution and detoxifies harmful substances before they reach the rest of the body."
+      "answer": "It regulates nutrient distribution and detoxifies harmful substances before they reach the rest of the body.",
+      "explanation": "As blood from the intestine passes through the liver, it stores glucose as glycogen, processes amino acids and fats, and removes toxins—functioning as the body's metabolic checkpoint. Most digestive enzymes come from the pancreas; absorption occurs in the intestine."
     },
     {
       "type": "multiple_choice",
@@ -306,7 +329,8 @@
         "A collection of nitrogenous waste filtered from the blood by the kidneys.",
         "Leftover proteins that were synthesized into new tissues during metabolism."
       ],
-      "answer": "Unabsorbed organic material, undigested fiber (cellulose), and bacteria."
+      "answer": "Unabsorbed organic material, undigested fiber (cellulose), and bacteria.",
+      "explanation": "Feces consist mainly of indigestible plant fiber, unabsorbed food residues, sloughed intestinal cells, and the large bacterial population of the colon. Nitrogenous waste is excreted by the kidneys as urine, not eliminated as feces."
     }
   ]
 }

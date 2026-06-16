@@ -12,7 +12,8 @@
         "Transformation",
         "Transfection"
       ],
-      "answer": "Transformation"
+      "answer": "Transformation",
+      "explanation": "Griffith showed that DNA from heat-killed pathogenic bacteria could be taken up by living non-pathogenic cells, changing their traits. Conjugation transfers DNA cell-to-cell via a pilus; transduction uses a virus as a vector."
     },
     {
       "type": "multiple_choice",
@@ -25,7 +26,8 @@
         "Dispersive model",
         "Destructive model"
       ],
-      "answer": "Semiconservative model"
+      "answer": "Semiconservative model",
+      "explanation": "Meselson and Stahl used heavy and light nitrogen isotopes to track parental vs. new strands. Each daughter helix contained one parental strand and one newly synthesized strand, ruling out fully conservative or fully dispersive replication."
     },
     {
       "type": "multiple_choice",
@@ -38,7 +40,8 @@
         "TATA box",
         "Replication fork"
       ],
-      "answer": "Origin of replication"
+      "answer": "Origin of replication",
+      "explanation": "Replication begins at origins of replication (ori), where initiator proteins bind and unwind the DNA. Promoters and TATA boxes are transcription signals; a replication fork is the Y-shaped structure formed as DNA is unwound, not the initiation site itself."
     },
     {
       "type": "multiple_choice",
@@ -51,7 +54,8 @@
         "Both prokaryotes and eukaryotes utilize exactly one origin of replication per DNA molecule to ensure accuracy.",
         "Eukaryotes lack specific origins of replication and instead begin the process randomly along the chromatin."
       ],
-      "answer": "Prokaryotes have a single origin on their circular chromosome, while eukaryotes have hundreds or thousands per linear chromosome."
+      "answer": "Prokaryotes have a single origin on their circular chromosome, while eukaryotes have hundreds or thousands per linear chromosome.",
+      "explanation": "Prokaryotic chromosomes are circular with one ori, so replication proceeds bidirectionally around the circle. Eukaryotic linear chromosomes are much longer and replicate from many origins simultaneously to finish S phase in time."
     },
     {
       "type": "multiple_choice",
@@ -59,7 +63,8 @@
         "text": "During DNA replication in eukaryotes, DNA polymerases can only add new nucleotides in which direction?"
       },
       "options": ["3' to 5'", "5' to 3'"],
-      "answer": "5' to 3'"
+      "answer": "5' to 3'",
+      "explanation": "DNA polymerase adds nucleotides to the free 3' hydroxyl group of the growing chain, so the new strand always elongates in the 5' → 3' direction. It cannot polymerize in the 3' → 5' direction."
     },
     {
       "type": "multiple_choice",
@@ -67,7 +72,8 @@
         "text": "During the initiation of DNA replication, which enzyme is responsible for untwisting the double helix at the replication forks and separating the two parental strands by breaking hydrogen bonds?"
       },
       "options": ["Topoisomerase", "DNA Polymerase III", "Helicase", "Primase"],
-      "answer": "Helicase"
+      "answer": "Helicase",
+      "explanation": "Helicase uses ATP to unwind the double helix and separate the template strands at the replication fork. Topoisomerase relieves overwinding ahead of the fork; primase synthesizes RNA primers; DNA polymerase extends DNA strands."
     },
     {
       "type": "multiple_choice",
@@ -80,7 +86,8 @@
         "Single-strand binding protein",
         "Topoisomerase"
       ],
-      "answer": "Topoisomerase"
+      "answer": "Topoisomerase",
+      "explanation": "Unwinding by helicase introduces positive supercoils ahead of the fork. Topoisomerase cuts one or both DNA strands, allows the helix to rotate, and reseals the breaks, preventing the DNA from becoming overwound."
     },
     {
       "type": "multiple_choice",
@@ -88,7 +95,8 @@
         "text": "True or False: DNA polymerase can initiate the synthesis of a new polynucleotide strand on its own."
       },
       "options": ["True", "False"],
-      "answer": "False"
+      "answer": "False",
+      "explanation": "DNA polymerase can only add nucleotides to an existing 3' end. Primase must first lay down a short RNA primer, which DNA polymerase then extends by adding DNA nucleotides."
     },
     {
       "type": "multiple_choice",
@@ -101,7 +109,8 @@
         "It is synthesized in a direction moving away from the advancing replication fork.",
         "It uses a template strand oriented in the 3' to 5' direction."
       ],
-      "answer": "It is synthesized in a direction moving away from the advancing replication fork."
+      "answer": "It is synthesized in a direction moving away from the advancing replication fork.",
+      "explanation": "Both strands are built 5' → 3' and use a 3' → 5' template. The leading strand is synthesized continuously toward the fork; the lagging strand is built in short Okazaki fragments that extend away from the fork."
     },
     {
       "type": "multiple_choice",
@@ -114,7 +123,8 @@
         "Okazaki fragments allow the cell to verify the accuracy of the leading strand before finishing replication.",
         "Helicase can only unwind the DNA in short bursts, requiring the polymerase to stop and start."
       ],
-      "answer": "The lagging strand template is oriented 5' to 3', but DNA polymerase can only synthesize in the 5' to 3' direction."
+      "answer": "The lagging strand template is oriented 5' to 3', but DNA polymerase can only synthesize in the 5' to 3' direction.",
+      "explanation": "Because synthesis must proceed 5' → 3' while the fork opens, the lagging strand cannot be made in one continuous piece. Instead, multiple RNA primers are placed and each segment is synthesized backward relative to fork movement, producing Okazaki fragments."
     },
     {
       "type": "multiple_choice",
@@ -127,7 +137,8 @@
         "It breaks hydrogen bonds between the two parental strands to create the replication fork.",
         "It provides a free 3' hydroxyl group for DNA polymerase III to begin synthesis."
       ],
-      "answer": "It catalyzes the formation of phosphodiester bonds between the sugar-phosphate backbones of adjacent Okazaki fragments."
+      "answer": "It catalyzes the formation of phosphodiester bonds between the sugar-phosphate backbones of adjacent Okazaki fragments.",
+      "explanation": "After primers are removed and gaps are filled by DNA polymerase, ligase seals the nicks between Okazaki fragments by forming phosphodiester bonds, producing one continuous lagging strand."
     },
     {
       "type": "multiple_choice",
@@ -140,7 +151,8 @@
         "Photolyase enzymes use light energy to directly break the covalent bonds between mismatched nucleotides.",
         "The cell undergoes apoptosis immediately because mismatched bases cannot be repaired once the replication fork has passed."
       ],
-      "answer": "Specific enzymes identify the mismatched base, remove the incorrect segment, and fill in the gap using the original template strand."
+      "answer": "Specific enzymes identify the mismatched base, remove the incorrect segment, and fill in the gap using the original template strand.",
+      "explanation": "Mismatch repair enzymes recognize bulges from mispaired bases, excise a stretch of the newly synthesized strand, and DNA polymerase resynthesizes that region using the undamaged template. Photolyase repairs thymine dimers, not replication mismatches."
     },
     {
       "type": "multiple_choice",
@@ -153,7 +165,8 @@
         "The cell will detect the mismatch during mitosis and trigger the spindle checkpoint to stop division.",
         "The hydrogen bonds will fail to form, causing the DNA molecule to spontaneously degrade."
       ],
-      "answer": "The altered nucleotide sequence becomes a permanent mutation that is passed on to all daughter cells."
+      "answer": "The altered nucleotide sequence becomes a permanent mutation that is passed on to all daughter cells.",
+      "explanation": "Once a base change is copied into both strands and escapes repair, it becomes a fixed part of the genome and is inherited by every descendant of that cell. The spindle checkpoint monitors chromosome attachment, not base-pair errors."
     },
     {
       "type": "multiple_choice",
@@ -166,7 +179,8 @@
         "Telomeres, which act as non-coding buffers that protect the essential genes from being lost during this shortening.",
         "Kinetochores, which provide the signal to stop replication before the last fragment is reached."
       ],
-      "answer": "Telomeres, which act as non-coding buffers that protect the essential genes from being lost during this shortening."
+      "answer": "Telomeres, which act as non-coding buffers that protect the essential genes from being lost during this shortening.",
+      "explanation": "Without a 3' primer at the very end of a linear chromosome, the terminal Okazaki fragment cannot be fully replicated. Repetitive telomere sequences at chromosome ends are sacrificed instead of coding genes; telomerase can extend them in germ and some stem cells."
     }
   ]
 }
