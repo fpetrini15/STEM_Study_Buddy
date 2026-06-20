@@ -59,19 +59,76 @@
         <a href="chemistry.html" class="btn btn-small nav-link">Back to Chemistry</a>
       </div>
 
+      <div id="lewis-mode-screen" class="mode-screen hidden">
+        <h2>Choose a mode</h2>
+
+        <p class="mode-intro">Pick how you want to practice Lewis structures.</p>
+
+        <div class="mode-options">
+          <button class="mode-card" data-mode="structure" type="button">
+            <strong>Structure Practice</strong>
+            <span>Draw Lewis diagrams with instant feedback.</span>
+          </button>
+
+          <button class="mode-card" data-mode="full" type="button">
+            <strong>Full Analysis</strong>
+            <span>
+              Count valence electrons, draw the structure, then analyze
+              resonance, geometry, polarity, and hybridization.
+            </span>
+          </button>
+        </div>
+      </div>
+
       <div id="lewis-content" class="hidden">
         <h1 id="lewis-title">Lewis Dot Structures</h1>
 
-        <p id="question-progress" class="question-progress"></p>
+        <p id="mode-badge" class="mode-badge hidden"></p>
 
-        <div class="progress-container">
-          <div id="progress-bar"></div>
-        </div>
+        <header id="lewis-task-header" class="lewis-task-header">
+          <p id="question-progress" class="question-progress lewis-task-progress"></p>
 
-        <div class="instruction-container">
-          <div id="instruction-text">
-            Select Bond or Electron, then click slots to place multiple items.
-            Use Erase to remove one at a time.
+          <div class="progress-container lewis-task-progress-bar">
+            <div id="progress-bar"></div>
+          </div>
+
+          <ol
+            id="lewis-stage-stepper"
+            class="lewis-stage-stepper hidden"
+            aria-label="Analysis steps"
+          >
+            <li class="lewis-stage-step" data-stage="electrons">Valence electrons</li>
+            <li class="lewis-stage-arrow" aria-hidden="true">→</li>
+            <li class="lewis-stage-step" data-stage="diagram">Lewis diagram</li>
+            <li class="lewis-stage-arrow" aria-hidden="true">→</li>
+            <li class="lewis-stage-step" data-stage="analysis">Molecular analysis</li>
+          </ol>
+
+          <div class="instruction-container lewis-task-instructions">
+            <div id="instruction-text"></div>
+          </div>
+        </header>
+
+        <div id="lewis-electrons-stage" class="lewis-stage-panel hidden">
+          <div class="lewis-valence-prompt">
+            <p id="lewis-valence-question" class="lewis-valence-question stem-text"></p>
+            <label class="lewis-valence-label" for="lewis-valence-input">
+              Total valence electrons
+            </label>
+            <input
+              id="lewis-valence-input"
+              class="lewis-valence-input"
+              type="number"
+              min="1"
+              max="99"
+              inputmode="numeric"
+              autocomplete="off"
+            />
+          </div>
+          <div class="lewis-stage-actions">
+            <button id="lewis-valence-check-btn" class="btn btn-small" type="button">
+              Check
+            </button>
           </div>
         </div>
 
@@ -79,6 +136,11 @@
           <div class="lewis-workspace">
             <div class="lewis-board-wrap">
               <p id="lewis-formula" class="lewis-formula stem-text"></p>
+              <p
+                id="lewis-electron-counter"
+                class="lewis-electron-counter hidden"
+                aria-live="polite"
+              ></p>
               <div id="lewis-ion-display" class="lewis-ion-display">
                 <span class="lewis-ion-bracket" aria-hidden="true">[</span>
                 <div class="lewis-ion-body">
@@ -139,6 +201,78 @@
               Reset diagram
             </button>
             <button id="lewis-check-btn" class="btn btn-small" type="button">
+              Check
+            </button>
+          </div>
+        </div>
+
+        <div id="lewis-analysis-stage" class="lewis-stage-panel hidden">
+          <p class="lewis-analysis-intro">
+            Use your Lewis structure to answer the questions below about the
+            <span id="lewis-analysis-central-label">central atom</span>.
+          </p>
+
+          <form id="lewis-analysis-form" class="lewis-analysis-form" novalidate>
+            <div class="lewis-analysis-field" data-analysis-field="resonance">
+              <span class="lewis-analysis-question">Does this species have resonance?</span>
+              <div class="lewis-analysis-options" role="group" aria-label="Resonance">
+                <label class="lewis-analysis-option">
+                  <input type="radio" name="resonance" value="yes" />
+                  <span>Yes</span>
+                </label>
+                <label class="lewis-analysis-option">
+                  <input type="radio" name="resonance" value="no" />
+                  <span>No</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="lewis-analysis-field" data-analysis-field="electronGeometry">
+              <label class="lewis-analysis-question" for="lewis-electron-geometry">
+                Electron geometry (central atom)
+              </label>
+              <select id="lewis-electron-geometry" class="lewis-analysis-select" required>
+                <option value="">Select…</option>
+              </select>
+            </div>
+
+            <div class="lewis-analysis-field" data-analysis-field="molecularGeometry">
+              <label class="lewis-analysis-question" for="lewis-molecular-geometry">
+                Molecular geometry
+              </label>
+              <select id="lewis-molecular-geometry" class="lewis-analysis-select" required>
+                <option value="">Select…</option>
+              </select>
+            </div>
+
+            <div class="lewis-analysis-field" data-analysis-field="polarity">
+              <label class="lewis-analysis-question" for="lewis-polarity">Polarity</label>
+              <select id="lewis-polarity" class="lewis-analysis-select" required>
+                <option value="">Select…</option>
+              </select>
+            </div>
+
+            <div class="lewis-analysis-field" data-analysis-field="hybridization">
+              <label class="lewis-analysis-question" for="lewis-hybridization">
+                Hybridization (central atom)
+              </label>
+              <select id="lewis-hybridization" class="lewis-analysis-select" required>
+                <option value="">Select…</option>
+              </select>
+            </div>
+
+            <div class="lewis-analysis-field" data-analysis-field="distortion">
+              <label class="lewis-analysis-question" for="lewis-distortion">
+                Bond angle / distortion
+              </label>
+              <select id="lewis-distortion" class="lewis-analysis-select" required>
+                <option value="">Select…</option>
+              </select>
+            </div>
+          </form>
+
+          <div class="lewis-stage-actions">
+            <button id="lewis-analysis-check-btn" class="btn btn-small" type="button">
               Check
             </button>
           </div>
