@@ -11,6 +11,16 @@
         { "id": "c", "symbol": "C" },
         { "id": "o2", "symbol": "O" }
       ],
+      "valenceElectrons": 16,
+      "analysis": {
+        "centralAtom": "c",
+        "resonance": false,
+        "electronGeometry": "linear",
+        "molecularGeometry": "linear",
+        "polarity": "nonpolar",
+        "hybridization": "sp",
+        "distortion": "none"
+      },
       "answer": {
         "bonds": { "0-1": 2, "1-2": 2 },
         "loneDots": {
@@ -30,6 +40,16 @@
         { "id": "s", "symbol": "S" },
         { "id": "o2", "symbol": "O" }
       ],
+      "valenceElectrons": 18,
+      "analysis": {
+        "centralAtom": "s",
+        "resonance": true,
+        "electronGeometry": "trigonal_planar",
+        "molecularGeometry": "bent",
+        "polarity": "polar",
+        "hybridization": "sp2",
+        "distortion": "lone_pair_repulsion"
+      },
       "answer": {
         "variants": [
           {
@@ -59,6 +79,16 @@
         { "id": "n", "symbol": "N" },
         { "id": "o2", "symbol": "O" }
       ],
+      "valenceElectrons": 18,
+      "analysis": {
+        "centralAtom": "n",
+        "resonance": true,
+        "electronGeometry": "trigonal_planar",
+        "molecularGeometry": "bent",
+        "polarity": "polar",
+        "hybridization": "sp2",
+        "distortion": "lone_pair_repulsion"
+      },
       "answer": {
         "variants": [
           {
@@ -72,6 +102,81 @@
         ]
       },
       "explanation": "The nitrite ion has two equivalent resonance structures. In each, nitrogen has one lone pair (two electrons). One N–O bond is a double bond and the other is a single bond — the singly bonded oxygen has three lone pairs (six electrons), and the doubly bonded oxygen has two lone pairs (four electrons). The −1 charge is delocalized over the ion."
+    },
+    {
+      "id": "xecl2",
+      "name": "Xenon dichloride",
+      "formula": "XeCl₂",
+      "layout": "linear",
+      "atoms": [
+        { "id": "cl1", "symbol": "Cl" },
+        { "id": "xe", "symbol": "Xe", "slotLayout": "expanded" },
+        { "id": "cl2", "symbol": "Cl" }
+      ],
+      "valenceElectrons": 22,
+      "analysis": {
+        "centralAtom": "xe",
+        "resonance": false,
+        "electronGeometry": "trigonal_bipyramidal",
+        "molecularGeometry": "linear",
+        "polarity": "polar",
+        "hybridization": "sp3d",
+        "distortion": "lone_pair_repulsion"
+      },
+      "answer": {
+        "bonds": { "0-1": 1, "1-2": 1 },
+        "loneDots": {
+          "cl1": 6,
+          "xe": 6,
+          "cl2": 6
+        }
+      },
+      "explanation": "XeCl₂ is linear with a trigonal bipyramidal electron geometry. Xenon forms single bonds to each chlorine. Each chlorine has three lone pairs (six electrons). Xenon has three lone pairs (six electrons) — use the square slots above and below Xe, and the circular diagonal slots in the corner grid cells. The lone pairs repel the axial Cl–Xe bonds into a linear shape."
+    },
+    {
+      "id": "asf6_minus",
+      "name": "Arsenic hexafluoride ion",
+      "formula": "AsF₆⁻",
+      "charge": -1,
+      "layout": "octahedral",
+      "atoms": [
+        { "id": "as", "symbol": "As" },
+        { "id": "fn1", "symbol": "F" },
+        { "id": "fn2", "symbol": "F" },
+        { "id": "fn3", "symbol": "F" },
+        { "id": "fs1", "symbol": "F" },
+        { "id": "fs2", "symbol": "F" },
+        { "id": "fs3", "symbol": "F" }
+      ],
+      "valenceElectrons": 48,
+      "analysis": {
+        "centralAtom": "as",
+        "resonance": false,
+        "electronGeometry": "octahedral",
+        "molecularGeometry": "octahedral",
+        "polarity": "nonpolar",
+        "hybridization": "sp3d2",
+        "distortion": "none"
+      },
+      "answer": {
+        "bonds": {
+          "0-1": 1,
+          "0-2": 1,
+          "0-3": 1,
+          "0-4": 1,
+          "0-5": 1,
+          "0-6": 1
+        },
+        "loneDots": {
+          "fn1": { "north": 2, "east": 2, "west": 2 },
+          "fn2": { "north": 2, "east": 2, "west": 2 },
+          "fn3": { "north": 2, "east": 2, "west": 2 },
+          "fs1": { "north": 2, "east": 2, "west": 2 },
+          "fs2": { "north": 2, "east": 2, "west": 2 },
+          "fs3": { "north": 2, "east": 2, "west": 2 }
+        }
+      },
+      "explanation": "AsF₆⁻ is octahedral: arsenic sits at the center with six fluorines equally spaced around it. Draw a single bond from As to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Arsenic has no lone pairs — leave the four diagonal circle slots empty. If the central atom has lone pairs instead (up to four pairs when it forms fewer than six bonds), place them in those diagonal circles. The −1 charge is shown on the ion bracket."
     }
   ]
 }
