@@ -406,14 +406,19 @@ SITE HEADER
   color: var(--text-light);
 }
 
-.quiz-search-wrap {
-  max-width: 480px;
+.quiz-controls {
+  max-width: 720px;
 
   margin: 0 auto 32px;
+}
+
+.quiz-filter-wrap {
+  margin-bottom: 20px;
 
   text-align: left;
 }
 
+.filter-label,
 .search-label {
   display: block;
 
@@ -424,6 +429,64 @@ SITE HEADER
   font-weight: 600;
 
   color: var(--text);
+}
+
+.quiz-filters {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+}
+
+.quiz-filter-chip {
+  padding: 8px 14px;
+
+  font-family: var(--font-ui);
+
+  font-size: 14px;
+
+  font-weight: 500;
+
+  line-height: 1.2;
+
+  color: var(--text);
+
+  background: var(--card-bg);
+
+  border: 2px solid var(--border);
+
+  border-radius: 999px;
+
+  cursor: pointer;
+
+  transition: var(--transition);
+}
+
+.quiz-filter-chip:hover {
+  border-color: var(--primary);
+
+  background: var(--inactive-light);
+}
+
+.quiz-filter-chip--active {
+  color: #fff;
+
+  background: var(--primary);
+
+  border-color: var(--primary);
+}
+
+.quiz-filter-chip--active:hover {
+  color: #fff;
+
+  background: var(--primary);
+
+  border-color: var(--primary);
+}
+
+.quiz-search-wrap {
+  text-align: left;
 }
 
 .quiz-search {
@@ -1556,6 +1619,7 @@ FOCUS & MOTION
 .nav-link:focus-visible,
 .mc-option:focus-visible,
 .mode-card:focus-visible,
+.quiz-filter-chip:focus-visible,
 .quiz-search:focus-visible,
 .recent-item:focus-visible,
 .theme-toggle:focus-visible,
@@ -1686,9 +1750,19 @@ DARK MODE
 
 [data-theme="dark"] .mode-card,
 [data-theme="dark"] .recent-item,
+[data-theme="dark"] .quiz-filter-chip,
 [data-theme="dark"] .quiz-search,
 [data-theme="dark"] .theme-toggle {
   background: var(--card-bg);
+}
+
+[data-theme="dark"] .quiz-filter-chip--active,
+[data-theme="dark"] .quiz-filter-chip--active:hover {
+  color: #fff;
+
+  background: var(--primary);
+
+  border-color: var(--primary);
 }
 
 [data-theme="dark"] .mode-card:hover,
@@ -2757,11 +2831,23 @@ LEWIS DOT STRUCTURES
 }
 
 .lewis-feedback {
+  width: 100%;
+
+  max-width: 680px;
+
   margin-top: 20px;
+
+  margin-inline: auto;
+}
+
+#lewis-content.lewis-content--octahedral .lewis-feedback {
+  max-width: min(100%, 1040px);
 }
 
 .lewis-feedback .feedback-panel {
-  max-width: 720px;
+  width: 100%;
+
+  max-width: none;
 }
 
 .lewis-feedback.show {
@@ -2784,6 +2870,10 @@ LEWIS DOT STRUCTURES
   margin-top: 16px;
 }
 
+.lewis-feedback .lewis-example {
+  margin-inline: -22px;
+}
+
 .lewis-example-label {
   margin: 0 0 10px;
 
@@ -2799,9 +2889,15 @@ LEWIS DOT STRUCTURES
 }
 
 .lewis-board-wrap--example {
-  padding: 18px 28px;
+  padding: 18px;
+
+  padding-bottom: 22px;
 
   pointer-events: none;
+}
+
+.lewis-board-wrap--example.lewis-board-wrap--octahedral {
+  padding-inline: clamp(22px, 3.5vw, 40px);
 }
 
 .lewis-board--example .lewis-slot {
@@ -2863,7 +2959,8 @@ LEWIS DOT STRUCTURES
     padding-inline: 16px;
   }
 
-  .lewis-workspace--octahedral {
+  .lewis-workspace--octahedral,
+  .lewis-feedback {
     max-width: 100%;
   }
 

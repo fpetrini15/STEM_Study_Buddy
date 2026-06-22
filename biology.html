@@ -46,15 +46,27 @@
 
       <div id="recent-quizzes" class="recent-section hidden"></div>
 
-      <div id="quiz-search-wrap" class="quiz-search-wrap hidden">
-        <label class="search-label" for="quiz-search">Search quizzes</label>
-        <input
-          type="search"
-          id="quiz-search"
-          class="quiz-search"
-          placeholder="Search by topic or keyword..."
-          autocomplete="off"
-        />
+      <div id="quiz-controls" class="quiz-controls hidden">
+        <div id="quiz-filter-wrap" class="quiz-filter-wrap">
+          <span class="filter-label" id="quiz-filter-label">Filter by topic</span>
+          <div
+            id="quiz-filters"
+            class="quiz-filters"
+            role="group"
+            aria-labelledby="quiz-filter-label"
+          ></div>
+        </div>
+
+        <div id="quiz-search-wrap" class="quiz-search-wrap">
+          <label class="search-label" for="quiz-search">Search quizzes</label>
+          <input
+            type="search"
+            id="quiz-search"
+            class="quiz-search"
+            placeholder="Search by topic or keyword..."
+            autocomplete="off"
+          />
+        </div>
       </div>
 
       <div id="quiz-catalog"></div>
