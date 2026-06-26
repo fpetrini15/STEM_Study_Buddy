@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
   <head>
@@ -37,11 +37,7 @@
     />
   </head>
 
-  <body
-    class="subject-chemistry"
-    data-page="lewis"
-    data-subject="chemistry"
-  >
+  <body class="subject-chemistry" data-page="lewis" data-subject="chemistry">
     <div class="container">
       <div id="loading-screen">
         <div class="science-loader">
@@ -56,13 +52,17 @@
       <div id="lewis-error" class="load-error hidden">
         <h2>Couldn't load tool</h2>
         <p id="lewis-error-message"></p>
-        <a href="chemistry.html" class="btn btn-small nav-link">Back to Chemistry</a>
+        <a href="chemistry.html" class="btn btn-small nav-link"
+          >Back to Chemistry</a
+        >
       </div>
 
       <div id="lewis-mode-screen" class="mode-screen hidden">
         <h2>Choose a mode</h2>
 
-        <p class="mode-intro">Pick how you want to practice Lewis structures.</p>
+        <p class="mode-intro">
+          Pick how you want to practice Lewis structures.
+        </p>
 
         <div class="mode-options">
           <button class="mode-card" data-mode="structure" type="button">
@@ -77,6 +77,93 @@
               resonance, geometry, polarity, and hybridization.
             </span>
           </button>
+
+          <button class="mode-card" data-mode="browse" type="button">
+            <strong>Browse Structures</strong>
+            <span>
+              Pick any molecule to practice on your own — no shuffle, no score.
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <div id="lewis-browse-screen" class="lewis-browse-screen hidden">
+        <div class="lewis-browse-panel">
+          <button
+            id="lewis-browse-back-btn"
+            class="btn btn-small lewis-browse-back"
+            type="button"
+          >
+            ← All modes
+          </button>
+
+          <h2>Browse structures</h2>
+
+          <p class="lewis-browse-intro mode-intro">
+            Pick a molecule to practice on your own. Your choice is saved in the
+            link so you can bookmark or share it.
+          </p>
+
+          <div
+            class="lewis-browse-style"
+            role="group"
+            aria-labelledby="lewis-browse-style-label"
+          >
+            <span class="filter-label" id="lewis-browse-style-label"
+              >Practice mode</span
+            >
+            <div class="lewis-browse-style-options">
+              <label class="lewis-browse-style-option">
+                <input
+                  type="radio"
+                  name="browse-style"
+                  value="structure"
+                  checked
+                />
+                <span>Structure only</span>
+              </label>
+              <label class="lewis-browse-style-option">
+                <input type="radio" name="browse-style" value="full" />
+                <span>Full analysis</span>
+              </label>
+            </div>
+            <p
+              id="lewis-browse-style-note"
+              class="lewis-browse-style-note hidden"
+            >
+              Only structures with valence-electron and analysis data are
+              listed.
+            </p>
+          </div>
+
+          <div class="quiz-search-wrap lewis-browse-search-wrap">
+            <label class="search-label" for="lewis-browse-search"
+              >Search structures</label
+            >
+            <input
+              id="lewis-browse-search"
+              class="quiz-search lewis-browse-search"
+              type="search"
+              placeholder="Name or formula…"
+              autocomplete="off"
+            />
+          </div>
+
+          <section id="lewis-browse-recent" class="lewis-browse-section hidden">
+            <h3 class="lewis-browse-section-title">Recently practiced</h3>
+            <div id="lewis-browse-recent-list" class="lewis-browse-list"></div>
+          </section>
+
+          <section class="lewis-browse-section">
+            <h3 class="lewis-browse-section-title">
+              All structures
+              <span id="lewis-browse-count" class="lewis-browse-count"></span>
+            </h3>
+            <p id="lewis-browse-empty" class="lewis-browse-empty hidden">
+              No structures match your search.
+            </p>
+            <div id="lewis-browse-all-list" class="lewis-browse-list"></div>
+          </section>
         </div>
       </div>
 
@@ -86,7 +173,10 @@
         <p id="mode-badge" class="mode-badge hidden"></p>
 
         <header id="lewis-task-header" class="lewis-task-header">
-          <p id="question-progress" class="question-progress lewis-task-progress"></p>
+          <p
+            id="question-progress"
+            class="question-progress lewis-task-progress"
+          ></p>
 
           <div class="progress-container lewis-task-progress-bar">
             <div id="progress-bar"></div>
@@ -97,11 +187,15 @@
             class="lewis-stage-stepper hidden"
             aria-label="Analysis steps"
           >
-            <li class="lewis-stage-step" data-stage="electrons">Valence electrons</li>
+            <li class="lewis-stage-step" data-stage="electrons">
+              Valence electrons
+            </li>
             <li class="lewis-stage-arrow" aria-hidden="true">→</li>
             <li class="lewis-stage-step" data-stage="diagram">Lewis diagram</li>
             <li class="lewis-stage-arrow" aria-hidden="true">→</li>
-            <li class="lewis-stage-step" data-stage="analysis">Molecular analysis</li>
+            <li class="lewis-stage-step" data-stage="analysis">
+              Molecular analysis
+            </li>
           </ol>
 
           <div class="instruction-container lewis-task-instructions">
@@ -111,7 +205,10 @@
 
         <div id="lewis-electrons-stage" class="lewis-stage-panel hidden">
           <div class="lewis-valence-prompt">
-            <p id="lewis-valence-question" class="lewis-valence-question stem-text"></p>
+            <p
+              id="lewis-valence-question"
+              class="lewis-valence-question stem-text"
+            ></p>
             <label class="lewis-valence-label" for="lewis-valence-input">
               Total valence electrons
             </label>
@@ -126,7 +223,11 @@
             />
           </div>
           <div class="lewis-stage-actions">
-            <button id="lewis-valence-check-btn" class="btn btn-small" type="button">
+            <button
+              id="lewis-valence-check-btn"
+              class="btn btn-small"
+              type="button"
+            >
               Check
             </button>
           </div>
@@ -207,78 +308,184 @@
         </div>
 
         <div id="lewis-analysis-stage" class="lewis-stage-panel hidden">
-          <p class="lewis-analysis-intro">
-            Use your Lewis structure to answer the questions below about the
-            <span id="lewis-analysis-central-label">central atom</span>.
-          </p>
+          <div class="lewis-analysis-workspace">
+            <aside
+              id="lewis-analysis-reference"
+              class="lewis-analysis-reference"
+              aria-label="Reference Lewis structure"
+            >
+              <p class="lewis-analysis-reference-label">Reference structure</p>
+              <div
+                id="lewis-analysis-reference-board-wrap"
+                class="lewis-board-wrap lewis-board-wrap--example lewis-board-wrap--analysis-ref"
+              ></div>
+            </aside>
 
-          <form id="lewis-analysis-form" class="lewis-analysis-form" novalidate>
-            <div class="lewis-analysis-field" data-analysis-field="resonance">
-              <span class="lewis-analysis-question">Does this species have resonance?</span>
-              <div class="lewis-analysis-options" role="group" aria-label="Resonance">
-                <label class="lewis-analysis-option">
-                  <input type="radio" name="resonance" value="yes" />
-                  <span>Yes</span>
-                </label>
-                <label class="lewis-analysis-option">
-                  <input type="radio" name="resonance" value="no" />
-                  <span>No</span>
-                </label>
+            <div class="lewis-analysis-main">
+              <p class="lewis-analysis-intro">
+                Use the Lewis structure to answer the questions below about the
+                <span id="lewis-analysis-central-label">central atom</span>.
+              </p>
+
+              <form
+                id="lewis-analysis-form"
+                class="lewis-analysis-form"
+                novalidate
+              >
+                <div
+                  class="lewis-analysis-field"
+                  data-analysis-field="electronDomains"
+                >
+                  <label
+                    class="lewis-analysis-question"
+                    for="lewis-electron-domains"
+                  >
+                    Number of electron domains (central atom)
+                  </label>
+                  <input
+                    id="lewis-electron-domains"
+                    class="lewis-analysis-number-input"
+                    type="number"
+                    inputmode="numeric"
+                    min="1"
+                    max="6"
+                    step="1"
+                    placeholder="e.g. 4"
+                    required
+                  />
+                </div>
+
+                <div
+                  class="lewis-analysis-field"
+                  data-analysis-field="resonance"
+                >
+                  <span class="lewis-analysis-question"
+                    >Does this species have resonance?</span
+                  >
+                  <div
+                    class="lewis-analysis-options"
+                    role="group"
+                    aria-label="Resonance"
+                  >
+                    <label class="lewis-analysis-option">
+                      <input type="radio" name="resonance" value="yes" />
+                      <span>Yes</span>
+                    </label>
+                    <label class="lewis-analysis-option">
+                      <input type="radio" name="resonance" value="no" />
+                      <span>No</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div
+                  class="lewis-analysis-field"
+                  data-analysis-field="electronGeometry"
+                >
+                  <label
+                    class="lewis-analysis-question"
+                    for="lewis-electron-geometry"
+                  >
+                    Electron geometry (central atom)
+                  </label>
+                  <select
+                    id="lewis-electron-geometry"
+                    class="lewis-analysis-select"
+                    required
+                  >
+                    <option value="">Select…</option>
+                  </select>
+                </div>
+
+                <div
+                  class="lewis-analysis-field"
+                  data-analysis-field="molecularGeometry"
+                >
+                  <label
+                    class="lewis-analysis-question"
+                    for="lewis-molecular-geometry"
+                  >
+                    Molecular geometry
+                  </label>
+                  <select
+                    id="lewis-molecular-geometry"
+                    class="lewis-analysis-select"
+                    required
+                  >
+                    <option value="">Select…</option>
+                  </select>
+                </div>
+
+                <div
+                  class="lewis-analysis-field"
+                  data-analysis-field="polarity"
+                >
+                  <label class="lewis-analysis-question" for="lewis-polarity"
+                    >Polarity</label
+                  >
+                  <select
+                    id="lewis-polarity"
+                    class="lewis-analysis-select"
+                    required
+                  >
+                    <option value="">Select…</option>
+                  </select>
+                </div>
+
+                <div
+                  class="lewis-analysis-field"
+                  data-analysis-field="hybridization"
+                >
+                  <label
+                    class="lewis-analysis-question"
+                    for="lewis-hybridization"
+                  >
+                    Hybridization (central atom)
+                  </label>
+                  <select
+                    id="lewis-hybridization"
+                    class="lewis-analysis-select"
+                    required
+                  >
+                    <option value="">Select…</option>
+                  </select>
+                </div>
+
+                <div
+                  class="lewis-analysis-field"
+                  data-analysis-field="distortion"
+                >
+                  <label class="lewis-analysis-question" for="lewis-distortion">
+                    Bond angle / distortion
+                  </label>
+                  <select
+                    id="lewis-distortion"
+                    class="lewis-analysis-select"
+                    required
+                  >
+                    <option value="">Select…</option>
+                  </select>
+                </div>
+              </form>
+
+              <div class="lewis-stage-actions">
+                <button
+                  id="lewis-analysis-check-btn"
+                  class="btn btn-small"
+                  type="button"
+                >
+                  Check
+                </button>
               </div>
             </div>
-
-            <div class="lewis-analysis-field" data-analysis-field="electronGeometry">
-              <label class="lewis-analysis-question" for="lewis-electron-geometry">
-                Electron geometry (central atom)
-              </label>
-              <select id="lewis-electron-geometry" class="lewis-analysis-select" required>
-                <option value="">Select…</option>
-              </select>
-            </div>
-
-            <div class="lewis-analysis-field" data-analysis-field="molecularGeometry">
-              <label class="lewis-analysis-question" for="lewis-molecular-geometry">
-                Molecular geometry
-              </label>
-              <select id="lewis-molecular-geometry" class="lewis-analysis-select" required>
-                <option value="">Select…</option>
-              </select>
-            </div>
-
-            <div class="lewis-analysis-field" data-analysis-field="polarity">
-              <label class="lewis-analysis-question" for="lewis-polarity">Polarity</label>
-              <select id="lewis-polarity" class="lewis-analysis-select" required>
-                <option value="">Select…</option>
-              </select>
-            </div>
-
-            <div class="lewis-analysis-field" data-analysis-field="hybridization">
-              <label class="lewis-analysis-question" for="lewis-hybridization">
-                Hybridization (central atom)
-              </label>
-              <select id="lewis-hybridization" class="lewis-analysis-select" required>
-                <option value="">Select…</option>
-              </select>
-            </div>
-
-            <div class="lewis-analysis-field" data-analysis-field="distortion">
-              <label class="lewis-analysis-question" for="lewis-distortion">
-                Bond angle / distortion
-              </label>
-              <select id="lewis-distortion" class="lewis-analysis-select" required>
-                <option value="">Select…</option>
-              </select>
-            </div>
-          </form>
-
-          <div class="lewis-stage-actions">
-            <button id="lewis-analysis-check-btn" class="btn btn-small" type="button">
-              Check
-            </button>
           </div>
         </div>
 
-        <div id="lewis-feedback" class="lewis-feedback" aria-live="polite"></div>
+        <div
+          id="lewis-feedback"
+          class="lewis-feedback"
+          aria-live="polite"
+        ></div>
 
         <div class="score">
           Score:
@@ -288,6 +495,14 @@
         </div>
 
         <div class="lewis-session-actions">
+          <button
+            id="lewis-browse-structures-btn"
+            class="btn btn-small hidden"
+            type="button"
+          >
+            All structures
+          </button>
+
           <button id="continue-btn" class="btn btn-small" style="display: none">
             Continue
           </button>
@@ -317,6 +532,8 @@
 
     <script src="js/nav.js"></script>
     <script src="js/stem-text.js"></script>
+    <script src="js/lewis-answers.js"></script>
+    <script src="js/lewis-validation.js"></script>
     <script src="js/lewis.js"></script>
   </body>
 </html>

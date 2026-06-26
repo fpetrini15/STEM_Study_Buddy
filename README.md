@@ -136,11 +136,49 @@ Data lives at `data/chemistry/lewis_structures.json`. Each molecule defines atom
 
 | Field | Description |
 |-------|-------------|
-| `layout` | `"linear"` — atoms in a row |
+| `layout` | `linear`, `trigonal_planar`, `tetrahedral`, or `octahedral` |
 | `answer.bonds` | Bond order between atom indices (`"0-1": 2` = double bond) |
 | `answer.loneDots` | Total lone electrons per atom ID |
-| `answer.variants` | Array of alternate valid answers (resonance structures) |
+| `answer.variants` | Explicit alternate valid answers (legacy; still supported) |
+| `answer.patterns` | Bond-order patterns expanded into variants (preferred for resonance) |
 | `charge` | Ion charge (e.g. `-1`); displays brackets and superscript |
+
+### Answer patterns (resonance molecules)
+
+Use `answer.patterns` instead of hand-writing every variant. Each pattern lists bond orders from the central atom to each peripheral atom (in atom-index order). Set `"permute": true` when equivalent atoms can swap positions (e.g. the three oxygens in SO₃).
+
+```json
+"answer": {
+  "patterns": [
+    {
+      "peripheralOrders": [1, 2, 2],
+      "peripheralLoneByOrder": { "1": 6, "2": 4 },
+      "permute": true
+    }
+  ]
+}
+```
+
+| Pattern field | Description |
+|---------------|-------------|
+| `peripheralOrders` | Bond order to each peripheral atom (same order as non-central atoms in `atoms`) |
+| `peripheralLoneByOrder` | Lone electrons on a peripheral atom by its bond order (`"1"`: 6, `"2"`: 4, etc.) |
+| `centralLone` | Lone electrons on the central atom (optional, default 0) |
+| `permute` | If true, expand all unique order permutations (optional, default false) |
+
+Run data lint and validation tests after editing molecules:
+
+```bash
+node scripts/test-lewis.js
+```
+
+Install the local pre-commit hook (runs automatically when Lewis files are staged):
+
+```bash
+sh scripts/install-git-hooks.sh
+```
+
+Pull requests that touch Lewis data also run the same check in GitHub Actions before merge to `main`.
 
 Lone-pair placement is validated by total electron count per atom, not fixed slot positions. Wrong answers and skips show an example diagram.
 

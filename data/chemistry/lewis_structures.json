@@ -14,6 +14,7 @@
       "valenceElectrons": 16,
       "analysis": {
         "centralAtom": "c",
+        "electronDomains": 2,
         "resonance": false,
         "electronGeometry": "linear",
         "molecularGeometry": "linear",
@@ -43,6 +44,7 @@
       "valenceElectrons": 18,
       "analysis": {
         "centralAtom": "s",
+        "electronDomains": 3,
         "resonance": true,
         "electronGeometry": "trigonal_planar",
         "molecularGeometry": "bent",
@@ -51,18 +53,17 @@
         "distortion": "lone_pair_repulsion"
       },
       "answer": {
-        "variants": [
+        "patterns": [
           {
-            "bonds": { "0-1": 2, "1-2": 2 },
-            "loneDots": { "o1": 4, "s": 2, "o2": 4 }
+            "peripheralOrders": [2, 2],
+            "centralLone": 2,
+            "peripheralLoneByOrder": { "2": 4 }
           },
           {
-            "bonds": { "0-1": 2, "1-2": 1 },
-            "loneDots": { "o1": 4, "s": 2, "o2": 6 }
-          },
-          {
-            "bonds": { "0-1": 1, "1-2": 2 },
-            "loneDots": { "o1": 6, "s": 2, "o2": 4 }
+            "peripheralOrders": [2, 1],
+            "centralLone": 2,
+            "peripheralLoneByOrder": { "1": 6, "2": 4 },
+            "permute": true
           }
         ]
       },
@@ -82,6 +83,7 @@
       "valenceElectrons": 18,
       "analysis": {
         "centralAtom": "n",
+        "electronDomains": 3,
         "resonance": true,
         "electronGeometry": "trigonal_planar",
         "molecularGeometry": "bent",
@@ -90,14 +92,12 @@
         "distortion": "lone_pair_repulsion"
       },
       "answer": {
-        "variants": [
+        "patterns": [
           {
-            "bonds": { "0-1": 2, "1-2": 1 },
-            "loneDots": { "o1": 4, "n": 2, "o2": 6 }
-          },
-          {
-            "bonds": { "0-1": 1, "1-2": 2 },
-            "loneDots": { "o1": 6, "n": 2, "o2": 4 }
+            "peripheralOrders": [2, 1],
+            "centralLone": 2,
+            "peripheralLoneByOrder": { "1": 6, "2": 4 },
+            "permute": true
           }
         ]
       },
@@ -116,6 +116,7 @@
       "valenceElectrons": 22,
       "analysis": {
         "centralAtom": "xe",
+        "electronDomains": 5,
         "resonance": false,
         "electronGeometry": "trigonal_bipyramidal",
         "molecularGeometry": "linear",
@@ -151,6 +152,7 @@
       "valenceElectrons": 48,
       "analysis": {
         "centralAtom": "as",
+        "electronDomains": 6,
         "resonance": false,
         "electronGeometry": "octahedral",
         "molecularGeometry": "octahedral",
@@ -177,6 +179,322 @@
         }
       },
       "explanation": "AsF₆⁻ is octahedral: arsenic sits at the center with six fluorines equally spaced around it. Draw a single bond from As to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Arsenic has no lone pairs — leave the four diagonal circle slots empty. If the central atom has lone pairs instead (up to four pairs when it forms fewer than six bonds), place them in those diagonal circles. The −1 charge is shown on the ion bracket."
+    },
+    {
+      "id": "si2",
+      "name": "Sulfur diiodide",
+      "formula": "SI₂",
+      "layout": "linear",
+      "atoms": [
+        { "id": "i1", "symbol": "I" },
+        { "id": "s", "symbol": "S" },
+        { "id": "i2", "symbol": "I" }
+      ],
+      "valenceElectrons": 20,
+      "analysis": {
+        "centralAtom": "s",
+        "electronDomains": 4,
+        "resonance": false,
+        "electronGeometry": "tetrahedral",
+        "molecularGeometry": "bent",
+        "polarity": "polar",
+        "hybridization": "sp3",
+        "distortion": "lone_pair_repulsion"
+      },
+      "answer": {
+        "bonds": { "0-1": 1, "1-2": 1 },
+        "loneDots": {
+          "i1": 6,
+          "s": 4,
+          "i2": 6
+        }
+      },
+      "explanation": "Sulfur forms single bonds to each iodine. Each iodine has three lone pairs (six electrons). Sulfur has two lone pairs (four electrons). The four electron domains around sulfur (two bonds and two lone pairs) give a tetrahedral electron geometry, but the lone pairs compress the I–S–I bond angle into a bent molecular shape."
+    },
+    {
+      "id": "clf2_plus",
+      "name": "Chlorine difluoride ion",
+      "formula": "ClF₂⁺",
+      "charge": 1,
+      "layout": "linear",
+      "atoms": [
+        { "id": "f1", "symbol": "F" },
+        { "id": "cl", "symbol": "Cl" },
+        { "id": "f2", "symbol": "F" }
+      ],
+      "valenceElectrons": 20,
+      "analysis": {
+        "centralAtom": "cl",
+        "electronDomains": 4,
+        "resonance": false,
+        "electronGeometry": "tetrahedral",
+        "molecularGeometry": "bent",
+        "polarity": "polar",
+        "hybridization": "sp3",
+        "distortion": "lone_pair_repulsion"
+      },
+      "answer": {
+        "bonds": { "0-1": 1, "1-2": 1 },
+        "loneDots": {
+          "f1": 6,
+          "cl": 4,
+          "f2": 6
+        }
+      },
+      "explanation": "ClF₂⁺ has 20 valence electrons (7 + 7 + 7 − 1 for the + charge). Chlorine forms single bonds to each fluorine. Each fluorine has three lone pairs (six electrons). Chlorine has two lone pairs (four electrons). The four electron domains around chlorine (two bonds and two lone pairs) give a tetrahedral electron geometry and a bent molecular shape. Show the + charge on the ion bracket."
+    },
+    {
+      "id": "clf2_minus",
+      "name": "Chlorine difluoride ion",
+      "formula": "ClF₂⁻",
+      "charge": -1,
+      "layout": "linear",
+      "atoms": [
+        { "id": "f1", "symbol": "F" },
+        { "id": "cl", "symbol": "Cl", "slotLayout": "expanded" },
+        { "id": "f2", "symbol": "F" }
+      ],
+      "valenceElectrons": 22,
+      "analysis": {
+        "centralAtom": "cl",
+        "electronDomains": 5,
+        "resonance": false,
+        "electronGeometry": "trigonal_bipyramidal",
+        "molecularGeometry": "linear",
+        "polarity": "polar",
+        "hybridization": "sp3d",
+        "distortion": "lone_pair_repulsion"
+      },
+      "answer": {
+        "bonds": { "0-1": 1, "1-2": 1 },
+        "loneDots": {
+          "f1": 6,
+          "cl": 6,
+          "f2": 6
+        }
+      },
+      "explanation": "ClF₂⁻ has 22 valence electrons (7 + 7 + 7 + 1 for the − charge). Chlorine forms single bonds to each fluorine. Each fluorine has three lone pairs (six electrons). Chlorine has three lone pairs (six electrons) — use the square slots above and below Cl, and the circular diagonal slots in the corner grid cells. The five electron domains give a trigonal bipyramidal electron geometry, but the lone pairs push the F–Cl bonds into a linear molecular shape. Show the − charge on the ion bracket."
+    },
+    {
+      "id": "nocl",
+      "name": "Nitrosyl chloride",
+      "formula": "NOCl",
+      "layout": "linear",
+      "atoms": [
+        { "id": "o", "symbol": "O" },
+        { "id": "n", "symbol": "N" },
+        { "id": "cl", "symbol": "Cl" }
+      ],
+      "valenceElectrons": 18,
+      "analysis": {
+        "centralAtom": "n",
+        "electronDomains": 3,
+        "resonance": true,
+        "electronGeometry": "trigonal_planar",
+        "molecularGeometry": "bent",
+        "polarity": "polar",
+        "hybridization": "sp2",
+        "distortion": "lone_pair_repulsion"
+      },
+      "answer": {
+        "patterns": [
+          {
+            "peripheralOrders": [2, 1],
+            "centralLone": 2,
+            "peripheralLoneByOrder": { "1": 6, "2": 4 },
+            "permute": true
+          }
+        ]
+      },
+      "explanation": "NOCl has resonance. In one structure, nitrogen forms a double bond to oxygen and a single bond to chlorine (oxygen with two lone pairs, chlorine with three lone pairs). In the other, nitrogen forms a single bond to oxygen and a double bond to chlorine (oxygen with three lone pairs, chlorine with two lone pairs). Nitrogen keeps one lone pair (two electrons) in each case."
+    },
+    {
+      "id": "cbr4",
+      "name": "Carbon tetrabromide",
+      "formula": "CBr₄",
+      "layout": "tetrahedral",
+      "atoms": [
+        { "id": "c", "symbol": "C" },
+        { "id": "br1", "symbol": "Br" },
+        { "id": "br2", "symbol": "Br" },
+        { "id": "br3", "symbol": "Br" },
+        { "id": "br4", "symbol": "Br" }
+      ],
+      "valenceElectrons": 32,
+      "analysis": {
+        "centralAtom": "c",
+        "electronDomains": 4,
+        "resonance": false,
+        "electronGeometry": "tetrahedral",
+        "molecularGeometry": "tetrahedral",
+        "polarity": "nonpolar",
+        "hybridization": "sp3",
+        "distortion": "none"
+      },
+      "answer": {
+        "bonds": {
+          "0-1": 1,
+          "0-2": 1,
+          "0-3": 1,
+          "0-4": 1
+        },
+        "loneDots": {
+          "br1": { "north": 2, "east": 2, "west": 2 },
+          "br2": { "north": 2, "east": 2, "west": 2 },
+          "br3": { "north": 2, "east": 2, "west": 2 },
+          "br4": { "north": 2, "east": 2, "west": 2 }
+        }
+      },
+      "explanation": "Carbon sits at the center with four bromines arranged around it. Draw a single bond from C to each Br. Each bromine has three lone pairs (six electrons) in the three square slots beside the bond. Carbon has no lone pairs — leave the four diagonal circle slots on the central atom empty."
+    },
+    {
+      "id": "cnbr",
+      "name": "Cyanogen bromide",
+      "formula": "CNBr",
+      "layout": "linear",
+      "atoms": [
+        { "id": "br", "symbol": "Br" },
+        { "id": "c", "symbol": "C" },
+        { "id": "n", "symbol": "N" }
+      ],
+      "valenceElectrons": 16,
+      "analysis": {
+        "centralAtom": "c",
+        "electronDomains": 2,
+        "resonance": false,
+        "electronGeometry": "linear",
+        "molecularGeometry": "linear",
+        "polarity": "polar",
+        "hybridization": "sp",
+        "distortion": "none"
+      },
+      "answer": {
+        "bonds": { "0-1": 1, "1-2": 3 },
+        "loneDots": {
+          "br": 6,
+          "n": 2
+        }
+      },
+      "explanation": "Cyanogen bromide is a linear Br–C≡N structure. Bromine forms a single bond to carbon; carbon forms a triple bond to nitrogen. Bromine has three lone pairs (six electrons). Nitrogen has one lone pair (two electrons). Carbon has no lone pairs."
+    },
+    {
+      "id": "bcl3",
+      "name": "Boron trichloride",
+      "formula": "BCl₃",
+      "layout": "trigonal_planar",
+      "atoms": [
+        { "id": "b", "symbol": "B" },
+        { "id": "cl1", "symbol": "Cl" },
+        { "id": "cl2", "symbol": "Cl" },
+        { "id": "cl3", "symbol": "Cl" }
+      ],
+      "valenceElectrons": 24,
+      "analysis": {
+        "centralAtom": "b",
+        "electronDomains": 3,
+        "resonance": false,
+        "electronGeometry": "trigonal_planar",
+        "molecularGeometry": "trigonal_planar",
+        "polarity": "nonpolar",
+        "hybridization": "sp2",
+        "distortion": "none"
+      },
+      "answer": {
+        "bonds": {
+          "0-1": 1,
+          "0-2": 1,
+          "0-3": 1
+        },
+        "loneDots": {
+          "cl1": { "north": 2, "west": 2, "south": 2 },
+          "cl2": { "north": 2, "east": 2, "south": 2 },
+          "cl3": { "east": 2, "south": 2, "west": 2 }
+        }
+      },
+      "explanation": "Boron is the central atom bonded to three chlorines. Draw a single bond from B to each Cl. Each chlorine has three lone pairs (six electrons) in the three square slots beside the bond. Boron has no lone pairs and does not reach an octet."
+    },
+    {
+      "id": "nf3",
+      "name": "Nitrogen trifluoride",
+      "formula": "NF₃",
+      "layout": "tetrahedral",
+      "atoms": [
+        { "id": "n", "symbol": "N" },
+        { "id": "f1", "symbol": "F" },
+        { "id": "f2", "symbol": "F" },
+        { "id": "f3", "symbol": "F" }
+      ],
+      "valenceElectrons": 26,
+      "analysis": {
+        "centralAtom": "n",
+        "electronDomains": 4,
+        "resonance": false,
+        "electronGeometry": "tetrahedral",
+        "molecularGeometry": "trigonal_pyramidal",
+        "polarity": "polar",
+        "hybridization": "sp3",
+        "distortion": "lone_pair_repulsion"
+      },
+      "answer": {
+        "bonds": {
+          "0-1": 1,
+          "0-2": 1,
+          "0-3": 1
+        },
+        "loneDots": {
+          "n": 2,
+          "f1": { "north": 2, "east": 2, "west": 2 },
+          "f2": { "north": 2, "east": 2, "west": 2 },
+          "f3": { "north": 2, "east": 2, "west": 2 }
+        }
+      },
+      "explanation": "Nitrogen is the central atom bonded to three fluorines. Draw a single bond from N to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Nitrogen has one lone pair (two electrons) — place it in any open diagonal circle slot on the central atom. The four electron domains give a tetrahedral electron geometry and a trigonal pyramidal molecular shape."
+    },
+    {
+      "id": "so3",
+      "name": "Sulfur trioxide",
+      "formula": "SO₃",
+      "layout": "trigonal_planar",
+      "atoms": [
+        { "id": "s", "symbol": "S" },
+        { "id": "o1", "symbol": "O" },
+        { "id": "o2", "symbol": "O" },
+        { "id": "o3", "symbol": "O" }
+      ],
+      "valenceElectrons": 24,
+      "analysis": {
+        "centralAtom": "s",
+        "electronDomains": 3,
+        "resonance": true,
+        "electronGeometry": "trigonal_planar",
+        "molecularGeometry": "trigonal_planar",
+        "polarity": "nonpolar",
+        "hybridization": "sp2",
+        "distortion": "none"
+      },
+      "answer": {
+        "patterns": [
+          {
+            "peripheralOrders": [1, 1, 1],
+            "peripheralLoneByOrder": { "1": 6 }
+          },
+          {
+            "peripheralOrders": [2, 2, 2],
+            "peripheralLoneByOrder": { "2": 4 }
+          },
+          {
+            "peripheralOrders": [1, 2, 2],
+            "peripheralLoneByOrder": { "1": 6, "2": 4 },
+            "permute": true
+          },
+          {
+            "peripheralOrders": [2, 1, 1],
+            "peripheralLoneByOrder": { "1": 6, "2": 4 },
+            "permute": true
+          }
+        ]
+      },
+      "explanation": "SO₃ has several valid Lewis structures. You can draw three equivalent S–O single bonds with three lone pairs on each oxygen (six electrons per O) and no lone pairs on sulfur — sulfur does not reach an octet in this form. You can also draw three S=O double bonds (two lone pairs on each oxygen). Another option is one double bond and two single bonds — the doubly bonded oxygen has two lone pairs (four electrons), and each singly bonded oxygen has three lone pairs (six electrons). Or use resonance with one single and two double bonds (the single bond rotates among the three oxygens). Sulfur has no lone pairs in every structure shown here."
     }
   ]
 }
