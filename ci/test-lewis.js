@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Lint and test Lewis structure answer data.
- * Run: node scripts/test-lewis.js
+ * Run: node ci/test-lewis.js
  */
 
 const fs = require("fs");

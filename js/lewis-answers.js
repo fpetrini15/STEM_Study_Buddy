@@ -1,6 +1,11 @@
 /**
  * Lewis structure answer expansion — patterns, variants, and bond/lone helpers.
- * Used by lewis.js (browser) and scripts/test-lewis.js (Node).
+ * Used by lewis.js (browser) and ci/test-lewis.js (Node).
+ *
+ * Grading accepts any entry returned by getAnswerVariants(): patterns (expanded),
+ * explicit variants, and/or a top-level bonds+loneDots object can all be combined.
+ * Add every distinct valid Lewis structure so students are not marked wrong for
+ * an acceptable alternative (e.g. octet-compliant vs expanded-octet forms).
  */
 const LewisAnswers = (function () {
   function getCentralIndex(molecule) {
@@ -35,7 +40,8 @@ const LewisAnswers = (function () {
     if (
       layout === "octahedral" ||
       layout === "tetrahedral" ||
-      layout === "trigonal_planar"
+      layout === "trigonal_planar" ||
+      layout === "trigonal_bipyramidal"
     ) {
       return getPeripheralIndices(molecule).map(
         (peripheralIndex) => `${central}-${peripheralIndex}`,
@@ -155,10 +161,18 @@ const LewisAnswers = (function () {
       ? permuteOrders([...pattern.peripheralOrders])
       : [pattern.peripheralOrders];
 
-    return ordersList.map((peripheralOrders) => ({
-      bonds: buildBondsFromOrders(molecule, peripheralOrders),
-      loneDots: buildLoneDotsFromPattern(molecule, pattern, peripheralOrders),
-    }));
+    return ordersList.map((peripheralOrders) => {
+      const variant = {
+        bonds: buildBondsFromOrders(molecule, peripheralOrders),
+        loneDots: buildLoneDotsFromPattern(molecule, pattern, peripheralOrders),
+      };
+
+      if (pattern.resonance !== undefined) {
+        variant.resonance = pattern.resonance;
+      }
+
+      return variant;
+    });
   }
 
   function expandPatterns(molecule, patterns) {
@@ -171,19 +185,27 @@ const LewisAnswers = (function () {
     const { answer } = molecule;
     if (!answer) return [];
 
+    const variants = [];
+
     if (Array.isArray(answer.patterns) && answer.patterns.length > 0) {
-      return expandPatterns(molecule, answer.patterns);
+      variants.push(...expandPatterns(molecule, answer.patterns));
     }
 
     if (Array.isArray(answer.variants) && answer.variants.length > 0) {
-      return dedupeVariants(answer.variants);
+      variants.push(...answer.variants);
     }
 
     if (answer.bonds && answer.loneDots) {
-      return [{ bonds: answer.bonds, loneDots: answer.loneDots }];
+      const variant = { bonds: answer.bonds, loneDots: answer.loneDots };
+
+      if (answer.resonance !== undefined) {
+        variant.resonance = answer.resonance;
+      }
+
+      variants.push(variant);
     }
 
-    return [];
+    return dedupeVariants(variants);
   }
 
   return {

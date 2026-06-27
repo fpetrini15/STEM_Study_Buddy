@@ -169,7 +169,7 @@ Use `answer.patterns` instead of hand-writing every variant. Each pattern lists 
 Run data lint and validation tests after editing molecules:
 
 ```bash
-node scripts/test-lewis.js
+node ci/test-lewis.js
 ```
 
 Install the local pre-commit hook (runs automatically when Lewis files are staged):
@@ -178,7 +178,7 @@ Install the local pre-commit hook (runs automatically when Lewis files are stage
 sh scripts/install-git-hooks.sh
 ```
 
-Pull requests that touch Lewis data also run the same check in GitHub Actions before merge to `main`.
+Pull requests that touch Lewis data also run `ci/test-lewis.js` in GitHub Actions before merge to `main`.
 
 Lone-pair placement is validated by total electron count per atom, not fixed slot positions. Wrong answers and skips show an example diagram.
 

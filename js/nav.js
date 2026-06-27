@@ -14,6 +14,8 @@ const Nav = {
     this.renderHeader();
     this.renderBreadcrumbs();
     this.renderRecent();
+    this.updateSiteHeaderOffset();
+    window.addEventListener("resize", () => this.updateSiteHeaderOffset());
   },
 
   getRecentQuizzes() {
@@ -78,6 +80,16 @@ const Nav = {
     if (typeof Theme !== "undefined") {
       Theme.bindToggle();
     }
+  },
+
+  updateSiteHeaderOffset() {
+    const header = document.getElementById("site-header");
+    if (!header) return;
+
+    document.documentElement.style.setProperty(
+      "--site-header-offset",
+      `${header.offsetHeight}px`,
+    );
   },
 
   renderBreadcrumbs() {

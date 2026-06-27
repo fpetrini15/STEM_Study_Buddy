@@ -127,13 +127,6 @@
                 <span>Full analysis</span>
               </label>
             </div>
-            <p
-              id="lewis-browse-style-note"
-              class="lewis-browse-style-note hidden"
-            >
-              Only structures with valence-electron and analysis data are
-              listed.
-            </p>
           </div>
 
           <div class="quiz-search-wrap lewis-browse-search-wrap">
@@ -149,6 +142,18 @@
             />
           </div>
 
+          <div class="quiz-filter-wrap lewis-browse-difficulty-wrap">
+            <span class="filter-label" id="lewis-browse-difficulty-label"
+              >Difficulty</span
+            >
+            <div
+              id="lewis-browse-difficulty-filters"
+              class="quiz-filters"
+              role="group"
+              aria-labelledby="lewis-browse-difficulty-label"
+            ></div>
+          </div>
+
           <section id="lewis-browse-recent" class="lewis-browse-section hidden">
             <h3 class="lewis-browse-section-title">Recently practiced</h3>
             <div id="lewis-browse-recent-list" class="lewis-browse-list"></div>
@@ -156,13 +161,13 @@
 
           <section class="lewis-browse-section">
             <h3 class="lewis-browse-section-title">
-              All structures
+              Structures
               <span id="lewis-browse-count" class="lewis-browse-count"></span>
             </h3>
             <p id="lewis-browse-empty" class="lewis-browse-empty hidden">
-              No structures match your search.
+              No structures match your search or difficulty filter.
             </p>
-            <div id="lewis-browse-all-list" class="lewis-browse-list"></div>
+            <div id="lewis-browse-all-list" class="lewis-browse-groups"></div>
           </section>
         </div>
       </div>
@@ -270,15 +275,17 @@
                 <span class="lewis-token-label">Bond</span>
               </div>
               <div
-                class="lewis-token lewis-token--dot"
+                class="lewis-token lewis-token--lone-pair"
                 draggable="true"
-                data-token="dot"
+                data-token="lonePair"
                 role="button"
                 tabindex="0"
-                aria-label="Lone electron"
+                aria-label="Lone pair"
               >
-                <span class="lewis-token-glyph">·</span>
-                <span class="lewis-token-label">Electron</span>
+                <span class="lewis-token-glyph lewis-token-glyph--lone-pair">
+                  <span class="lewis-dot">·</span><span class="lewis-dot">·</span>
+                </span>
+                <span class="lewis-token-label">Lone pair</span>
               </div>
               <div
                 class="lewis-token lewis-token--erase"
@@ -292,7 +299,8 @@
               </div>
               <p class="lewis-palette-hint">
                 Select a tool, then click slots to place. Click the tool again
-                to deselect. Use Erase to remove one item at a time.
+                to deselect. Use Erase to remove one bond line or one lone pair
+                at a time.
               </p>
             </aside>
           </div>
@@ -303,6 +311,13 @@
             </button>
             <button id="lewis-check-btn" class="btn btn-small" type="button">
               Check
+            </button>
+            <button
+              id="lewis-diagram-skip-btn"
+              class="btn btn-small hidden"
+              type="button"
+            >
+              Skip
             </button>
           </div>
         </div>
@@ -322,11 +337,6 @@
             </aside>
 
             <div class="lewis-analysis-main">
-              <p class="lewis-analysis-intro">
-                Use the Lewis structure to answer the questions below about the
-                <span id="lewis-analysis-central-label">central atom</span>.
-              </p>
-
               <form
                 id="lewis-analysis-form"
                 class="lewis-analysis-form"
@@ -434,6 +444,29 @@
 
                 <div
                   class="lewis-analysis-field"
+                  data-analysis-field="distortion"
+                >
+                  <span class="lewis-analysis-question"
+                    >Is the bond angle distorted from ideal?</span
+                  >
+                  <div
+                    class="lewis-analysis-options"
+                    role="group"
+                    aria-label="Bond angle distortion"
+                  >
+                    <label class="lewis-analysis-option">
+                      <input type="radio" name="distortion" value="yes" />
+                      <span>Yes</span>
+                    </label>
+                    <label class="lewis-analysis-option">
+                      <input type="radio" name="distortion" value="no" />
+                      <span>No</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div
+                  class="lewis-analysis-field"
                   data-analysis-field="hybridization"
                 >
                   <label
@@ -453,18 +486,34 @@
 
                 <div
                   class="lewis-analysis-field"
-                  data-analysis-field="distortion"
+                  data-analysis-field="bondAngle"
                 >
-                  <label class="lewis-analysis-question" for="lewis-distortion">
-                    Bond angle / distortion
-                  </label>
-                  <select
-                    id="lewis-distortion"
-                    class="lewis-analysis-select"
-                    required
+                  <span class="lewis-analysis-question"
+                    >Ideal bond angle(s), not accounting for distortion
+                    (°)</span
                   >
-                    <option value="">Select…</option>
-                  </select>
+                  <div
+                    class="lewis-analysis-options lewis-analysis-options--bond-angles"
+                    role="group"
+                    aria-label="Ideal bond angles, not accounting for distortion"
+                  >
+                    <label class="lewis-analysis-option">
+                      <input type="checkbox" name="bondAngle" value="90" />
+                      <span>90</span>
+                    </label>
+                    <label class="lewis-analysis-option">
+                      <input type="checkbox" name="bondAngle" value="109.5" />
+                      <span>109.5</span>
+                    </label>
+                    <label class="lewis-analysis-option">
+                      <input type="checkbox" name="bondAngle" value="120" />
+                      <span>120</span>
+                    </label>
+                    <label class="lewis-analysis-option">
+                      <input type="checkbox" name="bondAngle" value="180" />
+                      <span>180</span>
+                    </label>
+                  </div>
                 </div>
               </form>
 

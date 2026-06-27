@@ -19,7 +19,7 @@ for file in $(git diff --cached --name-only); do
     | js/lewis.js \
     | js/lewis-answers.js \
     | js/lewis-validation.js \
-    | scripts/test-lewis.js)
+    | ci/test-lewis.js)
       should_run=true
       break
       ;;
@@ -31,4 +31,4 @@ if [ "$should_run" = false ]; then
 fi
 
 echo "pre-commit: running Lewis structure tests..."
-node scripts/test-lewis.js
+node ci/test-lewis.js

@@ -1,6 +1,6 @@
 /**
  * Lewis structure data linting and answer-state validation.
- * Used by lewis.js (browser) and scripts/test-lewis.js (Node).
+ * Used by lewis.js (browser) and ci/test-lewis.js (Node).
  */
 const LewisValidation = (function () {
   const LewisAnswers =
@@ -192,6 +192,13 @@ const LewisValidation = (function () {
   function lintMolecule(molecule) {
     const errors = [];
     const { answer } = molecule;
+    const validDifficulties = new Set(["easy", "medium", "hard"]);
+
+    if (!validDifficulties.has(molecule.difficulty)) {
+      errors.push(
+        `Invalid or missing difficulty "${molecule.difficulty}" (expected easy, medium, or hard).`,
+      );
+    }
 
     if (!answer) {
       errors.push("Missing answer.");

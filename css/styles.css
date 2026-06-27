@@ -2090,6 +2090,20 @@ LEWIS DOT STRUCTURES
   line-height: 1;
 }
 
+.lewis-token-glyph--lone-pair {
+  gap: 2px;
+
+  width: auto;
+}
+
+.lewis-token-glyph--lone-pair .lewis-dot {
+  width: auto;
+
+  height: auto;
+
+  font-size: 18px;
+}
+
 .lewis-token-label {
   flex: 1;
 
@@ -2245,6 +2259,10 @@ LEWIS DOT STRUCTURES
   min-height: calc(var(--lewis-slot-size) * 8 + calc(8px * var(--lewis-scale)));
 }
 
+.lewis-board--trigonal_bipyramidal {
+  min-height: calc(var(--lewis-slot-size) * 8 + calc(8px * var(--lewis-scale)));
+}
+
 .lewis-board--tetrahedral {
   min-height: calc(var(--lewis-slot-size) * 7 + calc(8px * var(--lewis-scale)));
 }
@@ -2311,11 +2329,15 @@ LEWIS DOT STRUCTURES
   align-items: flex-start;
 }
 
-.lewis-trigonal-planar-grid .lewis-slot--bond.lewis-slot--south .lewis-slot-bonds {
+.lewis-trigonal-planar-grid
+  .lewis-slot--bond.lewis-slot--south
+  .lewis-slot-bonds {
   flex-direction: row;
 }
 
-.lewis-trigonal-planar-grid .lewis-slot--bond.lewis-slot--south .lewis-bond-line {
+.lewis-trigonal-planar-grid
+  .lewis-slot--bond.lewis-slot--south
+  .lewis-bond-line {
   width: calc(2px * var(--lewis-scale));
 
   height: calc(24px * var(--lewis-scale));
@@ -2339,8 +2361,12 @@ LEWIS DOT STRUCTURES
   height: calc(20px * var(--lewis-scale));
 }
 
-.lewis-trigonal-planar-grid .lewis-slot--bond.lewis-slot--west .lewis-slot-bonds,
-.lewis-trigonal-planar-grid .lewis-slot--bond.lewis-slot--east .lewis-slot-bonds {
+.lewis-trigonal-planar-grid
+  .lewis-slot--bond.lewis-slot--west
+  .lewis-slot-bonds,
+.lewis-trigonal-planar-grid
+  .lewis-slot--bond.lewis-slot--east
+  .lewis-slot-bonds {
   flex-direction: column;
 }
 
@@ -3076,19 +3102,15 @@ LEWIS DOT STRUCTURES
   }
 
   .lewis-analysis-workspace {
-    grid-template-columns: 1fr;
-  }
-
-  .lewis-analysis-reference {
-    position: static;
+    gap: 20px;
   }
 
   .lewis-board-wrap--analysis-ref {
-    --lewis-scale: 0.82;
+    --lewis-scale: 0.78;
   }
 
   .lewis-board-wrap--analysis-ref.lewis-board-wrap--octahedral {
-    --lewis-scale: 0.68;
+    --lewis-scale: 0.64;
   }
 }
 
@@ -3333,6 +3355,12 @@ LEWIS DOT STRUCTURES
   margin: 0 auto 20px;
 }
 
+#lewis-analysis-stage.lewis-stage-panel {
+  max-width: 100%;
+
+  overflow: visible;
+}
+
 .lewis-stage-label {
   margin: 0 0 8px;
 
@@ -3357,32 +3385,36 @@ LEWIS DOT STRUCTURES
   text-align: center;
 }
 
-.lewis-analysis-intro {
-  margin: 0 0 8px;
-
-  max-width: none;
-
-  text-align: left;
-}
-
 .lewis-analysis-workspace {
-  display: grid;
+  display: flex;
 
-  grid-template-columns: minmax(200px, 280px) minmax(0, 1fr);
+  flex-direction: column;
 
-  gap: 24px;
+  align-items: stretch;
 
-  align-items: start;
+  gap: 28px;
 
-  max-width: 960px;
+  width: 100%;
+
+  max-width: 720px;
 
   margin: 8px auto 0;
+
+  overflow: visible;
 }
 
 .lewis-analysis-reference {
   position: sticky;
 
-  top: 16px;
+  top: var(--site-header-offset, 69px);
+
+  z-index: 2;
+
+  width: 100%;
+
+  background: var(--bg);
+
+  overflow: visible;
 }
 
 .lewis-analysis-reference-label {
@@ -3404,20 +3436,29 @@ LEWIS DOT STRUCTURES
 }
 
 .lewis-board-wrap--analysis-ref {
-  --lewis-scale: 0.72;
+  --lewis-scale: 0.88;
 
-  padding: 12px;
+  width: 100%;
 
-  padding-bottom: 16px;
+  padding: 16px;
+
+  padding-bottom: 20px;
 }
 
 .lewis-board-wrap--analysis-ref.lewis-board-wrap--octahedral {
-  --lewis-scale: 0.58;
+  --lewis-scale: 0.74;
 
-  padding-inline: 10px;
+  padding-inline: clamp(16px, 3vw, 36px);
+}
+
+.lewis-board-wrap--analysis-ref .lewis-ion-display,
+.lewis-board-wrap--analysis-ref .lewis-board {
+  margin-inline: auto;
 }
 
 .lewis-analysis-main {
+  width: 100%;
+
   min-width: 0;
 }
 
@@ -3619,6 +3660,16 @@ LEWIS DOT STRUCTURES
   gap: 10px;
 }
 
+.lewis-analysis-options--bond-angles {
+  flex-wrap: wrap;
+}
+
+.lewis-analysis-options--bond-angles .lewis-analysis-option {
+  flex: 0 1 auto;
+
+  min-width: 4.75rem;
+}
+
 .lewis-analysis-option {
   flex: 1;
 
@@ -3704,6 +3755,10 @@ LEWIS DOT STRUCTURES
 }
 
 .lewis-browse-screen {
+  --lewis-difficulty-easy: #2a9d6e;
+  --lewis-difficulty-medium: #d48806;
+  --lewis-difficulty-hard: #d64545;
+
   width: 100%;
 
   max-width: 720px;
@@ -3823,18 +3878,104 @@ LEWIS DOT STRUCTURES
   border: 0;
 }
 
-.lewis-browse-style-note {
-  margin: 10px 0 0;
-
-  font-size: 13px;
-
-  line-height: 1.4;
-
-  color: var(--text-light);
+.lewis-browse-search-wrap {
+  margin-bottom: 20px;
 }
 
-.lewis-browse-search-wrap {
+.lewis-browse-difficulty-wrap {
   margin-bottom: 24px;
+}
+
+.quiz-filter-chip--browse-all.quiz-filter-chip--active {
+  color: #fff;
+
+  background: var(--primary);
+
+  border-color: var(--primary);
+}
+
+.quiz-filter-chip--browse-easy {
+  color: var(--lewis-difficulty-easy);
+
+  border-color: color-mix(in srgb, var(--lewis-difficulty-easy) 40%, var(--border));
+}
+
+.quiz-filter-chip--browse-easy:hover {
+  border-color: var(--lewis-difficulty-easy);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-easy) 10%, var(--card-bg));
+}
+
+.quiz-filter-chip--browse-easy.quiz-filter-chip--active {
+  color: #fff;
+
+  background: var(--lewis-difficulty-easy);
+
+  border-color: var(--lewis-difficulty-easy);
+}
+
+.quiz-filter-chip--browse-easy.quiz-filter-chip--active:hover {
+  color: #fff;
+
+  background: var(--lewis-difficulty-easy);
+
+  border-color: var(--lewis-difficulty-easy);
+}
+
+.quiz-filter-chip--browse-medium {
+  color: var(--lewis-difficulty-medium);
+
+  border-color: color-mix(in srgb, var(--lewis-difficulty-medium) 40%, var(--border));
+}
+
+.quiz-filter-chip--browse-medium:hover {
+  border-color: var(--lewis-difficulty-medium);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-medium) 10%, var(--card-bg));
+}
+
+.quiz-filter-chip--browse-medium.quiz-filter-chip--active {
+  color: #fff;
+
+  background: var(--lewis-difficulty-medium);
+
+  border-color: var(--lewis-difficulty-medium);
+}
+
+.quiz-filter-chip--browse-medium.quiz-filter-chip--active:hover {
+  color: #fff;
+
+  background: var(--lewis-difficulty-medium);
+
+  border-color: var(--lewis-difficulty-medium);
+}
+
+.quiz-filter-chip--browse-hard {
+  color: var(--lewis-difficulty-hard);
+
+  border-color: color-mix(in srgb, var(--lewis-difficulty-hard) 40%, var(--border));
+}
+
+.quiz-filter-chip--browse-hard:hover {
+  border-color: var(--lewis-difficulty-hard);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-hard) 10%, var(--card-bg));
+}
+
+.quiz-filter-chip--browse-hard.quiz-filter-chip--active {
+  color: #fff;
+
+  background: var(--lewis-difficulty-hard);
+
+  border-color: var(--lewis-difficulty-hard);
+}
+
+.quiz-filter-chip--browse-hard.quiz-filter-chip--active:hover {
+  color: #fff;
+
+  background: var(--lewis-difficulty-hard);
+
+  border-color: var(--lewis-difficulty-hard);
 }
 
 .lewis-browse-section {
@@ -3871,6 +4012,62 @@ LEWIS DOT STRUCTURES
   font-size: 14px;
 
   color: var(--text-light);
+}
+
+.lewis-browse-groups {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 24px;
+}
+
+.lewis-browse-group-title {
+  margin: 0 0 10px;
+}
+
+.lewis-browse-difficulty-chip {
+  display: inline-flex;
+
+  align-items: center;
+
+  padding: 4px 10px;
+
+  font-family: var(--font-ui);
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.04em;
+
+  text-transform: uppercase;
+
+  border-radius: 999px;
+}
+
+.lewis-browse-difficulty-chip--easy {
+  color: var(--lewis-difficulty-easy);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-easy) 12%, var(--card-bg));
+
+  border: 1px solid color-mix(in srgb, var(--lewis-difficulty-easy) 35%, var(--border));
+}
+
+.lewis-browse-difficulty-chip--medium {
+  color: var(--lewis-difficulty-medium);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-medium) 12%, var(--card-bg));
+
+  border: 1px solid color-mix(in srgb, var(--lewis-difficulty-medium) 35%, var(--border));
+}
+
+.lewis-browse-difficulty-chip--hard {
+  color: var(--lewis-difficulty-hard);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-hard) 12%, var(--card-bg));
+
+  border: 1px solid color-mix(in srgb, var(--lewis-difficulty-hard) 35%, var(--border));
 }
 
 .lewis-browse-list {

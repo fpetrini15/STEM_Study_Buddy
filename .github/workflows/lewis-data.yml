@@ -7,7 +7,7 @@ on:
       - "js/lewis.js"
       - "js/lewis-answers.js"
       - "js/lewis-validation.js"
-      - "scripts/test-lewis.js"
+      - "ci/test-lewis.js"
       - ".github/workflows/lewis-data.yml"
   push:
     branches:
@@ -17,7 +17,7 @@ on:
       - "js/lewis.js"
       - "js/lewis-answers.js"
       - "js/lewis-validation.js"
-      - "scripts/test-lewis.js"
+      - "ci/test-lewis.js"
       - ".github/workflows/lewis-data.yml"
 
 jobs:
@@ -31,4 +31,4 @@ jobs:
           node-version: "20"
 
       - name: Run Lewis structure tests
-        run: node scripts/test-lewis.js
+        run: node ci/test-lewis.js
