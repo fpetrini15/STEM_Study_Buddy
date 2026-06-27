@@ -2090,6 +2090,20 @@ LEWIS DOT STRUCTURES
   line-height: 1;
 }
 
+.lewis-token-glyph--lone-pair {
+  gap: 2px;
+
+  width: auto;
+}
+
+.lewis-token-glyph--lone-pair .lewis-dot {
+  width: auto;
+
+  height: auto;
+
+  font-size: 18px;
+}
+
 .lewis-token-label {
   flex: 1;
 
@@ -2243,6 +2257,117 @@ LEWIS DOT STRUCTURES
 
 .lewis-board--octahedral {
   min-height: calc(var(--lewis-slot-size) * 8 + calc(8px * var(--lewis-scale)));
+}
+
+.lewis-board--trigonal_bipyramidal {
+  min-height: calc(var(--lewis-slot-size) * 8 + calc(8px * var(--lewis-scale)));
+}
+
+.lewis-board--tetrahedral {
+  min-height: calc(var(--lewis-slot-size) * 7 + calc(8px * var(--lewis-scale)));
+}
+
+.lewis-board--tetrahedral .lewis-octahedral-ring {
+  --lewis-octahedral-radius: calc(var(--lewis-slot-size) * 2.75);
+}
+
+.lewis-board--trigonal_planar {
+  min-height: calc(var(--lewis-slot-size) * 5 + calc(8px * var(--lewis-scale)));
+
+  min-width: min-content;
+}
+
+.lewis-trigonal-planar-board {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 100%;
+
+  min-width: min-content;
+}
+
+.lewis-trigonal-planar-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, auto);
+
+  grid-template-rows: repeat(2, auto);
+
+  align-items: center;
+
+  justify-items: center;
+
+  width: max-content;
+
+  margin: 0 auto;
+
+  column-gap: 0;
+
+  row-gap: 0;
+}
+
+.lewis-trigonal-planar-grid__cell {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.lewis-trigonal-planar-grid__cell--west {
+  justify-content: flex-end;
+}
+
+.lewis-trigonal-planar-grid__cell--east {
+  justify-content: flex-start;
+}
+
+.lewis-trigonal-planar-grid__cell--south {
+  align-items: flex-start;
+}
+
+.lewis-trigonal-planar-grid
+  .lewis-slot--bond.lewis-slot--south
+  .lewis-slot-bonds {
+  flex-direction: row;
+}
+
+.lewis-trigonal-planar-grid
+  .lewis-slot--bond.lewis-slot--south
+  .lewis-bond-line {
+  width: calc(2px * var(--lewis-scale));
+
+  height: calc(24px * var(--lewis-scale));
+}
+
+.lewis-trigonal-planar-grid
+  .lewis-slot--bond.lewis-slot--south
+  .lewis-slot-bonds--double
+  .lewis-bond-line {
+  width: calc(2px * var(--lewis-scale));
+
+  height: calc(22px * var(--lewis-scale));
+}
+
+.lewis-trigonal-planar-grid
+  .lewis-slot--bond.lewis-slot--south
+  .lewis-slot-bonds--triple
+  .lewis-bond-line {
+  width: calc(2px * var(--lewis-scale));
+
+  height: calc(20px * var(--lewis-scale));
+}
+
+.lewis-trigonal-planar-grid
+  .lewis-slot--bond.lewis-slot--west
+  .lewis-slot-bonds,
+.lewis-trigonal-planar-grid
+  .lewis-slot--bond.lewis-slot--east
+  .lewis-slot-bonds {
+  flex-direction: column;
 }
 
 .lewis-octahedral-board {
@@ -2766,6 +2891,14 @@ LEWIS DOT STRUCTURES
   max-height: calc(var(--lewis-slot-size) - calc(8px * var(--lewis-scale)));
 }
 
+.lewis-slot-dots--horizontal {
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  max-width: none;
+}
+
 .lewis-slot-dots--diagonal-inline {
   flex-direction: row;
 
@@ -2966,6 +3099,18 @@ LEWIS DOT STRUCTURES
 
   .lewis-linear-row {
     gap: 0;
+  }
+
+  .lewis-analysis-workspace {
+    gap: 20px;
+  }
+
+  .lewis-board-wrap--analysis-ref {
+    --lewis-scale: 0.78;
+  }
+
+  .lewis-board-wrap--analysis-ref.lewis-board-wrap--octahedral {
+    --lewis-scale: 0.64;
   }
 }
 
@@ -3210,6 +3355,12 @@ LEWIS DOT STRUCTURES
   margin: 0 auto 20px;
 }
 
+#lewis-analysis-stage.lewis-stage-panel {
+  max-width: 100%;
+
+  overflow: visible;
+}
+
 .lewis-stage-label {
   margin: 0 0 8px;
 
@@ -3226,13 +3377,135 @@ LEWIS DOT STRUCTURES
   letter-spacing: 0.04em;
 }
 
-.lewis-valence-prompt,
-.lewis-analysis-intro {
+.lewis-valence-prompt {
   margin: 8px auto 0;
 
   max-width: 520px;
 
   text-align: center;
+}
+
+.lewis-analysis-workspace {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: stretch;
+
+  gap: 28px;
+
+  width: 100%;
+
+  max-width: 720px;
+
+  margin: 8px auto 0;
+
+  overflow: visible;
+}
+
+.lewis-analysis-reference {
+  position: sticky;
+
+  top: var(--site-header-offset, 69px);
+
+  z-index: 2;
+
+  width: 100%;
+
+  background: var(--bg);
+
+  overflow: visible;
+}
+
+.lewis-analysis-reference-label {
+  margin: 0 0 10px;
+
+  font-family: var(--font-ui);
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  color: var(--text-light);
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.04em;
+}
+
+.lewis-board-wrap--analysis-ref {
+  --lewis-scale: 0.88;
+
+  width: 100%;
+
+  padding: 16px;
+
+  padding-bottom: 20px;
+}
+
+.lewis-board-wrap--analysis-ref.lewis-board-wrap--octahedral {
+  --lewis-scale: 0.74;
+
+  padding-inline: clamp(16px, 3vw, 36px);
+}
+
+.lewis-board-wrap--analysis-ref .lewis-ion-display,
+.lewis-board-wrap--analysis-ref .lewis-board {
+  margin-inline: auto;
+}
+
+.lewis-analysis-main {
+  width: 100%;
+
+  min-width: 0;
+}
+
+.lewis-analysis-number-input {
+  display: block;
+
+  width: 100%;
+
+  max-width: 120px;
+
+  padding: 10px 12px;
+
+  font-family: var(--font-ui);
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  text-align: center;
+
+  color: var(--text);
+
+  background: var(--card-bg);
+
+  border: 2px solid var(--border);
+
+  border-radius: var(--radius-md);
+}
+
+.lewis-analysis-number-input:focus {
+  outline: none;
+
+  border-color: var(--primary);
+
+  box-shadow: 0 0 0 3px rgba(124, 92, 191, 0.15);
+}
+
+.lewis-analysis-field--correct .lewis-analysis-select,
+.lewis-analysis-field--correct .lewis-analysis-number-input,
+.lewis-analysis-field--correct .lewis-analysis-option:has(input:checked) {
+  border-color: var(--correct);
+}
+
+.lewis-analysis-field--incorrect .lewis-analysis-select,
+.lewis-analysis-field--incorrect .lewis-analysis-number-input,
+.lewis-analysis-field--incorrect .lewis-analysis-option:has(input:checked) {
+  border-color: var(--incorrect);
 }
 
 .lewis-valence-question {
@@ -3310,9 +3583,9 @@ LEWIS DOT STRUCTURES
 
   gap: 16px;
 
-  max-width: 520px;
+  max-width: none;
 
-  margin: 16px auto 0;
+  margin: 16px 0 0;
 
   text-align: left;
 }
@@ -3343,16 +3616,6 @@ LEWIS DOT STRUCTURES
   background: #fffafa;
 
   border-color: rgba(255, 77, 79, 0.35);
-}
-
-.lewis-analysis-field--correct .lewis-analysis-select,
-.lewis-analysis-field--correct .lewis-analysis-option:has(input:checked) {
-  border-color: var(--correct);
-}
-
-.lewis-analysis-field--incorrect .lewis-analysis-select,
-.lewis-analysis-field--incorrect .lewis-analysis-option:has(input:checked) {
-  border-color: var(--incorrect);
 }
 
 .lewis-analysis-question {
@@ -3395,6 +3658,16 @@ LEWIS DOT STRUCTURES
   display: flex;
 
   gap: 10px;
+}
+
+.lewis-analysis-options--bond-angles {
+  flex-wrap: wrap;
+}
+
+.lewis-analysis-options--bond-angles .lewis-analysis-option {
+  flex: 0 1 auto;
+
+  min-width: 4.75rem;
 }
 
 .lewis-analysis-option {
@@ -3479,4 +3752,392 @@ LEWIS DOT STRUCTURES
   background: #2e2222;
 
   border-color: rgba(255, 77, 79, 0.35);
+}
+
+.lewis-browse-screen {
+  --lewis-difficulty-easy: #2a9d6e;
+  --lewis-difficulty-medium: #d48806;
+  --lewis-difficulty-hard: #d64545;
+
+  width: 100%;
+
+  max-width: 720px;
+
+  margin: 40px auto 0;
+
+  padding: 32px 24px;
+
+  background: var(--card-bg);
+
+  border-radius: var(--radius-lg);
+
+  box-shadow: var(--shadow-card);
+}
+
+.lewis-browse-panel {
+  padding: 0;
+}
+
+.lewis-browse-back {
+  margin-bottom: 16px;
+}
+
+.lewis-browse-panel h2 {
+  margin: 0 0 8px;
+
+  font-size: 24px;
+}
+
+.lewis-browse-intro {
+  margin-top: 0;
+
+  color: var(--text-light);
+
+  line-height: 1.5;
+}
+
+.lewis-browse-style {
+  margin-bottom: 20px;
+}
+
+.lewis-browse-style-options {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+}
+
+.lewis-browse-style-option {
+  position: relative;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  padding: 8px 14px;
+
+  font-size: 14px;
+
+  font-weight: 500;
+
+  line-height: 1.2;
+
+  color: var(--text);
+
+  background: var(--card-bg);
+
+  border: 2px solid var(--border);
+
+  border-radius: 999px;
+
+  cursor: pointer;
+
+  transition: var(--transition);
+}
+
+.lewis-browse-style-option:hover {
+  border-color: var(--primary);
+
+  background: var(--inactive-light);
+}
+
+.lewis-browse-style-option:has(input:checked) {
+  color: #fff;
+
+  background: var(--primary);
+
+  border-color: var(--primary);
+}
+
+.lewis-browse-style-option:has(input:checked):hover {
+  color: #fff;
+
+  background: var(--primary);
+
+  border-color: var(--primary);
+}
+
+.lewis-browse-style-option input {
+  position: absolute;
+
+  width: 1px;
+
+  height: 1px;
+
+  margin: -1px;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  clip: rect(0, 0, 0, 0);
+
+  white-space: nowrap;
+
+  border: 0;
+}
+
+.lewis-browse-search-wrap {
+  margin-bottom: 20px;
+}
+
+.lewis-browse-difficulty-wrap {
+  margin-bottom: 24px;
+}
+
+.quiz-filter-chip--browse-all.quiz-filter-chip--active {
+  color: #fff;
+
+  background: var(--primary);
+
+  border-color: var(--primary);
+}
+
+.quiz-filter-chip--browse-easy {
+  color: var(--lewis-difficulty-easy);
+
+  border-color: color-mix(in srgb, var(--lewis-difficulty-easy) 40%, var(--border));
+}
+
+.quiz-filter-chip--browse-easy:hover {
+  border-color: var(--lewis-difficulty-easy);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-easy) 10%, var(--card-bg));
+}
+
+.quiz-filter-chip--browse-easy.quiz-filter-chip--active {
+  color: #fff;
+
+  background: var(--lewis-difficulty-easy);
+
+  border-color: var(--lewis-difficulty-easy);
+}
+
+.quiz-filter-chip--browse-easy.quiz-filter-chip--active:hover {
+  color: #fff;
+
+  background: var(--lewis-difficulty-easy);
+
+  border-color: var(--lewis-difficulty-easy);
+}
+
+.quiz-filter-chip--browse-medium {
+  color: var(--lewis-difficulty-medium);
+
+  border-color: color-mix(in srgb, var(--lewis-difficulty-medium) 40%, var(--border));
+}
+
+.quiz-filter-chip--browse-medium:hover {
+  border-color: var(--lewis-difficulty-medium);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-medium) 10%, var(--card-bg));
+}
+
+.quiz-filter-chip--browse-medium.quiz-filter-chip--active {
+  color: #fff;
+
+  background: var(--lewis-difficulty-medium);
+
+  border-color: var(--lewis-difficulty-medium);
+}
+
+.quiz-filter-chip--browse-medium.quiz-filter-chip--active:hover {
+  color: #fff;
+
+  background: var(--lewis-difficulty-medium);
+
+  border-color: var(--lewis-difficulty-medium);
+}
+
+.quiz-filter-chip--browse-hard {
+  color: var(--lewis-difficulty-hard);
+
+  border-color: color-mix(in srgb, var(--lewis-difficulty-hard) 40%, var(--border));
+}
+
+.quiz-filter-chip--browse-hard:hover {
+  border-color: var(--lewis-difficulty-hard);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-hard) 10%, var(--card-bg));
+}
+
+.quiz-filter-chip--browse-hard.quiz-filter-chip--active {
+  color: #fff;
+
+  background: var(--lewis-difficulty-hard);
+
+  border-color: var(--lewis-difficulty-hard);
+}
+
+.quiz-filter-chip--browse-hard.quiz-filter-chip--active:hover {
+  color: #fff;
+
+  background: var(--lewis-difficulty-hard);
+
+  border-color: var(--lewis-difficulty-hard);
+}
+
+.lewis-browse-section {
+  margin-bottom: 28px;
+}
+
+.lewis-browse-section:last-child {
+  margin-bottom: 0;
+}
+
+.lewis-browse-section-title {
+  display: flex;
+
+  align-items: baseline;
+
+  gap: 8px;
+
+  margin: 0 0 12px;
+
+  font-size: 16px;
+}
+
+.lewis-browse-count {
+  font-size: 14px;
+
+  font-weight: 500;
+
+  color: var(--text-light);
+}
+
+.lewis-browse-empty {
+  margin: 0 0 12px;
+
+  font-size: 14px;
+
+  color: var(--text-light);
+}
+
+.lewis-browse-groups {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 24px;
+}
+
+.lewis-browse-group-title {
+  margin: 0 0 10px;
+}
+
+.lewis-browse-difficulty-chip {
+  display: inline-flex;
+
+  align-items: center;
+
+  padding: 4px 10px;
+
+  font-family: var(--font-ui);
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.04em;
+
+  text-transform: uppercase;
+
+  border-radius: 999px;
+}
+
+.lewis-browse-difficulty-chip--easy {
+  color: var(--lewis-difficulty-easy);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-easy) 12%, var(--card-bg));
+
+  border: 1px solid color-mix(in srgb, var(--lewis-difficulty-easy) 35%, var(--border));
+}
+
+.lewis-browse-difficulty-chip--medium {
+  color: var(--lewis-difficulty-medium);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-medium) 12%, var(--card-bg));
+
+  border: 1px solid color-mix(in srgb, var(--lewis-difficulty-medium) 35%, var(--border));
+}
+
+.lewis-browse-difficulty-chip--hard {
+  color: var(--lewis-difficulty-hard);
+
+  background: color-mix(in srgb, var(--lewis-difficulty-hard) 12%, var(--card-bg));
+
+  border: 1px solid color-mix(in srgb, var(--lewis-difficulty-hard) 35%, var(--border));
+}
+
+.lewis-browse-list {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+
+  gap: 10px;
+}
+
+.lewis-browse-item {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 3px;
+
+  padding: 12px 14px;
+
+  text-align: left;
+
+  background: var(--bg);
+
+  border: 2px solid var(--border);
+
+  border-radius: var(--radius-md);
+
+  cursor: pointer;
+
+  transition: var(--transition);
+}
+
+.lewis-browse-item:hover {
+  border-color: var(--primary);
+
+  transform: translateY(-2px);
+}
+
+.lewis-browse-item-formula {
+  font-size: 16px;
+
+  font-weight: 700;
+
+  line-height: 1.2;
+}
+
+.lewis-browse-item-name {
+  font-size: 12px;
+
+  color: var(--text-light);
+
+  line-height: 1.35;
+}
+
+.lewis-browse-item:focus-visible {
+  outline: 2px solid var(--primary);
+
+  outline-offset: 2px;
+}
+
+[data-theme="dark"] .lewis-browse-item {
+  background: #2a3038;
+}
+
+[data-theme="dark"] .lewis-browse-item:hover {
+  background: #343a46;
+}
+
+[data-theme="dark"] .lewis-browse-style-option:hover {
+  background: #343a46;
 }

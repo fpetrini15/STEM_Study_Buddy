@@ -1,0 +1,34 @@
+name: Lewis structure data
+
+on:
+  pull_request:
+    paths:
+      - "data/chemistry/lewis_structures.json"
+      - "js/lewis.js"
+      - "js/lewis-answers.js"
+      - "js/lewis-validation.js"
+      - "ci/test-lewis.js"
+      - ".github/workflows/lewis-data.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "data/chemistry/lewis_structures.json"
+      - "js/lewis.js"
+      - "js/lewis-answers.js"
+      - "js/lewis-validation.js"
+      - "ci/test-lewis.js"
+      - ".github/workflows/lewis-data.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run Lewis structure tests
+        run: node ci/test-lewis.js

@@ -1,0 +1,34 @@
+#!/bin/sh
+# Run Lewis structure lint/tests when related files are staged.
+
+set -e
+
+if ! command -v node >/dev/null 2>&1; then
+  echo "pre-commit: node is not installed; skipping Lewis tests." >&2
+  exit 0
+fi
+
+root=$(git rev-parse --show-toplevel)
+cd "$root"
+
+should_run=false
+
+for file in $(git diff --cached --name-only); do
+  case "$file" in
+    data/chemistry/lewis_structures.json \
+    | js/lewis.js \
+    | js/lewis-answers.js \
+    | js/lewis-validation.js \
+    | ci/test-lewis.js)
+      should_run=true
+      break
+      ;;
+  esac
+done
+
+if [ "$should_run" = false ]; then
+  exit 0
+fi
+
+echo "pre-commit: running Lewis structure tests..."
+node ci/test-lewis.js
