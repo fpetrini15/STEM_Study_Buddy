@@ -277,11 +277,15 @@
         },
         "loneDots": {
           "cl1": 6,
-          "xe": 6,
+          "xe": {
+            "northwest": 2,
+            "northeast": 2,
+            "south": 2
+          },
           "cl2": 6
         }
       },
-      "explanation": "XeCl₂ is linear with a trigonal bipyramidal electron geometry. Xenon forms single bonds to each chlorine. Each chlorine has three lone pairs (six electrons). Xenon has three lone pairs (six electrons) — use the square slots above and below Xe, and the circular diagonal slots in the corner grid cells. The lone pairs repel the axial Cl–Xe bonds into a linear shape."
+      "explanation": "XeCl₂ is linear with a trigonal bipyramidal electron geometry. Xenon forms single bonds to each chlorine. Each chlorine has three lone pairs (six electrons). Place xenon’s three lone pairs on the central hub — for example two in the upper diagonal circle slots and one in the lower cardinal slot (or any equivalent placement that uses all valence electrons). The lone pairs repel the axial Cl–Xe bonds into a linear shape."
     },
     {
       "id": "xef4",
@@ -326,13 +330,13 @@
           "f4": { "north": 2, "east": 2, "west": 2 }
         }
       },
-      "explanation": "XeF₄ has an octahedral electron geometry with square planar molecular geometry. Xenon forms single bonds to four fluorines arranged around the hub. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Xenon has two lone pairs (four electrons) — place them in any two opposite diagonal circle slots on the central atom (for example northwest and southeast). The four equatorial Xe–F bonds form a square with 90° angles; the two axial lone pairs occupy positions opposite each other."
+      "explanation": "XeF₄ has an octahedral electron geometry with square planar molecular geometry. Xenon forms single bonds to four fluorines arranged around the hub. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Place two lone pairs on xenon in the diagonal circle slots (for example on opposite diagonals such as northwest and southeast). The four equatorial Xe–F bonds form a square with 90° angles."
     },
     {
       "id": "asf6_minus",
       "name": "Arsenic hexafluoride ion",
       "formula": "AsF₆⁻",
-      "difficulty": "hard",
+      "difficulty": "easy",
       "charge": -1,
       "layout": "octahedral",
       "atoms": [
@@ -422,7 +426,87 @@
           }
         }
       },
-      "explanation": "AsF₆⁻ is octahedral: arsenic sits at the center with six fluorines equally spaced around it. Draw a single bond from As to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Arsenic has no lone pairs — leave the four diagonal circle slots empty. If the central atom has lone pairs instead (up to four pairs when it forms fewer than six bonds), place them in those diagonal circles. The −1 charge is shown on the ion bracket."
+      "explanation": "AsF₆⁻ is octahedral: arsenic sits at the center with six fluorines equally spaced around it. Draw a single bond from As to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Arsenic has no lone pairs on the central atom. The −1 charge is shown on the ion bracket."
+    },
+    {
+      "id": "sf6",
+      "name": "Sulfur hexafluoride",
+      "formula": "SF₆",
+      "difficulty": "easy",
+      "layout": "octahedral",
+      "atoms": [
+        { "id": "s", "symbol": "S" },
+        { "id": "fn1", "symbol": "F" },
+        { "id": "fn2", "symbol": "F" },
+        { "id": "fn3", "symbol": "F" },
+        { "id": "fs1", "symbol": "F" },
+        { "id": "fs2", "symbol": "F" },
+        { "id": "fs3", "symbol": "F" }
+      ],
+      "valenceElectrons": 48,
+      "analysis": {
+        "centralAtom": "s",
+        "electronDomains": 6,
+        "resonance": false,
+        "electronGeometry": "octahedral",
+        "molecularGeometry": "octahedral",
+        "polarity": "nonpolar",
+        "hybridization": "sp3d2",
+        "distortion": false,
+        "bondAngle": [90, 180]
+      },
+      "answer": {
+        "patterns": [
+          {
+            "peripheralOrders": [1, 1, 1, 1, 1, 1],
+            "peripheralLoneByOrder": {
+              "1": 6
+            }
+          }
+        ]
+      },
+      "explanation": "SF₆ is octahedral: sulfur sits at the center with six fluorines equally spaced around it. Draw a single bond from S to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Sulfur has no lone pairs on the central atom. Six single bonds give sulfur twelve valence electrons (an expanded octet). Six electron domains give an octahedral electron geometry and an octahedral molecular shape with 90° and 180° bond angles."
+    },
+    {
+      "id": "sf5_minus",
+      "name": "Sulfur pentafluoride ion",
+      "formula": "SF₅⁻",
+      "difficulty": "medium",
+      "charge": -1,
+      "layout": "octahedral",
+      "northLigandIndex": 1,
+      "atoms": [
+        { "id": "s", "symbol": "S" },
+        { "id": "fn1", "symbol": "F" },
+        { "id": "fn2", "symbol": "F" },
+        { "id": "fn3", "symbol": "F" },
+        { "id": "fs1", "symbol": "F" },
+        { "id": "fs2", "symbol": "F" }
+      ],
+      "valenceElectrons": 42,
+      "analysis": {
+        "centralAtom": "s",
+        "electronDomains": 6,
+        "resonance": false,
+        "electronGeometry": "octahedral",
+        "molecularGeometry": "square_pyramidal",
+        "polarity": "polar",
+        "hybridization": "sp3d2",
+        "distortion": true,
+        "bondAngle": [90, 180]
+      },
+      "answer": {
+        "patterns": [
+          {
+            "peripheralOrders": [1, 1, 1, 1, 1],
+            "centralLone": 2,
+            "peripheralLoneByOrder": {
+              "1": 6
+            }
+          }
+        ]
+      },
+      "explanation": "The SF₅⁻ ion has 42 valence electrons (6 + 35 + 1 for the − charge). Sulfur is the central atom bonded to five fluorines. Draw a single bond from S to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Place one lone pair on sulfur in any outer circle slot between fluorines (each bisects two F–S bonds and marks an octahedral electron domain). Six electron domains give an octahedral electron geometry and a square pyramidal molecular shape. Show the − charge on the ion bracket."
     },
     {
       "id": "si2",
@@ -475,7 +559,7 @@
       "id": "scl4",
       "name": "Sulfur tetrachloride",
       "formula": "SCl₄",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "layout": "tetrahedral",
       "atoms": [
         { "id": "s", "symbol": "S" },
@@ -517,7 +601,7 @@
       "id": "sbcl4_minus",
       "name": "Antimony tetrachloride ion",
       "formula": "SbCl₄⁻",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "charge": -1,
       "layout": "tetrahedral",
       "atoms": [
@@ -643,11 +727,15 @@
         },
         "loneDots": {
           "f1": 6,
-          "cl": 6,
+          "cl": {
+            "northwest": 2,
+            "northeast": 2,
+            "south": 2
+          },
           "f2": 6
         }
       },
-      "explanation": "ClF₂⁻ has 22 valence electrons (7 + 7 + 7 + 1 for the − charge). Chlorine forms single bonds to each fluorine. Each fluorine has three lone pairs (six electrons). Chlorine has three lone pairs (six electrons) — use the square slots above and below Cl, and the circular diagonal slots in the corner grid cells. The five electron domains give a trigonal bipyramidal electron geometry, but the lone pairs push the F–Cl bonds into a linear molecular shape. Show the − charge on the ion bracket."
+      "explanation": "ClF₂⁻ has 22 valence electrons (7 + 7 + 7 + 1 for the − charge). Chlorine forms single bonds to each fluorine. Each fluorine has three lone pairs (six electrons). Place chlorine’s three lone pairs on the central hub — for example two in the upper diagonal circle slots and one in the lower cardinal slot (or any equivalent placement that uses all valence electrons). The five electron domains give a trigonal bipyramidal electron geometry, but the lone pairs push the F–Cl bonds into a linear molecular shape. Show the − charge on the ion bracket."
     },
     {
       "id": "nocl",
@@ -899,7 +987,7 @@
       "id": "pcl5",
       "name": "Phosphorus pentachloride",
       "formula": "PCl₅",
-      "difficulty": "hard",
+      "difficulty": "easy",
       "layout": "trigonal_bipyramidal",
       "northLigandIndex": 1,
       "atoms": [

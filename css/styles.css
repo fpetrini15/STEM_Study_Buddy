@@ -31,6 +31,9 @@ Change colors here only
 
   --transition: 0.25s;
 
+  --site-header-offset: 69px;
+  --site-header-gap: 16px;
+
   --font-ui: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
   --font-stem: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", serif;
 
@@ -111,6 +114,12 @@ body.subject-chemistry {
 BASE LAYOUT
 ========================= */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--font-ui);
 
@@ -127,7 +136,7 @@ body {
 
   margin: 0;
 
-  padding: 88px 40px 40px;
+  padding: calc(var(--site-header-offset) + var(--site-header-gap)) 40px 40px;
 
   color: var(--text);
 
@@ -943,15 +952,15 @@ CATEGORY ZONES
 
   text-align: center;
 
-  border: 2px dashed var(--border);
+  background: color-mix(in srgb, var(--primary) 8%, transparent);
+
+  border: 2px dashed color-mix(in srgb, var(--primary) 50%, var(--border));
 
   border-radius: var(--radius-md);
 
   font-weight: 600;
 
   color: var(--text);
-
-  background: var(--card-bg);
 
   transition: 0.2s;
 
@@ -963,7 +972,7 @@ CATEGORY ZONES
 .dropzone:hover {
   border-color: var(--primary);
 
-  background: var(--inactive-light);
+  background: color-mix(in srgb, var(--primary) 15%, transparent);
 
   transform: scale(1.03);
 }
@@ -971,7 +980,7 @@ CATEGORY ZONES
 .dropzone.dragover {
   border-color: var(--primary);
 
-  background: var(--inactive-light);
+  background: color-mix(in srgb, var(--primary) 15%, transparent);
 
   transform: scale(1.05);
 
@@ -1338,7 +1347,11 @@ MOBILE
 
 @media (max-width: 600px) {
   body {
-    padding: 76px 20px 20px;
+    padding: calc(var(--site-header-offset) + var(--site-header-gap)) 20px 20px;
+  }
+
+  .container {
+    padding-inline: 0;
   }
 
   .site-header-inner {
@@ -1385,7 +1398,7 @@ MOBILE
 .dropzone.dragover {
   border-color: var(--primary);
 
-  background: var(--inactive-light);
+  background: color-mix(in srgb, var(--primary) 15%, transparent);
 
   transform: scale(1.06);
 
@@ -1657,57 +1670,57 @@ DARK MODE
 [data-theme="dark"] {
   color-scheme: dark;
 
-  --inactive: #555;
-  --inactive-light: #2e3239;
+  --inactive: #647088;
+  --inactive-light: #4a5262;
 
-  --bg: #1a1d24;
-  --card-bg: #252932;
+  --bg: #313742;
+  --card-bg: #3f4654;
 
-  --text: #e8eaed;
-  --text-light: #9aa0a9;
+  --text: #f4f5f7;
+  --text-light: #c2c8d0;
 
-  --border: #3a4049;
+  --border: #565f6f;
 
-  --shadow-card: 0 8px 25px rgba(0, 0, 0, 0.35);
-  --shadow-hover: 0 15px 35px rgba(0, 0, 0, 0.45);
-  --shadow-btn: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-card: 0 8px 25px rgba(0, 0, 0, 0.28);
+  --shadow-hover: 0 15px 35px rgba(0, 0, 0, 0.35);
+  --shadow-btn: 0 4px 12px rgba(0, 0, 0, 0.32);
 
-  --bg-hero-wash: rgba(79, 124, 255, 0.1);
-  --bg-hero-wash-mid: rgba(79, 124, 255, 0.04);
+  --bg-hero-wash: rgba(79, 124, 255, 0.14);
+  --bg-hero-wash-mid: rgba(79, 124, 255, 0.06);
 
-  --progress-track: #2e3239;
-  --progress-track-border: rgba(255, 255, 255, 0.12);
+  --progress-track: #4a5262;
+  --progress-track-border: rgba(255, 255, 255, 0.14);
   --progress-fill-start: #6aa0ff;
   --progress-fill-end: #8cb8ff;
 }
 
 [data-theme="dark"] body.subject-biology {
-  --bg: #1a2420;
+  --bg: #2f3d38;
 
-  --border: #2d4a3a;
+  --border: #4a6358;
 
-  --bg-hero-wash: rgba(45, 159, 111, 0.12);
-  --bg-hero-wash-mid: rgba(45, 159, 111, 0.04);
+  --bg-hero-wash: rgba(45, 159, 111, 0.14);
+  --bg-hero-wash-mid: rgba(45, 159, 111, 0.06);
 
   --bio-cell-pattern: url("../images/backgrounds/bio-cells-dark.svg");
 
-  --progress-track: #243830;
+  --progress-track: #435851;
   --progress-track-border: rgba(71, 184, 136, 0.35);
   --progress-fill-start: #47b888;
   --progress-fill-end: #6fd4a8;
 }
 
 [data-theme="dark"] body.subject-chemistry {
-  --bg: #1f1a28;
+  --bg: #383344;
 
-  --border: #3d3550;
+  --border: #5a516c;
 
-  --bg-hero-wash: rgba(124, 92, 191, 0.12);
-  --bg-hero-wash-mid: rgba(124, 92, 191, 0.04);
+  --bg-hero-wash: rgba(124, 92, 191, 0.14);
+  --bg-hero-wash-mid: rgba(124, 92, 191, 0.06);
 
   --chem-hex-pattern: url("../images/backgrounds/chem-hex-dark.svg");
 
-  --progress-track: #3a3048;
+  --progress-track: #4e465e;
   --progress-track-border: rgba(180, 152, 232, 0.4);
   --progress-fill-start: #b298e8;
   --progress-fill-end: #d0b8f8;
@@ -1745,14 +1758,15 @@ DARK MODE
 }
 
 [data-theme="dark"] .site-header {
-  background: rgba(37, 41, 50, 0.92);
+  background: rgba(63, 70, 84, 0.94);
 }
 
 [data-theme="dark"] .mode-card,
 [data-theme="dark"] .recent-item,
 [data-theme="dark"] .quiz-filter-chip,
 [data-theme="dark"] .quiz-search,
-[data-theme="dark"] .theme-toggle {
+[data-theme="dark"] .theme-toggle,
+[data-theme="dark"] .mc-option {
   background: var(--card-bg);
 }
 
@@ -1766,66 +1780,79 @@ DARK MODE
 }
 
 [data-theme="dark"] .mode-card:hover,
-[data-theme="dark"] .dropzone:hover {
-  background: #343a46;
+[data-theme="dark"] .mc-option:hover {
+  background: var(--inactive-light);
+
+  border-color: var(--primary-light);
+}
+
+[data-theme="dark"] .dropzone {
+  background: color-mix(in srgb, var(--primary-light) 14%, transparent);
+
+  border-color: color-mix(in srgb, var(--primary-light) 55%, var(--border));
+}
+
+[data-theme="dark"] .dropzone:hover,
+[data-theme="dark"] .dropzone.dragover {
+  background: color-mix(in srgb, var(--primary-light) 22%, transparent);
 
   border-color: var(--primary-light);
 }
 
 [data-theme="dark"] .dropzone.dragover {
-  background: #3a4458;
-
-  border-color: var(--primary-light);
-
   box-shadow: 0 10px 22px rgba(106, 160, 255, 0.2);
 }
 
 [data-theme="dark"] .dropzone.correct {
-  background: #1e2e26;
+  background: #355247;
 
   border-color: var(--correct);
 }
 
 [data-theme="dark"] .dropzone.incorrect {
-  background: #2e2222;
+  background: #5a4040;
 
   border-color: var(--incorrect);
 }
 
-[data-theme="dark"] .mc-option:hover {
-  background: #2e3239;
-}
-
 [data-theme="dark"] .feedback-panel--correct {
-  background: linear-gradient(180deg, #1e2e26 0%, var(--card-bg) 100%);
+  background: linear-gradient(180deg, #355247 0%, var(--card-bg) 100%);
 }
 
 [data-theme="dark"] .feedback-panel--incorrect {
-  background: linear-gradient(180deg, #2e2222 0%, var(--card-bg) 100%);
+  background: linear-gradient(180deg, #5a4040 0%, var(--card-bg) 100%);
 }
 
 [data-theme="dark"] .feedback-panel--skipped {
-  background: linear-gradient(180deg, #242830 0%, var(--card-bg) 100%);
+  background: linear-gradient(180deg, #454c5a 0%, var(--card-bg) 100%);
 }
 
 [data-theme="dark"] .feedback-panel--correct .feedback-headline {
-  color: #5ecf9a;
+  color: #6ee7a8;
 }
 
 [data-theme="dark"] .feedback-panel--incorrect .feedback-headline {
-  color: #f07178;
+  color: #ff8a8c;
 }
 
 [data-theme="dark"] .mode-badge {
-  background: #2a3344;
+  background: var(--inactive-light);
 }
 
 [data-theme="dark"] .loader-ring {
-  border-color: #3a4049;
+  border-color: var(--border);
 
   border-top-color: var(--primary);
 
   border-right-color: var(--primary-light);
+}
+
+[data-theme="dark"] footer {
+  color: var(--text-light);
+}
+
+[data-theme="dark"] .quiz-image {
+  background: var(--card-bg);
 }
 
 /* =========================
@@ -1955,42 +1982,59 @@ LEWIS DOT STRUCTURES
 
 .lewis-board-wrap--octahedral {
   padding-inline: clamp(22px, 3.5vw, 40px);
+
+  overflow-x: clip;
 }
 
 .lewis-board-wrap--octahedral .lewis-ion-body {
   flex: 1 1 auto;
 
-  min-width: min-content;
+  min-width: 0;
+
+  max-width: 100%;
+}
+
+.lewis-board-wrap--octahedral .lewis-ion-display {
+  max-width: 100%;
 }
 
 .lewis-ion-display--octahedral.lewis-ion-display--charged {
-  gap: clamp(10px, 1.5vw, 18px);
+  gap: clamp(8px, 1.5vw, 18px);
 }
 
-.lewis-ion-display--octahedral.lewis-ion-display--charged
-  .lewis-ion-bracket:first-of-type {
-  margin-right: 0;
+.lewis-ion-display--octahedral.lewis-ion-display--charged .lewis-ion-bracket:first-of-type {
+  margin-right: clamp(4px, 1vw, 10px);
 }
 
-.lewis-ion-display--octahedral.lewis-ion-display--charged
-  .lewis-ion-bracket:last-of-type {
-  margin-left: 0;
+.lewis-ion-display--octahedral.lewis-ion-display--charged .lewis-ion-bracket:last-of-type {
+  margin-left: clamp(4px, 1vw, 10px);
 }
 
 .lewis-palette {
+  --lewis-palette-cols: 3;
+  --lewis-palette-gap: 10px;
+  --lewis-palette-token-width: calc(
+    (100% - (var(--lewis-palette-cols) - 1) * var(--lewis-palette-gap)) /
+      var(--lewis-palette-cols)
+  );
+
   min-width: 0;
 
-  display: grid;
+  display: flex;
 
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  flex-wrap: wrap;
 
-  gap: 10px;
+  justify-content: center;
 
   align-items: stretch;
+
+  gap: var(--lewis-palette-gap);
 }
 
 .lewis-palette-title {
-  grid-column: 1 / -1;
+  flex: 0 0 100%;
+
+  width: 100%;
 
   margin: 0 0 4px;
 
@@ -2004,7 +2048,9 @@ LEWIS DOT STRUCTURES
 }
 
 .lewis-palette-hint {
-  grid-column: 1 / -1;
+  flex: 0 0 100%;
+
+  width: 100%;
 
   margin: 6px 0 0;
 
@@ -2026,9 +2072,11 @@ LEWIS DOT STRUCTURES
 
   gap: 8px;
 
-  width: 100%;
+  flex: 0 0 var(--lewis-palette-token-width);
 
-  max-width: 100%;
+  width: var(--lewis-palette-token-width);
+
+  max-width: var(--lewis-palette-token-width);
 
   margin-bottom: 0;
 
@@ -2066,10 +2114,27 @@ LEWIS DOT STRUCTURES
   cursor: not-allowed;
 }
 
+.lewis-token--disabled:hover,
+.lewis-token--disabled.lewis-token--selected {
+  border-color: var(--border);
+
+  background: var(--inactive-light);
+
+  box-shadow: none;
+}
+
 .lewis-board--locked .lewis-slot {
   pointer-events: none;
 
   cursor: default;
+}
+
+.lewis-board--complete .lewis-slot:not(.lewis-slot--filled) {
+  display: none;
+}
+
+.lewis-diagonal-connectors line.lewis-diagonal-connector--hidden {
+  visibility: hidden;
 }
 
 .lewis-token-glyph {
@@ -2114,6 +2179,10 @@ LEWIS DOT STRUCTURES
   font-size: 13px;
 
   font-weight: 600;
+}
+
+.lewis-token--erase {
+  margin-inline: auto;
 }
 
 @media (min-width: 1024px) {
@@ -2379,7 +2448,8 @@ LEWIS DOT STRUCTURES
 }
 
 .lewis-octahedral-ring {
-  --lewis-octahedral-radius: calc(var(--lewis-slot-size) * 3.5);
+  /* Ligand center at 3× slot; bond at 1.5× (hub edge) — no radial gap between hub, bond, and ligand. */
+  --lewis-octahedral-radius: calc(var(--lewis-slot-size) * 3);
   --lewis-octahedral-ligand-pad: calc(var(--lewis-slot-size) * 1.5);
 
   position: relative;
@@ -2504,6 +2574,140 @@ LEWIS DOT STRUCTURES
   transform: rotate(calc(-1 * var(--ligand-angle)));
 }
 
+.lewis-octahedral-ring--domain-spokes {
+  /*
+   * Domain arm frame: hub at origin, outward along -Y (then rotate by bisector).
+   *   atom outer edge at y = -R_atom
+   *   circle center at y = -R_center
+   *   circle hub-facing edge at y = -(R_center - R_circle)
+   *   spoke spans y = -R_atom … -(R_center - R_circle)
+   */
+  --lewis-atom-outer-radius: calc(var(--lewis-atom-size) / 2);
+  --lewis-central-lone-circle-scale: 0.65;
+  --lewis-central-lone-circle-diameter: calc(
+    var(--lewis-slot-size) * var(--lewis-central-lone-circle-scale)
+  );
+  --lewis-central-lone-circle-outer-radius: calc(
+    var(--lewis-central-lone-circle-diameter) / 2
+  );
+  --lewis-central-lone-radius: var(--lewis-octahedral-radius);
+  --lewis-domain-spoke-end: calc(
+    var(--lewis-central-lone-radius) -
+      var(--lewis-central-lone-circle-outer-radius)
+  );
+  --lewis-domain-spoke-length: max(
+    0px,
+    calc(
+      var(--lewis-domain-spoke-end) - var(--lewis-atom-outer-radius)
+    )
+  );
+}
+
+.lewis-octahedral-ring--domain-spokes.lewis-octahedral-ring--central-lones {
+  --lewis-central-lone-radius-offset: 1;
+  --lewis-central-lone-radius: calc(
+    var(--lewis-octahedral-radius) +
+      var(--lewis-slot-size) * var(--lewis-central-lone-radius-offset)
+  );
+  --lewis-ring-outer-radius: max(
+    calc(var(--lewis-octahedral-radius) + var(--lewis-octahedral-ligand-pad)),
+    calc(
+      var(--lewis-central-lone-radius) +
+        var(--lewis-central-lone-circle-outer-radius)
+    )
+  );
+
+  width: calc(var(--lewis-ring-outer-radius) * 2);
+
+  height: calc(var(--lewis-ring-outer-radius) * 2);
+}
+
+.lewis-octahedral-ring__domain-arm {
+  position: absolute;
+
+  left: 50%;
+
+  top: 50%;
+
+  width: 0;
+
+  height: 0;
+
+  transform: translate(-50%, -50%) rotate(var(--bisector-angle));
+
+  transform-origin: center;
+
+  z-index: 0;
+
+  pointer-events: none;
+}
+
+.lewis-octahedral-ring__domain-arm.lewis-domain-arm--unused {
+  display: none;
+}
+
+.lewis-domain-spoke-line {
+  position: absolute;
+
+  left: 50%;
+
+  top: calc(-1 * var(--lewis-domain-spoke-end));
+
+  display: block;
+
+  width: calc(2px * var(--lewis-scale));
+
+  height: var(--lewis-domain-spoke-length);
+
+  background: color-mix(in srgb, var(--primary) 40%, var(--border));
+
+  transform: translateX(-50%);
+}
+
+.lewis-octahedral-ring__central-lone {
+  position: absolute;
+
+  left: 50%;
+
+  top: calc(-1 * var(--lewis-central-lone-radius));
+
+  transform: translate(-50%, -50%);
+
+  z-index: 2;
+
+  pointer-events: auto;
+}
+
+.lewis-octahedral-central-lone-column {
+  position: absolute;
+
+  left: 50%;
+
+  top: 50%;
+
+  flex-shrink: 0;
+
+  width: var(--lewis-central-lone-circle-diameter);
+
+  height: var(--lewis-central-lone-circle-diameter);
+
+  transform: translate(-50%, -50%);
+}
+
+.lewis-octahedral-central-lone-column .lewis-slot--central-ring-lone {
+  position: absolute;
+
+  left: 50%;
+
+  top: 50%;
+
+  width: 100%;
+
+  height: 100%;
+
+  transform: translate(-50%, -50%);
+}
+
 .lewis-linear-row {
   display: flex;
 
@@ -2581,52 +2785,6 @@ LEWIS DOT STRUCTURES
 
 .lewis-atom-column--polar-diagonals .lewis-atom {
   z-index: 2;
-}
-
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--northwest,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--southeast {
-  transform: translate(-50%, -50%)
-    rotate(calc(-1 * var(--lewis-diagonal-angle)));
-}
-
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--northeast,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--southwest {
-  transform: translate(-50%, -50%) rotate(var(--lewis-diagonal-angle));
-}
-
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--northwest:hover,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--northwest.lewis-slot--filled,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--northwest.lewis-slot--dragover,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--southeast:hover,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--southeast.lewis-slot--filled,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--southeast.lewis-slot--dragover {
-  transform: translate(-50%, -50%)
-    rotate(calc(-1 * var(--lewis-diagonal-angle)));
-}
-
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--northeast:hover,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--northeast.lewis-slot--filled,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--northeast.lewis-slot--dragover,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--southwest:hover,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--southwest.lewis-slot--filled,
-.lewis-atom-column--polar-diagonals
-  .lewis-slot.lewis-slot--circle.lewis-slot--southwest.lewis-slot--dragover {
-  transform: translate(-50%, -50%) rotate(var(--lewis-diagonal-angle));
 }
 
 .lewis-slot-grid {
@@ -2768,9 +2926,9 @@ LEWIS DOT STRUCTURES
 
   font-family: inherit;
 
-  background: rgba(124, 92, 191, 0.04);
+  background: color-mix(in srgb, var(--primary) 8%, transparent);
 
-  border: 2px dashed var(--border);
+  border: 2px dashed color-mix(in srgb, var(--primary) 50%, var(--border));
 
   border-radius: var(--radius-sm);
 
@@ -2780,16 +2938,92 @@ LEWIS DOT STRUCTURES
 }
 
 .lewis-slot--filled {
-  background: rgba(124, 92, 191, 0.08);
+  background: color-mix(in srgb, var(--primary) 13%, transparent);
 
   border-style: solid;
+}
+
+.lewis-board--bond-mode .lewis-slot--bond:not(.lewis-slot--full),
+.lewis-board--lone-pair-mode .lewis-slot--lone:not(.lewis-slot--full) {
+  border-color: var(--primary);
+
+  background: color-mix(in srgb, var(--primary) 12%, transparent);
+
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--primary) 18%, transparent);
+}
+
+.lewis-board--bond-mode .lewis-slot--lone,
+.lewis-board--lone-pair-mode .lewis-slot--bond {
+  opacity: 0.42;
+}
+
+.lewis-board--erase .lewis-slot--filled {
+  border-color: color-mix(in srgb, var(--incorrect) 65%, var(--border));
+
+  background: color-mix(in srgb, var(--incorrect) 8%, transparent);
+}
+
+.lewis-board--erase .lewis-slot:not(.lewis-slot--filled) {
+  opacity: 0.42;
+}
+
+.lewis-board--bond-mode .lewis-slot--lone:hover,
+.lewis-board--lone-pair-mode .lewis-slot--bond:hover,
+.lewis-board--erase .lewis-slot:not(.lewis-slot--filled):hover {
+  border-color: color-mix(in srgb, var(--primary) 35%, var(--border));
+
+  background: color-mix(in srgb, var(--primary) 8%, transparent);
+}
+
+.lewis-board--bond-mode .lewis-slot--bond:not(.lewis-slot--full):hover,
+.lewis-board--lone-pair-mode .lewis-slot--lone:not(.lewis-slot--full):hover {
+  border-color: var(--primary);
+
+  background: color-mix(in srgb, var(--primary) 18%, transparent);
+}
+
+@keyframes lewis-slot-reject {
+  0%,
+  100% {
+    border-color: var(--incorrect);
+
+    background: color-mix(in srgb, var(--incorrect) 10%, transparent);
+
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--incorrect) 35%, transparent);
+  }
+
+  50% {
+    border-color: var(--incorrect);
+
+    background: color-mix(in srgb, var(--incorrect) 22%, transparent);
+
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--incorrect) 40%, transparent);
+  }
+}
+
+.lewis-slot--reject {
+  animation: lewis-slot-reject 0.42s ease-in-out 2;
+
+  opacity: 1 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lewis-slot--reject {
+    animation: none;
+
+    border-color: var(--incorrect);
+
+    background: color-mix(in srgb, var(--incorrect) 18%, transparent);
+
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--incorrect) 30%, transparent);
+  }
 }
 
 .lewis-slot:hover,
 .lewis-slot--dragover {
   border-color: var(--primary);
 
-  background: rgba(124, 92, 191, 0.1);
+  background: color-mix(in srgb, var(--primary) 15%, transparent);
 }
 
 .lewis-slot.lewis-slot--circle {
@@ -2797,36 +3031,47 @@ LEWIS DOT STRUCTURES
 
   height: calc(var(--lewis-slot-size) * 0.85);
 
-  border-style: dashed;
-
-  border-color: color-mix(in srgb, var(--primary) 50%, var(--border));
-
-  background: color-mix(in srgb, var(--primary) 8%, transparent);
-
   border-radius: 50%;
 }
 
-.lewis-slot.lewis-slot--circle.lewis-slot--northwest,
-.lewis-slot.lewis-slot--circle.lewis-slot--southeast {
+.lewis-slot.lewis-slot--circle.lewis-slot--central-ring-lone {
+  width: var(--lewis-central-lone-circle-diameter);
+
+  height: var(--lewis-central-lone-circle-diameter);
+
+  padding: 0;
+}
+
+.lewis-slot.lewis-slot--circle.lewis-slot--northwest:not(.lewis-slot--polar),
+.lewis-slot.lewis-slot--circle.lewis-slot--southeast:not(.lewis-slot--polar) {
   transform: rotate(-45deg);
 }
 
-.lewis-slot.lewis-slot--circle.lewis-slot--northeast,
-.lewis-slot.lewis-slot--circle.lewis-slot--southwest {
+.lewis-slot.lewis-slot--circle.lewis-slot--northeast:not(.lewis-slot--polar),
+.lewis-slot.lewis-slot--circle.lewis-slot--southwest:not(.lewis-slot--polar) {
   transform: rotate(45deg);
+}
+
+.lewis-slot-dots--polar-bisect {
+  position: absolute;
+
+  inset: 0;
+
+  pointer-events: none;
+}
+
+.lewis-slot-dots--polar-bisect .lewis-dot {
+  position: absolute;
+
+  left: 50%;
+
+  top: 50%;
+
+  margin: 0;
 }
 
 .lewis-slot.lewis-slot--circle.lewis-slot--filled {
   border-style: solid;
-
-  background: color-mix(in srgb, var(--primary) 13%, transparent);
-}
-
-.lewis-slot.lewis-slot--circle:hover,
-.lewis-slot.lewis-slot--circle.lewis-slot--dragover {
-  border-color: var(--primary);
-
-  background: color-mix(in srgb, var(--primary) 15%, transparent);
 }
 
 .lewis-slot-bonds {
@@ -3038,13 +3283,13 @@ LEWIS DOT STRUCTURES
 }
 
 .lewis-board--example .lewis-slot--readonly:hover {
-  border-color: var(--border);
+  border-color: color-mix(in srgb, var(--primary) 50%, var(--border));
 
-  background: rgba(124, 92, 191, 0.04);
+  background: color-mix(in srgb, var(--primary) 8%, transparent);
 }
 
 .lewis-board--example .lewis-slot--readonly.lewis-slot--filled:hover {
-  background: rgba(124, 92, 191, 0.08);
+  background: color-mix(in srgb, var(--primary) 13%, transparent);
 }
 
 .lewis-token--erase .lewis-token-glyph {
@@ -3059,10 +3304,10 @@ LEWIS DOT STRUCTURES
   box-shadow: 0 0 0 3px rgba(229, 72, 77, 0.15);
 }
 
-.lewis-board--erase .lewis-slot:hover {
+.lewis-board--erase .lewis-slot--filled:hover {
   border-color: var(--incorrect);
 
-  background: rgba(229, 72, 77, 0.08);
+  background: color-mix(in srgb, var(--incorrect) 14%, transparent);
 }
 
 @media (max-width: 768px) {
@@ -3075,21 +3320,37 @@ LEWIS DOT STRUCTURES
   }
 
   .lewis-palette {
-    grid-template-columns: 1fr 1fr;
+    --lewis-palette-cols: 2;
   }
 
-  .lewis-token--erase {
-    grid-column: 1 / -1;
-  }
-
-  .lewis-board {
+  .lewis-board-wrap:not(.lewis-board-wrap--octahedral) .lewis-board {
     --lewis-scale: 0.875;
   }
 
   .lewis-board-wrap--octahedral {
-    --lewis-scale: 0.8;
+    padding-inline: 8px;
 
-    padding-inline: 16px;
+    overflow-x: clip;
+  }
+
+  .lewis-board-wrap--octahedral .lewis-ion-body {
+    overflow-x: clip;
+
+    min-width: 0;
+  }
+
+  .lewis-ion-display--octahedral.lewis-ion-display--charged {
+    gap: clamp(4px, 1vw, 10px);
+  }
+
+  .lewis-ion-display--octahedral.lewis-ion-display--charged
+    .lewis-ion-bracket:first-of-type {
+    margin-right: clamp(2px, 0.5vw, 6px);
+  }
+
+  .lewis-ion-display--octahedral.lewis-ion-display--charged
+    .lewis-ion-bracket:last-of-type {
+    margin-left: clamp(2px, 0.5vw, 6px);
   }
 
   .lewis-workspace--octahedral,
@@ -3108,41 +3369,34 @@ LEWIS DOT STRUCTURES
   .lewis-board-wrap--analysis-ref {
     --lewis-scale: 0.78;
   }
-
-  .lewis-board-wrap--analysis-ref.lewis-board-wrap--octahedral {
-    --lewis-scale: 0.64;
-  }
 }
 
 [data-theme="dark"] .lewis-token {
-  background: #2e3239;
+  background: var(--inactive-light);
 }
 
 [data-theme="dark"] .lewis-token:hover,
 [data-theme="dark"] .lewis-token--selected {
-  background: var(--card-bg);
+  background: #515a6c;
+}
+
+[data-theme="dark"] .lewis-token--disabled:hover,
+[data-theme="dark"] .lewis-token--disabled.lewis-token--selected {
+  background: var(--inactive-light);
 }
 
 [data-theme="dark"] .lewis-atom {
-  background: #2e3239;
+  background: var(--inactive-light);
 }
 
 [data-theme="dark"] .lewis-slot {
-  background: rgba(149, 117, 212, 0.06);
+  background: rgba(149, 117, 212, 0.14);
+
+  border-color: rgba(180, 152, 232, 0.55);
 }
 
 [data-theme="dark"] .lewis-slot--filled {
-  background: rgba(149, 117, 212, 0.12);
-}
-
-[data-theme="dark"] .lewis-slot.lewis-slot--circle {
-  background: rgba(149, 117, 212, 0.1);
-
-  border-color: rgba(149, 117, 212, 0.45);
-}
-
-[data-theme="dark"] .lewis-slot.lewis-slot--circle.lewis-slot--filled {
-  background: rgba(149, 117, 212, 0.18);
+  background: rgba(149, 117, 212, 0.24);
 }
 
 .lewis-task-header {
@@ -3287,6 +3541,10 @@ LEWIS DOT STRUCTURES
   padding: 0;
 
   list-style: none;
+}
+
+.lewis-stage-stepper.hidden {
+  display: none;
 }
 
 .lewis-stage-arrow {
@@ -3715,43 +3973,44 @@ LEWIS DOT STRUCTURES
 [data-theme="dark"] .lewis-analysis-option,
 [data-theme="dark"] .lewis-analysis-select,
 [data-theme="dark"] .lewis-valence-input {
-  background: var(--card-bg);
+  background: var(--inactive-light);
 }
 
 [data-theme="dark"]
   .lewis-task-header--full
   .lewis-task-instructions
   #instruction-text,
+[data-theme="dark"] .lewis-task-instructions #instruction-text,
 [data-theme="dark"] .lewis-electron-counter {
-  background: #2e3239;
+  background: var(--inactive-light);
 }
 
 [data-theme="dark"] .lewis-electron-counter--complete {
-  color: #5ecf9a;
+  color: #6ee7a8;
 
-  background: #1e2e26;
+  background: #355247;
 
-  border-color: rgba(40, 199, 111, 0.35);
+  border-color: rgba(40, 199, 111, 0.45);
 }
 
 [data-theme="dark"] .lewis-electron-counter--over {
-  color: #f08080;
+  color: #ff8a8c;
 
-  background: #2e2222;
+  background: #5a4040;
 
-  border-color: rgba(255, 77, 79, 0.35);
+  border-color: rgba(255, 77, 79, 0.45);
 }
 
 [data-theme="dark"] .lewis-analysis-field--correct {
-  background: #1e2e26;
+  background: #355247;
 
-  border-color: rgba(40, 199, 111, 0.35);
+  border-color: rgba(40, 199, 111, 0.45);
 }
 
 [data-theme="dark"] .lewis-analysis-field--incorrect {
-  background: #2e2222;
+  background: #5a4040;
 
-  border-color: rgba(255, 77, 79, 0.35);
+  border-color: rgba(255, 77, 79, 0.45);
 }
 
 .lewis-browse-screen {
@@ -4131,13 +4390,13 @@ LEWIS DOT STRUCTURES
 }
 
 [data-theme="dark"] .lewis-browse-item {
-  background: #2a3038;
+  background: var(--inactive-light);
 }
 
 [data-theme="dark"] .lewis-browse-item:hover {
-  background: #343a46;
+  background: #515a6c;
 }
 
 [data-theme="dark"] .lewis-browse-style-option:hover {
-  background: #343a46;
+  background: #515a6c;
 }
