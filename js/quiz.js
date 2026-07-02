@@ -213,6 +213,7 @@ function showQuestionFeedback(headline, question, tone, detail = null) {
   highlightCorrectAnswer(question);
   setFeedback(headline, question, tone, detail);
   feedback.classList.add("show");
+  continueBtn.disabled = false;
   continueBtn.style.display = "inline-block";
   continueBtn.focus();
 }
@@ -220,6 +221,7 @@ function showQuestionFeedback(headline, question, tone, detail = null) {
 function showExamAdvance(question) {
   skipBtn.disabled = true;
   lockQuestionInteraction(question);
+  continueBtn.disabled = false;
   continueBtn.style.display = "inline-block";
   continueBtn.focus();
 }
@@ -240,6 +242,7 @@ function resetQuestionUI() {
   feedback.classList.remove("show");
 
   continueBtn.style.display = "none";
+  continueBtn.disabled = true;
 
   skipBtn.disabled = false;
   if (!isExamMode()) {
@@ -616,6 +619,12 @@ function updateProgress() {
 /* CONTINUE */
 
 continueBtn.addEventListener("click", () => {
+  if (continueBtn.disabled) {
+    return;
+  }
+
+  continueBtn.disabled = true;
+  continueBtn.style.display = "none";
   current++;
   loadQuestion();
 });
