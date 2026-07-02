@@ -69,6 +69,9 @@ class FakeElement {
   set innerHTML(value) {
     this._innerHTML = value;
     if (value === "") {
+      this.children.forEach((child) => {
+        child.parentNode = null;
+      });
       this.children = [];
     }
   }
@@ -84,6 +87,9 @@ class FakeElement {
   }
 
   replaceChildren(...children) {
+    this.children.forEach((child) => {
+      child.parentNode = null;
+    });
     this.children = [];
     children.forEach((child) => this.appendChild(child));
   }
