@@ -2719,7 +2719,7 @@ function resetQuestionUI() {
   clearSelectedTool();
   unlockQuestion();
   skippedCurrent = false;
-  continueBtn.style.display = "none";
+  hideContinueButton();
 
   if (isBrowseMode()) {
     skipBtn.style.display = "none";
@@ -2833,14 +2833,23 @@ function revealAnswer() {
 
   if (isBrowseMode()) {
     if (isFullAnalysisMode() && currentStage !== STAGES.analysis) {
-      continueBtn.style.display = "inline-block";
-      continueBtn.focus();
+      showContinueButton();
     }
     return;
   }
 
+  showContinueButton();
+}
+
+function showContinueButton() {
+  continueBtn.disabled = false;
   continueBtn.style.display = "inline-block";
   continueBtn.focus();
+}
+
+function hideContinueButton() {
+  continueBtn.disabled = true;
+  continueBtn.style.display = "none";
 }
 
 function handleValenceCheck() {
@@ -3035,7 +3044,7 @@ function hideActiveUI() {
   stageStepper.classList.add("hidden");
   taskHeader.classList.add("hidden");
   clearFeedback();
-  continueBtn.style.display = "none";
+  hideContinueButton();
   skipBtn.style.display = "none";
   browseStructuresBtn.classList.add("hidden");
 }
@@ -3128,6 +3137,12 @@ resetBtn.addEventListener("click", () => {
 });
 
 continueBtn.addEventListener("click", () => {
+  if (continueBtn.disabled) {
+    return;
+  }
+
+  hideContinueButton();
+
   if (skippedCurrent) {
     skippedCurrent = false;
 
