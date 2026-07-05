@@ -1,0 +1,30 @@
+name: Quiz data
+
+on:
+  pull_request:
+    paths:
+      - "data/**/*.json"
+      - "js/quiz.js"
+      - "ci/test-quiz-data.js"
+      - ".github/workflows/quiz-data.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "data/**/*.json"
+      - "js/quiz.js"
+      - "ci/test-quiz-data.js"
+      - ".github/workflows/quiz-data.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run quiz data tests
+        run: node ci/test-quiz-data.js

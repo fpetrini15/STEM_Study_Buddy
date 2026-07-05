@@ -486,7 +486,7 @@
         "Kinetichore",
         "Telomere"
       ],
-      "answer": "Cohesins",
+      "answer": "Arm",
       "explanation": "The segment of a chromatid on either side of the centromere is called an arm (short p arm, long q arm). Cohesins hold sisters together but are not the name for these chromosomal regions."
     },
     {
@@ -500,7 +500,7 @@
         "Kinetichore",
         "Telomere"
       ],
-      "answer": "Cohesins",
+      "answer": "Arm",
       "explanation": "The segment of a chromatid on either side of the centromere is called an arm (short p arm, long q arm). Cohesins hold sisters together but are not the name for these chromosomal regions."
     },
     {
@@ -604,8 +604,8 @@
         "G0",
         "S"
       ],
-      "answer": "Binary fission",
-      "explanation": "Most human cells spend the longest part of the cell cycle in G1 (or G0 if non-dividing), carrying out growth and normal functions. S, G2, and mitosis occupy much less total time."
+      "answer": "G0",
+      "explanation": "Most differentiated human cells are in G0, a non-dividing state outside the active cell cycle. Actively cycling cells spend much of interphase in G1, while S, G2, and mitosis occupy less total time."
     },
     {
       "type": "multiple_choice",
