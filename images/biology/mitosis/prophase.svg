@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Early mitotic cell with condensing chromosomes</title>
+  <desc id="desc">Condensed chromosomes appear inside an intact nucleus while centrosomes begin forming spindle fibers.</desc>
+  <rect width="320" height="220" rx="24" fill="#f7fbff"/>
+  <ellipse cx="160" cy="112" rx="122" ry="82" fill="#d8f2df" stroke="#3f8f56" stroke-width="4"/>
+  <circle cx="160" cy="110" r="55" fill="#e6ddff" stroke="#6d5fb3" stroke-width="4"/>
+  <g stroke="#744fc6" stroke-width="9" stroke-linecap="round">
+    <path d="M132 82l34 34M166 82l-34 34"/>
+    <path d="M178 92l34 34M212 92l-34 34"/>
+    <path d="M128 134l30 30M158 134l-30 30"/>
+  </g>
+  <g stroke="#59a8d8" stroke-width="3" stroke-linecap="round">
+    <path d="M72 74c28 8 50 20 68 40"/>
+    <path d="M248 74c-26 10-48 24-66 44"/>
+  </g>
+  <g fill="#f5a623">
+    <circle cx="66" cy="68" r="7"/>
+    <circle cx="78" cy="74" r="7"/>
+    <circle cx="242" cy="68" r="7"/>
+    <circle cx="254" cy="74" r="7"/>
+  </g>
+</svg>

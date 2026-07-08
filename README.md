@@ -96,7 +96,7 @@ To show a placeholder before content is ready, add a catalog entry without creat
 |-------|----------|-------------|
 | `type` | Yes | `"multiple_choice"` or `"drag_and_drop"` |
 | `prompt.text` | One of text/image | Question text |
-| `prompt.image` | One of text/image | Path to image (e.g. `images/biology/mitosis/prophase.png`) |
+| `prompt.image` | One of text/image | Path to image (e.g. `images/biology/mitosis/prophase.svg`) |
 | `options` | MC only | Array of answer choices (shuffled at runtime) |
 | `categories` | Drag only | Drop zone labels |
 | `answer` | Yes | Correct option or category name |
@@ -166,19 +166,20 @@ Use `answer.patterns` instead of hand-writing every variant. Each pattern lists 
 | `centralLone` | Lone electrons on the central atom (optional, default 0) |
 | `permute` | If true, expand all unique order permutations (optional, default false) |
 
-Run data lint and validation tests after editing molecules:
+Run data lint and validation tests after editing molecules or quiz assets:
 
 ```bash
 node ci/test-lewis.js
+node ci/test-quiz-data.js
 ```
 
-Install the local pre-commit hook (runs automatically when Lewis files are staged):
+Install the local pre-commit hook (runs automatically when related data files are staged):
 
 ```bash
 sh scripts/install-git-hooks.sh
 ```
 
-Pull requests that touch Lewis data also run `ci/test-lewis.js` in GitHub Actions before merge to `main`.
+Pull requests that touch Lewis data or quiz assets also run the relevant CI data checks before merge to `main`.
 
 Lone-pair placement is validated by total electron count per atom, not fixed slot positions. Wrong answers and skips show an example diagram.
 

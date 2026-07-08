@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Cell with chromosomes aligned at the center</title>
+  <desc id="desc">Condensed chromosomes line up at the cell equator with spindle fibers attached from opposite poles.</desc>
+  <rect width="320" height="220" rx="24" fill="#f7fbff"/>
+  <ellipse cx="160" cy="112" rx="122" ry="82" fill="#d8f2df" stroke="#3f8f56" stroke-width="4"/>
+  <line x1="160" y1="42" x2="160" y2="182" stroke="#b9d6c1" stroke-width="3" stroke-dasharray="8 8"/>
+  <g stroke="#59a8d8" stroke-width="3" stroke-linecap="round">
+    <path d="M54 112l106-52M54 112l106-18M54 112l106 18M54 112l106 52"/>
+    <path d="M266 112l-106-52M266 112l-106-18M266 112l-106 18M266 112l-106 52"/>
+  </g>
+  <g stroke="#744fc6" stroke-width="9" stroke-linecap="round">
+    <path d="M145 56l30 30M175 56l-30 30"/>
+    <path d="M145 92l30 30M175 92l-30 30"/>
+    <path d="M145 128l30 30M175 128l-30 30"/>
+    <path d="M145 164l30-30M175 164l-30-30"/>
+  </g>
+  <g fill="#f5a623">
+    <circle cx="48" cy="112" r="8"/>
+    <circle cx="272" cy="112" r="8"/>
+  </g>
+</svg>

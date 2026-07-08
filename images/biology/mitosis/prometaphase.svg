@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Cell with a fragmenting nuclear envelope</title>
+  <desc id="desc">Nuclear envelope fragments while spindle microtubules reach condensed chromosomes.</desc>
+  <rect width="320" height="220" rx="24" fill="#f7fbff"/>
+  <ellipse cx="160" cy="112" rx="122" ry="82" fill="#d8f2df" stroke="#3f8f56" stroke-width="4"/>
+  <g fill="none" stroke="#6d5fb3" stroke-width="5" stroke-linecap="round">
+    <path d="M112 84c14-18 36-28 58-26"/>
+    <path d="M206 74c18 12 28 28 30 50"/>
+    <path d="M216 150c-18 18-44 26-70 18"/>
+    <path d="M102 144c-10-20-8-42 6-60"/>
+  </g>
+  <g stroke="#59a8d8" stroke-width="3" stroke-linecap="round">
+    <path d="M62 110l82-28M62 110l96 28M62 110l130-2"/>
+    <path d="M258 110l-82-28M258 110l-96 28M258 110l-130-2"/>
+  </g>
+  <g stroke="#744fc6" stroke-width="9" stroke-linecap="round">
+    <path d="M136 78l28 28M164 78l-28 28"/>
+    <path d="M176 116l28 28M204 116l-28 28"/>
+    <path d="M126 132l26 26M152 132l-26 26"/>
+  </g>
+  <g fill="#f5a623">
+    <circle cx="56" cy="110" r="8"/>
+    <circle cx="264" cy="110" r="8"/>
+  </g>
+</svg>

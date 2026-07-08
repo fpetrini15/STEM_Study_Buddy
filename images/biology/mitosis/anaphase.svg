@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Cell with sister chromatids moving apart</title>
+  <desc id="desc">Separated chromatids are pulled toward opposite spindle poles.</desc>
+  <rect width="320" height="220" rx="24" fill="#f7fbff"/>
+  <ellipse cx="160" cy="112" rx="122" ry="82" fill="#d8f2df" stroke="#3f8f56" stroke-width="4"/>
+  <g stroke="#59a8d8" stroke-width="3" stroke-linecap="round">
+    <path d="M54 112l86-52M54 112l74-18M54 112l78 42"/>
+    <path d="M266 112l-86-52M266 112l-74-18M266 112l-78 42"/>
+  </g>
+  <g fill="none" stroke="#744fc6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M130 62l-22 22l22 22"/>
+    <path d="M132 124l-24 18l24 18"/>
+    <path d="M190 62l22 22l-22 22"/>
+    <path d="M188 124l24 18l-24 18"/>
+  </g>
+  <g fill="#f5a623">
+    <circle cx="48" cy="112" r="8"/>
+    <circle cx="272" cy="112" r="8"/>
+  </g>
+</svg>

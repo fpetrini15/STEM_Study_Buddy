@@ -4,7 +4,7 @@
     {
       "type": "drag_and_drop",
       "prompt": {
-        "image": "images/biology/mitosis/g1phase.png"
+        "image": "images/biology/mitosis/g1phase.svg"
       },
       "categories": [
         "G1 Phase",
@@ -84,7 +84,7 @@
     {
       "type": "drag_and_drop",
       "prompt": {
-        "image": "images/biology/mitosis/prophase.png"
+        "image": "images/biology/mitosis/prophase.svg"
       },
       "categories": [
         "G1 Phase",
@@ -180,7 +180,7 @@
     {
       "type": "drag_and_drop",
       "prompt": {
-        "image": "images/biology/mitosis/prometaphase.png"
+        "image": "images/biology/mitosis/prometaphase.svg"
       },
       "categories": [
         "G1 Phase",
@@ -228,7 +228,7 @@
     {
       "type": "drag_and_drop",
       "prompt": {
-        "image": "images/biology/mitosis/metaphase.png"
+        "image": "images/biology/mitosis/metaphase.svg"
       },
       "categories": [
         "G1 Phase",
@@ -324,7 +324,7 @@
     {
       "type": "drag_and_drop",
       "prompt": {
-        "image": "images/biology/mitosis/anaphase.png"
+        "image": "images/biology/mitosis/anaphase.svg"
       },
       "categories": [
         "G1 Phase",
@@ -420,7 +420,7 @@
     {
       "type": "drag_and_drop",
       "prompt": {
-        "image": "images/biology/mitosis/telophase.png"
+        "image": "images/biology/mitosis/telophase.svg"
       },
       "categories": [
         "G1 Phase",

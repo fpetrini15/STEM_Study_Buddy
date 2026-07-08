@@ -1,5 +1,5 @@
 #!/bin/sh
-# Run Lewis structure lint/tests when related files are staged.
+# Run data lint/tests when related files are staged.
 
 set -e
 
@@ -11,7 +11,8 @@ fi
 root=$(git rev-parse --show-toplevel)
 cd "$root"
 
-should_run=false
+should_run_lewis=false
+should_run_quiz=false
 
 for file in $(git diff --cached --name-only); do
   case "$file" in
@@ -20,15 +21,29 @@ for file in $(git diff --cached --name-only); do
     | js/lewis-answers.js \
     | js/lewis-validation.js \
     | ci/test-lewis.js)
-      should_run=true
-      break
+      should_run_lewis=true
+      ;;
+    data/*.json \
+    | data/*/*.json \
+    | images/* \
+    | images/*/* \
+    | images/*/*/* \
+    | ci/test-quiz-data.js)
+      should_run_quiz=true
       ;;
   esac
 done
 
-if [ "$should_run" = false ]; then
+if [ "$should_run_lewis" = false ] && [ "$should_run_quiz" = false ]; then
   exit 0
 fi
 
-echo "pre-commit: running Lewis structure tests..."
-node ci/test-lewis.js
+if [ "$should_run_lewis" = true ]; then
+  echo "pre-commit: running Lewis structure tests..."
+  node ci/test-lewis.js
+fi
+
+if [ "$should_run_quiz" = true ]; then
+  echo "pre-commit: running quiz data tests..."
+  node ci/test-quiz-data.js
+fi
