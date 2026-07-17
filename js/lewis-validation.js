@@ -31,6 +31,35 @@ const LewisValidation = (function () {
     return bondElectrons + loneElectrons;
   }
 
+  const STRICT_OCTET_CENTRAL_ATOMS = new Set(["C", "N", "O", "F"]);
+  const ELECTRON_DEFICIENT_CENTRAL_ATOMS = new Set(["B", "Be"]);
+
+  function parseBondKey(key) {
+    const parts = key.split("-").map((part) => Number.parseInt(part, 10));
+    if (parts.length !== 2 || parts.some((part) => !Number.isInteger(part))) {
+      return null;
+    }
+
+    return parts;
+  }
+
+  function countCentralElectrons(variant, molecule) {
+    const centralIndex = LewisAnswers.getCentralIndex(molecule);
+    const centralAtom = molecule.atoms[centralIndex];
+    if (!centralAtom) return null;
+
+    const bondElectrons = Object.entries(variant.bonds || {}).reduce(
+      (sum, [key, order]) => {
+        const bond = parseBondKey(key);
+        if (!bond || !bond.includes(centralIndex)) return sum;
+        return sum + order * 2;
+      },
+      0,
+    );
+
+    return bondElectrons + getExpectedLoneDots(centralAtom.id, variant.loneDots || {});
+  }
+
   function getActualLoneDotsFromState(atomId, loneState) {
     return Object.entries(loneState || {})
       .filter(([key]) => key.startsWith(`${atomId}:`))
@@ -122,6 +151,27 @@ const LewisValidation = (function () {
       if (electronCount !== molecule.valenceElectrons) {
         errors.push(
           `Electron count ${electronCount} does not match valenceElectrons ${molecule.valenceElectrons}.`,
+        );
+      }
+    }
+
+    const centralIndex = LewisAnswers.getCentralIndex(molecule);
+    const centralAtom = molecule.atoms[centralIndex];
+    const centralElectrons = countCentralElectrons(variant, molecule);
+    if (centralAtom && centralElectrons !== null) {
+      if (
+        STRICT_OCTET_CENTRAL_ATOMS.has(centralAtom.symbol) &&
+        centralElectrons !== 8
+      ) {
+        errors.push(
+          `Central ${centralAtom.symbol} has ${centralElectrons} electrons; second-row central atoms must have exactly 8.`,
+        );
+      } else if (
+        !ELECTRON_DEFICIENT_CENTRAL_ATOMS.has(centralAtom.symbol) &&
+        centralElectrons < 8
+      ) {
+        errors.push(
+          `Central ${centralAtom.symbol} has ${centralElectrons} electrons; expected at least 8.`,
         );
       }
     }
