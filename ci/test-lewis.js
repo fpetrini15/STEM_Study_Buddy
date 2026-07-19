@@ -18,6 +18,38 @@ const dataPath = path.join(
 const LewisAnswers = require("../js/lewis-answers.js");
 const LewisValidation = require("../js/lewis-validation.js");
 
+function assert(condition, message) {
+  if (!condition) {
+    throw new Error(message);
+  }
+}
+
+function testDiagramDerivedResonance(toolData) {
+  const molecule = toolData.molecules.find((entry) => entry.id === "no3_minus");
+  assert(molecule, "Expected no3_minus fixture to exist.");
+
+  const variants = LewisAnswers.getAnswerVariants(molecule);
+  const uniformVariant = variants.find(
+    (variant) =>
+      Object.values(variant.bonds).length > 0 &&
+      Object.values(variant.bonds).every((order) => order >= 2),
+  );
+  const mixedVariant = variants.find((variant) =>
+    LewisAnswers.hasMixedSingleAndMultipleBonds(variant.bonds),
+  );
+
+  assert(uniformVariant, "Expected nitrate to include a uniform-bond variant.");
+  assert(mixedVariant, "Expected nitrate to include a mixed-bond variant.");
+  assert(
+    !LewisAnswers.hasMixedSingleAndMultipleBonds(uniformVariant.bonds),
+    "Uniform-bond nitrate should not be treated as diagram-derived resonance.",
+  );
+  assert(
+    LewisAnswers.hasMixedSingleAndMultipleBonds(mixedVariant.bonds),
+    "Mixed-bond nitrate should be treated as diagram-derived resonance.",
+  );
+}
+
 function main() {
   const raw = fs.readFileSync(dataPath, "utf8");
   const toolData = JSON.parse(raw);
@@ -50,6 +82,8 @@ function main() {
     });
     process.exit(1);
   }
+
+  testDiagramDerivedResonance(toolData);
 
   const totalVariants = lintReport.molecules.reduce(
     (sum, entry) => sum + entry.variantCount,

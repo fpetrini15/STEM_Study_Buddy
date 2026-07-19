@@ -1107,6 +1107,21 @@ function resetAnalysisForm() {
   renderAnalysisReferenceDiagram();
 }
 
+function getSubmittedStructureState() {
+  return {
+    bonds: { ...bondState },
+    lones: { ...loneState },
+  };
+}
+
+function getAnalysisReferenceState(molecule) {
+  if (getMatchingAnswerVariant(molecule)) {
+    return getSubmittedStructureState();
+  }
+
+  return buildExampleState(molecule);
+}
+
 function renderAnalysisReferenceDiagram() {
   if (!analysisReferenceWrap || !currentMolecule) return;
 
@@ -1126,7 +1141,7 @@ function renderAnalysisReferenceDiagram() {
   populateBoard(
     referenceBoard,
     currentMolecule,
-    buildExampleState(currentMolecule),
+    getAnalysisReferenceState(currentMolecule),
     { readonly: true }
   );
   body.appendChild(referenceBoard);
@@ -2580,16 +2595,14 @@ function getExpectedResonance(molecule, matchedVariant = null) {
   }
 
   if (analysis.resonanceFromDiagram) {
-    const orders = variant?.bonds
-      ? Object.values(variant.bonds)
-      : LewisAnswers.getExpectedBondKeys(molecule)
-          .map((key) => bondState[key] || 0)
-          .filter((order) => order > 0);
+    const referenceVariant = variant ?? getAnswerVariants(molecule)[0];
 
-    if (orders.length > 0) {
-      const hasSingle = orders.some((order) => order === 1);
-      const hasMultiple = orders.some((order) => order >= 2);
-      return hasSingle && hasMultiple;
+    if (referenceVariant?.resonance !== undefined) {
+      return referenceVariant.resonance;
+    }
+
+    if (referenceVariant?.bonds) {
+      return LewisAnswers.hasMixedSingleAndMultipleBonds(referenceVariant.bonds);
     }
   }
 

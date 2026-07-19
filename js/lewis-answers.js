@@ -208,6 +208,13 @@ const LewisAnswers = (function () {
     return dedupeVariants(variants);
   }
 
+  function hasMixedSingleAndMultipleBonds(bonds) {
+    const orders = Object.values(bonds || {}).filter((order) => order > 0);
+    const hasSingle = orders.some((order) => order === 1);
+    const hasMultiple = orders.some((order) => order >= 2);
+    return hasSingle && hasMultiple;
+  }
+
   return {
     getCentralIndex,
     getPeripheralIndices,
@@ -221,6 +228,7 @@ const LewisAnswers = (function () {
     expandPattern,
     expandPatterns,
     getAnswerVariants,
+    hasMixedSingleAndMultipleBonds,
   };
 })();
 
