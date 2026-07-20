@@ -1,23 +1,27 @@
-name: Lewis structure data
+name: Client data tests
 
 on:
   pull_request:
     paths:
       - "data/chemistry/lewis_structures.json"
+      - "js/quiz.js"
       - "js/lewis.js"
       - "js/lewis-answers.js"
       - "js/lewis-validation.js"
       - "ci/test-lewis.js"
+      - "ci/test-quiz.js"
       - ".github/workflows/lewis-data.yml"
   push:
     branches:
       - main
     paths:
       - "data/chemistry/lewis_structures.json"
+      - "js/quiz.js"
       - "js/lewis.js"
       - "js/lewis-answers.js"
       - "js/lewis-validation.js"
       - "ci/test-lewis.js"
+      - "ci/test-quiz.js"
       - ".github/workflows/lewis-data.yml"
 
 jobs:
@@ -32,3 +36,6 @@ jobs:
 
       - name: Run Lewis structure tests
         run: node ci/test-lewis.js
+
+      - name: Run quiz flow tests
+        run: node ci/test-quiz.js
