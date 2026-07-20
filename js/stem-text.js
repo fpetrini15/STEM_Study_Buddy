@@ -28,8 +28,10 @@ const SUPERSCRIPT_MAP = {
   "⁻": "-",
 };
 
-const STEM_PATTERN =
-  /[₀-₉⁰-⁹⁺⁻₊₋]|[A-Za-z\)]\d|\d(?=[A-Za-z])|(?:[A-Z][a-z]?){2,}/;
+// Sub/superscripts and digit stoichiometry get markup; the STEM serif face is
+// applied only on dedicated formula elements (see setStemText).
+const STEM_MARKUP_PATTERN =
+  /[₀-₉⁰-⁹⁺⁻₊₋]|[A-Za-z\)]\d|\d(?=[A-Za-z])/;
 
 function escapeHtml(text) {
   return text
@@ -45,13 +47,12 @@ function mapScriptRun(run, map) {
     .join("");
 }
 
-function needsStemFormatting(text) {
-  return STEM_PATTERN.test(text);
+function needsStemMarkup(text) {
+  return STEM_MARKUP_PATTERN.test(text);
 }
 
-function isStemFormulaElement(element) {
+function isDedicatedFormulaElement(element) {
   return (
-    element.classList.contains("stem-text") ||
     element.classList.contains("lewis-formula") ||
     element.classList.contains("lewis-browse-item-formula")
   );
@@ -75,14 +76,19 @@ function formatStemHtml(text) {
 
 function setStemText(element, text) {
   const value = String(text ?? "");
-  const format = needsStemFormatting(value);
-  const forceStemFont = format || isStemFormulaElement(element);
+  const dedicated = isDedicatedFormulaElement(element);
+  const markup = needsStemMarkup(value);
+  // STEM serif is reserved for dedicated formula chips (e.g. Lewis). Quiz prompts,
+  // options, and feedback stay on the UI face so mixed prose doesn't flicker fonts.
+  const useStemFont = dedicated;
 
-  if (forceStemFont) {
+  if (useStemFont) {
     element.classList.add("stem-text");
+  } else {
+    element.classList.remove("stem-text");
   }
 
-  if (format) {
+  if (markup) {
     element.innerHTML = formatStemHtml(value);
     return;
   }

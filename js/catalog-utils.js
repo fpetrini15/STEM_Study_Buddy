@@ -1,10 +1,57 @@
 const CatalogUtils = {
+  MEDICAL_SUBJECTS: new Set(["emt", "pharmacology"]),
+
+  MEDICAL_DISCLAIMER_TEXT:
+    "STEM Study Buddy’s medical quizzes are for educational practice only. They are not medical advice, certification, continuing education credit, or a substitute for accredited training, agency protocols, medical direction, or the judgment of a licensed clinician. Content may be incomplete or outdated—always verify against current guidelines and qualified instructors. Do not use this site to diagnose, treat, dose, or manage real patients.",
+
   async loadCatalog() {
-    const res = await fetch("data/catalog.json");
+    const res = await fetch("data/catalog.json", { cache: "no-store" });
     if (!res.ok) {
       throw new Error("Could not load the quiz catalog.");
     }
     return res.json();
+  },
+
+  getSections(catalog) {
+    if (Array.isArray(catalog?.sections)) return catalog.sections;
+
+    const subjects = this.getSubjectsMap(catalog);
+    const keys = Object.keys(subjects);
+    return keys.length ? [{ title: "Subjects", subjects: keys }] : [];
+  },
+
+  getSubject(catalog, subjectKey) {
+    if (!catalog || !subjectKey) return null;
+    if (subjectKey === "sections" || subjectKey === "subjects") return null;
+
+    // Nested shape (briefly used) or flat top-level subjects.
+    return catalog.subjects?.[subjectKey] ?? catalog[subjectKey] ?? null;
+  },
+
+  getSubjectsMap(catalog) {
+    if (!catalog || typeof catalog !== "object") return {};
+
+    if (catalog.subjects && typeof catalog.subjects === "object") {
+      return catalog.subjects;
+    }
+
+    const subjects = { ...catalog };
+    delete subjects.sections;
+    return subjects;
+  },
+
+  isMedicalSubject(subjectKey) {
+    return this.MEDICAL_SUBJECTS.has(subjectKey);
+  },
+
+  createMedicalDisclaimer({ compact = false } = {}) {
+    const el = document.createElement("p");
+    el.className = compact
+      ? "medical-disclaimer medical-disclaimer--compact"
+      : "medical-disclaimer";
+    el.setAttribute("role", "note");
+    el.textContent = this.MEDICAL_DISCLAIMER_TEXT;
+    return el;
   },
 
   showLoadError(container, message, backHref, backLabel) {
@@ -32,13 +79,18 @@ const CatalogUtils = {
     const labels = [];
     if (types.multiple_choice) labels.push("Multiple choice");
     if (types.drag_and_drop) labels.push("Drag & drop");
+    if (types.drug_worksheet) labels.push("Drug worksheet");
     return labels.join(" · ");
   },
 
   formatMeta(quiz) {
     if (!quiz.available) return "Coming soon";
+    if (!quiz.questionCount) return "Quiz available";
     const minutes = Math.max(1, Math.round(quiz.questionCount * 0.5));
-    return `${quiz.questionCount} questions · ${this.formatTypes(quiz.types)} · ~${minutes} min`;
+    const types = this.formatTypes(quiz.types);
+    return types
+      ? `${quiz.questionCount} questions · ${types} · ~${minutes} min`
+      : `${quiz.questionCount} questions · ~${minutes} min`;
   },
 
   async loadQuizStats(subjectKey, quizId) {
@@ -94,7 +146,8 @@ const CatalogUtils = {
 
       return {
         ...quiz,
-        available: stats !== null,
+        // Catalog entries are launchable; stats only enrich the subtitle.
+        available: true,
         itemCount: stats?.itemCount ?? 0,
         quizTitle: stats?.title ?? quiz.title,
       };
@@ -104,7 +157,7 @@ const CatalogUtils = {
 
     return {
       ...quiz,
-      available: stats !== null,
+      available: true,
       questionCount: stats?.questionCount ?? 0,
       types: stats?.types ?? {},
       quizTitle: stats?.title ?? quiz.title,
@@ -146,8 +199,17 @@ const CatalogUtils = {
     const card = document.createElement("div");
     card.className = `subject-card subject-card--${subjectKey}`;
 
+    const iconIsImage =
+      typeof subject.cardIcon === "string" &&
+      (/\.(svg|png|webp|jpe?g)$/i.test(subject.cardIcon) ||
+        subject.cardIcon.startsWith("images/"));
+
+    const iconHtml = iconIsImage
+      ? `<img class="subject-icon-img" src="${subject.cardIcon}" alt="" />`
+      : subject.cardIcon;
+
     card.innerHTML = `
-      <div class="subject-icon">${subject.cardIcon}</div>
+      <div class="subject-icon">${iconHtml}</div>
       <h3>${subject.title}</h3>
       <p>${subject.summary}</p>
     `;
@@ -155,7 +217,7 @@ const CatalogUtils = {
     const link = document.createElement("a");
     link.className = "btn btn-full card-link";
     link.href = `${subjectKey}.html`;
-    link.textContent = `Open ${subject.title}`;
+    link.textContent = "View Quizzes";
     card.appendChild(link);
 
     return card;

@@ -14,6 +14,7 @@ const Nav = {
     this.renderHeader();
     this.renderBreadcrumbs();
     this.renderRecent();
+    this.standardizeFooters();
     this.updateSiteHeaderOffset();
     this.observeSiteHeader();
     window.addEventListener("resize", () => this.updateSiteHeaderOffset());
@@ -55,7 +56,43 @@ const Nav = {
   },
 
   formatSubjectLabel(subject) {
+    if (!subject) return "";
+
+    const labels = {
+      biology: "Biology",
+      chemistry: "Chemistry",
+      emt: "Emergency Medicine",
+      pharmacology: "Pharmacology",
+    };
+
+    if (labels[subject]) return labels[subject];
     return subject.charAt(0).toUpperCase() + subject.slice(1);
+  },
+
+  standardizeFooters() {
+    const year = new Date().getFullYear();
+    const label = `STEM Study Buddy © ${year}`;
+
+    document.querySelectorAll("footer").forEach((footer) => {
+      let brand = footer.querySelector(".site-footer-brand");
+
+      if (!brand) {
+        const existing = [...footer.querySelectorAll("p")].find(
+          (p) => !p.classList.contains("medical-disclaimer"),
+        );
+
+        if (existing) {
+          brand = existing;
+          brand.classList.add("site-footer-brand");
+        } else {
+          brand = document.createElement("p");
+          brand.className = "site-footer-brand";
+          footer.appendChild(brand);
+        }
+      }
+
+      brand.textContent = label;
+    });
   },
 
   renderHeader() {
@@ -192,8 +229,7 @@ const Nav = {
       link.className = "recent-item";
       link.href = `quiz.html?quiz=${item.subject}/${item.id}`;
 
-      const subjectLabel =
-        item.subject.charAt(0).toUpperCase() + item.subject.slice(1);
+      const subjectLabel = this.formatSubjectLabel(item.subject);
       link.innerHTML = `
         <span class="recent-item-title">${item.title.replace(/ Quiz$/, "")}</span>
         <span class="recent-item-meta">${subjectLabel}</span>

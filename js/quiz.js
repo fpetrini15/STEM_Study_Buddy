@@ -40,6 +40,7 @@ const totalDisplay = document.getElementById("total");
 const scoreContainer = document.querySelector(".score");
 const progressBar = document.getElementById("progress-bar");
 const continueBtn = document.getElementById("continue-btn");
+const checkWorksheetBtn = document.getElementById("check-worksheet-btn");
 const skipBtn = document.getElementById("skip-btn");
 const finalScreen = document.getElementById("final-screen");
 const finalHeading = document.getElementById("final-heading");
@@ -107,6 +108,15 @@ function prepareQuestions(sourceQuestions) {
           options: shuffle([...q.options]),
         };
       }
+      if (q.type === "drug_worksheet") {
+        return {
+          ...q,
+          fields: q.fields.map((field) => ({
+            ...field,
+            options: shuffle([...field.options]),
+          })),
+        };
+      }
       return q;
     }),
   );
@@ -141,7 +151,7 @@ function resetRunState() {
 
 /* FEEDBACK */
 
-function setFeedback(headline, question, tone, detail = null) {
+function setFeedback(headline, question, tone, detail = null, messages = null) {
   feedback.replaceChildren();
 
   const panel = document.createElement("div");
@@ -164,6 +174,18 @@ function setFeedback(headline, question, tone, detail = null) {
 
   panel.appendChild(main);
 
+  const items = (messages || []).filter(Boolean);
+  if (items.length > 0) {
+    const list = document.createElement("ul");
+    list.className = "quiz-feedback-list";
+    items.forEach((message) => {
+      const item = document.createElement("li");
+      setStemText(item, message);
+      list.appendChild(item);
+    });
+    panel.appendChild(list);
+  }
+
   if (question.explanation) {
     const explanation = document.createElement("p");
     explanation.className = "feedback-explanation";
@@ -174,14 +196,26 @@ function setFeedback(headline, question, tone, detail = null) {
   feedback.appendChild(panel);
 }
 
+function formatWorksheetAnswerSummary(question) {
+  return question.fields.map((field) => `${field.label}: ${field.answer}`);
+}
+
 function lockQuestionInteraction(question) {
   draggable.setAttribute("draggable", "false");
   categoriesContainer.classList.add("locked");
 
-  if (question.type === "multiple_choice") {
+  if (
+    question.type === "multiple_choice" ||
+    question.type === "drug_worksheet"
+  ) {
     document.querySelectorAll(".mc-option").forEach((btn) => {
       btn.disabled = true;
     });
+  }
+
+  if (question.type === "drug_worksheet") {
+    checkWorksheetBtn.disabled = true;
+    checkWorksheetBtn.style.display = "none";
   }
 }
 
@@ -200,13 +234,20 @@ function highlightCorrectAnswer(question) {
       correctZone.classList.add("correct");
     }
   }
+  // drug_worksheet: field states are set during check/skip reveal
 }
 
-function showQuestionFeedback(headline, question, tone, detail = null) {
+function showQuestionFeedback(
+  headline,
+  question,
+  tone,
+  detail = null,
+  messages = null,
+) {
   skipBtn.disabled = true;
   lockQuestionInteraction(question);
   highlightCorrectAnswer(question);
-  setFeedback(headline, question, tone, detail);
+  setFeedback(headline, question, tone, detail, messages);
   feedback.classList.add("show");
   continueBtn.disabled = false;
   continueBtn.style.display = "inline-block";
@@ -233,11 +274,14 @@ function resetQuestionUI() {
   promptContainer.style.display = "block";
   promptContainer.classList.remove("prompt-static");
   categoriesContainer.innerHTML = "";
+  categoriesContainer.classList.remove("categories--worksheet");
   feedback.replaceChildren();
   feedback.classList.remove("show");
 
   continueBtn.style.display = "none";
   continueBtn.disabled = true;
+  checkWorksheetBtn.style.display = "none";
+  checkWorksheetBtn.disabled = true;
 
   skipBtn.disabled = false;
   if (!isExamMode()) {
@@ -258,11 +302,13 @@ function resetQuestionUI() {
 const questionRenderers = {
   drag_and_drop: renderDragQuestion,
   multiple_choice: renderMultipleChoiceQuestion,
+  drug_worksheet: renderDrugWorksheetQuestion,
 };
 
 const answerCheckers = {
   drag_and_drop: checkDragAnswer,
   multiple_choice: checkMultipleChoiceAnswer,
+  drug_worksheet: checkDrugWorksheetAnswer,
 };
 
 /* MODE SELECT */
@@ -455,6 +501,149 @@ function renderMultipleChoiceQuestion(question) {
   });
 }
 
+/* DRUG WORKSHEET */
+
+function getWorksheetSelections() {
+  const selections = {};
+  document.querySelectorAll(".drug-worksheet-row").forEach((row) => {
+    const selected = row.querySelector(".drug-worksheet-option.selected");
+    if (selected) {
+      selections[row.dataset.fieldId] = selected.dataset.value;
+    }
+  });
+  return selections;
+}
+
+function updateWorksheetCheckEnabled() {
+  const question = questions[current];
+  if (!question || question.type !== "drug_worksheet") return;
+
+  const selections = getWorksheetSelections();
+  checkWorksheetBtn.disabled = !question.fields.every(
+    (field) => selections[field.id],
+  );
+}
+
+function setWorksheetFieldState(row, correct) {
+  if (!row) return;
+  row.classList.remove(
+    "drug-worksheet-row--correct",
+    "drug-worksheet-row--incorrect",
+  );
+  row.classList.add(
+    correct ? "drug-worksheet-row--correct" : "drug-worksheet-row--incorrect",
+  );
+}
+
+function clearWorksheetFieldStates() {
+  document.querySelectorAll(".drug-worksheet-row").forEach((row) => {
+    row.classList.remove(
+      "drug-worksheet-row--correct",
+      "drug-worksheet-row--incorrect",
+    );
+  });
+}
+
+function applyWorksheetResultStyles(question, selections) {
+  clearWorksheetFieldStates();
+
+  question.fields.forEach((field) => {
+    const row = document.querySelector(
+      `.drug-worksheet-row[data-field-id="${CSS.escape(field.id)}"]`,
+    );
+    if (!row) return;
+
+    const chosen = selections[field.id];
+    const isFieldCorrect = chosen === field.answer;
+    setWorksheetFieldState(row, isFieldCorrect);
+
+    row.querySelectorAll(".drug-worksheet-option").forEach((btn) => {
+      btn.classList.remove("selected", "correct", "incorrect");
+
+      if (btn.dataset.value === field.answer) {
+        btn.classList.add("correct");
+      } else if (btn.dataset.value === chosen) {
+        btn.classList.add("incorrect");
+      }
+    });
+  });
+}
+
+function revealWorksheetAnswers(question) {
+  const selections = {};
+  question.fields.forEach((field) => {
+    selections[field.id] = field.answer;
+  });
+  applyWorksheetResultStyles(question, selections);
+}
+
+function renderDrugWorksheetQuestion(question) {
+  draggable.classList.add("hidden");
+  promptContainer.style.display = "block";
+  promptContainer.classList.add("prompt-static");
+  interactionArea.style.display = "none";
+  categoriesContainer.classList.add("categories--worksheet");
+  categoriesContainer.style.display = "block";
+
+  instructionText.textContent = "Fill each field, then check your answers.";
+
+  if (question.prompt.text) {
+    const text = document.createElement("div");
+    setStemText(text, question.prompt.text);
+    promptBox.appendChild(text);
+  }
+
+  if (question.prompt.image) {
+    const img = document.createElement("img");
+    img.src = question.prompt.image;
+    img.className = "quiz-image";
+    promptBox.appendChild(img);
+  }
+
+  const form = document.createElement("div");
+  form.className = "drug-worksheet";
+
+  question.fields.forEach((field) => {
+    const row = document.createElement("div");
+    row.className = "drug-worksheet-row";
+    row.dataset.fieldId = field.id;
+
+    const label = document.createElement("div");
+    label.className = "drug-worksheet-label";
+    label.textContent = field.label;
+    row.appendChild(label);
+
+    const options = document.createElement("div");
+    options.className = "drug-worksheet-options";
+
+    field.options.forEach((option) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "mc-option drug-worksheet-option";
+      btn.dataset.value = option;
+      setStemText(btn, option);
+
+      btn.addEventListener("click", () => {
+        if (categoriesContainer.classList.contains("locked")) return;
+        options.querySelectorAll(".drug-worksheet-option").forEach((other) => {
+          other.classList.remove("selected");
+        });
+        btn.classList.add("selected");
+        updateWorksheetCheckEnabled();
+      });
+
+      options.appendChild(btn);
+    });
+
+    row.appendChild(options);
+    form.appendChild(row);
+  });
+
+  categoriesContainer.appendChild(form);
+  checkWorksheetBtn.style.display = "inline-block";
+  checkWorksheetBtn.disabled = true;
+}
+
 /* CATEGORIES */
 
 function createCategories(question) {
@@ -587,6 +776,50 @@ function checkMultipleChoiceAnswer(option, question) {
   updateScoreDisplay();
 }
 
+/* DRUG WORKSHEET CHECK */
+
+function checkDrugWorksheetAnswer(selections, question) {
+  const misses = [];
+  let allCorrect = true;
+
+  question.fields.forEach((field) => {
+    const chosen = selections[field.id];
+    if (chosen !== field.answer) {
+      allCorrect = false;
+      misses.push(`${field.label}: ${field.answer}`);
+    }
+  });
+
+  if (!isExamMode()) {
+    applyWorksheetResultStyles(question, selections);
+  }
+
+  answeredCount++;
+
+  if (allCorrect) {
+    correctCount++;
+  } else {
+    wrongQuestions.push(question);
+  }
+
+  checkWorksheetBtn.style.display = "none";
+  checkWorksheetBtn.disabled = true;
+
+  if (isExamMode()) {
+    showExamAdvance(question);
+    updateScoreDisplay();
+    return;
+  }
+
+  if (allCorrect) {
+    showQuestionFeedback("Correct!", question, "correct");
+  } else {
+    showQuestionFeedback("Wrong!", question, "incorrect", null, misses);
+  }
+
+  updateScoreDisplay();
+}
+
 /* SKIP */
 
 skipBtn.addEventListener("click", () => {
@@ -595,12 +828,29 @@ skipBtn.addEventListener("click", () => {
   skippedCount++;
   skippedQuestions.push(question);
 
+  if (question.type === "drug_worksheet") {
+    revealWorksheetAnswers(question);
+    showQuestionFeedback(
+      "Skipped.",
+      question,
+      "skipped",
+      null,
+      formatWorksheetAnswerSummary(question),
+    );
+    return;
+  }
+
   showQuestionFeedback(
     "Skipped.",
     question,
     "skipped",
     "Correct answer: " + question.answer,
   );
+});
+
+checkWorksheetBtn.addEventListener("click", () => {
+  if (checkWorksheetBtn.disabled) return;
+  handleAnswer(getWorksheetSelections());
 });
 
 /* PROGRESS */
@@ -632,6 +882,7 @@ function hideActiveQuizUI() {
   feedback.replaceChildren();
   feedback.classList.remove("show");
   continueBtn.style.display = "none";
+  checkWorksheetBtn.style.display = "none";
   skipBtn.style.display = "none";
 }
 
@@ -757,9 +1008,28 @@ function applySubjectTheme() {
   document.body.classList.add("subject-" + subjectKey);
 
   const loaderEmoji = document.querySelector(".science-emoji");
-  const emojis = { biology: "🧬", chemistry: "⚗️" };
+  const emojis = {
+    biology: "🧬",
+    chemistry: "⚗️",
+    emt: "🚑",
+    pharmacology: "💊",
+  };
   if (loaderEmoji) {
     loaderEmoji.textContent = emojis[subjectKey] || "🧪";
+  }
+
+  if (
+    typeof CatalogUtils !== "undefined" &&
+    CatalogUtils.isMedicalSubject(subjectKey) &&
+    !document.querySelector(".medical-disclaimer")
+  ) {
+    const footer = quizContent?.querySelector("footer");
+    const disclaimer = CatalogUtils.createMedicalDisclaimer({ compact: true });
+    if (footer) {
+      footer.prepend(disclaimer);
+    } else {
+      quizContent?.appendChild(disclaimer);
+    }
   }
 }
 
@@ -767,13 +1037,14 @@ function loadFavicon() {
   const subject = quizName.split("/")[0];
   const favicon = document.getElementById("favicon");
 
-  if (subject === "biology") {
-    favicon.href = "images/favicons/dna.svg";
-  } else if (subject === "chemistry") {
-    favicon.href = "images/favicons/chemistry.svg";
-  } else {
-    favicon.href = "";
-  }
+  const icons = {
+    biology: "images/favicons/dna.svg",
+    chemistry: "images/favicons/chemistry.svg",
+    emt: "images/favicons/emt.svg",
+    pharmacology: "images/favicons/pharmacology.svg",
+  };
+
+  favicon.href = icons[subject] || "";
 }
 
 /* START */

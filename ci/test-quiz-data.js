@@ -1,7 +1,11 @@
 const fs = require("fs");
 const path = require("path");
 
-const VALID_TYPES = new Set(["drag_and_drop", "multiple_choice"]);
+const VALID_TYPES = new Set([
+  "drag_and_drop",
+  "multiple_choice",
+  "drug_worksheet",
+]);
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -34,6 +38,37 @@ function validateQuestion(filePath, quiz, question, index) {
 
   if (!question.prompt || (!question.prompt.text && !question.prompt.image)) {
     errors.push(`${label}: prompt.text or prompt.image is required.`);
+  }
+
+  if (question.type === "drug_worksheet") {
+    if (!Array.isArray(question.fields) || question.fields.length === 0) {
+      errors.push(`${label}: drug_worksheet fields are required.`);
+    } else {
+      question.fields.forEach((field, fieldIndex) => {
+        const fieldLabel = `${label} field ${fieldIndex + 1}`;
+        if (!field || typeof field !== "object") {
+          errors.push(`${fieldLabel}: must be an object.`);
+          return;
+        }
+        if (typeof field.id !== "string" || field.id.length === 0) {
+          errors.push(`${fieldLabel}: id must be a non-empty string.`);
+        }
+        if (typeof field.label !== "string" || field.label.length === 0) {
+          errors.push(`${fieldLabel}: label must be a non-empty string.`);
+        }
+        if (!Array.isArray(field.options) || field.options.length === 0) {
+          errors.push(`${fieldLabel}: options are required.`);
+        } else if (
+          typeof field.answer !== "string" ||
+          !field.options.includes(field.answer)
+        ) {
+          errors.push(
+            `${fieldLabel}: answer must be a non-empty string present in options.`,
+          );
+        }
+      });
+    }
+    return errors;
   }
 
   if (typeof question.answer !== "string" || question.answer.length === 0) {
