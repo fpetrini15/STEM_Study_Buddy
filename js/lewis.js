@@ -571,38 +571,33 @@ function getOctahedralLigandCount(molecule) {
   return Math.max(0, molecule.atoms.length - 1);
 }
 
-function usesOctahedralRingDomainSpokes(molecule) {
-  return getOctahedralLigandCount(molecule) >= 5;
+function isFullOctahedralLigandSet(molecule) {
+  return getOctahedralLigandCount(molecule) === 6;
 }
 
-function centralAtomMayHaveLonePairs(molecule) {
-  if (!molecule?.atoms?.length) return false;
+function usesOctahedralRingDomainSpokes(molecule) {
+  // Every 5-ligand radial board uses the SF₅⁻ spoke + circle chrome
+  // (octahedral or legacy trigonal_bipyramidal layout tags).
+  if (!isRadialLayout(molecule)) return false;
+  return molecule.atoms.length - 1 === 5;
+}
 
-  const centralId =
-    molecule.analysis?.centralAtom ?? molecule.atoms[0]?.id ?? null;
-  if (!centralId) return false;
-
-  return getAnswerVariants(molecule).some((variant) => {
-    const entry = variant.loneDots?.[centralId];
-    if (typeof entry === "number") return entry > 0;
-    if (!entry || typeof entry !== "object") return false;
-    if (typeof entry.total === "number") return entry.total > 0;
-
-    return Object.values(entry).some((value) => value > 0);
-  });
+function usesEmptyOctahedralHubSlots(molecule) {
+  return (
+    usesOctahedralRingDomainSpokes(molecule) || isFullOctahedralLigandSet(molecule)
+  );
 }
 
 function usesOctahedralRingCentralLones(molecule) {
-  return (
-    usesOctahedralRingDomainSpokes(molecule) &&
-    centralAtomMayHaveLonePairs(molecule)
-  );
+  // Same 5-spoke + circle chrome for every AX₅ ring board (SF₅⁻, SeOF₄, PCl₅, …).
+  // Circles are only required when an answer variant places central LPs there.
+  return usesOctahedralRingDomainSpokes(molecule);
 }
 
 function getRingDomainBisectors(molecule) {
   if (!usesOctahedralRingDomainSpokes(molecule)) return [];
 
-  const ligandCount = getOctahedralLigandCount(molecule);
+  const ligandCount = molecule.atoms.length - 1;
   const ringAngleOptions = getRadialRingAngleOptions(molecule);
   const ligandSpokes = Array.from({ length: ligandCount }, (_, index) =>
     getOctahedralLigandAngle(index, ligandCount, ringAngleOptions),
@@ -672,7 +667,9 @@ const BROWSE_PRACTICE_STYLES = {
  *   easy:   co2, asf6_minus, sf6, cbr4, cnbr, bcl3, pcl5, nf3, nh4_plus, bf4_minus
  *   medium: so2, no2_minus, no3_minus, sf5_minus, si2, scl4, sbcl4_minus, clf2_plus,
  *           nocl, pobr3, socl2, so2f2, so3, so4_minus
- *   hard:   xecl2, xef4, clf2_minus, brf3
+ *   hard:   xecl2, xef4, clf2_minus, brf3, seof4
+ *
+ * Five-ligand radial boards always use the SF₅⁻ spoke/circle chrome.
  */
 const BROWSE_DIFFICULTIES = [
   { value: "easy", label: "Easy", chipClass: "easy" },
@@ -871,8 +868,12 @@ function createBrowseItemButton(molecule) {
   button.dataset.moleculeId = molecule.id;
 
   const formula = document.createElement("span");
-  formula.className = "lewis-browse-item-formula";
-  formula.textContent = molecule.formula;
+  formula.className = "lewis-browse-item-formula stem-text";
+  if (typeof setStemText === "function") {
+    setStemText(formula, molecule.formula);
+  } else {
+    formula.textContent = molecule.formula;
+  }
 
   const name = document.createElement("span");
   name.className = "lewis-browse-item-name";
@@ -1074,9 +1075,11 @@ function applyBrowseSessionUI() {
   if (isBrowseMode()) {
     scoreEl?.classList.add("hidden");
     browseStructuresBtn.classList.remove("hidden");
-    skipBtn.classList.add("hidden");
+    skipBtn.classList.remove("hidden");
+    skipBtn.disabled = questionLocked;
     modeBadge.textContent = `Browse · ${getBrowsePracticeLabel()}`;
     modeBadge.classList.remove("hidden");
+    updateDiagramActions();
     return;
   }
 
@@ -1400,6 +1403,44 @@ function applyAnalysisFieldHighlights() {
   );
 }
 
+function fillAnalysisFormWithExpectedAnswers() {
+  const analysis = currentMolecule?.analysis;
+  if (!analysis) return;
+
+  if (electronDomainsInput) {
+    electronDomainsInput.value = String(analysis.electronDomains);
+  }
+
+  const expectedResonance = formatExpectedResonance(currentMolecule);
+  document.querySelectorAll('input[name="resonance"]').forEach((input) => {
+    input.checked = input.value === expectedResonance;
+  });
+
+  const selectFields = [
+    { id: "lewis-electron-geometry", key: "electronGeometry" },
+    { id: "lewis-molecular-geometry", key: "molecularGeometry" },
+    { id: "lewis-polarity", key: "polarity" },
+    { id: "lewis-hybridization", key: "hybridization" },
+  ];
+
+  selectFields.forEach(({ id, key }) => {
+    const select = document.getElementById(id);
+    if (select && analysis[key] != null) {
+      select.value = analysis[key];
+    }
+  });
+
+  const expectedDistortion = analysis.distortion ? "yes" : "no";
+  document.querySelectorAll('input[name="distortion"]').forEach((input) => {
+    input.checked = input.value === expectedDistortion;
+  });
+
+  const expectedAngles = new Set(normalizeBondAngles(analysis.bondAngle));
+  document.querySelectorAll('input[name="bondAngle"]').forEach((input) => {
+    input.checked = expectedAngles.has(input.value);
+  });
+}
+
 function buildAnalysisAnswerMessages() {
   const analysis = currentMolecule.analysis;
 
@@ -1446,14 +1487,12 @@ function isDiagramCheckReady() {
 
 function updateDiagramActions() {
   const onDiagram = currentStage === STAGES.diagram;
-  const showDiagramSkip = onDiagram && !isBrowseMode();
+  const showDiagramSkip = onDiagram;
 
   diagramSkipBtn?.classList.toggle("hidden", !showDiagramSkip);
 
-  if (!isBrowseMode()) {
-    skipBtn.classList.toggle("hidden", showDiagramSkip);
-    skipBtn.style.display = showDiagramSkip ? "none" : "inline-block";
-  }
+  skipBtn.classList.toggle("hidden", showDiagramSkip);
+  skipBtn.style.display = showDiagramSkip ? "none" : "inline-block";
 
   updateSkipButtonLabels();
 
@@ -1467,11 +1506,21 @@ function updateDiagramActions() {
     return;
   }
 
-  diagramSkipBtn.disabled = false;
-  checkBtn.disabled = !isDiagramCheckReady();
+  const checkReady = isDiagramCheckReady();
+  checkBtn.disabled = !checkReady;
+  // Avoid accidental Skip/Reveal once the board is complete enough to Check.
+  diagramSkipBtn.disabled = checkReady;
 }
 
 function updateSkipButtonLabels() {
+  if (isBrowseMode()) {
+    skipBtn.textContent = "Reveal";
+    if (diagramSkipBtn) {
+      diagramSkipBtn.textContent = "Reveal";
+    }
+    return;
+  }
+
   if (isFullAnalysisMode()) {
     if (currentStage === STAGES.electrons) {
       skipBtn.textContent = "Skip to diagram";
@@ -1783,7 +1832,7 @@ function resolveAtomLayout(atom, index, molecule) {
 
   if (isRadialLayout(molecule)) {
     if (index === 0) {
-      if (usesOctahedralRingDomainSpokes(molecule)) {
+      if (usesEmptyOctahedralHubSlots(molecule)) {
         return { ...SLOT_LAYOUTS.octahedralCentral, slots: [] };
       }
 
@@ -1834,7 +1883,7 @@ function applySlotGrid(element, layout) {
 
 function usesExpandedSlotLayout(atom, index, molecule) {
   if (isRadialLayout(molecule) && index === 0) {
-    return !usesOctahedralRingDomainSpokes(molecule);
+    return !usesEmptyOctahedralHubSlots(molecule);
   }
 
   return atom.slotLayout === "expanded" || Boolean(atom.diagonalLoneSlots);
@@ -2365,7 +2414,10 @@ function buildExampleState(molecule) {
     return { bonds, lones };
   }
 
-  return buildStateFromVariant(getAnswerVariants(molecule)[0], molecule);
+  return buildStateFromVariant(
+    LewisAnswers.getPreferredExampleVariant(molecule),
+    molecule,
+  );
 }
 
 function buildStateFromVariant(variant, molecule) {
@@ -2411,55 +2463,186 @@ function placeLonePairsInSlots(atomId, pairs, lones) {
   });
 }
 
-/** Paper-style LP layout for linear expanded hubs (e.g. ClF₂⁻, XeCl₂). */
-function distributeBalancedExpandedHubLoneDots(
+/** North-based slot angles (0° = north, +90° = east), matching unitRayFromNorthAngle. */
+const SLOT_DIRECTION_ANGLE_DEG = {
+  north: 0,
+  northeast: 45,
+  east: 90,
+  southeast: 135,
+  south: 180,
+  southwest: -135,
+  west: -90,
+  northwest: -45,
+};
+
+function slotDirectionAngleDeg(direction) {
+  if (Object.prototype.hasOwnProperty.call(SLOT_DIRECTION_ANGLE_DEG, direction)) {
+    return SLOT_DIRECTION_ANGLE_DEG[direction];
+  }
+
+  if (typeof direction === "string" && direction.startsWith("ringGap:")) {
+    const index = Number.parseInt(direction.slice("ringGap:".length), 10);
+    if (Number.isInteger(index)) {
+      return normalizeHubAngle(index * 60 - 90);
+    }
+  }
+
+  return null;
+}
+
+function angularDistanceDeg(a, b) {
+  return Math.abs(normalizeHubAngle(a - b));
+}
+
+function minimumClearanceDeg(candidateAngles, occupiedAngles) {
+  let minimum = Infinity;
+
+  for (let i = 0; i < candidateAngles.length; i++) {
+    for (let j = i + 1; j < candidateAngles.length; j++) {
+      minimum = Math.min(
+        minimum,
+        angularDistanceDeg(candidateAngles[i], candidateAngles[j]),
+      );
+    }
+
+    for (const occupied of occupiedAngles) {
+      minimum = Math.min(
+        minimum,
+        angularDistanceDeg(candidateAngles[i], occupied),
+      );
+    }
+  }
+
+  return minimum;
+}
+
+function minimumPairwiseClearanceDeg(angles) {
+  let minimum = Infinity;
+
+  for (let i = 0; i < angles.length; i++) {
+    for (let j = i + 1; j < angles.length; j++) {
+      minimum = Math.min(
+        minimum,
+        angularDistanceDeg(angles[i], angles[j]),
+      );
+    }
+  }
+
+  return Number.isFinite(minimum) ? minimum : 0;
+}
+
+function compareLonePairDirectionSets(left, right) {
+  const leftKey = left.slice().sort().join(",");
+  const rightKey = right.slice().sort().join(",");
+  if (leftKey < rightKey) return -1;
+  if (leftKey > rightKey) return 1;
+  return 0;
+}
+
+function chooseMaximinSlotDirections(slotDirections, pairCount, occupiedAngles) {
+  if (pairCount <= 0 || slotDirections.length < pairCount) return null;
+
+  const candidates = slotDirections.filter(
+    (direction) => slotDirectionAngleDeg(direction) != null,
+  );
+  if (candidates.length < pairCount) return null;
+
+  let best = null;
+
+  const chooseFrom = (start, chosen) => {
+    if (chosen.length === pairCount) {
+      const angles = chosen.map((direction) => slotDirectionAngleDeg(direction));
+      const clearance = minimumClearanceDeg(angles, occupiedAngles);
+      const pairwise = minimumPairwiseClearanceDeg(angles);
+      const prefersSouth = chosen.includes("south") ? 1 : 0;
+      const score = {
+        clearance,
+        pairwise,
+        prefersSouth,
+        directions: chosen.slice(),
+      };
+
+      if (
+        !best ||
+        score.clearance > best.clearance ||
+        (score.clearance === best.clearance &&
+          score.pairwise > best.pairwise) ||
+        (score.clearance === best.clearance &&
+          score.pairwise === best.pairwise &&
+          score.prefersSouth > best.prefersSouth) ||
+        (score.clearance === best.clearance &&
+          score.pairwise === best.pairwise &&
+          score.prefersSouth === best.prefersSouth &&
+          compareLonePairDirectionSets(score.directions, best.directions) < 0)
+      ) {
+        best = score;
+      }
+      return;
+    }
+
+    for (let i = start; i < candidates.length; i++) {
+      chosen.push(candidates[i]);
+      chooseFrom(i + 1, chosen);
+      chosen.pop();
+    }
+  };
+
+  chooseFrom(0, []);
+  return best?.directions ?? null;
+}
+
+function getCentralBondAxisAngles(molecule, atomIndex) {
+  if (isRadialLayout(molecule) && atomIndex === getCentralAtomIndex(molecule)) {
+    return getSpokeAngles(molecule);
+  }
+
+  if (molecule.layout === "linear" && atomIndex === getCentralAtomIndex(molecule)) {
+    // Ligands sit on the horizontal axis of the expanded hub.
+    return [SLOT_DIRECTION_ANGLE_DEG.east, SLOT_DIRECTION_ANGLE_DEG.west];
+  }
+
+  if (isTrigonalPlanarLayout(molecule) && atomIndex === 0) {
+    return molecule.atoms.slice(1).map((_, index) => {
+      const slot = SLOT_LAYOUTS.trigonalCentral.bondSlots[index];
+      return slotDirectionAngleDeg(slot.direction);
+    });
+  }
+
+  return [];
+}
+
+/**
+ * Place central LPs by maximin angular separation from bonds and each other.
+ * Tie-break toward paper-style TBP layouts (same-side diagonals + opposite cardinal).
+ */
+function distributeMaximinHubLoneDots(
   atomId,
   total,
   atomIndex,
   molecule,
   lones,
 ) {
-  if (molecule.layout !== "linear") return false;
   if (atomIndex !== getCentralAtomIndex(molecule)) return false;
 
   const atom = molecule.atoms[atomIndex];
-  if (!usesExpandedSlotLayout(atom, atomIndex, molecule)) return false;
-
+  const layout = resolveAtomLayout(atom, atomIndex, molecule);
   const pairCount = total / LONE_PAIR_DOTS;
   if (!Number.isInteger(pairCount) || pairCount <= 0) return false;
+  if (!layout.slots?.length) return false;
 
-  if (pairCount === 3) {
-    // Two diagonal LPs on one side of the x-axis, one cardinal LP on the other.
-    placeLonePairsInSlots(
-      atomId,
-      [
-        ["northwest", LONE_PAIR_DOTS],
-        ["northeast", LONE_PAIR_DOTS],
-        ["south", LONE_PAIR_DOTS],
-      ],
-      lones,
-    );
-    return true;
-  }
+  const directions = chooseMaximinSlotDirections(
+    layout.slots.map((slot) => slot.direction),
+    pairCount,
+    getCentralBondAxisAngles(molecule, atomIndex),
+  );
+  if (!directions) return false;
 
-  if (pairCount === 2) {
-    placeLonePairsInSlots(
-      atomId,
-      [
-        ["north", LONE_PAIR_DOTS],
-        ["south", LONE_PAIR_DOTS],
-      ],
-      lones,
-    );
-    return true;
-  }
-
-  if (pairCount === 1) {
-    placeLonePairsInSlots(atomId, [["northwest", LONE_PAIR_DOTS]], lones);
-    return true;
-  }
-
-  return false;
+  placeLonePairsInSlots(
+    atomId,
+    directions.map((direction) => [direction, LONE_PAIR_DOTS]),
+    lones,
+  );
+  return true;
 }
 
 function distributeExampleLoneDots(atomId, total, molecule, lones) {
@@ -2480,7 +2663,7 @@ function distributeExampleLoneDots(atomId, total, molecule, lones) {
   }
 
   if (
-    distributeBalancedExpandedHubLoneDots(
+    distributeMaximinHubLoneDots(
       atomId,
       total,
       atomIndex,
@@ -2573,10 +2756,15 @@ function shouldHideUnusedDomainArms(molecule, state = null) {
   if (!usesOctahedralRingCentralLones(molecule)) return false;
 
   const lones = state?.lones ?? loneState;
-  const required = getRequiredCentralLoneDots(molecule);
-  if (required > 0 && countCentralBisectLoneDots(molecule, lones) >= required) {
+  const placed = countCentralBisectLoneDots(molecule, lones);
+
+  // A LP in any domain circle fills the 6th octahedral slot — hide empty spokes.
+  if (placed >= LONE_PAIR_DOTS) {
     return true;
   }
+
+  const required = getRequiredCentralLoneDots(molecule);
+  if (required <= 0) return false;
 
   const budget = getDiagramElectronBudget();
   if (!Number.isFinite(budget)) return false;
@@ -3394,10 +3582,9 @@ function resetQuestionUI() {
   skippedCurrent = false;
   hideContinueButton();
 
-  if (isBrowseMode()) {
-    skipBtn.style.display = "none";
-  } else {
-    skipBtn.disabled = false;
+  skipBtn.disabled = false;
+  if (!isBrowseMode()) {
+    skipBtn.style.display = "inline-block";
   }
 
   valenceInput.disabled = false;
@@ -3707,11 +3894,17 @@ function handleSkip() {
     valenceCheckBtn.disabled = true;
     sessionValenceCount = currentMolecule.valenceElectrons;
   } else if (currentStage === STAGES.analysis) {
+    fillAnalysisFormWithExpectedAnswers();
     lockAnalysisForm();
     applyAnalysisFieldHighlights();
   }
 
-  showFeedback("Skipped.", "skipped", messages, showExample);
+  showFeedback(
+    isBrowseMode() ? "Revealed." : "Skipped.",
+    "skipped",
+    messages,
+    showExample,
+  );
   revealAnswer();
 }
 

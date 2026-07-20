@@ -1,7 +1,7 @@
 const PARAMS = new URLSearchParams(window.location.search);
 
 const quizName = PARAMS.get("quiz");
-const VALID_MODES = ["practice", "study", "exam"];
+const VALID_MODES = ["practice", "exam"];
 
 if (!quizName) {
   document.body.innerHTML = "<h1>No quiz specified</h1>";
@@ -98,10 +98,6 @@ function isExamMode() {
   return quizMode === "exam";
 }
 
-function isStudyMode() {
-  return quizMode === "study";
-}
-
 function prepareQuestions(sourceQuestions) {
   return shuffle(
     sourceQuestions.map((q) => {
@@ -119,14 +115,13 @@ function prepareQuestions(sourceQuestions) {
 function applyModeUI() {
   const labels = {
     practice: "Practice mode",
-    study: "Study mode",
     exam: "Exam mode",
   };
 
   modeBadge.textContent = labels[quizMode] || "";
   modeBadge.classList.toggle("hidden", !quizMode);
 
-  if (isStudyMode() || isExamMode()) {
+  if (isExamMode()) {
     scoreContainer.style.display = "none";
   } else {
     scoreContainer.style.display = "";
@@ -227,7 +222,7 @@ function showExamAdvance(question) {
 }
 
 function updateScoreDisplay() {
-  if (!isStudyMode() && !isExamMode()) {
+  if (!isExamMode()) {
     scoreDisplay.textContent = correctCount;
     totalDisplay.textContent = answeredCount;
   }
@@ -321,7 +316,7 @@ async function loadQuiz() {
 
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.content = `Study with the ${quizData.title} on STEM Study Buddy. Practice, study, and exam modes with instant feedback.`;
+      metaDescription.content = `Study with the ${quizData.title} on STEM Study Buddy. Practice and exam modes with instant feedback.`;
     }
 
     document.body.dataset.subject = quizName.split("/")[0];
@@ -664,12 +659,6 @@ function endQuiz() {
     finalTier.textContent = `${tier.emoji} ${tier.message}`;
     finalScore.textContent = `${percent}%`;
     finalDetail.textContent = `${correctCount} of ${answeredCount} correct`;
-  } else if (isStudyMode()) {
-    finalHeading.textContent = "Review Complete";
-    finalTier.textContent = "📖 Session finished";
-    finalScore.textContent = `${answeredCount} questions reviewed`;
-    finalDetail.textContent =
-      skippedCount > 0 ? `${skippedCount} skipped` : "Nice work studying.";
   } else {
     finalHeading.textContent = "Quiz Complete!";
     finalTier.textContent = `${tier.emoji} ${tier.message}`;

@@ -208,6 +208,80 @@ const LewisAnswers = (function () {
     return dedupeVariants(variants);
   }
 
+  const ELECTRON_DEFICIENT_CENTRAL_ATOMS = new Set(["B", "Be"]);
+
+  function getLoneDotTotal(atomId, loneDotsAnswer) {
+    const entry = loneDotsAnswer?.[atomId];
+    if (typeof entry === "number") return entry;
+    if (entry && typeof entry.total === "number") return entry.total;
+    if (entry && typeof entry === "object") {
+      return Object.values(entry).reduce((sum, value) => sum + value, 0);
+    }
+    return 0;
+  }
+
+  function countCentralElectrons(variant, molecule) {
+    const centralIndex = getCentralIndex(molecule);
+    const centralAtom = molecule.atoms[centralIndex];
+    if (!centralAtom) return null;
+
+    const bondElectrons = Object.entries(variant.bonds || {}).reduce(
+      (sum, [key, order]) => {
+        const parts = key.split("-").map((part) => Number.parseInt(part, 10));
+        if (
+          parts.length !== 2 ||
+          parts.some((part) => !Number.isInteger(part)) ||
+          !parts.includes(centralIndex)
+        ) {
+          return sum;
+        }
+        return sum + order * 2;
+      },
+      0,
+    );
+
+    return bondElectrons + getLoneDotTotal(centralAtom.id, variant.loneDots || {});
+  }
+
+  function isOctetCompliantCentral(variant, molecule) {
+    const electrons = countCentralElectrons(variant, molecule);
+    return electrons === 8;
+  }
+
+  function isElectronDeficientCentral(variant, molecule) {
+    const centralIndex = getCentralIndex(molecule);
+    const centralAtom = molecule.atoms[centralIndex];
+    if (!centralAtom || !ELECTRON_DEFICIENT_CENTRAL_ATOMS.has(centralAtom.symbol)) {
+      return false;
+    }
+
+    const electrons = countCentralElectrons(variant, molecule);
+    return electrons != null && electrons < 8;
+  }
+
+  /**
+   * Prefer an octet-compliant form for Reveal / example diagrams so beginners
+   * see the clearest teaching structure. Fall back to intentional B/Be
+   * electron-deficient forms, then the first listed variant (expanded-only).
+   * Expanded-octet alternatives remain accepted for grading when listed.
+   */
+  function getPreferredExampleVariant(molecule) {
+    const variants = getAnswerVariants(molecule);
+    if (variants.length === 0) return null;
+
+    const octet = variants.find((variant) =>
+      isOctetCompliantCentral(variant, molecule),
+    );
+    if (octet) return octet;
+
+    const deficient = variants.find((variant) =>
+      isElectronDeficientCentral(variant, molecule),
+    );
+    if (deficient) return deficient;
+
+    return variants[0];
+  }
+
   return {
     getCentralIndex,
     getPeripheralIndices,
@@ -221,6 +295,11 @@ const LewisAnswers = (function () {
     expandPattern,
     expandPatterns,
     getAnswerVariants,
+    getLoneDotTotal,
+    countCentralElectrons,
+    isOctetCompliantCentral,
+    isElectronDeficientCentral,
+    getPreferredExampleVariant,
   };
 })();
 

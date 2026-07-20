@@ -361,14 +361,14 @@ SITE HEADER
 
 .recent-section {
   margin-bottom: 36px;
-
-  text-align: left;
 }
 
 .recent-list {
   display: flex;
 
   flex-wrap: wrap;
+
+  justify-content: center;
 
   gap: 10px;
 }
@@ -4368,6 +4368,8 @@ LEWIS DOT STRUCTURES
 }
 
 .lewis-browse-item-formula {
+  font-family: var(--font-stem);
+
   font-size: 16px;
 
   font-weight: 700;

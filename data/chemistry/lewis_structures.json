@@ -86,17 +86,6 @@
           {
             "peripheralOrders": [
               2,
-              2
-            ],
-            "centralLone": 2,
-            "peripheralLoneByOrder": {
-              "2": 4
-            },
-            "resonance": false
-          },
-          {
-            "peripheralOrders": [
-              2,
               1
             ],
             "centralLone": 2,
@@ -106,10 +95,21 @@
             },
             "permute": true,
             "resonance": true
+          },
+          {
+            "peripheralOrders": [
+              2,
+              2
+            ],
+            "centralLone": 2,
+            "peripheralLoneByOrder": {
+              "2": 4
+            },
+            "resonance": false
           }
         ]
       },
-      "explanation": "SO₂ has several valid Lewis structures. You can draw two S=O double bonds (each O with two lone pairs, S with one lone pair), or one double bond and one single bond — the singly bonded oxygen then has three lone pairs (six electrons), while the doubly bonded oxygen has two lone pairs (four electrons). Sulfur keeps one lone pair in each accepted structure. A diagram with only single S–O bonds is not accepted because sulfur would have only six electrons around it."
+      "explanation": "SO₂ is best drawn as resonance forms with one S=O double bond and one S–O single bond (and one lone pair on sulfur). That keeps a complete octet on sulfur: the doubly bonded oxygen has two lone pairs, and the singly bonded oxygen has three. Sulfur can also be drawn with two S=O double bonds (an expanded octet, ten electrons around S); that form is accepted, but the resonance pair is the usual gen-chem solution and is what Reveal shows."
     },
     {
       "id": "no2_minus",
@@ -246,11 +246,7 @@
         },
         "loneDots": {
           "cl1": 6,
-          "xe": {
-            "northwest": 2,
-            "northeast": 2,
-            "south": 2
-          },
+          "xe": 6,
           "cl2": 6
         }
       },
@@ -289,10 +285,7 @@
           "0-4": 1
         },
         "loneDots": {
-          "xe": {
-            "northwest": 2,
-            "southeast": 2
-          },
+          "xe": 4,
           "f1": { "north": 2, "east": 2, "west": 2 },
           "f2": { "north": 2, "east": 2, "west": 2 },
           "f3": { "north": 2, "east": 2, "west": 2 },
@@ -696,11 +689,7 @@
         },
         "loneDots": {
           "f1": 6,
-          "cl": {
-            "northwest": 2,
-            "northeast": 2,
-            "south": 2
-          },
+          "cl": 6,
           "f2": 6
         }
       },
@@ -948,7 +937,7 @@
       "name": "Phosphorus pentachloride",
       "formula": "PCl₅",
       "difficulty": "easy",
-      "layout": "trigonal_bipyramidal",
+      "layout": "octahedral",
       "northLigandIndex": 1,
       "atoms": [
         { "id": "p", "symbol": "P" },
@@ -980,7 +969,7 @@
           }
         ]
       },
-      "explanation": "Phosphorus is the central atom bonded to five chlorines around the hub. Draw a single bond from P to each Cl. Each chlorine has three lone pairs (six electrons) in the three square slots beside the bond. Phosphorus has no lone pairs — five single bonds give phosphorus ten valence electrons (an expanded octet). Five electron domains give a trigonal bipyramidal electron geometry and a trigonal bipyramidal molecular shape with ideal 90°, 120°, and 180° bond angles."
+      "explanation": "Phosphorus is the central atom bonded to five chlorines on the five ring spokes (same board layout as SF₅⁻). Draw a single bond from P to each Cl. Each chlorine has three lone pairs (six electrons) in the three square slots beside the bond. Phosphorus has no lone pairs — leave the outer circle slots empty. Five single bonds give phosphorus ten valence electrons (an expanded octet). Five electron domains give a trigonal bipyramidal electron geometry and a trigonal bipyramidal molecular shape with ideal 90°, 120°, and 180° bond angles."
     },
     {
       "id": "nf3",
@@ -1298,30 +1287,6 @@
           {
             "peripheralOrders": [
               2,
-              2,
-              2
-            ],
-            "peripheralLoneByOrder": {
-              "2": 4
-            },
-            "resonance": false
-          },
-          {
-            "peripheralOrders": [
-              1,
-              2,
-              2
-            ],
-            "peripheralLoneByOrder": {
-              "1": 6,
-              "2": 4
-            },
-            "permute": true,
-            "resonance": true
-          },
-          {
-            "peripheralOrders": [
-              2,
               1,
               1
             ],
@@ -1331,10 +1296,34 @@
             },
             "permute": true,
             "resonance": true
+          },
+          {
+            "peripheralOrders": [
+              1,
+              2,
+              2
+            ],
+            "peripheralLoneByOrder": {
+              "1": 6,
+              "2": 4
+            },
+            "permute": true,
+            "resonance": true
+          },
+          {
+            "peripheralOrders": [
+              2,
+              2,
+              2
+            ],
+            "peripheralLoneByOrder": {
+              "2": 4
+            },
+            "resonance": false
           }
         ]
       },
-      "explanation": "SO₃ has several valid Lewis structures. You can draw three S=O double bonds (two lone pairs on each oxygen). Another option is one double bond and two single bonds — the doubly bonded oxygen has two lone pairs (four electrons), and each singly bonded oxygen has three lone pairs (six electrons). Or use resonance with one single and two double bonds (the single bond rotates among the three oxygens). Sulfur has no lone pairs in every accepted structure. A diagram with only single S–O bonds is not accepted because sulfur would have only six electrons around it."
+      "explanation": "SO₃ is best drawn as resonance forms with one S=O double bond and two S–O single bonds (no lone pair on sulfur). That keeps a complete octet on sulfur: the doubly bonded oxygen has two lone pairs, and each singly bonded oxygen has three. Expanded-octet drawings with two or three S=O double bonds are also accepted, but the octet resonance set is the usual gen-chem solution and is what Reveal shows. All-single-bond diagrams are not accepted because sulfur would have only six electrons."
     },
     {
       "id": "so4_minus",
@@ -1470,6 +1459,74 @@
         }
       },
       "explanation": "Bromine is the central atom bonded to three fluorines on the west, east, and south arms. Draw a single bond from Br to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Bromine has two lone pairs (four electrons) — place them in any two of the five lone slots around the hub (northwest and northeast circles, north square, or southwest and southeast circles). Five electron domains give a trigonal bipyramidal electron geometry; the two lone pairs compress the F–Br–F arrangement into a T-shaped molecular geometry."
+    },
+    {
+      "id": "seof4",
+      "name": "Selenium oxytetrafluoride",
+      "formula": "SeOF₄",
+      "difficulty": "hard",
+      "layout": "octahedral",
+      "northLigandIndex": 1,
+      "atoms": [
+        {
+          "id": "se",
+          "symbol": "Se"
+        },
+        {
+          "id": "o",
+          "symbol": "O"
+        },
+        {
+          "id": "f1",
+          "symbol": "F"
+        },
+        {
+          "id": "f2",
+          "symbol": "F"
+        },
+        {
+          "id": "f3",
+          "symbol": "F"
+        },
+        {
+          "id": "f4",
+          "symbol": "F"
+        }
+      ],
+      "valenceElectrons": 40,
+      "analysis": {
+        "centralAtom": "se",
+        "electronDomains": 5,
+        "resonance": false,
+        "electronGeometry": "trigonal_bipyramidal",
+        "molecularGeometry": "trigonal_bipyramidal",
+        "polarity": "polar",
+        "hybridization": "sp3d",
+        "distortion": true,
+        "bondAngle": [
+          90,
+          120,
+          180
+        ]
+      },
+      "answer": {
+        "patterns": [
+          {
+            "peripheralOrders": [1, 1, 1, 1, 1],
+            "peripheralLoneByOrder": {
+              "1": 6
+            }
+          },
+          {
+            "peripheralOrders": [2, 1, 1, 1, 1],
+            "peripheralLoneByOrder": {
+              "1": 6,
+              "2": 4
+            }
+          }
+        ]
+      },
+      "explanation": "Selenium is the central atom with oxygen and four fluorines on the five ring spokes (same board layout as SF₅⁻; oxygen on the first spoke). SeOF₄ has 40 valence electrons (6 + 6 + 28). Two Lewis structures are accepted. All-single form: single bonds from Se to O and to each F; oxygen and each fluorine have three lone pairs (six electrons), and selenium has no lone pairs — five single bonds give selenium ten valence electrons. Expanded form: a Se=O double bond to the spoke oxygen (two lone pairs on O, four electrons), single bonds to each fluorine (three lone pairs on each F), and no lone pair on selenium — selenium then has twelve valence electrons. Unlike SF₅⁻, do not place a lone pair on selenium. Five electron domains give a trigonal bipyramidal electron geometry and a trigonal bipyramidal molecular shape. The molecule is polar because oxygen differs from the fluorines."
     }
   ]
 }
