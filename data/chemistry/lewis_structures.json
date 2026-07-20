@@ -91,7 +91,8 @@
             "centralLone": 2,
             "peripheralLoneByOrder": {
               "2": 4
-            }
+            },
+            "resonance": false
           },
           {
             "peripheralOrders": [
@@ -103,7 +104,8 @@
               "1": 6,
               "2": 4
             },
-            "permute": true
+            "permute": true,
+            "resonance": true
           }
         ]
       },
@@ -156,7 +158,8 @@
               "1": 6,
               "2": 4
             },
-            "permute": true
+            "permute": true,
+            "resonance": true
           }
         ]
       },
@@ -661,7 +664,8 @@
               "1": 6,
               "2": 4
             },
-            "permute": true
+            "permute": true,
+            "resonance": true
           }
         ]
       },
@@ -1211,7 +1215,8 @@
             ],
             "peripheralLoneByOrder": {
               "2": 4
-            }
+            },
+            "resonance": false
           },
           {
             "peripheralOrders": [
@@ -1223,7 +1228,8 @@
               "1": 6,
               "2": 4
             },
-            "permute": true
+            "permute": true,
+            "resonance": true
           },
           {
             "peripheralOrders": [
@@ -1235,7 +1241,8 @@
               "1": 6,
               "2": 4
             },
-            "permute": true
+            "permute": true,
+            "resonance": true
           }
         ]
       },
