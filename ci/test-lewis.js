@@ -54,6 +54,45 @@ function testDiagramSpecificResonance(toolData) {
   return failures;
 }
 
+function testPreferredExampleObeysOctet(toolData) {
+  const failures = [];
+
+  toolData.molecules.forEach((molecule) => {
+    const variants = LewisAnswers.getAnswerVariants(molecule);
+    if (variants.length === 0) return;
+
+    const hasOctet = variants.some((variant) =>
+      LewisAnswers.isOctetCompliantCentral(variant, molecule),
+    );
+    const hasDeficient = variants.some((variant) =>
+      LewisAnswers.isElectronDeficientCentral(variant, molecule),
+    );
+    if (!hasOctet && !hasDeficient) return;
+
+    const preferred = LewisAnswers.getPreferredExampleVariant(molecule);
+    if (hasOctet) {
+      if (!LewisAnswers.isOctetCompliantCentral(preferred, molecule)) {
+        failures.push({
+          id: molecule.id,
+          electrons: LewisAnswers.countCentralElectrons(preferred, molecule),
+          expected: "octet (8)",
+        });
+      }
+      return;
+    }
+
+    if (!LewisAnswers.isElectronDeficientCentral(preferred, molecule)) {
+      failures.push({
+        id: molecule.id,
+        electrons: LewisAnswers.countCentralElectrons(preferred, molecule),
+        expected: "electron-deficient (<8)",
+      });
+    }
+  });
+
+  return failures;
+}
+
 function main() {
   const raw = fs.readFileSync(dataPath, "utf8");
   const toolData = JSON.parse(raw);
@@ -93,6 +132,17 @@ function main() {
     resonanceFailures.forEach((failure) => {
       console.error(
         `  ${failure.id} variant[${failure.variantIndex}] orders ${failure.orders.join(",")}: expected resonance ${failure.expected}, got ${failure.actual}.`,
+      );
+    });
+    process.exit(1);
+  }
+
+  const exampleFailures = testPreferredExampleObeysOctet(toolData);
+  if (exampleFailures.length > 0) {
+    console.error("\nPreferred example octet failures:");
+    exampleFailures.forEach((failure) => {
+      console.error(
+        `  ${failure.id}: preferred example has ${failure.electrons} central electrons; expected ${failure.expected}.`,
       );
     });
     process.exit(1);
@@ -220,6 +270,10 @@ function testContinueButtonConsumesQueuedClicks() {
     console,
     URLSearchParams,
     setTimeout() {},
+    requestAnimationFrame() {
+      return 0;
+    },
+    cancelAnimationFrame() {},
     __listeners: listeners,
   };
 

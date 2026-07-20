@@ -29,7 +29,7 @@ const SUPERSCRIPT_MAP = {
 };
 
 const STEM_PATTERN =
-  /[₀-₉⁰-⁹⁺⁻₊₋]|[A-Za-z\)]\d|\d(?=[A-Za-z])/;
+  /[₀-₉⁰-⁹⁺⁻₊₋]|[A-Za-z\)]\d|\d(?=[A-Za-z])|(?:[A-Z][a-z]?){2,}/;
 
 function escapeHtml(text) {
   return text
@@ -49,6 +49,14 @@ function needsStemFormatting(text) {
   return STEM_PATTERN.test(text);
 }
 
+function isStemFormulaElement(element) {
+  return (
+    element.classList.contains("stem-text") ||
+    element.classList.contains("lewis-formula") ||
+    element.classList.contains("lewis-browse-item-formula")
+  );
+}
+
 function formatStemHtml(text) {
   let html = escapeHtml(text);
 
@@ -66,11 +74,18 @@ function formatStemHtml(text) {
 }
 
 function setStemText(element, text) {
-  if (!needsStemFormatting(text)) {
-    element.textContent = text;
+  const value = String(text ?? "");
+  const format = needsStemFormatting(value);
+  const forceStemFont = format || isStemFormulaElement(element);
+
+  if (forceStemFont) {
+    element.classList.add("stem-text");
+  }
+
+  if (format) {
+    element.innerHTML = formatStemHtml(value);
     return;
   }
 
-  element.classList.add("stem-text");
-  element.innerHTML = formatStemHtml(text);
+  element.textContent = value;
 }

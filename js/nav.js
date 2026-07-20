@@ -15,6 +15,7 @@ const Nav = {
     this.renderBreadcrumbs();
     this.renderRecent();
     this.updateSiteHeaderOffset();
+    this.observeSiteHeader();
     window.addEventListener("resize", () => this.updateSiteHeaderOffset());
   },
 
@@ -49,6 +50,7 @@ const Nav = {
     const crumb = document.getElementById("crumb-quiz");
     if (crumb) {
       crumb.textContent = / Quiz$/.test(title) ? title : `${title} Quiz`;
+      this.updateSiteHeaderOffset();
     }
   },
 
@@ -90,6 +92,18 @@ const Nav = {
       "--site-header-offset",
       `${header.offsetHeight}px`,
     );
+  },
+
+  observeSiteHeader() {
+    const header = document.getElementById("site-header");
+    if (!header || header.dataset.offsetObserver) return;
+
+    header.dataset.offsetObserver = "true";
+
+    if (typeof ResizeObserver === "undefined") return;
+
+    const observer = new ResizeObserver(() => this.updateSiteHeaderOffset());
+    observer.observe(header);
   },
 
   renderBreadcrumbs() {

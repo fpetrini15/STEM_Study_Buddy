@@ -86,17 +86,6 @@
           {
             "peripheralOrders": [
               2,
-              2
-            ],
-            "centralLone": 2,
-            "peripheralLoneByOrder": {
-              "2": 4
-            },
-            "resonance": false
-          },
-          {
-            "peripheralOrders": [
-              2,
               1
             ],
             "centralLone": 2,
@@ -106,10 +95,21 @@
             },
             "permute": true,
             "resonance": true
+          },
+          {
+            "peripheralOrders": [
+              2,
+              2
+            ],
+            "centralLone": 2,
+            "peripheralLoneByOrder": {
+              "2": 4
+            },
+            "resonance": false
           }
         ]
       },
-      "explanation": "SO₂ has several valid Lewis structures. You can draw two S=O double bonds (each O with two lone pairs, S with one lone pair), or one double bond and one single bond — the singly bonded oxygen then has three lone pairs (six electrons), while the doubly bonded oxygen has two lone pairs (four electrons). Sulfur keeps one lone pair in each accepted structure. A diagram with only single S–O bonds is not accepted because sulfur would have only six electrons around it."
+      "explanation": "SO₂ is best drawn as resonance forms with one S=O double bond and one S–O single bond (and one lone pair on sulfur). That keeps a complete octet on sulfur: the doubly bonded oxygen has two lone pairs, and the singly bonded oxygen has three. Sulfur can also be drawn with two S=O double bonds (an expanded octet, ten electrons around S); that form is accepted, but the resonance pair is the usual gen-chem solution and is what Reveal shows."
     },
     {
       "id": "no2_minus",
@@ -250,7 +250,7 @@
           "cl2": 6
         }
       },
-      "explanation": "XeCl₂ is linear with a trigonal bipyramidal electron geometry. Xenon forms single bonds to each chlorine. Each chlorine has three lone pairs (six electrons). Xenon has three lone pairs (six electrons) — use the square slots above and below Xe, and the circular diagonal slots in the corner grid cells. The lone pairs repel the axial Cl–Xe bonds into a linear shape."
+      "explanation": "XeCl₂ is linear with a trigonal bipyramidal electron geometry. Xenon forms single bonds to each chlorine. Each chlorine has three lone pairs (six electrons). Place xenon’s three lone pairs on the central hub — for example two in the upper diagonal circle slots and one in the lower cardinal slot (or any equivalent placement that uses all valence electrons). The lone pairs repel the axial Cl–Xe bonds into a linear shape."
     },
     {
       "id": "xef4",
@@ -285,23 +285,20 @@
           "0-4": 1
         },
         "loneDots": {
-          "xe": {
-            "northwest": 2,
-            "southeast": 2
-          },
+          "xe": 4,
           "f1": { "north": 2, "east": 2, "west": 2 },
           "f2": { "north": 2, "east": 2, "west": 2 },
           "f3": { "north": 2, "east": 2, "west": 2 },
           "f4": { "north": 2, "east": 2, "west": 2 }
         }
       },
-      "explanation": "XeF₄ has an octahedral electron geometry with square planar molecular geometry. Xenon forms single bonds to four fluorines arranged around the hub. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Xenon has two lone pairs (four electrons) — place them in any two opposite diagonal circle slots on the central atom (for example northwest and southeast). The four equatorial Xe–F bonds form a square with 90° angles; the two axial lone pairs occupy positions opposite each other."
+      "explanation": "XeF₄ has an octahedral electron geometry with square planar molecular geometry. Xenon forms single bonds to four fluorines arranged around the hub. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Place two lone pairs on xenon in the diagonal circle slots (for example on opposite diagonals such as northwest and southeast). The four equatorial Xe–F bonds form a square with 90° angles."
     },
     {
       "id": "asf6_minus",
       "name": "Arsenic hexafluoride ion",
       "formula": "AsF₆⁻",
-      "difficulty": "hard",
+      "difficulty": "easy",
       "charge": -1,
       "layout": "octahedral",
       "atoms": [
@@ -391,7 +388,87 @@
           }
         }
       },
-      "explanation": "AsF₆⁻ is octahedral: arsenic sits at the center with six fluorines equally spaced around it. Draw a single bond from As to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Arsenic has no lone pairs — leave the four diagonal circle slots empty. If the central atom has lone pairs instead (up to four pairs when it forms fewer than six bonds), place them in those diagonal circles. The −1 charge is shown on the ion bracket."
+      "explanation": "AsF₆⁻ is octahedral: arsenic sits at the center with six fluorines equally spaced around it. Draw a single bond from As to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Arsenic has no lone pairs on the central atom. The −1 charge is shown on the ion bracket."
+    },
+    {
+      "id": "sf6",
+      "name": "Sulfur hexafluoride",
+      "formula": "SF₆",
+      "difficulty": "easy",
+      "layout": "octahedral",
+      "atoms": [
+        { "id": "s", "symbol": "S" },
+        { "id": "fn1", "symbol": "F" },
+        { "id": "fn2", "symbol": "F" },
+        { "id": "fn3", "symbol": "F" },
+        { "id": "fs1", "symbol": "F" },
+        { "id": "fs2", "symbol": "F" },
+        { "id": "fs3", "symbol": "F" }
+      ],
+      "valenceElectrons": 48,
+      "analysis": {
+        "centralAtom": "s",
+        "electronDomains": 6,
+        "resonance": false,
+        "electronGeometry": "octahedral",
+        "molecularGeometry": "octahedral",
+        "polarity": "nonpolar",
+        "hybridization": "sp3d2",
+        "distortion": false,
+        "bondAngle": [90, 180]
+      },
+      "answer": {
+        "patterns": [
+          {
+            "peripheralOrders": [1, 1, 1, 1, 1, 1],
+            "peripheralLoneByOrder": {
+              "1": 6
+            }
+          }
+        ]
+      },
+      "explanation": "SF₆ is octahedral: sulfur sits at the center with six fluorines equally spaced around it. Draw a single bond from S to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Sulfur has no lone pairs on the central atom. Six single bonds give sulfur twelve valence electrons (an expanded octet). Six electron domains give an octahedral electron geometry and an octahedral molecular shape with 90° and 180° bond angles."
+    },
+    {
+      "id": "sf5_minus",
+      "name": "Sulfur pentafluoride ion",
+      "formula": "SF₅⁻",
+      "difficulty": "medium",
+      "charge": -1,
+      "layout": "octahedral",
+      "northLigandIndex": 1,
+      "atoms": [
+        { "id": "s", "symbol": "S" },
+        { "id": "fn1", "symbol": "F" },
+        { "id": "fn2", "symbol": "F" },
+        { "id": "fn3", "symbol": "F" },
+        { "id": "fs1", "symbol": "F" },
+        { "id": "fs2", "symbol": "F" }
+      ],
+      "valenceElectrons": 42,
+      "analysis": {
+        "centralAtom": "s",
+        "electronDomains": 6,
+        "resonance": false,
+        "electronGeometry": "octahedral",
+        "molecularGeometry": "square_pyramidal",
+        "polarity": "polar",
+        "hybridization": "sp3d2",
+        "distortion": true,
+        "bondAngle": [90, 180]
+      },
+      "answer": {
+        "patterns": [
+          {
+            "peripheralOrders": [1, 1, 1, 1, 1],
+            "centralLone": 2,
+            "peripheralLoneByOrder": {
+              "1": 6
+            }
+          }
+        ]
+      },
+      "explanation": "The SF₅⁻ ion has 42 valence electrons (6 + 35 + 1 for the − charge). Sulfur is the central atom bonded to five fluorines. Draw a single bond from S to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Place one lone pair on sulfur in any outer circle slot between fluorines (each bisects two F–S bonds and marks an octahedral electron domain). Six electron domains give an octahedral electron geometry and a square pyramidal molecular shape. Show the − charge on the ion bracket."
     },
     {
       "id": "si2",
@@ -444,7 +521,7 @@
       "id": "scl4",
       "name": "Sulfur tetrachloride",
       "formula": "SCl₄",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "layout": "tetrahedral",
       "atoms": [
         { "id": "s", "symbol": "S" },
@@ -486,7 +563,7 @@
       "id": "sbcl4_minus",
       "name": "Antimony tetrachloride ion",
       "formula": "SbCl₄⁻",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "charge": -1,
       "layout": "tetrahedral",
       "atoms": [
@@ -616,7 +693,7 @@
           "f2": 6
         }
       },
-      "explanation": "ClF₂⁻ has 22 valence electrons (7 + 7 + 7 + 1 for the − charge). Chlorine forms single bonds to each fluorine. Each fluorine has three lone pairs (six electrons). Chlorine has three lone pairs (six electrons) — use the square slots above and below Cl, and the circular diagonal slots in the corner grid cells. The five electron domains give a trigonal bipyramidal electron geometry, but the lone pairs push the F–Cl bonds into a linear molecular shape. Show the − charge on the ion bracket."
+      "explanation": "ClF₂⁻ has 22 valence electrons (7 + 7 + 7 + 1 for the − charge). Chlorine forms single bonds to each fluorine. Each fluorine has three lone pairs (six electrons). Place chlorine’s three lone pairs on the central hub — for example two in the upper diagonal circle slots and one in the lower cardinal slot (or any equivalent placement that uses all valence electrons). The five electron domains give a trigonal bipyramidal electron geometry, but the lone pairs push the F–Cl bonds into a linear molecular shape. Show the − charge on the ion bracket."
     },
     {
       "id": "nocl",
@@ -859,8 +936,8 @@
       "id": "pcl5",
       "name": "Phosphorus pentachloride",
       "formula": "PCl₅",
-      "difficulty": "hard",
-      "layout": "trigonal_bipyramidal",
+      "difficulty": "easy",
+      "layout": "octahedral",
       "northLigandIndex": 1,
       "atoms": [
         { "id": "p", "symbol": "P" },
@@ -892,7 +969,7 @@
           }
         ]
       },
-      "explanation": "Phosphorus is the central atom bonded to five chlorines around the hub. Draw a single bond from P to each Cl. Each chlorine has three lone pairs (six electrons) in the three square slots beside the bond. Phosphorus has no lone pairs — five single bonds give phosphorus ten valence electrons (an expanded octet). Five electron domains give a trigonal bipyramidal electron geometry and a trigonal bipyramidal molecular shape with ideal 90°, 120°, and 180° bond angles."
+      "explanation": "Phosphorus is the central atom bonded to five chlorines on the five ring spokes (same board layout as SF₅⁻). Draw a single bond from P to each Cl. Each chlorine has three lone pairs (six electrons) in the three square slots beside the bond. Phosphorus has no lone pairs — leave the outer circle slots empty. Five single bonds give phosphorus ten valence electrons (an expanded octet). Five electron domains give a trigonal bipyramidal electron geometry and a trigonal bipyramidal molecular shape with ideal 90°, 120°, and 180° bond angles."
     },
     {
       "id": "nf3",
@@ -1210,30 +1287,6 @@
           {
             "peripheralOrders": [
               2,
-              2,
-              2
-            ],
-            "peripheralLoneByOrder": {
-              "2": 4
-            },
-            "resonance": false
-          },
-          {
-            "peripheralOrders": [
-              1,
-              2,
-              2
-            ],
-            "peripheralLoneByOrder": {
-              "1": 6,
-              "2": 4
-            },
-            "permute": true,
-            "resonance": true
-          },
-          {
-            "peripheralOrders": [
-              2,
               1,
               1
             ],
@@ -1243,10 +1296,34 @@
             },
             "permute": true,
             "resonance": true
+          },
+          {
+            "peripheralOrders": [
+              1,
+              2,
+              2
+            ],
+            "peripheralLoneByOrder": {
+              "1": 6,
+              "2": 4
+            },
+            "permute": true,
+            "resonance": true
+          },
+          {
+            "peripheralOrders": [
+              2,
+              2,
+              2
+            ],
+            "peripheralLoneByOrder": {
+              "2": 4
+            },
+            "resonance": false
           }
         ]
       },
-      "explanation": "SO₃ has several valid Lewis structures. You can draw three S=O double bonds (two lone pairs on each oxygen). Another option is one double bond and two single bonds — the doubly bonded oxygen has two lone pairs (four electrons), and each singly bonded oxygen has three lone pairs (six electrons). Or use resonance with one single and two double bonds (the single bond rotates among the three oxygens). Sulfur has no lone pairs in every accepted structure. A diagram with only single S–O bonds is not accepted because sulfur would have only six electrons around it."
+      "explanation": "SO₃ is best drawn as resonance forms with one S=O double bond and two S–O single bonds (no lone pair on sulfur). That keeps a complete octet on sulfur: the doubly bonded oxygen has two lone pairs, and each singly bonded oxygen has three. Expanded-octet drawings with two or three S=O double bonds are also accepted, but the octet resonance set is the usual gen-chem solution and is what Reveal shows. All-single-bond diagrams are not accepted because sulfur would have only six electrons."
     },
     {
       "id": "so4_minus",
@@ -1382,6 +1459,74 @@
         }
       },
       "explanation": "Bromine is the central atom bonded to three fluorines on the west, east, and south arms. Draw a single bond from Br to each F. Each fluorine has three lone pairs (six electrons) in the three square slots beside the bond. Bromine has two lone pairs (four electrons) — place them in any two of the five lone slots around the hub (northwest and northeast circles, north square, or southwest and southeast circles). Five electron domains give a trigonal bipyramidal electron geometry; the two lone pairs compress the F–Br–F arrangement into a T-shaped molecular geometry."
+    },
+    {
+      "id": "seof4",
+      "name": "Selenium oxytetrafluoride",
+      "formula": "SeOF₄",
+      "difficulty": "hard",
+      "layout": "octahedral",
+      "northLigandIndex": 1,
+      "atoms": [
+        {
+          "id": "se",
+          "symbol": "Se"
+        },
+        {
+          "id": "o",
+          "symbol": "O"
+        },
+        {
+          "id": "f1",
+          "symbol": "F"
+        },
+        {
+          "id": "f2",
+          "symbol": "F"
+        },
+        {
+          "id": "f3",
+          "symbol": "F"
+        },
+        {
+          "id": "f4",
+          "symbol": "F"
+        }
+      ],
+      "valenceElectrons": 40,
+      "analysis": {
+        "centralAtom": "se",
+        "electronDomains": 5,
+        "resonance": false,
+        "electronGeometry": "trigonal_bipyramidal",
+        "molecularGeometry": "trigonal_bipyramidal",
+        "polarity": "polar",
+        "hybridization": "sp3d",
+        "distortion": true,
+        "bondAngle": [
+          90,
+          120,
+          180
+        ]
+      },
+      "answer": {
+        "patterns": [
+          {
+            "peripheralOrders": [1, 1, 1, 1, 1],
+            "peripheralLoneByOrder": {
+              "1": 6
+            }
+          },
+          {
+            "peripheralOrders": [2, 1, 1, 1, 1],
+            "peripheralLoneByOrder": {
+              "1": 6,
+              "2": 4
+            }
+          }
+        ]
+      },
+      "explanation": "Selenium is the central atom with oxygen and four fluorines on the five ring spokes (same board layout as SF₅⁻; oxygen on the first spoke). SeOF₄ has 40 valence electrons (6 + 6 + 28). Two Lewis structures are accepted. All-single form: single bonds from Se to O and to each F; oxygen and each fluorine have three lone pairs (six electrons), and selenium has no lone pairs — five single bonds give selenium ten valence electrons. Expanded form: a Se=O double bond to the spoke oxygen (two lone pairs on O, four electrons), single bonds to each fluorine (three lone pairs on each F), and no lone pair on selenium — selenium then has twelve valence electrons. Unlike SF₅⁻, do not place a lone pair on selenium. Five electron domains give a trigonal bipyramidal electron geometry and a trigonal bipyramidal molecular shape. The molecule is polar because oxygen differs from the fluorines."
     }
   ]
 }
