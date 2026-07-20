@@ -85,16 +85,6 @@
         "patterns": [
           {
             "peripheralOrders": [
-              1,
-              1
-            ],
-            "centralLone": 2,
-            "peripheralLoneByOrder": {
-              "1": 6
-            }
-          },
-          {
-            "peripheralOrders": [
               2,
               2
             ],
@@ -117,7 +107,7 @@
           }
         ]
       },
-      "explanation": "SO₂ has several valid Lewis structures. All single bonds with three lone pairs on each oxygen (six electrons per O) and one lone pair on sulfur satisfies the octet rule. You can also draw two S=O double bonds (each O with two lone pairs, S with one lone pair), or one double bond and one single bond — the singly bonded oxygen then has three lone pairs (six electrons), while the doubly bonded oxygen has two lone pairs (four electrons). Sulfur keeps one lone pair in each case."
+      "explanation": "SO₂ has several valid Lewis structures. You can draw two S=O double bonds (each O with two lone pairs, S with one lone pair), or one double bond and one single bond — the singly bonded oxygen then has three lone pairs (six electrons), while the doubly bonded oxygen has two lone pairs (four electrons). Sulfur keeps one lone pair in each accepted structure. A diagram with only single S–O bonds is not accepted because sulfur would have only six electrons around it."
     },
     {
       "id": "no2_minus",
@@ -158,16 +148,6 @@
         "patterns": [
           {
             "peripheralOrders": [
-              1,
-              1
-            ],
-            "centralLone": 2,
-            "peripheralLoneByOrder": {
-              "1": 6
-            }
-          },
-          {
-            "peripheralOrders": [
               2,
               1
             ],
@@ -180,7 +160,7 @@
           }
         ]
       },
-      "explanation": "The nitrite ion has several valid Lewis structures. All single bonds with three lone pairs on each oxygen and one lone pair on nitrogen satisfies the octet rule. Resonance forms have one N=O double bond and one N–O single bond — the singly bonded oxygen has three lone pairs (six electrons), and the doubly bonded oxygen has two lone pairs (four electrons). Nitrogen keeps one lone pair (two electrons) in every structure. The −1 charge is delocalized over the ion in the resonance forms."
+      "explanation": "The nitrite ion has two equivalent resonance forms with one N=O double bond and one N–O single bond. The singly bonded oxygen has three lone pairs (six electrons), and the doubly bonded oxygen has two lone pairs (four electrons). Nitrogen keeps one lone pair (two electrons) in every accepted structure. An all-single-bond diagram is not accepted because nitrogen would have only six electrons around it. The −1 charge is delocalized over the ion in the resonance forms."
     },
     {
       "id": "no3_minus",
@@ -210,21 +190,7 @@
       "answer": {
         "patterns": [
           {
-            "peripheralOrders": [2, 2, 2],
-            "peripheralLoneByOrder": {
-              "2": 4
-            }
-          },
-          {
             "peripheralOrders": [2, 1, 1],
-            "peripheralLoneByOrder": {
-              "1": 6,
-              "2": 4
-            },
-            "permute": true
-          },
-          {
-            "peripheralOrders": [2, 2, 1],
             "peripheralLoneByOrder": {
               "1": 6,
               "2": 4
@@ -233,7 +199,7 @@
           }
         ]
       },
-      "explanation": "The nitrate ion has 24 valence electrons (5 + 18 + 1 for the − charge). Nitrogen is the central atom bonded to three oxygens around the hub. An all-single-bond diagram is not accepted: three N–O single bonds would leave nitrogen with only six valence electrons and no lone pair, so nitrogen would not satisfy the octet rule (unlike sulfate, where four S–O single bonds give sulfur a full octet). Accepted forms include three N=O double bonds (two lone pairs on each oxygen; nitrogen has an expanded octet) or a mix of single and double N–O bonds — doubly bonded oxygens have two lone pairs (four electrons), and singly bonded oxygens have three lone pairs (six electrons); nitrogen has no lone pairs in these structures. For analysis: answer “no” for resonance if your diagram has only double bonds; answer “yes” if it has both single and double bonds. Show the − charge on the ion bracket."
+      "explanation": "The nitrate ion has 24 valence electrons (5 + 18 + 1 for the − charge). Nitrogen is the central atom bonded to three oxygens around the hub. Accepted resonance forms have one N=O double bond and two N–O single bonds — the doubly bonded oxygen has two lone pairs (four electrons), and singly bonded oxygens have three lone pairs (six electrons). Nitrogen has no lone pairs and a complete octet in these structures. All-single-bond, all-double-bond, and two-double-bond diagrams are not accepted because nitrogen would have six, twelve, or ten electrons around it. For analysis, answer “yes” for resonance. Show the − charge on the ion bracket."
     },
     {
       "id": "xecl2",
@@ -687,16 +653,6 @@
         "patterns": [
           {
             "peripheralOrders": [
-              1,
-              1
-            ],
-            "centralLone": 2,
-            "peripheralLoneByOrder": {
-              "1": 6
-            }
-          },
-          {
-            "peripheralOrders": [
               2,
               1
             ],
@@ -709,7 +665,7 @@
           }
         ]
       },
-      "explanation": "NOCl has several valid Lewis structures. All single bonds with three lone pairs on both oxygen and chlorine (six electrons each) and one lone pair on nitrogen satisfies the octet rule. Resonance forms include N=O with N–Cl (oxygen with two lone pairs, chlorine with three lone pairs) or N–O with N=Cl (oxygen with three lone pairs, chlorine with two lone pairs). Nitrogen keeps one lone pair (two electrons) in each case."
+      "explanation": "NOCl has valid resonance forms with one double bond and one single bond around nitrogen. Forms include N=O with N–Cl (oxygen with two lone pairs, chlorine with three lone pairs) or N–O with N=Cl (oxygen with three lone pairs, chlorine with two lone pairs). Nitrogen keeps one lone pair (two electrons) in each accepted structure. An all-single-bond diagram is not accepted because nitrogen would have only six electrons around it."
     },
     {
       "id": "cbr4",
@@ -1249,16 +1205,6 @@
         "patterns": [
           {
             "peripheralOrders": [
-              1,
-              1,
-              1
-            ],
-            "peripheralLoneByOrder": {
-              "1": 6
-            }
-          },
-          {
-            "peripheralOrders": [
               2,
               2,
               2
@@ -1293,7 +1239,7 @@
           }
         ]
       },
-      "explanation": "SO₃ has several valid Lewis structures. You can draw three equivalent S–O single bonds with three lone pairs on each oxygen (six electrons per O) and no lone pairs on sulfur — sulfur does not reach an octet in this form. You can also draw three S=O double bonds (two lone pairs on each oxygen). Another option is one double bond and two single bonds — the doubly bonded oxygen has two lone pairs (four electrons), and each singly bonded oxygen has three lone pairs (six electrons). Or use resonance with one single and two double bonds (the single bond rotates among the three oxygens). Sulfur has no lone pairs in every structure shown here."
+      "explanation": "SO₃ has several valid Lewis structures. You can draw three S=O double bonds (two lone pairs on each oxygen). Another option is one double bond and two single bonds — the doubly bonded oxygen has two lone pairs (four electrons), and each singly bonded oxygen has three lone pairs (six electrons). Or use resonance with one single and two double bonds (the single bond rotates among the three oxygens). Sulfur has no lone pairs in every accepted structure. A diagram with only single S–O bonds is not accepted because sulfur would have only six electrons around it."
     },
     {
       "id": "so4_minus",
