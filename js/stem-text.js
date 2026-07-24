@@ -28,10 +28,10 @@ const SUPERSCRIPT_MAP = {
   "⁻": "-",
 };
 
-// Sub/superscripts and digit stoichiometry get markup; the STEM serif face is
-// applied only on dedicated formula elements (see setStemText).
+// Sub/superscripts, ion charges (Ca2+), and digit stoichiometry get markup;
+// the STEM serif face is applied only on dedicated formula elements (see setStemText).
 const STEM_MARKUP_PATTERN =
-  /[₀-₉⁰-⁹⁺⁻₊₋]|[A-Za-z\)]\d|\d(?=[A-Za-z])/;
+  /[₀-₉₊₋⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]|[A-Za-z\)]\d+[+-]|[A-Za-z\)]\d|\d(?=[A-Za-z])/;
 
 function escapeHtml(text) {
   return text
@@ -65,9 +65,13 @@ function formatStemHtml(text) {
     return `<sub>${mapScriptRun(run, SUBSCRIPT_MAP)}</sub>`;
   });
 
-  html = html.replace(/[⁰-⁹⁺⁻]+/g, (run) => {
+  // ¹ ² ³ are outside the ⁰–⁹ Unicode block, so list superscript digits explicitly.
+  html = html.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+/g, (run) => {
     return `<sup>${mapScriptRun(run, SUPERSCRIPT_MAP)}</sup>`;
   });
+
+  // Ion charges like Ca2+ / Fe3+ before generic stoichiometry subscripts (H2O).
+  html = html.replace(/([A-Za-z\)])(\d+)([+-])/g, "$1<sup>$2$3</sup>");
 
   html = html.replace(/([A-Za-z\)])(\d+)/g, "$1<sub>$2</sub>");
 

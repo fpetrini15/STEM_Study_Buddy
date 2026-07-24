@@ -1,0 +1,134 @@
+{
+  "title": "Chemical Context of Life",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which DNA nucleotide will be replaced by Uracil (U) in RNA?"
+      },
+      "options": [
+        "A",
+        "T",
+        "G",
+        "C"
+      ],
+      "answer": "T",
+      "explanation": "RNA uses uracil (U) in place of thymine (T); A, G, and C pair similarly in both nucleic acids."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "DNA strands are held together by what type of bonds between nucleotides?"
+      },
+      "options": [
+        "Hydrogen bonds",
+        "Covalent bonds",
+        "Ionic bonds",
+        "Nonpolar bonds"
+      ],
+      "answer": "Hydrogen bonds",
+      "explanation": "Complementary base pairs are linked by hydrogen bonds; the sugar–phosphate backbone uses covalent bonds."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "An atom with a negative charge is called a(n):"
+      },
+      "options": [
+        "Cation",
+        "Anion",
+        "Isotope",
+        "Ionic compound"
+      ],
+      "answer": "Anion",
+      "explanation": "An anion is a negatively charged ion; a cation is positively charged."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: The number of protons and electrons in an atom are not always equal, but the number of protons and neutrons is always equal."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Neutral atoms have equal protons and electrons, but proton and neutron counts need not be equal (isotopes vary in neutrons)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Isotopes are always radioactive."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Many isotopes are stable; only some are radioactive."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Covalent bonds form when electrons are ___."
+      },
+      "options": [
+        "Transferred",
+        "Shared",
+        "Double-bonded"
+      ],
+      "answer": "Shared",
+      "explanation": "Covalent bonds form by sharing electron pairs between atoms."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: All covalent bonds are polar."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Nonpolar covalent bonds occur when electronegativity is similar (e.g., C–H); not all covalent bonds are polar."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Molecules can contain a mixture of polar and nonpolar covalent bonds."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "A molecule can include both polar regions (for example, O–H) and nonpolar regions (for example, hydrocarbon chains)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Ionic bonds always form a cation and an anion."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Ionic bonding transfers electrons, producing a positively charged cation and a negatively charged anion."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "If an atom of Na (atomic number 11) bonds with an atom of chlorine (atomic number 17), how many electrons will Na have after bonding?"
+      },
+      "options": [
+        "12",
+        "10",
+        "11",
+        "6"
+      ],
+      "answer": "10",
+      "explanation": "Na (11 electrons) loses one electron to Cl, leaving 10 electrons (Na+)."
+    }
+  ]
+}

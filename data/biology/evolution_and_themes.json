@@ -1,0 +1,87 @@
+{
+  "title": "Evolution and Themes of Biology",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following is a theme of biology?"
+      },
+      "options": [
+        "Natural selection",
+        "DNA",
+        "Information",
+        "Emergent properties"
+      ],
+      "answer": "Information",
+      "explanation": "Information is a core theme of biology—organisms store, transmit, and use genetic and signaling information. DNA and natural selection are important, but they are not the theme named here."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following is a taxonomic domain?"
+      },
+      "options": [
+        "Protists",
+        "Archaea",
+        "Plantae",
+        "Fungi"
+      ],
+      "answer": "Archaea",
+      "explanation": "The three domains of life are Bacteria, Archaea, and Eukarya. Protists, Plantae, and Fungi are not domains."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Energy flow in a system is cyclical."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Energy typically flows one way through ecosystems (for example, from sunlight to heat), while chemical nutrients cycle."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Protists belong in which of the following groups?"
+      },
+      "options": [
+        "Plantae",
+        "Animalia",
+        "Fungi",
+        "None of the above"
+      ],
+      "answer": "None of the above",
+      "explanation": "Protists are eukaryotes that are not classified as plants, animals, or fungi."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Biological kingdoms are traditionally separated based on:"
+      },
+      "options": [
+        "Whether they are unicellular or multicellular",
+        "How they acquire and utilize food",
+        "How they store their DNA",
+        "Cell size"
+      ],
+      "answer": "How they acquire and utilize food",
+      "explanation": "Traditional kingdom distinctions emphasize how organisms obtain and use nutrients (e.g., autotrophy vs heterotrophy)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The human insulin response is an example of _____."
+      },
+      "options": [
+        "Negative feedback",
+        "Positive feedback",
+        "Fight or flight response",
+        "None of the above"
+      ],
+      "answer": "Negative feedback",
+      "explanation": "Insulin lowers blood glucose; as glucose falls, the stimulus for insulin release decreases—classic negative feedback."
+    }
+  ]
+}

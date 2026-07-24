@@ -1,0 +1,250 @@
+{
+  "title": "Macromolecules",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Monomers can be composed of multiple atoms or molecular subunits."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "A monomer is a building-block unit; it is itself a molecule made of atoms (and may contain multiple functional groups or subunits)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The four classes of large biological molecules are:"
+      },
+      "options": [
+        "Carbohydrates, Fiber, Lipids, Proteins",
+        "Proteins, Carbohydrates, Lipids, Sugars",
+        "Lipids, Proteins, Carbohydrates, DNA",
+        "Carbohydrates, Lipids, Proteins, Nucleic Acids"
+      ],
+      "answer": "Carbohydrates, Lipids, Proteins, Nucleic Acids",
+      "explanation": "The four major classes of large biological molecules are carbohydrates, lipids, proteins, and nucleic acids."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following is not considered a macromolecule?"
+      },
+      "options": [
+        "Lipids",
+        "Carbohydrates",
+        "Proteins",
+        "Nucleic Acids"
+      ],
+      "answer": "Lipids",
+      "explanation": "Lipids are important biomolecules but are not generally classified as true polymers/macromolecules the way the others are."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Lipids are considered polymers but are technically too small to be macromolecules."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Lipids are not polymers of repeating monomers in the usual sense; the statement is false."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The four large classes of biological molecules always contain:"
+      },
+      "options": [
+        "Carbon, Hydrogen, Oxygen",
+        "Carbon, Oxygen, Nitrogen",
+        "Carbon, Hydrogen, Nitrogen",
+        "Hydrogen, Oxygen, Nitrogen"
+      ],
+      "answer": "Carbon, Hydrogen, Oxygen",
+      "explanation": "Carbohydrates, lipids, proteins, and nucleic acids all contain C, H, and O (proteins/nucleic acids also have N, etc.)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the monomer unit for carbohydrates?"
+      },
+      "options": [
+        "Monosaccharide",
+        "Disaccharide",
+        "Polysaccharide"
+      ],
+      "answer": "Monosaccharide",
+      "explanation": "Carbohydrate monomers are monosaccharides (simple sugars)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following is not a complex carbohydrate?"
+      },
+      "options": [
+        "Starch",
+        "Glycogen",
+        "Cellulose",
+        "Fructose",
+        "Chitin"
+      ],
+      "answer": "Fructose",
+      "explanation": "Fructose is a monosaccharide (simple sugar). Starch, glycogen, cellulose, and chitin are complex carbohydrates (polysaccharides)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following is the monomer for proteins?"
+      },
+      "options": [
+        "Polypeptides",
+        "Monopeptides",
+        "Monosaccharides",
+        "Amino acids"
+      ],
+      "answer": "Amino acids",
+      "explanation": "Proteins are polymers of amino acids."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "At what structure level is a protein generally considered functional?"
+      },
+      "options": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Quaternary"
+      ],
+      "answer": "Tertiary",
+      "explanation": "Tertiary structure (overall 3D fold of a polypeptide) is typically when a protein becomes functional; quaternary involves multiple polypeptides."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A nucleotide is composed of what?"
+      },
+      "options": [
+        "Nitrogenous base, pentose sugar, phosphate group",
+        "Nitrogenous base, ribose sugar, phosphate group",
+        "Nitrogenous base, pentose sugar, triphosphate group",
+        "Nitrogenous base, ribose sugar, triphosphate group"
+      ],
+      "answer": "Nitrogenous base, pentose sugar, phosphate group",
+      "explanation": "A nucleotide has a nitrogenous base, a pentose sugar, and a phosphate group."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which nucleotides are considered purines?"
+      },
+      "options": [
+        "Cytosine and adenine",
+        "Guanine and adenine",
+        "Cytosine and guanine",
+        "Thymine and cytosine"
+      ],
+      "answer": "Guanine and adenine",
+      "explanation": "Purines have two rings: adenine (A) and guanine (G). Pyrimidines are C, T, and U."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: The monomers of lipids are not considered molecules themselves."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Lipid “monomers” such as fatty acyl chains are not standard repeating molecular monomers like sugars or amino acids."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The monomers for lipids are:"
+      },
+      "options": [
+        "Hydrocarbons",
+        "Glucose",
+        "Amino acids",
+        "Phosphate groups"
+      ],
+      "answer": "Hydrocarbons",
+      "explanation": "In this course framing, lipid building blocks are treated as hydrocarbons (fatty acid chains)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Compared to saturated fats, unsaturated fats:"
+      },
+      "options": [
+        "Have the maximum number of hydrogens bonded per carbon",
+        "Are solid at room temperature",
+        "Have at least one double bond",
+        "Are smaller"
+      ],
+      "answer": "Have at least one double bond",
+      "explanation": "Unsaturated fats have one or more C=C double bonds, which kink the chain."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which fat more greatly contributes to cardiovascular disease?"
+      },
+      "options": [
+        "Saturated fat",
+        "Unsaturated fat",
+        "Both contribute equally"
+      ],
+      "answer": "Saturated fat",
+      "explanation": "Diets high in saturated fat are more strongly linked to cardiovascular disease risk than unsaturated fat."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Unlike fats, phospholipids"
+      },
+      "options": [
+        "Have a polar phosphate head group",
+        "Have a non-polar carbohydrate tail",
+        "Have 2 hydrocarbon chains per molecule as opposed to 3",
+        "Have 3 hydrocarbon chains per molecule as opposed to 2"
+      ],
+      "answer": "Have 2 hydrocarbon chains per molecule as opposed to 3",
+      "explanation": "Triglycerides have three fatty acyl chains; phospholipids typically have two plus a phosphate head."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Cholesterol is identified by its:"
+      },
+      "options": [
+        "1 Pentose sugar",
+        "2 Phosphate groups",
+        "2 Covalent bonds",
+        "4 Hydrocarbon rings"
+      ],
+      "answer": "4 Hydrocarbon rings",
+      "explanation": "Steroids like cholesterol are recognized by a characteristic four fused hydrocarbon rings."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A function of cholesterol is to:"
+      },
+      "options": [
+        "Store energy",
+        "Create hormones",
+        "Provide cell structure within the cell",
+        "Send signals"
+      ],
+      "answer": "Create hormones",
+      "explanation": "Cholesterol is a precursor for steroid hormones (and also modulates membrane fluidity)."
+    }
+  ]
+}

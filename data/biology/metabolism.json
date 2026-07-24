@@ -1,0 +1,192 @@
+{
+  "title": "Metabolism",
+  "questions": [
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing metabolic, catabolic, and anabolic pathways."
+      },
+      "sentence": [
+        "A metabolic pathway ",
+        null,
+        ", a catabolic pathway ",
+        null,
+        ", and an anabolic pathway ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "is a general term that describes both processes",
+        "breaks down larger molecules into smaller ones",
+        "combines smaller molecules into larger ones"
+      ],
+      "bank": [
+        "is a general term that describes both processes",
+        "breaks down larger molecules into smaller ones",
+        "combines smaller molecules into larger ones"
+      ],
+      "explanation": "Metabolism covers all pathways; catabolism breaks molecules down; anabolism builds larger molecules."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence about energy in catabolic and anabolic pathways."
+      },
+      "sentence": [
+        "Catabolic pathways are ",
+        null,
+        ", while anabolic pathways are ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "exergonic",
+        "endergonic"
+      ],
+      "bank": [
+        "exergonic",
+        "endergonic"
+      ],
+      "explanation": "Catabolism releases free energy (exergonic); anabolism requires free energy input (endergonic)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A reaction that is energetically favorable is said to be:"
+      },
+      "options": [
+        "Free",
+        "Spontaneous",
+        "Advantageous",
+        "Automatic"
+      ],
+      "answer": "Spontaneous",
+      "explanation": "In thermodynamics, energetically favorable processes are called spontaneous (ΔG < 0)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A spontaneous reaction will have a Gibbs free energy that:"
+      },
+      "options": [
+        "Is less than 0",
+        "Is equal to 0",
+        "Is greater than 0"
+      ],
+      "answer": "Is less than 0",
+      "explanation": "Spontaneous reactions have negative Gibbs free energy (ΔG < 0)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A spontaneous reaction that occurs will be:"
+      },
+      "options": [
+        "Exergonic",
+        "Endergonic",
+        "In equilibrium"
+      ],
+      "answer": "Exergonic",
+      "explanation": "Exergonic reactions release free energy and are spontaneous as written."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In an endergonic reaction, the products will have"
+      },
+      "options": [
+        "More energy than the reactants",
+        "Less energy than the reactants"
+      ],
+      "answer": "More energy than the reactants",
+      "explanation": "Endergonic reactions store free energy in products relative to reactants."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Order these molecules from least to most efficient for extracting ATP."
+      },
+      "sentence": [
+        null,
+        "→",
+        null,
+        "→",
+        null
+      ],
+      "blanks": [
+        "Amino acids",
+        "Glucose",
+        "Fats"
+      ],
+      "bank": [
+        "Amino acids",
+        "Glucose",
+        "Fats"
+      ],
+      "explanation": "Per gram, fats yield the most ATP; glucose is intermediate; amino acids are generally least efficient as fuel in this ranking."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The energy barrier that molecules must overcome for a reaction to proceed is known as:"
+      },
+      "options": [
+        "Reaction energy",
+        "Reaction velocity",
+        "Activation energy",
+        "Activation force"
+      ],
+      "answer": "Activation energy",
+      "explanation": "Activation energy is the energy barrier that must be cleared for reactants to form products."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A substrate binds to an enzyme at its:"
+      },
+      "options": [
+        "Active site",
+        "Allosteric site",
+        "Activation site"
+      ],
+      "answer": "Active site",
+      "explanation": "Substrates bind the enzyme’s active site where catalysis occurs."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Cooperative enzymes do not require separate activators or inhibitors."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Cooperativity can arise from substrate binding alone; dedicated activators or inhibitors are not always required."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The first substrate to bind to a cooperative enzyme has _____ affinity."
+      },
+      "options": [
+        "High",
+        "Low"
+      ],
+      "answer": "Low",
+      "explanation": "In cooperative enzymes, the first substrate binds with lower affinity; subsequent binding becomes easier."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In feedback inhibition, the product binds to the:"
+      },
+      "options": [
+        "Active site",
+        "Allosteric site"
+      ],
+      "answer": "Allosteric site",
+      "explanation": "Feedback inhibition typically has the end product bind an allosteric site on an earlier enzyme."
+    }
+  ]
+}

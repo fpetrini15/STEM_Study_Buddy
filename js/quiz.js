@@ -52,6 +52,7 @@ const finalHint = document.getElementById("final-hint");
 const retryBtn = document.getElementById("retry-btn");
 const reviewSkippedBtn = document.getElementById("review-skipped-btn");
 const reviewWrongBtn = document.getElementById("review-wrong-btn");
+const backToQuizzesBtn = document.getElementById("back-to-quizzes-btn");
 const instructionText = document.getElementById("instruction-text");
 const questionArea = document.querySelector(".question-area");
 const instructionContainer = document.querySelector(".instruction-container");
@@ -1405,6 +1406,10 @@ reviewWrongBtn.addEventListener("click", () => {
 function applySubjectTheme() {
   const subjectKey = quizName.split("/")[0];
   document.body.classList.add("subject-" + subjectKey);
+
+  if (backToQuizzesBtn && subjectKey) {
+    backToQuizzesBtn.href = subjectKey + ".html";
+  }
 
   const loaderEmoji = document.querySelector(".science-emoji");
   const emojis = {

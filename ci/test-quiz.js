@@ -199,6 +199,7 @@ async function loadQuizContext() {
     "final-detail",
     "final-hint",
     "retry-btn",
+    "back-to-quizzes-btn",
     "review-skipped-btn",
     "review-wrong-btn",
     "instruction-text",

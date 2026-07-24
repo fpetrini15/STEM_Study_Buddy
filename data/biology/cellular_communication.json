@@ -1,0 +1,260 @@
+{
+  "title": "Cellular Communication",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In general, blood clotting signals are transmitted via which kind of signaling?"
+      },
+      "options": [
+        "Paracrine",
+        "Synaptic",
+        "Endocrine",
+        "Analgesic"
+      ],
+      "answer": "Paracrine",
+      "explanation": "Blood clotting involves local chemical signals acting on nearby cells—paracrine signaling."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Bacterial quorum sensing is primarily used to:"
+      },
+      "options": [
+        "Find a mate",
+        "Find nutrients",
+        "Determine group density",
+        "Create biofilm"
+      ],
+      "answer": "Determine group density",
+      "explanation": "Quorum sensing lets bacteria assess population density via shared signal molecules."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which cell signaling method is most prevalent in the human nervous system?"
+      },
+      "options": [
+        "Paracrine",
+        "Synaptic",
+        "Endocrine"
+      ],
+      "answer": "Synaptic",
+      "explanation": "Nervous system signaling is primarily synaptic (neurotransmitters across synapses)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which cell signaling method generally has the longest range?"
+      },
+      "options": [
+        "Paracrine",
+        "Synaptic",
+        "Endocrine"
+      ],
+      "answer": "Endocrine",
+      "explanation": "Endocrine hormones travel through blood and act over long distances."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Place the steps of a signaling pathway in the correct order."
+      },
+      "sentence": [
+        null,
+        "→",
+        null,
+        "→",
+        null
+      ],
+      "blanks": [
+        "Signal reception",
+        "Signal transduction",
+        "Cellular response"
+      ],
+      "bank": [
+        "Signal reception",
+        "Signal transduction",
+        "Cellular response"
+      ],
+      "explanation": "The pathway order is reception → transduction → response."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following is not considered one of the main cellular signal receptor types?"
+      },
+      "options": [
+        "G-protein-coupled receptors",
+        "Receptor tyrosine kinases",
+        "Protein channel receptors",
+        "Intracellular receptors"
+      ],
+      "answer": "Protein channel receptors",
+      "explanation": "Main receptor classes taught here are GPCRs, RTKs, and intracellular receptors—not “protein channel receptors” as a primary category."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following is typically an intracellular receptor?"
+      },
+      "options": [
+        "G-protein-coupled receptors",
+        "Receptor tyrosine kinases",
+        "Ligand-gated ion channel receptors",
+        "None of the above"
+      ],
+      "answer": "None of the above",
+      "explanation": "GPCRs, receptor tyrosine kinases, and ligand-gated ion channels are plasma-membrane receptors. Intracellular receptors are a separate class not listed here."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence about G-protein-coupled receptor signaling."
+      },
+      "sentence": [
+        "In G-protein-coupled receptors, ",
+        null,
+        " is exchanged for ",
+        null,
+        " and activates a(n) ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "GDP",
+        "GTP",
+        "enzyme"
+      ],
+      "bank": [
+        "GDP",
+        "GTP",
+        "enzyme",
+        "ADP",
+        "ATP",
+        "phospholipid",
+        "protein"
+      ],
+      "explanation": "Ligand-activated GPCRs promote exchange of GDP for GTP on the G protein, which then activates an enzyme/effector."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence about receptor tyrosine kinase activation."
+      },
+      "sentence": [
+        "When signal molecules bind to receptor tyrosine kinases, two receptors form a ",
+        null,
+        " and activate ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "dimer",
+        "relay proteins"
+      ],
+      "bank": [
+        "dimer",
+        "relay proteins",
+        "transport protein",
+        "enzyme",
+        "dimers"
+      ],
+      "explanation": "RTKs dimerize upon ligand binding and phosphorylate to activate relay proteins."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In general, which of the following can bind to an intracellular receptor:"
+      },
+      "options": [
+        "A molecule that is small and hydrophilic",
+        "A molecule that is large and hydrophilic",
+        "A molecule that is small and hydrophobic",
+        "A molecule that is small and polar"
+      ],
+      "answer": "A molecule that is small and hydrophobic",
+      "explanation": "Intracellular receptors bind small hydrophobic signals (e.g., steroid hormones) that cross membranes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A kinase in biology is a molecule that is capable of:"
+      },
+      "options": [
+        "Gluing molecules together",
+        "Phosphorylation",
+        "Oxidation",
+        "Reduction"
+      ],
+      "answer": "Phosphorylation",
+      "explanation": "Kinases transfer phosphate groups to targets (phosphorylation)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: A protein kinase can generally phosphorylate only a single protein molecule."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Protein kinases typically phosphorylate many substrate molecules, helping amplify the signal."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence about Ca2+ as a second messenger."
+      },
+      "sentence": [
+        "When Ca2+ acts as a second messenger, the ions flow from the ",
+        null,
+        " to the ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "ER",
+        "cytosol"
+      ],
+      "bank": [
+        "ER",
+        "cytosol",
+        "nucleus",
+        "mitochondria",
+        "cytoplasm",
+        "extracellular fluid"
+      ],
+      "explanation": "IP3/Ca2+ signaling releases Ca2+ from the ER into the cytosol."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following is not considered a second messenger?"
+      },
+      "options": [
+        "Calcium",
+        "IP3",
+        "cAMP",
+        "Protein phosphatases"
+      ],
+      "answer": "Protein phosphatases",
+      "explanation": "Ca2+, IP3, and cAMP are second messengers. Protein phosphatases are enzymes that remove phosphate groups."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The principle of a single signal molecule causing a large systemic response is known as:"
+      },
+      "options": [
+        "Projection",
+        "Potentiation",
+        "Amplification",
+        "Extension"
+      ],
+      "answer": "Amplification",
+      "explanation": "Amplification means one signal molecule can trigger a large cascade of responses."
+    }
+  ]
+}
