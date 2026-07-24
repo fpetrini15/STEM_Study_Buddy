@@ -1,0 +1,197 @@
+{
+  "title": "Water and Carbon",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are the 5 emergent properties of water?"
+      },
+      "options": [
+        "Non-cohesive, high specific heat, ice is less dense than water, poor solvent, required for life",
+        "Cohesive, low specific heat, ice is less dense than water, excellent solvent, not required for life",
+        "Cohesive, high specific heat, ice is more dense than water, excellent solvent, required for life",
+        "Cohesive, high specific heat, ice is less dense than water, excellent solvent, required for life"
+      ],
+      "answer": "Cohesive, high specific heat, ice is less dense than water, excellent solvent, required for life",
+      "explanation": "Water’s key emergent properties include cohesion, high specific heat, ice floating (less dense), excellent solvent behavior, and being essential for life."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Water can dissolve most nonpolar molecules."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Water is a polar solvent and dissolves polar/ionic substances poorly dissolves most nonpolar molecules."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In neutral solutions, acids give up:"
+      },
+      "options": [
+        "H⁺ ions",
+        "OH⁻ ions",
+        "H₂O",
+        "All of the above"
+      ],
+      "answer": "H⁺ ions",
+      "explanation": "Acids donate H⁺ (protons) in aqueous solution."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Acids are defined as having a pH less than:"
+      },
+      "options": [
+        "8",
+        "7",
+        "6.5",
+        "9"
+      ],
+      "answer": "7",
+      "explanation": "By definition, acidic solutions have pH < 7."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Bases turn pH paper:"
+      },
+      "options": [
+        "Red",
+        "Orange",
+        "Blue",
+        "Yellow"
+      ],
+      "answer": "Blue",
+      "explanation": "Bases turn litmus/pH paper blue; acids turn it red."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "pH buffers:"
+      },
+      "options": [
+        "Soak up H⁺ ions",
+        "Soak up OH⁻ ions",
+        "Insulate against large pH swings",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "Buffers resist large pH changes by taking up excess H⁺ or OH⁻ as needed."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "To be classified an organic compound, a compound must contain:"
+      },
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Carbon",
+        "Nitrogen",
+        "All of the above"
+      ],
+      "answer": "Carbon",
+      "explanation": "Organic compounds are defined by containing carbon (typically bonded in carbon frameworks)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The Miller–Urey experiment provided early experimental support against which idea?"
+      },
+      "options": [
+        "Life can be formed from chemistry",
+        "Spontaneous generation",
+        "Water is necessary for life",
+        "None of the above"
+      ],
+      "answer": "Spontaneous generation",
+      "explanation": "Miller–Urey showed that organic molecules can form from abiotic chemistry under early-Earth-like conditions, helping undermine ideas that life or its building blocks required spontaneous generation of living matter."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following is most true of isomers?"
+      },
+      "options": [
+        "They have the same base elements",
+        "They have the same chemical formula",
+        "They have the same structure",
+        "They are different molecules that have the same function"
+      ],
+      "answer": "They have the same chemical formula",
+      "explanation": "Isomers share the same molecular formula but differ in arrangement of atoms."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which type of isomer typically requires a carbon–carbon double bond?"
+      },
+      "options": [
+        "Structural",
+        "Enantiomers",
+        "Cis–trans"
+      ],
+      "answer": "Cis–trans",
+      "explanation": "Cis–trans (geometric) isomers require restricted rotation, typically from a double bond."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which type of isomers are right/left mirror images?"
+      },
+      "options": [
+        "Structural",
+        "Enantiomers",
+        "Cis–trans"
+      ],
+      "answer": "Enantiomers",
+      "explanation": "Enantiomers are nonsuperimposable mirror-image isomers."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which type of isomers have a different carbon skeleton?"
+      },
+      "options": [
+        "Structural",
+        "Enantiomers",
+        "Cis–trans"
+      ],
+      "answer": "Structural",
+      "explanation": "Structural isomers differ in covalent connectivity, including different carbon skeletons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "ATP's usable energy mostly comes from:"
+      },
+      "options": [
+        "Adenine",
+        "Ribose",
+        "Phosphate groups",
+        "Hydrogen bonds"
+      ],
+      "answer": "Phosphate groups",
+      "explanation": "ATP’s usable energy comes largely from its phosphate groups (especially phosphoanhydride bonds)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "ATP is:"
+      },
+      "options": [
+        "High energy and stable",
+        "Low energy and stable",
+        "High energy and unstable",
+        "Low energy and unstable"
+      ],
+      "answer": "High energy and unstable",
+      "explanation": "ATP stores substantial free energy but is chemically unstable and readily hydrolyzed."
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "title": "Cellular Respiration and Fermentation",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following are consumers?"
+      },
+      "options": [
+        "Algae",
+        "Trees",
+        "Flowers",
+        "Mushrooms",
+        "None of the above"
+      ],
+      "answer": "Mushrooms",
+      "explanation": "Mushrooms are heterotrophic consumers/decomposers; algae, trees, and flowers are photosynthetic producers."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which respiration process produces the most ATP?"
+      },
+      "options": [
+        "Aerobic respiration",
+        "Anaerobic respiration",
+        "Fermentation",
+        "They produce about the same amount of ATP"
+      ],
+      "answer": "Aerobic respiration",
+      "explanation": "Aerobic respiration yields far more ATP per glucose than anaerobic respiration or fermentation."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the net gain of ATP per glucose during glycolysis?"
+      },
+      "options": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "answer": "2",
+      "explanation": "Glycolysis nets 2 ATP per glucose (invests 2, produces 4)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A single molecule of glucose is broken down into ____ during glycolysis:"
+      },
+      "options": [
+        "4 molecules of pyruvate",
+        "2 molecules of sucrose",
+        "2 molecules of acetyl-CoA",
+        "2 molecules of pyruvate"
+      ],
+      "answer": "2 molecules of pyruvate",
+      "explanation": "Glycolysis splits one glucose into two pyruvate molecules."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The total product of glycolysis from a single glucose molecule (non-net) is:"
+      },
+      "options": [
+        "2 NADH, 2 ATP",
+        "4 NADH, 2 ATP",
+        "4 ATP, 2 NADH",
+        "4 ATP, 4 NADH"
+      ],
+      "answer": "4 ATP, 2 NADH",
+      "explanation": "Gross (non-net) glycolysis products per glucose are 4 ATP and 2 NADH."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Place the molecules and processes in the correct order for cellular respiration."
+      },
+      "sentence": [
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null
+      ],
+      "blanks": [
+        "Glucose",
+        "Glycolysis",
+        "Pyruvate",
+        "Oxidation",
+        "Krebs cycle",
+        "Oxidative phosphorylation"
+      ],
+      "bank": [
+        "Glucose",
+        "Glycolysis",
+        "Pyruvate",
+        "Oxidation",
+        "Krebs cycle",
+        "Oxidative phosphorylation"
+      ],
+      "explanation": "Order: glucose → glycolysis → pyruvate → pyruvate oxidation → Krebs cycle → oxidative phosphorylation."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which is not a byproduct of aerobic respiration?"
+      },
+      "options": [
+        "CO2",
+        "H2O",
+        "Lactate",
+        "ATP"
+      ],
+      "answer": "Lactate",
+      "explanation": "Lactate is a fermentation product, not a normal byproduct of full aerobic respiration (which yields CO2, H2O, and ATP)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The rate-limiting step in glycolysis is:"
+      },
+      "options": [
+        "The phosphorylation of fructose-6-phosphate by the enzyme PFK to create fructose-1,6-bisphosphate.",
+        "The splitting of glucose into two separate 3-carbon sugars.",
+        "The active transport of glucose into the cell.",
+        "The creation of 2 pyruvate molecules at the very end of the pathway."
+      ],
+      "answer": "The phosphorylation of fructose-6-phosphate by the enzyme PFK to create fructose-1,6-bisphosphate.",
+      "explanation": "Phosphofructokinase (PFK) phosphorylation of fructose-6-phosphate is the major rate-limiting control point of glycolysis."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "One glucose molecule will eventually enable the Krebs cycle to turn __ times."
+      },
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": "2",
+      "explanation": "Each glucose yields two acetyl-CoA, so the Krebs cycle turns twice per glucose."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which reaction represents the rate-limiting step of the Krebs cycle?"
+      },
+      "options": [
+        "The condensation of acetyl-CoA and oxaloacetate to form citrate.",
+        "The isomerization of citrate to isocitrate.",
+        "The oxidative decarboxylation of isocitrate to α-ketoglutarate.",
+        "The conversion of succinyl-CoA to succinate.",
+        "The oxidation of malate to oxaloacetate."
+      ],
+      "answer": "The oxidative decarboxylation of isocitrate to α-ketoglutarate.",
+      "explanation": "Isocitrate dehydrogenase (oxidative decarboxylation of isocitrate) is a key rate-limiting Krebs cycle step."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the net production of the Krebs cycle per molecule of glucose?"
+      },
+      "options": [
+        "2 NADH, 2 FADH2, 2 ATP, and 2 CO2",
+        "3 NADH, 1 FADH2, 1 ATP, and 2 CO2",
+        "6 NADH, 2 FADH2, 2 ATP, and 4 CO2",
+        "8 NADH, 4 FADH2, 4 ATP, and 6 CO2"
+      ],
+      "answer": "6 NADH, 2 FADH2, 2 ATP, and 4 CO2",
+      "explanation": "Per glucose (two turns): about 6 NADH, 2 FADH2, 2 ATP (GTP), and 4 CO2 from the cycle itself."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The electron transport chain’s gradient is composed of what molecule?"
+      },
+      "options": [
+        "H2O",
+        "H+",
+        "NAD+",
+        "NADH",
+        "FADH2"
+      ],
+      "answer": "H+",
+      "explanation": "The ETC pumps H+ to create an electrochemical proton gradient used by ATP synthase."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which is considered the oxidized molecule?"
+      },
+      "options": [
+        "NAD+",
+        "NADH"
+      ],
+      "answer": "NAD+",
+      "explanation": "NAD+ is the oxidized form; NADH is the reduced form."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which process produces the most ATP?"
+      },
+      "options": [
+        "Glycolysis",
+        "Krebs cycle",
+        "Oxidative phosphorylation",
+        "Fermentation"
+      ],
+      "answer": "Oxidative phosphorylation",
+      "explanation": "Oxidative phosphorylation (ETC + chemiosmosis) produces most of the ATP from glucose."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In anaerobic respiration, which of the following can serve as a final electron acceptor?"
+      },
+      "options": [
+        "Sulfate",
+        "Nitrate",
+        "Chloride",
+        "Phosphate"
+      ],
+      "answer": "Sulfate",
+      "explanation": "Anaerobic respiration uses an inorganic final electron acceptor other than oxygen; sulfate is one common example (others include nitrate)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which process does not make use of an electron transport chain?"
+      },
+      "options": [
+        "Aerobic respiration",
+        "Anaerobic respiration",
+        "Fermentation"
+      ],
+      "answer": "Fermentation",
+      "explanation": "Fermentation regenerates NAD+ without an electron transport chain."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which process occurs in cells whether or not oxygen is available?"
+      },
+      "options": [
+        "Fermentation",
+        "Glycolysis",
+        "Krebs Cycle",
+        "Calvin Cycle"
+      ],
+      "answer": "Glycolysis",
+      "explanation": "Glycolysis is anaerobic and occurs whether or not oxygen is available."
+    }
+  ]
+}

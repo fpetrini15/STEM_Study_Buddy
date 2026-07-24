@@ -1489,9 +1489,19 @@ FEEDBACK
 
   justify-content: center;
 
+  align-items: center;
+
   gap: 12px;
 
   margin-top: 20px;
+}
+
+.final-actions .btn {
+  margin-top: 0;
+
+  text-decoration: none;
+
+  text-align: center;
 }
 
 /* =========================

@@ -1,0 +1,310 @@
+{
+  "title": "A Tour of the Cell",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which is not a tenet of cell theory?"
+      },
+      "options": [
+        "All living things are composed of one or more cells",
+        "Cells require water to survive",
+        "The cell is the basic unit of life",
+        "New cells arise from existing ones"
+      ],
+      "answer": "Cells require water to survive",
+      "explanation": "Cell theory states organisms are made of cells, the cell is the basic unit of life, and cells come from preexisting cells—not that cells require water as a tenet."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Prokaryotes do not have membrane-bound organelles."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Prokaryotes lack membrane-bound organelles (no nucleus, mitochondria, etc.)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Archaea is a domain that exclusively contains:"
+      },
+      "options": [
+        "Eukaryotes",
+        "Prokaryotes"
+      ],
+      "answer": "Prokaryotes",
+      "explanation": "Archaea are prokaryotes (no nucleus), forming their own domain."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The ability of the cell membrane to allow some molecules to enter or leave while blocking others is called:"
+      },
+      "options": [
+        "Selective permeability",
+        "Diffusive gating",
+        "Selective diffusion",
+        "Cellular osmosis"
+      ],
+      "answer": "Selective permeability",
+      "explanation": "Selective permeability means the membrane controls which substances enter or leave."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "As volume increases, the surface area to volume ratio __."
+      },
+      "options": [
+        "Increases",
+        "Decreases",
+        "Stays the same"
+      ],
+      "answer": "Decreases",
+      "explanation": "As a cell grows, volume increases faster than surface area, so the SA:V ratio decreases."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The area between the layers of the phospholipid bilayer is:"
+      },
+      "options": [
+        "Hydrophilic and non-polar",
+        "Hydrophobic and polar",
+        "Hydrophobic and non-polar",
+        "Hydrophilic and polar"
+      ],
+      "answer": "Hydrophobic and non-polar",
+      "explanation": "Fatty acid tails in the bilayer interior are hydrophobic and nonpolar."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Other molecules in/on the phospholipid bilayer include:"
+      },
+      "options": [
+        "Cholesterol and lysosomes",
+        "Cholesterol and amino acids",
+        "Carbohydrates and cholesterol",
+        "Cholesterol and proteins"
+      ],
+      "answer": "Cholesterol and proteins",
+      "explanation": "Membranes commonly include cholesterol and proteins (and often carbohydrates on the outer surface)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Where are rRNA and ribosomes synthesized?"
+      },
+      "options": [
+        "Nucleus",
+        "Nucleolus",
+        "ER",
+        "Nuclear pores"
+      ],
+      "answer": "Nucleolus",
+      "explanation": "The nucleolus is the site of rRNA synthesis and ribosome subunit assembly."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The function of ribosomes is:"
+      },
+      "options": [
+        "Protein synthesis",
+        "Molecular catabolism",
+        "DNA transcription",
+        "rRNA creation"
+      ],
+      "answer": "Protein synthesis",
+      "explanation": "Ribosomes translate mRNA into polypeptides (protein synthesis)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Ribosomes are fixed in place."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Ribosomes can be free in the cytosol or bound to rough ER; they are not permanently fixed."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Unlike the rough ER, the smooth ER"
+      },
+      "options": [
+        "Facilitates transport",
+        "Synthesizes lipids",
+        "Builds proteins",
+        "Stores energy"
+      ],
+      "answer": "Synthesizes lipids",
+      "explanation": "Smooth ER synthesizes lipids and detoxifies; rough ER is studded with ribosomes for protein synthesis."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The Golgi Apparatus is responsible for:"
+      },
+      "options": [
+        "Cellular metabolism",
+        "Protein synthesis",
+        "Information and storage",
+        "Packaging and sending proteins"
+      ],
+      "answer": "Packaging and sending proteins",
+      "explanation": "The Golgi modifies, sorts, packages, and ships proteins and lipids."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Lysosomes are responsible for digesting:"
+      },
+      "options": [
+        "The host cell",
+        "Bacteria",
+        "Unneeded molecules",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "Lysosomes digest macromolecules and damaged material, including engulfed bacteria and cellular components during autophagy."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Vacuoles in plant cells are primarily responsible for:"
+      },
+      "options": [
+        "Digestion",
+        "Storage",
+        "Transportation",
+        "Respiration"
+      ],
+      "answer": "Storage",
+      "explanation": "The large central vacuole in plant cells mainly stores water, ions, and other materials and maintains turgor."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The most well-documented role of peroxisomes is:"
+      },
+      "options": [
+        "Immune defense",
+        "Cell signaling",
+        "Cell aging management",
+        "Removal of hydrogen atoms"
+      ],
+      "answer": "Removal of hydrogen atoms",
+      "explanation": "Peroxisomes transfer hydrogen to O2, forming H2O2, and help break down fatty acids/toxins."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Plant cells contain both mitochondria and chloroplasts."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Plant cells have mitochondria for respiration and chloroplasts for photosynthesis."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Mitochondria have their own separate DNA."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Mitochondria have their own circular DNA and ribosomes, consistent with bacterial ancestry."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The presence of mitochondria in eukaryotic cells supports the theory of:"
+      },
+      "options": [
+        "Endocytosis",
+        "Endosymbiosis",
+        "Phagocytosis",
+        "Parallel evolution"
+      ],
+      "answer": "Endosymbiosis",
+      "explanation": "Endosymbiosis explains mitochondria (and chloroplasts) as formerly free-living prokaryotes."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Order the cytoskeletal elements from thinnest to thickest."
+      },
+      "sentence": [
+        null,
+        "→",
+        null,
+        "→",
+        null
+      ],
+      "blanks": [
+        "Microfilaments",
+        "Intermediate filaments",
+        "Microtubules"
+      ],
+      "bank": [
+        "Microfilaments",
+        "Intermediate filaments",
+        "Microtubules"
+      ],
+      "explanation": "Diameter order: microfilaments (actin) < intermediate filaments < microtubules."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The ECM does not directly provide which of the following:"
+      },
+      "options": [
+        "Structural scaffolding",
+        "Cell communication pathways",
+        "Intracellular anchoring"
+      ],
+      "answer": "Intracellular anchoring",
+      "explanation": "The ECM supports and signals outside the cell; intracellular anchoring is inside the cell."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following is not an animal cell junction?"
+      },
+      "options": [
+        "Plasmodesmata",
+        "Tight junction",
+        "Desmosome",
+        "Gap junction"
+      ],
+      "answer": "Plasmodesmata",
+      "explanation": "Plasmodesmata are plant cell channels. Animal cell junctions include tight junctions, desmosomes, and gap junctions."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following best matches the cytoskeletal molecules to their function?"
+      },
+      "options": [
+        "Microtubules are the “highways”, intermediate filaments are the “girders”, microfilaments are the “locomotive muscles”",
+        "Microfilaments are the “highways”, intermediate filaments are the “girders”, microtubules are the “locomotive muscles”",
+        "Intermediate filaments are the “highways”, microtubules are the “girders”, microfilaments are the “locomotive muscles”"
+      ],
+      "answer": "Microtubules are the “highways”, intermediate filaments are the “girders”, microfilaments are the “locomotive muscles”",
+      "explanation": "Microtubules track vesicle traffic (“highways”), intermediate filaments provide tensile strength (“girders”), and microfilaments enable contractile movement (“muscles”)."
+    }
+  ]
+}

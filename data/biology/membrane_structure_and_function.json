@@ -1,0 +1,199 @@
+{
+  "title": "Membrane Structure and Function",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of the following spans the entire phospholipid bilayer (with regions exposed on both sides of the membrane)?"
+      },
+      "options": [
+        "Integral protein",
+        "Peripheral protein",
+        "Cholesterol",
+        "Glycolipids"
+      ],
+      "answer": "Integral protein",
+      "explanation": "Integral (transmembrane) proteins span the bilayer with surfaces exposed on both sides."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Plant cell membranes can contain sterols that function similarly to cholesterol."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Plant membranes often contain phytosterols and related sterols that help regulate fluidity, similar to cholesterol in animal cells."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "As a replacement for cholesterol, plant cells often use _____ to achieve a similar function:"
+      },
+      "options": [
+        "Integral proteins",
+        "Peripheral proteins",
+        "Steroid lipids",
+        "Chlorophyll"
+      ],
+      "answer": "Steroid lipids",
+      "explanation": "Plants often use other steroid lipids/phytosterols in place of animal cholesterol to modulate fluidity."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Plants and animals that live in cold environments have ___ points of unsaturation in their lipid bilayers"
+      },
+      "options": [
+        "More",
+        "Less",
+        "The same"
+      ],
+      "answer": "More",
+      "explanation": "More unsaturation keeps membranes fluid at low temperature by preventing tight packing."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The following are all functions of peripheral proteins, except:"
+      },
+      "options": [
+        "Support cell shape",
+        "Facilitate communication",
+        "Have enzymatic action",
+        "Provide molecule transport"
+      ],
+      "answer": "Provide molecule transport",
+      "explanation": "Peripheral proteins aid shape, signaling, and enzymes; transport across the bilayer is typically integral proteins’ role."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Proteins with short carbohydrate tags are known as:"
+      },
+      "options": [
+        "Macroproteins",
+        "Microproteins",
+        "Glycoproteins",
+        "Carboproteins"
+      ],
+      "answer": "Glycoproteins",
+      "explanation": "Glycoproteins are proteins with covalently attached carbohydrate chains."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which molecules do not require transport proteins to aid their diffusion across the cell membrane?"
+      },
+      "options": [
+        "Non-lipid soluble molecules",
+        "Non-lipid soluble ions",
+        "Lipid soluble molecules"
+      ],
+      "answer": "Lipid soluble molecules",
+      "explanation": "Lipid-soluble (nonpolar) molecules can diffuse through the hydrophobic core without transporters."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Unlike simple diffusion, facilitated diffusion:"
+      },
+      "options": [
+        "Requires energy",
+        "Requires a transport protein",
+        "Requires a concentration gradient"
+      ],
+      "answer": "Requires a transport protein",
+      "explanation": "Facilitated diffusion is still passive (no energy input), but it requires a channel or carrier protein."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Osmotic equilibrium requires:"
+      },
+      "options": [
+        "Volume of water to be equal across a membrane",
+        "Concentration of solute to be equal across a membrane",
+        "Concentration of solvent to be equal across a membrane"
+      ],
+      "answer": "Concentration of solute to be equal across a membrane",
+      "explanation": "Osmotic equilibrium is reached when solute concentrations (effective osmolarity) are equal across the membrane."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence about normal tonicity for plant and animal cells."
+      },
+      "sentence": [
+        "Relative to their surroundings under normal conditions, a plant cell is ",
+        null,
+        " and an animal cell is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "hypertonic",
+        "isotonic"
+      ],
+      "bank": [
+        "hypertonic",
+        "isotonic",
+        "hypotonic"
+      ],
+      "explanation": "Plant cells are typically hypertonic to their surroundings (water enters; turgid), while animal cells are usually isotonic with their extracellular fluid."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Energy for active transport does not always come directly from ATP."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Active transport can be powered directly by ATP or indirectly by energy stored in gradients (secondary active transport / cotransport)."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "When active and passive transport are coupled, it is known as:"
+      },
+      "options": [
+        "Cotransport",
+        "Bitransport",
+        "Collaborative transport",
+        "Dichotic transport"
+      ],
+      "answer": "Cotransport",
+      "explanation": "Cotransport couples the downhill movement of one solute to uphill movement of another."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Chemical gradients and electrochemical gradients can work in opposite directions."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Chemical and electrical components of the electrochemical gradient can favor movement in opposite directions."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Receptor-mediated endocytosis is a form of:"
+      },
+      "options": [
+        "Phagocytosis",
+        "Pinocytosis",
+        "Neither"
+      ],
+      "answer": "Pinocytosis",
+      "explanation": "Receptor-mediated endocytosis is a specialized form of pinocytosis that takes in specific ligands."
+    }
+  ]
+}

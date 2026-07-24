@@ -2,11 +2,17 @@
   "sections": [
     {
       "title": "Core Sciences",
-      "subjects": ["biology", "chemistry"]
+      "subjects": [
+        "biology",
+        "chemistry"
+      ]
     },
     {
       "title": "Medical Sciences",
-      "subjects": ["emt", "pharmacology"]
+      "subjects": [
+        "emt",
+        "pharmacology"
+      ]
     }
   ],
   "biology": {
@@ -15,6 +21,57 @@
     "cardIcon": "🧬",
     "icon": "images/favicons/dna.svg",
     "units": [
+      {
+        "name": "Foundations of Biology",
+        "quizzes": [
+          {
+            "id": "evolution_and_themes",
+            "title": "Evolution and Themes of Biology",
+            "icon": "🧬",
+            "description": "Themes of biology, domains, kingdoms, energy flow, and feedback."
+          }
+        ]
+      },
+      {
+        "name": "Chemistry of Life",
+        "quizzes": [
+          {
+            "id": "chemical_context_of_life",
+            "title": "Chemical Context of Life",
+            "icon": "⚛️",
+            "description": "Atoms, bonds, polarity, isotopes, and basic chemical foundations."
+          },
+          {
+            "id": "water_and_carbon",
+            "title": "Water and Carbon",
+            "icon": "💧",
+            "description": "Water properties, pH, organic compounds, isomers, and ATP."
+          },
+          {
+            "id": "macromolecules",
+            "title": "Macromolecules",
+            "icon": "🧩",
+            "description": "Carbohydrates, lipids, proteins, nucleic acids, and monomers."
+          }
+        ]
+      },
+      {
+        "name": "The Cell",
+        "quizzes": [
+          {
+            "id": "tour_of_the_cell",
+            "title": "A Tour of the Cell",
+            "icon": "🔬",
+            "description": "Cell theory, organelles, cytoskeleton, junctions, and endosymbiosis."
+          },
+          {
+            "id": "membrane_structure_and_function",
+            "title": "Membrane Structure and Function",
+            "icon": "🧱",
+            "description": "Membrane proteins, diffusion, osmosis, and active transport."
+          }
+        ]
+      },
       {
         "name": "Cell Division",
         "quizzes": [
@@ -29,6 +86,23 @@
             "title": "Meiosis",
             "icon": "♀️♂️",
             "description": "Meiosis I and II — crossing over, segregation, and gamete formation."
+          }
+        ]
+      },
+      {
+        "name": "Energy & Metabolism",
+        "quizzes": [
+          {
+            "id": "metabolism",
+            "title": "Metabolism",
+            "icon": "⚡",
+            "description": "Catabolic vs anabolic pathways, free energy, enzymes, and inhibition."
+          },
+          {
+            "id": "cellular_respiration",
+            "title": "Cellular Respiration and Fermentation",
+            "icon": "🫁",
+            "description": "Glycolysis, Krebs cycle, ETC, aerobic vs anaerobic respiration."
           }
         ]
       },
@@ -69,6 +143,17 @@
             "title": "Gene Regulation",
             "icon": "🚦",
             "description": "Operons, epigenetics, differentiation, and cell specialization."
+          }
+        ]
+      },
+      {
+        "name": "Cell Signaling",
+        "quizzes": [
+          {
+            "id": "cellular_communication",
+            "title": "Cellular Communication",
+            "icon": "📶",
+            "description": "Signaling types, receptors, second messengers, and amplification."
           }
         ]
       },
