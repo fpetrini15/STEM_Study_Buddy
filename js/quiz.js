@@ -22,6 +22,7 @@ let answeredCount = 0;
 let skippedCount = 0;
 let skippedQuestions = [];
 let wrongQuestions = [];
+let selectedSentenceChip = null;
 
 /* ELEMENTS */
 
@@ -40,6 +41,7 @@ const totalDisplay = document.getElementById("total");
 const scoreContainer = document.querySelector(".score");
 const progressBar = document.getElementById("progress-bar");
 const continueBtn = document.getElementById("continue-btn");
+const checkWorksheetBtn = document.getElementById("check-worksheet-btn");
 const skipBtn = document.getElementById("skip-btn");
 const finalScreen = document.getElementById("final-screen");
 const finalHeading = document.getElementById("final-heading");
@@ -107,6 +109,21 @@ function prepareQuestions(sourceQuestions) {
           options: shuffle([...q.options]),
         };
       }
+      if (q.type === "drug_worksheet") {
+        return {
+          ...q,
+          fields: q.fields.map((field) => ({
+            ...field,
+            options: shuffle([...field.options]),
+          })),
+        };
+      }
+      if (q.type === "drag_sentence") {
+        return {
+          ...q,
+          bank: shuffle([...q.bank]),
+        };
+      }
       return q;
     }),
   );
@@ -141,7 +158,7 @@ function resetRunState() {
 
 /* FEEDBACK */
 
-function setFeedback(headline, question, tone, detail = null) {
+function setFeedback(headline, question, tone, detail = null, messages = null) {
   feedback.replaceChildren();
 
   const panel = document.createElement("div");
@@ -164,6 +181,18 @@ function setFeedback(headline, question, tone, detail = null) {
 
   panel.appendChild(main);
 
+  const items = (messages || []).filter(Boolean);
+  if (items.length > 0) {
+    const list = document.createElement("ul");
+    list.className = "quiz-feedback-list";
+    items.forEach((message) => {
+      const item = document.createElement("li");
+      setStemText(item, message);
+      list.appendChild(item);
+    });
+    panel.appendChild(list);
+  }
+
   if (question.explanation) {
     const explanation = document.createElement("p");
     explanation.className = "feedback-explanation";
@@ -174,14 +203,40 @@ function setFeedback(headline, question, tone, detail = null) {
   feedback.appendChild(panel);
 }
 
+function formatWorksheetAnswerSummary(question) {
+  return question.fields.map((field) => `${field.label}: ${field.answer}`);
+}
+
+function formatDragSentenceAnswerSummary(question) {
+  return question.blanks.map((blank, index) => `Blank ${index + 1}: ${blank}`);
+}
+
 function lockQuestionInteraction(question) {
   draggable.setAttribute("draggable", "false");
   categoriesContainer.classList.add("locked");
 
-  if (question.type === "multiple_choice") {
+  if (
+    question.type === "multiple_choice" ||
+    question.type === "drug_worksheet"
+  ) {
     document.querySelectorAll(".mc-option").forEach((btn) => {
       btn.disabled = true;
     });
+  }
+
+  if (question.type === "drag_sentence") {
+    document.querySelectorAll(".sentence-chip").forEach((chip) => {
+      chip.setAttribute("draggable", "false");
+      chip.classList.remove("sentence-chip--selected");
+    });
+  }
+
+  if (
+    question.type === "drug_worksheet" ||
+    question.type === "drag_sentence"
+  ) {
+    checkWorksheetBtn.disabled = true;
+    checkWorksheetBtn.style.display = "none";
   }
 }
 
@@ -200,13 +255,20 @@ function highlightCorrectAnswer(question) {
       correctZone.classList.add("correct");
     }
   }
+  // drug_worksheet / drag_sentence: slot states are set during check/skip reveal
 }
 
-function showQuestionFeedback(headline, question, tone, detail = null) {
+function showQuestionFeedback(
+  headline,
+  question,
+  tone,
+  detail = null,
+  messages = null,
+) {
   skipBtn.disabled = true;
   lockQuestionInteraction(question);
   highlightCorrectAnswer(question);
-  setFeedback(headline, question, tone, detail);
+  setFeedback(headline, question, tone, detail, messages);
   feedback.classList.add("show");
   continueBtn.disabled = false;
   continueBtn.style.display = "inline-block";
@@ -233,11 +295,18 @@ function resetQuestionUI() {
   promptContainer.style.display = "block";
   promptContainer.classList.remove("prompt-static");
   categoriesContainer.innerHTML = "";
+  categoriesContainer.classList.remove(
+    "categories--worksheet",
+    "categories--sentence",
+  );
   feedback.replaceChildren();
   feedback.classList.remove("show");
+  selectedSentenceChip = null;
 
   continueBtn.style.display = "none";
   continueBtn.disabled = true;
+  checkWorksheetBtn.style.display = "none";
+  checkWorksheetBtn.disabled = true;
 
   skipBtn.disabled = false;
   if (!isExamMode()) {
@@ -258,11 +327,15 @@ function resetQuestionUI() {
 const questionRenderers = {
   drag_and_drop: renderDragQuestion,
   multiple_choice: renderMultipleChoiceQuestion,
+  drug_worksheet: renderDrugWorksheetQuestion,
+  drag_sentence: renderDragSentenceQuestion,
 };
 
 const answerCheckers = {
   drag_and_drop: checkDragAnswer,
   multiple_choice: checkMultipleChoiceAnswer,
+  drug_worksheet: checkDrugWorksheetAnswer,
+  drag_sentence: checkDragSentenceAnswer,
 };
 
 /* MODE SELECT */
@@ -455,6 +528,459 @@ function renderMultipleChoiceQuestion(question) {
   });
 }
 
+/* DRUG WORKSHEET */
+
+function getWorksheetSelections() {
+  const selections = {};
+  document.querySelectorAll(".drug-worksheet-row").forEach((row) => {
+    const selected = row.querySelector(".drug-worksheet-option.selected");
+    if (selected) {
+      selections[row.dataset.fieldId] = selected.dataset.value;
+    }
+  });
+  return selections;
+}
+
+function updateWorksheetCheckEnabled() {
+  const question = questions[current];
+  if (!question || question.type !== "drug_worksheet") return;
+
+  const selections = getWorksheetSelections();
+  checkWorksheetBtn.disabled = !question.fields.every(
+    (field) => selections[field.id],
+  );
+}
+
+function setWorksheetFieldState(row, correct) {
+  if (!row) return;
+  row.classList.remove(
+    "drug-worksheet-row--correct",
+    "drug-worksheet-row--incorrect",
+  );
+  row.classList.add(
+    correct ? "drug-worksheet-row--correct" : "drug-worksheet-row--incorrect",
+  );
+}
+
+function clearWorksheetFieldStates() {
+  document.querySelectorAll(".drug-worksheet-row").forEach((row) => {
+    row.classList.remove(
+      "drug-worksheet-row--correct",
+      "drug-worksheet-row--incorrect",
+    );
+  });
+}
+
+function applyWorksheetResultStyles(question, selections) {
+  clearWorksheetFieldStates();
+
+  question.fields.forEach((field) => {
+    const row = document.querySelector(
+      `.drug-worksheet-row[data-field-id="${CSS.escape(field.id)}"]`,
+    );
+    if (!row) return;
+
+    const chosen = selections[field.id];
+    const isFieldCorrect = chosen === field.answer;
+    setWorksheetFieldState(row, isFieldCorrect);
+
+    row.querySelectorAll(".drug-worksheet-option").forEach((btn) => {
+      btn.classList.remove("selected", "correct", "incorrect");
+
+      if (btn.dataset.value === field.answer) {
+        btn.classList.add("correct");
+      } else if (btn.dataset.value === chosen) {
+        btn.classList.add("incorrect");
+      }
+    });
+  });
+}
+
+function revealWorksheetAnswers(question) {
+  const selections = {};
+  question.fields.forEach((field) => {
+    selections[field.id] = field.answer;
+  });
+  applyWorksheetResultStyles(question, selections);
+}
+
+function renderDrugWorksheetQuestion(question) {
+  draggable.classList.add("hidden");
+  promptContainer.style.display = "block";
+  promptContainer.classList.add("prompt-static");
+  interactionArea.style.display = "none";
+  categoriesContainer.classList.add("categories--worksheet");
+  categoriesContainer.style.display = "block";
+
+  instructionText.textContent = "Fill each field, then check your answers.";
+
+  if (question.prompt.text) {
+    const text = document.createElement("div");
+    setStemText(text, question.prompt.text);
+    promptBox.appendChild(text);
+  }
+
+  if (question.prompt.image) {
+    const img = document.createElement("img");
+    img.src = question.prompt.image;
+    img.className = "quiz-image";
+    promptBox.appendChild(img);
+  }
+
+  const form = document.createElement("div");
+  form.className = "drug-worksheet";
+
+  question.fields.forEach((field) => {
+    const row = document.createElement("div");
+    row.className = "drug-worksheet-row";
+    row.dataset.fieldId = field.id;
+
+    const label = document.createElement("div");
+    label.className = "drug-worksheet-label";
+    label.textContent = field.label;
+    row.appendChild(label);
+
+    const options = document.createElement("div");
+    options.className = "drug-worksheet-options";
+
+    field.options.forEach((option) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "mc-option drug-worksheet-option";
+      btn.dataset.value = option;
+      setStemText(btn, option);
+
+      btn.addEventListener("click", () => {
+        if (categoriesContainer.classList.contains("locked")) return;
+        options.querySelectorAll(".drug-worksheet-option").forEach((other) => {
+          other.classList.remove("selected");
+        });
+        btn.classList.add("selected");
+        updateWorksheetCheckEnabled();
+      });
+
+      options.appendChild(btn);
+    });
+
+    row.appendChild(options);
+    form.appendChild(row);
+  });
+
+  categoriesContainer.appendChild(form);
+  checkWorksheetBtn.style.display = "inline-block";
+  checkWorksheetBtn.disabled = true;
+}
+
+/* DRAG SENTENCE */
+
+function isSentenceArrow(part) {
+  return (
+    typeof part === "string" &&
+    /^\s*(→|->|-->|⇒|⟶)\s*$/.test(part)
+  );
+}
+
+function getDragSentenceSelections() {
+  const selections = [];
+  document.querySelectorAll(".sentence-blank").forEach((blank) => {
+    const chip = blank.querySelector(".sentence-chip");
+    selections.push(chip ? chip.dataset.value : null);
+  });
+  return selections;
+}
+
+function updateDragSentenceCheckEnabled() {
+  const question = questions[current];
+  if (!question || question.type !== "drag_sentence") return;
+
+  const selections = getDragSentenceSelections();
+  checkWorksheetBtn.disabled = !selections.every(Boolean);
+}
+
+function clearSentenceChipSelection() {
+  if (selectedSentenceChip) {
+    selectedSentenceChip.classList.remove("sentence-chip--selected");
+  }
+  selectedSentenceChip = null;
+}
+
+function returnChipToBank(chip, bank) {
+  if (!chip || !bank) return;
+  chip.classList.remove("sentence-chip--placed", "sentence-chip--selected");
+  bank.appendChild(chip);
+}
+
+function placeChipInBlank(chip, blank, bank) {
+  if (!chip || !blank || categoriesContainer.classList.contains("locked")) {
+    return;
+  }
+
+  const existing = blank.querySelector(".sentence-chip");
+  if (existing && existing !== chip) {
+    returnChipToBank(existing, bank);
+  }
+
+  blank.appendChild(chip);
+  chip.classList.add("sentence-chip--placed");
+  chip.classList.remove("sentence-chip--selected");
+  clearSentenceChipSelection();
+  updateDragSentenceCheckEnabled();
+}
+
+function setSentenceBlankState(blank, correct) {
+  if (!blank) return;
+  blank.classList.remove(
+    "sentence-blank--correct",
+    "sentence-blank--incorrect",
+  );
+  blank.classList.add(
+    correct ? "sentence-blank--correct" : "sentence-blank--incorrect",
+  );
+}
+
+function clearSentenceBlankStates() {
+  document.querySelectorAll(".sentence-blank").forEach((blank) => {
+    blank.classList.remove(
+      "sentence-blank--correct",
+      "sentence-blank--incorrect",
+    );
+  });
+}
+
+function applyDragSentenceResultStyles(question, selections) {
+  clearSentenceBlankStates();
+
+  const blanks = document.querySelectorAll(".sentence-blank");
+  question.blanks.forEach((answer, index) => {
+    const blank = blanks[index];
+    if (!blank) return;
+    setSentenceBlankState(blank, selections[index] === answer);
+  });
+}
+
+function revealDragSentenceAnswers(question) {
+  const bank = document.querySelector(".sentence-bank");
+  const blanks = document.querySelectorAll(".sentence-blank");
+  const chipsByValue = new Map();
+
+  document.querySelectorAll(".sentence-chip").forEach((chip) => {
+    const value = chip.dataset.value;
+    if (!chipsByValue.has(value)) {
+      chipsByValue.set(value, []);
+    }
+    chipsByValue.get(value).push(chip);
+  });
+
+  question.blanks.forEach((answer, index) => {
+    const blank = blanks[index];
+    if (!blank) return;
+
+    const existing = blank.querySelector(".sentence-chip");
+    if (existing && existing.dataset.value === answer) {
+      return;
+    }
+
+    if (existing && bank) {
+      returnChipToBank(existing, bank);
+    }
+
+    const pool = chipsByValue.get(answer) || [];
+    const chip =
+      pool.find((item) => item.parentElement === bank) || pool[0] || null;
+    if (chip) {
+      placeChipInBlank(chip, blank, bank);
+    }
+  });
+
+  applyDragSentenceResultStyles(question, question.blanks);
+}
+
+function createSentenceChip(word, bank) {
+  const chip = document.createElement("button");
+  chip.type = "button";
+  chip.className = "sentence-chip";
+  chip.dataset.value = word;
+  setStemText(chip, word);
+
+  if (!isTouchDevice()) {
+    chip.setAttribute("draggable", "true");
+
+    chip.addEventListener("dragstart", (e) => {
+      if (categoriesContainer.classList.contains("locked")) {
+        e.preventDefault();
+        return;
+      }
+      e.dataTransfer.setData("text/plain", word);
+      e.dataTransfer.effectAllowed = "move";
+      chip.classList.add("sentence-chip--dragging");
+      clearSentenceChipSelection();
+    });
+
+    chip.addEventListener("dragend", () => {
+      chip.classList.remove("sentence-chip--dragging");
+    });
+  }
+
+  chip.addEventListener("click", () => {
+    if (categoriesContainer.classList.contains("locked")) return;
+
+    const parentBlank = chip.closest(".sentence-blank");
+    if (parentBlank) {
+      returnChipToBank(chip, bank);
+      clearSentenceChipSelection();
+      updateDragSentenceCheckEnabled();
+      return;
+    }
+
+    if (selectedSentenceChip === chip) {
+      clearSentenceChipSelection();
+      return;
+    }
+
+    clearSentenceChipSelection();
+    selectedSentenceChip = chip;
+    chip.classList.add("sentence-chip--selected");
+  });
+
+  return chip;
+}
+
+function findChipForDrop(value, bank) {
+  const dragging = document.querySelector(".sentence-chip--dragging");
+  if (dragging && dragging.dataset.value === value) {
+    return dragging;
+  }
+
+  const fromBank = Array.from(bank.querySelectorAll(".sentence-chip")).find(
+    (item) => item.dataset.value === value,
+  );
+  if (fromBank) return fromBank;
+
+  return Array.from(document.querySelectorAll(".sentence-chip")).find(
+    (item) => item.dataset.value === value,
+  );
+}
+
+function renderDragSentenceQuestion(question) {
+  draggable.classList.add("hidden");
+  promptContainer.style.display = "block";
+  promptContainer.classList.add("prompt-static");
+  interactionArea.style.display = "none";
+  categoriesContainer.classList.add("categories--sentence");
+  categoriesContainer.style.display = "block";
+  selectedSentenceChip = null;
+
+  instructionText.textContent = isTouchDevice()
+    ? "Tap a word, then tap a blank. Tap a filled blank to clear it."
+    : "Drag words into the blanks, then check your answers.";
+
+  if (question.prompt.text) {
+    const text = document.createElement("div");
+    setStemText(text, question.prompt.text);
+    promptBox.appendChild(text);
+  }
+
+  if (question.prompt.image) {
+    const img = document.createElement("img");
+    img.src = question.prompt.image;
+    img.className = "quiz-image";
+    promptBox.appendChild(img);
+  }
+
+  const wrapper = document.createElement("div");
+  wrapper.className = "drag-sentence";
+
+  const sentenceEl = document.createElement("div");
+  sentenceEl.className = "drag-sentence-line";
+  sentenceEl.setAttribute("role", "group");
+  sentenceEl.setAttribute("aria-label", "Sentence with blanks");
+
+  const bank = document.createElement("div");
+  bank.className = "sentence-bank";
+  bank.setAttribute("aria-label", "Word bank");
+
+  let blankIndex = 0;
+
+  question.sentence.forEach((part) => {
+    if (part === null) {
+      const blank = document.createElement("span");
+      blank.className = "sentence-blank";
+      blank.dataset.blankIndex = String(blankIndex);
+      blank.setAttribute("tabindex", "0");
+      blank.setAttribute("role", "button");
+      blank.setAttribute(
+        "aria-label",
+        `Blank ${blankIndex + 1}. Drop or tap a word here.`,
+      );
+      blankIndex += 1;
+
+      blank.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        if (!categoriesContainer.classList.contains("locked")) {
+          blank.classList.add("sentence-blank--dragover");
+        }
+      });
+
+      blank.addEventListener("dragleave", () => {
+        blank.classList.remove("sentence-blank--dragover");
+      });
+
+      blank.addEventListener("drop", (e) => {
+        e.preventDefault();
+        blank.classList.remove("sentence-blank--dragover");
+        if (categoriesContainer.classList.contains("locked")) return;
+
+        const value = e.dataTransfer.getData("text/plain");
+        const moving = findChipForDrop(value, bank);
+        if (moving) {
+          placeChipInBlank(moving, blank, bank);
+        }
+      });
+
+      blank.addEventListener("click", () => {
+        if (categoriesContainer.classList.contains("locked")) return;
+
+        if (selectedSentenceChip) {
+          placeChipInBlank(selectedSentenceChip, blank, bank);
+          return;
+        }
+
+        const placed = blank.querySelector(".sentence-chip");
+        if (placed) {
+          returnChipToBank(placed, bank);
+          updateDragSentenceCheckEnabled();
+        }
+      });
+
+      sentenceEl.appendChild(blank);
+    } else {
+      const text = document.createElement("span");
+      const isArrow = isSentenceArrow(part);
+      text.className = isArrow
+        ? "drag-sentence-arrow"
+        : "drag-sentence-text";
+      if (isArrow) {
+        text.setAttribute("aria-hidden", "true");
+        text.textContent = "→";
+      } else {
+        setStemText(text, part);
+      }
+      sentenceEl.appendChild(text);
+    }
+  });
+
+  question.bank.forEach((word) => {
+    bank.appendChild(createSentenceChip(word, bank));
+  });
+
+  wrapper.appendChild(sentenceEl);
+  wrapper.appendChild(bank);
+  categoriesContainer.appendChild(wrapper);
+
+  checkWorksheetBtn.style.display = "inline-block";
+  checkWorksheetBtn.disabled = true;
+}
+
 /* CATEGORIES */
 
 function createCategories(question) {
@@ -587,6 +1113,93 @@ function checkMultipleChoiceAnswer(option, question) {
   updateScoreDisplay();
 }
 
+/* DRUG WORKSHEET CHECK */
+
+function checkDrugWorksheetAnswer(selections, question) {
+  const misses = [];
+  let allCorrect = true;
+
+  question.fields.forEach((field) => {
+    const chosen = selections[field.id];
+    if (chosen !== field.answer) {
+      allCorrect = false;
+      misses.push(`${field.label}: ${field.answer}`);
+    }
+  });
+
+  if (!isExamMode()) {
+    applyWorksheetResultStyles(question, selections);
+  }
+
+  answeredCount++;
+
+  if (allCorrect) {
+    correctCount++;
+  } else {
+    wrongQuestions.push(question);
+  }
+
+  checkWorksheetBtn.style.display = "none";
+  checkWorksheetBtn.disabled = true;
+
+  if (isExamMode()) {
+    showExamAdvance(question);
+    updateScoreDisplay();
+    return;
+  }
+
+  if (allCorrect) {
+    showQuestionFeedback("Correct!", question, "correct");
+  } else {
+    showQuestionFeedback("Wrong!", question, "incorrect", null, misses);
+  }
+
+  updateScoreDisplay();
+}
+
+/* DRAG SENTENCE CHECK */
+
+function checkDragSentenceAnswer(selections, question) {
+  const misses = [];
+  let allCorrect = true;
+
+  question.blanks.forEach((answer, index) => {
+    if (selections[index] !== answer) {
+      allCorrect = false;
+      misses.push(`Blank ${index + 1}: ${answer}`);
+    }
+  });
+
+  if (!isExamMode()) {
+    applyDragSentenceResultStyles(question, selections);
+  }
+
+  answeredCount++;
+
+  if (allCorrect) {
+    correctCount++;
+  } else {
+    wrongQuestions.push(question);
+  }
+
+  checkWorksheetBtn.style.display = "none";
+  checkWorksheetBtn.disabled = true;
+
+  if (isExamMode()) {
+    showExamAdvance(question);
+    updateScoreDisplay();
+    return;
+  }
+
+  if (allCorrect) {
+    showQuestionFeedback("Correct!", question, "correct");
+  } else {
+    showQuestionFeedback("Wrong!", question, "incorrect", null, misses);
+  }
+
+  updateScoreDisplay();
+}
+
 /* SKIP */
 
 skipBtn.addEventListener("click", () => {
@@ -595,12 +1208,48 @@ skipBtn.addEventListener("click", () => {
   skippedCount++;
   skippedQuestions.push(question);
 
+  if (question.type === "drug_worksheet") {
+    revealWorksheetAnswers(question);
+    showQuestionFeedback(
+      "Skipped.",
+      question,
+      "skipped",
+      null,
+      formatWorksheetAnswerSummary(question),
+    );
+    return;
+  }
+
+  if (question.type === "drag_sentence") {
+    revealDragSentenceAnswers(question);
+    showQuestionFeedback(
+      "Skipped.",
+      question,
+      "skipped",
+      null,
+      formatDragSentenceAnswerSummary(question),
+    );
+    return;
+  }
+
   showQuestionFeedback(
     "Skipped.",
     question,
     "skipped",
     "Correct answer: " + question.answer,
   );
+});
+
+checkWorksheetBtn.addEventListener("click", () => {
+  if (checkWorksheetBtn.disabled) return;
+
+  const question = questions[current];
+  if (question.type === "drag_sentence") {
+    handleAnswer(getDragSentenceSelections());
+    return;
+  }
+
+  handleAnswer(getWorksheetSelections());
 });
 
 /* PROGRESS */
@@ -632,6 +1281,7 @@ function hideActiveQuizUI() {
   feedback.replaceChildren();
   feedback.classList.remove("show");
   continueBtn.style.display = "none";
+  checkWorksheetBtn.style.display = "none";
   skipBtn.style.display = "none";
 }
 
@@ -757,9 +1407,28 @@ function applySubjectTheme() {
   document.body.classList.add("subject-" + subjectKey);
 
   const loaderEmoji = document.querySelector(".science-emoji");
-  const emojis = { biology: "🧬", chemistry: "⚗️" };
+  const emojis = {
+    biology: "🧬",
+    chemistry: "⚗️",
+    emt: "🚑",
+    pharmacology: "💊",
+  };
   if (loaderEmoji) {
     loaderEmoji.textContent = emojis[subjectKey] || "🧪";
+  }
+
+  if (
+    typeof CatalogUtils !== "undefined" &&
+    CatalogUtils.isMedicalSubject(subjectKey) &&
+    !document.querySelector(".medical-disclaimer")
+  ) {
+    const footer = quizContent?.querySelector("footer");
+    const disclaimer = CatalogUtils.createMedicalDisclaimer({ compact: true });
+    if (footer) {
+      footer.prepend(disclaimer);
+    } else {
+      quizContent?.appendChild(disclaimer);
+    }
   }
 }
 
@@ -767,13 +1436,14 @@ function loadFavicon() {
   const subject = quizName.split("/")[0];
   const favicon = document.getElementById("favicon");
 
-  if (subject === "biology") {
-    favicon.href = "images/favicons/dna.svg";
-  } else if (subject === "chemistry") {
-    favicon.href = "images/favicons/chemistry.svg";
-  } else {
-    favicon.href = "";
-  }
+  const icons = {
+    biology: "images/favicons/dna.svg",
+    chemistry: "images/favicons/chemistry.svg",
+    emt: "images/favicons/emt.svg",
+    pharmacology: "images/favicons/pharmacology.svg",
+  };
+
+  favicon.href = icons[subject] || "";
 }
 
 /* START */

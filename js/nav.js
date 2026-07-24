@@ -14,6 +14,7 @@ const Nav = {
     this.renderHeader();
     this.renderBreadcrumbs();
     this.renderRecent();
+    this.standardizeFooters();
     this.updateSiteHeaderOffset();
     this.observeSiteHeader();
     window.addEventListener("resize", () => this.updateSiteHeaderOffset());
@@ -46,6 +47,50 @@ const Nav = {
     localStorage.setItem(RECENT_KEY, JSON.stringify(recent));
   },
 
+  collectCatalogQuizIds(catalog) {
+    const ids = new Set();
+    if (typeof CatalogUtils === "undefined") return ids;
+
+    const subjects = CatalogUtils.getSubjectsMap(catalog);
+    Object.entries(subjects).forEach(([subjectKey, subject]) => {
+      (subject.quizzes || []).forEach((quiz) => {
+        if (quiz?.id) ids.add(`${subjectKey}/${quiz.id}`);
+      });
+      (subject.units || []).forEach((unit) => {
+        (unit.quizzes || []).forEach((quiz) => {
+          if (quiz?.id) ids.add(`${subjectKey}/${quiz.id}`);
+        });
+      });
+    });
+
+    return ids;
+  },
+
+  async pruneRecentQuizzes() {
+    const recent = this.getRecentQuizzes();
+    if (!recent.length || typeof CatalogUtils === "undefined") {
+      return recent;
+    }
+
+    try {
+      const catalog = await CatalogUtils.loadCatalog();
+      const knownIds = this.collectCatalogQuizIds(catalog);
+      if (!knownIds.size) return recent;
+
+      const pruned = recent.filter((item) =>
+        knownIds.has(`${item.subject}/${item.id}`),
+      );
+
+      if (pruned.length !== recent.length) {
+        localStorage.setItem(RECENT_KEY, JSON.stringify(pruned));
+      }
+
+      return pruned;
+    } catch {
+      return recent;
+    }
+  },
+
   updateQuizCrumb(title) {
     const crumb = document.getElementById("crumb-quiz");
     if (crumb) {
@@ -55,7 +100,43 @@ const Nav = {
   },
 
   formatSubjectLabel(subject) {
+    if (!subject) return "";
+
+    const labels = {
+      biology: "Biology",
+      chemistry: "Chemistry",
+      emt: "Emergency Medicine",
+      pharmacology: "Pharmacology",
+    };
+
+    if (labels[subject]) return labels[subject];
     return subject.charAt(0).toUpperCase() + subject.slice(1);
+  },
+
+  standardizeFooters() {
+    const year = new Date().getFullYear();
+    const label = `STEM Study Buddy © ${year}`;
+
+    document.querySelectorAll("footer").forEach((footer) => {
+      let brand = footer.querySelector(".site-footer-brand");
+
+      if (!brand) {
+        const existing = [...footer.querySelectorAll("p")].find(
+          (p) => !p.classList.contains("medical-disclaimer"),
+        );
+
+        if (existing) {
+          brand = existing;
+          brand.classList.add("site-footer-brand");
+        } else {
+          brand = document.createElement("p");
+          brand.className = "site-footer-brand";
+          footer.appendChild(brand);
+        }
+      }
+
+      brand.textContent = label;
+    });
   },
 
   renderHeader() {
@@ -160,12 +241,12 @@ const Nav = {
     });
   },
 
-  renderRecent() {
+  async renderRecent() {
     const container = document.getElementById("recent-quizzes");
     if (!container) return;
 
     const subject = document.body.dataset.subject;
-    let recent = this.getRecentQuizzes();
+    let recent = await this.pruneRecentQuizzes();
 
     if (subject) {
       recent = recent.filter((item) => item.subject === subject);
@@ -192,8 +273,7 @@ const Nav = {
       link.className = "recent-item";
       link.href = `quiz.html?quiz=${item.subject}/${item.id}`;
 
-      const subjectLabel =
-        item.subject.charAt(0).toUpperCase() + item.subject.slice(1);
+      const subjectLabel = this.formatSubjectLabel(item.subject);
       link.innerHTML = `
         <span class="recent-item-title">${item.title.replace(/ Quiz$/, "")}</span>
         <span class="recent-item-meta">${subjectLabel}</span>

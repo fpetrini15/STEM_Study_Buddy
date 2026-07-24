@@ -1,0 +1,359 @@
+{
+  "title": "Drug Worksheets Quiz",
+  "questions": [
+    {
+      "type": "drug_worksheet",
+      "prompt": {
+        "text": "Acetaminophen"
+      },
+      "fields": [
+        {
+          "id": "brand",
+          "label": "Brand name",
+          "options": ["Tylenol", "Advil", "Prinivil", "Ventolin"],
+          "answer": "Tylenol"
+        },
+        {
+          "id": "class",
+          "label": "Drug class",
+          "options": [
+            "Analgesic / antipyretic",
+            "NSAID",
+            "ACE inhibitor",
+            "Short-acting beta-2 agonist"
+          ],
+          "answer": "Analgesic / antipyretic"
+        },
+        {
+          "id": "moa",
+          "label": "Drug MOA",
+          "options": [
+            "Inhibits prostaglandin synthesis in the CNS",
+            "Nonselective COX-1/COX-2 inhibition",
+            "Inhibits angiotensin-converting enzyme",
+            "Stimulates beta-2 receptors in airway smooth muscle"
+          ],
+          "answer": "Inhibits prostaglandin synthesis in the CNS"
+        },
+        {
+          "id": "indications",
+          "label": "Indications",
+          "options": [
+            "Mild–moderate pain and fever",
+            "Hypertension and heart failure",
+            "Acute bronchospasm",
+            "Hyperlipidemia"
+          ],
+          "answer": "Mild–moderate pain and fever"
+        },
+        {
+          "id": "contraindications",
+          "label": "Contraindications",
+          "options": [
+            "Severe hepatic impairment / active liver disease",
+            "Pregnancy (especially 2nd/3rd trimester ACEI risk)",
+            "Uncontrolled asthma as sole therapy for status",
+            "Active GI bleed only"
+          ],
+          "answer": "Severe hepatic impairment / active liver disease"
+        }
+      ],
+      "explanation": "Acetaminophen (Tylenol) reduces pain and fever via central prostaglandin inhibition and is preferred when NSAIDs are unsuitable, but overdose risks serious liver injury."
+    },
+    {
+      "type": "drug_worksheet",
+      "prompt": {
+        "text": "Ibuprofen"
+      },
+      "fields": [
+        {
+          "id": "brand",
+          "label": "Brand name",
+          "options": ["Advil / Motrin", "Tylenol", "Lopressor", "Lipitor"],
+          "answer": "Advil / Motrin"
+        },
+        {
+          "id": "class",
+          "label": "Drug class",
+          "options": [
+            "NSAID",
+            "Analgesic / antipyretic",
+            "Beta-blocker",
+            "Statin"
+          ],
+          "answer": "NSAID"
+        },
+        {
+          "id": "moa",
+          "label": "Drug MOA",
+          "options": [
+            "Nonselective COX-1/COX-2 inhibition",
+            "Inhibits prostaglandin synthesis in the CNS",
+            "Selective beta-1 adrenergic blockade",
+            "HMG-CoA reductase inhibition"
+          ],
+          "answer": "Nonselective COX-1/COX-2 inhibition"
+        },
+        {
+          "id": "indications",
+          "label": "Indications",
+          "options": [
+            "Pain, inflammation, and fever",
+            "Hypertension and angina",
+            "Mild–moderate pain without anti-inflammatory effect",
+            "Asthma rescue therapy"
+          ],
+          "answer": "Pain, inflammation, and fever"
+        },
+        {
+          "id": "contraindications",
+          "label": "Contraindications",
+          "options": [
+            "Active GI bleeding; late pregnancy; significant renal impairment",
+            "Severe hepatic impairment only",
+            "Pregnancy for all ACE inhibitors",
+            "Bradycardia and AV block"
+          ],
+          "answer": "Active GI bleeding; late pregnancy; significant renal impairment"
+        }
+      ],
+      "explanation": "Ibuprofen is a nonselective NSAID used for pain and inflammation; GI, renal, and late-pregnancy risks are key safety points."
+    },
+    {
+      "type": "drug_worksheet",
+      "prompt": {
+        "text": "Lisinopril"
+      },
+      "fields": [
+        {
+          "id": "brand",
+          "label": "Brand name",
+          "options": ["Prinivil / Zestril", "Tylenol", "ProAir", "Bayer Aspirin"],
+          "answer": "Prinivil / Zestril"
+        },
+        {
+          "id": "class",
+          "label": "Drug class",
+          "options": [
+            "ACE inhibitor",
+            "NSAID",
+            "Beta-blocker",
+            "Short-acting beta-2 agonist"
+          ],
+          "answer": "ACE inhibitor"
+        },
+        {
+          "id": "moa",
+          "label": "Drug MOA",
+          "options": [
+            "Inhibits angiotensin-converting enzyme",
+            "Nonselective COX-1/COX-2 inhibition",
+            "Selective beta-1 adrenergic blockade",
+            "Stimulates beta-2 receptors in airway smooth muscle"
+          ],
+          "answer": "Inhibits angiotensin-converting enzyme"
+        },
+        {
+          "id": "indications",
+          "label": "Indications",
+          "options": [
+            "Hypertension, heart failure, post-MI",
+            "Mild–moderate pain and fever",
+            "Acute bronchospasm",
+            "Hyperlipidemia"
+          ],
+          "answer": "Hypertension, heart failure, post-MI"
+        },
+        {
+          "id": "contraindications",
+          "label": "Contraindications",
+          "options": [
+            "Pregnancy; history of ACEI-related angioedema",
+            "Severe hepatic impairment / active liver disease",
+            "Active GI bleeding",
+            "Uncontrolled tachyarrhythmia only"
+          ],
+          "answer": "Pregnancy; history of ACEI-related angioedema"
+        }
+      ],
+      "explanation": "Lisinopril blocks ACE to lower angiotensin II; it is first-line for many cardiovascular indications but is contraindicated in pregnancy and prior angioedema."
+    },
+    {
+      "type": "drug_worksheet",
+      "prompt": {
+        "text": "Metoprolol"
+      },
+      "fields": [
+        {
+          "id": "brand",
+          "label": "Brand name",
+          "options": ["Lopressor / Toprol XL", "Advil", "Ventolin", "Lipitor"],
+          "answer": "Lopressor / Toprol XL"
+        },
+        {
+          "id": "class",
+          "label": "Drug class",
+          "options": [
+            "Beta-blocker (beta-1 selective)",
+            "ACE inhibitor",
+            "NSAID",
+            "Statin"
+          ],
+          "answer": "Beta-blocker (beta-1 selective)"
+        },
+        {
+          "id": "moa",
+          "label": "Drug MOA",
+          "options": [
+            "Selective beta-1 adrenergic blockade",
+            "Inhibits angiotensin-converting enzyme",
+            "HMG-CoA reductase inhibition",
+            "Inhibits prostaglandin synthesis in the CNS"
+          ],
+          "answer": "Selective beta-1 adrenergic blockade"
+        },
+        {
+          "id": "indications",
+          "label": "Indications",
+          "options": [
+            "Hypertension, angina, heart failure, rate control",
+            "Mild–moderate pain and fever",
+            "Acute bronchospasm",
+            "Hyperlipidemia"
+          ],
+          "answer": "Hypertension, angina, heart failure, rate control"
+        },
+        {
+          "id": "contraindications",
+          "label": "Contraindications",
+          "options": [
+            "Severe bradycardia, high-degree AV block, decompensated shock",
+            "Pregnancy; ACEI angioedema history",
+            "Active GI bleeding",
+            "Severe hepatic impairment only"
+          ],
+          "answer": "Severe bradycardia, high-degree AV block, decompensated shock"
+        }
+      ],
+      "explanation": "Metoprolol is a cardioselective beta-blocker used for blood pressure, ischemia, and heart rate control; avoid in severe bradyarrhythmias and acute decompensated shock."
+    },
+    {
+      "type": "drug_worksheet",
+      "prompt": {
+        "text": "Albuterol"
+      },
+      "fields": [
+        {
+          "id": "brand",
+          "label": "Brand name",
+          "options": ["ProAir / Ventolin", "Tylenol", "Prinivil", "Lopressor"],
+          "answer": "ProAir / Ventolin"
+        },
+        {
+          "id": "class",
+          "label": "Drug class",
+          "options": [
+            "Short-acting beta-2 agonist (SABA)",
+            "ACE inhibitor",
+            "NSAID",
+            "Analgesic / antipyretic"
+          ],
+          "answer": "Short-acting beta-2 agonist (SABA)"
+        },
+        {
+          "id": "moa",
+          "label": "Drug MOA",
+          "options": [
+            "Stimulates beta-2 receptors in airway smooth muscle",
+            "Inhibits angiotensin-converting enzyme",
+            "Nonselective COX-1/COX-2 inhibition",
+            "Selective beta-1 adrenergic blockade"
+          ],
+          "answer": "Stimulates beta-2 receptors in airway smooth muscle"
+        },
+        {
+          "id": "indications",
+          "label": "Indications",
+          "options": [
+            "Acute bronchospasm (asthma / COPD rescue)",
+            "Hypertension and heart failure",
+            "Mild–moderate pain and fever",
+            "Hyperlipidemia"
+          ],
+          "answer": "Acute bronchospasm (asthma / COPD rescue)"
+        },
+        {
+          "id": "contraindications",
+          "label": "Contraindications",
+          "options": [
+            "Hypersensitivity to albuterol; caution in tachyarrhythmias",
+            "Pregnancy; ACEI angioedema history",
+            "Severe hepatic impairment / active liver disease",
+            "Active GI bleeding; late pregnancy NSAID risk"
+          ],
+          "answer": "Hypersensitivity to albuterol; caution in tachyarrhythmias"
+        }
+      ],
+      "explanation": "Albuterol is a SABA rescue inhaler that relaxes bronchial smooth muscle; watch for tremor, tachycardia, and arrhythmia risk with overuse."
+    },
+    {
+      "type": "drug_worksheet",
+      "prompt": {
+        "text": "Atorvastatin"
+      },
+      "fields": [
+        {
+          "id": "brand",
+          "label": "Brand name",
+          "options": ["Lipitor", "Advil", "Zestril", "Tylenol"],
+          "answer": "Lipitor"
+        },
+        {
+          "id": "class",
+          "label": "Drug class",
+          "options": [
+            "Statin (HMG-CoA reductase inhibitor)",
+            "NSAID",
+            "ACE inhibitor",
+            "Beta-blocker"
+          ],
+          "answer": "Statin (HMG-CoA reductase inhibitor)"
+        },
+        {
+          "id": "moa",
+          "label": "Drug MOA",
+          "options": [
+            "HMG-CoA reductase inhibition",
+            "Nonselective COX-1/COX-2 inhibition",
+            "Inhibits angiotensin-converting enzyme",
+            "Selective beta-1 adrenergic blockade"
+          ],
+          "answer": "HMG-CoA reductase inhibition"
+        },
+        {
+          "id": "indications",
+          "label": "Indications",
+          "options": [
+            "Hyperlipidemia and atherosclerotic risk reduction",
+            "Acute bronchospasm",
+            "Mild–moderate pain and fever",
+            "Rate control in atrial fibrillation only"
+          ],
+          "answer": "Hyperlipidemia and atherosclerotic risk reduction"
+        },
+        {
+          "id": "contraindications",
+          "label": "Contraindications",
+          "options": [
+            "Active liver disease; pregnancy / breastfeeding",
+            "Severe bradycardia and high-degree AV block",
+            "ACEI-related angioedema history",
+            "Active GI bleeding"
+          ],
+          "answer": "Active liver disease; pregnancy / breastfeeding"
+        }
+      ],
+      "explanation": "Atorvastatin lowers LDL by blocking HMG-CoA reductase; it is a cornerstone of lipid therapy but is contraindicated in active liver disease and pregnancy."
+    }
+  ]
+}

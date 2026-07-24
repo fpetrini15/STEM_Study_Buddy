@@ -1,0 +1,125 @@
+{
+  "title": "Primary Assessment Quiz",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In the primary survey, what does ABC stand for?"
+      },
+      "options": [
+        "Airway, Breathing, Circulation",
+        "Alert, Blood pressure, Cap refill",
+        "Assess, Bandage, Carry",
+        "Airway, Blood loss, Consciousness"
+      ],
+      "answer": "Airway, Breathing, Circulation",
+      "explanation": "Primary assessment prioritizes life threats in order: airway, breathing, then circulation."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which SAMPLE letter asks about the patient's medications?"
+      },
+      "options": ["S", "A", "M", "E"],
+      "answer": "M",
+      "explanation": "SAMPLE: Signs/Symptoms, Allergies, Medications, Past history, Last oral intake, Events leading up."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "OPQRST is most often used to assess which complaint?"
+      },
+      "options": ["Pain or discomfort", "Allergies", "Medications", "Last oral intake"],
+      "answer": "Pain or discomfort",
+      "explanation": "OPQRST (Onset, Provocation/Palliation, Quality, Region/Radiation, Severity, Time) structures a pain history."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A patient who opens eyes only to pain, speaks confused words, and localizes pain has which AVPU level?"
+      },
+      "options": ["Alert", "Verbal", "Pain", "Unresponsive"],
+      "answer": "Pain",
+      "explanation": "AVPU: Alert, responds to Verbal stimuli, responds to Pain, or Unresponsive. Response only to pain is P."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the first priority if a trauma patient has an obstructed airway?"
+      },
+      "options": [
+        "Open and clear the airway",
+        "Start an IV",
+        "Obtain a full SAMPLE history",
+        "Splint all fractures"
+      ],
+      "answer": "Open and clear the airway",
+      "explanation": "Life-threatening airway problems are corrected immediately before moving further in the primary survey."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Capillary refill that is delayed (greater than about 2 seconds) in an adult most strongly suggests:"
+      },
+      "options": [
+        "Poor peripheral perfusion",
+        "High blood sugar",
+        "An allergic reaction",
+        "A broken bone"
+      ],
+      "answer": "Poor peripheral perfusion",
+      "explanation": "Delayed capillary refill can indicate shock or reduced peripheral blood flow and should be interpreted with the full clinical picture."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In SAMPLE, what does the L stand for?"
+      },
+      "options": [
+        "Last oral intake",
+        "Lung sounds",
+        "Level of consciousness",
+        "Lower extremity pulse"
+      ],
+      "answer": "Last oral intake",
+      "explanation": "Last oral intake helps with airway risk, hypoglycemia concerns, and hospital planning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which OPQRST question asks whether anything makes the pain better or worse?"
+      },
+      "options": ["Provocation/Palliation", "Quality", "Region", "Severity"],
+      "answer": "Provocation/Palliation",
+      "explanation": "Provocation asks what makes it worse; palliation asks what makes it better."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "During circulation assessment in the primary survey, which finding is most concerning for shock?"
+      },
+      "options": [
+        "Cool, pale, diaphoretic skin with a weak rapid pulse",
+        "Warm dry skin with a strong regular pulse",
+        "Pink skin with capillary refill under 2 seconds",
+        "A patient who is alert and oriented ×4"
+      ],
+      "answer": "Cool, pale, diaphoretic skin with a weak rapid pulse",
+      "explanation": "Cool/clammy skin and a weak tachycardic pulse are classic perfusion findings associated with shock."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "After the primary survey, what is the purpose of the secondary assessment?"
+      },
+      "options": [
+        "Perform a more detailed history and focused physical exam",
+        "Replace ABC with SAMPLE",
+        "Decide whether transport is needed",
+        "Stop all monitoring once ABCs are intact"
+      ],
+      "answer": "Perform a more detailed history and focused physical exam",
+      "explanation": "Secondary assessment expands history (SAMPLE/OPQRST) and examines the patient more thoroughly after immediate life threats are addressed."
+    }
+  ]
+}

@@ -1,7 +1,12 @@
 const fs = require("fs");
 const path = require("path");
 
-const VALID_TYPES = new Set(["drag_and_drop", "multiple_choice"]);
+const VALID_TYPES = new Set([
+  "drag_and_drop",
+  "multiple_choice",
+  "drug_worksheet",
+  "drag_sentence",
+]);
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -34,6 +39,93 @@ function validateQuestion(filePath, quiz, question, index) {
 
   if (!question.prompt || (!question.prompt.text && !question.prompt.image)) {
     errors.push(`${label}: prompt.text or prompt.image is required.`);
+  }
+
+  if (question.type === "drug_worksheet") {
+    if (!Array.isArray(question.fields) || question.fields.length === 0) {
+      errors.push(`${label}: drug_worksheet fields are required.`);
+    } else {
+      question.fields.forEach((field, fieldIndex) => {
+        const fieldLabel = `${label} field ${fieldIndex + 1}`;
+        if (!field || typeof field !== "object") {
+          errors.push(`${fieldLabel}: must be an object.`);
+          return;
+        }
+        if (typeof field.id !== "string" || field.id.length === 0) {
+          errors.push(`${fieldLabel}: id must be a non-empty string.`);
+        }
+        if (typeof field.label !== "string" || field.label.length === 0) {
+          errors.push(`${fieldLabel}: label must be a non-empty string.`);
+        }
+        if (!Array.isArray(field.options) || field.options.length === 0) {
+          errors.push(`${fieldLabel}: options are required.`);
+        } else if (
+          typeof field.answer !== "string" ||
+          !field.options.includes(field.answer)
+        ) {
+          errors.push(
+            `${fieldLabel}: answer must be a non-empty string present in options.`,
+          );
+        }
+      });
+    }
+    return errors;
+  }
+
+  if (question.type === "drag_sentence") {
+    if (!Array.isArray(question.sentence) || question.sentence.length === 0) {
+      errors.push(`${label}: drag_sentence sentence is required.`);
+    }
+    if (!Array.isArray(question.blanks) || question.blanks.length === 0) {
+      errors.push(`${label}: drag_sentence blanks are required.`);
+    }
+    if (!Array.isArray(question.bank) || question.bank.length === 0) {
+      errors.push(`${label}: drag_sentence bank is required.`);
+    }
+
+    if (
+      Array.isArray(question.sentence) &&
+      Array.isArray(question.blanks)
+    ) {
+      const blankSlots = question.sentence.filter((part) => part === null).length;
+      if (blankSlots !== question.blanks.length) {
+        errors.push(
+          `${label}: sentence has ${blankSlots} blank(s) but blanks has ${question.blanks.length} answer(s).`,
+        );
+      }
+
+      question.sentence.forEach((part, partIndex) => {
+        if (part !== null && typeof part !== "string") {
+          errors.push(
+            `${label}: sentence[${partIndex}] must be a string or null.`,
+          );
+        }
+      });
+    }
+
+    if (Array.isArray(question.bank) && Array.isArray(question.blanks)) {
+      question.blanks.forEach((blank, blankIndex) => {
+        if (typeof blank !== "string" || blank.length === 0) {
+          errors.push(
+            `${label}: blanks[${blankIndex}] must be a non-empty string.`,
+          );
+        } else if (!question.bank.includes(blank)) {
+          errors.push(
+            `${label}: blanks[${blankIndex}] "${blank}" is not in bank.`,
+          );
+        }
+      });
+
+      question.bank.forEach((word, wordIndex) => {
+        if (typeof word !== "string" || word.length === 0) {
+          errors.push(
+            `${label}: bank[${wordIndex}] must be a non-empty string.`,
+          );
+        }
+      });
+    }
+
+    return errors;
   }
 
   if (typeof question.answer !== "string" || question.answer.length === 0) {

@@ -35,6 +35,7 @@ Change colors here only
   --site-header-gap: 16px;
 
   --font-ui: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+  --font-study: "Literata", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --font-stem: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", serif;
 
   --bg-hero-wash: rgba(79, 124, 255, 0.16);
@@ -82,6 +83,42 @@ body.subject-chemistry {
   --progress-track-border: rgba(124, 92, 191, 0.35);
 }
 
+body.subject-emt {
+  --primary: #c45c4a;
+  --primary-light: #d97866;
+
+  --bg: #fbf4f2;
+
+  --border: #e5cfc9;
+
+  --bg-hero-wash: rgba(196, 92, 74, 0.16);
+  --bg-hero-wash-mid: rgba(196, 92, 74, 0.06);
+
+  --emt-ekg-pattern: url("../images/backgrounds/emt-ekg-light.svg");
+  --emt-ekg-size: 280px 160px;
+
+  --progress-track: #e0b8b0;
+  --progress-track-border: rgba(196, 92, 74, 0.3);
+}
+
+body.subject-pharmacology {
+  --primary: #4a5f9e;
+  --primary-light: #6678b5;
+
+  --bg: #f3f4f9;
+
+  --border: #c8cde0;
+
+  --bg-hero-wash: rgba(74, 95, 158, 0.16);
+  --bg-hero-wash-mid: rgba(74, 95, 158, 0.06);
+
+  --pharm-molecule-pattern: url("../images/backgrounds/pharm-molecules-light.svg");
+  --pharm-molecule-size: 260px 200px;
+
+  --progress-track: #b8bfd6;
+  --progress-track-border: rgba(74, 95, 158, 0.3);
+}
+
 .subject-card--biology {
   --card-primary: #2d9f6f;
   --card-primary-light: #47b888;
@@ -90,6 +127,16 @@ body.subject-chemistry {
 .subject-card--chemistry {
   --card-primary: #7c5cbf;
   --card-primary-light: #9575d4;
+}
+
+.subject-card--emt {
+  --card-primary: #c45c4a;
+  --card-primary-light: #d97866;
+}
+
+.subject-card--pharmacology {
+  --card-primary: #4a5f9e;
+  --card-primary-light: #6678b5;
 }
 
 .subject-card--biology .btn,
@@ -108,6 +155,44 @@ body.subject-chemistry {
     var(--card-primary),
     var(--card-primary-light)
   );
+}
+
+.subject-card--emt .btn,
+.subject-card--emt .card-link {
+  background: linear-gradient(
+    135deg,
+    var(--card-primary),
+    var(--card-primary-light)
+  );
+}
+
+.subject-card--pharmacology .btn,
+.subject-card--pharmacology .card-link {
+  background: linear-gradient(
+    135deg,
+    var(--card-primary),
+    var(--card-primary-light)
+  );
+}
+
+.subject-card .btn-disabled,
+.subject-card .btn:disabled {
+  background: #ccc;
+
+  color: #fff;
+
+  cursor: not-allowed;
+
+  box-shadow: none;
+
+  transform: none;
+}
+
+.subject-card .btn-disabled:hover,
+.subject-card .btn:disabled:hover,
+.subject-card .btn-disabled:active,
+.subject-card .btn:disabled:active {
+  transform: none;
 }
 
 /* =========================
@@ -177,6 +262,32 @@ body[data-page="subject"].subject-chemistry {
     var(--chem-hex-pattern), var(--bg);
 
   background-size: auto, var(--chem-hex-size), auto;
+}
+
+body[data-page="subject"].subject-emt {
+  background:
+    linear-gradient(
+      180deg,
+      var(--bg-hero-wash) 0%,
+      var(--bg-hero-wash-mid) 30%,
+      transparent 55%
+    ),
+    var(--emt-ekg-pattern), var(--bg);
+
+  background-size: auto, var(--emt-ekg-size), auto;
+}
+
+body[data-page="subject"].subject-pharmacology {
+  background:
+    linear-gradient(
+      180deg,
+      var(--bg-hero-wash) 0%,
+      var(--bg-hero-wash-mid) 30%,
+      transparent 55%
+    ),
+    var(--pharm-molecule-pattern), var(--bg);
+
+  background-size: auto, var(--pharm-molecule-size), auto;
 }
 
 .stem-text {
@@ -266,6 +377,8 @@ SITE HEADER
 }
 
 .site-logo {
+  font-family: var(--font-ui);
+
   font-size: 17px;
 
   font-weight: 700;
@@ -287,6 +400,8 @@ SITE HEADER
   flex-wrap: wrap;
 
   gap: 8px;
+
+  font-family: var(--font-ui);
 
   font-size: 14px;
 
@@ -357,6 +472,54 @@ SITE HEADER
   font-size: 22px;
 
   font-weight: 600;
+}
+
+.home-sections {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 48px;
+
+  margin-bottom: 24px;
+}
+
+.home-section-title {
+  margin-bottom: 20px;
+}
+
+.home-section .subject-grid {
+  margin-top: 0;
+}
+
+.medical-disclaimer {
+  max-width: 760px;
+
+  margin: 0 auto 28px;
+
+  padding: 14px 18px;
+
+  font-size: 13px;
+
+  line-height: 1.5;
+
+  color: var(--text-light);
+
+  text-align: center;
+
+  background: color-mix(in srgb, var(--primary) 6%, var(--card-bg));
+
+  border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--border));
+
+  border-radius: var(--radius-sm);
+}
+
+.medical-disclaimer--compact {
+  margin: 16px auto 0;
+
+  padding: 10px 14px;
+
+  font-size: 12px;
 }
 
 .recent-section {
@@ -533,6 +696,25 @@ SITE HEADER
 TYPOGRAPHY
 ========================= */
 
+h1,
+h2,
+h3,
+.section-title,
+.quiz-unit-title,
+.hero p,
+.subject-card > p:not(.quiz-meta),
+.medical-disclaimer,
+.recent-item-title,
+.recent-item-meta,
+.mode-screen,
+.mode-card,
+.mode-badge,
+#quizHeader,
+.question-progress,
+#instruction-text {
+  font-family: var(--font-study);
+}
+
 h1 {
   font-size: 40px;
 
@@ -559,6 +741,11 @@ p {
   color: var(--text-light);
 
   line-height: 1.55;
+}
+
+.section-title,
+.quiz-unit-title {
+  font-weight: 600;
 }
 
 /* =========================
@@ -602,6 +789,8 @@ SUBJECT GRID
 
   max-width: 320px;
 
+  min-width: 0;
+
   box-shadow: var(--shadow-card);
 
   transition: var(--transition);
@@ -623,6 +812,20 @@ SUBJECT GRID
   font-size: 42px;
 
   margin-bottom: 10px;
+}
+
+.subject-icon-img {
+  display: block;
+
+  width: 52px;
+
+  height: 52px;
+
+  margin: 0 auto;
+
+  border-radius: 12px;
+
+  object-fit: contain;
 }
 
 .quiz-meta {
@@ -702,6 +905,10 @@ BUTTON SYSTEM
 
 .btn-full {
   width: 100%;
+
+  min-width: 0;
+
+  box-sizing: border-box;
 }
 
 .btn-small {
@@ -721,11 +928,23 @@ BUTTON SYSTEM
   transform: none;
 }
 
-.btn-disabled {
+.btn-disabled,
+.btn:disabled {
   background: #ccc;
+
+  color: #fff;
 
   cursor: not-allowed;
 
+  box-shadow: none;
+
+  transform: none;
+}
+
+.btn-disabled:hover,
+.btn:disabled:hover,
+.btn-disabled:active,
+.btn:disabled:active {
   transform: none;
 }
 
@@ -804,9 +1023,11 @@ QUIZ AREA
 
   width: 100%;
 
-  font-size: 20px;
+  font-family: var(--font-study);
 
-  font-weight: 500;
+  font-size: 22px;
+
+  font-weight: 600;
 
   text-align: center;
 
@@ -830,9 +1051,11 @@ QUIZ AREA
 }
 
 .draggable-text {
+  font-family: var(--font-study);
+
   font-size: 20px;
 
-  font-weight: 500;
+  font-weight: 600;
 
   line-height: 1.4;
 }
@@ -1083,6 +1306,8 @@ FEEDBACK
 .feedback-main {
   margin: 0;
 
+  font-family: var(--font-study);
+
   font-size: 17px;
 
   font-weight: 600;
@@ -1126,6 +1351,8 @@ FEEDBACK
   padding-top: 14px;
 
   border-top: 1px solid var(--border);
+
+  font-family: var(--font-study);
 
   font-size: 15px;
 
@@ -1175,6 +1402,8 @@ FEEDBACK
 
   padding: 18px 20px;
 
+  font-family: var(--font-study);
+
   text-align: left;
 
   background: white;
@@ -1195,12 +1424,18 @@ FEEDBACK
 
   margin-bottom: 6px;
 
+  font-family: inherit;
+
   font-size: 17px;
+
+  font-weight: 600;
 
   color: var(--text);
 }
 
 .mode-card span {
+  font-family: inherit;
+
   font-size: 14px;
 
   line-height: 1.45;
@@ -1416,7 +1651,11 @@ MOBILE
 
   padding: 18px;
 
+  font-family: var(--font-study);
+
   font-size: 18px;
+
+  font-weight: 500;
 
   background: white;
 
@@ -1449,6 +1688,412 @@ MOBILE
   border-color: var(--incorrect);
 
   background: #ffecec;
+}
+
+.categories.categories--worksheet {
+  display: block;
+
+  max-width: 720px;
+
+  margin: 24px auto 0;
+}
+
+.drug-worksheet {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+
+  text-align: left;
+}
+
+.drug-worksheet-row {
+  padding: 14px 16px;
+
+  border: 1px solid transparent;
+
+  border-radius: var(--radius-md);
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.drug-worksheet-row--correct {
+  background: #eafff3;
+
+  border-color: rgba(40, 199, 111, 0.35);
+}
+
+.drug-worksheet-row--incorrect {
+  background: #fffafa;
+
+  border-color: rgba(255, 77, 79, 0.35);
+}
+
+.drug-worksheet-label {
+  margin-bottom: 10px;
+
+  font-family: var(--font-study);
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  color: var(--text);
+}
+
+.drug-worksheet-options {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+
+.drug-worksheet-option {
+  width: auto;
+
+  max-width: none;
+
+  flex: 1 1 calc(50% - 10px);
+
+  margin: 0;
+
+  padding: 12px 14px;
+
+  font-size: 15px;
+
+  text-align: left;
+}
+
+.drug-worksheet-option.selected {
+  border-color: var(--primary);
+
+  background: color-mix(in srgb, var(--primary) 12%, white);
+
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--primary) 35%, transparent);
+}
+
+.drug-worksheet-option.selected.correct,
+.drug-worksheet-option.correct {
+  border-color: var(--correct);
+
+  background: #eafff3;
+
+  box-shadow: none;
+}
+
+.drug-worksheet-option.selected.incorrect,
+.drug-worksheet-option.incorrect {
+  border-color: var(--incorrect);
+
+  background: #ffecec;
+
+  box-shadow: none;
+}
+
+.drug-worksheet-option:hover {
+  transform: none;
+}
+
+/* =========================
+DRAG SENTENCE
+========================= */
+
+.categories.categories--sentence {
+  display: block;
+
+  max-width: 760px;
+
+  margin: 24px auto 0;
+}
+
+.drag-sentence {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 22px;
+
+  text-align: center;
+}
+
+.drag-sentence-line {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 6px 8px;
+
+  padding: 18px 20px;
+
+  font-family: var(--font-study);
+
+  font-size: 18px;
+
+  font-weight: 500;
+
+  line-height: 1.7;
+
+  color: var(--text);
+
+  background: color-mix(in srgb, var(--primary) 6%, transparent);
+
+  border: 1px solid color-mix(in srgb, var(--primary) 22%, var(--border));
+
+  border-radius: var(--radius-md);
+}
+
+.drag-sentence-text {
+  white-space: pre-wrap;
+}
+
+.drag-sentence-arrow {
+  display: inline-flex;
+
+  align-items: center;
+
+  padding: 0 10px;
+
+  font-size: 18px;
+
+  font-weight: 600;
+
+  line-height: 1;
+
+  color: #000;
+
+  user-select: none;
+}
+
+.sentence-blank {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  min-width: 140px;
+
+  min-height: 42px;
+
+  padding: 4px 6px;
+
+  vertical-align: middle;
+
+  background: color-mix(in srgb, var(--card-bg, #fff) 88%, transparent);
+
+  border: 2px dashed color-mix(in srgb, var(--primary) 45%, var(--border));
+
+  border-radius: var(--radius-sm);
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.sentence-blank:hover,
+.sentence-blank:focus-visible {
+  border-color: var(--primary);
+
+  outline: none;
+}
+
+.sentence-blank--dragover {
+  border-color: var(--primary);
+
+  background: color-mix(in srgb, var(--primary) 14%, transparent);
+
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--primary) 25%, transparent);
+}
+
+.sentence-blank--correct {
+  border-style: solid;
+
+  border-color: var(--correct);
+
+  background: #eafff3;
+}
+
+.sentence-blank--incorrect {
+  border-style: solid;
+
+  border-color: var(--incorrect);
+
+  background: #ffecec;
+}
+
+.sentence-bank {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  justify-content: center;
+}
+
+.sentence-chip {
+  appearance: none;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  max-width: 100%;
+
+  padding: 10px 14px;
+
+  font-family: var(--font-study);
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  line-height: 1.3;
+
+  color: var(--text);
+
+  text-align: center;
+
+  cursor: grab;
+
+  background: var(--card-bg, #fff);
+
+  border: 1px solid color-mix(in srgb, var(--primary) 35%, var(--border));
+
+  border-radius: var(--radius-sm);
+
+  box-shadow: var(--shadow-card);
+
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    background 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.sentence-chip:hover {
+  border-color: var(--primary);
+
+  transform: translateY(-1px);
+}
+
+.sentence-chip:focus-visible {
+  outline: 2px solid var(--primary);
+
+  outline-offset: 2px;
+}
+
+.sentence-chip--selected {
+  border-color: var(--primary);
+
+  background: color-mix(in srgb, var(--primary) 12%, white);
+
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--primary) 30%, transparent);
+}
+
+.sentence-chip--dragging {
+  opacity: 0.55;
+
+  cursor: grabbing;
+}
+
+.sentence-chip--placed {
+  width: 100%;
+
+  cursor: pointer;
+
+  box-shadow: none;
+}
+
+.sentence-blank .sentence-chip {
+  border-style: solid;
+}
+
+@media (max-width: 640px) {
+  .drag-sentence-line {
+    font-size: 16px;
+
+    padding: 14px 14px;
+  }
+
+  .sentence-blank {
+    min-width: 120px;
+
+    min-height: 38px;
+  }
+
+  .sentence-chip {
+    font-size: 14px;
+
+    padding: 9px 12px;
+  }
+}
+
+[data-theme="dark"] .drag-sentence-line {
+  background: color-mix(in srgb, var(--primary-light) 10%, transparent);
+
+  border-color: color-mix(in srgb, var(--primary-light) 35%, var(--border));
+}
+
+[data-theme="dark"] .drag-sentence-arrow {
+  color: #fff;
+}
+
+[data-theme="dark"] .sentence-blank {
+  background: color-mix(in srgb, var(--card-bg) 70%, transparent);
+
+  border-color: color-mix(in srgb, var(--primary-light) 45%, var(--border));
+}
+
+[data-theme="dark"] .sentence-blank--dragover {
+  background: color-mix(in srgb, var(--primary-light) 18%, transparent);
+}
+
+[data-theme="dark"] .sentence-blank--correct {
+  background: color-mix(in srgb, var(--correct) 14%, transparent);
+
+  border-color: color-mix(in srgb, var(--correct) 45%, var(--border));
+}
+
+[data-theme="dark"] .sentence-blank--incorrect {
+  background: color-mix(in srgb, var(--incorrect) 12%, transparent);
+
+  border-color: color-mix(in srgb, var(--incorrect) 45%, var(--border));
+}
+
+[data-theme="dark"] .sentence-chip {
+  background: var(--card-bg);
+
+  border-color: color-mix(in srgb, var(--primary-light) 40%, var(--border));
+}
+
+[data-theme="dark"] .sentence-chip--selected {
+  background: color-mix(in srgb, var(--primary) 22%, var(--card-bg));
+}
+
+.quiz-feedback-list {
+  margin: 14px 0 0;
+
+  padding: 0 0 0 20px;
+
+  font-family: var(--font-study);
+
+  color: var(--text);
+
+  line-height: 1.55;
+
+  text-align: left;
 }
 
 /* =========================
@@ -1726,6 +2371,38 @@ DARK MODE
   --progress-fill-end: #d0b8f8;
 }
 
+[data-theme="dark"] body.subject-emt {
+  --bg: #3a302e;
+
+  --border: #5c4a46;
+
+  --bg-hero-wash: rgba(196, 92, 74, 0.14);
+  --bg-hero-wash-mid: rgba(196, 92, 74, 0.06);
+
+  --emt-ekg-pattern: url("../images/backgrounds/emt-ekg-dark.svg");
+
+  --progress-track: #5a443f;
+  --progress-track-border: rgba(232, 150, 136, 0.4);
+  --progress-fill-start: #e89688;
+  --progress-fill-end: #f0b4aa;
+}
+
+[data-theme="dark"] body.subject-pharmacology {
+  --bg: #30343f;
+
+  --border: #4a5060;
+
+  --bg-hero-wash: rgba(74, 95, 158, 0.16);
+  --bg-hero-wash-mid: rgba(74, 95, 158, 0.06);
+
+  --pharm-molecule-pattern: url("../images/backgrounds/pharm-molecules-dark.svg");
+
+  --progress-track: #424858;
+  --progress-track-border: rgba(154, 168, 214, 0.4);
+  --progress-fill-start: #8fa0d2;
+  --progress-fill-end: #b0bce0;
+}
+
 [data-theme="dark"] body[data-page="subject"].subject-biology {
   background:
     linear-gradient(
@@ -1757,6 +2434,32 @@ DARK MODE
   background-size: auto, var(--chem-hex-size), auto;
 }
 
+[data-theme="dark"] body[data-page="subject"].subject-emt {
+  background:
+    linear-gradient(
+      180deg,
+      var(--bg-hero-wash) 0%,
+      var(--bg-hero-wash-mid) 30%,
+      transparent 55%
+    ),
+    var(--emt-ekg-pattern), var(--bg);
+
+  background-size: auto, var(--emt-ekg-size), auto;
+}
+
+[data-theme="dark"] body[data-page="subject"].subject-pharmacology {
+  background:
+    linear-gradient(
+      180deg,
+      var(--bg-hero-wash) 0%,
+      var(--bg-hero-wash-mid) 30%,
+      transparent 55%
+    ),
+    var(--pharm-molecule-pattern), var(--bg);
+
+  background-size: auto, var(--pharm-molecule-size), auto;
+}
+
 [data-theme="dark"] .site-header {
   background: rgba(63, 70, 84, 0.94);
 }
@@ -1784,6 +2487,32 @@ DARK MODE
   background: var(--inactive-light);
 
   border-color: var(--primary-light);
+}
+
+[data-theme="dark"] .drug-worksheet-row--correct {
+  background: color-mix(in srgb, var(--correct) 14%, transparent);
+
+  border-color: color-mix(in srgb, var(--correct) 40%, var(--border));
+}
+
+[data-theme="dark"] .drug-worksheet-row--incorrect {
+  background: color-mix(in srgb, var(--incorrect) 12%, transparent);
+
+  border-color: color-mix(in srgb, var(--incorrect) 40%, var(--border));
+}
+
+[data-theme="dark"] .drug-worksheet-option.selected {
+  background: color-mix(in srgb, var(--primary) 22%, var(--card-bg));
+}
+
+[data-theme="dark"] .drug-worksheet-option.correct,
+[data-theme="dark"] .drug-worksheet-option.selected.correct {
+  background: color-mix(in srgb, var(--correct) 18%, var(--card-bg));
+}
+
+[data-theme="dark"] .drug-worksheet-option.incorrect,
+[data-theme="dark"] .drug-worksheet-option.selected.incorrect {
+  background: color-mix(in srgb, var(--incorrect) 16%, var(--card-bg));
 }
 
 [data-theme="dark"] .dropzone {

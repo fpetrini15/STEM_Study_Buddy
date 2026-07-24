@@ -85,6 +85,14 @@ To show a placeholder before content is ready, add a catalog entry without creat
       "categories": ["Category A", "Category B"],
       "answer": "Category A",
       "explanation": "Optional explanation."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": { "text": "Complete the sentence." },
+      "sentence": ["A typical call starts with ", null, ", then ", null, "."],
+      "blanks": ["dispatch", "transport"],
+      "bank": ["dispatch", "transport", "billing"],
+      "explanation": "Optional explanation."
     }
   ]
 }
@@ -94,12 +102,15 @@ To show a placeholder before content is ready, add a catalog entry without creat
 
 | Field | Required | Description |
 |-------|----------|-------------|
-| `type` | Yes | `"multiple_choice"` or `"drag_and_drop"` |
+| `type` | Yes | `"multiple_choice"`, `"drag_and_drop"`, `"drug_worksheet"`, or `"drag_sentence"` |
 | `prompt.text` | One of text/image | Question text |
 | `prompt.image` | One of text/image | Path to image (e.g. `images/biology/mitosis/prophase.png`) |
 | `options` | MC only | Array of answer choices (shuffled at runtime) |
 | `categories` | Drag only | Drop zone labels |
-| `answer` | Yes | Correct option or category name |
+| `sentence` | Drag sentence only | Array of strings and `null` blanks |
+| `blanks` | Drag sentence only | Correct words in blank order |
+| `bank` | Drag sentence only | Draggable words (may include distractors; shuffled at runtime) |
+| `answer` | MC / drag only | Correct option or category name |
 | `explanation` | No | Teaching note shown after each answer |
 
 ### Optional top-level field

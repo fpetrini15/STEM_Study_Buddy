@@ -1,4 +1,14 @@
 {
+  "sections": [
+    {
+      "title": "Core Sciences",
+      "subjects": ["biology", "chemistry"]
+    },
+    {
+      "title": "Medical Sciences",
+      "subjects": ["emt", "pharmacology"]
+    }
+  ],
   "biology": {
     "title": "Biology",
     "summary": "Cells, genetics, biological systems and more.",
@@ -11,14 +21,14 @@
           {
             "id": "mitosis",
             "title": "Mitosis",
-            "icon": "\ud83e\uddeb",
-            "description": "Interphase and mitotic phases \u2014 identify events and microscope images."
+            "icon": "🧫",
+            "description": "Interphase and mitotic phases — identify events and microscope images."
           },
           {
             "id": "meiosis",
             "title": "Meiosis",
-            "icon": "\u2640\ufe0f\u2642\ufe0f",
-            "description": "Meiosis I and II \u2014 crossing over, segregation, and gamete formation."
+            "icon": "♀️♂️",
+            "description": "Meiosis I and II — crossing over, segregation, and gamete formation."
           }
         ]
       },
@@ -28,19 +38,19 @@
           {
             "id": "genetics",
             "title": "Mendelian Genetics",
-            "icon": "\ud83e\udedb",
+            "icon": "🫛",
             "description": "Genotypes, phenotypes, dominance, and Punnett square reasoning."
           },
           {
             "id": "chromosomal_basis_of_inheritance",
             "title": "Chromosomal Basis of Inheritance",
-            "icon": "\ud83e\uddec",
+            "icon": "🧬",
             "description": "Linked genes, sex linkage, recombination, and pedigree analysis."
           },
           {
             "id": "molecular_basis_of_inheritance",
             "title": "Molecular Basis of Inheritance",
-            "icon": "\ud83d\udd2c",
+            "icon": "🔬",
             "description": "DNA structure, replication enzymes, and repair mechanisms."
           }
         ]
@@ -51,13 +61,13 @@
           {
             "id": "gene_expression",
             "title": "Gene to Protein",
-            "icon": "\ud83d\udda8\ufe0f",
+            "icon": "🖨️",
             "description": "Transcription, RNA processing, translation, and mutations."
           },
           {
             "id": "regulation_of_gene_expression",
             "title": "Gene Regulation",
-            "icon": "\ud83d\udea6",
+            "icon": "🚦",
             "description": "Operons, epigenetics, differentiation, and cell specialization."
           }
         ]
@@ -68,37 +78,37 @@
           {
             "id": "animal_form_and_function",
             "title": "Animal Form and Function",
-            "icon": "\ud83e\udd8e",
+            "icon": "🦎",
             "description": "Homeostasis, thermoregulation, tissues, and organ systems overview."
           },
           {
             "id": "animal_nutrition",
             "title": "Animal Nutrition",
-            "icon": "\ud83e\udd66",
+            "icon": "🥦",
             "description": "Digestive tracts, enzymes, and nutrient processing across animals."
           },
           {
             "id": "circulation_and_gas_exchange",
             "title": "Circulation and Gas Exchange",
-            "icon": "\u2764\ufe0f\ud83e\udec1",
+            "icon": "❤️🫁",
             "description": "Cardiovascular anatomy, blood flow, and respiratory gas exchange."
           },
           {
             "id": "immune_system",
             "title": "The Immune System",
-            "icon": "\ud83e\udda0",
+            "icon": "🦠",
             "description": "Innate and adaptive immunity, antibodies, and immune responses."
           },
           {
             "id": "osmoregulation_and_excretion",
             "title": "Osmoregulation and Excretion",
-            "icon": "\ud83d\udca7",
+            "icon": "💧",
             "description": "Kidney function, nephron segments, and water/solute balance."
           },
           {
             "id": "hormones_and_the_endocrine_system",
             "title": "Hormones and the Endocrine System",
-            "icon": "\ud83d\udce1",
+            "icon": "📡",
             "description": "Test your knowledge of hormone and endocrine signaling pathways."
           },
           {
@@ -110,7 +120,7 @@
           {
             "id": "nervous_system",
             "title": "Nervous System",
-            "icon": "\ud83e\udde0",
+            "icon": "🧠",
             "description": "Test your knowledge of the brain and the surrounding nervous system."
           }
         ]
@@ -119,7 +129,7 @@
     "comingSoon": [
       {
         "title": "More Biology",
-        "icon": "\ud83e\uddea",
+        "icon": "🧪",
         "description": "Additional quizzes coming soon."
       }
     ]
@@ -133,7 +143,7 @@
       {
         "id": "acids_and_bases",
         "title": "Acids and Bases",
-        "icon": "\ud83e\udd7d",
+        "icon": "🥽",
         "description": "Classify common acids and bases by strength."
       },
       {
@@ -148,8 +158,55 @@
     "comingSoon": [
       {
         "title": "Polyatomic Ions",
-        "icon": "\u269b\ufe0f",
+        "icon": "⚛️",
         "description": "Formulas and charges of common polyatomic ions."
+      }
+    ]
+  },
+  "emt": {
+    "title": "Emergency Medicine",
+    "summary": "Emergency assessment, protocols, and field care.",
+    "cardIcon": "🚑",
+    "icon": "images/favicons/emt.svg",
+    "quizzes": [
+      {
+        "id": "ems_systems_fundamentals",
+        "title": "EMS System Fundamentals",
+        "icon": "📡",
+        "description": "EMS call flow, specialty centers, online vs offline protocols, and BLS/ALS/CCT rig levels."
+      },
+      {
+        "id": "primary_assessment",
+        "title": "Primary Assessment",
+        "icon": "🩺",
+        "description": "ABC priorities, SAMPLE history, and OPQRST pain assessment."
+      }
+    ],
+    "comingSoon": [
+      {
+        "title": "More Emergency Medicine",
+        "icon": "🚑",
+        "description": "Additional quizzes coming soon."
+      }
+    ]
+  },
+  "pharmacology": {
+    "title": "Pharmacology",
+    "summary": "Drug classes, mechanisms, and clinical uses.",
+    "cardIcon": "💊",
+    "icon": "images/favicons/pharmacology.svg",
+    "available": false,
+    "quizzes": [],
+    "comingSoon": [
+      {
+        "title": "Drug Worksheets",
+        "icon": "💉",
+        "description": "For each drug, identify brand name, class, MOA, indications, and contraindications."
+      },
+      {
+        "title": "More Pharmacology",
+        "icon": "💊",
+        "description": "Additional quizzes coming soon."
       }
     ]
   }

@@ -152,11 +152,24 @@ async function renderUnit(subjectKey, unit) {
 async function renderSubjectPage() {
   try {
     const catalog = await CatalogUtils.loadCatalog();
-    const data = catalog[subject];
+    const data =
+      (typeof CatalogUtils.getSubject === "function"
+        ? CatalogUtils.getSubject(catalog, subject)
+        : null) ?? catalog[subject];
 
-    if (!data) {
+    if (!data || subject === "sections") {
       catalogRoot.textContent = "Subject not found.";
       return;
+    }
+
+    if (CatalogUtils.isMedicalSubject(subject)) {
+      const hero = document.querySelector(".hero");
+      if (hero && !document.querySelector(".medical-disclaimer")) {
+        hero.insertAdjacentElement(
+          "afterend",
+          CatalogUtils.createMedicalDisclaimer(),
+        );
+      }
     }
 
     if (data.units) {
@@ -169,23 +182,25 @@ async function renderSubjectPage() {
       if (data.comingSoon) {
         catalogRoot.appendChild(renderComingSoon(data.comingSoon));
       }
-    } else if (data.quizzes) {
-      const section = document.createElement("section");
-      section.className = "quiz-unit";
+    } else {
+      if (Array.isArray(data.quizzes) && data.quizzes.length > 0) {
+        const section = document.createElement("section");
+        section.className = "quiz-unit";
 
-      const grid = document.createElement("div");
-      grid.className = "subject-grid";
+        const grid = document.createElement("div");
+        grid.className = "subject-grid";
 
-      const quizzes = await Promise.all(
-        data.quizzes.map((quiz) => CatalogUtils.enrichQuiz(subject, quiz))
-      );
+        const quizzes = await Promise.all(
+          data.quizzes.map((quiz) => CatalogUtils.enrichQuiz(subject, quiz)),
+        );
 
-      quizzes.forEach((quiz) => {
-        grid.appendChild(CatalogUtils.createQuizCard(subject, quiz));
-      });
+        quizzes.forEach((quiz) => {
+          grid.appendChild(CatalogUtils.createQuizCard(subject, quiz));
+        });
 
-      section.appendChild(grid);
-      catalogRoot.appendChild(section);
+        section.appendChild(grid);
+        catalogRoot.appendChild(section);
+      }
 
       if (data.comingSoon) {
         catalogRoot.appendChild(renderComingSoon(data.comingSoon));

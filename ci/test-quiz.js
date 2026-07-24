@@ -190,6 +190,7 @@ async function loadQuizContext() {
     "total",
     "progress-bar",
     "continue-btn",
+    "check-worksheet-btn",
     "skip-btn",
     "final-screen",
     "final-heading",
