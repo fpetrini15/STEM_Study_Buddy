@@ -1,0 +1,39 @@
+name: Deploy to Bluehost
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-bluehost
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync files over FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # Bluehost web root. Change if your site lives elsewhere.
+          server-dir: ./public_html/
+          # Explicit FTPS (TLS on port 21). If this fails, try: ftps-legacy
+          protocol: ftps
+          port: 21
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/ci/**
+            **/.cursor/**
+            **/node_modules/**
+            **/README.md
+            **/.gitignore
