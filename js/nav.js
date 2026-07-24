@@ -47,6 +47,50 @@ const Nav = {
     localStorage.setItem(RECENT_KEY, JSON.stringify(recent));
   },
 
+  collectCatalogQuizIds(catalog) {
+    const ids = new Set();
+    if (typeof CatalogUtils === "undefined") return ids;
+
+    const subjects = CatalogUtils.getSubjectsMap(catalog);
+    Object.entries(subjects).forEach(([subjectKey, subject]) => {
+      (subject.quizzes || []).forEach((quiz) => {
+        if (quiz?.id) ids.add(`${subjectKey}/${quiz.id}`);
+      });
+      (subject.units || []).forEach((unit) => {
+        (unit.quizzes || []).forEach((quiz) => {
+          if (quiz?.id) ids.add(`${subjectKey}/${quiz.id}`);
+        });
+      });
+    });
+
+    return ids;
+  },
+
+  async pruneRecentQuizzes() {
+    const recent = this.getRecentQuizzes();
+    if (!recent.length || typeof CatalogUtils === "undefined") {
+      return recent;
+    }
+
+    try {
+      const catalog = await CatalogUtils.loadCatalog();
+      const knownIds = this.collectCatalogQuizIds(catalog);
+      if (!knownIds.size) return recent;
+
+      const pruned = recent.filter((item) =>
+        knownIds.has(`${item.subject}/${item.id}`),
+      );
+
+      if (pruned.length !== recent.length) {
+        localStorage.setItem(RECENT_KEY, JSON.stringify(pruned));
+      }
+
+      return pruned;
+    } catch {
+      return recent;
+    }
+  },
+
   updateQuizCrumb(title) {
     const crumb = document.getElementById("crumb-quiz");
     if (crumb) {
@@ -197,12 +241,12 @@ const Nav = {
     });
   },
 
-  renderRecent() {
+  async renderRecent() {
     const container = document.getElementById("recent-quizzes");
     if (!container) return;
 
     const subject = document.body.dataset.subject;
-    let recent = this.getRecentQuizzes();
+    let recent = await this.pruneRecentQuizzes();
 
     if (subject) {
       recent = recent.filter((item) => item.subject === subject);

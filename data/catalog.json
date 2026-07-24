@@ -2,17 +2,11 @@
   "sections": [
     {
       "title": "Core Sciences",
-      "subjects": [
-        "biology",
-        "chemistry"
-      ]
+      "subjects": ["biology", "chemistry"]
     },
     {
       "title": "Medical Sciences",
-      "subjects": [
-        "emt",
-        "pharmacology"
-      ]
+      "subjects": ["emt", "pharmacology"]
     }
   ],
   "biology": {
@@ -172,9 +166,15 @@
   "emt": {
     "title": "Emergency Medicine",
     "summary": "Emergency assessment, protocols, and field care.",
-      "cardIcon": "🚑",
-      "icon": "images/favicons/emt.svg",
+    "cardIcon": "🚑",
+    "icon": "images/favicons/emt.svg",
     "quizzes": [
+      {
+        "id": "ems_systems_fundamentals",
+        "title": "EMS System Fundamentals",
+        "icon": "📡",
+        "description": "EMS call flow, specialty centers, online vs offline protocols, and BLS/ALS/CCT rig levels."
+      },
       {
         "id": "primary_assessment",
         "title": "Primary Assessment",
@@ -195,15 +195,14 @@
     "summary": "Drug classes, mechanisms, and clinical uses.",
     "cardIcon": "💊",
     "icon": "images/favicons/pharmacology.svg",
-    "quizzes": [
+    "available": false,
+    "quizzes": [],
+    "comingSoon": [
       {
-        "id": "drug_classes",
         "title": "Drug Worksheets",
         "icon": "💉",
         "description": "For each drug, identify brand name, class, MOA, indications, and contraindications."
-      }
-    ],
-    "comingSoon": [
+      },
       {
         "title": "More Pharmacology",
         "icon": "💊",

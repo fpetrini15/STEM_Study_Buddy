@@ -5,6 +5,7 @@ const VALID_TYPES = new Set([
   "drag_and_drop",
   "multiple_choice",
   "drug_worksheet",
+  "drag_sentence",
 ]);
 
 function readJson(filePath) {
@@ -68,6 +69,62 @@ function validateQuestion(filePath, quiz, question, index) {
         }
       });
     }
+    return errors;
+  }
+
+  if (question.type === "drag_sentence") {
+    if (!Array.isArray(question.sentence) || question.sentence.length === 0) {
+      errors.push(`${label}: drag_sentence sentence is required.`);
+    }
+    if (!Array.isArray(question.blanks) || question.blanks.length === 0) {
+      errors.push(`${label}: drag_sentence blanks are required.`);
+    }
+    if (!Array.isArray(question.bank) || question.bank.length === 0) {
+      errors.push(`${label}: drag_sentence bank is required.`);
+    }
+
+    if (
+      Array.isArray(question.sentence) &&
+      Array.isArray(question.blanks)
+    ) {
+      const blankSlots = question.sentence.filter((part) => part === null).length;
+      if (blankSlots !== question.blanks.length) {
+        errors.push(
+          `${label}: sentence has ${blankSlots} blank(s) but blanks has ${question.blanks.length} answer(s).`,
+        );
+      }
+
+      question.sentence.forEach((part, partIndex) => {
+        if (part !== null && typeof part !== "string") {
+          errors.push(
+            `${label}: sentence[${partIndex}] must be a string or null.`,
+          );
+        }
+      });
+    }
+
+    if (Array.isArray(question.bank) && Array.isArray(question.blanks)) {
+      question.blanks.forEach((blank, blankIndex) => {
+        if (typeof blank !== "string" || blank.length === 0) {
+          errors.push(
+            `${label}: blanks[${blankIndex}] must be a non-empty string.`,
+          );
+        } else if (!question.bank.includes(blank)) {
+          errors.push(
+            `${label}: blanks[${blankIndex}] "${blank}" is not in bank.`,
+          );
+        }
+      });
+
+      question.bank.forEach((word, wordIndex) => {
+        if (typeof word !== "string" || word.length === 0) {
+          errors.push(
+            `${label}: bank[${wordIndex}] must be a non-empty string.`,
+          );
+        }
+      });
+    }
+
     return errors;
   }
 

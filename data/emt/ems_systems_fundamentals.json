@@ -1,0 +1,166 @@
+{
+  "title": "EMS System Fundamentals",
+  "questions": [
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Correctly order the following steps in a typical EMS call."
+      },
+      "sentence": [null, "→", null, "→", null, "→", null],
+      "blanks": [
+        "Dispatch",
+        "Sent to call location",
+        "Transport",
+        "Transfer care at ER"
+      ],
+      "bank": [
+        "Dispatch",
+        "Sent to call location",
+        "Transport",
+        "Transfer care at ER"
+      ],
+      "explanation": "A standard EMS call progresses from dispatch, to response/arrival at the scene, to transport of the patient, and ends with transfer of care at the emergency department."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A 45-year-old male was working with heavy machinery when his right arm became caught, resulting in a complete traumatic amputation at the elbow. He has severe uncontrolled arterial bleeding and is showing signs of hemorrhagic shock. Which specialty center is the most appropriate destination?"
+      },
+      "options": [
+        "Burn Center",
+        "Trauma Center",
+        "STEMI Center",
+        "Stroke Center",
+        "Pediatric Center",
+        "Psychiatric Center"
+      ],
+      "answer": "Trauma Center",
+      "explanation": "An amputation with severe hemorrhage and shock requires a designated trauma specialty center equipped for immediate surgical intervention."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A 68-year-old female presents with sudden onset left-sided facial droop, slurred speech, and profound left arm weakness that began 45 minutes ago. Her blood pressure is 190/110 mmHg. Which specialty center should you transport her to?"
+      },
+      "options": [
+        "Burn Center",
+        "Trauma Center",
+        "STEMI Center",
+        "Stroke Center",
+        "Pediatric Center",
+        "Psychiatric Center"
+      ],
+      "answer": "Stroke Center",
+      "explanation": "Sudden focal neurological deficits within the thrombolytic time window require a stroke specialty center for rapid imaging and intervention."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A 54-year-old male complains of crushing substernal chest pain radiating to his left jaw, accompanied by diaphoresis and nausea. The 12-lead ECG reveals 3mm ST-segment elevation in leads V1 through V4. Which specialty center is the priority destination?"
+      },
+      "options": [
+        "Burn Center",
+        "Trauma Center",
+        "STEMI Center",
+        "Stroke Center",
+        "Pediatric Center",
+        "Psychiatric Center"
+      ],
+      "answer": "STEMI Center",
+      "explanation": "The 12-lead ECG confirms an acute ST-elevation myocardial infarction (STEMI), requiring a cardiac catheterization lab at a STEMI specialty center for immediate reperfusion."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A 32-year-old female was caught in a house fire. She has partial and full-thickness burns covering her entire chest, abdomen, and both anterior arms. Her airway is stable, and she is breathing adequately. Which specialty center is the most appropriate destination?"
+      },
+      "options": [
+        "Burn Center",
+        "Trauma Center",
+        "STEMI Center",
+        "Stroke Center",
+        "Pediatric Center",
+        "Psychiatric Center"
+      ],
+      "answer": "Burn Center",
+      "explanation": "Large-surface-area partial and full-thickness burns meet regional burn specialty center referral criteria for specialized wound care and fluid management."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A 4-year-old male ingested an unknown quantity of his grandmother's prescription cardiovascular medication. He is lethargic, bradycardic, and hypotensive. Which specialty center is best suited to manage this patient?"
+      },
+      "options": [
+        "Burn Center",
+        "Trauma Center",
+        "STEMI Center",
+        "Stroke Center",
+        "Pediatric Center",
+        "Psychiatric Center"
+      ],
+      "answer": "Pediatric Center",
+      "explanation": "Critical medical emergencies in young children are best handled at a pediatric specialty center due to unique dosing, equipment, and physiological needs."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A 22-year-old male is experiencing severe auditory hallucinations commanding him to harm himself. He is cooperative but expresses a clear intent to execute these plans and lacks a support system. He has no physical complaints or traumatic injuries. Which specialty center is the most appropriate destination?"
+      },
+      "options": [
+        "Burn Center",
+        "Trauma Center",
+        "STEMI Center",
+        "Stroke Center",
+        "Pediatric Center",
+        "Psychiatric Center"
+      ],
+      "answer": "Psychiatric Center",
+      "explanation": "A patient with acute suicidal ideation and hallucinations who is medically stable requires direct transport to a psychiatric specialty center or an emergency department with specialized psychiatric care."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A paramedic administers 0.3mg of Epinephrine 1:1,000 intramuscularly to a patient experiencing a severe, life-threatening allergic reaction with respiratory distress, strictly following the printed flowchart in their regional field protocol manual without placing a call to the hospital. Which protocol type was utilized?"
+      },
+      "options": ["Online Protocol", "Offline Protocol"],
+      "answer": "Offline Protocol",
+      "explanation": "Administering medication based on written, pre-approved guidelines or standing orders without contacting a physician directly constitutes an offline protocol."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "An EMS crew is treating a patient with terminal cancer who is in severe pain. The standing orders allow up to 5mg of Morphine, but the patient requires additional pain management. The paramedic calls the on-duty emergency physician via radio and receives a direct verbal order to administer an additional 2.5mg of Morphine. Which protocol type was utilized for the additional dose?"
+      },
+      "options": ["Online Protocol", "Offline Protocol"],
+      "answer": "Online Protocol",
+      "explanation": "Obtaining direct, real-time verbal orders from a medical control physician via telephone or radio constitutes an online protocol."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "An ambulance crew is tasked with transferring a stable 72-year-old female from a long-term care facility to an outpatient clinic for a routine evaluation. She requires continuous low-flow oxygen via nasal cannula and assistance moving from her bed to the stretcher, but requires no cardiac monitoring or intravenous medications. Which certification level of rig is most appropriate and cost-effective for this transport?"
+      },
+      "options": ["BLS Rig", "ALS Rig", "CCT Rig"],
+      "answer": "BLS Rig",
+      "explanation": "Basic Life Support (BLS) rigs are staffed by EMTs and are equipped for non-invasive care, such as low-flow oxygen administration and basic patient positioning, making them ideal for stable transfers."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "An emergency response vehicle is dispatched to a residence for an adult experiencing crushing chest pain and shortness of breath. The crew initiates continuous 4-lead and 12-lead ECG monitoring, establishes an intravenous line, and administers intravenous medications under their standing orders. What is the minimum classification level of this rig?"
+      },
+      "options": ["BLS Rig", "ALS Rig", "CCT Rig"],
+      "answer": "ALS Rig",
+      "explanation": "Advanced Life Support (ALS) rigs are staffed by paramedics who are certified to perform invasive procedures, including starting IVs, interpreting advanced cardiac rhythms, and administering medications."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "An ICU patient needs to be transferred to a tertiary facility while intubated on a mechanical ventilator with multiple continuous intravenous medication infusions running, including a vasoactive medication titration. The transport crew consists of a critical care registered nurse (CCRN) and a critical care paramedic. Which rig classification is required?"
+      },
+      "options": ["BLS Rig", "ALS Rig", "CCT Rig"],
+      "answer": "CCT Rig",
+      "explanation": "Critical Care Transport (CCT) rigs are utilized for highly complex interfacility transfers involving patients who require specialized equipment like ventilators or invasive monitoring lines, and are staffed by clinicians with advanced critical care training."
+    }
+  ]
+}

@@ -80,6 +80,7 @@ const CatalogUtils = {
     if (types.multiple_choice) labels.push("Multiple choice");
     if (types.drag_and_drop) labels.push("Drag & drop");
     if (types.drug_worksheet) labels.push("Drug worksheet");
+    if (types.drag_sentence) labels.push("Drag sentence");
     return labels.join(" · ");
   },
 
@@ -214,11 +215,19 @@ const CatalogUtils = {
       <p>${subject.summary}</p>
     `;
 
-    const link = document.createElement("a");
-    link.className = "btn btn-full card-link";
-    link.href = `${subjectKey}.html`;
-    link.textContent = "View Quizzes";
-    card.appendChild(link);
+    if (subject.available === false) {
+      const btn = document.createElement("button");
+      btn.className = "btn btn-full btn-disabled";
+      btn.disabled = true;
+      btn.textContent = "Coming Soon";
+      card.appendChild(btn);
+    } else {
+      const link = document.createElement("a");
+      link.className = "btn btn-full card-link";
+      link.href = `${subjectKey}.html`;
+      link.textContent = "View Quizzes";
+      card.appendChild(link);
+    }
 
     return card;
   },
