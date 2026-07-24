@@ -23,11 +23,12 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          # Bluehost web root. Change if your site lives elsewhere.
-          server-dir: ./public_html/
+          # FTP user already lands in public_html.
+          server-dir: ./
           # Explicit FTPS (TLS on port 21). If this fails, try: ftps-legacy
           protocol: ftps
           port: 21
+          # exclude also protects remote-only paths from delete/overwrite
           exclude: |
             **/.git*
             **/.git*/**
@@ -37,3 +38,10 @@ jobs:
             **/node_modules/**
             **/README.md
             **/.gitignore
+            **/wp-admin/**
+            **/wp-includes/**
+            **/wp-content/**
+            **/wp-*.php
+            **/xmlrpc.php
+            **/license.txt
+            **/readme.html
