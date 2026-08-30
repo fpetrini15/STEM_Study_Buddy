@@ -36,9 +36,15 @@ Each subject defines its own layout:
 - **Biology** uses grouped `units` (each with a name and quiz list), plus an optional `comingSoon` section.
 - **Chemistry** uses a flat `quizzes` list and a `comingSoon` section.
 
-Catalog entries need `id`, `title`, `icon`, and `description`. Question count, types, and availability are detected automatically from the JSON file when present.
+Catalog entries need `id`, `title`, `icon`, and `description`. Question count and types are stored on each entry (`questionCount`, `types`) so subject pages can render without fetching every quiz file.
 
-If the JSON file exists, the entry appears as available with a **Start Quiz** button. If not, it shows as **Coming soon**.
+After adding or editing quiz JSON, refresh those fields:
+
+```bash
+node scripts/sync-catalog-stats.js
+```
+
+Use `--check` in CI to fail if the catalog is stale. Entries in a subject's quiz list show **Start Quiz**; placeholders belong in `comingSoon`.
 
 ### Interactive practice entries
 
@@ -56,13 +62,13 @@ Tools that are not standard quizzes (e.g. Lewis dot structures) can link to a de
 ```
 
 - `href` — page to open instead of `quiz.html`
-- `dataFile` — JSON filename (without `.json`) used to load structure count and title
+- `dataFile` — JSON filename (without `.json`) used to sync `itemCount`
 
 ## Adding a new quiz
 
 1. **Create the quiz JSON** at `data/{subject}/{quiz_id}.json`
 2. **Register it** in `data/catalog.json` under the subject (include unit grouping for biology)
-3. Reload the subject page — metadata fills in automatically
+3. **Sync catalog stats** with `node scripts/sync-catalog-stats.js`
 
 To show a placeholder before content is ready, add a catalog entry without creating the JSON file, or move it to `comingSoon`.
 

@@ -123,7 +123,7 @@ function renderComingSoon(items) {
   return section;
 }
 
-async function renderUnit(subjectKey, unit) {
+function renderUnit(subjectKey, unit) {
   const section = document.createElement("section");
   section.className = "quiz-unit";
   section.dataset.unit = unitSlug(unit.name);
@@ -136,13 +136,10 @@ async function renderUnit(subjectKey, unit) {
   const grid = document.createElement("div");
   grid.className = "subject-grid";
 
-  const quizzes = await Promise.all(
-    unit.quizzes.map((quiz) => CatalogUtils.enrichQuiz(subjectKey, quiz))
-  );
-
-  quizzes.forEach((quiz) => {
+  unit.quizzes.forEach((quiz) => {
+    const enriched = CatalogUtils.enrichQuiz(quiz);
     const searchText = `${quiz.title} ${quiz.description} ${unit.name}`.toLowerCase();
-    grid.appendChild(CatalogUtils.createQuizCard(subjectKey, quiz, searchText));
+    grid.appendChild(CatalogUtils.createQuizCard(subjectKey, enriched, searchText));
   });
 
   section.appendChild(grid);
@@ -175,9 +172,9 @@ async function renderSubjectPage() {
     if (data.units) {
       setupCatalogControls(data.units);
 
-      for (const unit of data.units) {
-        catalogRoot.appendChild(await renderUnit(subject, unit));
-      }
+      data.units.forEach((unit) => {
+        catalogRoot.appendChild(renderUnit(subject, unit));
+      });
 
       if (data.comingSoon) {
         catalogRoot.appendChild(renderComingSoon(data.comingSoon));
@@ -190,12 +187,10 @@ async function renderSubjectPage() {
         const grid = document.createElement("div");
         grid.className = "subject-grid";
 
-        const quizzes = await Promise.all(
-          data.quizzes.map((quiz) => CatalogUtils.enrichQuiz(subject, quiz)),
-        );
-
-        quizzes.forEach((quiz) => {
-          grid.appendChild(CatalogUtils.createQuizCard(subject, quiz));
+        data.quizzes.forEach((quiz) => {
+          grid.appendChild(
+            CatalogUtils.createQuizCard(subject, CatalogUtils.enrichQuiz(quiz)),
+          );
         });
 
         section.appendChild(grid);
