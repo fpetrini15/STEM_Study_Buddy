@@ -28,7 +28,11 @@
             "id": "evolution_and_themes",
             "title": "Evolution and Themes of Biology",
             "icon": "🧬",
-            "description": "Themes of biology, domains, kingdoms, energy flow, and feedback."
+            "description": "Themes of biology, domains, kingdoms, energy flow, and feedback.",
+            "questionCount": 6,
+            "types": {
+              "multiple_choice": 6
+            }
           }
         ]
       },
@@ -39,19 +43,31 @@
             "id": "chemical_context_of_life",
             "title": "Chemical Context of Life",
             "icon": "⚛️",
-            "description": "Atoms, bonds, polarity, isotopes, and basic chemical foundations."
+            "description": "Atoms, bonds, polarity, isotopes, and basic chemical foundations.",
+            "questionCount": 10,
+            "types": {
+              "multiple_choice": 10
+            }
           },
           {
             "id": "water_and_carbon",
             "title": "Water and Carbon",
             "icon": "💧",
-            "description": "Water properties, pH, organic compounds, isomers, and ATP."
+            "description": "Water properties, pH, organic compounds, isomers, and ATP.",
+            "questionCount": 14,
+            "types": {
+              "multiple_choice": 14
+            }
           },
           {
             "id": "macromolecules",
             "title": "Macromolecules",
             "icon": "🧩",
-            "description": "Carbohydrates, lipids, proteins, nucleic acids, and monomers."
+            "description": "Carbohydrates, lipids, proteins, nucleic acids, and monomers.",
+            "questionCount": 18,
+            "types": {
+              "multiple_choice": 18
+            }
           }
         ]
       },
@@ -62,13 +78,23 @@
             "id": "tour_of_the_cell",
             "title": "A Tour of the Cell",
             "icon": "🔬",
-            "description": "Cell theory, organelles, cytoskeleton, junctions, and endosymbiosis."
+            "description": "Cell theory, organelles, cytoskeleton, junctions, and endosymbiosis.",
+            "questionCount": 22,
+            "types": {
+              "multiple_choice": 21,
+              "drag_sentence": 1
+            }
           },
           {
             "id": "membrane_structure_and_function",
             "title": "Membrane Structure and Function",
             "icon": "🧱",
-            "description": "Membrane proteins, diffusion, osmosis, and active transport."
+            "description": "Membrane proteins, diffusion, osmosis, and active transport.",
+            "questionCount": 14,
+            "types": {
+              "multiple_choice": 13,
+              "drag_sentence": 1
+            }
           }
         ]
       },
@@ -79,13 +105,23 @@
             "id": "mitosis",
             "title": "Mitosis",
             "icon": "🧫",
-            "description": "Interphase and mitotic phases — identify events and microscope images."
+            "description": "Interphase and mitotic phases — identify events and microscope images.",
+            "questionCount": 43,
+            "types": {
+              "drag_and_drop": 27,
+              "multiple_choice": 16
+            }
           },
           {
             "id": "meiosis",
             "title": "Meiosis",
             "icon": "♀️♂️",
-            "description": "Meiosis I and II — crossing over, segregation, and gamete formation."
+            "description": "Meiosis I and II — crossing over, segregation, and gamete formation.",
+            "questionCount": 29,
+            "types": {
+              "drag_and_drop": 21,
+              "multiple_choice": 8
+            }
           }
         ]
       },
@@ -96,13 +132,23 @@
             "id": "metabolism",
             "title": "Metabolism",
             "icon": "⚡",
-            "description": "Catabolic vs anabolic pathways, free energy, enzymes, and inhibition."
+            "description": "Catabolic vs anabolic pathways, free energy, enzymes, and inhibition.",
+            "questionCount": 12,
+            "types": {
+              "drag_sentence": 3,
+              "multiple_choice": 9
+            }
           },
           {
             "id": "cellular_respiration",
             "title": "Cellular Respiration and Fermentation",
             "icon": "🫁",
-            "description": "Glycolysis, Krebs cycle, ETC, aerobic vs anaerobic respiration."
+            "description": "Glycolysis, Krebs cycle, ETC, aerobic vs anaerobic respiration.",
+            "questionCount": 17,
+            "types": {
+              "multiple_choice": 16,
+              "drag_sentence": 1
+            }
           }
         ]
       },
@@ -113,19 +159,31 @@
             "id": "genetics",
             "title": "Mendelian Genetics",
             "icon": "🫛",
-            "description": "Genotypes, phenotypes, dominance, and Punnett square reasoning."
+            "description": "Genotypes, phenotypes, dominance, and Punnett square reasoning.",
+            "questionCount": 20,
+            "types": {
+              "multiple_choice": 20
+            }
           },
           {
             "id": "chromosomal_basis_of_inheritance",
             "title": "Chromosomal Basis of Inheritance",
             "icon": "🧬",
-            "description": "Linked genes, sex linkage, recombination, and pedigree analysis."
+            "description": "Linked genes, sex linkage, recombination, and pedigree analysis.",
+            "questionCount": 19,
+            "types": {
+              "multiple_choice": 19
+            }
           },
           {
             "id": "molecular_basis_of_inheritance",
             "title": "Molecular Basis of Inheritance",
             "icon": "🔬",
-            "description": "DNA structure, replication enzymes, and repair mechanisms."
+            "description": "DNA structure, replication enzymes, and repair mechanisms.",
+            "questionCount": 14,
+            "types": {
+              "multiple_choice": 14
+            }
           }
         ]
       },
@@ -136,13 +194,21 @@
             "id": "gene_expression",
             "title": "Gene to Protein",
             "icon": "🖨️",
-            "description": "Transcription, RNA processing, translation, and mutations."
+            "description": "Transcription, RNA processing, translation, and mutations.",
+            "questionCount": 32,
+            "types": {
+              "multiple_choice": 32
+            }
           },
           {
             "id": "regulation_of_gene_expression",
             "title": "Gene Regulation",
             "icon": "🚦",
-            "description": "Operons, epigenetics, differentiation, and cell specialization."
+            "description": "Operons, epigenetics, differentiation, and cell specialization.",
+            "questionCount": 24,
+            "types": {
+              "multiple_choice": 24
+            }
           }
         ]
       },
@@ -153,7 +219,12 @@
             "id": "cellular_communication",
             "title": "Cellular Communication",
             "icon": "📶",
-            "description": "Signaling types, receptors, second messengers, and amplification."
+            "description": "Signaling types, receptors, second messengers, and amplification.",
+            "questionCount": 15,
+            "types": {
+              "multiple_choice": 11,
+              "drag_sentence": 4
+            }
           }
         ]
       },
@@ -164,49 +235,87 @@
             "id": "animal_form_and_function",
             "title": "Animal Form and Function",
             "icon": "🦎",
-            "description": "Homeostasis, thermoregulation, tissues, and organ systems overview."
+            "description": "Homeostasis, thermoregulation, tissues, and organ systems overview.",
+            "questionCount": 37,
+            "types": {
+              "multiple_choice": 37
+            }
           },
           {
             "id": "animal_nutrition",
             "title": "Animal Nutrition",
             "icon": "🥦",
-            "description": "Digestive tracts, enzymes, and nutrient processing across animals."
+            "description": "Digestive tracts, enzymes, and nutrient processing across animals.",
+            "questionCount": 24,
+            "types": {
+              "multiple_choice": 20,
+              "drag_and_drop": 4
+            }
           },
           {
             "id": "circulation_and_gas_exchange",
             "title": "Circulation and Gas Exchange",
             "icon": "❤️🫁",
-            "description": "Cardiovascular anatomy, blood flow, and respiratory gas exchange."
+            "description": "Cardiovascular anatomy, blood flow, and respiratory gas exchange.",
+            "questionCount": 43,
+            "types": {
+              "multiple_choice": 43
+            }
           },
           {
             "id": "immune_system",
             "title": "The Immune System",
             "icon": "🦠",
-            "description": "Innate and adaptive immunity, antibodies, and immune responses."
+            "description": "Innate and adaptive immunity, antibodies, and immune responses.",
+            "questionCount": 41,
+            "types": {
+              "multiple_choice": 33,
+              "drag_and_drop": 8
+            }
           },
           {
             "id": "osmoregulation_and_excretion",
             "title": "Osmoregulation and Excretion",
             "icon": "💧",
-            "description": "Kidney function, nephron segments, and water/solute balance."
+            "description": "Kidney function, nephron segments, and water/solute balance.",
+            "questionCount": 21,
+            "types": {
+              "multiple_choice": 17,
+              "drag_and_drop": 4
+            }
           },
           {
             "id": "hormones_and_the_endocrine_system",
             "title": "Hormones and the Endocrine System",
             "icon": "📡",
-            "description": "Test your knowledge of hormone and endocrine signaling pathways."
+            "description": "Test your knowledge of hormone and endocrine signaling pathways.",
+            "questionCount": 21,
+            "types": {
+              "multiple_choice": 12,
+              "drag_and_drop": 9
+            }
           },
           {
             "id": "neurons_synapses_and_signaling",
             "title": "Neurons, Synapses, and Signaling",
             "icon": "𖣂⚡",
-            "description": "Test your knowledge of neural communication and signaling pathways."
+            "description": "Test your knowledge of neural communication and signaling pathways.",
+            "questionCount": 16,
+            "types": {
+              "multiple_choice": 12,
+              "drag_and_drop": 4
+            }
           },
           {
             "id": "nervous_system",
             "title": "Nervous System",
             "icon": "🧠",
-            "description": "Test your knowledge of the brain and the surrounding nervous system."
+            "description": "Test your knowledge of the brain and the surrounding nervous system.",
+            "questionCount": 29,
+            "types": {
+              "multiple_choice": 18,
+              "drag_and_drop": 11
+            }
           }
         ]
       }
@@ -229,7 +338,11 @@
         "id": "acids_and_bases",
         "title": "Acids and Bases",
         "icon": "🥽",
-        "description": "Classify common acids and bases by strength."
+        "description": "Classify common acids and bases by strength.",
+        "questionCount": 18,
+        "types": {
+          "drag_and_drop": 18
+        }
       },
       {
         "id": "lewis",
@@ -237,7 +350,8 @@
         "icon": "💠",
         "description": "Build Lewis diagrams by placing bond lines and lone-pair electrons.",
         "href": "lewis.html",
-        "dataFile": "lewis_structures"
+        "dataFile": "lewis_structures",
+        "itemCount": 29
       }
     ],
     "comingSoon": [
@@ -258,13 +372,22 @@
         "id": "ems_systems_fundamentals",
         "title": "EMS System Fundamentals",
         "icon": "📡",
-        "description": "EMS call flow, specialty centers, online vs offline protocols, and BLS/ALS/CCT rig levels."
+        "description": "EMS call flow, specialty centers, online vs offline protocols, and BLS/ALS/CCT rig levels.",
+        "questionCount": 12,
+        "types": {
+          "drag_sentence": 1,
+          "multiple_choice": 11
+        }
       },
       {
         "id": "primary_assessment",
         "title": "Primary Assessment",
         "icon": "🩺",
-        "description": "ABC priorities, SAMPLE history, and OPQRST pain assessment."
+        "description": "ABC priorities, SAMPLE history, and OPQRST pain assessment.",
+        "questionCount": 10,
+        "types": {
+          "multiple_choice": 10
+        }
       }
     ],
     "comingSoon": [

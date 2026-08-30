@@ -4,12 +4,24 @@ const CatalogUtils = {
   MEDICAL_DISCLAIMER_TEXT:
     "STEM Study Buddy’s medical quizzes are for educational practice only. They are not medical advice, certification, continuing education credit, or a substitute for accredited training, agency protocols, medical direction, or the judgment of a licensed clinician. Content may be incomplete or outdated—always verify against current guidelines and qualified instructors. Do not use this site to diagnose, treat, dose, or manage real patients.",
 
+  _catalogPromise: null,
+
   async loadCatalog() {
-    const res = await fetch("data/catalog.json", { cache: "no-store" });
-    if (!res.ok) {
-      throw new Error("Could not load the quiz catalog.");
+    if (!this._catalogPromise) {
+      this._catalogPromise = fetch("data/catalog.json")
+        .then((res) => {
+          if (!res.ok) {
+            throw new Error("Could not load the quiz catalog.");
+          }
+          return res.json();
+        })
+        .catch((error) => {
+          this._catalogPromise = null;
+          throw error;
+        });
     }
-    return res.json();
+
+    return this._catalogPromise;
   },
 
   getSections(catalog) {
@@ -75,7 +87,7 @@ const CatalogUtils = {
     container.appendChild(panel);
   },
 
-  formatTypes(types) {
+  formatTypes(types = {}) {
     const labels = [];
     if (types.multiple_choice) labels.push("Multiple choice");
     if (types.drag_and_drop) labels.push("Drag & drop");
@@ -94,45 +106,6 @@ const CatalogUtils = {
       : `${quiz.questionCount} questions · ~${minutes} min`;
   },
 
-  async loadQuizStats(subjectKey, quizId) {
-    try {
-      const res = await fetch(`data/${subjectKey}/${quizId}.json`);
-      if (!res.ok) return null;
-
-      const data = await res.json();
-      const types = {};
-
-      data.questions.forEach((question) => {
-        types[question.type] = (types[question.type] || 0) + 1;
-      });
-
-      return {
-        questionCount: data.questions.length,
-        types,
-        title: data.title,
-      };
-    } catch {
-      return null;
-    }
-  },
-
-  async loadPracticeStats(subjectKey, dataFile) {
-    try {
-      const res = await fetch(`data/${subjectKey}/${dataFile}.json`);
-      if (!res.ok) return null;
-
-      const data = await res.json();
-      const itemCount = data.molecules?.length ?? 0;
-
-      return {
-        itemCount,
-        title: data.title,
-      };
-    } catch {
-      return null;
-    }
-  },
-
   formatPracticeMeta(quiz) {
     if (quiz.itemCount > 0) {
       return `${quiz.itemCount} structures · Interactive practice`;
@@ -140,28 +113,13 @@ const CatalogUtils = {
     return "Interactive practice";
   },
 
-  async enrichQuiz(subjectKey, quiz) {
-    if (quiz.href) {
-      const dataFile = quiz.dataFile || quiz.id;
-      const stats = await this.loadPracticeStats(subjectKey, dataFile);
-
-      return {
-        ...quiz,
-        // Catalog entries are launchable; stats only enrich the subtitle.
-        available: true,
-        itemCount: stats?.itemCount ?? 0,
-        quizTitle: stats?.title ?? quiz.title,
-      };
-    }
-
-    const stats = await this.loadQuizStats(subjectKey, quiz.id);
-
+  enrichQuiz(quiz) {
     return {
       ...quiz,
-      available: true,
-      questionCount: stats?.questionCount ?? 0,
-      types: stats?.types ?? {},
-      quizTitle: stats?.title ?? quiz.title,
+      available: quiz.available !== false,
+      questionCount: quiz.questionCount ?? 0,
+      types: quiz.types ?? {},
+      itemCount: quiz.itemCount ?? 0,
     };
   },
 
