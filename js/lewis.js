@@ -77,8 +77,6 @@ let valenceStepCorrect = null;
 let diagramStepCorrect = null;
 
 const MAX_BONDS = 3;
-const MAX_DOTS = 8;
-const MAX_CIRCLE_DOTS = 2;
 const LONE_PAIR_DOTS = 2;
 
 const SLOT_DIRECTION_LABELS = {
@@ -3074,10 +3072,8 @@ function unlockQuestion() {
   });
 }
 
-function getMaxLoneDotsForSlot(slot) {
-  if (slot.dataset.kind !== "lone") return MAX_DOTS;
-  if (slot.classList.contains("lewis-slot--circle")) return MAX_CIRCLE_DOTS;
-  return MAX_DOTS;
+function getMaxLoneDotsForSlot() {
+  return LONE_PAIR_DOTS;
 }
 
 function canPlaceToken(slot, token) {

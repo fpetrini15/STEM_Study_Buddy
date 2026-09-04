@@ -149,16 +149,38 @@ const Nav = {
       <div class="site-header-inner">
         <a href="index.html" class="site-logo">STEM Study Buddy</a>
         <nav class="breadcrumbs" id="breadcrumbs" aria-label="Breadcrumb"></nav>
-        <button
-          id="theme-toggle"
-          class="theme-toggle"
-          type="button"
-          aria-label="Toggle dark mode"
-        >🌙</button>
+        <div class="site-header-actions">
+          <a href="feedback.html" class="feedback-link">Feedback</a>
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            type="button"
+            aria-label="Toggle dark mode"
+          >🌙</button>
+        </div>
       </div>
     `;
 
     document.body.prepend(header);
+
+    const feedbackLink = header.querySelector(".feedback-link");
+    if (feedbackLink) {
+      const page = document.body.dataset.page;
+      const keepSessionOpen = page === "quiz" || page === "lewis";
+
+      if (keepSessionOpen) {
+        feedbackLink.target = "_blank";
+        feedbackLink.rel = "noopener noreferrer";
+        feedbackLink.setAttribute(
+          "aria-label",
+          "Feedback (opens in a new tab)",
+        );
+      }
+
+      if (page === "feedback") {
+        feedbackLink.setAttribute("aria-current", "page");
+      }
+    }
 
     if (typeof Theme !== "undefined") {
       Theme.bindToggle();
@@ -213,6 +235,10 @@ const Nav = {
         id: "crumb-lewis",
         href: null,
       });
+    }
+
+    if (page === "feedback") {
+      crumbs.push({ label: "Feedback", href: null });
     }
 
     container.replaceChildren();

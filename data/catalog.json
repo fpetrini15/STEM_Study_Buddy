@@ -339,9 +339,9 @@
         "title": "Acids and Bases",
         "icon": "🥽",
         "description": "Classify common acids and bases by strength.",
-        "questionCount": 18,
+        "questionCount": 16,
         "types": {
-          "drag_and_drop": 18
+          "drag_and_drop": 16
         }
       },
       {

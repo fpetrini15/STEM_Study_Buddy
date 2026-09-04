@@ -130,15 +130,6 @@
     {
       "type": "drag_and_drop",
       "prompt": {
-        "text": "LiOH"
-      },
-      "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Base",
-      "explanation": "Lithium hydroxide is a group 1 metal hydroxide and dissociates fully in aqueous solution. It behaves like NaOH and KOH rather than weak bases such as ammonia."
-    },
-    {
-      "type": "drag_and_drop",
-      "prompt": {
         "text": "KOH"
       },
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
@@ -153,15 +144,6 @@
       "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
       "answer": "Strong Base",
       "explanation": "Barium hydroxide is a strong base because it dissociates completely in water, yielding two OH⁻ ions per formula unit. Heavier group 2 hydroxides such as Ba(OH)₂ and Ca(OH)₂ are considered strong."
-    },
-    {
-      "type": "drag_and_drop",
-      "prompt": {
-        "text": "Ca(OH)₂"
-      },
-      "categories": ["Strong Acid", "Weak Acid", "Weak Base", "Strong Base"],
-      "answer": "Strong Base",
-      "explanation": "Calcium hydroxide dissociates fully in aqueous solution and is classified as a strong base. Mg(OH)₂ is much less soluble and behaves more weakly, but Ca(OH)₂ is treated as strong among common hydroxides."
     }
   ]
 }
