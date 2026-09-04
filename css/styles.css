@@ -410,6 +410,17 @@ SITE HEADER
   min-width: 0;
 }
 
+.site-header-actions {
+  display: flex;
+
+  flex-shrink: 0;
+
+  align-items: center;
+
+  gap: 8px;
+}
+
+.feedback-link,
 .theme-toggle {
   flex-shrink: 0;
 
@@ -419,15 +430,7 @@ SITE HEADER
 
   justify-content: center;
 
-  width: 40px;
-
   height: 40px;
-
-  padding: 0;
-
-  font-size: 18px;
-
-  line-height: 1;
 
   background: var(--card-bg);
 
@@ -435,11 +438,36 @@ SITE HEADER
 
   border-radius: var(--radius-sm);
 
-  cursor: pointer;
-
   transition: var(--transition);
 }
 
+.feedback-link {
+  padding: 0 12px;
+
+  font-family: var(--font-ui);
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  color: var(--text);
+
+  text-decoration: none;
+}
+
+.theme-toggle {
+  width: 40px;
+
+  padding: 0;
+
+  font-size: 18px;
+
+  line-height: 1;
+
+  cursor: pointer;
+}
+
+.feedback-link:hover,
 .theme-toggle:hover {
   border-color: var(--primary);
 }
@@ -464,6 +492,98 @@ SITE HEADER
   color: var(--text);
 
   font-weight: 500;
+}
+
+/* =========================
+FEEDBACK GUIDE
+========================= */
+
+.feedback-guide {
+  max-width: 640px;
+
+  margin: 0 auto 48px;
+
+  padding: 28px 30px;
+
+  text-align: left;
+
+  background: var(--card-bg);
+
+  border-radius: var(--radius-lg);
+
+  box-shadow: var(--shadow-card);
+}
+
+.feedback-guide-section + .feedback-guide-section {
+  margin-top: 28px;
+
+  padding-top: 28px;
+
+  border-top: 1px solid var(--border);
+}
+
+.feedback-guide h2 {
+  margin: 0 0 12px;
+
+  font-size: 20px;
+}
+
+.feedback-guide p,
+.feedback-guide li {
+  color: var(--text-light);
+
+  line-height: 1.55;
+}
+
+.feedback-guide ol,
+.feedback-guide ul {
+  margin: 0;
+
+  padding-left: 22px;
+}
+
+.feedback-guide li + li {
+  margin-top: 8px;
+}
+
+.feedback-guide strong {
+  color: var(--text);
+
+  font-weight: 600;
+}
+
+.feedback-guide-actions {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  gap: 16px;
+
+  margin-top: 18px;
+}
+
+.feedback-guide-actions .btn-small {
+  margin-top: 0;
+
+  text-decoration: none;
+}
+
+.feedback-guide-secondary {
+  font-family: var(--font-ui);
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  color: var(--primary);
+
+  text-decoration: none;
+}
+
+.feedback-guide-secondary:hover {
+  text-decoration: underline;
 }
 
 .section-title {
@@ -2290,6 +2410,7 @@ FOCUS & MOTION
 .quiz-filter-chip:focus-visible,
 .quiz-search:focus-visible,
 .recent-item:focus-visible,
+.feedback-link:focus-visible,
 .theme-toggle:focus-visible,
 .dropzone:focus-visible {
   outline: 2px solid var(--primary);
@@ -2478,6 +2599,7 @@ DARK MODE
 [data-theme="dark"] .recent-item,
 [data-theme="dark"] .quiz-filter-chip,
 [data-theme="dark"] .quiz-search,
+[data-theme="dark"] .feedback-link,
 [data-theme="dark"] .theme-toggle,
 [data-theme="dark"] .mc-option {
   background: var(--card-bg);
