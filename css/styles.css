@@ -205,6 +205,14 @@ BASE LAYOUT
   box-sizing: border-box;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+
+  text-size-adjust: 100%;
+
+  overflow-x: clip;
+}
+
 body {
   font-family: var(--font-ui);
 
@@ -1603,6 +1611,10 @@ FEEDBACK
   box-shadow: var(--shadow-card);
 }
 
+.mode-screen h2 {
+  margin-top: 0;
+}
+
 .mode-screen.hidden {
   display: none;
 }
@@ -1665,12 +1677,6 @@ FEEDBACK
   color: var(--text-light);
 }
 
-.mode-card:hover {
-  border-color: var(--primary);
-
-  transform: translateY(-2px);
-}
-
 .skill-picker {
   margin-top: 28px;
 
@@ -1705,7 +1711,7 @@ FEEDBACK
   gap: 12px;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 720px) {
   .skill-options {
     grid-template-columns: 1fr 1fr;
   }
@@ -1734,13 +1740,21 @@ FEEDBACK
 
   cursor: pointer;
 
-  transition: var(--transition);
+  touch-action: manipulation;
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-.skill-option:hover {
-  border-color: var(--primary);
+@media (hover: hover) and (pointer: fine) {
+  .skill-option:hover,
+  .mode-card:hover {
+    border-color: var(--primary);
 
-  transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
 }
 
 .skill-option--selected {
@@ -1749,16 +1763,46 @@ FEEDBACK
   background: #eef2ff;
 }
 
-.skill-option input {
-  width: 18px;
+.skill-option input[type="checkbox"] {
+  appearance: none;
 
-  height: 18px;
+  -webkit-appearance: none;
 
-  margin-top: 3px;
+  width: 22px;
+
+  height: 22px;
+
+  margin: 1px 0 0;
 
   flex-shrink: 0;
 
-  accent-color: var(--primary);
+  border: 2px solid var(--border);
+
+  border-radius: 6px;
+
+  background-color: var(--card-bg, #fff);
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: 14px;
+
+  cursor: pointer;
+}
+
+.skill-option input[type="checkbox"]:checked {
+  background-color: var(--primary);
+
+  border-color: var(--primary);
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round' d='M3.5 8.5 6.5 11.5 12.5 4.5'/%3E%3C/svg%3E");
+}
+
+.skill-option input[type="checkbox"]:focus-visible {
+  outline: 2px solid var(--primary);
+
+  outline-offset: 2px;
 }
 
 .skill-option-copy {
@@ -1828,6 +1872,8 @@ FEEDBACK
   align-items: center;
 
   justify-content: center;
+
+  min-width: 0;
 
   min-height: 32px;
 
@@ -2069,7 +2115,7 @@ MOBILE
 
 @media (max-width: 600px) {
   body {
-    padding: calc(var(--site-header-offset) + var(--site-header-gap)) 20px 20px;
+    padding: calc(var(--site-header-offset) + var(--site-header-gap)) 16px 20px;
   }
 
   .container {
@@ -2077,15 +2123,103 @@ MOBILE
   }
 
   .site-header-inner {
+    display: grid;
+
+    grid-template-columns: minmax(0, 1fr) auto;
+
+    grid-template-areas:
+      "logo actions"
+      "crumbs crumbs";
+
+    align-items: center;
+
+    gap: 8px 12px;
+
+    padding: 10px 16px;
+  }
+
+  .site-logo {
+    grid-area: logo;
+
+    font-size: 15px;
+  }
+
+  .site-header-actions {
+    grid-area: actions;
+  }
+
+  .breadcrumbs {
+    grid-area: crumbs;
+
+    font-size: 13px;
+  }
+
+  h1,
+  #quizHeader {
+    font-size: 22px;
+  }
+
+  .mode-screen h2 {
+    margin-top: 0;
+
+    font-size: 22px;
+  }
+
+  #prompt {
+    font-size: 18px;
+  }
+
+  #prompt-container,
+  #prompt-container.prompt-static {
+    padding: 14px 16px;
+  }
+
+  #instruction-text {
+    font-size: 14px;
+  }
+
+  .mode-screen {
+    margin-top: 16px;
+
+    padding: 20px 16px;
+  }
+
+  .skill-picker {
+    margin-top: 20px;
+
+    padding-top: 18px;
+  }
+
+  .skill-option {
+    padding: 12px;
+  }
+
+  .skill-option-copy {
+    width: 100%;
+  }
+
+  .skill-option-copy strong {
+    font-size: 14px;
+  }
+
+  .skill-option-example {
     flex-direction: column;
 
-    align-items: flex-start;
+    width: 100%;
 
     gap: 8px;
   }
 
-  h1 {
-    font-size: 30px;
+  .fill-in-input {
+    font-size: 16px;
+
+    padding: 12px 14px;
+  }
+
+  .mc-option {
+    font-size: 16px;
+
+    padding: 14px;
   }
 
   .answer {
@@ -3246,7 +3380,17 @@ DARK MODE
   border-color: var(--primary-light);
 }
 
-[data-theme="dark"] .skill-example-prompt {
+[data-theme="dark"] .skill-option input[type="checkbox"] {
+  background-color: var(--card-bg);
+
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .skill-option input[type="checkbox"]:checked {
+  background-color: var(--primary);
+
+  border-color: var(--primary);
+}
   background: var(--inactive-light);
 
   border-color: var(--border);
