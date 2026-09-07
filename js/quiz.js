@@ -522,27 +522,14 @@ function hideReferencePanel() {
 function applyQuizDisclaimer() {
   const text = quizData?.disclaimer;
   if (typeof text !== "string" || text.trim().length === 0) return;
+  if (typeof CatalogUtils === "undefined") return;
   if (document.querySelector(".quiz-disclaimer")) return;
 
-  const createDisclaimer =
-    typeof CatalogUtils !== "undefined" &&
-    typeof CatalogUtils.createDisclaimer === "function"
-      ? CatalogUtils.createDisclaimer.bind(CatalogUtils)
-      : (value, { compact = false } = {}) => {
-          const el = document.createElement("p");
-          el.className = compact
-            ? "quiz-disclaimer quiz-disclaimer--compact"
-            : "quiz-disclaimer";
-          el.setAttribute("role", "note");
-          el.textContent = value;
-          return el;
-        };
-
   if (modeScreen) {
-    modeScreen.appendChild(createDisclaimer(text));
+    modeScreen.appendChild(CatalogUtils.createDisclaimer(text));
   }
 
-  const compact = createDisclaimer(text, { compact: true });
+  const compact = CatalogUtils.createDisclaimer(text, { compact: true });
   const footer = quizContent?.querySelector("footer");
   if (footer) {
     footer.prepend(compact);
