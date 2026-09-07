@@ -1,0 +1,157 @@
+{
+  "title": "Polyatomic Ions",
+  "skills": [
+    {
+      "id": "name_to_formula",
+      "label": "Given the name, write the formula",
+      "examplePrompt": "sulfate",
+      "exampleAnswer": "SO₄"
+    },
+    {
+      "id": "formula_to_name",
+      "label": "Given the formula, pick the name",
+      "examplePrompt": "SO₄",
+      "exampleAnswer": "sulfate"
+    },
+    {
+      "id": "name_to_charge",
+      "label": "Given the name, write the charge",
+      "examplePrompt": "sulfate",
+      "exampleAnswer": "²⁻"
+    },
+    {
+      "id": "formula_to_charge",
+      "label": "Given the formula, write the charge",
+      "examplePrompt": "SO₄",
+      "exampleAnswer": "²⁻"
+    }
+  ],
+  "ions": [
+    {
+      "name": "ammonium",
+      "formula": "NH4",
+      "formulaDisplay": "NH₄",
+      "charges": ["+", "1+", "+1"],
+      "explanation": "Ammonium is NH₄⁺, the only common polyatomic cation in this set. Do not confuse it with ammonia (NH₃), which is a neutral molecule."
+    },
+    {
+      "name": "nitrite",
+      "formula": "NO2",
+      "formulaDisplay": "NO₂",
+      "charges": ["-", "1-", "-1"],
+      "explanation": "Nitrite is NO₂⁻. The -ite ending means one fewer oxygen than the -ate ion nitrate (NO₃⁻). Both carry a 1− charge."
+    },
+    {
+      "name": "nitrate",
+      "formula": "NO3",
+      "formulaDisplay": "NO₃",
+      "charges": ["-", "1-", "-1"],
+      "explanation": "Nitrate is NO₃⁻. Nitrite (NO₂⁻) has one fewer oxygen and the same 1− charge."
+    },
+    {
+      "name": "sulfite",
+      "formula": "SO3",
+      "formulaDisplay": "SO₃",
+      "charges": ["2-", "-2"],
+      "explanation": "Sulfite is SO₃²⁻. Sulfate (SO₄²⁻) has one more oxygen; both ions carry a 2− charge."
+    },
+    {
+      "name": "sulfate",
+      "formula": "SO4",
+      "formulaDisplay": "SO₄",
+      "charges": ["2-", "-2"],
+      "explanation": "Sulfate is SO₄²⁻. Sulfite is the related ion with one fewer oxygen (SO₃²⁻)."
+    },
+    {
+      "name": "hydroxide",
+      "formula": "OH",
+      "formulaDisplay": "OH",
+      "charges": ["-", "1-", "-1"],
+      "explanation": "Hydroxide is OH⁻. Do not confuse it with oxide (O²⁻) or peroxide (O₂²⁻)."
+    },
+    {
+      "name": "cyanide",
+      "formula": "CN",
+      "formulaDisplay": "CN",
+      "charges": ["-", "1-", "-1"],
+      "explanation": "Cyanide is CN⁻, a diatomic anion with a 1− charge."
+    },
+    {
+      "name": "phosphate",
+      "formula": "PO4",
+      "formulaDisplay": "PO₄",
+      "charges": ["3-", "-3"],
+      "explanation": "Phosphate is PO₄³⁻, one of the few common 3− polyatomic ions. Hydrogen phosphate (HPO₄²⁻) is a different ion."
+    },
+    {
+      "name": "carbonate",
+      "formula": "CO3",
+      "formulaDisplay": "CO₃",
+      "charges": ["2-", "-2"],
+      "explanation": "Carbonate is CO₃²⁻. Hydrogen carbonate / bicarbonate (HCO₃⁻) is related but has a 1− charge."
+    },
+    {
+      "name": "hypochlorite",
+      "formula": "ClO",
+      "formulaDisplay": "ClO",
+      "charges": ["-", "1-", "-1"],
+      "explanation": "Hypochlorite is ClO⁻, the lowest-oxygen member of the chlorine oxoanion series: hypo-…-ite, -ite, -ate, per-…-ate."
+    },
+    {
+      "name": "chlorite",
+      "formula": "ClO2",
+      "formulaDisplay": "ClO₂",
+      "charges": ["-", "1-", "-1"],
+      "explanation": "Chlorite is ClO₂⁻. The chlorine series is ClO⁻ (hypochlorite), ClO₂⁻ (chlorite), ClO₃⁻ (chlorate), ClO₄⁻ (perchlorate)."
+    },
+    {
+      "name": "chlorate",
+      "formula": "ClO3",
+      "formulaDisplay": "ClO₃",
+      "charges": ["-", "1-", "-1"],
+      "explanation": "Chlorate is ClO₃⁻. Perchlorate (ClO₄⁻) has one more oxygen; chlorite (ClO₂⁻) has one fewer."
+    },
+    {
+      "name": "perchlorate",
+      "formula": "ClO4",
+      "formulaDisplay": "ClO₄",
+      "charges": ["-", "1-", "-1"],
+      "explanation": "Perchlorate is ClO₄⁻, the highest-oxygen chlorine oxoanion. The per-…-ate prefix marks one more oxygen than the -ate ion."
+    },
+    {
+      "name": "acetate",
+      "formula": "C2H3O2",
+      "formulaDisplay": "C₂H₃O₂",
+      "charges": ["-", "1-", "-1"],
+      "explanation": "Acetate is C₂H₃O₂⁻ (also written CH₃COO⁻). It is a 1− carboxylate anion, not a 2− ion."
+    },
+    {
+      "name": "permanganate",
+      "formula": "MnO4",
+      "formulaDisplay": "MnO₄",
+      "charges": ["-", "1-", "-1"],
+      "explanation": "Permanganate is MnO₄⁻. Despite four oxygens, the charge is 1−, not 2−."
+    },
+    {
+      "name": "dichromate",
+      "formula": "Cr2O7",
+      "formulaDisplay": "Cr₂O₇",
+      "charges": ["2-", "-2"],
+      "explanation": "Dichromate is Cr₂O₇²⁻. Chromate is CrO₄²⁻ — same 2− charge, different formula."
+    },
+    {
+      "name": "chromate",
+      "formula": "CrO4",
+      "formulaDisplay": "CrO₄",
+      "charges": ["2-", "-2"],
+      "explanation": "Chromate is CrO₄²⁻. Dichromate (Cr₂O₇²⁻) has the same charge but two chromium atoms."
+    },
+    {
+      "name": "peroxide",
+      "formula": "O2",
+      "formulaDisplay": "O₂",
+      "charges": ["2-", "-2"],
+      "explanation": "Peroxide is O₂²⁻ (two oxygens, 2− charge). Oxide is O²⁻; superoxide is O₂⁻."
+    }
+  ]
+}

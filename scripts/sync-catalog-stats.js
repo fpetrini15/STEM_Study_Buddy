@@ -29,6 +29,18 @@ function quizStatsFromFile(subjectKey, quizId) {
   }
 
   const data = readJson(filePath);
+
+  if (Array.isArray(data.ions) && data.ions.length > 0) {
+    return {
+      questionCount: data.ions.length,
+      types: {
+        fill_in: data.ions.length,
+        multiple_choice: data.ions.length,
+      },
+      title: data.title,
+    };
+  }
+
   if (!Array.isArray(data.questions)) {
     return null;
   }

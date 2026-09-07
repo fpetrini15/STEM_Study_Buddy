@@ -1,0 +1,40 @@
+{
+  "title": "Net Ionic Equations",
+  "disclaimer": "This is a one-question demo. Decide whether a reaction occurs, then add reactant and product terms yourself. Spectator ions stay unused. Use Delete to remove a term. Tap the faint mark on a term if you need a coefficient.",
+  "referenceTable": {
+    "title": "Selected Solubility Information",
+    "note": "Excludes ions typically required from memory: Group 1 cations, NH₄⁺, NO₃⁻, and acetate are soluble.",
+    "columns": ["Anion", "Soluble", "Insoluble"],
+    "rows": [
+      {
+        "cells": ["Cl⁻", "most", "Ag⁺, Pb²⁺, Hg₂²⁺"]
+      },
+      {
+        "cells": ["Br⁻, I⁻", "most", "Ag⁺, Pb²⁺, Hg²⁺, Hg₂²⁺"]
+      },
+      {
+        "cells": ["SO₄²⁻", "most", "Ag⁺, Pb²⁺, Hg₂²⁺, Ca²⁺, Sr²⁺, Ba²⁺"]
+      },
+      {
+        "cells": ["CO₃²⁻, PO₄³⁻", "only a few", "most"]
+      },
+      {
+        "cells": ["OH⁻", "Ba²⁺", "most"]
+      },
+      {
+        "cells": ["S²⁻", "Mg²⁺, Ca²⁺, Sr²⁺, Ba²⁺", "most"]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "net_ionic",
+      "prompt": { "text": "0.1 M AgNO₃ and 0.1 M KBr" },
+      "reaction": true,
+      "reactants": [{ "species": "Ag⁺" }, { "species": "Br⁻" }],
+      "products": [{ "species": "AgBr(s)" }],
+      "bank": ["Ag⁺", "K⁺", "NO₃⁻", "Br⁻", "AgBr(s)", "KNO₃"],
+      "explanation": "AgBr is insoluble (Ag⁺ with Br⁻). KNO₃ is a real compound — the other molecular product — but it is soluble, so it stays as spectator K⁺ and NO₃⁻. Those cancel. The net ionic equation is Ag⁺ + Br⁻ → AgBr(s)."
+    }
+  ]
+}

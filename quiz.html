@@ -81,6 +81,17 @@
             <span>No hints or skip — results at the end.</span>
           </button>
         </div>
+
+        <div id="skill-picker" class="skill-picker hidden">
+          <h3>Which questions do you want?</h3>
+          <p class="skill-picker-intro">
+            Check one or more question types — or keep all selected for a mix.
+          </p>
+          <div id="skill-options" class="skill-options"></div>
+          <p id="skill-picker-error" class="skill-picker-error hidden">
+            Pick at least one drill.
+          </p>
+        </div>
       </div>
 
       <div id="quiz-content" class="hidden">
@@ -96,6 +107,19 @@
 
         <div class="instruction-container">
           <div id="instruction-text"></div>
+        </div>
+
+        <div id="reference-panel" class="reference-panel hidden">
+          <div class="reference-panel-header">
+            <h3 id="reference-panel-title"></h3>
+            <button
+              type="button"
+              id="reference-toggle"
+              class="btn btn-small"
+            ></button>
+          </div>
+          <p id="reference-panel-note" class="reference-panel-note"></p>
+          <div id="reference-table-wrap" class="reference-table-wrap"></div>
         </div>
 
         <div class="question-area">
@@ -176,6 +200,7 @@
     <script src="js/nav.js"></script>
     <script src="js/catalog-utils.js"></script>
     <script src="js/stem-text.js"></script>
+    <script src="js/ion-quiz.js"></script>
     <script src="js/quiz.js" defer></script>
   </body>
 </html>

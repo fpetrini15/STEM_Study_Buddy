@@ -1,0 +1,170 @@
+{
+  "title": "Solubility Rules Quiz",
+  "disclaimer": "This quiz uses a selected intro-chemistry solubility table. It is for practice, not a complete or universal set of rules. Textbooks disagree on some cases (for example Ca(OH)₂, Sr(OH)₂, Ag₂SO₄, and MgS). Always follow your instructor’s table when they differ. Ions typically required from memory are left off the table.",
+  "referenceTable": {
+    "title": "Selected Solubility Information",
+    "note": "Excludes ions typically required from memory: Group 1 cations, NH₄⁺, NO₃⁻, and acetate are soluble.",
+    "columns": ["Anion", "Soluble", "Insoluble"],
+    "rows": [
+      {
+        "cells": ["Cl⁻", "most", "Ag⁺, Pb²⁺, Hg₂²⁺"]
+      },
+      {
+        "cells": ["Br⁻, I⁻", "most", "Ag⁺, Pb²⁺, Hg²⁺, Hg₂²⁺"]
+      },
+      {
+        "cells": ["SO₄²⁻", "most", "Ag⁺, Pb²⁺, Hg₂²⁺, Ca²⁺, Sr²⁺, Ba²⁺"]
+      },
+      {
+        "cells": ["CO₃²⁻, PO₄³⁻", "only a few", "most"]
+      },
+      {
+        "cells": ["OH⁻", "Ba²⁺", "most"]
+      },
+      {
+        "cells": ["S²⁻", "Mg²⁺, Ca²⁺, Sr²⁺, Ba²⁺", "most"]
+      }
+    ]
+  },
+  "categories": ["Soluble", "Insoluble"],
+  "questions": [
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "NaCl" },
+      "answer": "Soluble",
+      "explanation": "Chlorides are soluble in most cases. Na⁺ is also a Group 1 cation, one of the always-soluble ions typically required from memory."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "AgCl" },
+      "answer": "Insoluble",
+      "explanation": "Most chlorides are soluble, but Ag⁺ is a listed exception. AgCl is a classic insoluble chloride."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "PbCl₂" },
+      "answer": "Insoluble",
+      "explanation": "Chlorides are generally soluble except with Ag⁺, Pb²⁺, and Hg₂²⁺. PbCl₂ is one of those insoluble exceptions."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "Hg₂Cl₂" },
+      "answer": "Insoluble",
+      "explanation": "The chloride exceptions are Ag⁺, Pb²⁺, and mercury(I), Hg₂²⁺. Hg₂Cl₂ is insoluble; do not confuse Hg₂²⁺ with Hg²⁺."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "KI" },
+      "answer": "Soluble",
+      "explanation": "Most bromides and iodides are soluble. K⁺ is also a Group 1 cation, so KI is soluble on both counts."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "AgI" },
+      "answer": "Insoluble",
+      "explanation": "Bromides and iodides are insoluble with Ag⁺, Pb²⁺, Hg²⁺, and Hg₂²⁺. AgI is a standard insoluble iodide."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "PbI₂" },
+      "answer": "Insoluble",
+      "explanation": "Pb²⁺ is an exception for both chlorides and iodides. PbI₂ is insoluble."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "HgI₂" },
+      "answer": "Insoluble",
+      "explanation": "Unlike chlorides, bromides and iodides also list Hg²⁺ as insoluble. HgI₂ is insoluble on this table."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "CuSO₄" },
+      "answer": "Soluble",
+      "explanation": "Most sulfates are soluble. Cu²⁺ is not among the sulfate exceptions (Ag⁺, Pb²⁺, Hg₂²⁺, Ca²⁺, Sr²⁺, Ba²⁺)."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "BaSO₄" },
+      "answer": "Insoluble",
+      "explanation": "Sulfates of Ba²⁺, Sr²⁺, and Ca²⁺ are insoluble on this table. BaSO₄ is the usual example."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "CaSO₄" },
+      "answer": "Insoluble",
+      "explanation": "Ca²⁺ is a listed insoluble sulfate cation. This course table treats CaSO₄ as insoluble."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "Ag₂SO₄" },
+      "answer": "Insoluble",
+      "explanation": "This course table includes Ag⁺ among the insoluble sulfate cations. Some other books call Ag₂SO₄ only slightly soluble."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "Na₂CO₃" },
+      "answer": "Soluble",
+      "explanation": "Carbonates are insoluble in most cases. The few soluble ones are the always-soluble cations such as Group 1 Na⁺."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "(NH₄)₂CO₃" },
+      "answer": "Soluble",
+      "explanation": "Ammonium is treated as always soluble. Even though most carbonates are insoluble, (NH₄)₂CO₃ is one of the few that dissolve."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "CaCO₃" },
+      "answer": "Insoluble",
+      "explanation": "Most carbonates are insoluble. Ca²⁺ is not an always-soluble cation, so CaCO₃ is insoluble."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "Ca₃(PO₄)₂" },
+      "answer": "Insoluble",
+      "explanation": "Phosphates follow the same pattern as carbonates: most are insoluble. Ca₃(PO₄)₂ is insoluble."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "Ba(OH)₂" },
+      "answer": "Soluble",
+      "explanation": "This course table lists Ba²⁺ as the soluble hydroxide (besides always-soluble cations). Ba(OH)₂ is soluble here."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "Ca(OH)₂" },
+      "answer": "Insoluble",
+      "explanation": "Only Ba²⁺ is listed as a soluble hydroxide on this table. Ca(OH)₂ is therefore insoluble here, even though some textbooks call it slightly soluble."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "Fe(OH)₃" },
+      "answer": "Insoluble",
+      "explanation": "Most hydroxides are insoluble. Fe³⁺ is not Ba²⁺ or an always-soluble cation, so Fe(OH)₃ is insoluble."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "MgS" },
+      "answer": "Soluble",
+      "explanation": "This course table treats Mg²⁺, Ca²⁺, Sr²⁺, and Ba²⁺ sulfides as soluble. MgS is soluble here; some other books list it as insoluble."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "BaS" },
+      "answer": "Soluble",
+      "explanation": "Alkaline-earth sulfides are the soluble exceptions on this table. BaS is soluble."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "CuS" },
+      "answer": "Insoluble",
+      "explanation": "Most sulfides are insoluble. Cu²⁺ is not among Mg²⁺, Ca²⁺, Sr²⁺, or Ba²⁺, so CuS is insoluble."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": { "text": "KNO₃" },
+      "answer": "Soluble",
+      "explanation": "Nitrate salts are treated as soluble. Nitrate is one of the ions typically required from memory and left off the exception table."
+    }
+  ]
+}
