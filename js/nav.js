@@ -122,7 +122,9 @@ const Nav = {
 
       if (!brand) {
         const existing = [...footer.querySelectorAll("p")].find(
-          (p) => !p.classList.contains("medical-disclaimer"),
+          (p) =>
+            !p.classList.contains("medical-disclaimer") &&
+            !p.classList.contains("quiz-disclaimer"),
         );
 
         if (existing) {

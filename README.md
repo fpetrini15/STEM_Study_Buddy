@@ -8,7 +8,7 @@ Interactive study tools and quizzes for biology, chemistry, and more. Live site:
 index.html              Home page (subject cards)
 biology.html            Biology quiz catalog
 chemistry.html          Chemistry quiz catalog
-quiz.html               Standard quiz player (MC + drag & drop)
+quiz.html               Standard quiz player (MC, drag, fill-in)
 lewis.html              Lewis dot structure practice
 data/
   catalog.json          Subject layout, quiz metadata, and coming-soon entries
@@ -22,6 +22,7 @@ js/
   catalog-utils.js      Shared catalog loading and card rendering
   subject.js            Subject page logic
   quiz.js               Quiz engine
+  ion-quiz.js           Polyatomic ion bank, skills, and fill-in matching
   lewis.js              Lewis diagram builder and validation
   nav.js                Header, breadcrumbs, recent quizzes
   theme.js              Dark mode
@@ -34,7 +35,7 @@ css/styles.css          Global styles (subject themes, dark mode)
 Each subject defines its own layout:
 
 - **Biology** uses grouped `units` (each with a name and quiz list), plus an optional `comingSoon` section.
-- **Chemistry** uses a flat `quizzes` list and a `comingSoon` section.
+- **Chemistry** uses a flat `quizzes` list and an optional `comingSoon` section.
 
 Catalog entries need `id`, `title`, `icon`, and `description`. Question count and types are stored on each entry (`questionCount`, `types`) so subject pages can render without fetching every quiz file.
 
@@ -99,6 +100,13 @@ To show a placeholder before content is ready, add a catalog entry without creat
       "blanks": ["dispatch", "transport"],
       "bank": ["dispatch", "transport", "billing"],
       "explanation": "Optional explanation."
+    },
+    {
+      "type": "fill_in",
+      "prompt": { "text": "What is the charge of sulfate?" },
+      "answers": ["2-", "-2"],
+      "answer": "²⁻",
+      "explanation": "Optional explanation."
     }
   ]
 }
@@ -108,20 +116,74 @@ To show a placeholder before content is ready, add a catalog entry without creat
 
 | Field | Required | Description |
 |-------|----------|-------------|
-| `type` | Yes | `"multiple_choice"`, `"drag_and_drop"`, `"drug_worksheet"`, or `"drag_sentence"` |
+| `type` | Yes | `"multiple_choice"`, `"drag_and_drop"`, `"drug_worksheet"`, `"drag_sentence"`, `"fill_in"`, or `"net_ionic"` |
 | `prompt.text` | One of text/image | Question text |
 | `prompt.image` | One of text/image | Path to image (e.g. `images/biology/mitosis/prophase.png`) |
 | `options` | MC only | Array of answer choices (shuffled at runtime) |
 | `categories` | Drag only | Drop zone labels |
 | `sentence` | Drag sentence only | Array of strings and `null` blanks |
 | `blanks` | Drag sentence only | Correct words in blank order |
-| `bank` | Drag sentence only | Draggable words (may include distractors; shuffled at runtime) |
-| `answer` | MC / drag only | Correct option or category name |
+| `bank` | Drag sentence / net ionic | Draggable words (may include distractors; shuffled at runtime) |
+| `reaction` | Net ionic only | `true` if a reaction occurs |
+| `reactants` / `products` | Net ionic only | Term objects `{ "species": "Ag⁺", "coeff": 1 }` (coeff optional, default 1) |
+| `answers` | Fill-in only | Accepted typed answers (normalized at runtime) |
+| `answer` | MC / drag / fill-in | Correct option, category, or display answer |
 | `explanation` | No | Teaching note shown after each answer |
 
-### Optional top-level field
+### Optional top-level fields
 
 - `categories` — shared drop zones for all drag questions in a quiz (alternative to per-question `categories`)
+- `disclaimer` — note shown on the mode screen and quiz footer (for example a course-table caveat)
+- `referenceTable` — optional table shown on each question, with a hide/show toggle (`title`, `note`, `columns`, `rows[].cells`)
+
+## Polyatomic ions
+
+Data lives at `data/chemistry/polyatomic_ions.json`. The quiz is an **ion bank** plus a skill picker rather than a static `questions` array. Students choose Practice or Exam and one or more drills:
+
+- Given the name, write the formula (`SO4` and `SO₄` both count)
+- Given the formula, pick the name
+- Given the name, write the charge (`2-`, `-2`, and `²⁻` all count)
+- Given the formula, write the charge
+
+Selecting every drill is the mixed quiz. Each selected skill produces one question per ion.
+
+```json
+{
+  "title": "Polyatomic Ions",
+  "skills": [
+    {
+      "id": "name_to_formula",
+      "label": "Given the name, write the formula",
+      "examplePrompt": "sulfate",
+      "exampleAnswer": "SO₄"
+    }
+  ],
+  "ions": [
+    {
+      "name": "sulfate",
+      "formula": "SO4",
+      "formulaDisplay": "SO₄",
+      "charges": ["2-", "-2"],
+      "explanation": "Sulfate is SO₄²⁻. Sulfite is SO₃²⁻."
+    }
+  ]
+}
+```
+
+| Field | Description |
+|-------|-------------|
+| `formula` | ASCII formula used for typed matching |
+| `formulaDisplay` | Unicode formula shown in prompts and feedback |
+| `charges` | Accepted typed charge strings (same variants as the original study script) |
+| `examplePrompt` / `exampleAnswer` | Optional pair shown on the skill picker as **Shown** and **Answer** |
+
+URL parameters: `quiz.html?quiz=chemistry/polyatomic_ions&mode=practice&skills=name_to_charge,formula_to_name`
+
+Catalog stats for ion-bank quizzes use the ion count (`questionCount: 18`). After editing the ion list, run `node scripts/sync-catalog-stats.js`.
+
+```bash
+node ci/test-ion-quiz.js
+```
 
 ## Lewis dot structures
 
@@ -208,6 +270,8 @@ Quizzes support three modes (chosen on the quiz page):
 - **Exam** — no hints or skip; results at the end
 
 URL parameter: `quiz.html?quiz=biology/mitosis&mode=exam`
+
+Ion-bank quizzes also accept `skills` as a comma-separated list of skill ids.
 
 ## Local development
 

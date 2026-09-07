@@ -5,7 +5,9 @@ on:
     paths:
       - "data/**/*.json"
       - "js/quiz.js"
+      - "js/ion-quiz.js"
       - "ci/test-quiz-data.js"
+      - "ci/test-ion-quiz.js"
       - "scripts/sync-catalog-stats.js"
       - ".github/workflows/quiz-data.yml"
   push:
@@ -14,7 +16,9 @@ on:
     paths:
       - "data/**/*.json"
       - "js/quiz.js"
+      - "js/ion-quiz.js"
       - "ci/test-quiz-data.js"
+      - "ci/test-ion-quiz.js"
       - "scripts/sync-catalog-stats.js"
       - ".github/workflows/quiz-data.yml"
 
@@ -30,6 +34,9 @@ jobs:
 
       - name: Run quiz data tests
         run: node ci/test-quiz-data.js
+
+      - name: Run ion quiz tests
+        run: node ci/test-ion-quiz.js
 
       - name: Check catalog stats
         run: node scripts/sync-catalog-stats.js --check

@@ -56,14 +56,20 @@ const CatalogUtils = {
     return this.MEDICAL_SUBJECTS.has(subjectKey);
   },
 
-  createMedicalDisclaimer({ compact = false } = {}) {
+  createDisclaimer(text, { compact = false, variant = "quiz" } = {}) {
     const el = document.createElement("p");
-    el.className = compact
-      ? "medical-disclaimer medical-disclaimer--compact"
-      : "medical-disclaimer";
+    const base = variant === "medical" ? "medical-disclaimer" : "quiz-disclaimer";
+    el.className = compact ? `${base} ${base}--compact` : base;
     el.setAttribute("role", "note");
-    el.textContent = this.MEDICAL_DISCLAIMER_TEXT;
+    el.textContent = text;
     return el;
+  },
+
+  createMedicalDisclaimer({ compact = false } = {}) {
+    return this.createDisclaimer(this.MEDICAL_DISCLAIMER_TEXT, {
+      compact,
+      variant: "medical",
+    });
   },
 
   showLoadError(container, message, backHref, backLabel) {
@@ -93,6 +99,8 @@ const CatalogUtils = {
     if (types.drag_and_drop) labels.push("Drag & drop");
     if (types.drug_worksheet) labels.push("Drug worksheet");
     if (types.drag_sentence) labels.push("Drag sentence");
+    if (types.fill_in) labels.push("Fill in");
+    if (types.net_ionic) labels.push("Net ionic");
     return labels.join(" · ");
   },
 

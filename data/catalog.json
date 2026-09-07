@@ -352,13 +352,35 @@
         "href": "lewis.html",
         "dataFile": "lewis_structures",
         "itemCount": 29
+      },
+      {
+        "id": "polyatomic_ions",
+        "title": "Polyatomic Ions",
+        "icon": "⚛️",
+        "description": "Name, formula, and charge drills for 18 common polyatomic ions.",
+        "questionCount": 18,
+        "types": {
+          "fill_in": 18,
+          "multiple_choice": 18
+        }
+      },
+      {
+        "id": "solubility_rules",
+        "title": "Solubility Rules",
+        "icon": "💧",
+        "description": "Practice reading a selected intro-chem table to classify compounds as soluble or insoluble.",
+        "questionCount": 23,
+        "types": {
+          "drag_and_drop": 23
+        }
       }
     ],
     "comingSoon": [
       {
-        "title": "Polyatomic Ions",
-        "icon": "⚛️",
-        "description": "Formulas and charges of common polyatomic ions."
+        "id": "net_ionic_equations",
+        "title": "Net Ionic Equations",
+        "icon": "↔️",
+        "description": "Decide if a reaction occurs, then build the net ionic equation."
       }
     ]
   },

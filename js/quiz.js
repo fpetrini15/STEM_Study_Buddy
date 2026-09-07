@@ -15,6 +15,7 @@ let quizMode = PARAMS.get("mode");
 
 let quizData;
 let questions = [];
+let selectedSkills = [];
 
 let current = 0;
 let correctCount = 0;
@@ -119,7 +120,7 @@ function prepareQuestions(sourceQuestions) {
           })),
         };
       }
-      if (q.type === "drag_sentence") {
+      if (q.type === "drag_sentence" || q.type === "net_ionic") {
         return {
           ...q,
           bank: shuffle([...q.bank]),
@@ -225,16 +226,34 @@ function lockQuestionInteraction(question) {
     });
   }
 
-  if (question.type === "drag_sentence") {
+  if (question.type === "fill_in") {
+    const input = document.getElementById("fill-in-input");
+    if (input) {
+      input.disabled = true;
+    }
+  }
+
+  if (question.type === "drag_sentence" || question.type === "net_ionic") {
     document.querySelectorAll(".sentence-chip").forEach((chip) => {
       chip.setAttribute("draggable", "false");
       chip.classList.remove("sentence-chip--selected");
     });
+    document.querySelectorAll(".net-ionic-choice").forEach((btn) => {
+      btn.disabled = true;
+    });
+    document
+      .querySelectorAll(".net-ionic-add, .net-ionic-erase, .net-ionic-coeff")
+      .forEach((btn) => {
+        btn.disabled = true;
+      });
+    clearNetIonicErase();
   }
 
   if (
     question.type === "drug_worksheet" ||
-    question.type === "drag_sentence"
+    question.type === "drag_sentence" ||
+    question.type === "fill_in" ||
+    question.type === "net_ionic"
   ) {
     checkWorksheetBtn.disabled = true;
     checkWorksheetBtn.style.display = "none";
@@ -254,6 +273,11 @@ function highlightCorrectAnswer(question) {
     );
     if (correctZone) {
       correctZone.classList.add("correct");
+    }
+  } else if (question.type === "fill_in") {
+    const input = document.getElementById("fill-in-input");
+    if (input) {
+      input.classList.add("correct");
     }
   }
   // drug_worksheet / drag_sentence: slot states are set during check/skip reveal
@@ -299,6 +323,8 @@ function resetQuestionUI() {
   categoriesContainer.classList.remove(
     "categories--worksheet",
     "categories--sentence",
+    "categories--fill-in",
+    "categories--net-ionic",
   );
   feedback.replaceChildren();
   feedback.classList.remove("show");
@@ -308,6 +334,7 @@ function resetQuestionUI() {
   continueBtn.disabled = true;
   checkWorksheetBtn.style.display = "none";
   checkWorksheetBtn.disabled = true;
+  checkWorksheetBtn.textContent = "Check answers";
 
   skipBtn.disabled = false;
   if (!isExamMode()) {
@@ -330,6 +357,8 @@ const questionRenderers = {
   multiple_choice: renderMultipleChoiceQuestion,
   drug_worksheet: renderDrugWorksheetQuestion,
   drag_sentence: renderDragSentenceQuestion,
+  fill_in: renderFillInQuestion,
+  net_ionic: renderNetIonicQuestion,
 };
 
 const answerCheckers = {
@@ -337,39 +366,311 @@ const answerCheckers = {
   multiple_choice: checkMultipleChoiceAnswer,
   drug_worksheet: checkDrugWorksheetAnswer,
   drag_sentence: checkDragSentenceAnswer,
+  fill_in: checkFillInAnswer,
+  net_ionic: checkNetIonicAnswer,
 };
 
 /* MODE SELECT */
 
-function initModeSelection() {
-  if (quizMode && VALID_MODES.includes(quizMode)) {
-    modeScreen.classList.add("hidden");
-    quizContent.classList.remove("hidden");
-    applyModeUI();
-    loadQuiz();
+function isIonBankQuiz(data) {
+  return typeof IonQuiz !== "undefined" && IonQuiz.hasIonBank(data);
+}
+
+function applyQuizMeta() {
+  document.getElementById("tabTitle").textContent = quizData.title;
+  document.getElementById("quizHeader").textContent = quizData.title;
+
+  const metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) {
+    metaDescription.content = `Study with the ${quizData.title} on STEM Study Buddy. Practice and exam modes with instant feedback.`;
+  }
+
+  document.body.dataset.subject = quizName.split("/")[0];
+  if (typeof Nav !== "undefined") {
+    Nav.updateQuizCrumb(quizData.title);
+  }
+
+  applyQuizDisclaimer();
+  setupReferenceTable();
+}
+
+function hasReferenceTable(data = quizData) {
+  const table = data?.referenceTable;
+  return (
+    !!table &&
+    Array.isArray(table.columns) &&
+    table.columns.length > 0 &&
+    Array.isArray(table.rows) &&
+    table.rows.length > 0
+  );
+}
+
+function referenceTableStorageKey() {
+  return "stem-reference-table:" + quizName;
+}
+
+function isReferenceTableOpen() {
+  try {
+    return localStorage.getItem(referenceTableStorageKey()) !== "off";
+  } catch {
+    return true;
+  }
+}
+
+function setReferenceTableOpen(open) {
+  try {
+    localStorage.setItem(referenceTableStorageKey(), open ? "on" : "off");
+  } catch {
+    // Storage may be unavailable.
+  }
+}
+
+function applyReferenceTableVisibility() {
+  const panel = document.getElementById("reference-panel");
+  const toggle = document.getElementById("reference-toggle");
+  if (!panel || !toggle) return;
+
+  const open = isReferenceTableOpen();
+  panel.classList.toggle("reference-panel--collapsed", !open);
+  toggle.textContent = open ? "Hide table" : "Show table";
+  toggle.setAttribute("aria-expanded", open ? "true" : "false");
+}
+
+function setupReferenceTable() {
+  const panel = document.getElementById("reference-panel");
+  const title = document.getElementById("reference-panel-title");
+  const note = document.getElementById("reference-panel-note");
+  const wrap = document.getElementById("reference-table-wrap");
+  const toggle = document.getElementById("reference-toggle");
+  if (!panel) return;
+
+  if (!hasReferenceTable()) {
+    panel.classList.add("hidden");
     return;
   }
 
-  loadingScreen.classList.add("hidden");
-  modeScreen.classList.remove("hidden");
+  const tableData = quizData.referenceTable;
+  if (title) {
+    title.textContent = tableData.title || "Reference table";
+  }
 
+  if (note) {
+    if (tableData.note) {
+      setStemText(note, tableData.note);
+      note.classList.remove("hidden");
+    } else {
+      note.textContent = "";
+      note.classList.add("hidden");
+    }
+  }
+
+  if (wrap) {
+    wrap.replaceChildren();
+    const table = document.createElement("table");
+    table.className = "reference-table";
+
+    const thead = document.createElement("thead");
+    const headRow = document.createElement("tr");
+    tableData.columns.forEach((column) => {
+      const th = document.createElement("th");
+      setStemText(th, column);
+      headRow.appendChild(th);
+    });
+    thead.appendChild(headRow);
+    table.appendChild(thead);
+
+    const tbody = document.createElement("tbody");
+    tableData.rows.forEach((row) => {
+      const tr = document.createElement("tr");
+      (row.cells || []).forEach((cell) => {
+        const td = document.createElement("td");
+        setStemText(td, cell);
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+  }
+
+  if (toggle && !toggle.dataset.bound) {
+    toggle.dataset.bound = "true";
+    toggle.addEventListener("click", () => {
+      setReferenceTableOpen(!isReferenceTableOpen());
+      applyReferenceTableVisibility();
+    });
+  }
+
+  panel.classList.remove("hidden");
+  applyReferenceTableVisibility();
+}
+
+function showReferencePanel() {
+  const panel = document.getElementById("reference-panel");
+  if (panel && hasReferenceTable()) {
+    panel.classList.remove("hidden");
+  }
+}
+
+function hideReferencePanel() {
+  const panel = document.getElementById("reference-panel");
+  if (panel) {
+    panel.classList.add("hidden");
+  }
+}
+
+function applyQuizDisclaimer() {
+  const text = quizData?.disclaimer;
+  if (typeof text !== "string" || text.trim().length === 0) return;
+  if (typeof CatalogUtils === "undefined") return;
+  if (document.querySelector(".quiz-disclaimer")) return;
+
+  if (modeScreen) {
+    modeScreen.appendChild(CatalogUtils.createDisclaimer(text));
+  }
+
+  const compact = CatalogUtils.createDisclaimer(text, { compact: true });
+  const footer = quizContent?.querySelector("footer");
+  if (footer) {
+    footer.prepend(compact);
+  } else {
+    quizContent?.appendChild(compact);
+  }
+}
+
+function getCheckedSkillIds() {
+  return Array.from(
+    document.querySelectorAll("#skill-options input[type='checkbox']:checked"),
+  ).map((input) => input.value);
+}
+
+function updateSkillPickerError(show) {
+  const error = document.getElementById("skill-picker-error");
+  if (!error) return;
+  error.classList.toggle("hidden", !show);
+}
+
+function syncSkillOptionState(label, input) {
+  label.classList.toggle("skill-option--selected", input.checked);
+}
+
+function createSkillExampleChip(caption, value, kind) {
+  const chip = document.createElement("span");
+  chip.className = "skill-example-chip";
+
+  const label = document.createElement("span");
+  label.className = "skill-example-caption";
+  label.textContent = caption;
+
+  const text = document.createElement("span");
+  text.className = `skill-example-${kind}`;
+  setStemText(text, value);
+
+  chip.appendChild(label);
+  chip.appendChild(text);
+  return chip;
+}
+
+function renderSkillPicker(data) {
+  const picker = document.getElementById("skill-picker");
+  const options = document.getElementById("skill-options");
+  if (!picker || !options) return;
+
+  const selected = new Set(selectedSkills);
+  options.replaceChildren();
+
+  data.skills.forEach((skill) => {
+    const label = document.createElement("label");
+    label.className = "skill-option";
+
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.value = skill.id;
+    input.checked = selected.has(skill.id);
+    input.addEventListener("change", () => {
+      selectedSkills = getCheckedSkillIds();
+      syncSkillOptionState(label, input);
+      updateSkillPickerError(false);
+    });
+
+    const copy = document.createElement("span");
+    copy.className = "skill-option-copy";
+
+    const title = document.createElement("strong");
+    title.textContent = skill.label;
+    copy.appendChild(title);
+
+    if (skill.examplePrompt && skill.exampleAnswer) {
+      const example = document.createElement("span");
+      example.className = "skill-option-example";
+      example.appendChild(
+        createSkillExampleChip("Shown", skill.examplePrompt, "prompt"),
+      );
+      example.appendChild(
+        createSkillExampleChip("Answer", skill.exampleAnswer, "answer"),
+      );
+      copy.appendChild(example);
+    }
+
+    label.appendChild(input);
+    label.appendChild(copy);
+    syncSkillOptionState(label, input);
+    options.appendChild(label);
+  });
+
+  picker.classList.remove("hidden");
+}
+
+function sourceQuestions() {
+  if (isIonBankQuiz(quizData)) {
+    return IonQuiz.generateQuestions(quizData, selectedSkills);
+  }
+
+  return quizData.questions;
+}
+
+function beginQuiz() {
+  const generated = sourceQuestions();
+  if (!Array.isArray(generated) || generated.length === 0) {
+    showQuizLoadError();
+    return;
+  }
+
+  questions = prepareQuestions(generated);
+  modeScreen.classList.add("hidden");
+  quizContent.classList.remove("hidden");
+  applyModeUI();
+  loadQuestion();
+
+  setTimeout(() => {
+    loadingScreen.classList.add("hidden");
+  }, 150);
+}
+
+function startFromModeCard(mode) {
+  if (isIonBankQuiz(quizData)) {
+    selectedSkills = getCheckedSkillIds();
+    if (selectedSkills.length === 0) {
+      updateSkillPickerError(true);
+      return;
+    }
+  }
+
+  quizMode = mode;
+  beginQuiz();
+}
+
+function bindModeCards() {
   modeScreen.querySelectorAll("[data-mode]").forEach((btn) => {
     btn.addEventListener("click", () => {
-      quizMode = btn.dataset.mode;
-      modeScreen.classList.add("hidden");
-      quizContent.classList.remove("hidden");
-      applyModeUI();
-      loadQuiz();
+      startFromModeCard(btn.dataset.mode);
     });
   });
 }
 
-/* LOAD QUIZ */
-
-async function loadQuiz() {
+async function initQuiz() {
   loadingScreen.classList.remove("hidden");
   quizError.classList.add("hidden");
-  quizContent.classList.remove("hidden");
 
   try {
     const res = await fetch(dataPath);
@@ -378,31 +679,31 @@ async function loadQuiz() {
     }
 
     quizData = await res.json();
+    applyQuizMeta();
 
-    if (!Array.isArray(quizData.questions) || quizData.questions.length === 0) {
+    if (isIonBankQuiz(quizData)) {
+      selectedSkills = IonQuiz.parseSkills(PARAMS.get("skills"), quizData);
+    }
+
+    const modeReady = quizMode && VALID_MODES.includes(quizMode);
+    if (modeReady) {
+      beginQuiz();
+      return;
+    }
+
+    if (
+      !isIonBankQuiz(quizData) &&
+      (!Array.isArray(quizData.questions) || quizData.questions.length === 0)
+    ) {
       throw new Error("This quiz has no questions yet.");
     }
 
-    questions = prepareQuestions(quizData.questions);
-
-    document.getElementById("tabTitle").textContent = quizData.title;
-    document.getElementById("quizHeader").textContent = quizData.title;
-
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.content = `Study with the ${quizData.title} on STEM Study Buddy. Practice and exam modes with instant feedback.`;
+    loadingScreen.classList.add("hidden");
+    modeScreen.classList.remove("hidden");
+    if (isIonBankQuiz(quizData)) {
+      renderSkillPicker(quizData);
     }
-
-    document.body.dataset.subject = quizName.split("/")[0];
-    if (typeof Nav !== "undefined") {
-      Nav.updateQuizCrumb(quizData.title);
-    }
-
-    loadQuestion();
-
-    setTimeout(() => {
-      loadingScreen.classList.add("hidden");
-    }, 150);
+    bindModeCards();
   } catch {
     showQuizLoadError();
   }
@@ -461,12 +762,20 @@ function renderDragQuestion(question) {
   createCategories(question);
   interactionArea.style.display = "flex";
 
-  if (isTouchDevice()) {
+  if (hasReferenceTable()) {
+    instructionText.textContent = isTouchDevice()
+      ? "Read the table, then tap Soluble or Insoluble."
+      : "Read the table, then drag the compound into Soluble or Insoluble.";
+  } else if (isTouchDevice()) {
     instructionText.textContent = "Tap the matching category below.";
-    draggable.setAttribute("draggable", "false");
   } else {
     instructionText.textContent =
       "Drag the prompt into the appropriate category.";
+  }
+
+  if (isTouchDevice()) {
+    draggable.setAttribute("draggable", "false");
+  } else {
     draggable.setAttribute("draggable", "true");
   }
 
@@ -527,6 +836,78 @@ function renderMultipleChoiceQuestion(question) {
 
     categoriesContainer.appendChild(btn);
   });
+}
+
+/* FILL IN */
+
+function getFillInValue() {
+  const input = document.getElementById("fill-in-input");
+  return input ? input.value : "";
+}
+
+function updateFillInCheckEnabled() {
+  const question = questions[current];
+  if (!question || question.type !== "fill_in") return;
+
+  checkWorksheetBtn.disabled = getFillInValue().trim().length === 0;
+}
+
+function submitFillInAnswer() {
+  if (categoriesContainer.classList.contains("locked")) return;
+  if (getFillInValue().trim().length === 0) return;
+  handleAnswer(getFillInValue());
+}
+
+function renderFillInQuestion(question) {
+  draggable.classList.add("hidden");
+  promptContainer.style.display = "block";
+  promptContainer.classList.add("prompt-static");
+  interactionArea.style.display = "none";
+  categoriesContainer.classList.add("categories--fill-in");
+  categoriesContainer.style.display = "block";
+
+  instructionText.textContent =
+    question.match === "charge"
+      ? "Type the ionic charge (for example 2- or -2), then check your answer."
+      : "Type the chemical formula (subscripts optional), then check your answer.";
+
+  if (question.prompt.text) {
+    const text = document.createElement("div");
+    setStemText(text, question.prompt.text);
+    promptBox.appendChild(text);
+  }
+
+  if (question.prompt.image) {
+    const img = document.createElement("img");
+    img.src = question.prompt.image;
+    img.className = "quiz-image";
+    promptBox.appendChild(img);
+  }
+
+  const form = document.createElement("form");
+  form.className = "fill-in-form";
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    submitFillInAnswer();
+  });
+
+  const input = document.createElement("input");
+  input.type = "text";
+  input.id = "fill-in-input";
+  input.className = "fill-in-input";
+  input.autocomplete = "off";
+  input.autocapitalize = "off";
+  input.spellcheck = false;
+  input.setAttribute("aria-label", "Your answer");
+  input.addEventListener("input", updateFillInCheckEnabled);
+
+  form.appendChild(input);
+  categoriesContainer.appendChild(form);
+
+  checkWorksheetBtn.textContent = "Check answer";
+  checkWorksheetBtn.style.display = "inline-block";
+  checkWorksheetBtn.disabled = true;
+  input.focus();
 }
 
 /* DRUG WORKSHEET */
@@ -692,7 +1073,14 @@ function getDragSentenceSelections() {
 
 function updateDragSentenceCheckEnabled() {
   const question = questions[current];
-  if (!question || question.type !== "drag_sentence") return;
+  if (!question) return;
+
+  if (question.type === "net_ionic") {
+    updateNetIonicCheckEnabled();
+    return;
+  }
+
+  if (question.type !== "drag_sentence") return;
 
   const selections = getDragSentenceSelections();
   checkWorksheetBtn.disabled = !selections.every(Boolean);
@@ -825,6 +1213,11 @@ function createSentenceChip(word, bank) {
   chip.addEventListener("click", () => {
     if (categoriesContainer.classList.contains("locked")) return;
 
+    if (chip.closest(".net-ionic-term") && isNetIonicEraseSelected()) {
+      removeNetIonicTerm(chip.closest(".net-ionic-term"));
+      return;
+    }
+
     const parentBlank = chip.closest(".sentence-blank");
     if (parentBlank) {
       returnChipToBank(chip, bank);
@@ -838,6 +1231,7 @@ function createSentenceChip(word, bank) {
       return;
     }
 
+    clearNetIonicErase();
     clearSentenceChipSelection();
     selectedSentenceChip = chip;
     chip.classList.add("sentence-chip--selected");
@@ -888,17 +1282,24 @@ function renderDragSentenceQuestion(question) {
     promptBox.appendChild(img);
   }
 
+  appendDragSentenceBuilder(question, categoriesContainer);
+
+  checkWorksheetBtn.style.display = "inline-block";
+  checkWorksheetBtn.disabled = true;
+}
+
+function appendDragSentenceBuilder(question, parent) {
   const wrapper = document.createElement("div");
   wrapper.className = "drag-sentence";
 
   const sentenceEl = document.createElement("div");
   sentenceEl.className = "drag-sentence-line";
   sentenceEl.setAttribute("role", "group");
-  sentenceEl.setAttribute("aria-label", "Sentence with blanks");
+  sentenceEl.setAttribute("aria-label", "Net ionic equation blanks");
 
   const bank = document.createElement("div");
   bank.className = "sentence-bank";
-  bank.setAttribute("aria-label", "Word bank");
+  bank.setAttribute("aria-label", "Ion bank");
 
   let blankIndex = 0;
 
@@ -976,10 +1377,559 @@ function renderDragSentenceQuestion(question) {
 
   wrapper.appendChild(sentenceEl);
   wrapper.appendChild(bank);
-  categoriesContainer.appendChild(wrapper);
+  parent.appendChild(wrapper);
+}
+
+/* NET IONIC */
+
+const NET_IONIC_MAX_TERMS = 6;
+const NET_IONIC_MAX_COEFF = 6;
+
+function netIonicTerms(question, side) {
+  return (question[side] || []).map((term) => ({
+    species: term.species,
+    coeff: term.coeff || 1,
+  }));
+}
+
+function formatNetIonicSide(terms) {
+  return terms
+    .map((term, index) => {
+      const coeff = term.coeff && term.coeff !== 1 ? String(term.coeff) : "";
+      const piece = coeff + term.species;
+      return index === 0 ? piece : " + " + piece;
+    })
+    .join("");
+}
+
+function formatNetIonicEquation(question) {
+  if (!question.reaction) return "No reaction";
+  return (
+    formatNetIonicSide(netIonicTerms(question, "reactants")) +
+    " → " +
+    formatNetIonicSide(netIonicTerms(question, "products"))
+  );
+}
+
+function getNetIonicReactionChoice() {
+  const selected = document.querySelector(".net-ionic-choice.selected");
+  if (!selected) return null;
+  return selected.dataset.value === "reaction";
+}
+
+function getNetIonicBank() {
+  return document.querySelector(".net-ionic-builder .sentence-bank");
+}
+
+function isNetIonicEraseSelected() {
+  return Boolean(document.querySelector(".net-ionic-erase.selected"));
+}
+
+function clearNetIonicErase() {
+  const erase = document.querySelector(".net-ionic-erase");
+  const builder = document.querySelector(".net-ionic-builder");
+  if (erase) {
+    erase.classList.remove("selected");
+  }
+  if (builder) {
+    builder.classList.remove("net-ionic-builder--erase");
+  }
+}
+
+function toggleNetIonicErase() {
+  const erase = document.querySelector(".net-ionic-erase");
+  const builder = document.querySelector(".net-ionic-builder");
+  if (!erase || !builder) return;
+
+  const next = !erase.classList.contains("selected");
+  erase.classList.toggle("selected", next);
+  builder.classList.toggle("net-ionic-builder--erase", next);
+  if (next) {
+    clearSentenceChipSelection();
+  }
+}
+
+function removeNetIonicTerm(term) {
+  if (!term || categoriesContainer.classList.contains("locked")) return;
+
+  const sideEl = term.closest(".net-ionic-side");
+  const bank = getNetIonicBank();
+  const chip = term.querySelector(".sentence-chip");
+  if (chip && bank) {
+    returnChipToBank(chip, bank);
+  }
+  term.remove();
+  if (sideEl) {
+    updateNetIonicJoiners(sideEl);
+  }
+  updateNetIonicCheckEnabled();
+}
+
+function readNetIonicSide(side) {
+  return Array.from(
+    document.querySelectorAll(
+      `.net-ionic-side[data-side="${side}"] .net-ionic-term`,
+    ),
+  ).map((term) => {
+    const chip = term.querySelector(".sentence-chip");
+    return {
+      species: chip ? chip.dataset.value : null,
+      coeff: Number(term.dataset.coeff || 1),
+    };
+  });
+}
+
+function normalizeNetIonicTerms(terms) {
+  return (terms || [])
+    .filter((term) => term && term.species)
+    .map((term) => ({
+      species: term.species,
+      coeff: term.coeff || 1,
+    }))
+    .sort((a, b) => {
+      if (a.species === b.species) return a.coeff - b.coeff;
+      return a.species.localeCompare(b.species);
+    });
+}
+
+function netIonicSidesMatch(actual, expected) {
+  const left = normalizeNetIonicTerms(actual);
+  const right = normalizeNetIonicTerms(expected);
+  if (left.length !== right.length) return false;
+  return left.every(
+    (term, index) =>
+      term.species === right[index].species &&
+      term.coeff === right[index].coeff,
+  );
+}
+
+function updateNetIonicJoiners(sideEl) {
+  const terms = sideEl.querySelectorAll(".net-ionic-term");
+  terms.forEach((term, index) => {
+    const joiner = term.querySelector(".net-ionic-plus");
+    if (joiner) {
+      joiner.classList.toggle("hidden", index === 0);
+    }
+  });
+}
+
+function setNetIonicCoeff(term, coeff) {
+  term.dataset.coeff = String(coeff);
+  const button = term.querySelector(".net-ionic-coeff");
+  if (!button) return;
+  button.textContent = coeff > 1 ? String(coeff) : "";
+  button.classList.toggle("net-ionic-coeff--active", coeff > 1);
+  button.setAttribute(
+    "aria-label",
+    coeff > 1 ? `Coefficient ${coeff}` : "Set coefficient",
+  );
+}
+
+function cycleNetIonicCoeff(term) {
+  if (categoriesContainer.classList.contains("locked")) return;
+  if (isNetIonicEraseSelected()) {
+    removeNetIonicTerm(term);
+    return;
+  }
+  const currentCoeff = Number(term.dataset.coeff || 1);
+  const next = currentCoeff >= NET_IONIC_MAX_COEFF ? 1 : currentCoeff + 1;
+  setNetIonicCoeff(term, next);
+}
+
+function addNetIonicTerm(sideEl, bank, options = {}) {
+  const terms = sideEl.querySelectorAll(".net-ionic-term");
+  if (terms.length >= NET_IONIC_MAX_TERMS) return null;
+
+  const term = document.createElement("div");
+  term.className = "net-ionic-term";
+
+  const plus = document.createElement("span");
+  plus.className = "net-ionic-plus";
+  plus.setAttribute("aria-hidden", "true");
+  plus.textContent = "+";
+
+  const coeffBtn = document.createElement("button");
+  coeffBtn.type = "button";
+  coeffBtn.className = "net-ionic-coeff";
+  coeffBtn.title = "Tap to set a coefficient";
+  coeffBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    cycleNetIonicCoeff(term);
+  });
+
+  const blank = document.createElement("span");
+  blank.className = "sentence-blank net-ionic-slot";
+  blank.setAttribute("tabindex", "0");
+  blank.setAttribute("role", "button");
+  blank.setAttribute("aria-label", "Drop or tap a species here.");
+
+  blank.addEventListener("dragover", (event) => {
+    event.preventDefault();
+    if (!categoriesContainer.classList.contains("locked")) {
+      blank.classList.add("sentence-blank--dragover");
+    }
+  });
+  blank.addEventListener("dragleave", () => {
+    blank.classList.remove("sentence-blank--dragover");
+  });
+  blank.addEventListener("drop", (event) => {
+    event.preventDefault();
+    blank.classList.remove("sentence-blank--dragover");
+    if (categoriesContainer.classList.contains("locked")) return;
+    clearNetIonicErase();
+    const value = event.dataTransfer.getData("text/plain");
+    const moving = findChipForDrop(value, bank);
+    if (moving) {
+      placeChipInBlank(moving, blank, bank);
+    }
+  });
+  blank.addEventListener("click", () => {
+    if (categoriesContainer.classList.contains("locked")) return;
+    if (isNetIonicEraseSelected()) {
+      removeNetIonicTerm(term);
+      return;
+    }
+    if (selectedSentenceChip) {
+      placeChipInBlank(selectedSentenceChip, blank, bank);
+      return;
+    }
+    const placed = blank.querySelector(".sentence-chip");
+    if (placed) {
+      returnChipToBank(placed, bank);
+      updateNetIonicCheckEnabled();
+    }
+  });
+
+  term.appendChild(plus);
+  term.appendChild(coeffBtn);
+  term.appendChild(blank);
+
+  sideEl.appendChild(term);
+  setNetIonicCoeff(term, options.coeff || 1);
+  updateNetIonicJoiners(sideEl);
+
+  if (options.species) {
+    const chip =
+      findChipForDrop(options.species, bank) ||
+      Array.from(document.querySelectorAll(".sentence-chip")).find(
+        (item) => item.dataset.value === options.species,
+      );
+    if (chip) {
+      placeChipInBlank(chip, blank, bank);
+    }
+  }
+
+  updateNetIonicCheckEnabled();
+  return term;
+}
+
+function clearNetIonicBuilder() {
+  const bank = getNetIonicBank();
+  document.querySelectorAll(".net-ionic-term").forEach((term) => {
+    const chip = term.querySelector(".sentence-chip");
+    if (chip && bank) {
+      returnChipToBank(chip, bank);
+    }
+    term.remove();
+  });
+  document.querySelectorAll(".net-ionic-side").forEach(updateNetIonicJoiners);
+  updateNetIonicCheckEnabled();
+}
+
+function updateNetIonicCheckEnabled() {
+  const question = questions[current];
+  if (!question || question.type !== "net_ionic") return;
+
+  const choice = getNetIonicReactionChoice();
+  if (choice === null) {
+    checkWorksheetBtn.disabled = true;
+    return;
+  }
+
+  if (choice === false) {
+    checkWorksheetBtn.disabled = false;
+    return;
+  }
+
+  const reactants = readNetIonicSide("reactants");
+  const products = readNetIonicSide("products");
+  const ready =
+    reactants.length > 0 &&
+    products.length > 0 &&
+    reactants.every((term) => term.species) &&
+    products.every((term) => term.species);
+
+  checkWorksheetBtn.disabled = !ready;
+}
+
+function netIonicAnswerMatches(question, answer) {
+  if (answer.reaction !== question.reaction) return false;
+  if (!question.reaction) return true;
+  return (
+    netIonicSidesMatch(answer.reactants, netIonicTerms(question, "reactants")) &&
+    netIonicSidesMatch(answer.products, netIonicTerms(question, "products"))
+  );
+}
+
+function applyNetIonicTermStyles(question, answer) {
+  ["reactants", "products"].forEach((side) => {
+    const expected = normalizeNetIonicTerms(netIonicTerms(question, side));
+    const used = new Set();
+    document
+      .querySelectorAll(`.net-ionic-side[data-side="${side}"] .net-ionic-term`)
+      .forEach((term, index) => {
+        const actual = readNetIonicSide(side)[index];
+        const matchIndex = expected.findIndex((item, itemIndex) => {
+          return (
+            !used.has(itemIndex) &&
+            actual &&
+            item.species === actual.species &&
+            item.coeff === actual.coeff
+          );
+        });
+        const blank = term.querySelector(".sentence-blank");
+        if (matchIndex !== -1) {
+          used.add(matchIndex);
+          setSentenceBlankState(blank, true);
+        } else {
+          setSentenceBlankState(blank, false);
+        }
+      });
+  });
+}
+
+function revealNetIonicAnswers(question) {
+  document.querySelectorAll(".net-ionic-choice").forEach((btn) => {
+    const isCorrectChoice =
+      btn.dataset.value === (question.reaction ? "reaction" : "none");
+    btn.classList.toggle("selected", isCorrectChoice);
+    btn.classList.toggle("correct", isCorrectChoice);
+    btn.classList.remove("incorrect");
+  });
+
+  const builder = document.querySelector(".net-ionic-builder");
+  if (builder) {
+    builder.classList.toggle("hidden", !question.reaction);
+  }
+
+  if (!question.reaction) return;
+
+  const bank = getNetIonicBank();
+  clearNetIonicBuilder();
+
+  ["reactants", "products"].forEach((side) => {
+    const sideEl = document.querySelector(
+      `.net-ionic-side[data-side="${side}"]`,
+    );
+    if (!sideEl || !bank) return;
+    netIonicTerms(question, side).forEach((term) => {
+      addNetIonicTerm(sideEl, bank, term);
+    });
+  });
+
+  applyNetIonicTermStyles(question, {
+    reactants: netIonicTerms(question, "reactants"),
+    products: netIonicTerms(question, "products"),
+  });
+}
+
+function createNetIonicSide(side) {
+  const sideEl = document.createElement("div");
+  sideEl.className = "net-ionic-side";
+  sideEl.dataset.side = side;
+  return sideEl;
+}
+
+function createNetIonicActionButton(label, className, onClick) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = className;
+  button.textContent = label;
+  button.addEventListener("click", () => {
+    if (categoriesContainer.classList.contains("locked")) return;
+    onClick();
+  });
+  return button;
+}
+
+function renderNetIonicQuestion(question) {
+  draggable.classList.add("hidden");
+  promptContainer.style.display = "block";
+  promptContainer.classList.add("prompt-static");
+  interactionArea.style.display = "none";
+  categoriesContainer.classList.add(
+    "categories--sentence",
+    "categories--net-ionic",
+  );
+  categoriesContainer.style.display = "block";
+  selectedSentenceChip = null;
+
+  instructionText.textContent = isTouchDevice()
+    ? "Choose Reaction or No reaction. Add a reactant or product, then tap chips into the blanks. Use Delete to remove a term. Tap the faint mark for a coefficient."
+    : "Choose Reaction or No reaction. Click Add reactant or Add product, then drop chips into the blanks. Use Delete to remove a term.";
+
+  if (question.prompt.text) {
+    const text = document.createElement("div");
+    setStemText(text, question.prompt.text);
+    promptBox.appendChild(text);
+  }
+
+  const choiceRow = document.createElement("div");
+  choiceRow.className = "net-ionic-choices";
+
+  [
+    { value: "reaction", label: "Reaction" },
+    { value: "none", label: "No reaction" },
+  ].forEach((choice) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "net-ionic-choice";
+    btn.dataset.value = choice.value;
+    btn.textContent = choice.label;
+    btn.addEventListener("click", () => {
+      if (categoriesContainer.classList.contains("locked")) return;
+      choiceRow.querySelectorAll(".net-ionic-choice").forEach((other) => {
+        other.classList.remove("selected");
+      });
+      btn.classList.add("selected");
+
+      const builder = document.querySelector(".net-ionic-builder");
+      if (choice.value === "none") {
+        clearNetIonicBuilder();
+        clearNetIonicErase();
+        if (builder) builder.classList.add("hidden");
+      } else if (builder) {
+        builder.classList.remove("hidden");
+      }
+      updateNetIonicCheckEnabled();
+    });
+    choiceRow.appendChild(btn);
+  });
+
+  const builder = document.createElement("div");
+  builder.className = "net-ionic-builder hidden";
+
+  const bank = document.createElement("div");
+  bank.className = "sentence-bank";
+  bank.setAttribute("aria-label", "Ion bank");
+  question.bank.forEach((word) => {
+    bank.appendChild(createSentenceChip(word, bank));
+  });
+
+  const equation = document.createElement("div");
+  equation.className = "net-ionic-equation";
+
+  const reactantSide = createNetIonicSide("reactants");
+  const productSide = createNetIonicSide("products");
+
+  const arrow = document.createElement("span");
+  arrow.className = "drag-sentence-arrow";
+  arrow.setAttribute("aria-hidden", "true");
+  arrow.textContent = "→";
+
+  equation.appendChild(reactantSide);
+  equation.appendChild(arrow);
+  equation.appendChild(productSide);
+
+  const actions = document.createElement("div");
+  actions.className = "net-ionic-actions";
+
+  actions.appendChild(
+    createNetIonicActionButton("Add reactant", "net-ionic-add", () => {
+      addNetIonicTerm(reactantSide, bank);
+    }),
+  );
+  actions.appendChild(
+    createNetIonicActionButton("Add product", "net-ionic-add", () => {
+      addNetIonicTerm(productSide, bank);
+    }),
+  );
+
+  const erase = document.createElement("button");
+  erase.type = "button";
+  erase.className = "net-ionic-erase";
+  erase.setAttribute("aria-label", "Delete a term");
+  erase.innerHTML =
+    '<span class="net-ionic-erase-glyph" aria-hidden="true">⌫</span><span>Delete</span>';
+  erase.addEventListener("click", () => {
+    if (categoriesContainer.classList.contains("locked")) return;
+    toggleNetIonicErase();
+  });
+  actions.appendChild(erase);
+
+  builder.appendChild(equation);
+  builder.appendChild(bank);
+  builder.appendChild(actions);
+
+  categoriesContainer.appendChild(choiceRow);
+  categoriesContainer.appendChild(builder);
 
   checkWorksheetBtn.style.display = "inline-block";
   checkWorksheetBtn.disabled = true;
+}
+
+function checkNetIonicAnswer(answer, question) {
+  const isCorrect = netIonicAnswerMatches(question, answer);
+  const misses = [];
+
+  if (answer.reaction !== question.reaction) {
+    misses.push(
+      question.reaction ? "A reaction does occur." : "No reaction occurs.",
+    );
+  } else if (question.reaction && !isCorrect) {
+    misses.push("Net ionic: " + formatNetIonicEquation(question));
+  }
+
+  if (!isExamMode()) {
+    document.querySelectorAll(".net-ionic-choice").forEach((btn) => {
+      const choseReaction = btn.dataset.value === "reaction";
+      btn.classList.remove("correct", "incorrect");
+      if (choseReaction === question.reaction) {
+        btn.classList.add("correct");
+      } else if (btn.classList.contains("selected")) {
+        btn.classList.add("incorrect");
+      }
+    });
+
+    const builder = document.querySelector(".net-ionic-builder");
+    if (builder) {
+      builder.classList.toggle("hidden", !question.reaction);
+    }
+
+    if (question.reaction) {
+      if (isCorrect) {
+        applyNetIonicTermStyles(question, answer);
+      } else {
+        revealNetIonicAnswers(question);
+      }
+    }
+  }
+
+  answeredCount++;
+
+  if (isCorrect) {
+    correctCount++;
+  } else {
+    wrongQuestions.push(question);
+  }
+
+  checkWorksheetBtn.style.display = "none";
+  checkWorksheetBtn.disabled = true;
+
+  if (isExamMode()) {
+    showExamAdvance(question);
+    updateScoreDisplay();
+    return;
+  }
+
+  if (isCorrect) {
+    showQuestionFeedback("Correct!", question, "correct");
+  } else {
+    showQuestionFeedback("Wrong!", question, "incorrect", null, misses);
+  }
+
+  updateScoreDisplay();
 }
 
 /* CATEGORIES */
@@ -1114,6 +2064,46 @@ function checkMultipleChoiceAnswer(option, question) {
   updateScoreDisplay();
 }
 
+/* FILL IN CHECK */
+
+function checkFillInAnswer(userAnswer, question) {
+  const isCorrect = IonQuiz.fillInAnswersMatch(userAnswer, question.answers);
+
+  answeredCount++;
+
+  const input = document.getElementById("fill-in-input");
+  if (isCorrect) {
+    correctCount++;
+  } else {
+    wrongQuestions.push(question);
+    if (!isExamMode() && input) {
+      input.classList.add("incorrect");
+    }
+  }
+
+  checkWorksheetBtn.style.display = "none";
+  checkWorksheetBtn.disabled = true;
+
+  if (isExamMode()) {
+    showExamAdvance(question);
+    updateScoreDisplay();
+    return;
+  }
+
+  if (isCorrect) {
+    showQuestionFeedback("Correct!", question, "correct");
+  } else {
+    showQuestionFeedback(
+      "Wrong!",
+      question,
+      "incorrect",
+      "Correct answer: " + question.answer,
+    );
+  }
+
+  updateScoreDisplay();
+}
+
 /* DRUG WORKSHEET CHECK */
 
 function checkDrugWorksheetAnswer(selections, question) {
@@ -1233,6 +2223,17 @@ skipBtn.addEventListener("click", () => {
     return;
   }
 
+  if (question.type === "net_ionic") {
+    revealNetIonicAnswers(question);
+    showQuestionFeedback(
+      "Skipped.",
+      question,
+      "skipped",
+      "Correct answer: " + formatNetIonicEquation(question),
+    );
+    return;
+  }
+
   showQuestionFeedback(
     "Skipped.",
     question,
@@ -1245,8 +2246,22 @@ checkWorksheetBtn.addEventListener("click", () => {
   if (checkWorksheetBtn.disabled) return;
 
   const question = questions[current];
+  if (question.type === "fill_in") {
+    submitFillInAnswer();
+    return;
+  }
+
   if (question.type === "drag_sentence") {
     handleAnswer(getDragSentenceSelections());
+    return;
+  }
+
+  if (question.type === "net_ionic") {
+    handleAnswer({
+      reaction: getNetIonicReactionChoice(),
+      reactants: readNetIonicSide("reactants"),
+      products: readNetIonicSide("products"),
+    });
     return;
   }
 
@@ -1284,6 +2299,7 @@ function hideActiveQuizUI() {
   continueBtn.style.display = "none";
   checkWorksheetBtn.style.display = "none";
   skipBtn.style.display = "none";
+  hideReferencePanel();
 }
 
 function showActiveQuizUI() {
@@ -1291,6 +2307,7 @@ function showActiveQuizUI() {
   instructionContainer.style.display = "";
   interactionArea.style.display = "flex";
   categoriesContainer.style.display = "flex";
+  showReferencePanel();
 }
 
 /* END QUIZ */
@@ -1374,7 +2391,7 @@ function startReviewRound(reviewQuestions) {
 
 retryBtn.addEventListener("click", () => {
   resetRunState();
-  questions = prepareQuestions(quizData.questions);
+  questions = prepareQuestions(sourceQuestions());
 
   finalScreen.style.display = "none";
   reviewSkippedBtn.style.display = "none";
@@ -1455,4 +2472,4 @@ function loadFavicon() {
 
 loadFavicon();
 applySubjectTheme();
-initModeSelection();
+initQuiz();
