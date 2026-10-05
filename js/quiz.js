@@ -120,7 +120,11 @@ function prepareQuestions(sourceQuestions) {
           })),
         };
       }
-      if (q.type === "drag_sentence" || q.type === "net_ionic") {
+      if (
+        q.type === "drag_sentence" ||
+        q.type === "net_ionic" ||
+        q.type === "select_all"
+      ) {
         return {
           ...q,
           bank: shuffle([...q.bank]),
@@ -233,9 +237,14 @@ function lockQuestionInteraction(question) {
     }
   }
 
-  if (question.type === "drag_sentence" || question.type === "net_ionic") {
+  if (
+    question.type === "drag_sentence" ||
+    question.type === "net_ionic" ||
+    question.type === "select_all"
+  ) {
     document.querySelectorAll(".sentence-chip").forEach((chip) => {
       chip.setAttribute("draggable", "false");
+      chip.disabled = true;
       chip.classList.remove("sentence-chip--selected");
     });
     document.querySelectorAll(".net-ionic-choice").forEach((btn) => {
@@ -253,7 +262,8 @@ function lockQuestionInteraction(question) {
     question.type === "drug_worksheet" ||
     question.type === "drag_sentence" ||
     question.type === "fill_in" ||
-    question.type === "net_ionic"
+    question.type === "net_ionic" ||
+    question.type === "select_all"
   ) {
     checkWorksheetBtn.disabled = true;
     checkWorksheetBtn.style.display = "none";
@@ -325,6 +335,7 @@ function resetQuestionUI() {
     "categories--sentence",
     "categories--fill-in",
     "categories--net-ionic",
+    "categories--select-all",
   );
   feedback.replaceChildren();
   feedback.classList.remove("show");
@@ -359,6 +370,7 @@ const questionRenderers = {
   drag_sentence: renderDragSentenceQuestion,
   fill_in: renderFillInQuestion,
   net_ionic: renderNetIonicQuestion,
+  select_all: renderSelectAllQuestion,
 };
 
 const answerCheckers = {
@@ -368,6 +380,7 @@ const answerCheckers = {
   drag_sentence: checkDragSentenceAnswer,
   fill_in: checkFillInAnswer,
   net_ionic: checkNetIonicAnswer,
+  select_all: checkSelectAllAnswer,
 };
 
 /* MODE SELECT */
@@ -756,6 +769,161 @@ function loadQuestion() {
   renderer(question);
 }
 
+/* SELECT ALL */
+
+function getSelectAllSelections() {
+  return [...document.querySelectorAll(".select-all-chip.sentence-chip--selected")].map(
+    (chip) => chip.dataset.value,
+  );
+}
+
+function updateSelectAllCheckEnabled() {
+  const question = questions[current];
+  if (!question || question.type !== "select_all") return;
+
+  const count = getSelectAllSelections().length;
+  const needed = question.answers.length;
+  const status = document.getElementById("select-all-status");
+  if (status) {
+    status.textContent = `${count} of ${needed} selected`;
+  }
+  checkWorksheetBtn.disabled = count !== needed;
+}
+
+function markSelectAllChips(question, selections) {
+  const selected = new Set(selections || []);
+  const answers = new Set(question.answers);
+
+  document.querySelectorAll(".select-all-chip").forEach((chip) => {
+    const value = chip.dataset.value;
+    const wasSelected = selected.has(value);
+    const shouldSelect = answers.has(value);
+    chip.classList.remove(
+      "sentence-chip--selected",
+      "select-all-chip--correct",
+      "select-all-chip--incorrect",
+      "select-all-chip--missed",
+    );
+    if (shouldSelect && wasSelected) {
+      chip.classList.add("select-all-chip--correct");
+    } else if (shouldSelect) {
+      chip.classList.add("select-all-chip--missed");
+    } else if (wasSelected) {
+      chip.classList.add("select-all-chip--incorrect");
+    }
+  });
+}
+
+function formatSelectAllMisses(question, selections) {
+  const selected = new Set(selections);
+  const answers = new Set(question.answers);
+  const messages = [];
+
+  question.answers.forEach((answer) => {
+    if (!selected.has(answer)) {
+      messages.push("Missing: " + answer);
+    }
+  });
+
+  selections.forEach((choice) => {
+    if (!answers.has(choice)) {
+      messages.push("Incorrect: " + choice);
+    }
+  });
+
+  return messages;
+}
+
+function renderSelectAllQuestion(question) {
+  draggable.classList.add("hidden");
+  promptContainer.style.display = "block";
+  promptContainer.classList.add("prompt-static");
+  interactionArea.style.display = "none";
+  categoriesContainer.classList.add("categories--select-all");
+  categoriesContainer.style.display = "block";
+
+  instructionText.textContent = `Select ${question.answers.length} phrases. Tap a phrase again to remove it. Check answers turns on once that many are selected.`;
+
+  if (question.prompt.text) {
+    const text = document.createElement("div");
+    setStemText(text, question.prompt.text);
+    promptBox.appendChild(text);
+  }
+
+  const status = document.createElement("p");
+  status.id = "select-all-status";
+  status.className = "select-all-status";
+  status.textContent = `0 of ${question.answers.length} selected`;
+
+  const bank = document.createElement("div");
+  bank.className = "sentence-bank select-all-bank";
+
+  question.bank.forEach((phrase) => {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "sentence-chip select-all-chip";
+    chip.dataset.value = phrase;
+    chip.setAttribute("aria-pressed", "false");
+    setStemText(chip, phrase);
+
+    chip.addEventListener("click", () => {
+      if (categoriesContainer.classList.contains("locked")) return;
+      const selected = chip.classList.toggle("sentence-chip--selected");
+      chip.setAttribute("aria-pressed", String(selected));
+      updateSelectAllCheckEnabled();
+    });
+
+    bank.appendChild(chip);
+  });
+
+  categoriesContainer.append(status, bank);
+  checkWorksheetBtn.textContent = "Check answers";
+  checkWorksheetBtn.style.display = "inline-block";
+  checkWorksheetBtn.disabled = true;
+}
+
+function checkSelectAllAnswer(selections, question) {
+  const selected = new Set(selections);
+  const isCorrect =
+    selected.size === question.answers.length &&
+    question.answers.every((answer) => selected.has(answer));
+
+  answeredCount++;
+
+  if (isCorrect) {
+    correctCount++;
+  } else {
+    wrongQuestions.push(question);
+  }
+
+  if (!isExamMode()) {
+    markSelectAllChips(question, selections);
+  }
+
+  checkWorksheetBtn.style.display = "none";
+  checkWorksheetBtn.disabled = true;
+
+  if (isExamMode()) {
+    showExamAdvance(question);
+    updateScoreDisplay();
+    return;
+  }
+
+  if (isCorrect) {
+    showQuestionFeedback("Correct!", question, "correct");
+  } else {
+    showQuestionFeedback(
+      "Wrong!",
+      question,
+      "incorrect",
+      null,
+      formatSelectAllMisses(question, selections),
+    );
+  }
+
+  updateScoreDisplay();
+}
+
 /* DRAG QUESTION */
 
 function renderDragQuestion(question) {
@@ -821,6 +989,10 @@ function renderMultipleChoiceQuestion(question) {
     const img = document.createElement("img");
     img.src = question.prompt.image;
     img.className = "quiz-image";
+    if (question.prompt.imageClass) {
+      img.classList.add(question.prompt.imageClass);
+    }
+    img.alt = question.prompt.imageAlt || "";
     promptBox.appendChild(img);
   }
 
@@ -1279,6 +1451,10 @@ function renderDragSentenceQuestion(question) {
     const img = document.createElement("img");
     img.src = question.prompt.image;
     img.className = "quiz-image";
+    if (question.prompt.imageClass) {
+      img.classList.add(question.prompt.imageClass);
+    }
+    img.alt = question.prompt.imageAlt || "";
     promptBox.appendChild(img);
   }
 
@@ -2223,6 +2399,18 @@ skipBtn.addEventListener("click", () => {
     return;
   }
 
+  if (question.type === "select_all") {
+    markSelectAllChips(question, question.answers);
+    showQuestionFeedback(
+      "Skipped.",
+      question,
+      "skipped",
+      null,
+      question.answers.map((answer) => "Correct: " + answer),
+    );
+    return;
+  }
+
   if (question.type === "net_ionic") {
     revealNetIonicAnswers(question);
     showQuestionFeedback(
@@ -2253,6 +2441,11 @@ checkWorksheetBtn.addEventListener("click", () => {
 
   if (question.type === "drag_sentence") {
     handleAnswer(getDragSentenceSelections());
+    return;
+  }
+
+  if (question.type === "select_all") {
+    handleAnswer(getSelectAllSelections());
     return;
   }
 

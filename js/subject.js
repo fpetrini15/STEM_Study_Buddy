@@ -5,7 +5,12 @@ const searchInput = document.getElementById("quiz-search");
 const searchWrap = document.getElementById("quiz-search-wrap");
 const filterWrap = document.getElementById("quiz-filter-wrap");
 const filtersEl = document.getElementById("quiz-filters");
+const courseFilterWrap = document.getElementById("course-filter-wrap");
+const courseFiltersEl = document.getElementById("course-filters");
 
+let catalogUnits = [];
+let courseLabels = new Map();
+let activeCourseFilter = "all";
 let activeUnitFilter = "all";
 
 function unitSlug(name) {
@@ -15,33 +20,76 @@ function unitSlug(name) {
     .replace(/(^-|-$)/g, "");
 }
 
+function quizCourseId(unit, quiz) {
+  return quiz.course || unit.course || "";
+}
+
+function unitsForCourse(courseId) {
+  if (courseId === "all") return catalogUnits;
+  return catalogUnits.filter((unit) =>
+    (unit.quizzes || []).some((quiz) => quizCourseId(unit, quiz) === courseId),
+  );
+}
+
+function setActiveChip(container, datasetKey, activeId) {
+  container.querySelectorAll(".quiz-filter-chip").forEach((chip) => {
+    const isActive = chip.dataset[datasetKey] === activeId;
+    chip.classList.toggle("quiz-filter-chip--active", isActive);
+    chip.setAttribute("aria-pressed", String(isActive));
+  });
+}
+
 function applyFilters() {
   const query = searchInput?.value.trim().toLowerCase() || "";
+  const courseUnits = unitsForCourse(activeCourseFilter);
+  const courseHasUnits = activeCourseFilter === "all" || courseUnits.length > 0;
 
   document.querySelectorAll(".quiz-unit").forEach((unit) => {
+    if (unit.classList.contains("course-empty")) return;
+
     if (unit.classList.contains("quiz-unit--coming-soon")) {
-      unit.classList.toggle("hidden", activeUnitFilter !== "all");
+      unit.classList.toggle(
+        "hidden",
+        activeUnitFilter !== "all" || !courseHasUnits,
+      );
       return;
     }
 
-    const unitId = unit.dataset.unit;
-    const unitMatches = activeUnitFilter === "all" || unitId === activeUnitFilter;
+    const topicMatches =
+      activeUnitFilter === "all" || unit.dataset.unit === activeUnitFilter;
     let visibleCards = 0;
 
     unit.querySelectorAll(".quiz-card").forEach((card) => {
+      const courseMatches =
+        activeCourseFilter === "all" || card.dataset.course === activeCourseFilter;
       const searchMatches =
         !query || (card.dataset.search || "").includes(query);
-      const matches = unitMatches && searchMatches;
+      const matches = topicMatches && courseMatches && searchMatches;
       card.classList.toggle("hidden", !matches);
       if (matches) visibleCards++;
     });
 
-    unit.classList.toggle("hidden", !unitMatches || visibleCards === 0);
+    unit.classList.toggle("hidden", !topicMatches || visibleCards === 0);
   });
+
+  const empty = document.getElementById("course-empty");
+  if (empty) {
+    const showEmpty = activeCourseFilter !== "all" && courseUnits.length === 0;
+    empty.classList.toggle("hidden", !showEmpty);
+    if (showEmpty) {
+      const label = courseLabels.get(activeCourseFilter) || "This course";
+      empty.querySelector("h2").textContent = label;
+      empty.querySelector("p").textContent =
+        `${label} quizzes will appear here.`;
+    }
+  }
 }
 
 function setupUnitFilters(units) {
   if (!filterWrap || !filtersEl) return;
+
+  filterWrap.classList.toggle("hidden", units.length === 0);
+  filtersEl.replaceChildren();
 
   const chips = [
     { id: "all", label: "All" },
@@ -54,25 +102,59 @@ function setupUnitFilters(units) {
     button.className = "quiz-filter-chip";
     button.dataset.unit = id;
     button.textContent = label;
-    button.setAttribute("aria-pressed", id === "all" ? "true" : "false");
+    button.setAttribute("aria-pressed", String(id === activeUnitFilter));
 
-    if (id === "all") {
+    if (id === activeUnitFilter) {
       button.classList.add("quiz-filter-chip--active");
     }
 
     button.addEventListener("click", () => {
       activeUnitFilter = id;
-
-      filtersEl.querySelectorAll(".quiz-filter-chip").forEach((chip) => {
-        const isActive = chip.dataset.unit === id;
-        chip.classList.toggle("quiz-filter-chip--active", isActive);
-        chip.setAttribute("aria-pressed", String(isActive));
-      });
-
+      setActiveChip(filtersEl, "unit", id);
       applyFilters();
     });
 
     filtersEl.appendChild(button);
+  });
+}
+
+function setupCourseFilters(courses) {
+  if (!courseFilterWrap || !courseFiltersEl || courses.length === 0) return;
+
+  courseFilterWrap.classList.remove("hidden");
+  courseFiltersEl.replaceChildren();
+
+  const chips = [
+    { id: "all", label: "All" },
+    ...courses.map((course) => ({ id: course.id, label: course.label })),
+  ];
+
+  chips.forEach(({ id, label }) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "quiz-filter-chip";
+    button.dataset.course = id;
+    button.textContent = label;
+    button.setAttribute("aria-pressed", String(id === activeCourseFilter));
+
+    if (id === activeCourseFilter) {
+      button.classList.add("quiz-filter-chip--active");
+    }
+
+    button.addEventListener("click", () => {
+      activeCourseFilter = id;
+      if (
+        activeUnitFilter !== "all" &&
+        !unitsForCourse(id).some((unit) => unitSlug(unit.name) === activeUnitFilter)
+      ) {
+        activeUnitFilter = "all";
+      }
+      setActiveChip(courseFiltersEl, "course", id);
+      setupUnitFilters(unitsForCourse(id));
+      applyFilters();
+    });
+
+    courseFiltersEl.appendChild(button);
   });
 }
 
@@ -82,12 +164,32 @@ function setupSearch() {
   searchInput.addEventListener("input", applyFilters);
 }
 
-function setupCatalogControls(units) {
+function setupCatalogControls(data) {
   if (!controlsEl) return;
 
-  controlsEl.classList.remove("hidden");
-  setupUnitFilters(units);
+  catalogUnits = data.units || [];
+  const courses = Array.isArray(data.courses) ? data.courses : [];
+  courseLabels = new Map(courses.map((course) => [course.id, course.label]));
+
+  setupCourseFilters(courses);
+  setupUnitFilters(unitsForCourse(activeCourseFilter));
   setupSearch();
+  controlsEl.classList.remove("hidden");
+}
+
+function renderCourseEmpty() {
+  const section = document.createElement("section");
+  section.id = "course-empty";
+  section.className = "quiz-unit course-empty hidden";
+
+  const heading = document.createElement("h2");
+  heading.className = "quiz-unit-title";
+  section.appendChild(heading);
+
+  const text = document.createElement("p");
+  section.appendChild(text);
+
+  return section;
 }
 
 function renderComingSoon(items) {
@@ -138,8 +240,20 @@ function renderUnit(subjectKey, unit) {
 
   unit.quizzes.forEach((quiz) => {
     const enriched = CatalogUtils.enrichQuiz(quiz);
-    const searchText = `${quiz.title} ${quiz.description} ${unit.name}`.toLowerCase();
-    grid.appendChild(CatalogUtils.createQuizCard(subjectKey, enriched, searchText));
+    const courseId = quizCourseId(unit, quiz);
+    const courseLabel = courseLabels.get(courseId) || "";
+    const searchText = [quiz.title, quiz.description, unit.name, courseLabel, courseId]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    const card = CatalogUtils.createQuizCard(
+      subjectKey,
+      enriched,
+      searchText,
+      courseLabel,
+    );
+    if (courseId) card.dataset.course = courseId;
+    grid.appendChild(card);
   });
 
   section.appendChild(grid);
@@ -170,7 +284,7 @@ async function renderSubjectPage() {
     }
 
     if (data.units) {
-      setupCatalogControls(data.units);
+      setupCatalogControls(data);
 
       data.units.forEach((unit) => {
         catalogRoot.appendChild(renderUnit(subject, unit));
@@ -178,6 +292,10 @@ async function renderSubjectPage() {
 
       if (data.comingSoon) {
         catalogRoot.appendChild(renderComingSoon(data.comingSoon));
+      }
+
+      if (Array.isArray(data.courses) && data.courses.length > 0) {
+        catalogRoot.appendChild(renderCourseEmpty());
       }
     } else {
       if (Array.isArray(data.quizzes) && data.quizzes.length > 0) {

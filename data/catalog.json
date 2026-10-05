@@ -20,9 +20,20 @@
     "summary": "Cells, genetics, biological systems and more.",
     "cardIcon": "🧬",
     "icon": "images/favicons/dna.svg",
+    "courses": [
+      {
+        "id": "bio100a",
+        "label": "BIO 100A"
+      },
+      {
+        "id": "bio100b",
+        "label": "BIO 100B"
+      }
+    ],
     "units": [
       {
         "name": "Foundations of Biology",
+        "course": "bio100a",
         "quizzes": [
           {
             "id": "evolution_and_themes",
@@ -33,11 +44,115 @@
             "types": {
               "multiple_choice": 6
             }
+          },
+          {
+            "id": "study_of_biology",
+            "title": "The Study of Biology",
+            "icon": "🔍",
+            "description": "What biology studies, life's properties, levels of organization, and scientific inquiry.",
+            "course": "bio100b",
+            "questionCount": 14,
+            "types": {
+              "multiple_choice": 5,
+              "drag_sentence": 7,
+              "select_all": 2
+            }
+          },
+          {
+            "id": "evidence_of_evolution",
+            "title": "Evidence of Evolution",
+            "icon": "🦴",
+            "description": "Lines of evidence used to support evolution.",
+            "course": "bio100b",
+            "questionCount": 16,
+            "types": {
+              "select_all": 2,
+              "drag_sentence": 2,
+              "multiple_choice": 12
+            }
+          },
+          {
+            "id": "evolution_of_populations",
+            "title": "Evolution of Populations",
+            "icon": "🐇",
+            "description": "How populations change genetically across generations.",
+            "course": "bio100b",
+            "questionCount": 34,
+            "types": {
+              "multiple_choice": 26,
+              "select_all": 7,
+              "drag_sentence": 1
+            }
+          },
+          {
+            "id": "speciation_and_history_of_life",
+            "title": "Speciation and History of Life",
+            "icon": "🦕",
+            "description": "How new species form and how life has changed through time.",
+            "course": "bio100b",
+            "questionCount": 31,
+            "types": {
+              "multiple_choice": 21,
+              "drag_sentence": 8,
+              "select_all": 2
+            }
+          },
+          {
+            "id": "systematics",
+            "title": "Systematics",
+            "icon": "🌳",
+            "description": "How organisms are named and grouped by evolutionary relationship.",
+            "course": "bio100b",
+            "questionCount": 17,
+            "types": {
+              "drag_sentence": 7,
+              "select_all": 1,
+              "multiple_choice": 9
+            }
+          }
+        ]
+      },
+      {
+        "name": "Prokaryotes",
+        "course": "bio100b",
+        "quizzes": [
+          {
+            "id": "prokaryotes",
+            "title": "Prokaryotes",
+            "icon": "🦠",
+            "description": "How bacteria and archaea are built and how they live.",
+            "course": "bio100b",
+            "questionCount": 24,
+            "types": {
+              "select_all": 5,
+              "multiple_choice": 10,
+              "drag_sentence": 9
+            }
+          }
+        ]
+      },
+      {
+        "name": "Protists",
+        "course": "bio100b",
+        "quizzes": [
+          {
+            "id": "protists",
+            "title": "Protists",
+            "icon": "🧫",
+            "description": "How protists are built and how they live.",
+            "course": "bio100b",
+            "questionCount": 46,
+            "types": {
+              "multiple_choice": 32,
+              "select_all": 8,
+              "drag_sentence": 6
+            }
           }
         ]
       },
       {
         "name": "Chemistry of Life",
+        "course": "bio100a",
         "quizzes": [
           {
             "id": "chemical_context_of_life",
@@ -73,6 +188,7 @@
       },
       {
         "name": "The Cell",
+        "course": "bio100a",
         "quizzes": [
           {
             "id": "tour_of_the_cell",
@@ -100,6 +216,7 @@
       },
       {
         "name": "Cell Division",
+        "course": "bio100a",
         "quizzes": [
           {
             "id": "mitosis",
@@ -127,6 +244,7 @@
       },
       {
         "name": "Energy & Metabolism",
+        "course": "bio100a",
         "quizzes": [
           {
             "id": "metabolism",
@@ -154,6 +272,7 @@
       },
       {
         "name": "Genetics & Inheritance",
+        "course": "bio100a",
         "quizzes": [
           {
             "id": "genetics",
@@ -189,6 +308,7 @@
       },
       {
         "name": "Gene Expression",
+        "course": "bio100a",
         "quizzes": [
           {
             "id": "gene_expression",
@@ -214,6 +334,7 @@
       },
       {
         "name": "Cell Signaling",
+        "course": "bio100a",
         "quizzes": [
           {
             "id": "cellular_communication",
@@ -230,6 +351,7 @@
       },
       {
         "name": "Animal Systems",
+        "course": "bio100a",
         "quizzes": [
           {
             "id": "animal_form_and_function",

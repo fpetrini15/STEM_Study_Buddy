@@ -1,0 +1,552 @@
+{
+  "title": "Evolution of Populations",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement correctly identifies what evolves?"
+      },
+      "options": [
+        "An individual evolves when its body changes during its life to match the environment.",
+        "A population evolves when the share of heritable traits changes from one generation to the next.",
+        "A population evolves only after every individual in it has evolved during its own life.",
+        "An individual evolves by passing on traits it gained during its life, and the population is the sum of those changes."
+      ],
+      "answer": "A population evolves when the share of heritable traits changes from one generation to the next.",
+      "explanation": "Evolution is a change across generations in which heritable traits are common in a population. An individual can grow, learn, or adjust during its life, but those changes are not evolution of that individual. The population does not wait until each member has evolved. Traits acquired during one life are not what offspring inherit, so a population is not the sum of those personal changes."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 4 mechanisms of evolutionary change."
+      },
+      "bank": [
+        "Allele frequency",
+        "Natural selection",
+        "Genetic drift",
+        "Gene flow",
+        "Genotype frequency",
+        "Acquired characteristics",
+        "Directed drift",
+        "Vertical inheritance"
+      ],
+      "answers": [
+        "Allele frequency",
+        "Natural selection",
+        "Genetic drift",
+        "Gene flow"
+      ],
+      "explanation": "Allele frequency is how common each allele is in the population, and evolutionary change is a shift in those frequencies. Genotype frequency is how common each combination of alleles is. That can change, as in nonrandom mating, while the allele frequencies stay the same. Natural selection makes some heritable traits more common because their bearers leave more offspring. Acquired characteristics arise during one life and are not inherited. Genetic drift is a chance change in allele frequency. Directed drift would steer the population toward a chosen allele, which is not drift. Gene flow is the movement of alleles between populations. Vertical inheritance is parents passing genes to offspring inside one population."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best identifies the material of evolution?"
+      },
+      "options": [
+        "Phenotypes, because selection can act only on traits that are visible.",
+        "Acquired characteristics, because a trait gained during life is what offspring receive.",
+        "The population, because the population is the unit that evolves.",
+        "Genes, because they are the heritable information passed from one generation to the next."
+      ],
+      "answer": "Genes, because they are the heritable information passed from one generation to the next.",
+      "explanation": "Genes are the material of evolution. Offspring inherit them, so a change in which versions are common is a change in the population. Selection acts on phenotypes, but a visible trait is passed on only when genes produce it. A characteristic acquired during one life is not inherited. The population is what evolves. The material that changes inside that population is its genes."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing genotype, phenotype, allele, and gene pool."
+      },
+      "sentence": [
+        "A genotype is ",
+        null,
+        ", a phenotype is ",
+        null,
+        ", an allele is ",
+        null,
+        ", and a gene pool is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "the genetic makeup of an individual",
+        "the observable traits of an individual",
+        "one version of a gene",
+        "all the alleles in a population"
+      ],
+      "bank": [
+        "the genetic makeup of an individual",
+        "the observable traits of an individual",
+        "one version of a gene",
+        "all the alleles in a population",
+        "all the genotypes in a population",
+        "one gene in an individual"
+      ],
+      "explanation": "A genotype is one individual's genetic makeup. A phenotype is that individual's observable traits. An allele is one version of a gene, not the gene itself. A gene pool is every allele in a population. It is not the list of genotypes in that population."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best defines a population?"
+      },
+      "options": [
+        "Every individual of a species across its whole range, whether or not those individuals meet and mate.",
+        "A localized group of different species that live together and interact.",
+        "A localized group of individuals that can interbreed and produce fertile offspring.",
+        "A localized group of individuals that meet and mate, even when their offspring are sterile."
+      ],
+      "answer": "A localized group of individuals that can interbreed and produce fertile offspring.",
+      "explanation": "A population is a localized group whose members can interbreed and produce fertile offspring. Every individual of a species across its whole range is broader than one population, and those individuals may never meet. Different species living and interacting in one place form a community. Meeting and mating is not enough when the offspring are sterile."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 statements that correctly relate populations, individuals, and evolution."
+      },
+      "bank": [
+        "Populations are the smallest unit of evolution",
+        "Natural selection acts on individuals",
+        "Genetic variation in populations allows evolution",
+        "Individuals are the smallest unit of evolution",
+        "Natural selection acts on populations",
+        "Acquired characteristics in a population allow evolution"
+      ],
+      "answers": [
+        "Populations are the smallest unit of evolution",
+        "Natural selection acts on individuals",
+        "Genetic variation in populations allows evolution"
+      ],
+      "explanation": "A population is the smallest unit that evolves. An individual does not evolve, so it is not that unit. Natural selection acts on individuals: some survive and reproduce more than others. It does not act on the population as a unit. Evolution is possible because the individuals in a population differ genetically. Characteristics acquired during one life are not that heritable variation."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best defines a mutation?"
+      },
+      "options": [
+        "A change in the nucleotide sequence of DNA that can produce a new allele.",
+        "A change in how common an existing allele is from one generation to the next.",
+        "A new arrangement of existing alleles created when chromosomes exchange pieces.",
+        "A change in a body trait during life that is then copied into the offspring's DNA."
+      ],
+      "answer": "A change in the nucleotide sequence of DNA that can produce a new allele.",
+      "explanation": "A mutation changes the nucleotide sequence of DNA. That change can produce a new allele. A shift in how common an allele already is changes allele frequency. It does not create the allele. When chromosomes exchange pieces, they rearrange alleles that already exist. A trait gained during one life is not written into the offspring's DNA."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "T/F: A mutation can only be helpful or harmful."
+      },
+      "options": ["True", "False"],
+      "answer": "False",
+      "explanation": "A mutation can help survival or reproduction, harm them, or leave them unchanged. Many mutations are neutral. Helpful and harmful mutations do occur, and a mutation with no effect on fitness is also possible."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes sexual recombination?"
+      },
+      "options": [
+        "It changes DNA sequences to create new alleles, so genetic variation and allele frequencies both change.",
+        "It produces new combinations of alleles that already exist, adding genetic variation without directly changing allele frequencies.",
+        "It produces new combinations of alleles that already exist, and each new combination directly changes allele frequencies.",
+        "It moves alleles from one population into another during mating, which changes allele frequencies and adds variation."
+      ],
+      "answer": "It produces new combinations of alleles that already exist, adding genetic variation without directly changing allele frequencies.",
+      "explanation": "Sexual recombination, including independent assortment and crossing over, places existing alleles into new combinations. Those new genotypes increase genetic variation. The alleles are ones the parents already carried, so recombination does not directly change allele frequencies. A change in a DNA sequence that creates a new allele is a mutation. A new combination is not itself a change in how common each allele is. Movement of alleles from one population into another is gene flow."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement correctly pairs an advantage and a disadvantage of sexual recombination?"
+      },
+      "options": [
+        "It creates new alleles for selection to act on when conditions change, and it keeps every successful parental combination intact.",
+        "It keeps parental allele combinations together, and the need for two parents makes population growth slower than in asexual reproduction.",
+        "It shifts allele frequencies toward helpful alleles, and the new genotypes make a population slower to track a changing environment.",
+        "It produces new allele combinations that selection can act on when conditions change, and it also breaks apart combinations that were already successful."
+      ],
+      "answer": "It produces new allele combinations that selection can act on when conditions change, and it also breaks apart combinations that were already successful.",
+      "explanation": "Sexual recombination puts existing alleles into new combinations. Selection can favor some of those combinations when the environment changes. Independent assortment and crossing over also separate combinations that were already working well. Recombination does not create new alleles, and it does not preserve every successful parental combination. Needing two parents can slow population growth, but keeping allele combinations together is what asexual reproduction does. Recombination itself does not push allele frequencies toward helpful alleles, and the variation it creates helps a population respond when conditions change."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best defines genetic drift?"
+      },
+      "options": [
+        "Individuals that leave more offspring make their alleles more common in the next generation.",
+        "Migrants carry alleles into or out of a population and change how common those alleles are.",
+        "Chance events cause allele frequencies to fluctuate unpredictably from one generation to the next.",
+        "Allele frequencies shift in a consistent direction toward whichever allele is currently most useful."
+      ],
+      "answer": "Chance events cause allele frequencies to fluctuate unpredictably from one generation to the next.",
+      "explanation": "Genetic drift is a chance change in allele frequencies from one generation to the next. It does not favor a particular allele. The same chance event shifts frequencies more in a small population. Alleles becoming more common because their bearers leave more offspring is natural selection. A steady shift toward the most useful allele is directed, not drift. Alleles carried in or out by migrants are gene flow."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does the impact of genetic drift differ between small and large populations?"
+      },
+      "options": [
+        "Each individual is a smaller share of a small population, so chance events barely move allele frequencies. Drift is stronger in a large population.",
+        "Each individual is a larger share of a small population, so one chance event can shift allele frequencies a lot. An allele is more likely to be lost or fixed there than in a large population.",
+        "Chance events change allele frequencies only while a population is small. In a large population those frequencies stay locked at the values drift already produced.",
+        "Drift removes harmful alleles from small populations and preserves helpful alleles in large populations."
+      ],
+      "answer": "Each individual is a larger share of a small population, so one chance event can shift allele frequencies a lot. An allele is more likely to be lost or fixed there than in a large population.",
+      "explanation": "In a small population, one individual is a large fraction of the gene pool. A chance birth or death can move allele frequencies a lot, and an allele can disappear or reach a frequency of 100%. In a large population, that same event is a small fraction of the gene pool, so the frequency change is smaller. The reversed comparison gets those shares backward. Drift still occurs in a large population, and it does not freeze frequencies in place. It also has no preferred allele, so it is not a filter that clears harmful alleles from small populations and saves helpful ones in large populations."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 2 effects that increase genetic drift by creating a small population."
+      },
+      "bank": [
+        "Bottleneck effect",
+        "Founder effect",
+        "Selection effect",
+        "Migration effect",
+        "Recombination effect"
+      ],
+      "answers": [
+        "Bottleneck effect",
+        "Founder effect"
+      ],
+      "explanation": "A bottleneck effect is a sharp drop in population size. The survivors are a chance sample of the original gene pool, so drift is stronger afterward. A founder effect happens when a few individuals start a new population. Their alleles are a chance sample of the source population. Selection changes allele frequencies because some heritable traits leave more offspring. The population does not have to become small. Migration that mixes alleles between existing populations is gene flow, not the chance sample carried by a few founders. Recombination shuffles alleles that already exist. It does not shrink the population."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes gene flow?"
+      },
+      "options": [
+        "Parents pass alleles to their offspring within one population, and those births change allele frequencies every generation.",
+        "A few individuals start a new population with a chance sample of alleles, which strengthens genetic drift.",
+        "Existing alleles are shuffled into new combinations during meiosis, adding variation without directly changing allele frequencies.",
+        "Fertile individuals or their gametes move alleles between populations, which can change allele frequencies and make the populations more similar."
+      ],
+      "answer": "Fertile individuals or their gametes move alleles between populations, which can change allele frequencies and make the populations more similar.",
+      "explanation": "Gene flow moves alleles between populations when fertile individuals or gametes migrate and reproduce. The arriving alleles can change frequencies, and populations that exchange alleles become more alike. Passing alleles from parent to offspring inside one population is inheritance. A few colonists carrying a chance sample is the founder effect, which strengthens drift. Shuffling existing alleles during meiosis is recombination. It does not move alleles from one population to another."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Conservationists intentionally introduce a few individuals into a population of genetically similar individuals. When can that gene flow backfire?"
+      },
+      "options": [
+        "When the incoming alleles are harmful, because selection spreads harmful alleles faster than helpful ones and replaces the local gene pool.",
+        "When the incoming alleles are advantageous, because selection can spread them until they replace much of the local gene pool.",
+        "When the incoming alleles are neutral, because alleles introduced by a few individuals are certain to become the only alleles left.",
+        "When the incoming alleles are advantageous, because those alleles raise fitness and leave every local allele combination intact."
+      ],
+      "answer": "When the incoming alleles are advantageous, because selection can spread them until they replace much of the local gene pool.",
+      "explanation": "Conservationists may introduce individuals to add variation to a population of genetically similar individuals. If the new alleles are advantageous, selection can carry them well beyond those introduced individuals until much of the local gene pool is replaced. Harmful alleles are removed by selection, so they do not sweep through the population. Neutral alleles introduced by a few individuals usually stay uncommon. Advantageous alleles can raise fitness, and local allele combinations can be overwritten as those alleles spread."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 main types of selection."
+      },
+      "bank": [
+        "Artificial selection",
+        "Natural selection",
+        "Unnatural selection",
+        "Directional selection",
+        "Disruptive selection",
+        "Stabilizing selection"
+      ],
+      "answers": [
+        "Artificial selection",
+        "Natural selection",
+        "Unnatural selection"
+      ],
+      "explanation": "Natural selection is the environment determining which heritable traits leave more offspring. Artificial selection is people breeding organisms for a trait they chose. Unnatural selection is a human activity that changes who survives or reproduces without that breeding goal. Directional, disruptive, and stabilizing selection describe the shape of the change: one extreme, both extremes, or the middle. They do not name what is doing the selecting."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "During a drought, finches with deeper beaks leave more offspring because they can crack the hard seeds that remain. People are not choosing which finches breed. Which type of selection is this?"
+      },
+      "options": [
+        "Artificial selection",
+        "Unnatural selection",
+        "Natural selection",
+        "Sexual selection"
+      ],
+      "answer": "Natural selection",
+      "explanation": "The drought and the hard seeds determine which finches leave offspring. People are not choosing breeders. That is natural selection. Artificial selection would be people breeding finches for deeper beaks. Unnatural selection would be a human activity, such as a harvest or a pollutant, changing who survives without a breeding plan. Sexual selection would be a difference in mating success. These finches differ in cracking seeds."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Breeders allow only dogs with the shortest legs to reproduce, and short legs become more common in the breed. Which type of selection is this?"
+      },
+      "options": [
+        "Natural selection",
+        "Unnatural selection",
+        "Sexual selection",
+        "Artificial selection"
+      ],
+      "answer": "Artificial selection",
+      "explanation": "People choose which dogs reproduce in order to get shorter legs. That intentional breeding is artificial selection. Natural selection would be the environment favoring short legs, with no person choosing mates. Unnatural selection would be a human activity that changes which dogs survive without the goal of producing short legs. Sexual selection would be dogs choosing their own mates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Fishing nets catch the largest cod. Smaller cod escape and reproduce, and adult size in the population declines. The fishers are not trying to breed smaller cod. Which type of selection is this?"
+      },
+      "options": [
+        "Unnatural selection",
+        "Artificial selection",
+        "Natural selection",
+        "Sexual selection"
+      ],
+      "answer": "Unnatural selection",
+      "explanation": "The nets remove large cod, so smaller adults leave more offspring. The fishers are not breeding cod for small size. That incidental human effect is unnatural selection. Artificial selection would be people keeping and breeding the small cod on purpose. Natural selection would be the environment, rather than the nets, favoring small cod. Sexual selection would be a difference in mating success."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 conditions required for natural selection."
+      },
+      "bank": [
+        "Genetic variation in the population",
+        "Differential survival",
+        "Differential reproduction",
+        "New mutations each generation",
+        "Small population size",
+        "Migration between populations"
+      ],
+      "answers": [
+        "Genetic variation in the population",
+        "Differential survival",
+        "Differential reproduction"
+      ],
+      "explanation": "Natural selection requires genetic variation, so individuals differ in heritable traits. It also requires differential survival and differential reproduction: because of those traits, some individuals survive and leave more offspring than others. New mutations can create variation, but selection can act on variation already in the population. A small population strengthens genetic drift. Selection does not require it. Migration moves alleles between populations. Selection can occur in a population that exchanges no migrants."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 modes of selection that describe how a trait's distribution changes."
+      },
+      "bank": [
+        "Directional selection",
+        "Disruptive selection",
+        "Stabilizing selection",
+        "Sexual selection",
+        "Balancing selection",
+        "Artificial selection"
+      ],
+      "answers": [
+        "Directional selection",
+        "Disruptive selection",
+        "Stabilizing selection"
+      ],
+      "explanation": "Directional selection favors one extreme of a trait, so the distribution shifts that way. Disruptive selection favors both extremes over intermediate forms. Stabilizing selection favors intermediate forms and narrows the distribution around them. Sexual selection is a difference in mating success, and it can take any of those three shapes. Balancing selection keeps more than one allele in a population. Artificial selection is people breeding organisms for a chosen trait. It names who is selecting, not the shape of the distribution."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "After a drought, finches with deeper beaks survive better because they can crack the remaining hard seeds. Shallower beaks become less common. Which type of selection is this?"
+      },
+      "options": [
+        "Disruptive selection",
+        "Stabilizing selection",
+        "Directional selection",
+        "Balancing selection"
+      ],
+      "answer": "Directional selection",
+      "explanation": "One extreme, deeper beaks, leaves more offspring, and the population shifts toward that extreme. That is directional selection. Disruptive selection would favor both very deep and very shallow beaks. Stabilizing selection would favor intermediate beaks. Balancing selection keeps more than one allele common, as when heterozygotes have an advantage. It is not a shift toward one end of beak depth."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A seed-eating bird population uses two seed sizes. Birds with very small beaks or very large beaks leave more offspring than birds with intermediate beaks. Which type of selection is this?"
+      },
+      "options": [
+        "Directional selection",
+        "Sexual selection",
+        "Stabilizing selection",
+        "Disruptive selection"
+      ],
+      "answer": "Disruptive selection",
+      "explanation": "Both extremes leave more offspring than intermediate birds, so the population is pulled toward two peaks. That is disruptive selection. Directional selection would favor only one extreme, such as only large beaks. Stabilizing selection would favor the intermediate beaks. Sexual selection is a difference in mating success. These birds differ in how well they handle seeds."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Human babies of intermediate birth weight survive more often than babies who are much lighter or much heavier. Which type of selection is this?"
+      },
+      "options": [
+        "Stabilizing selection",
+        "Directional selection",
+        "Artificial selection",
+        "Disruptive selection"
+      ],
+      "answer": "Stabilizing selection",
+      "explanation": "Intermediate birth weights survive more often than either extreme, so variation narrows around the middle. That is stabilizing selection. Directional selection would favor only lighter babies or only heavier babies. Disruptive selection would favor both extremes over the intermediate weight. Artificial selection would be people choosing which individuals reproduce."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The dashed curve is the population before selection. The solid curve is the population after. Which type of selection does this plot show?",
+        "image": "images/biology/evolution/plot_1.svg",
+        "imageClass": "quiz-image--plot",
+        "imageAlt": "A dashed bell curve left of center, and a solid bell curve of similar width shifted toward the high end of the trait."
+      },
+      "options": [
+        "Stabilizing selection",
+        "Directional selection",
+        "Disruptive selection",
+        "Balancing selection"
+      ],
+      "answer": "Directional selection",
+      "explanation": "The solid curve has about the same width as the dashed curve, and its peak sits farther toward the high end of the trait. The population shifted toward one extreme. That is directional selection. Stabilizing selection would leave the peak in place and make the curve taller and narrower. Disruptive selection would replace the single peak with peaks at both ends. Balancing selection keeps more than one allele common. It is not a shift of one curve toward one extreme."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The dashed curve is the population before selection. The solid curve is the population after. Which type of selection does this plot show?",
+        "image": "images/biology/evolution/plot_2.svg",
+        "imageClass": "quiz-image--plot",
+        "imageAlt": "A dashed bell curve with one peak in the middle, and a solid curve with peaks at both the low and high ends."
+      },
+      "options": [
+        "Disruptive selection",
+        "Directional selection",
+        "Stabilizing selection",
+        "Sexual selection"
+      ],
+      "answer": "Disruptive selection",
+      "explanation": "The dashed curve has one peak in the middle. The solid curve has peaks at both extremes and fewer individuals in the middle. That is disruptive selection. Directional selection would move a single peak toward one end. Stabilizing selection would make the middle peak taller and narrower. Sexual selection is a difference in mating success. It does not by itself produce two peaks."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The dashed curve is the population before selection. The solid curve is the population after. Which type of selection does this plot show?",
+        "image": "images/biology/evolution/plot_3.svg",
+        "imageClass": "quiz-image--plot",
+        "imageAlt": "A dashed wide bell curve and a solid taller, narrower bell curve, both centered on the same trait value."
+      },
+      "options": [
+        "Directional selection",
+        "Artificial selection",
+        "Stabilizing selection",
+        "Disruptive selection"
+      ],
+      "answer": "Stabilizing selection",
+      "explanation": "Both curves are centered on the same trait value. The solid curve is taller and narrower, so more individuals sit near the middle and fewer sit at either extreme. That is stabilizing selection. Directional selection would slide the peak toward one end. Disruptive selection would build peaks at both ends. Artificial selection is people choosing which organisms breed. It is not a narrower curve around the same middle."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 5 conditions of Hardy-Weinberg equilibrium."
+      },
+      "bank": [
+        "No mutation",
+        "Random mating",
+        "No natural selection",
+        "Very large population",
+        "No gene flow",
+        "New mutations each generation",
+        "Mate choice by phenotype",
+        "Directional selection",
+        "Small population size",
+        "Gene flow between populations"
+      ],
+      "answers": [
+        "No mutation",
+        "Random mating",
+        "No natural selection",
+        "Very large population",
+        "No gene flow"
+      ],
+      "explanation": "In Hardy-Weinberg equilibrium, allele and genotype frequencies stay the same from generation to generation. That requires no mutation, random mating, no natural selection, a very large population, and no gene flow. New mutations change alleles. Mate choice by phenotype is nonrandom mating. Directional selection makes some heritable traits more common. A small population strengthens genetic drift. Gene flow moves alleles between populations."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In p² + 2pq + q² = 1, which term is the frequency of heterozygous individuals?"
+      },
+      "options": [
+        "p²",
+        "q²",
+        "p + q",
+        "2pq"
+      ],
+      "answer": "2pq",
+      "explanation": "2pq is the frequency of heterozygotes. p² is the frequency of homozygous dominant individuals. q² is the frequency of homozygous recessive individuals. p + q = 1 relates the two allele frequencies. It is not a genotype frequency."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A recessive phenotype appears in 9% of a population in Hardy-Weinberg equilibrium. What is the frequency of the recessive allele?"
+      },
+      "options": [
+        "0.09",
+        "0.7",
+        "0.3",
+        "0.42"
+      ],
+      "answer": "0.3",
+      "explanation": "The recessive phenotype frequency is q². q² = 0.09, so q = 0.3. The value 0.09 is q², the genotype frequency, not the allele frequency. The value 0.7 is p, because p = 1 − q. The value 0.42 is 2pq, the heterozygote frequency."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "One percent of a population in Hardy-Weinberg equilibrium shows a recessive phenotype. What is the frequency of heterozygous carriers?"
+      },
+      "options": [
+        "0.81",
+        "0.18",
+        "0.01",
+        "0.1"
+      ],
+      "answer": "0.18",
+      "explanation": "The recessive phenotype frequency is q² = 0.01, so q = 0.1 and p = 0.9. Heterozygotes are 2pq = 2(0.9)(0.1) = 0.18. The value 0.01 is the recessive phenotype. The value 0.1 is the recessive allele. The value 0.81 is p², the homozygous dominant genotype."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A storm leaves a few survivors from a large population. Separately, a few individuals start a new population on an island. Which statement identifies the two effects?"
+      },
+      "options": [
+        "Both are founder effects, because each result is a small group.",
+        "The storm is a founder effect, and the island population is a bottleneck effect.",
+        "The storm is a bottleneck effect, and the island population is a founder effect.",
+        "Both are bottleneck effects, because each group is smaller than the population it came from."
+      ],
+      "answer": "The storm is a bottleneck effect, and the island population is a founder effect.",
+      "explanation": "A bottleneck effect is a sharp drop in an existing population. The survivors are a chance sample of the original gene pool. A founder effect is a new population started by a few individuals, whose alleles are a chance sample of the source population. A small group is not enough to make both events founder effects. The island colonists are not a bottleneck in the source population. Being smaller than the source population does not make the island colony a bottleneck."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes relative fitness?"
+      },
+      "options": [
+        "How long an individual lives compared with others in the population.",
+        "How physically strong an individual is compared with others in the population.",
+        "A useful trait an individual gains during its life and passes to its offspring.",
+        "How many offspring an individual leaves compared with others in the population."
+      ],
+      "answer": "How many offspring an individual leaves compared with others in the population.",
+      "explanation": "Relative fitness is reproductive success compared with other members of the population. An individual can live a long time or be physically strong and still leave few offspring. A trait gained during one life is not inherited, so it is not fitness passed to the next generation."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In a population of 1000, there are 500 homozygous dominant individuals, 200 heterozygotes, and 300 homozygous recessive individuals. Allele frequencies are p = 0.6 and q = 0.4. What does comparison with Hardy-Weinberg predictions show?"
+      },
+      "options": [
+        "The population is in equilibrium, because p + q = 1.",
+        "The population is evolving, because the genotype counts differ from p², 2pq, and q².",
+        "The population is in equilibrium, because all three genotypes are present.",
+        "The population is evolving, because heterozygotes are the least common genotype."
+      ],
+      "answer": "The population is evolving, because the genotype counts differ from p², 2pq, and q².",
+      "explanation": "With p = 0.6 and q = 0.4, Hardy-Weinberg proportions predict about 360 homozygous dominant individuals, 480 heterozygotes, and 160 homozygous recessive individuals. The observed counts are 500, 200, and 300, so the population is not in equilibrium and is evolving. p + q = 1 only restates the allele frequencies. Having all three genotypes does not show equilibrium. Heterozygotes can be the least common genotype in an equilibrium population too. The mismatch with the predicted counts is what matters."
+    }
+  ]
+}

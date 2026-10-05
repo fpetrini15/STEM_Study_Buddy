@@ -99,6 +99,7 @@ const CatalogUtils = {
     if (types.drag_and_drop) labels.push("Drag & drop");
     if (types.drug_worksheet) labels.push("Drug worksheet");
     if (types.drag_sentence) labels.push("Drag sentence");
+    if (types.select_all) labels.push("Select all");
     if (types.fill_in) labels.push("Fill in");
     if (types.net_ionic) labels.push("Net ionic");
     return labels.join(" · ");
@@ -131,7 +132,7 @@ const CatalogUtils = {
     };
   },
 
-  createQuizCard(subjectKey, quiz, searchText) {
+  createQuizCard(subjectKey, quiz, searchText, courseLabel) {
     const card = document.createElement("div");
     card.className = "subject-card quiz-card";
     card.dataset.search = searchText || `${quiz.title} ${quiz.description}`.toLowerCase();
@@ -144,6 +145,14 @@ const CatalogUtils = {
       <p>${quiz.description}</p>
       <p class="quiz-meta">${meta}</p>
     `;
+
+    if (courseLabel) {
+      card.classList.add("quiz-card--tagged");
+      const chip = document.createElement("span");
+      chip.className = "quiz-card-label quiz-card-label--course";
+      chip.textContent = courseLabel;
+      card.insertBefore(chip, card.firstChild);
+    }
 
     if (quiz.available) {
       const link = document.createElement("a");

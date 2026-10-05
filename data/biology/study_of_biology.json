@@ -1,0 +1,361 @@
+{
+  "title": "The Study of Biology",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Scientific inquiry is:"
+      },
+      "options": [
+        "The search for information and explanations of natural phenomena",
+        "Any opinion about nature, whether or not it can be tested",
+        "A list of facts that scientists agree never to revise",
+        "The practice of proving a favorite idea by selecting only supporting examples"
+      ],
+      "answer": "The search for information and explanations of natural phenomena",
+      "explanation": "Scientific inquiry is how scientists seek information and explanations about the natural world, using observations, questions, and tests rather than untested opinion."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A hypothesis is:"
+      },
+      "options": [
+        "A guess that cannot be checked against evidence",
+        "A broad explanation already supported by a large body of evidence",
+        "A testable proposed explanation for a set of observations",
+        "The measured outcome of an experiment"
+      ],
+      "answer": "A testable proposed explanation for a set of observations",
+      "explanation": "A hypothesis is a proposed explanation that can be tested. A broader, well-supported explanation is a theory, and the measured outcome of a test is the result, not the hypothesis."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing quantitative and qualitative data."
+      },
+      "sentence": [
+        "Quantitative data are ",
+        null,
+        ", while qualitative data are ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "numerical measurements",
+        "recorded descriptions"
+      ],
+      "bank": [
+        "numerical measurements",
+        "recorded descriptions",
+        "untested opinions"
+      ],
+      "explanation": "Quantitative data are numbers, such as counts or measurements. Qualitative data are descriptions, such as color, shape, or behavior. Untested opinions are not a form of scientific data."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing inductive and deductive reasoning."
+      },
+      "sentence": [
+        "Inductive reasoning moves from ",
+        null,
+        ", while deductive reasoning moves from ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "specific observations to a general conclusion",
+        "a general premise to a specific prediction"
+      ],
+      "bank": [
+        "specific observations to a general conclusion",
+        "a general premise to a specific prediction",
+        "an untested opinion to a proven law"
+      ],
+      "explanation": "Induction generalizes from many specific observations. Deduction starts from a general premise and predicts a specific result that can be tested. An untested opinion is not a form of scientific reasoning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement correctly describes a scientific theory?"
+      },
+      "options": [
+        "A hypothesis that has been proven, so further testing is no longer appropriate",
+        "A broad explanation supported by a large body of evidence, which new findings can still revise",
+        "A hypothesis that has been confirmed often enough to be reclassified as a scientific law",
+        "A tentative guess that is weaker than a hypothesis because it has not yet been tested"
+      ],
+      "answer": "A broad explanation supported by a large body of evidence, which new findings can still revise",
+      "explanation": "A theory explains a wide set of observations and is already backed by extensive evidence. It is not a hunch, it is not 'finished' or immune to revision, and it does not graduate into a law. A hypothesis is the narrower, testable proposal; a law describes a pattern, while a theory explains it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best defines biology?"
+      },
+      "options": [
+        "The scientific study of life",
+        "The scientific study of genes and how traits are inherited",
+        "The scientific study of the human body and its diseases",
+        "The scientific study of interactions between organisms and their environments"
+      ],
+      "answer": "The scientific study of life",
+      "explanation": "Biology is the scientific study of life as a whole. Ecology, genetics, and medicine are parts of that field, but none of them is the definition of biology by itself."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 6 unifying ideas of biology."
+      },
+      "bank": [
+        "All life forms share common characteristics",
+        "Novel properties emerge at successive levels of biological organization",
+        "Cells are the fundamental unit of life",
+        "Form reflects function",
+        "Organisms interact with their environment and exchange matter and energy",
+        "Evolution is the core theme of biology",
+        "Natural selection is the core theme of biology",
+        "Molecules are the fundamental unit of life",
+        "Only closely related species share common characteristics",
+        "A biological system has no properties beyond those of its parts",
+        "Form and function vary independently",
+        "Organisms exchange energy with their environment, but not matter"
+      ],
+      "answers": [
+        "All life forms share common characteristics",
+        "Novel properties emerge at successive levels of biological organization",
+        "Cells are the fundamental unit of life",
+        "Form reflects function",
+        "Organisms interact with their environment and exchange matter and energy",
+        "Evolution is the core theme of biology"
+      ],
+      "explanation": "Natural selection helps drive evolution, but evolution is the core theme. The cell is the fundamental unit of life, not the molecule. All life forms share common characteristics, not only close relatives. Novel properties emerge at higher levels, so a system is more than the sum of its parts. Form reflects function rather than varying independently of it. Organisms exchange both matter and energy with their environment."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 7 properties required for something to be considered alive."
+      },
+      "bank": [
+        "Exist as an ordered structure",
+        "Reproduce",
+        "Grow and develop",
+        "Process energy",
+        "Respond to the environment",
+        "Regulate",
+        "Evolve",
+        "Exist as an unordered collection of parts",
+        "Remain alive without reproducing",
+        "Grow in size without developing",
+        "Create the energy it uses",
+        "Respond to the environment only with a nervous system",
+        "Match internal conditions to the external environment",
+        "Evolve during an individual's lifetime"
+      ],
+      "answers": [
+        "Exist as an ordered structure",
+        "Reproduce",
+        "Grow and develop",
+        "Process energy",
+        "Respond to the environment",
+        "Regulate",
+        "Evolve"
+      ],
+      "explanation": "Life is an ordered structure, not a random collection of parts. Reproduction is required, so simply remaining alive is not a substitute. Growth and development are both required. Living things process energy; they do not create it. A response to the environment does not require a nervous system. Regulation keeps internal conditions different from a simple copy of the outside. Populations evolve over generations; an individual does not evolve during its own lifetime."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Order the hierarchy of life from smallest to largest."
+      },
+      "sentence": [
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null
+      ],
+      "blanks": [
+        "molecule",
+        "organelle",
+        "cell",
+        "tissue",
+        "organ",
+        "organ system",
+        "organism",
+        "population",
+        "community",
+        "ecosystem",
+        "biosphere"
+      ],
+      "bank": [
+        "molecule",
+        "organelle",
+        "cell",
+        "tissue",
+        "organ",
+        "organ system",
+        "organism",
+        "population",
+        "community",
+        "ecosystem",
+        "biosphere"
+      ],
+      "explanation": "The hierarchy runs from molecule to organelle, cell, tissue, organ, organ system, organism, population, community, ecosystem, and biosphere. A community is the living populations in one area. An ecosystem adds the nonliving environment. The biosphere is every ecosystem on Earth."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Order the taxonomic ranks from most inclusive to most specific."
+      },
+      "sentence": [
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null
+      ],
+      "blanks": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "class",
+        "order",
+        "family",
+        "genus",
+        "species"
+      ],
+      "bank": [
+        "domain",
+        "kingdom",
+        "phylum",
+        "class",
+        "order",
+        "family",
+        "genus",
+        "species"
+      ],
+      "explanation": "The ranks run from domain to kingdom, phylum, class, order, family, genus, and species. Domain is the broadest rank. Genus and species together make an organism's scientific name, and species is the most specific rank."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Identify the generic name and the species epithet in *Canis lupus*."
+      },
+      "sentence": [
+        "In *Canis lupus*, the generic name is ",
+        null,
+        " and the species epithet is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "*Canis*",
+        "*lupus*"
+      ],
+      "bank": [
+        "*Canis*",
+        "*lupus*",
+        "*Canis lupus*"
+      ],
+      "explanation": "*Canis* is the generic name, the genus, and it is capitalized. *lupus* is the species epithet and is not capitalized. The species name is the full binomial, *Canis lupus*, not the epithet alone."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "A researcher tests whether fertilizer increases tomato yield. One group of plants receives fertilizer. Another group is grown the same way but receives none. She records the mass of tomatoes from each group. Complete the sentence."
+      },
+      "sentence": [
+        "The independent variable is ",
+        null,
+        ", the dependent variable is ",
+        null,
+        ", and the control group is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "the presence of fertilizer",
+        "the mass of tomatoes",
+        "the plants given no fertilizer"
+      ],
+      "bank": [
+        "the presence of fertilizer",
+        "the mass of tomatoes",
+        "the plants given no fertilizer",
+        "the plants given fertilizer",
+        "the hours of sunlight"
+      ],
+      "explanation": "The independent variable is the factor she changes: whether plants receive fertilizer. The dependent variable is the outcome she measures: tomato mass. The control group is the unfertilized plants. The fertilized plants are the experimental group. Sunlight was kept the same, so it is a controlled variable."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A student proposes this hypothesis: copper in the water slows duckweed growth. Which statement is a prediction based on that hypothesis?"
+      },
+      "options": [
+        "Copper in the water slows duckweed growth.",
+        "The duckweed in copper solution gained less mass than the duckweed in plain water.",
+        "Duckweed grown in copper solution will gain less mass than duckweed grown in water without copper.",
+        "Copper toxicity is a broad explanation of why many aquatic plants decline."
+      ],
+      "answer": "Duckweed grown in copper solution will gain less mass than duckweed grown in water without copper.",
+      "explanation": "A prediction is a specific result you expect if the hypothesis is correct, stated before the outcome is known. Restating the hypothesis, offering a broader theory, or reporting a result that already happened are different kinds of claims."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence about three levels of ecological organization."
+      },
+      "sentence": [
+        "A population is ",
+        null,
+        ", a community is ",
+        null,
+        ", and an ecosystem is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "all individuals of one species in an area",
+        "all the populations of different species in an area",
+        "those populations plus the nonliving environment"
+      ],
+      "bank": [
+        "all individuals of one species in an area",
+        "all the populations of different species in an area",
+        "those populations plus the nonliving environment",
+        "every ecosystem on Earth",
+        "one organism and the organs that make it up"
+      ],
+      "explanation": "A population is one species in one place. A community is the living populations of different species there. An ecosystem is that community plus nonliving factors such as soil, water, and climate. Every ecosystem on Earth is the biosphere, and organs belong to a single organism."
+    }
+  ]
+}

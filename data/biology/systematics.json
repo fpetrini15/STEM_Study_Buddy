@@ -1,0 +1,338 @@
+{
+  "title": "Systematics",
+  "questions": [
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing systematics, a phylogeny, and a clade."
+      },
+      "sentence": [
+        "Systematics is ",
+        null,
+        ", a phylogeny is ",
+        null,
+        ", and a clade is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "the study of how organisms are classified and related by descent",
+        "the evolutionary history of a group",
+        "an ancestor and all of its descendants"
+      ],
+      "bank": [
+        "the study of how organisms are classified and related by descent",
+        "the evolutionary history of a group",
+        "an ancestor and all of its descendants",
+        "an ancestor and only some of its descendants",
+        "a Linnaean rank such as family or genus"
+      ],
+      "explanation": "Systematics classifies organisms and reconstructs their evolutionary relationships. A phylogeny is that history of descent. A clade is a group made of an ancestor and every one of its descendants. A group that leaves some descendants out is not a clade. A Linnaean rank is a level in the classification hierarchy, such as family or genus. It is not itself a phylogeny or a clade."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 4 limitations of using fossils to build phylogenies."
+      },
+      "bank": [
+        "Many lineages leave no fossils",
+        "Soft tissues and DNA are rarely preserved",
+        "A fossil may be a side branch, not a direct ancestor",
+        "Similar form can evolve in unrelated lineages",
+        "Fossils cannot be placed in geologic time",
+        "Intermediate fossils must be left off the tree"
+      ],
+      "answers": [
+        "Many lineages leave no fossils",
+        "Soft tissues and DNA are rarely preserved",
+        "A fossil may be a side branch, not a direct ancestor",
+        "Similar form can evolve in unrelated lineages"
+      ],
+      "explanation": "The fossil record is incomplete, so many branches are missing from a tree. Fossils rarely keep soft tissues or DNA, which leaves fewer characters to compare. A fossil that looks intermediate can be a side branch rather than the direct ancestor of a living group. Unrelated lineages can also evolve similar forms, so resemblance alone can be misleading. Fossils can still be placed in geologic time by the rocks around them. Intermediate fossils are useful evidence. They do not have to be excluded. They just cannot be assumed to be direct ancestors."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why are morphological and molecular homologies used more than fossils to build phylogenies of living organisms?"
+      },
+      "options": [
+        "A shared DNA sequence cannot evolve twice, so molecular similarity is automatically homology and needs no further test.",
+        "Living species can be compared using many inherited traits, including DNA sequences that fossils rarely preserve.",
+        "Fossils cannot be ordered in geologic time, so only anatomy and molecules can place branches.",
+        "Overall body shape is now treated as homology, so similar appearance by itself decides relatedness."
+      ],
+      "answer": "Living species can be compared using many inherited traits, including DNA sequences that fossils rarely preserve.",
+      "explanation": "Living organisms can be scored for shared morphological traits and for large sets of molecular characters. Fossils usually lack DNA and soft anatomy, and many lineages never fossilize, so those characters are missing. A similar DNA sequence can still arise independently, so similarity is a hypothesis of homology, not automatic proof. Fossils can be placed in geologic time by the rocks around them. Similar body shape can evolve separately, so overall appearance is not itself homology and does not by itself decide the tree."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes the status of a phylogeny?"
+      },
+      "options": [
+        "Once published, it is a historical fact that later data are not allowed to change.",
+        "It becomes certain once fossils are added, because each fossil is the direct ancestor of a living branch.",
+        "It is a working hypothesis about relationships and can be revised when new evidence fits a different tree better.",
+        "If two data sets disagree, every proposed tree is discarded and the relationships are treated as unknowable."
+      ],
+      "answer": "It is a working hypothesis about relationships and can be revised when new evidence fits a different tree better.",
+      "explanation": "A phylogeny is the branching history best supported by the characters in hand. New morphology, molecules, or fossils can favor a different order of branching, and the tree is updated. Publishing a tree does not freeze it. Adding fossils does not make it certain, and a fossil is often a side branch rather than the direct ancestor of a living group. When data sets disagree, systematists compare which tree fits the evidence better. They do not throw out every hypothesis."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Bone shape groups species A with B. New DNA sequences, covering many more characters, group A with C instead. What is the right conclusion?"
+      },
+      "options": [
+        "Keep the bone-shape tree, because the first phylogeny is the one that counts.",
+        "Treat the DNA tree as a fact, because a molecular phylogeny cannot be revised later.",
+        "Discard both trees. Disagreeing data mean the relationships cannot be hypothesized.",
+        "Treat the DNA grouping as the better-supported working hypothesis for now, and keep testing it."
+      ],
+      "answer": "Treat the DNA grouping as the better-supported working hypothesis for now, and keep testing it.",
+      "explanation": "The tree that fits more of the evidence is the better current hypothesis. It is still a hypothesis, because later characters could support a different grouping. Being first does not protect the bone-shape tree. Conflict is a reason to compare support, not to abandon every hypothesis. A molecular tree can also be revised when new evidence arrives. It is not a fact."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why are analogous traits a problem when constructing a phylogeny?"
+      },
+      "options": [
+        "They were inherited from a common ancestor, so scoring them pulls every living species onto one branch.",
+        "Counting an independently evolved similarity as shared ancestry can group lineages that did not inherit that trait from the same ancestor.",
+        "One analogous trait means those species share no homologous characters, so both must be removed from the tree.",
+        "Analogous traits cannot be observed in living species, so a tree built from living organisms has no way to detect them."
+      ],
+      "answer": "Counting an independently evolved similarity as shared ancestry can group lineages that did not inherit that trait from the same ancestor.",
+      "explanation": "An analogous trait evolved separately, often by convergent evolution. If it is treated as a homology, the tree joins lineages because of a similarity they did not inherit together. Analogy is not inheritance from a common ancestor, and scoring a true homology does not collapse every living species onto one branch. One analogous trait does not erase other homologies. Bats and birds have analogous wings, but bats still share mammal characters with other mammals. Analogous traits are visible in living species. The problem is mistaking them for shared ancestry, and other characters can reveal that mistake."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing what a systematist does with what a taxonomist does."
+      },
+      "sentence": [
+        "A systematist ",
+        null,
+        ", while a taxonomist ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "reconstructs how organisms are related by descent",
+        "names organisms and places them in ranks such as family and genus"
+      ],
+      "bank": [
+        "reconstructs how organisms are related by descent",
+        "names organisms and places them in ranks such as family and genus",
+        "decides which populations can interbreed and produce fertile offspring",
+        "tracks how allele frequencies change inside one population"
+      ],
+      "explanation": "A systematist reconstructs phylogenies, the evolutionary relationships among organisms. A taxonomist names organisms and assigns them to ranks in the classification hierarchy, such as family or genus. A rank is not itself a phylogeny. Whether populations can interbreed and produce fertile offspring defines a biological species. It does not by itself reconstruct a tree or assign a rank. A change in allele frequency is evolution within a population. It is not the work of naming ranks or recovering the history of a group."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence defining monophyletic, paraphyletic, and polyphyletic groups."
+      },
+      "sentence": [
+        "A monophyletic group includes ",
+        null,
+        ", a paraphyletic group includes ",
+        null,
+        ", and a polyphyletic group includes ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "an ancestor and all of its descendants",
+        "an ancestor and only some of its descendants",
+        "descendants from separate branches but not their most recent common ancestor"
+      ],
+      "bank": [
+        "an ancestor and all of its descendants",
+        "an ancestor and only some of its descendants",
+        "descendants from separate branches but not their most recent common ancestor",
+        "the common ancestor alone, with every descendant left out",
+        "every species with a similar function, whether or not they share that ancestor"
+      ],
+      "explanation": "Only a monophyletic group is a clade: one ancestor and every descendant. A paraphyletic group keeps the ancestor but leaves some descendants out, as when reptiles are grouped without birds. A polyphyletic group pulls in members from separate branches and leaves out their most recent common ancestor. The ancestor alone is none of these groups, because each one is defined by which descendants are included. Similar function can evolve separately and may tempt someone to build a polyphyletic group, but similar function is not itself the definition of that group."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence defining maximum parsimony and maximum likelihood."
+      },
+      "sentence": [
+        "Maximum parsimony chooses the tree that ",
+        null,
+        ", while maximum likelihood chooses the tree that ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "requires the fewest evolutionary changes",
+        "makes the observed DNA most probable under a model of sequence change"
+      ],
+      "bank": [
+        "requires the fewest evolutionary changes",
+        "makes the observed DNA most probable under a model of sequence change",
+        "requires the fewest branches, even when characters then need extra changes",
+        "becomes a fact once a probability model is applied to the DNA"
+      ],
+      "explanation": "Maximum parsimony prefers the hypothesis that fits the characters with the fewest evolutionary changes. It does not simply pick the tree with the fewest branches. A tree with fewer branches can still demand many extra changes in those characters. Maximum likelihood uses a model of how DNA changes and prefers the tree most likely to have produced the observed sequences. Applying that model does not turn the tree into a fact. Both results remain working hypotheses and can be revised when new evidence fits a different tree better."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "The same tree is drawn three times. Each proposed group is circled. Group 3 uses two circles for the species placed in that one group. Identify each group.",
+        "image": "images/biology/systematics/clade_groups.svg",
+        "imageClass": "quiz-image--plot",
+        "imageAlt": "Three copies of one rooted tree. Tips from top to bottom are A, B, C, D, and E. A joins B. D joins E, and that pair then joins C. Group 1 is one blue outline around D, E, and the node that joins them. Group 2 is one teal outline around C and D, while E's branch continues outside the outline. Group 3 is two orange outlines, one around A and one around E."
+      },
+      "sentence": [
+        "Group 1 is ",
+        null,
+        ", group 2 is ",
+        null,
+        ", and group 3 is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "monophyletic",
+        "paraphyletic",
+        "polyphyletic"
+      ],
+      "bank": [
+        "monophyletic",
+        "paraphyletic",
+        "polyphyletic",
+        "polytomous",
+        "convergent"
+      ],
+      "explanation": "Group 1 encloses D, E, and the node that joins them. One branch cut includes every descendant, so the group is monophyletic. Only that kind of group is a clade. Group 2 encloses C and D, but E branches off within that history and sits outside the outline. Leaving E out makes the group paraphyletic. Group 3 circles A and E and leaves their common ancestor, along with B, C, and D, outside. Those tips do not form one branch, so the group is polyphyletic. Polytomous describes an unresolved branch point with more than two lineages, not whether the circled species form a clade. Convergent describes a trait that evolved separately. It is not a kind of group on the tree."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Extinct dinosaurs sit on the tree between crocodiles and birds. Both living groups have a four-chambered heart, and dinosaur fossils do not preserve the heart. What does phylogenetic bracketing infer?"
+      },
+      "options": [
+        "Dinosaurs could not have had a four-chambered heart, because the trait arose only after crocodiles and birds became separate living species.",
+        "Crocodiles and birds evolved four-chambered hearts separately, so the similarity is analogous and says nothing about dinosaurs.",
+        "Nothing can be inferred, because phylogenetic bracketing applies only to traits preserved in the fossil itself.",
+        "Dinosaurs most likely had a four-chambered heart, inherited from the ancestor they share with crocodiles and birds."
+      ],
+      "answer": "Dinosaurs most likely had a four-chambered heart, inherited from the ancestor they share with crocodiles and birds.",
+      "explanation": "Phylogenetic bracketing uses the living groups on either side of an extinct branch. When both share a trait, the parsimonious inference is that their common ancestor had it, so the extinct descendants between them had it too. The trait does not have to originate only after the living species appear. Two separate origins would add evolutionary changes, and bracketing does not treat the shared trait as analogy. The method is used for soft anatomy and behavior that fossils usually do not preserve. The inference is still a working hypothesis, because the trait could later have been lost on the extinct branch."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes horizontal gene transfer?"
+      },
+      "options": [
+        "Fertile individuals or their gametes move alleles between populations of one species and make those populations more similar.",
+        "Genes move into a genome by a route other than parent-to-offspring inheritance, so a gene tree can disagree with the organism tree.",
+        "Parents pass alleles to offspring, so every gene must recover the same branching order as the organism tree.",
+        "Crossing over builds new combinations of alleles already present in one population and does not move genes across species."
+      ],
+      "answer": "Genes move into a genome by a route other than parent-to-offspring inheritance, so a gene tree can disagree with the organism tree.",
+      "explanation": "Horizontal gene transfer moves genes from one genome into another by a path other than inheritance from parent to offspring. The transferred gene did not travel with the rest of the genome, so a phylogeny of that gene can disagree with the organism tree. Fertile individuals or gametes moving alleles between populations of one species is gene flow, and those alleles still enter through reproduction. Parent-to-offspring inheritance is vertical transmission. It does not force every gene to match the organism tree once a gene has been transferred. Crossing over makes new combinations of alleles that are already present. It does not donate a gene to another species."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which event is an example of horizontal gene transfer?"
+      },
+      "options": [
+        "A plasmid moves an antibiotic-resistance gene from one bacterial species into an unrelated bacterial species.",
+        "A bacterium divides, and both daughter cells inherit a copy of its antibiotic-resistance gene.",
+        "Pollen from one population of a plant species fertilizes plants in another population of that same species.",
+        "Crossing over during meiosis swaps alleles between homologous chromosomes inside one cell."
+      ],
+      "answer": "A plasmid moves an antibiotic-resistance gene from one bacterial species into an unrelated bacterial species.",
+      "explanation": "The plasmid carries a gene into an unrelated species by a route other than parent-to-offspring inheritance. A tree built from that resistance gene can group the two bacteria together even when the rest of their genomes place them on distant branches. A dividing bacterium passing the gene to both daughter cells is vertical transmission. Pollen moving between populations of one species is gene flow through gametes. Crossing over reshuffles alleles already inside one genome. It does not donate a gene to another species."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing a shared derived character with a shared ancestral character."
+      },
+      "sentence": [
+        "A shared derived character is ",
+        null,
+        ", while a shared ancestral character is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "a trait that first evolved in the ancestor of a clade and is shared by the descendants of that ancestor",
+        "a trait inherited from an older ancestor and also found in species outside that clade"
+      ],
+      "bank": [
+        "a trait that first evolved in the ancestor of a clade and is shared by the descendants of that ancestor",
+        "a trait inherited from an older ancestor and also found in species outside that clade",
+        "a similarity that evolved independently in lineages that do not share it from one ancestor",
+        "a rank in the classification hierarchy, such as family or genus"
+      ],
+      "explanation": "A shared derived character arose in the ancestor of a clade and is inherited by the members of that clade. It is the kind of similarity that marks the clade. A shared ancestral character was already present in an older ancestor, so species outside the clade can have it too. It does not show that the clade members are more closely related to each other than to those outside species. A similarity that evolved independently is an analogous trait, and counting it as shared ancestry can join the wrong lineages. A rank such as family or genus is a level in the classification hierarchy, not a kind of character."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing an ingroup with an outgroup."
+      },
+      "sentence": [
+        "The ingroup is ",
+        null,
+        ", and the outgroup is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "the set of species whose relationships are being reconstructed",
+        "a lineage that branched off earlier and shows which character state was already present"
+      ],
+      "bank": [
+        "the set of species whose relationships are being reconstructed",
+        "a lineage that branched off earlier and shows which character state was already present",
+        "the species that evolved most recently and therefore carries the most new traits",
+        "a fossil that is assumed to be the direct ancestor of every species in the ingroup"
+      ],
+      "explanation": "The ingroup is the set of species whose branching order is under study. The outgroup diverged before that set. A character state shared with the outgroup was already present before the ingroup split, so it is treated as ancestral within the ingroup. The outgroup is not the species with the most new traits. A recent tip is not more advanced than an earlier branch. A fossil in the outgroup is often a side branch rather than the direct ancestor of every ingroup species."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement correctly reads this tree?",
+        "image": "images/biology/systematics/sister_groups.svg",
+        "imageClass": "quiz-image--plot",
+        "imageAlt": "A rooted tree. A and B join at one node. C and D join at another node. Those two nodes then join at the root. From top to bottom the tips are A, B, C, and D."
+      },
+      "options": [
+        "A is the ancestor of B, because A is drawn above B on the page.",
+        "B and C are the closest relatives, because those tips sit next to each other.",
+        "A and B share a more recent common ancestor with each other than either shares with C or D.",
+        "Swapping C and D around their node would make D more closely related to B than to C."
+      ],
+      "answer": "A and B share a more recent common ancestor with each other than either shares with C or D.",
+      "explanation": "A and B join each other before either joins C or D, so they share the more recent common ancestor. A living tip is a cousin of the tip next to it, not its ancestor. Both are descendants of the node they share. B and C are neighbors on the page, but their common ancestor is the root, which is older than the ancestor of A and B. Swapping C and D around their node changes the drawing only. D remains the sister group of C."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes a polytomy?"
+      },
+      "options": [
+        "It is an unresolved branch point. The available data do not show the order in which three or more lineages split.",
+        "It is evidence that three or more lineages split from one ancestor at the same moment.",
+        "It is a monophyletic group of three species that share one derived character.",
+        "It is an outgroup drawn with extra branches so the ingroup can be rooted."
+      ],
+      "answer": "It is an unresolved branch point. The available data do not show the order in which three or more lineages split.",
+      "explanation": "A polytomy is a branch point with more than two lineages because the analysis has not resolved their order. It is part of a working hypothesis. It does not by itself show that the splits happened at the same moment. A resolved clade of three species is drawn with two successive nodes, and those species can share a derived character without the node being a polytomy. An outgroup is a lineage that branched off before the ingroup. It is not a polytomy."
+    }
+  ]
+}
