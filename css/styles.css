@@ -771,6 +771,12 @@ FEEDBACK GUIDE
   background: var(--inactive-light);
 }
 
+.quiz-filter-chip[data-course="bio100b"]:hover {
+  border-color: #7c5cbf;
+
+  background: color-mix(in srgb, #7c5cbf 16%, var(--card-bg));
+}
+
 .quiz-filter-chip--active {
   color: #fff;
 

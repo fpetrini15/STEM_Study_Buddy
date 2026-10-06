@@ -1,0 +1,741 @@
+{
+  "title": "Plant Form",
+  "questions": [
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 main plant organs."
+      },
+      "bank": [
+        "Stems",
+        "Flowers",
+        "Roots",
+        "Fruits",
+        "Leaves"
+      ],
+      "answers": [
+        "Roots",
+        "Stems",
+        "Leaves"
+      ],
+      "explanation": "The three main plant organs are roots, stems, and leaves. Roots anchor the plant and absorb water and minerals. Stems support the leaves and move materials between roots and leaves. Leaves are the main photosynthetic organs. Flowers are reproductive structures. A fruit develops from a flower and helps disperse seeds. Neither flowers nor fruits are one of the three main organs."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence describing the general responsibilities of the below-ground and above-ground systems."
+      },
+      "sentence": [
+        "The below-ground system ",
+        null,
+        ". The above-ground system ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "absorbs water and minerals and anchors the plant",
+        "captures light and carbon dioxide for photosynthesis"
+      ],
+      "bank": [
+        "absorbs water and minerals and anchors the plant",
+        "captures light and carbon dioxide for photosynthesis",
+        "absorbs water and minerals through the leaves",
+        "captures light and carbon dioxide from the soil"
+      ],
+      "explanation": "The below-ground system is the root system. Roots anchor the plant and absorb water and minerals from the soil. The above-ground system is the shoot system, made of stems and leaves. Leaves capture light and take in carbon dioxide for photosynthesis, and stems hold the leaves up. The root system does not capture light from the soil. The shoot system does not do the root job of absorbing water and minerals from the soil through the leaves."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What defines a monocot?"
+      },
+      "options": [
+        "The embryo has two cotyledons. Leaf veins are usually netlike, vascular bundles form a ring, and floral parts are usually in multiples of four or five.",
+        "The embryo has one cotyledon. Leaf veins are usually netlike, vascular bundles form a ring, and floral parts are usually in multiples of four or five.",
+        "The embryo has one cotyledon. Leaf veins are usually parallel, vascular bundles are scattered in a complex arrangement, and floral parts are usually in multiples of three.",
+        "The embryo has three cotyledons. Leaf veins are usually parallel, vascular bundles are scattered in a complex arrangement, and floral parts are usually in multiples of two."
+      ],
+      "answer": "The embryo has one cotyledon. Leaf veins are usually parallel, vascular bundles are scattered in a complex arrangement, and floral parts are usually in multiples of three.",
+      "explanation": "A monocot has an embryo with one cotyledon, or seed leaf. Its leaf veins are usually parallel. Its vascular bundles are scattered in a complex arrangement in the stem. Its floral parts are usually in multiples of three. A fibrous root system is also common. Two cotyledons, netlike veins, vascular bundles in a ring, and floral parts in fours or fives are the eudicot pattern. One cotyledon does not come with that eudicot pattern. Floral parts in threes do not mean the embryo has three cotyledons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What defines an eudicot?"
+      },
+      "options": [
+        "The embryo has one cotyledon. Leaf veins are usually parallel, vascular bundles are scattered in a complex arrangement, and floral parts are usually in multiples of three.",
+        "The embryo has two cotyledons. Leaf veins are usually parallel, vascular bundles are scattered in a complex arrangement, and floral parts are usually in multiples of three.",
+        "The embryo has two cotyledons. Leaf veins are usually parallel, vascular bundles form a ring, and floral parts are usually in multiples of three.",
+        "The embryo has two cotyledons. Leaf veins are usually netlike, vascular bundles form a ring, and floral parts are usually in multiples of four or five."
+      ],
+      "answer": "The embryo has two cotyledons. Leaf veins are usually netlike, vascular bundles form a ring, and floral parts are usually in multiples of four or five.",
+      "explanation": "An eudicot has an embryo with two cotyledons, or seed leaves. Its leaf veins are usually netlike. Its vascular bundles form a ring in the stem. Its floral parts are usually in multiples of four or five. A taproot is also common. One cotyledon, parallel veins, vascular bundles scattered in a complex arrangement, and floral parts in threes are the monocot pattern. Two cotyledons do not come with that monocot pattern. A ring of bundles is an eudicot trait, but parallel veins and floral parts in threes are not."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a meristem?"
+      },
+      "options": [
+        "Mature vascular tissue. Its cells have stopped dividing and transport water or sugars.",
+        "A region of undifferentiated cells that keep dividing and produce new cells for growth.",
+        "A seed leaf. A monocot has one, and an eudicot has two.",
+        "The below-ground system. It absorbs water and minerals and anchors the plant."
+      ],
+      "answer": "A region of undifferentiated cells that keep dividing and produce new cells for growth.",
+      "explanation": "A meristem is a region of undifferentiated cells. Those cells keep dividing and supply new cells that can elongate and become specialized tissues, so the plant can keep growing. Meristems at the tips of roots and shoots add length to those organs. Mature vascular tissue can transport water or sugars, but those cells are no longer the dividing population. A cotyledon is a seed leaf. The below-ground system is the root system. It absorbs water and minerals and anchors the plant. It is an organ system, not the dividing tissue itself."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What do xylem and phloem have in common?"
+      },
+      "options": [
+        "Both are meristems. Their cells stay undifferentiated and keep dividing.",
+        "Both are vascular tissues that transport materials through roots, stems, and leaves.",
+        "Both carry water and minerals from the leaves down to the roots, and their conducting cells are alive.",
+        "Both carry sugars from the roots up to the leaves, and their conducting cells are dead."
+      ],
+      "answer": "Both are vascular tissues that transport materials through roots, stems, and leaves.",
+      "explanation": "Xylem and phloem are the two vascular tissues. Both move materials through the roots, stems, and leaves. They do not do the same job. Xylem carries water and dissolved minerals, and its conducting cells are dead at maturity. Phloem carries sugars, and its conducting cells are alive at maturity. Neither tissue is a meristem. A meristem is a region of undifferentiated cells that keep dividing."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes xylem from phloem?"
+      },
+      "options": [
+        "It carries sugars from sources to sinks, and its conducting cells are alive at maturity.",
+        "It is a region of undifferentiated cells that keep dividing at the root tip.",
+        "It carries water and dissolved minerals from the roots toward the shoots, and its conducting cells are dead at maturity.",
+        "It absorbs water and minerals from the soil and anchors the plant."
+      ],
+      "answer": "It carries water and dissolved minerals from the roots toward the shoots, and its conducting cells are dead at maturity.",
+      "explanation": "Xylem carries water and dissolved minerals from the roots toward the shoots. The cells that conduct that water are dead at maturity, so the water moves through their empty interiors. Phloem carries sugars, and its conducting cells are alive at maturity. A meristem at the root tip produces new cells. It does not itself conduct the water stream. Absorbing water and anchoring the plant are jobs of the root system. Xylem is the tissue that moves the absorbed water through the plant."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes phloem from xylem?"
+      },
+      "options": [
+        "It carries water and dissolved minerals from the roots toward the shoots, and its conducting cells are dead at maturity.",
+        "It anchors the plant and is the below-ground organ system.",
+        "Its cells stay undifferentiated and add new length at the shoot tip.",
+        "It carries sugars from sources, such as leaves, to sinks, such as growing roots, and its conducting cells are alive at maturity."
+      ],
+      "answer": "It carries sugars from sources, such as leaves, to sinks, such as growing roots, and its conducting cells are alive at maturity.",
+      "explanation": "Phloem carries sugars from a source, where sugar is available, to a sink, where sugar is used or stored. A leaf can be a source, and a growing root can be a sink, so the flow is not always upward. The conducting cells are alive at maturity. Xylem carries water and dissolved minerals from the roots toward the shoots, and its conducting cells are dead at maturity. The below-ground organ system is the root system. A meristem at the shoot tip adds new cells. It is not the sugar-conducting tissue."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 types of plant tissue."
+      },
+      "bank": [
+        "Dermal",
+        "Meristem",
+        "Vascular",
+        "Xylem",
+        "Ground"
+      ],
+      "answers": [
+        "Dermal",
+        "Vascular",
+        "Ground"
+      ],
+      "explanation": "The three tissue systems are dermal, vascular, and ground. Dermal tissue forms the outer covering and protects the plant. Vascular tissue transports materials. Xylem moves water and minerals, and phloem moves sugars. Ground tissue makes up most of the plant and functions in photosynthesis, storage, and support. A meristem is a region of undifferentiated cells that keep dividing and produce these tissues. It is not one of the three tissue systems. Xylem is one part of the vascular system, not a system separate from phloem."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the responsibility of dermal tissue?"
+      },
+      "options": [
+        "It carries sugars from leaves to growing roots, and its conducting cells are alive.",
+        "It forms the outer covering and protects the plant.",
+        "It makes up most of the plant and functions in photosynthesis, storage, and support.",
+        "It stays undifferentiated and keeps dividing at the root and shoot tips."
+      ],
+      "answer": "It forms the outer covering and protects the plant.",
+      "explanation": "Dermal tissue is the outer covering. It protects the plant. In roots, epidermal cells can form root hairs that absorb water and minerals. In shoots, guard cells in the epidermis border the pores used for gas exchange. Transport of sugars is the job of phloem, which is vascular tissue. Photosynthesis, storage, and support are jobs of ground tissue. A meristem is the dividing region that produces new cells. It is not the protective covering."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the responsibility of vascular tissue?"
+      },
+      "options": [
+        "It forms the outer covering and protects the plant.",
+        "It stays undifferentiated and keeps dividing at the root and shoot tips.",
+        "It transports water and minerals in xylem and sugars in phloem.",
+        "It makes up most of the plant and functions in photosynthesis, storage, and support."
+      ],
+      "answer": "It transports water and minerals in xylem and sugars in phloem.",
+      "explanation": "Vascular tissue moves materials through roots, stems, and leaves. Xylem carries water and dissolved minerals from the roots toward the shoots, and its conducting cells are dead at maturity. Phloem carries sugars from sources to sinks, and its conducting cells are alive at maturity. The outer covering is dermal tissue. Most of the plant body, including the cells that photosynthesize and store materials, is ground tissue. A meristem produces new cells. It is not the transport tissue."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the responsibility of ground tissue?"
+      },
+      "options": [
+        "It makes up most of the plant and functions in photosynthesis, storage, and support.",
+        "It forms the outer covering and protects the plant.",
+        "It transports water and minerals in xylem and sugars in phloem.",
+        "It stays undifferentiated and keeps dividing at the root and shoot tips."
+      ],
+      "answer": "It makes up most of the plant and functions in photosynthesis, storage, and support.",
+      "explanation": "Ground tissue is everything that is not dermal or vascular. It makes up most of the plant. Its cells photosynthesize, store materials, and support the plant. The outer covering is dermal tissue. Long-distance transport is vascular tissue: xylem for water and minerals, phloem for sugars. A meristem keeps dividing and supplies new cells. Those new cells can become ground tissue, but the meristem itself is not the mature ground tissue."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement describes the plant cuticle?"
+      },
+      "options": [
+        "Ground tissue secretes it to store sugars. Vascular tissue does not secrete it.",
+        "The epidermis of leaves and stems secretes it to reduce water loss. The epidermis of roots does not secrete it.",
+        "The epidermis of roots secretes it to absorb water. The epidermis of leaves does not secrete it.",
+        "Xylem secretes it so water can move through dead cells. Phloem does not secrete it."
+      ],
+      "answer": "The epidermis of leaves and stems secretes it to reduce water loss. The epidermis of roots does not secrete it.",
+      "explanation": "The waxy cuticle is secreted by the epidermis of leaves and stems, which is dermal tissue of the shoot. It reduces water loss from the above-ground body. Pores bordered by guard cells still allow gas exchange through that covering. The epidermis of roots does not secrete a cuticle. A waxy coat there would block absorption of water and minerals. Ground tissue does not secrete the cuticle. Its jobs are photosynthesis, storage, and support. Xylem carries water through dead conducting cells. It does not secrete the cuticle."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are guard cells, and what is their role?"
+      },
+      "options": [
+        "They are dead conducting cells in xylem. They carry water from the roots toward the shoots.",
+        "They are root epidermal cells. They absorb water and minerals from the soil.",
+        "They are a pair of epidermal cells that border a pore in the shoot. They open and close that pore for gas exchange and to limit water loss.",
+        "They are undifferentiated cells at the shoot tip. They keep dividing and produce new leaves."
+      ],
+      "answer": "They are a pair of epidermal cells that border a pore in the shoot. They open and close that pore for gas exchange and to limit water loss.",
+      "explanation": "Guard cells are specialized cells of the shoot epidermis. Two of them border each stoma, a pore in the surface of a leaf or stem. When the guard cells take up water and swell, the pore opens. Carbon dioxide can enter for photosynthesis, and water vapor can leave. When the guard cells lose water, the pore closes and water loss slows. Root epidermal cells absorb water and minerals. They do not border these pores, and roots do not have this cuticle-covered surface. Xylem conducting cells are dead at maturity and carry water inside the plant. A meristem at the shoot tip produces new cells. It does not open and close a pore."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the periderm, and what is its role?"
+      },
+      "options": [
+        "It is a waxy layer secreted by the epidermis of leaves and young stems. It reduces water loss from those surfaces.",
+        "It is a pair of epidermal cells that border a pore. It opens and closes that pore for gas exchange.",
+        "It is dead conducting tissue inside the stem. It carries water from the roots toward the shoots.",
+        "It is the protective tissue that replaces the epidermis in woody stems and roots. It protects those organs and reduces water loss."
+      ],
+      "answer": "It is the protective tissue that replaces the epidermis in woody stems and roots. It protects those organs and reduces water loss.",
+      "explanation": "Periderm is dermal tissue that replaces the epidermis as a woody stem or root grows thicker. Its cork cells are dead at maturity, and their walls contain suberin, which makes the coat resistant to water loss, physical damage, and pathogens. Small openings in that coat still allow gas exchange. The waxy cuticle is secreted by the epidermis of leaves and young stems. It does not replace the epidermis, and the epidermis of young roots does not secrete it. Guard cells border a pore in the shoot epidermis. They open and close that pore. They are not the replacement covering of a woody organ. Xylem carries water inside the plant through dead conducting cells. It is vascular tissue, not the outer coat."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the cork cambium?"
+      },
+      "options": [
+        "It is the protective coat that replaces the epidermis of a woody stem or root.",
+        "It is a meristem that produces cork cells. Those cells form the protective coat of a woody stem or root.",
+        "It is the meristem at a root or shoot tip. It produces the new cells that add length.",
+        "It is a pair of cells in the shoot epidermis. It opens and closes a pore for gas exchange."
+      ],
+      "answer": "It is a meristem that produces cork cells. Those cells form the protective coat of a woody stem or root.",
+      "explanation": "The cork cambium is a meristem in a woody stem or root. Its cells keep dividing and produce cork cells. Those cork cells die at maturity, and their walls contain suberin. Together with the cork cambium, they make up the periderm, the protective coat that replaces the epidermis. The cork cambium itself stays alive and continues to divide. It is not the finished coat. A meristem at a root or shoot tip adds length. It does not produce cork. Guard cells open and close a pore in the shoot epidermis. They do not produce the periderm."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are lenticels?"
+      },
+      "options": [
+        "They are a pair of epidermal cells that border a pore in a leaf or young stem. They open and close that pore.",
+        "They are the meristem that produces cork cells in a woody stem or root.",
+        "They are openings in the periderm of a woody stem or root. They let gases pass through that coat.",
+        "They are dead conducting cells that carry water from the roots toward the shoots."
+      ],
+      "answer": "They are openings in the periderm of a woody stem or root. They let gases pass through that coat.",
+      "explanation": "Lenticels are small openings in the periderm, where the cork cells are loosely packed. The rest of the cork contains suberin and resists water loss, so these openings let oxygen and carbon dioxide pass between the air and the living cells inside a woody stem or root. Guard cells are not what open and close a lenticel. Guard cells border a pore in the epidermis of a leaf or young stem. The cork cambium is the meristem that produces cork cells. It is not an opening in that cork. Xylem carries water and minerals inside the plant. It does not let gases through the periderm."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence matching each cell of xylem to its function."
+      },
+      "sentence": [
+        "Tracheids are ",
+        null,
+        ". Vessel elements are ",
+        null,
+        ". Parenchyma in xylem are ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "long, thin cells with tapered ends that conduct water and are dead at maturity",
+        "wider cells lined up end to end that conduct water and are dead at maturity",
+        "living cells that store materials and do not conduct water"
+      ],
+      "bank": [
+        "living cells that carry sugars from sources to sinks",
+        "long, thin cells with tapered ends that conduct water and are dead at maturity",
+        "living cells that assist the sugar-conducting cells",
+        "wider cells lined up end to end that conduct water and are dead at maturity",
+        "living cells that store materials and do not conduct water"
+      ],
+      "explanation": "Tracheids are the long, thin water-conducting cells of xylem. Their ends are tapered, and they are dead at maturity, so water and dissolved minerals move through their empty interiors. Vessel elements also conduct water and are dead at maturity, but they are wider and line up end to end. Parenchyma cells in xylem stay alive and store materials. They do not conduct water. Cells that carry sugars, and the living cells that assist them, belong to phloem."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence matching each part of phloem to its function."
+      },
+      "sentence": [
+        "Sieve-tube elements are ",
+        null,
+        ". Sieve plates are ",
+        null,
+        ". Companion cells are ",
+        null,
+        ". Parenchyma in phloem are ",
+        null,
+        ". Sclerenchyma cells are ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "living cells that conduct sugars and lack a nucleus at maturity",
+        "porous end walls that let sugar sap flow from one conducting cell to the next",
+        "living cells with a nucleus that assist the sugar-conducting cells",
+        "living cells that store materials and do not conduct sugars",
+        "thick-walled cells that support the tissue and are dead at maturity"
+      ],
+      "bank": [
+        "long, thin cells with tapered ends that conduct water and are dead at maturity",
+        "living cells that conduct sugars and lack a nucleus at maturity",
+        "living cells that store materials and do not conduct sugars",
+        "wider cells lined up end to end that conduct water and are dead at maturity",
+        "porous end walls that let sugar sap flow from one conducting cell to the next",
+        "thick-walled cells that support the tissue and are dead at maturity",
+        "living cells with a nucleus that assist the sugar-conducting cells"
+      ],
+      "explanation": "A phloem tube is a sieve tube. Sieve-tube elements are the sugar-conducting cells. They are alive at maturity, but they lack a nucleus, and sugars move through them from sources to sinks. Sieve plates are the porous end walls between those cells. Sugar sap flows through the pores from one sieve-tube element to the next. A companion cell stays alive and keeps its nucleus. It assists the sieve-tube element beside it. Parenchyma cells in phloem stay alive and store materials. They do not conduct sugars. Sclerenchyma cells have thick walls and support the tissue. They are dead at maturity, and they do not conduct water or sugars. Tracheids and vessel elements conduct water in xylem, and they are dead at maturity. They do not carry sugars or support phloem."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are apical meristems?"
+      },
+      "options": [
+        "They are meristems that produce cork cells in a woody stem or root. Those cells form the protective coat.",
+        "They are dead conducting cells. They carry water from the roots toward the shoots.",
+        "They are thick-walled cells in phloem. They support the tissue and are dead at maturity.",
+        "They are meristems at the tips of roots and shoots. Their cells keep dividing and add length to those organs."
+      ],
+      "answer": "They are meristems at the tips of roots and shoots. Their cells keep dividing and add length to those organs.",
+      "explanation": "Apical meristems are the meristems at the tips of roots and shoots. Their cells stay undifferentiated and keep dividing, and the new cells add length to those organs. The cork cambium is also a meristem, but it produces cork cells for the periderm of a woody stem or root. It does not sit at the tip and add length. Xylem conducting cells are dead at maturity and carry water. They are not a dividing region. Sclerenchyma cells in phloem have thick walls and support that tissue. They are dead at maturity, and they do not add length at a root or shoot tip."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the difference between primary and secondary meristems?"
+      },
+      "options": [
+        "Primary meristems are in woody stems and roots and add thickness. Secondary meristems are at the tips of roots and shoots and add length.",
+        "Primary meristems add length, at the tips and between mature tissues. Secondary meristems are in woody stems and roots and add thickness.",
+        "Primary meristems are at the tips of roots and shoots and add thickness. Secondary meristems are in woody stems and roots and add length.",
+        "Primary meristems conduct sugars and lack a nucleus. Secondary meristems are thick-walled support cells that are dead at maturity."
+      ],
+      "answer": "Primary meristems add length, at the tips and between mature tissues. Secondary meristems are in woody stems and roots and add thickness.",
+      "explanation": "Primary meristems add length. Apical meristems, at the tips of roots and shoots, are primary meristems. In monocots, intercalary discs are also primary meristems. They lie between mature tissues, and their dividing cells add length there. Monocots like grasses do not have a secondary meristem system. Secondary meristems develop in woody stems and roots and add thickness. The cork cambium is a secondary meristem. It produces cork cells for the periderm. The vascular cambium is a secondary meristem. It adds xylem and phloem, which thickens the stem or root. A primary meristem does not build that cork coat, and a secondary meristem does not add length. Sieve-tube elements conduct sugars and lack a nucleus. Sclerenchyma cells support phloem and are dead at maturity. Neither one is a meristem."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Monocots have secondary meristems."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Monocots like grasses do not have a secondary meristem system. They add length with apical meristems at the tips and with intercalary discs between mature tissues. They do not add woody thickness. A secondary meristem adds thickness in a woody stem or root. The cork cambium produces the periderm. The vascular cambium adds xylem and phloem."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is an intercalary disc?"
+      },
+      "options": [
+        "It is a secondary meristem in a woody stem or root. It adds thickness.",
+        "It is a meristem at the tip of a root or shoot. It adds length there.",
+        "It is a disc of dividing cells in a monocot, such as a grass. It lies between mature tissues and adds length.",
+        "It is a pair of epidermal cells that open and close a pore for gas exchange."
+      ],
+      "answer": "It is a disc of dividing cells in a monocot, such as a grass. It lies between mature tissues and adds length.",
+      "explanation": "An intercalary disc is a primary meristem of monocots like grasses. It lies between mature tissues, often at the base of a leaf or an internode. Its cells keep dividing and add length, so a grass can keep growing after the tip is cut. Monocots like grasses do not have a secondary meristem system, so this disc does not add woody thickness. A secondary meristem, such as the cork cambium or the vascular cambium, adds thickness in a woody stem or root. An apical meristem is at the tip. Guard cells open and close a pore in the shoot epidermis. They are not a meristem."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 primary meristems that an apical meristem can divide into."
+      },
+      "bank": [
+        "Cork cambium",
+        "Protoderm",
+        "Intercalary disc",
+        "Ground meristem",
+        "Vascular cambium",
+        "Procambium"
+      ],
+      "answers": [
+        "Protoderm",
+        "Ground meristem",
+        "Procambium"
+      ],
+      "explanation": "The apical meristem at a root or shoot tip divides into three primary meristems. Protoderm produces the epidermis, the dermal covering. Ground meristem produces ground tissue, which functions in photosynthesis, storage, and support. Procambium produces primary xylem and primary phloem, the vascular tissue. These three add to the length of the organ. Cork cambium and vascular cambium are secondary meristems. They add thickness in a woody stem or root. The apical meristem does not divide into them, and monocots like grasses do not have that secondary meristem system. An intercalary disc is a primary meristem in a monocot, but it lies between mature tissues. It is not one of the three meristems produced by the apical meristem."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence about what the 3 primary meristems eventually form."
+      },
+      "sentence": [
+        "Protoderm eventually forms ",
+        null,
+        ". Ground meristem eventually forms ",
+        null,
+        ". Procambium eventually forms ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "dermal tissue, including the epidermis",
+        "ground tissue",
+        "vascular tissue, including primary xylem and primary phloem"
+      ],
+      "bank": [
+        "the periderm of a woody stem or root",
+        "dermal tissue, including the epidermis",
+        "an intercalary disc between mature tissues",
+        "vascular tissue, including primary xylem and primary phloem",
+        "ground tissue"
+      ],
+      "explanation": "Protoderm becomes the epidermis, the dermal covering of the plant. Ground meristem becomes ground tissue, which functions in photosynthesis, storage, and support. Procambium becomes primary xylem and primary phloem, the vascular tissue. The periderm is the protective coat that replaces the epidermis in a woody stem or root. The cork cambium, a secondary meristem, produces it. An intercalary disc is a primary meristem in a monocot. It lies between mature tissues and adds length. These primary meristems do not become that disc or the periderm."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Roots are always found below ground."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Some roots exist above ground. A root usually absorbs water and minerals and helps anchor the plant, but it is not always a below-ground organ. The below-ground system is still called the root system. Stems are part of the shoot system, with the leaves. They support the leaves and move materials between roots and leaves."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are the responsibilities of stems?"
+      },
+      "options": [
+        "They absorb water and minerals from the soil and anchor the plant.",
+        "They capture light and carbon dioxide and are the main photosynthetic organs.",
+        "They support the leaves and move materials between roots and leaves.",
+        "They produce cork cells and replace the epidermis of a woody organ."
+      ],
+      "answer": "They support the leaves and move materials between roots and leaves.",
+      "explanation": "Stems support the leaves and move materials between roots and leaves. They are part of the shoot system, with the leaves. Roots absorb water and minerals and anchor the plant. Some roots exist above ground, but absorption and anchorage are still root jobs, not stem jobs. Leaves are the main photosynthetic organs. They capture light and carbon dioxide. The cork cambium produces cork cells for the periderm of a woody organ. That is a meristem, not the job of the stem as an organ."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence defining each type of stem and the function that form optimizes."
+      },
+      "sentence": [
+        "A rhizome is ",
+        null,
+        ". A tuber is ",
+        null,
+        ". A stolon is ",
+        null,
+        ". A corm is ",
+        null,
+        ". A bulb is ",
+        null,
+        ". A thorn is ",
+        null,
+        ". A storage stem is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "a horizontal underground stem that stores food and sends up new shoots",
+        "a swollen tip of an underground stem that stores food for new shoots",
+        "a horizontal stem along the soil surface that forms new plantlets at its nodes",
+        "a short upright underground stem that stores food in the stem itself",
+        "a short stem wrapped in thick leaves that store the food",
+        "a sharp stem from a bud that protects the plant from animals",
+        "a stem that holds food or water so the plant can grow when conditions are poor"
+      ],
+      "bank": [
+        "a sharp stem from a bud that protects the plant from animals",
+        "a horizontal underground stem that stores food and sends up new shoots",
+        "a short stem wrapped in thick leaves that store the food",
+        "a swollen tip of an underground stem that stores food for new shoots",
+        "a stem that holds food or water so the plant can grow when conditions are poor",
+        "a short upright underground stem that stores food in the stem itself",
+        "a horizontal stem along the soil surface that forms new plantlets at its nodes"
+      ],
+      "explanation": "These are stems modified for an extra job. A stem still supports leaves and moves materials, but the form optimizes storage, spreading, or protection. A rhizome is a horizontal underground stem. It stores food and sends up new shoots, so the plant can spread and survive below ground. Nodes and buds show that it is a stem. A tuber is the swollen tip of an underground stem. Food stored there supplies new shoots from its buds. A stolon is a horizontal stem along the soil surface. New plantlets form at its nodes, so the plant spreads above the soil. A corm is a short upright underground stem, and the food is stored in the stem itself. A bulb is a short stem wrapped in thick fleshy leaves. Those leaves store the food, and the stem holds the leaves and the bud. A thorn is a sharp stem that develops from a bud. It protects the plant from animals. A storage stem holds food or water so the plant can grow when conditions are poor. Rhizomes, tubers, corms, and bulbs are storage stems."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary responsibility of roots?"
+      },
+      "options": [
+        "They support the leaves and move materials between roots and leaves.",
+        "They absorb water and minerals and anchor the plant.",
+        "They capture light and carbon dioxide and are the main photosynthetic organs.",
+        "They hold food or water so the plant can grow when conditions are poor."
+      ],
+      "answer": "They absorb water and minerals and anchor the plant.",
+      "explanation": "The primary responsibility of roots is to absorb water and minerals and to anchor the plant. Some roots exist above ground, but absorption and anchorage are still the root jobs. Stems support the leaves and move materials between roots and leaves. Leaves capture light and carbon dioxide. They are the main photosynthetic organs. A storage stem holds food or water so the plant can grow when conditions are poor. That is a modified stem, not the primary job of a root."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence labeling the zones of a root from the tip, toward the earth, up toward the sky."
+      },
+      "sentence": [
+        "From the tip toward the sky, the zones are the ",
+        null,
+        ", then the ",
+        null,
+        ", then the ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "root cap",
+        "zone of elongation",
+        "zone of differentiation"
+      ],
+      "bank": [
+        "zone of differentiation",
+        "root cap",
+        "zone of elongation"
+      ],
+      "explanation": "The root cap is at the tip. It protects the apical meristem as the root pushes through the soil. Above the cap, the zone of elongation, the ZOE, is where cells lengthen and push the tip farther into the soil. Farther up, the zone of differentiation is where cells mature into dermal, ground, and vascular tissues. Root hairs form there and absorb water and minerals."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the purpose of epidermal root hairs?"
+      },
+      "options": [
+        "They protect the apical meristem as the root pushes through the soil.",
+        "They lengthen and push the root tip farther into the soil.",
+        "They increase the surface area for absorption of water and minerals.",
+        "They open and close a pore for gas exchange in the shoot epidermis."
+      ],
+      "answer": "They increase the surface area for absorption of water and minerals.",
+      "explanation": "Epidermal root hairs are extensions of root epidermal cells. They form in the zone of differentiation. Their purpose is to increase the surface area that absorbs water and minerals. The root epidermis does not secrete a cuticle, which would block that absorption. The root cap protects the apical meristem at the tip. In the zone of elongation, cells lengthen and push the tip through the soil. Guard cells border a pore in the shoot epidermis. They are not root hairs."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How can a root be told apart from a branch?"
+      },
+      "options": [
+        "A root grows from the epidermis at the surface. A branch grows from the endodermis inside the organ.",
+        "A root is always below ground. A branch is always above ground.",
+        "A root grows from the endodermis inside the organ. A branch grows from a bud in the epidermis.",
+        "A root hair absorbs water and minerals. A branch opens and closes a pore for gas exchange."
+      ],
+      "answer": "A root grows from the endodermis inside the organ. A branch grows from a bud in the epidermis.",
+      "explanation": "A root can be told apart from a branch by where it starts. A root that branches from a root grows from the endodermis, a tissue inside that root, and then pushes out through the outer layers. A branch grows from a bud at the surface, in the epidermis. Prop roots and aerial roots can grow from a stem above the ground. They are still roots. They are not branches from a surface bud. Some roots exist above ground, so being above or below the soil does not separate a root from a branch. Root hairs increase the surface area for absorbing water and minerals. Guard cells open and close a pore in the shoot epidermis. Neither one is the difference between a root and a branch."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the role of the Casparian strip?"
+      },
+      "options": [
+        "It is the waxy layer on the epidermis of leaves and stems. It reduces water loss.",
+        "It is an extension of a root epidermal cell. It increases the surface area for absorbing water and minerals.",
+        "It is a waxy band in endodermal cell walls. It forces water and minerals to cross an endodermal membrane before they enter the xylem.",
+        "It protects the apical meristem as the root pushes through the soil."
+      ],
+      "answer": "It is a waxy band in endodermal cell walls. It forces water and minerals to cross an endodermal membrane before they enter the xylem.",
+      "explanation": "The Casparian strip is a waxy band of suberin in the walls of endodermal cells. Water and minerals can soak through cell walls in the outer root, but this band blocks that path. To reach the xylem, they must cross the membrane of an endodermal cell. The endodermis can then control which minerals enter the vascular tissue. The cuticle is a waxy layer secreted by the epidermis of leaves and stems. It reduces water loss, and the root epidermis does not secrete it. Root hairs increase the surface area for absorption. They are not a barrier inside the root. The root cap protects the apical meristem at the tip."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence defining each type of root and the function that form optimizes."
+      },
+      "sentence": [
+        "A storage root is ",
+        null,
+        ". A prop root is ",
+        null,
+        ". An aerial root is ",
+        null,
+        ". A buttress root is ",
+        null,
+        ". A contractile root is ",
+        null,
+        ". A pneumatophore is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "an enlarged root that stores food or water for later growth",
+        "a root that grows from the stem above the soil and props up the shoot",
+        "a root that grows in the air and absorbs water from that air",
+        "a wide root at the base of a trunk that braces a tall shoot in shallow soil",
+        "a root that shortens and pulls the plant deeper into the soil",
+        "a root that grows upward out of waterlogged soil and takes in oxygen"
+      ],
+      "bank": [
+        "a root that shortens and pulls the plant deeper into the soil",
+        "an enlarged root that stores food or water for later growth",
+        "a root that grows upward out of waterlogged soil and takes in oxygen",
+        "a root that grows in the air and absorbs water from that air",
+        "a wide root at the base of a trunk that braces a tall shoot in shallow soil",
+        "a root that grows from the stem above the soil and props up the shoot"
+      ],
+      "explanation": "These are roots modified for an extra job. A root still absorbs water and minerals and anchors the plant, but the form optimizes storage, support, or gas exchange. A storage root is enlarged and holds food or water for later growth. A storage stem does that job in a stem, not in a root. A prop root grows from the stem above the soil and props up the shoot. An aerial root grows in the air and absorbs water from that air. A buttress root is a wide root at the base of a trunk. It braces a tall shoot where the soil is shallow. A contractile root shortens and pulls the plant deeper into the soil, which can set a bulb or corm at a better depth. A pneumatophore grows upward out of waterlogged soil and takes in oxygen, because that soil holds little air. Prop roots, aerial roots, buttress roots, and pneumatophores are roots that exist above ground. They are not stem branches."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the primary responsibility of leaves?"
+      },
+      "options": [
+        "They support the leaves and move materials between roots and leaves.",
+        "They absorb water and minerals and anchor the plant.",
+        "They hold food or water so the plant can grow when conditions are poor.",
+        "They capture light and carbon dioxide and are the main photosynthetic organs."
+      ],
+      "answer": "They capture light and carbon dioxide and are the main photosynthetic organs.",
+      "explanation": "Leaves are the main photosynthetic organs. They capture light and carbon dioxide and build sugars. They are part of the shoot system, with the stems. Stems support the leaves and move materials between roots and leaves. Roots absorb water and minerals and anchor the plant. The thick leaves of a bulb store food. That storage is an extra job of those leaves. It is not the primary responsibility of a leaf."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the difference between a leaf blade and a petiole?"
+      },
+      "options": [
+        "The blade attaches the leaf to the stem. The petiole is the broad surface that captures light and carbon dioxide.",
+        "The blade absorbs water and minerals. The petiole anchors the plant.",
+        "The blade is the broad surface that captures light and carbon dioxide. The petiole is the stalk that attaches the blade to the stem.",
+        "The blade stores food for the next season. The petiole is a sharp stem that protects the plant."
+      ],
+      "answer": "The blade is the broad surface that captures light and carbon dioxide. The petiole is the stalk that attaches the blade to the stem.",
+      "explanation": "The blade is the broad, flattened part of a leaf. It captures light and carbon dioxide, so it is the main photosynthetic surface. The petiole is the stalk that attaches the blade to the stem and holds the blade out into the light. Materials move through the petiole between the stem and the blade. The stem supports the whole leaf and moves materials between roots and leaves. Roots absorb water and minerals and anchor the plant. The thick leaves of a bulb store food. A thorn is a sharp stem. Neither one is the petiole."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the difference between a simple leaf and a compound leaf?"
+      },
+      "options": [
+        "A simple leaf has a blade divided into leaflets. A compound leaf has a single undivided blade.",
+        "A simple leaf has a single undivided blade. A compound leaf has a blade divided into leaflets.",
+        "A simple leaf is the stalk that attaches the blade to the stem. A compound leaf is the broad photosynthetic surface.",
+        "A simple leaf has parallel veins. A compound leaf has netlike veins."
+      ],
+      "answer": "A simple leaf has a single undivided blade. A compound leaf has a blade divided into leaflets.",
+      "explanation": "A simple leaf has one undivided blade. A compound leaf has a blade divided into separate leaflets. The petiole attaches the whole leaf to the stem. An axillary bud sits where that petiole meets the stem. A leaflet does not have its own axillary bud, which is how a leaflet is told apart from a simple leaf. The stalk of a leaf is the petiole, and the broad photosynthetic surface is the blade. Parallel veins are the usual monocot pattern, and netlike veins are the usual eudicot pattern. That vein pattern does not decide whether a leaf is simple or compound."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the difference between a palmately compound leaf and a pinnately compound leaf?"
+      },
+      "options": [
+        "In a palmately compound leaf, the leaflets attach along a central axis. In a pinnately compound leaf, the leaflets attach at one point at the end of the petiole.",
+        "A palmately compound leaf has one undivided blade. A pinnately compound leaf has a blade divided into leaflets.",
+        "In a palmately compound leaf, the leaflets attach at one point at the end of the petiole. In a pinnately compound leaf, the leaflets attach along a central axis.",
+        "A palmately compound leaf has parallel veins. A pinnately compound leaf has netlike veins."
+      ],
+      "answer": "In a palmately compound leaf, the leaflets attach at one point at the end of the petiole. In a pinnately compound leaf, the leaflets attach along a central axis.",
+      "explanation": "Both are compound leaves, so the blade is divided into leaflets. In a palmately compound leaf, those leaflets meet at one point at the end of the petiole. In a pinnately compound leaf, the leaflets attach along a rachis, a central axis that continues the petiole. A simple leaf has one undivided blade. It is neither of these. An axillary bud sits at the base of the whole leaf, not at each leaflet. Parallel veins are the usual monocot pattern, and netlike veins are the usual eudicot pattern. That vein pattern does not decide palmate versus pinnate."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the upper mesophyll, and what is its responsibility?"
+      },
+      "options": [
+        "It is the loosely packed tissue near the lower surface of the blade. Its air spaces let gases move among the cells.",
+        "It is the tightly packed tissue just under the upper epidermis of the blade. It carries out most of the leaf's photosynthesis.",
+        "It is the stalk that attaches the blade to the stem. It holds the blade out into the light.",
+        "It is the waxy layer on the epidermis of the blade. It reduces water loss."
+      ],
+      "answer": "It is the tightly packed tissue just under the upper epidermis of the blade. It carries out most of the leaf's photosynthesis.",
+      "explanation": "The upper mesophyll is ground tissue in the leaf blade, just under the upper epidermis. Its cells are elongated and tightly packed, and they contain many chloroplasts. This layer receives the most light, so it carries out most of the leaf's photosynthesis. The spongy mesophyll, near the lower surface, is more loosely packed. Air spaces there let carbon dioxide and oxygen move among the cells and the pores in the epidermis. The petiole is the stalk that attaches the blade to the stem. The cuticle is the waxy covering that reduces water loss. It is not the photosynthetic tissue."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the spongy mesophyll, and what is its responsibility?"
+      },
+      "options": [
+        "It is the tightly packed tissue just under the upper epidermis of the blade. It carries out most of the leaf's photosynthesis.",
+        "It is a pair of epidermal cells that border a pore. It opens and closes that pore for gas exchange.",
+        "It is the loosely packed tissue near the lower surface of the blade. Its air spaces let gases move among the cells.",
+        "It carries water through dead cells from the roots toward the blade."
+      ],
+      "answer": "It is the loosely packed tissue near the lower surface of the blade. Its air spaces let gases move among the cells.",
+      "explanation": "The spongy mesophyll is ground tissue in the leaf blade, near the lower epidermis. Its cells are loosely packed, with air spaces between them. Those spaces let carbon dioxide and oxygen move between the pores and the photosynthetic cells. The upper mesophyll is tightly packed just under the upper epidermis. It receives the most light and carries out most of the leaf's photosynthesis. Guard cells border a pore in the epidermis and open and close that pore. They are not the spongy tissue inside the blade. Xylem carries water through dead conducting cells. It is not the air-filled ground tissue."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are leaf trichomes?"
+      },
+      "options": [
+        "They are extensions of root epidermal cells. They increase the surface area for absorbing water and minerals.",
+        "They are a pair of epidermal cells that border a pore. They open and close that pore for gas exchange.",
+        "They are sharp stems that develop from a bud. They protect the plant from animals.",
+        "They are hairlike outgrowths of the leaf epidermis. They can reduce water loss and discourage animals from eating the leaf."
+      ],
+      "answer": "They are hairlike outgrowths of the leaf epidermis. They can reduce water loss and discourage animals from eating the leaf.",
+      "explanation": "Leaf trichomes are hairlike outgrowths of the leaf epidermis. They can reflect excess light and slow air movement over the blade, which reduces water loss. Some also make the leaf harder for an animal to eat. Root hairs are extensions of root epidermal cells. They increase the surface area for absorbing water and minerals. They are not hairs on a leaf. Guard cells border a pore and open and close it. A thorn is a sharp stem that develops from a bud. The cuticle is the waxy layer secreted by the epidermis. Trichomes are separate outgrowths of that epidermis."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence defining a node, an internode, and an axillary bud."
+      },
+      "sentence": [
+        "A node is ",
+        null,
+        ". An internode is ",
+        null,
+        ". An axillary bud is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "the place on a stem where a leaf attaches",
+        "the length of stem between two nodes",
+        "a bud in the angle between a leaf and the stem that can grow into a branch"
+      ],
+      "bank": [
+        "a bud in the angle between a leaf and the stem that can grow into a branch",
+        "the place on a stem where a leaf attaches",
+        "the length of stem between two nodes"
+      ],
+      "explanation": "A node is the place on a stem where one or more leaves attach. An axillary bud sits in the angle between the leaf petiole and the stem at that node. An internode is the length of stem between two nodes. In a monocot such as a grass, an intercalary disc often lies at the base of an internode and adds length. An axillary bud can grow into a branch. A thorn can also develop from a bud. A leaflet does not have its own axillary bud, which is how a leaflet is told apart from a simple leaf. The apical meristem at the shoot tip adds length to the main stem. It is not the axillary bud at a node."
+    }
+  ]
+}

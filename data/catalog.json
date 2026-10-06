@@ -113,44 +113,6 @@
         ]
       },
       {
-        "name": "Prokaryotes",
-        "course": "bio100b",
-        "quizzes": [
-          {
-            "id": "prokaryotes",
-            "title": "Prokaryotes",
-            "icon": "🦠",
-            "description": "How bacteria and archaea are built and how they live.",
-            "course": "bio100b",
-            "questionCount": 24,
-            "types": {
-              "select_all": 5,
-              "multiple_choice": 10,
-              "drag_sentence": 9
-            }
-          }
-        ]
-      },
-      {
-        "name": "Protists",
-        "course": "bio100b",
-        "quizzes": [
-          {
-            "id": "protists",
-            "title": "Protists",
-            "icon": "🧫",
-            "description": "How protists are built and how they live.",
-            "course": "bio100b",
-            "questionCount": 46,
-            "types": {
-              "multiple_choice": 32,
-              "select_all": 8,
-              "drag_sentence": 6
-            }
-          }
-        ]
-      },
-      {
         "name": "Chemistry of Life",
         "course": "bio100a",
         "quizzes": [
@@ -333,23 +295,6 @@
         ]
       },
       {
-        "name": "Cell Signaling",
-        "course": "bio100a",
-        "quizzes": [
-          {
-            "id": "cellular_communication",
-            "title": "Cellular Communication",
-            "icon": "📶",
-            "description": "Signaling types, receptors, second messengers, and amplification.",
-            "questionCount": 15,
-            "types": {
-              "multiple_choice": 11,
-              "drag_sentence": 4
-            }
-          }
-        ]
-      },
-      {
         "name": "Animal Systems",
         "course": "bio100a",
         "quizzes": [
@@ -437,6 +382,99 @@
             "types": {
               "multiple_choice": 18,
               "drag_and_drop": 11
+            }
+          }
+        ]
+      },
+      {
+        "name": "Prokaryotes",
+        "course": "bio100b",
+        "quizzes": [
+          {
+            "id": "prokaryotes",
+            "title": "Prokaryotes",
+            "icon": "🦠",
+            "description": "How bacteria and archaea are built and how they live.",
+            "course": "bio100b",
+            "questionCount": 24,
+            "types": {
+              "select_all": 5,
+              "multiple_choice": 10,
+              "drag_sentence": 9
+            }
+          }
+        ]
+      },
+      {
+        "name": "Protists",
+        "course": "bio100b",
+        "quizzes": [
+          {
+            "id": "protists",
+            "title": "Protists",
+            "icon": "🧫",
+            "description": "How protists are built and how they live.",
+            "course": "bio100b",
+            "questionCount": 46,
+            "types": {
+              "multiple_choice": 32,
+              "select_all": 8,
+              "drag_sentence": 6
+            }
+          }
+        ]
+      },
+      {
+        "name": "Fungi",
+        "course": "bio100b",
+        "quizzes": [
+          {
+            "id": "fungi",
+            "title": "Fungi",
+            "icon": "🍄",
+            "description": "How fungi are built and how they live.",
+            "course": "bio100b",
+            "questionCount": 24,
+            "types": {
+              "multiple_choice": 22,
+              "drag_sentence": 1,
+              "select_all": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Plant Form",
+        "course": "bio100b",
+        "quizzes": [
+          {
+            "id": "plant_form",
+            "title": "Plant Form",
+            "icon": "🌱",
+            "description": "How the plant body is built.",
+            "course": "bio100b",
+            "questionCount": 42,
+            "types": {
+              "select_all": 3,
+              "drag_sentence": 8,
+              "multiple_choice": 31
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cell Signaling",
+        "course": "bio100a",
+        "quizzes": [
+          {
+            "id": "cellular_communication",
+            "title": "Cellular Communication",
+            "icon": "📶",
+            "description": "Signaling types, receptors, second messengers, and amplification.",
+            "questionCount": 15,
+            "types": {
+              "multiple_choice": 11,
+              "drag_sentence": 4
             }
           }
         ]
