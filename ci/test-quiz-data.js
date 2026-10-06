@@ -8,6 +8,7 @@ const VALID_TYPES = new Set([
   "drag_sentence",
   "fill_in",
   "net_ionic",
+  "select_all",
 ]);
 
 function readJson(filePath) {
@@ -192,6 +193,46 @@ function validateQuestion(filePath, quiz, question, index) {
     return errors;
   }
 
+  if (question.type === "select_all") {
+    if (!Array.isArray(question.bank) || question.bank.length === 0) {
+      errors.push(`${label}: select_all bank is required.`);
+    } else {
+      const seen = new Set();
+      question.bank.forEach((phrase, phraseIndex) => {
+        if (typeof phrase !== "string" || phrase.length === 0) {
+          errors.push(`${label}: bank[${phraseIndex}] must be a non-empty string.`);
+        } else if (seen.has(phrase)) {
+          errors.push(`${label}: bank has a duplicate phrase "${phrase}".`);
+        } else {
+          seen.add(phrase);
+        }
+      });
+    }
+
+    if (!Array.isArray(question.answers) || question.answers.length === 0) {
+      errors.push(`${label}: select_all answers are required.`);
+    } else if (Array.isArray(question.bank)) {
+      const bank = new Set(question.bank);
+      const chosen = new Set();
+      question.answers.forEach((answer, answerIndex) => {
+        if (typeof answer !== "string" || answer.length === 0) {
+          errors.push(`${label}: answers[${answerIndex}] must be a non-empty string.`);
+        } else if (!bank.has(answer)) {
+          errors.push(`${label}: answers[${answerIndex}] "${answer}" is not in bank.`);
+        } else if (chosen.has(answer)) {
+          errors.push(`${label}: duplicate answer "${answer}".`);
+        } else {
+          chosen.add(answer);
+        }
+      });
+      if (question.answers.length >= question.bank.length) {
+        errors.push(`${label}: select_all bank must include phrases that are not answers.`);
+      }
+    }
+
+    return errors;
+  }
+
   if (typeof question.answer !== "string" || question.answer.length === 0) {
     errors.push(`${label}: answer must be a non-empty string.`);
   }
@@ -347,7 +388,7 @@ function validateQuiz(filePath) {
     errors.push(...validateIonBank(filePath, quiz));
   }
 
-  if (Array.isArray(quiz.questions) && quiz.questions.length > 0) {
+  if (Array.isArray(quiz.questions)) {
     quiz.questions.forEach((question, index) => {
       errors.push(...validateQuestion(filePath, quiz, question, index));
     });

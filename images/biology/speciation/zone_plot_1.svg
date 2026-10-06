@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" role="img">
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1d4e89"/>
+    </marker>
+    <marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#0f766e"/>
+    </marker>
+  </defs>
+  <rect width="540" height="320" fill="#ffffff"/>
+  <line x1="64" y1="268" x2="508" y2="268" stroke="#243040" stroke-width="2"/>
+  <polygon points="518,268 504,263 504,273" fill="#243040"/>
+  <text x="286" y="298" fill="#243040" font-family="system-ui, sans-serif" font-size="16" text-anchor="middle">Time</text>
+  <text x="72" y="252" fill="#243040" font-family="system-ui, sans-serif" font-size="14">Earlier</text>
+  <text x="500" y="252" fill="#243040" font-family="system-ui, sans-serif" font-size="14" text-anchor="end">Later</text>
+  <path d="M88 150 C 170 146, 280 70, 470 36" fill="none" stroke="#1d4e89" stroke-width="3.5" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+  <path d="M88 150 C 170 154, 280 230, 470 264" fill="none" stroke="#0f766e" stroke-width="3.5" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+</svg>

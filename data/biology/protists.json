@@ -1,0 +1,794 @@
+{
+  "title": "Protists",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best defines a protist?"
+      },
+      "options": [
+        "A prokaryote whose cells have no nucleus. Every protist is unicellular.",
+        "Any unicellular eukaryote. A multicellular eukaryote must be a plant, animal, or fungus.",
+        "A eukaryote other than a plant, animal, or fungus. Most are unicellular, and the group is not one clade.",
+        "One clade of eukaryotes that includes plants, animals, and fungi as its descendants."
+      ],
+      "answer": "A eukaryote other than a plant, animal, or fungus. Most are unicellular, and the group is not one clade.",
+      "explanation": "A protist has a nucleus and other membrane-enclosed organelles, so it is a eukaryote. The name gathers eukaryotes that are not plants, animals, or fungi. Most protists are unicellular. Some, such as the large brown algae, are multicellular, so having many cells does not make an organism a plant. Protists do not form one clade. Plants, animals, and fungi each arose from different protist relatives, so those three kingdoms are not descendants gathered inside one protist clade."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why are protists hard to classify?"
+      },
+      "options": [
+        "They have no DNA, so molecular characters cannot be compared.",
+        "They are prokaryotes, and a cell without a nucleus cannot be placed on a tree.",
+        "They share one ancestor that excludes plants, animals, and fungi, so any shared trait puts them in one clade.",
+        "A protist may be closer to a plant, animal, or fungus than to another protist, so similar shape or nutrition can join unrelated lineages."
+      ],
+      "answer": "A protist may be closer to a plant, animal, or fungus than to another protist, so similar shape or nutrition can join unrelated lineages.",
+      "explanation": "Protists are eukaryotes left over after plants, animals, and fungi are set aside. That cutoff does not match one branch of the tree. A green alga can be closer to land plants than to an amoeba, and a choanoflagellate is closer to animals than to a ciliate. Similar movement or nutrition can evolve separately, so those similarities can group the wrong lineages. Protists have a nucleus and DNA, and those characters can be compared. The difficulty is that the old group mixes lineages that are not one clade."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which nutritional modes occur among protists?"
+      },
+      "options": [
+        "Only autotrophs. A eukaryote that takes in organic molecules is an animal or a fungus.",
+        "Autotrophs, heterotrophs, and mixotrophs.",
+        "Only heterotrophs. Photosynthesis occurs only in plants.",
+        "Only mixotrophs. No protist uses just one carbon source."
+      ],
+      "answer": "Autotrophs, heterotrophs, and mixotrophs.",
+      "explanation": "Protists include all three modes. An autotroph, such as many algae, builds organic molecules from carbon dioxide. A heterotroph, such as an amoeba, takes in organic molecules made by other organisms. A mixotroph, such as *Euglena*, can photosynthesize and also take in organic food. A heterotrophic eukaryote can still be a protist. Photosynthesis is not limited to plants. Some protists use only one mode, so the group is not limited to mixotrophs."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 6 plant-like protist groups."
+      },
+      "bank": [
+        "Diatoms",
+        "Dinoflagellates",
+        "Brown algae",
+        "Red algae",
+        "Green algae",
+        "Euglenozoans",
+        "Ciliates",
+        "Water molds"
+      ],
+      "answers": [
+        "Diatoms",
+        "Dinoflagellates",
+        "Brown algae",
+        "Red algae",
+        "Green algae",
+        "Euglenozoans"
+      ],
+      "explanation": "The plant-like protists are the groups that include photosynthetic members. Diatoms are phytoplankton with silica walls. Dinoflagellates include photosynthetic species with two flagella, and some cause red tides. Brown algae include large multicellular seaweeds. Red algae and green algae are photosynthetic, and green algae are the closest protist relatives of land plants. Some euglenozoans can photosynthesize and also take in food. Ciliates are heterotrophs that swim with cilia. They are animal-like protists. Water molds grow as filaments and absorb nutrients. They are fungus-like protists, not algae."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What makes a protist group plant-like?"
+      },
+      "options": [
+        "Members of the group photosynthesize with chloroplasts and can build organic molecules from carbon dioxide.",
+        "The group belongs to the plant kingdom, because photosynthesis is enough to make an organism a plant.",
+        "The group forms one clade with land plants, and every member is multicellular.",
+        "Members absorb organic nutrients through filaments, which is how plants obtain carbon."
+      ],
+      "answer": "Members of the group photosynthesize with chloroplasts and can build organic molecules from carbon dioxide.",
+      "explanation": "Plant-like describes the nutrition. Photosynthetic members have chloroplasts and make organic molecules from carbon dioxide. Some can also take in food. These organisms remain protists. Photosynthesis does not place them in the plant kingdom. The plant-like groups do not form one clade with land plants, and many of these protists are unicellular. Absorbing organic nutrients through filaments is the habit of water molds, which are fungus-like."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 2 animal-like protist groups."
+      },
+      "bank": [
+        "Radiolarians",
+        "Amoebas",
+        "Diatoms",
+        "Water molds"
+      ],
+      "answers": [
+        "Radiolarians",
+        "Amoebas"
+      ],
+      "explanation": "Radiolarians and amoebas are animal-like protists. They are heterotrophs that capture or engulf food. Radiolarians feed with threadlike pseudopodia. Amoebas feed and move with broader pseudopodia. Diatoms are photosynthetic phytoplankton, so they are plant-like. Water molds absorb nutrients through filaments, so they are fungus-like."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What makes a protist group animal-like?"
+      },
+      "options": [
+        "Members photosynthesize with chloroplasts and build organic molecules from carbon dioxide.",
+        "Members are heterotrophs that capture or engulf food.",
+        "The group belongs to the animal kingdom, because moving is enough to make an organism an animal.",
+        "Members absorb organic nutrients through filaments, which is how animals obtain carbon."
+      ],
+      "answer": "Members are heterotrophs that capture or engulf food.",
+      "explanation": "Animal-like describes the nutrition. Members take in food by capturing or engulfing other organisms rather than building organic molecules by photosynthesis. They remain protists. Movement does not place them in the animal kingdom. Photosynthesis is the plant-like habit. Absorbing nutrients through filaments is the fungus-like habit."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 monophyletic groups within Excavata."
+      },
+      "bank": [
+        "Diplomonads",
+        "Parabasalids",
+        "Euglenozoans",
+        "Diatoms",
+        "Radiolarians"
+      ],
+      "answers": [
+        "Diplomonads",
+        "Parabasalids",
+        "Euglenozoans"
+      ],
+      "explanation": "Excavata contains three monophyletic groups: diplomonads, parabasalids, and euglenozoans. Diplomonads and parabasalids have reduced mitochondria and often live without oxygen. Euglenozoans have a crystalline rod in their flagella. Some are photosynthetic, which is why that group is also placed with the plant-like protists, and some are heterotrophs. Diatoms are photosynthetic stramenopiles with silica walls. Radiolarians feed with threadlike pseudopodia. Neither belongs to Excavata."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What do diplomonads, parabasalids, and euglenozoans have in common?"
+      },
+      "options": [
+        "Each group has mitosomes, hydrogenosomes, and a crystalline rod in its flagella.",
+        "They are the monophyletic groups of Excavata, and many have an excavated groove on one side of the cell.",
+        "They all have silica walls and live as photosynthetic phytoplankton.",
+        "They all capture food with threadlike pseudopodia."
+      ],
+      "answer": "They are the monophyletic groups of Excavata, and many have an excavated groove on one side of the cell.",
+      "explanation": "These three are the monophyletic groups within Excavata. Many members have a feeding groove on one side of the cell, supported by a distinctive cytoskeleton. The three groups do not share one another's special mitochondria or flagellar rods. Mitosomes and paired nuclei belong to diplomonads. Hydrogenosomes belong to parabasalids. The crystalline rod belongs to euglenozoans. Silica walls belong to diatoms. Threadlike pseudopodia belong to radiolarians."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes diplomonads from parabasalids and euglenozoans?"
+      },
+      "options": [
+        "They have reduced mitochondria called mitosomes and two equal-sized nuclei.",
+        "They have reduced mitochondria called hydrogenosomes that release hydrogen.",
+        "They have a crystalline rod inside their flagella.",
+        "They have silica walls and live as photosynthetic phytoplankton."
+      ],
+      "answer": "They have reduced mitochondria called mitosomes and two equal-sized nuclei.",
+      "explanation": "Diplomonads have mitosomes, modified mitochondria that do not make ATP with oxygen, and they have two equal-sized nuclei. They often live where oxygen is absent. Hydrogenosomes are the reduced mitochondria of parabasalids. The crystalline rod is inside euglenozoan flagella. Silica walls are a diatom trait."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes parabasalids from diplomonads and euglenozoans?"
+      },
+      "options": [
+        "They have a crystalline rod inside their flagella.",
+        "They have reduced mitochondria called mitosomes and two equal-sized nuclei.",
+        "They have reduced mitochondria called hydrogenosomes that release hydrogen.",
+        "They capture food with threadlike pseudopodia."
+      ],
+      "answer": "They have reduced mitochondria called hydrogenosomes that release hydrogen.",
+      "explanation": "Parabasalids have hydrogenosomes, reduced mitochondria that release hydrogen while making some ATP without oxygen. Mitosomes and two equal-sized nuclei are diplomonad traits. The crystalline rod is a euglenozoan trait. Threadlike pseudopodia are a radiolarian trait."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes euglenozoans from diplomonads and parabasalids?"
+      },
+      "options": [
+        "They have reduced mitochondria called hydrogenosomes that release hydrogen.",
+        "They have reduced mitochondria called mitosomes and two equal-sized nuclei.",
+        "They have silica walls and live as photosynthetic phytoplankton.",
+        "They have a crystalline rod inside their flagella."
+      ],
+      "answer": "They have a crystalline rod inside their flagella.",
+      "explanation": "Euglenozoans have a crystalline rod inside each flagellum. Some photosynthesize, some engulf food, and some do both. Mitosomes and two equal-sized nuclei are diplomonad traits. Hydrogenosomes are a parabasalid trait. Silica walls are a diatom trait."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 4 stramenopile groups within SAR."
+      },
+      "bank": [
+        "Diatoms",
+        "Golden algae",
+        "Brown algae",
+        "Water molds",
+        "Dinoflagellates",
+        "Radiolarians"
+      ],
+      "answers": [
+        "Diatoms",
+        "Golden algae",
+        "Brown algae",
+        "Water molds"
+      ],
+      "explanation": "Stramenopiles are one of the three major groups in SAR. Diatoms, golden algae, and brown algae include photosynthetic members. Water molds are heterotrophic stramenopiles that absorb nutrients through filaments, which is why they are also called fungus-like. Many stramenopiles have a hairy flagellum paired with a smooth one. Dinoflagellates are alveolates. Radiolarians are rhizarians. Both belong to SAR, and neither is a stramenopile."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What makes diatoms unique among protists?"
+      },
+      "options": [
+        "Each flagellum contains a crystalline rod.",
+        "A glass-like wall of silica fits together as two overlapping halves.",
+        "An internal silica skeleton is paired with threadlike pseudopodia.",
+        "Cellulose plates armor the cell, and two flagella sit in grooves."
+      ],
+      "answer": "A glass-like wall of silica fits together as two overlapping halves.",
+      "explanation": "Diatoms are unicellular stramenopiles. Their wall is silica, like glass, and the two parts overlap like a box and a lid. A crystalline rod inside the flagellum is a euglenozoan trait. Radiolarians also use silica, but it forms an internal skeleton, and they feed with threadlike pseudopodia. Dinoflagellates are armored by cellulose plates and have two flagella in grooves. Those features do not build the diatom wall."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What makes brown algae unique among algal protists?"
+      },
+      "options": [
+        "Each cell has a silica wall of two overlapping halves.",
+        "Each cell is armored by cellulose plates and has two flagella in grooves.",
+        "They absorb nutrients through filaments and have no photosynthetic pigments.",
+        "They are large multicellular seaweeds, and brown accessory pigments give them their color."
+      ],
+      "answer": "They are large multicellular seaweeds, and brown accessory pigments give them their color.",
+      "explanation": "Brown algae are the largest algae. They are multicellular seaweeds, and brown accessory pigments in their plastids produce their color. A silica wall of two halves is a diatom trait. Cellulose plates and two flagella in grooves are dinoflagellate traits. Water molds are stramenopiles that absorb nutrients through filaments. They lack the photosynthetic body of brown algae."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence identifying the blade, holdfast, and stipe of a brown alga."
+      },
+      "sentence": [
+        "The blade is ",
+        null,
+        ", the holdfast is ",
+        null,
+        ", and the stipe is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "the flattened surface where most photosynthesis occurs",
+        "the anchor that attaches the alga to a surface",
+        "the stalk that supports the blades"
+      ],
+      "bank": [
+        "the flattened surface where most photosynthesis occurs",
+        "the anchor that attaches the alga to a surface",
+        "the stalk that supports the blades",
+        "a true root that absorbs water and minerals",
+        "a true leaf with veins that carry sugar through the body"
+      ],
+      "explanation": "The blade is the main photosynthetic surface. The holdfast anchors the alga to a rock or another surface. The stipe is the stalk that supports the blades. These parts resemble a leaf, a root, and a stem, but they evolved separately from plant organs. The holdfast does not absorb water and minerals the way a root does. The blade does not have the veins of a true leaf."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How is kelp related to brown algae?"
+      },
+      "options": [
+        "Kelp is a land plant, and brown algae are an unrelated group of protists.",
+        "Kelp is the largest brown algae. Every kelp is a brown alga, and smaller brown seaweeds are not kelp.",
+        "The two names refer to exactly the same organisms. Every brown alga is kelp.",
+        "Kelp is a unicellular diatom, and brown algae are the multicellular stage of that diatom."
+      ],
+      "answer": "Kelp is the largest brown algae. Every kelp is a brown alga, and smaller brown seaweeds are not kelp.",
+      "explanation": "Kelp is a common name for the largest brown algae, the ones with a long stipe and large blades. Every kelp is a brown alga. Smaller brown seaweeds are brown algae too, so the two names do not cover exactly the same organisms. Kelp is not a land plant. Its holdfast, stipe, and blade resemble plant organs but are not true roots, stems, and leaves. Kelp is also not a diatom. Diatoms are unicellular and have a silica wall."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the purpose of the sieve tubes in a large brown alga such as kelp?"
+      },
+      "options": [
+        "They absorb water and minerals through the holdfast and carry them up the stipe.",
+        "They form the glass-like wall around each cell.",
+        "They carry sugars made in the blades to parts of the body that are not photosynthetic.",
+        "They are true plant phloem, so kelp belongs to the plant kingdom."
+      ],
+      "answer": "They carry sugars made in the blades to parts of the body that are not photosynthetic.",
+      "explanation": "In large kelps, sieve tubes in the stipe move sugars from the photosynthetic blades to regions that do not photosynthesize, including the holdfast and growing parts of the stipe. The tubes resemble plant phloem, but they evolved separately, so kelp remains a protist. The holdfast anchors the alga. It does not absorb water and minerals, and the sieve tubes do not carry a stream of water up from the rock. A glass-like wall of two halves is a diatom trait."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence outlining a sporic life cycle and which stages are 1n or 2n."
+      },
+      "sentence": [
+        "The sporophyte is ",
+        null,
+        ", spores made by meiosis are ",
+        null,
+        ", the gametophyte is ",
+        null,
+        ", and the zygote made by fertilization is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "diploid, 2n",
+        "haploid, 1n",
+        "haploid, 1n, and it produces gametes by mitosis",
+        "diploid, 2n, and it grows into the next sporophyte"
+      ],
+      "bank": [
+        "diploid, 2n",
+        "haploid, 1n",
+        "haploid, 1n, and it produces gametes by mitosis",
+        "diploid, 2n, and it grows into the next sporophyte",
+        "haploid, 1n, because the sporophyte makes gametes by meiosis",
+        "diploid, 2n, because the gametophyte is the only multicellular body"
+      ],
+      "explanation": "A sporic life cycle alternates two multicellular bodies. The sporophyte is diploid, 2n. Meiosis in the sporophyte produces spores that are haploid, 1n. A spore grows into the gametophyte, which is also 1n, and that body makes gametes by mitosis, so the gametes stay 1n. Fertilization joins two gametes into a zygote that is 2n, and the zygote grows into the next sporophyte. A sporophyte that makes gametes by meiosis is a gametic life cycle. In that cycle the multicellular body is 2n and the gametes are the only 1n cells. A cycle in which the gametophyte is the only multicellular body is zygotic. There the zygote is the only 2n cell."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence outlining a gametic life cycle and which stages are 1n or 2n."
+      },
+      "sentence": [
+        "The multicellular organism is ",
+        null,
+        ", gametes made by meiosis are ",
+        null,
+        ", and the zygote made by fertilization is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "diploid, 2n",
+        "haploid, 1n, and they are the only haploid cells",
+        "diploid, 2n, and it grows by mitosis into the next multicellular organism"
+      ],
+      "bank": [
+        "diploid, 2n",
+        "haploid, 1n, and they are the only haploid cells",
+        "diploid, 2n, and it grows by mitosis into the next multicellular organism",
+        "haploid, 1n, and it produces gametes by mitosis",
+        "haploid, 1n, because the zygote is the only diploid cell"
+      ],
+      "explanation": "A gametic life cycle has one multicellular body, and that body is diploid, 2n. Meiosis in that body produces gametes that are haploid, 1n. Those gametes are the only haploid cells. Fertilization joins two gametes into a zygote that is 2n, and the zygote grows by mitosis into the next multicellular organism. There is no spore and no multicellular gametophyte. A body that is 1n and produces gametes by mitosis is the gametophyte of a sporic cycle. In a zygotic cycle the multicellular body is 1n, the zygote is the only 2n cell, and meiosis follows fertilization immediately, so the zygote does not grow into a multicellular diploid organism."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing a sporic life cycle with a gametic life cycle."
+      },
+      "sentence": [
+        "Both cycles produce a zygote that is ",
+        null,
+        ". Only the sporic cycle has a second multicellular body, the gametophyte, which is ",
+        null,
+        ". Meiosis produces ",
+        null,
+        ". In the gametic cycle those products are ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "diploid, 2n",
+        "haploid, 1n, and it makes gametes by mitosis",
+        "spores in a sporic cycle and gametes in a gametic cycle",
+        "the only haploid cells, because there is no multicellular 1n body"
+      ],
+      "bank": [
+        "diploid, 2n",
+        "haploid, 1n, and it makes gametes by mitosis",
+        "spores in a sporic cycle and gametes in a gametic cycle",
+        "the only haploid cells, because there is no multicellular 1n body",
+        "haploid, 1n, and meiosis follows fertilization immediately",
+        "diploid, 2n, and it makes spores by mitosis",
+        "gametes in both cycles"
+      ],
+      "explanation": "Both cycles use fertilization, so the zygote is diploid, 2n, and it grows into a multicellular diploid body. They differ in what else is multicellular and in what meiosis produces. A sporic cycle also has a gametophyte that is haploid, 1n. That gametophyte makes gametes by mitosis. Meiosis occurs in the sporophyte and produces spores, which grow into the gametophyte. A gametic cycle has no gametophyte and no spores. Meiosis in the diploid body produces gametes, and those gametes are the only haploid cells. A zygote that is 1n, with meiosis right after fertilization, belongs to a zygotic cycle, not to either of these two. The gametophyte is not diploid, and it does not make spores. Spores are made by meiosis in the sporophyte. Meiosis does not produce gametes in both cycles. In a sporic cycle the gametes come later, by mitosis in the gametophyte."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which traits identify the oomycetes, the water molds?"
+      },
+      "options": [
+        "Cellulose walls, a multicellular gametophyte that is 1n, and spores made by meiosis in a sporophyte.",
+        "Chitin walls, a body that is haploid for most of the life cycle, and filaments that absorb nutrients.",
+        "Cellulose walls, a body that is diploid for most of the life cycle, and filaments that absorb nutrients.",
+        "Silica walls of two overlapping halves, and photosynthesis that builds organic molecules from carbon dioxide."
+      ],
+      "answer": "Cellulose walls, a body that is diploid for most of the life cycle, and filaments that absorb nutrients.",
+      "explanation": "Oomycetes are the water molds, fungus-like stramenopiles. They absorb nutrients through filaments, which makes them resemble fungi, but the resemblance is convergent. Their walls are cellulose, not chitin, and the filaments are diploid, 2n, for most of the life cycle. A multicellular 1n gametophyte grown from spores is a sporic cycle, as in many algae. Oomycetes do not have that second multicellular body. Chitin walls and a mostly haploid body are traits of true fungi. A two-part silica wall and photosynthesis describe diatoms, another stramenopile group. Oomycetes do not photosynthesize."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 monophyletic groups of alveolates."
+      },
+      "bank": [
+        "Dinoflagellates",
+        "Diatoms",
+        "Apicomplexans",
+        "Radiolarians",
+        "Ciliates"
+      ],
+      "answers": [
+        "Dinoflagellates",
+        "Apicomplexans",
+        "Ciliates"
+      ],
+      "explanation": "Alveolates contain three monophyletic groups: dinoflagellates, apicomplexans, and ciliates. All have membrane-enclosed sacs, called alveoli, just under the plasma membrane. Dinoflagellates have cellulose plates and two flagella in grooves. Some photosynthesize, which is why that group is also placed with the plant-like protists, and blooms of some cause red tides. Apicomplexans are parasites of animals and enter host cells with an apical complex. Ciliates are heterotrophs that move and feed with cilia, which is why they are also placed with the animal-like protists, and they have two kinds of nuclei. Diatoms are photosynthetic stramenopiles with silica walls. Radiolarians feed with threadlike pseudopodia. Both belong to SAR, and neither is an alveolate."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What do dinoflagellates, apicomplexans, and ciliates have in common?"
+      },
+      "options": [
+        "Each group has cellulose plates, an apical complex, and two kinds of nuclei.",
+        "They are the monophyletic groups of alveolates, and they have membrane-enclosed sacs (alveoli) under the plasma membrane.",
+        "They all have silica walls and live as photosynthetic phytoplankton.",
+        "They all absorb nutrients through filaments."
+      ],
+      "answer": "They are the monophyletic groups of alveolates, and they have membrane-enclosed sacs (alveoli) under the plasma membrane.",
+      "explanation": "These three are the monophyletic groups of alveolates, within SAR. Alveoli are membrane-enclosed sacs just under the plasma membrane. The three groups do not share one another's special structures. Cellulose plates and grooved flagella belong to dinoflagellates. The apical complex belongs to apicomplexans. Cilia and two kinds of nuclei belong to ciliates. Silica walls belong to diatoms. Absorbing nutrients through filaments is the water-mold habit."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes dinoflagellates from apicomplexans and ciliates?"
+      },
+      "options": [
+        "They are parasites of animals and enter host cells with an apical complex.",
+        "They have cellulose walls, absorb nutrients through filaments, and the body is diploid for most of the life cycle.",
+        "They have cellulose plates and two flagella set in grooves.",
+        "They move and feed with cilia and have two kinds of nuclei."
+      ],
+      "answer": "They have cellulose plates and two flagella set in grooves.",
+      "explanation": "Dinoflagellates are reinforced by cellulose plates, and two flagella sit in grooves on the cell. Some photosynthesize, some take in food, and some do both. Blooms of some species cause red tides. That photosynthetic habit is why they are also listed with the plant-like protists. The apical complex is an apicomplexan trait. Cilia and two kinds of nuclei are ciliate traits. Cellulose walls around filaments that absorb nutrients, with a body that is diploid for most of the life cycle, are oomycetes, the water molds. Those are stramenopiles. Their cellulose is a filament wall, not plates on a flagellated cell."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes apicomplexans from dinoflagellates and ciliates?"
+      },
+      "options": [
+        "They move and feed with cilia and have two kinds of nuclei.",
+        "They are parasites of animals and enter host cells with an apical complex.",
+        "They have cellulose plates and two flagella set in grooves.",
+        "They have a glass-like silica wall of two overlapping halves."
+      ],
+      "answer": "They are parasites of animals and enter host cells with an apical complex.",
+      "explanation": "Apicomplexans are parasites of animals. One end of the cell, the apex, contains a complex of organelles that penetrates host cells. They do not photosynthesize. Cellulose plates and two flagella in grooves are dinoflagellate traits. Cilia and two kinds of nuclei are ciliate traits. A two-part silica wall is a diatom trait."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes ciliates from dinoflagellates and apicomplexans?"
+      },
+      "options": [
+        "They have cellulose plates and two flagella set in grooves.",
+        "They have a glass-like silica wall of two overlapping halves.",
+        "They are parasites of animals and enter host cells with an apical complex.",
+        "They move and feed with cilia and have two kinds of nuclei."
+      ],
+      "answer": "They move and feed with cilia and have two kinds of nuclei.",
+      "explanation": "Ciliates move and feed with cilia. They are heterotrophs, which is why they are also placed with the animal-like protists. Each cell has two kinds of nuclei: a large macronucleus that controls everyday functions and a small micronucleus used in reproduction. Cellulose plates and two flagella in grooves are dinoflagellate traits. The apical complex is an apicomplexan trait. A two-part silica wall is a diatom trait."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why are diatoms limited to cold water?"
+      },
+      "options": [
+        "The wall is made of oil, and oil stays rigid enough to protect the cell only in cold water.",
+        "They parasitize animals that live only in cold water, so warm water leaves them without a host.",
+        "The silica wall is heavy. Cold water is more viscous and holds the cells in the sunlit zone. Warm water is less viscous, so they sink out of the light.",
+        "Two flagella beat only in cold water. In warm water the grooves widen and the cells cannot swim."
+      ],
+      "answer": "The silica wall is heavy. Cold water is more viscous and holds the cells in the sunlit zone. Warm water is less viscous, so they sink out of the light.",
+      "explanation": "Diatoms are unicellular phytoplankton. The glass-like silica wall of two overlapping halves is heavy. Cold water is more viscous, so the cells sink slowly enough to stay where light reaches them and photosynthesis can continue. Warm water is less viscous, so those heavy cells sink below the sunlit zone. Diatoms may store oil, and that oil helps them float, but the wall is silica, not oil. They are not animal parasites. Two flagella set in grooves are a dinoflagellate trait, not the reason diatoms need cold water."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 monophyletic groups of rhizarians."
+      },
+      "bank": [
+        "Radiolarians",
+        "Amoebas",
+        "Foraminiferans",
+        "Diatoms",
+        "Cercozoans"
+      ],
+      "answers": [
+        "Radiolarians",
+        "Foraminiferans",
+        "Cercozoans"
+      ],
+      "explanation": "Rhizarians are one of the three major groups in SAR. The monophyletic groups are radiolarians, foraminiferans, and cercozoans. Members feed with threadlike pseudopodia. Radiolarians have an internal silica skeleton, and the pseudopodia radiate from the cell. They are heterotrophs, which is why they are also placed with the animal-like protists. Foraminiferans build a porous shell of calcium carbonate, and threadlike pseudopodia extend through the pores. Cercozoans include amoeboid and flagellated forms with threadlike pseudopodia. They do not build that silica skeleton or calcium carbonate shell, and some photosynthesize. Amoebas feed and move with broader pseudopodia, so they are not rhizarians. Diatoms are photosynthetic stramenopiles with a silica wall of two overlapping halves. That wall is not the radiolarian skeleton, and diatoms are not rhizarians."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What do radiolarians, foraminiferans, and cercozoans have in common?"
+      },
+      "options": [
+        "Each group has an internal silica skeleton, a calcium carbonate shell, and chloroplasts.",
+        "They are the monophyletic groups of rhizarians, and they feed with threadlike pseudopodia.",
+        "They all have a silica wall of two overlapping halves and live as photosynthetic phytoplankton.",
+        "They all move with broader pseudopodia and are the amoebas."
+      ],
+      "answer": "They are the monophyletic groups of rhizarians, and they feed with threadlike pseudopodia.",
+      "explanation": "These three are the monophyletic groups of rhizarians, within SAR. Threadlike pseudopodia are the shared feeding structure. The groups do not share one another's shells or skeletons. An internal silica skeleton belongs to radiolarians. A porous calcium carbonate shell belongs to foraminiferans. Cercozoans lack both of those coverings. A two-part silica wall belongs to diatoms. Broader pseudopodia belong to amoebas, which are not rhizarians."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes radiolarians from foraminiferans and cercozoans?"
+      },
+      "options": [
+        "They build a porous shell of calcium carbonate, and threadlike pseudopodia extend through the pores.",
+        "They have a glass-like silica wall of two overlapping halves.",
+        "They have an internal skeleton of silica, and threadlike pseudopodia radiate from the cell.",
+        "They are amoeboid and flagellated, and they do not build a mineral skeleton or shell."
+      ],
+      "answer": "They have an internal skeleton of silica, and threadlike pseudopodia radiate from the cell.",
+      "explanation": "Radiolarians secrete an internal skeleton of silica. Threadlike pseudopodia radiate from the cell and capture food. That feeding habit is why they are also listed with the animal-like protists. A porous calcium carbonate shell is a foraminiferan trait. Amoeboid and flagellated forms without a mineral skeleton or shell are cercozoans. A two-part external silica wall is a diatom trait. Diatoms and radiolarians both use silica, but the diatom wall is an external box and lid, not an internal skeleton."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes foraminiferans from radiolarians and cercozoans?"
+      },
+      "options": [
+        "They have an internal skeleton of silica, and threadlike pseudopodia radiate from the cell.",
+        "They build a porous shell of calcium carbonate, and threadlike pseudopodia extend through the pores.",
+        "They have cellulose plates and two flagella set in grooves.",
+        "They move and feed with broader pseudopodia and have no shell."
+      ],
+      "answer": "They build a porous shell of calcium carbonate, and threadlike pseudopodia extend through the pores.",
+      "explanation": "Foraminiferans, also called forams, build a porous shell of calcium carbonate. Threadlike pseudopodia extend through the pores and capture food. An internal silica skeleton is a radiolarian trait. Cercozoans do not build that calcium carbonate shell. Cellulose plates and two flagella in grooves are dinoflagellate traits. Broader pseudopodia without a shell are an amoeba trait, and amoebas are not rhizarians."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes cercozoans from radiolarians and foraminiferans?"
+      },
+      "options": [
+        "They have an internal skeleton of silica, and threadlike pseudopodia radiate from the cell.",
+        "They have a glass-like silica wall of two overlapping halves.",
+        "They build a porous shell of calcium carbonate, and threadlike pseudopodia extend through the pores.",
+        "They are amoeboid and flagellated protists with threadlike pseudopodia, and they do not build a silica skeleton or a calcium carbonate shell."
+      ],
+      "answer": "They are amoeboid and flagellated protists with threadlike pseudopodia, and they do not build a silica skeleton or a calcium carbonate shell.",
+      "explanation": "Cercozoans include both amoeboid and flagellated protists. They feed with threadlike pseudopodia, like other rhizarians, but they do not secrete the internal silica skeleton of radiolarians or the calcium carbonate shell of foraminiferans. Some cercozoans photosynthesize. A two-part silica wall is a diatom trait."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 4 groups within Archaeplastida."
+      },
+      "bank": [
+        "Red algae",
+        "Brown algae",
+        "Chlorophytes",
+        "Dinoflagellates",
+        "Charophytes",
+        "Land plants"
+      ],
+      "answers": [
+        "Red algae",
+        "Chlorophytes",
+        "Charophytes",
+        "Land plants"
+      ],
+      "explanation": "Archaeplastida includes red algae, chlorophytes, charophytes, and land plants. Their plastids came from an ancestor that engulfed a cyanobacterium. Red algae owe their color to phycoerythrin, and most have no flagellated stage. Chlorophytes and charophytes are the two groups of green algae. Both have chlorophyll a and chlorophyll b. Charophytes are the green algae closest to land plants. Land plants develop from embryos retained on the parent, and they are not protists. Brown algae are stramenopiles. Their color comes from brown accessory pigments, so photosynthesis does not place them in Archaeplastida. Dinoflagellates are alveolates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What do red algae, chlorophytes, charophytes, and land plants have in common?"
+      },
+      "options": [
+        "Each group has phycoerythrin, no flagellated stage, and an embryo retained on the parent.",
+        "They belong to Archaeplastida. Their plastids came from an ancestor that engulfed a cyanobacterium.",
+        "They are stramenopiles. Brown accessory pigments color a multicellular seaweed with a blade, stipe, and holdfast.",
+        "They are alveolates with cellulose plates and two flagella set in grooves."
+      ],
+      "answer": "They belong to Archaeplastida. Their plastids came from an ancestor that engulfed a cyanobacterium.",
+      "explanation": "Archaeplastida is the clade of red algae, the two groups of green algae (chlorophytes and charophytes), and land plants. The shared plastid traces to primary endosymbiosis: an ancestral eukaryote engulfed a cyanobacterium, and the chloroplast is bounded by two membranes. The groups do not share one another's special traits. Phycoerythrin and the lack of a flagellated stage belong to red algae. An embryo retained on the parent belongs to land plants. Brown accessory pigments, a blade, a stipe, and a holdfast belong to brown algae, which are stramenopiles. Cellulose plates and grooved flagella belong to dinoflagellates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes red algae from chlorophytes, charophytes, and land plants?"
+      },
+      "options": [
+        "They are the green algae most closely related to land plants.",
+        "Their color comes from phycoerythrin, and most have no flagellated stage in the life cycle.",
+        "They include unicellular, colonial, and multicellular green algae that are not the closest relatives of land plants.",
+        "They develop from embryos retained on the parent and are not protists."
+      ],
+      "answer": "Their color comes from phycoerythrin, and most have no flagellated stage in the life cycle.",
+      "explanation": "Red algae are photosynthetic protists. Phycoerythrin gives them their color and lets many live deeper than green algae, because it absorbs blue and green light. Most red algae have no flagellated cells, so gametes meet by drifting. Chlorophytes are the green algae that are not the closest relatives of land plants. Charophytes are the green algae closest to land plants. Land plants develop from embryos and are not protists."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes chlorophytes from red algae, charophytes, and land plants?"
+      },
+      "options": [
+        "Their color comes from phycoerythrin, and most have no flagellated stage in the life cycle.",
+        "They develop from embryos retained on the parent and are not protists.",
+        "They are green algae with chlorophyll a and chlorophyll b, in unicellular, colonial, and multicellular forms, and they are not the green algae closest to land plants.",
+        "They are the green algae most closely related to land plants, and they share similar flagellated sperm and rings of cellulose-synthesizing proteins with plants."
+      ],
+      "answer": "They are green algae with chlorophyll a and chlorophyll b, in unicellular, colonial, and multicellular forms, and they are not the green algae closest to land plants.",
+      "explanation": "Chlorophytes are one of the two groups of green algae. They have chlorophyll a and chlorophyll b, so they are green rather than red. Forms include single cells, colonies, and multicellular bodies, in fresh water, the sea, and damp places. Charophytes are the other green algae, and they are the ones closest to land plants. Red algae are colored by phycoerythrin and usually lack flagellated stages. Land plants develop from embryos and are not protists."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes charophytes from red algae, chlorophytes, and land plants?"
+      },
+      "options": [
+        "Their color comes from phycoerythrin, and most have no flagellated stage in the life cycle.",
+        "They develop from embryos retained on the parent and are not protists.",
+        "They are green algae with chlorophyll a and chlorophyll b that are not the closest relatives of land plants.",
+        "They are the green algae most closely related to land plants, and they share similar flagellated sperm and rings of cellulose-synthesizing proteins with plants."
+      ],
+      "answer": "They are the green algae most closely related to land plants, and they share similar flagellated sperm and rings of cellulose-synthesizing proteins with plants.",
+      "explanation": "Charophytes are the green algae closest to land plants. They share traits with plants, including the structure of flagellated sperm and rings of cellulose-synthesizing proteins. They remain protists. Chlorophytes are the other green algae, with chlorophyll a and chlorophyll b, and they are not the closest relatives of land plants. Red algae are colored by phycoerythrin and usually lack flagellated stages. An embryo retained on the parent is a land-plant trait, so that description is the plants themselves, not the charophytes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes land plants from red algae, chlorophytes, and charophytes?"
+      },
+      "options": [
+        "Their color comes from phycoerythrin, and most have no flagellated stage in the life cycle.",
+        "They are green algae with chlorophyll a and chlorophyll b, in unicellular, colonial, and multicellular forms.",
+        "They develop from embryos retained on the parent. They belong to Archaeplastida, and they are not protists.",
+        "They are the green algae most closely related to land plants."
+      ],
+      "answer": "They develop from embryos retained on the parent. They belong to Archaeplastida, and they are not protists.",
+      "explanation": "Land plants develop from multicellular embryos that stay on the parent plant. They belong to Archaeplastida with red algae and green algae, but a plant is not a protist. A protist is a eukaryote other than a plant, animal, or fungus. Phycoerythrin and the lack of a flagellated stage are red-algal traits. Unicellular, colonial, and multicellular green forms that are not the closest relatives of land plants are chlorophytes. The green algae closest to land plants are the charophytes, which are still protists."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence outlining the triphasic life cycle of red algae and which stages are 1n or 2n."
+      },
+      "sentence": [
+        "The gametophyte is ",
+        null,
+        ". The carposporophyte that grows from the zygote is ",
+        null,
+        ". The tetrasporophyte that grows from a carpospore is ",
+        null,
+        ", and the tetraspores made by meiosis are ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "haploid, 1n, and it makes nonmotile gametes by mitosis",
+        "diploid, 2n, and it makes carpospores by mitosis",
+        "diploid, 2n, like the carposporophyte",
+        "haploid, 1n, and each grows into a gametophyte"
+      ],
+      "bank": [
+        "haploid, 1n, and it makes nonmotile gametes by mitosis",
+        "diploid, 2n, and it makes carpospores by mitosis",
+        "diploid, 2n, like the carposporophyte",
+        "haploid, 1n, and each grows into a gametophyte",
+        "haploid, 1n, and it makes carpospores by meiosis",
+        "diploid, 2n, and it makes flagellated gametes by meiosis"
+      ],
+      "explanation": "Many red algae have a triphasic life cycle, with three multicellular generations. The gametophyte is haploid, 1n. It makes gametes by mitosis, so the gametes stay 1n, and those gametes are not flagellated. Fertilization produces a zygote, 2n, which grows into the carposporophyte on the female gametophyte. The carposporophyte is diploid and makes carpospores by mitosis, so the carpospores stay 2n. A carpospore grows into a free-living tetrasporophyte, which is also diploid, 2n. Meiosis happens in the tetrasporophyte and produces tetraspores that are haploid, 1n. Each tetraspore grows into a gametophyte. A typical sporic cycle has only one multicellular diploid generation, and that generation makes 1n spores by meiosis. In red algae the carposporophyte is an extra diploid generation, and it does not use meiosis. A diploid gametophyte that makes flagellated gametes by meiosis fits neither red algae nor this cycle."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence outlining the zygotic life cycle of many green algae and which stages are 1n or 2n."
+      },
+      "sentence": [
+        "The multicellular body is ",
+        null,
+        ", gametes made by mitosis are ",
+        null,
+        ", and the zygote made by fertilization is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "haploid, 1n",
+        "haploid, 1n, like the body that produced them",
+        "the only diploid cell, 2n, and meiosis then produces the next haploid body"
+      ],
+      "bank": [
+        "haploid, 1n",
+        "haploid, 1n, like the body that produced them",
+        "the only diploid cell, 2n, and meiosis then produces the next haploid body",
+        "diploid, 2n, and meiosis in that body produces the gametes",
+        "diploid, 2n, and it grows by mitosis into a multicellular sporophyte"
+      ],
+      "explanation": "In the zygotic life cycle of many green algae, the multicellular body is haploid, 1n. That body makes gametes by mitosis, so the gametes are also 1n. Fertilization produces a zygote that is diploid, 2n. The zygote is the only diploid cell. Meiosis follows fertilization immediately, and the haploid cells from that meiosis grow into the next multicellular body. The zygote does not grow by mitosis into a multicellular sporophyte. That growth is a sporic cycle, which has a multicellular 2n generation. A multicellular body that is 2n and makes gametes by meiosis is a gametic cycle. In that cycle the gametes are the only haploid cells."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 amoebozoan groups within Unikonta."
+      },
+      "bank": [
+        "Tubulinids",
+        "Radiolarians",
+        "Entamoebas",
+        "Foraminiferans",
+        "Slime molds"
+      ],
+      "answers": [
+        "Tubulinids",
+        "Entamoebas",
+        "Slime molds"
+      ],
+      "explanation": "Tubulinids, entamoebas, and slime molds are amoebozoans within Unikonta. They have lobe- or tube-shaped pseudopodia. Tubulinids are free-living. Those pseudopodia engulf bacteria and other protists, which is why tubulinids are the amoebas placed with the animal-like protists. Entamoebas are parasites of animals. Slime molds engulf food during a feeding stage, then form a fruiting body that releases spores. Radiolarians and foraminiferans are rhizarians. Their pseudopodia are threadlike, and neither group is an amoebozoan."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What do tubulinids, entamoebas, and slime molds have in common?"
+      },
+      "options": [
+        "Each group is free-living, parasitic, and able to form a fruiting body.",
+        "They are amoebozoans within Unikonta, and they have lobe- or tube-shaped pseudopodia.",
+        "They all feed with threadlike pseudopodia and an internal silica skeleton.",
+        "They all absorb nutrients through filaments and have chitin walls."
+      ],
+      "answer": "They are amoebozoans within Unikonta, and they have lobe- or tube-shaped pseudopodia.",
+      "explanation": "These three are amoebozoans within Unikonta. The shared cell shape is a lobe- or tube-shaped pseudopodium, broader than the threadlike pseudopodia of rhizarians. The three groups do not share one another's special habits. Free-living feeding on bacteria and other protists belongs to tubulinids. Parasitism of animals belongs to entamoebas. A feeding plasmodium or an aggregate of cells, followed by a fruiting body, belongs to slime molds. An internal silica skeleton belongs to radiolarians. Chitin walls and absorption through filaments are fungal traits. Slime molds were once mistaken for fungi, but they engulf food."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes tubulinids from entamoebas and slime molds?"
+      },
+      "options": [
+        "They are parasites of animals and pass from host to host as resistant cysts.",
+        "The feeding stage engulfs food as a multinucleate plasmodium or as separate cells that later aggregate, and a fruiting body releases spores.",
+        "They are free-living. Lobe- or tube-shaped pseudopodia engulf bacteria and other protists.",
+        "They feed with threadlike pseudopodia and have an internal silica skeleton."
+      ],
+      "answer": "They are free-living. Lobe- or tube-shaped pseudopodia engulf bacteria and other protists.",
+      "explanation": "Tubulinids are free-living amoebozoans in soil, fresh water, and the sea. Their lobe- or tube-shaped pseudopodia are the broader pseudopodia of the amoebas in the animal-like protists. They engulf bacteria and other protists. They are not parasites, and they do not form a fruiting body. Parasitic cysts that pass between animal hosts are an entamoeba trait. A plasmodium or an aggregate of cells, then a fruiting body, is a slime-mold trait. Threadlike pseudopodia and an internal silica skeleton are radiolarian traits."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes entamoebas from tubulinids and slime molds?"
+      },
+      "options": [
+        "They are free-living. Lobe- or tube-shaped pseudopodia engulf bacteria and other protists.",
+        "They are parasites of animals and enter host cells with an apical complex.",
+        "The feeding stage engulfs food as a multinucleate plasmodium or as separate cells that later aggregate, and a fruiting body releases spores.",
+        "They are parasites of animals and pass from host to host as resistant cysts."
+      ],
+      "answer": "They are parasites of animals and pass from host to host as resistant cysts.",
+      "explanation": "Entamoebas are parasites of animals. A resistant cyst carries the parasite from one host to another. They do not live free in soil and water engulfing bacteria, and they do not form a fruiting body. An apical complex is an apicomplexan trait. Apicomplexans are alveolates, not amoebozoans, so parasitism alone does not place entamoebas with them. Free-living lobe- or tube-shaped pseudopodia belong to tubulinids. A plasmodium or an aggregate of cells, then a fruiting body, belongs to slime molds."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes slime molds from tubulinids and entamoebas?"
+      },
+      "options": [
+        "They are free-living. Lobe- or tube-shaped pseudopodia engulf bacteria and other protists.",
+        "Filaments with chitin walls absorb nutrients, and a fruiting body releases spores.",
+        "They are parasites of animals and pass from host to host as resistant cysts.",
+        "The feeding stage engulfs food as a multinucleate plasmodium or as separate cells that later aggregate, and a fruiting body releases spores."
+      ],
+      "answer": "The feeding stage engulfs food as a multinucleate plasmodium or as separate cells that later aggregate, and a fruiting body releases spores.",
+      "explanation": "Slime molds engulf food, then build a fruiting body that releases spores. In a plasmodial slime mold the feeding stage is one cytoplasmic mass with many nuclei and no plasma membranes between those nuclei. In a cellular slime mold the feeding stage is separate amoeboid cells. When food runs out, those cells aggregate, but each cell keeps its own membrane. The fruiting body resembles a fungal structure, but slime molds do not absorb nutrients through chitin-walled filaments. Fungi do that. Free-living lobe- or tube-shaped pseudopodia that engulf bacteria and other protists, without a fruiting body, belong to tubulinids. Parasitic cysts belong to entamoebas."
+    }
+  ]
+}

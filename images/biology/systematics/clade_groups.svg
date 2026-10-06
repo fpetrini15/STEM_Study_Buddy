@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 1060" role="img">
+  <rect width="440" height="1060" fill="#ffffff"/>
+
+  <text x="24" y="32" fill="#1d4e89" font-family="system-ui, sans-serif" font-size="20" font-weight="700">Group 1</text>
+  <rect x="168" y="196" width="190" height="130" rx="22" fill="#1d4e89" fill-opacity="0.1" stroke="#1d4e89" stroke-width="3"/>
+  <line x1="28" y1="155" x2="56" y2="155" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="56" y1="94" x2="56" y2="216" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="56" y1="94" x2="200" y2="94" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="72" x2="200" y2="116" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="72" x2="300" y2="72" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="116" x2="300" y2="116" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="56" y1="216" x2="130" y2="216" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="130" y1="168" x2="130" y2="264" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="130" y1="168" x2="300" y2="168" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="130" y1="264" x2="200" y2="264" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="228" x2="200" y2="300" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="228" x2="300" y2="228" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="300" x2="300" y2="300" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="316" y="72" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">A</text>
+  <text x="316" y="116" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">B</text>
+  <text x="316" y="168" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">C</text>
+  <text x="316" y="228" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">D</text>
+  <text x="316" y="300" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">E</text>
+
+  <line x1="24" y1="356" x2="416" y2="356" stroke="#e6eaf0" stroke-width="2"/>
+
+  <text x="24" y="392" fill="#0f766e" font-family="system-ui, sans-serif" font-size="20" font-weight="700">Group 2</text>
+  <rect x="108" y="488" width="272" height="128" rx="22" fill="#0f766e" fill-opacity="0.1" stroke="#0f766e" stroke-width="3"/>
+  <line x1="28" y1="495" x2="56" y2="495" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="56" y1="434" x2="56" y2="556" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="56" y1="434" x2="200" y2="434" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="412" x2="200" y2="456" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="412" x2="300" y2="412" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="456" x2="300" y2="456" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="56" y1="556" x2="130" y2="556" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="130" y1="508" x2="130" y2="604" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="130" y1="508" x2="300" y2="508" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="130" y1="604" x2="200" y2="604" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="568" x2="200" y2="640" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="568" x2="300" y2="568" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="640" x2="300" y2="640" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="316" y="412" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">A</text>
+  <text x="316" y="456" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">B</text>
+  <text x="316" y="508" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">C</text>
+  <text x="316" y="568" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">D</text>
+  <text x="316" y="640" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">E</text>
+
+  <line x1="24" y1="696" x2="416" y2="696" stroke="#e6eaf0" stroke-width="2"/>
+
+  <text x="24" y="732" fill="#c2410c" font-family="system-ui, sans-serif" font-size="20" font-weight="700">Group 3</text>
+  <text x="118" y="732" fill="#c2410c" font-family="system-ui, sans-serif" font-size="15">two circles, one group</text>
+  <ellipse cx="332" cy="772" rx="50" ry="24" fill="#c2410c" fill-opacity="0.1" stroke="#c2410c" stroke-width="3"/>
+  <ellipse cx="332" cy="1000" rx="50" ry="24" fill="#c2410c" fill-opacity="0.1" stroke="#c2410c" stroke-width="3"/>
+  <line x1="28" y1="855" x2="56" y2="855" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="56" y1="794" x2="56" y2="916" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="56" y1="794" x2="200" y2="794" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="772" x2="200" y2="816" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="772" x2="300" y2="772" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="816" x2="300" y2="816" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="56" y1="916" x2="130" y2="916" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="130" y1="868" x2="130" y2="964" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="130" y1="868" x2="300" y2="868" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="130" y1="964" x2="200" y2="964" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="928" x2="200" y2="1000" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="928" x2="300" y2="928" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="1000" x2="300" y2="1000" stroke="#243040" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="316" y="772" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">A</text>
+  <text x="316" y="816" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">B</text>
+  <text x="316" y="868" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">C</text>
+  <text x="316" y="928" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">D</text>
+  <text x="316" y="1000" fill="#243040" font-family="system-ui, sans-serif" font-size="18" dominant-baseline="middle">E</text>
+</svg>

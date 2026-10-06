@@ -1,0 +1,264 @@
+{
+  "title": "Evidence of Evolution",
+  "questions": [
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 principles of evolution."
+      },
+      "bank": [
+        "Populations of living things change over time",
+        "The environment influences this change in a population",
+        "Advantageous traits become more common in the population",
+        "Individual organisms change their inherited traits during their own lifetime",
+        "A population changes in the same way regardless of the environment",
+        "Traits an individual acquires during its life become more common in the population"
+      ],
+      "answers": [
+        "Populations of living things change over time",
+        "The environment influences this change in a population",
+        "Advantageous traits become more common in the population"
+      ],
+      "explanation": "Populations change across generations. An individual does not rewrite its inherited traits during one lifetime. The environment influences which changes spread, so the same population would not change the same way in every environment. Advantageous heritable traits become more common. A trait acquired during one life, such as a learned skill or an injury, is not what spreads through the population."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence about the short-term and long-term effects of evolution."
+      },
+      "sentence": [
+        "In the short term, evolution changes ",
+        null,
+        ". In the long term, evolution produces ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "the gene pool of a population",
+        "speciation events"
+      ],
+      "bank": [
+        "the gene pool of a population",
+        "speciation events",
+        "the inherited traits of one individual",
+        "a new species within one generation"
+      ],
+      "explanation": "Over the short term, evolution changes a population's gene pool: which alleles are present and how common they are. Over the long term, those changes can produce speciation, when one species splits into two. An individual's inherited traits stay with that individual, and a new species does not appear inside a single generation."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 4 main sources of evolutionary evidence."
+      },
+      "bank": [
+        "Fossils",
+        "Homologous characteristics",
+        "Biogeography",
+        "Evidence by example",
+        "Fossils ordered by body size",
+        "Analogous characteristics",
+        "The present climate zone of a species",
+        "Change in one organism during its lifetime"
+      ],
+      "answers": [
+        "Fossils",
+        "Homologous characteristics",
+        "Biogeography",
+        "Evidence by example"
+      ],
+      "explanation": "Fossils are evidence when they are compared across time. Ordering them by body size does not show that history. Homologous characteristics are traits inherited from a common ancestor. Analogous characteristics look alike because they solve a similar problem, and they evolved separately. Biogeography is where related lineages live and how they got there, not the climate zone one species occupies today. Evidence by example is a documented change in a population across generations. Change in one organism during its life is development."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes why fossils are important evidence for evolution?"
+      },
+      "options": [
+        "They record past organisms in historical order, including extinct species and intermediate forms.",
+        "They provide an unbroken series of direct ancestors for every living species.",
+        "Each fossil is a direct ancestor of a species alive today.",
+        "They preserve the allele frequencies of most extinct populations."
+      ],
+      "answer": "They record past organisms in historical order, including extinct species and intermediate forms.",
+      "explanation": "Fossils matter because they place organisms in time and include species that no longer exist, plus forms intermediate between major groups. Most fossils do not preserve allele frequencies. The record has gaps, so it is not a complete ancestor-to-descendant chain for every living species, and many fossils represent side branches rather than direct ancestors of species alive today."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A student finds fossils in a cliff that is eroding and concludes that fossils form in erosional environments. What is wrong with that conclusion?"
+      },
+      "options": [
+        "Erosion is what turns bone and shell into fossils, so the cliff is where preservation happened.",
+        "Depositional environments destroy hard parts, so fossils can form only as rock is worn away.",
+        "The cliff is a depositional environment because loose rock collects at its base.",
+        "Erosion can expose fossils that formed earlier, when sediment buried the remains in a depositional environment."
+      ],
+      "answer": "Erosion can expose fossils that formed earlier, when sediment buried the remains in a depositional environment.",
+      "explanation": "Fossils form where sediment is deposited and buries remains before they are destroyed. Later erosion can uncover those layers. Finding a fossil in an eroding cliff shows where it was exposed, not the environment in which it was preserved."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In which setting is a dead organism most likely to become a fossil?"
+      },
+      "options": [
+        "A rocky ridge where weathering carries debris away",
+        "A lava flow that covers and melts the organism",
+        "A river delta where mud is burying shells and bones",
+        "A glacier scraping bedrock and leaving a bare surface"
+      ],
+      "answer": "A river delta where mud is burying shells and bones",
+      "explanation": "Preservation requires burial in a depositional environment. A delta accumulates sediment over remains. A weathering ridge, a lava flow, and a glacier scouring bedrock remove or destroy material instead of burying it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best defines a transitional fossil?"
+      },
+      "options": [
+        "A fossil that lived in the time between an ancestor and a descendant, with the descendant's anatomy already in place",
+        "A fossil that retains some traits of an ancestral group and also has traits of a later group",
+        "A fossil anatomically between two living species that evolved the same traits independently",
+        "The direct ancestor required to connect an extinct species to a species alive today"
+      ],
+      "answer": "A fossil that retains some traits of an ancestral group and also has traits of a later group",
+      "explanation": "A transitional fossil mixes ancestral traits with traits of a later group, as in a fishlike animal that also has limb bones. Living at an intermediate time is not enough if the anatomy already matches only the later group. A transitional fossil also does not have to be the direct ancestor of a living species. Many are close relatives that record the transition. Similarity that evolved separately in two living species is convergence, not a transition from an ancestor."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best defines biogeography?"
+      },
+      "options": [
+        "The geographic distribution of species as explained by the climates and habitats they occupy",
+        "The distribution of species through successive rock layers, read as the history of one region",
+        "The geographic distribution of related species, with each lineage originating on the continent where it lives now",
+        "The geographic distribution of species and the history by which related lineages came to live there"
+      ],
+      "answer": "The geographic distribution of species and the history by which related lineages came to live there",
+      "explanation": "Biogeography is where species live and the history that put related lineages there. Climate and habitat help explain where a species can survive, but they leave out that history. The order of species in stacked rock layers is a local fossil sequence, not a geographic pattern. Related species also do not always originate on the continent where they live now. Horses originated in North America and later disappeared there, while their living relatives persisted elsewhere."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Remote islands and long-isolated continents often hold many closely related species found nowhere else. Which explanation fits that pattern?"
+      },
+      "options": [
+        "Continued interbreeding with mainland relatives keeps reshaping the isolated populations.",
+        "A colonizing lineage was cut off from gene flow, and open niches let its populations diverge into new species.",
+        "Every niche was already filled by unrelated competitors, so the isolated lineage kept a single body plan.",
+        "Individuals altered their traits during their lives to match empty niches and passed those acquired traits on."
+      ],
+      "answer": "A colonizing lineage was cut off from gene flow, and open niches let its populations diverge into new species.",
+      "explanation": "Long isolation limits mating with relatives elsewhere. Descendants of a few colonists can then speciate as they use different open niches. That spread into many species is adaptive radiation. Ongoing gene flow with the mainland would slow the split. Niches that are already full leave less room for it. Traits gained during one life are not how those species form."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best defines homologous characteristics?"
+      },
+      "options": [
+        "Traits that serve the same function in different species, whether or not those species inherited the trait from a shared ancestor",
+        "Traits that became similar after unrelated species faced the same environmental demands",
+        "Traits that different species inherited from a common ancestor, even if the traits now have different functions",
+        "Traits that match in two living species because both appear at the same time in the fossil record"
+      ],
+      "answer": "Traits that different species inherited from a common ancestor, even if the traits now have different functions",
+      "explanation": "Homologous characteristics are similarities due to shared ancestry. The forelimbs of humans, bats, and whales are homologous even though they are used differently. Traits that match because they do the same job, or because unrelated species faced the same conditions, are analogous. Those similarities evolved separately. Appearing at the same time in the fossil record does not show that a trait was inherited from a common ancestor."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing homologous and analogous features."
+      },
+      "sentence": [
+        "A homologous feature is a similarity due to ",
+        null,
+        ", while an analogous feature is a similarity due to ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "inheritance from a common ancestor",
+        "a similar function that evolved independently"
+      ],
+      "bank": [
+        "inheritance from a common ancestor",
+        "a similar function that evolved independently",
+        "the same function in the species alive today",
+        "both species appearing in the same rock layer"
+      ],
+      "explanation": "A homologous feature is similar because the species inherited it from a common ancestor. The function may stay the same or change later. An analogous feature is similar because each lineage evolved a comparable function on its own. Sharing a function today does not show which kind of similarity it is, because some inherited traits still do the same job. A match in one rock layer shows timing, not whether the trait was inherited or evolved separately."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement correctly describes convergent evolution and the kind of trait it produces?"
+      },
+      "options": [
+        "Descendants of one ancestor keep a shared trait after the lineages split, so the trait is homologous.",
+        "Unrelated lineages each evolve a similar trait under similar conditions, and that match makes the trait homologous.",
+        "Related lineages inherit a trait and use it for the same job, so the matching function makes the trait analogous.",
+        "Unrelated lineages each evolve a similar trait under similar conditions, and that independently evolved trait is analogous."
+      ],
+      "answer": "Unrelated lineages each evolve a similar trait under similar conditions, and that independently evolved trait is analogous.",
+      "explanation": "Convergent evolution happens when separate lineages, facing similar conditions, evolve a similar trait on their own. That similarity is analogous. Keeping a trait after lineages split is shared ancestry, so the trait is homologous, not a product of convergence. A match between independently evolved traits does not make them homologous. Inheriting a trait and still using it for the same job is also homology. The function can match without the trait having evolved separately."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes what similar early embryos show in related vertebrates?"
+      },
+      "options": [
+        "The embryo passes through the adult body of each ancestor, in evolutionary order, before it reaches its own adult form.",
+        "Early embryos share structures inherited from a common ancestor, and many of those structures are changed or lost by the adult stage.",
+        "Early embryos match because each lineage separately evolved the same sequence for growing in an egg or womb, so the similarity is analogous.",
+        "The embryo that most resembles an adult fossil is the direct living descendant of that fossil species."
+      ],
+      "answer": "Early embryos share structures inherited from a common ancestor, and many of those structures are changed or lost by the adult stage.",
+      "explanation": "Related vertebrates inherit an early developmental pattern from a common ancestor. Structures such as pharyngeal pouches and a post-anal tail can appear in embryos whose adults no longer show them in that form. Those shared structures are homologous. The embryo does not become the adult of each ancestor in turn. A similar place to develop does not make the structures analogous, because they were inherited rather than evolved separately in each lineage. Resembling an adult fossil does not make a living species that fossil's direct descendant."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes evidence by example?"
+      },
+      "options": [
+        "A documented change across generations in which heritable traits become more or less common in a population.",
+        "A documented change in one organism from birth to adulthood, used as the record of how that species evolved.",
+        "A documented case in which individuals gain a useful trait during life and their offspring inherit that acquired trait.",
+        "A comparison of early embryos, used as a living record of the population changing from one generation to the next."
+      ],
+      "answer": "A documented change across generations in which heritable traits become more or less common in a population.",
+      "explanation": "Evidence by example is a change followed in a population across generations: which heritable traits are present, and how common they are. Growth from birth to adulthood is development in one organism. A trait gained during one life is not inherited by offspring. Comparing embryos shows inherited developmental structures. It does not record a population changing from one generation to the next."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement correctly classifies the forelimbs of humans, bats, and whales, and the wings of a bat and an insect?"
+      },
+      "options": [
+        "The forelimbs are analogous, because walking, flying, and swimming are different jobs, and the wings are homologous, because a bat and an insect inherited flight from a shared ancestor.",
+        "The forelimbs are homologous, and the wings are homologous too, because each pair is a structure used for the same kind of movement.",
+        "The forelimbs are homologous, because they are one inherited limb structure put to different uses, and the wings are analogous, because flight evolved separately in the two lineages.",
+        "The forelimbs are analogous, because the three species live in different habitats, and the wings are analogous, because both occur in flying animals."
+      ],
+      "answer": "The forelimbs are homologous, because they are one inherited limb structure put to different uses, and the wings are analogous, because flight evolved separately in the two lineages.",
+      "explanation": "Human, bat, and whale forelimbs are the same inherited limb bones, even though they are used differently, so they are homologous. A bat wing is that forelimb. An insect wing is a different structure, and flight evolved separately in the two lineages, so those wings are analogous. Different jobs do not make the forelimbs analogous, and a bat and an insect did not inherit flight from a shared ancestor. Using a structure for the same kind of movement does not make it homologous. Living in different habitats, or both being able to fly, does not decide the classification. The origin of the structure does."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes a vestigial structure?"
+      },
+      "options": [
+        "A reduced structure that unrelated species evolved separately for the same limited job, so the structure is analogous.",
+        "A reduced remnant of a structure that was more fully developed in an ancestor, so the remnant is homologous.",
+        "A structure that shrinks because an individual stops using it, with the reduced form then inherited by its offspring.",
+        "A new structure that is still small because the lineage only recently began evolving it."
+      ],
+      "answer": "A reduced remnant of a structure that was more fully developed in an ancestor, so the remnant is homologous.",
+      "explanation": "A vestigial structure is what remains of a feature that was more fully developed in an ancestor. The hip bones of whales are homologous to the hind limbs of their terrestrial ancestors. A reduced part that unrelated species evolved separately would be analogous. Disuse during one animal's life does not shrink a structure and pass that reduced form to offspring. A structure that is small because it evolved recently is a new trait, not a leftover of an ancestral one."
+    }
+  ]
+}

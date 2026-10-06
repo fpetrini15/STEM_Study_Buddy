@@ -1,0 +1,493 @@
+{
+  "title": "Prokaryotes",
+  "questions": [
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 2 domains of life encompassed by prokaryotes."
+      },
+      "bank": [
+        "Bacteria",
+        "Archaea",
+        "Eukarya",
+        "Protists"
+      ],
+      "answers": [
+        "Bacteria",
+        "Archaea"
+      ],
+      "explanation": "Prokaryotes are the organisms in two domains, Bacteria and Archaea. Their cells have no nucleus. Eukarya is the third domain. Its cells have a nucleus, so members of that domain are not prokaryotes. Protists are not a domain. They are eukaryotes, placed inside Eukarya."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 4 characteristics shared by all three domains of life."
+      },
+      "bank": [
+        "Plasma membrane and ribosomes",
+        "Metabolic pathways",
+        "Semiconservative DNA replication",
+        "DNA that encodes proteins",
+        "A membrane-bound nucleus",
+        "Peptidoglycan in the cell wall"
+      ],
+      "answers": [
+        "Plasma membrane and ribosomes",
+        "Metabolic pathways",
+        "Semiconservative DNA replication",
+        "DNA that encodes proteins"
+      ],
+      "explanation": "Bacteria, Archaea, and Eukarya all have a plasma membrane and ribosomes. They share core metabolic pathways, such as glycolysis. They copy DNA semiconservatively, so each new double helix keeps one parental strand. Their DNA encodes proteins. A membrane-bound nucleus is found in Eukarya. Bacteria and Archaea do not have one. Peptidoglycan is a cell-wall material of Bacteria. Archaea use different wall molecules, and Eukarya do not build peptidoglycan walls."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes the main difference between Eukarya and prokaryotes?"
+      },
+      "options": [
+        "Eukarya have a plasma membrane and ribosomes. Prokaryotes lack both.",
+        "Eukarya replicate DNA semiconservatively. Prokaryotes keep the parental helix intact and build an entirely new one.",
+        "Eukarya keep their DNA in a membrane-bound nucleus and have other membrane-enclosed organelles. Prokaryotes have neither.",
+        "Eukarya are multicellular. Prokaryotes are single cells whose DNA does not encode proteins."
+      ],
+      "answer": "Eukarya keep their DNA in a membrane-bound nucleus and have other membrane-enclosed organelles. Prokaryotes have neither.",
+      "explanation": "Eukaryotic DNA is enclosed by a nuclear membrane, and eukaryotic cells have other membrane-enclosed organelles. Prokaryotic DNA sits in the nucleoid and is not enclosed by a nuclear membrane. A plasma membrane and ribosomes are shared by all three domains. All three domains also replicate DNA semiconservatively. Each new double helix keeps one parental strand. Many eukaryotes are unicellular, and prokaryotic DNA does encode proteins. Multicellularity and the genetic code are not the difference."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How is the main genetic material of a bacterium stored?"
+      },
+      "options": [
+        "Usually as one circular chromosome in the nucleoid, a region that is not enclosed by a membrane.",
+        "As linear chromosomes inside a membrane-bound nucleus.",
+        "Only as plasmids. A bacterium has no chromosome of its own.",
+        "As RNA built into the ribosomes, with no separate DNA genome."
+      ],
+      "answer": "Usually as one circular chromosome in the nucleoid, a region that is not enclosed by a membrane.",
+      "explanation": "The main bacterial genome is usually one circular DNA molecule located in the nucleoid. That region is not bounded by a nuclear membrane. Linear chromosomes inside a nucleus are the eukaryotic arrangement. Plasmids are extra DNA molecules. They do not replace the chromosome. Ribosomes contain RNA and protein and build new proteins. The genome that encodes those proteins is DNA."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a plasmid?"
+      },
+      "options": [
+        "The main circular chromosome in the nucleoid, which carries the genes the cell needs to live.",
+        "An RNA copy of the chromosome that replaces DNA while the cell replicates.",
+        "A membrane sac that exports proteins and contains no genetic material.",
+        "A small DNA molecule separate from the chromosome. It replicates on its own and often carries accessory genes."
+      ],
+      "answer": "A small DNA molecule separate from the chromosome. It replicates on its own and often carries accessory genes.",
+      "explanation": "A plasmid is extra DNA, usually a small circle, apart from the bacterial chromosome. It has its own origin of replication, so the cell can copy it independently. Its genes are often accessory, such as antibiotic resistance, and a plasmid can move into another bacterium. The chromosome in the nucleoid is the main genome, not a plasmid. A plasmid is DNA, not an RNA transcript. It is genetic material, not a membrane compartment that only ships proteins."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A bacterial cell copies its chromosome and pinches into two cells, and each cell receives a copy. Which process is this?"
+      },
+      "options": [
+        "Conjugation",
+        "Binary fission",
+        "Mitosis",
+        "Transformation"
+      ],
+      "answer": "Binary fission",
+      "explanation": "Binary fission is prokaryotic reproduction. The cell replicates its chromosome and divides into two, and each daughter receives a copy. There is no spindle and no nucleus. Conjugation moves DNA, often a plasmid, from one bacterium into another through direct contact. The donor does not split into two daughters. Mitosis separates chromosomes inside a eukaryotic nucleus. Bacteria have no nucleus. Transformation is uptake of DNA from the surroundings. It adds genes to a cell. It is not the division that produces two cells."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why can one bacterial cell form a visible colony on a solid surface?"
+      },
+      "options": [
+        "It recruits unrelated species, and only that mixture grows large enough to see.",
+        "Daughter cells fuse into one body with a shared nucleus before any growth is visible.",
+        "Repeated binary fission leaves the descendant cells together, so the colony is a mass of cells from that founder.",
+        "Each plasmid transfer creates a new cell, and those transfers pile up into the colony."
+      ],
+      "answer": "Repeated binary fission leaves the descendant cells together, so the colony is a mass of cells from that founder.",
+      "explanation": "On a solid surface, a bacterium divides by binary fission and the daughter cells stay in place. Many rounds produce a visible colony, a mass of descendants of the founder cell. A colony does not require recruiting other species. Bacteria do not fuse into one body with a shared nucleus. They have no nucleus. Plasmid transfer moves DNA into another cell. It does not create the daughter cells of the colony."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 general presentations of bacteria."
+      },
+      "bank": [
+        "Round",
+        "Rod-like",
+        "Spiral",
+        "Branching",
+        "Amoeboid",
+        "Cuboidal"
+      ],
+      "answers": [
+        "Round",
+        "Rod-like",
+        "Spiral"
+      ],
+      "explanation": "The three general bacterial shapes are round, also called a coccus, rod-like, also called a bacillus, and spiral. Some bacteria grow as branching filaments, but branching is not one of those three general presentations. Amoeboid describes a flexible eukaryotic cell that crawls by pushing out its cytoplasm. Cuboidal is a shape used for some animal tissues. Neither one is a general bacterial form."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence defining fimbriae and pili."
+      },
+      "sentence": [
+        "Fimbriae are ",
+        null,
+        ", while pili are ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "short protein filaments that attach a cell to a surface or to other cells",
+        "longer protein filaments that can draw two cells together so DNA can move between them"
+      ],
+      "bank": [
+        "short protein filaments that attach a cell to a surface or to other cells",
+        "longer protein filaments that can draw two cells together so DNA can move between them",
+        "small DNA circles that replicate separately from the chromosome",
+        "the region that holds the main circular chromosome and is not enclosed by a membrane"
+      ],
+      "explanation": "Fimbriae are numerous short filaments. They let a bacterium stick to a surface or to other cells, which helps hold a colony together. Pili are longer. A sex pilus pulls two cells into contact so DNA, often a plasmid, can pass from one cell to the other. That transfer is conjugation, not the division that produces daughter cells. Small DNA circles that replicate on their own are plasmids, not filaments. The nucleoid holds the chromosome. It is not an appendage on the cell surface."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why are bacterial plasmids important?"
+      },
+      "options": [
+        "They can carry accessory genes, such as antibiotic resistance, and move those genes into another bacterium.",
+        "They hold every gene required for life, so the cell can discard its chromosome once a plasmid is present.",
+        "They form the nuclear membrane that encloses the bacterial chromosome.",
+        "They are the protein filaments that stick a cell to a surface, so a colony cannot form without them."
+      ],
+      "answer": "They can carry accessory genes, such as antibiotic resistance, and move those genes into another bacterium.",
+      "explanation": "A plasmid can carry genes the chromosome does not need for basic survival, and those genes can still change what the cell can do. Antibiotic resistance is a common example. The plasmid can enter another bacterium, so the recipient gains the trait without inheriting the donor's whole chromosome. The chromosome remains the main genome, and a cell can often live after losing a particular plasmid. Plasmids do not build a nuclear membrane. Bacteria do not have one. The filaments that attach a cell to a surface are fimbriae. A colony forms by repeated binary fission."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing genetic recombination by plasmids with transduction by a virus."
+      },
+      "sentence": [
+        "Recombination by a plasmid occurs when ",
+        null,
+        ", while transduction occurs when ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "a donor cell passes plasmid DNA to a recipient cell that it is touching",
+        "a virus carries bacterial DNA from one cell and injects it into another"
+      ],
+      "bank": [
+        "a donor cell passes plasmid DNA to a recipient cell that it is touching",
+        "a virus carries bacterial DNA from one cell and injects it into another",
+        "a cell takes up loose DNA released into its surroundings",
+        "a cell copies its chromosome and divides into two daughter cells"
+      ],
+      "explanation": "Plasmid transfer between cells in contact is conjugation. A pilus can draw the cells together, and the recipient gains genes it did not inherit from a parent. Transduction happens when a virus packages bacterial DNA and injects that DNA into another bacterium. The recipient can then add those genes to its own genome. Uptake of loose DNA from the surroundings is transformation. It needs neither a virus nor contact with a living donor. Copying the chromosome and dividing is binary fission. Each daughter receives a copy of the parent chromosome. That is reproduction, not recombination between two cells."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing Gram-positive bacteria with Gram-negative bacteria."
+      },
+      "sentence": [
+        "Gram-positive bacteria have ",
+        null,
+        ", while Gram-negative bacteria have ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "a thick peptidoglycan wall and no outer membrane",
+        "a thin peptidoglycan layer and an outer membrane beyond it"
+      ],
+      "bank": [
+        "a thick peptidoglycan wall and no outer membrane",
+        "a thin peptidoglycan layer and an outer membrane beyond it",
+        "no peptidoglycan at all, because that polymer is found only in archaea",
+        "a nuclear envelope that encloses the chromosome and traps the stain"
+      ],
+      "explanation": "Gram-positive bacteria have a thick peptidoglycan wall and no outer membrane. That thick layer holds the crystal violet stain, so the cells stay purple. Gram-negative bacteria have a thin peptidoglycan layer and an outer membrane beyond it. The outer membrane can block some antibiotics, and the thin wall does not hold the violet stain, so these cells end up pink. Both groups are bacteria, so both have peptidoglycan. Archaea use different wall molecules. Neither group has a nuclear envelope."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence classifying an autotroph, a heterotroph, and an organism that is both."
+      },
+      "sentence": [
+        "An autotroph ",
+        null,
+        ", a heterotroph ",
+        null,
+        ", and one that is both ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "builds its organic molecules from carbon dioxide",
+        "takes in organic molecules made by other organisms",
+        "can build organic molecules from carbon dioxide and also take in organic molecules"
+      ],
+      "bank": [
+        "builds its organic molecules from carbon dioxide",
+        "takes in organic molecules made by other organisms",
+        "can build organic molecules from carbon dioxide and also take in organic molecules",
+        "uses light for energy, so its carbon must come from other organisms",
+        "uses inorganic chemicals for energy, so its carbon must come from other organisms"
+      ],
+      "explanation": "An autotroph makes its own organic molecules from carbon dioxide. A heterotroph takes in organic molecules made by other organisms. An organism that is both can fix carbon dioxide and also consume organic carbon. Light and inorganic chemicals are energy sources, not carbon sources. A photoautotroph uses light and still gets carbon from carbon dioxide. A chemoautotroph uses energy from inorganic chemicals and still gets carbon from carbon dioxide. Those energy sources do not force the cell to be a heterotroph."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes a mutualistic symbiotic relationship?"
+      },
+      "options": [
+        "Two species live in close association. One benefits, and the other is harmed.",
+        "Two species live in close association, and the interaction benefits each of them.",
+        "Two species live in close association. One benefits, and the other is neither helped nor harmed.",
+        "Two species use the same limited resource, and each one reduces the other's success."
+      ],
+      "answer": "Two species live in close association, and the interaction benefits each of them.",
+      "explanation": "Mutualism is a symbiosis in which both partners benefit from living in close association. A relationship that benefits one partner and harms the other is parasitism. A relationship that benefits one partner and leaves the other unaffected is commensalism. When two species reduce each other's success by using the same limited resource, that is competition. Competition is not a partnership in which each one gains."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Bacteria of the genus *Rhizobium* live in nodules on a legume's roots. The bacteria receive carbohydrates from the plant, and the plant receives nitrogen that the bacteria fix. Which relationship is this?"
+      },
+      "options": [
+        "Parasitism. The bacteria take carbohydrates and the plant is harmed.",
+        "Commensalism. The plant gains nitrogen and the bacteria are unaffected.",
+        "Competition. Both species need nitrogen, and each one reduces the other's supply.",
+        "Mutualism. The bacteria gain carbohydrates and the plant gains usable nitrogen."
+      ],
+      "answer": "Mutualism. The bacteria gain carbohydrates and the plant gains usable nitrogen.",
+      "explanation": "Each partner receives a resource from the other. The bacteria get carbohydrates, and the legume gets nitrogen fixed by the bacteria, so the relationship is mutualism. Counting only the sugar taken from the plant misses the nitrogen the plant receives. The bacteria are not unaffected. They depend on those carbohydrates. The two species are not reducing a shared nitrogen supply. The bacteria provide nitrogen the plant can use."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 5 main clades of bacteria."
+      },
+      "bank": [
+        "Proteobacteria",
+        "Chlamydias",
+        "Spirochetes",
+        "Gram-positive bacteria",
+        "Cyanobacteria",
+        "Methanogens",
+        "Extreme halophiles"
+      ],
+      "answers": [
+        "Proteobacteria",
+        "Chlamydias",
+        "Spirochetes",
+        "Gram-positive bacteria",
+        "Cyanobacteria"
+      ],
+      "explanation": "The five main bacterial clades are proteobacteria, chlamydias, spirochetes, gram-positive bacteria, and cyanobacteria. Methanogens and extreme halophiles are archaea. Methanogens release methane in oxygen-free habitats. Extreme halophiles live in water much saltier than the ocean. Both are prokaryotes, and neither is one of these five bacterial clades."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence describing what makes each bacterial clade different."
+      },
+      "sentence": [
+        "Proteobacteria are ",
+        null,
+        ", chlamydias are ",
+        null,
+        ", spirochetes are ",
+        null,
+        ", gram-positive bacteria are ",
+        null,
+        ", and cyanobacteria are ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "a diverse group of gram-negative bacteria",
+        "parasites that live inside animal cells and lack peptidoglycan",
+        "spiral heterotrophs that move by rotating internal filaments",
+        "a clade whose typical cell wall is thick peptidoglycan",
+        "photoautotrophs that produce oxygen"
+      ],
+      "bank": [
+        "a diverse group of gram-negative bacteria",
+        "parasites that live inside animal cells and lack peptidoglycan",
+        "spiral heterotrophs that move by rotating internal filaments",
+        "a clade whose typical cell wall is thick peptidoglycan",
+        "photoautotrophs that produce oxygen",
+        "archaea that release methane in oxygen-free habitats",
+        "archaea that thrive in water much saltier than the ocean"
+      ],
+      "explanation": "Proteobacteria are gram-negative and varied in nutrition. *Rhizobium* and *Escherichia coli* belong here. Chlamydias, such as *Chlamydia*, live inside animal cells, and their walls lack peptidoglycan. Spirochetes, such as *Borrelia burgdorferi*, are spiral heterotrophs that rotate internal filaments to move. Gram-positive bacteria usually have a thick peptidoglycan wall. *Bacillus anthracis* is an example. Mycoplasmas belong to this clade and are an exception because they lack a wall. Cyanobacteria are photoautotrophs that release oxygen. Chloroplasts evolved from a cyanobacterium. Methanogens and extreme halophiles are archaea, not members of these bacterial clades."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing Bacteria with Archaea."
+      },
+      "sentence": [
+        "Bacteria have ",
+        null,
+        ", while Archaea have ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "peptidoglycan in their cell walls and unbranched membrane lipids",
+        "cell walls without peptidoglycan and branched membrane lipids"
+      ],
+      "bank": [
+        "peptidoglycan in their cell walls and unbranched membrane lipids",
+        "cell walls without peptidoglycan and branched membrane lipids",
+        "a membrane-bound nucleus and other membrane-enclosed organelles",
+        "peptidoglycan in their cell walls and branched membrane lipids"
+      ],
+      "explanation": "Bacteria and Archaea are both prokaryotes, so neither has a nucleus or other membrane-enclosed organelles. Bacteria build peptidoglycan walls. Gram-positive cells have a thick layer, and gram-negative cells have a thin layer plus an outer membrane. Their membrane lipids are unbranched. Archaea lack peptidoglycan, and their membrane lipids are branched. Peptidoglycan together with branched lipids mixes a bacterial wall trait with an archaeal membrane trait. Archaea also live in ordinary habitats such as oceans, soils, and animal guts. Extreme heat, salt, or acidity is not a requirement for the domain."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 main groups of Archaea."
+      },
+      "bank": [
+        "Methanogens",
+        "Extreme halophiles",
+        "Extreme thermophiles",
+        "Proteobacteria",
+        "Cyanobacteria"
+      ],
+      "answers": [
+        "Methanogens",
+        "Extreme halophiles",
+        "Extreme thermophiles"
+      ],
+      "explanation": "The three main groups of Archaea are methanogens, extreme halophiles, and extreme thermophiles. Proteobacteria are a diverse clade of gram-negative bacteria. Cyanobacteria are photoautotrophs that produce oxygen. Both are bacteria, so neither is a group of Archaea."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence with an example of what distinguishes each group of Archaea."
+      },
+      "sentence": [
+        "Methanogens are archaea that ",
+        null,
+        ", extreme halophiles are archaea that ",
+        null,
+        ", and extreme thermophiles are archaea that ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "release methane in oxygen-free habitats",
+        "thrive in water much saltier than the ocean",
+        "thrive at very high temperatures"
+      ],
+      "bank": [
+        "release methane in oxygen-free habitats",
+        "thrive in water much saltier than the ocean",
+        "thrive at very high temperatures",
+        "build peptidoglycan cell walls",
+        "produce oxygen by photosynthesis"
+      ],
+      "explanation": "Methanogens release methane where oxygen is absent, such as swamps, sewage, and animal guts. Extreme halophiles, such as *Halobacterium*, live in places like the Great Salt Lake and evaporating salt ponds. Extreme thermophiles, such as *Sulfolobus*, live in hot springs and other very hot water. Peptidoglycan is a bacterial cell-wall material. Archaea do not build it. Oxygen-producing photosynthesis is the cyanobacterial trait, not a trait of these archaea."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence classifying the four nutritional modes of prokaryotes."
+      },
+      "sentence": [
+        "A photoautotroph ",
+        null,
+        ", a chemoautotroph ",
+        null,
+        ", a photoheterotroph ",
+        null,
+        ", and a chemoheterotroph ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "uses light for energy and carbon dioxide for carbon",
+        "uses inorganic chemicals for energy and carbon dioxide for carbon",
+        "uses light for energy and organic molecules for carbon",
+        "uses organic molecules for both energy and carbon"
+      ],
+      "bank": [
+        "uses light for energy and carbon dioxide for carbon",
+        "uses inorganic chemicals for energy and carbon dioxide for carbon",
+        "uses light for energy and organic molecules for carbon",
+        "uses organic molecules for both energy and carbon",
+        "uses light for both energy and carbon",
+        "uses organic molecules for energy and carbon dioxide for carbon"
+      ],
+      "explanation": "Energy source and carbon source are separate. A photoautotroph, such as a cyanobacterium, uses light to build organic molecules from carbon dioxide. A chemoautotroph gets energy by oxidizing inorganic chemicals and still uses carbon dioxide for carbon. A photoheterotroph uses light for energy but takes in organic molecules for carbon. A chemoheterotroph uses organic molecules for both energy and carbon. Light cannot supply carbon. Using organic molecules for energy and carbon dioxide for carbon is not one of the four modes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A bacterium takes up DNA that a dead cell released into the surroundings, and that DNA becomes part of its genome. Which process is this?"
+      },
+      "options": [
+        "Transduction",
+        "Conjugation",
+        "Transformation",
+        "Binary fission"
+      ],
+      "answer": "Transformation",
+      "explanation": "Transformation is uptake of loose DNA from the surroundings. The cell can add that DNA to its genome. Transduction happens when a virus carries bacterial DNA from one cell and injects it into another. Conjugation passes plasmid DNA from a donor to a recipient cell that it is touching. Binary fission copies the cell's own chromosome and divides the cell. The daughters receive the parent's DNA, not DNA released by a dead cell."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes an endospore?"
+      },
+      "options": [
+        "One cell divides into two resistant daughter cells, so forming an endospore is a kind of reproduction.",
+        "A plasmid moves into a second cell, and that transfer builds the resistant coat.",
+        "An active cell must have oxygen, and heat or drying destroys it at once.",
+        "One cell packages a copy of its chromosome in a dormant, resistant coat. It can survive heat and drying, then germinate. This does not produce two offspring."
+      ],
+      "answer": "One cell packages a copy of its chromosome in a dormant, resistant coat. It can survive heat and drying, then germinate. This does not produce two offspring.",
+      "explanation": "Some bacteria form an endospore when conditions are poor. The cell copies its chromosome and surrounds one copy with a tough coat. Water is removed, so the endospore can survive heat and drying. When conditions improve, it germinates into an active cell. One cell produces one endospore, so this is survival, not reproduction. Binary fission is the division that produces two daughter cells. A plasmid transfer moves genes into another cell. It does not build that resistant coat. An active cell that must have oxygen and dies when dried is the opposite of an endospore."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing obligate aerobes, obligate anaerobes, and facultative anaerobes."
+      },
+      "sentence": [
+        "An obligate aerobe ",
+        null,
+        ", an obligate anaerobe ",
+        null,
+        ", and a facultative anaerobe ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "needs oxygen to make ATP",
+        "is poisoned by oxygen and must live without it",
+        "can use oxygen when it is present and can keep making ATP when it is absent"
+      ],
+      "bank": [
+        "needs oxygen to make ATP",
+        "is poisoned by oxygen and must live without it",
+        "can use oxygen when it is present and can keep making ATP when it is absent",
+        "releases methane and can live only where oxygen is abundant",
+        "produces oxygen, so it cannot be harmed by oxygen and does not need it"
+      ],
+      "explanation": "An obligate aerobe needs oxygen for cellular respiration. An obligate anaerobe is poisoned by oxygen and makes ATP without it. A facultative anaerobe uses oxygen when it is available and can keep making ATP by fermentation or anaerobic respiration when oxygen is absent. Methanogens release methane in oxygen-free habitats. They do not require abundant oxygen. Producing oxygen, as cyanobacteria do, does not by itself decide whether a cell needs oxygen or is harmed by it."
+    }
+  ]
+}

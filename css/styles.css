@@ -771,6 +771,12 @@ FEEDBACK GUIDE
   background: var(--inactive-light);
 }
 
+.quiz-filter-chip[data-course="bio100b"]:hover {
+  border-color: #7c5cbf;
+
+  background: color-mix(in srgb, #7c5cbf 16%, var(--card-bg));
+}
+
 .quiz-filter-chip--active {
   color: #fff;
 
@@ -785,6 +791,24 @@ FEEDBACK GUIDE
   background: var(--primary);
 
   border-color: var(--primary);
+}
+
+.quiz-filter-chip[data-course="bio100b"].quiz-filter-chip--active,
+.quiz-filter-chip[data-course="bio100b"].quiz-filter-chip--active:hover {
+  color: #fff;
+
+  background: #7c5cbf;
+
+  border-color: #7c5cbf;
+}
+
+[data-theme="dark"] .quiz-filter-chip[data-course="bio100b"].quiz-filter-chip--active,
+[data-theme="dark"] .quiz-filter-chip[data-course="bio100b"].quiz-filter-chip--active:hover {
+  color: #fff;
+
+  background: #7c5cbf;
+
+  border-color: #7c5cbf;
 }
 
 .quiz-search-wrap {
@@ -820,6 +844,18 @@ FEEDBACK GUIDE
 .quiz-card.hidden,
 .quiz-unit.hidden {
   display: none;
+}
+
+.course-empty {
+  max-width: 720px;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.course-empty p {
+  margin-top: 8px;
 }
 
 /* =========================
@@ -965,6 +1001,54 @@ SUBJECT GRID
   color: var(--text-light);
 
   margin: 0 0 18px;
+}
+
+.quiz-card--tagged {
+  position: relative;
+
+  padding-top: 46px;
+}
+
+.quiz-card-label--course {
+  position: absolute;
+
+  top: 12px;
+
+  right: 12px;
+
+  padding: 4px 10px;
+
+  font-family: var(--font-ui);
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  line-height: 1.2;
+
+  color: var(--primary);
+
+  background: color-mix(in srgb, var(--primary) 12%, var(--card-bg));
+
+  border: 2px solid color-mix(in srgb, var(--primary) 45%, var(--border));
+
+  border-radius: 999px;
+}
+
+.quiz-card[data-course="bio100b"] .quiz-card-label--course {
+  color: #5c3d99;
+
+  background: color-mix(in srgb, #7c5cbf 16%, var(--card-bg));
+
+  border-color: color-mix(in srgb, #7c5cbf 55%, var(--border));
+}
+
+[data-theme="dark"] .quiz-card[data-course="bio100b"] .quiz-card-label--course {
+  color: #e4d8fb;
+
+  background: color-mix(in srgb, #7c5cbf 28%, var(--card-bg));
+
+  border-color: color-mix(in srgb, #c4b0e8 50%, var(--border));
 }
 
 .quiz-unit {
@@ -1280,6 +1364,16 @@ QUIZ AREA
   background: color-mix(in srgb, var(--primary) 16%, var(--card-bg));
 }
 
+.draggable-text em,
+.drag-sentence-text em,
+.sentence-chip em,
+.feedback-explanation em,
+.feedback-detail em,
+.quiz-feedback-list em,
+#prompt em {
+  font-style: italic;
+}
+
 .draggable-text {
   font-family: var(--font-study);
 
@@ -1372,6 +1466,14 @@ QUIZ AREA
   padding: 6px;
 
   box-shadow: var(--shadow-card);
+}
+
+.quiz-image--plot {
+  max-width: 460px;
+
+  width: 100%;
+
+  height: auto;
 }
 
 .image-instruction {
@@ -2234,6 +2336,10 @@ MOBILE
     max-width: 180px;
   }
 
+  .quiz-image--plot {
+    max-width: 100%;
+  }
+
   .btn {
     font-size: 16px;
 
@@ -2959,6 +3065,66 @@ DRAG SENTENCE
 
 [data-theme="dark"] .sentence-chip--selected {
   background: color-mix(in srgb, var(--primary) 22%, var(--card-bg));
+}
+
+.categories--select-all {
+  display: block;
+
+  width: 100%;
+
+  max-width: 860px;
+
+  margin-right: auto;
+
+  margin-left: auto;
+}
+
+.select-all-status {
+  margin: 0 0 14px;
+
+  font-family: var(--font-ui);
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  color: var(--text-light);
+}
+
+.select-all-chip {
+  cursor: pointer;
+}
+
+.select-all-chip--correct {
+  border-color: var(--correct);
+
+  background: #eafff3;
+}
+
+.select-all-chip--incorrect {
+  border-color: var(--incorrect);
+
+  background: #ffecec;
+}
+
+.select-all-chip--missed {
+  border-style: dashed;
+
+  border-color: var(--correct);
+
+  background: color-mix(in srgb, var(--correct) 12%, var(--card-bg));
+}
+
+[data-theme="dark"] .select-all-chip--correct {
+  background: color-mix(in srgb, var(--correct) 18%, var(--card-bg));
+}
+
+[data-theme="dark"] .select-all-chip--incorrect {
+  background: color-mix(in srgb, var(--incorrect) 16%, var(--card-bg));
+}
+
+[data-theme="dark"] .select-all-chip--missed {
+  background: color-mix(in srgb, var(--correct) 12%, var(--card-bg));
 }
 
 .quiz-feedback-list {

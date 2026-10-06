@@ -78,10 +78,15 @@ function formatStemHtml(text) {
   return html;
 }
 
+function applyItalics(html) {
+  return html.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+}
+
 function setStemText(element, text) {
   const value = String(text ?? "");
   const dedicated = isDedicatedFormulaElement(element);
   const markup = needsStemMarkup(value);
+  const italic = /\*[^*]+\*/.test(value);
   // STEM serif is reserved for dedicated formula chips (e.g. Lewis). Quiz prompts,
   // options, and feedback stay on the UI face so mixed prose doesn't flicker fonts.
   const useStemFont = dedicated;
@@ -92,8 +97,8 @@ function setStemText(element, text) {
     element.classList.remove("stem-text");
   }
 
-  if (markup) {
-    element.innerHTML = formatStemHtml(value);
+  if (markup || italic) {
+    element.innerHTML = applyItalics(formatStemHtml(value));
     return;
   }
 

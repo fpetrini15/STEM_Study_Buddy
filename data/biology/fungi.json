@@ -1,0 +1,368 @@
+{
+  "title": "Fungi",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement describes how fungi obtain nutrients?"
+      },
+      "options": [
+        "Fungi are autotrophs. They build organic molecules from carbon dioxide.",
+        "Fungi are heterotrophs. They consume food by taking it into the body and digesting it there.",
+        "Fungi are heterotrophs. They do not consume food. They release enzymes outside the body and absorb the smaller organic molecules.",
+        "Fungi are heterotrophs. They engulf prey with pseudopodia and digest it inside the cell."
+      ],
+      "answer": "Fungi are heterotrophs. They do not consume food. They release enzymes outside the body and absorb the smaller organic molecules.",
+      "explanation": "Fungi are heterotrophs. They use organic molecules made by other organisms, and they have no chloroplasts that could build those molecules from carbon dioxide. They do not consume food by taking it into the body. Animals digest food inside the body, and some protists engulf prey with pseudopodia and digest it inside the cell. A fungus releases enzymes into its surroundings. The enzymes break large organic molecules into smaller ones, and the fungus then absorbs those smaller molecules."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a saprobe?"
+      },
+      "options": [
+        "A heterotroph that absorbs nutrients from a living host and harms that host.",
+        "An autotroph that builds organic molecules from carbon dioxide using dead leaves as a surface.",
+        "A heterotroph that absorbs nutrients from nonliving organic matter, such as dead organisms or wastes.",
+        "A heterotroph that consumes dead organisms by taking them into the body and digesting them there."
+      ],
+      "answer": "A heterotroph that absorbs nutrients from nonliving organic matter, such as dead organisms or wastes.",
+      "explanation": "A saprobe is a heterotroph that feeds on nonliving organic matter. It releases enzymes onto dead material or wastes and absorbs the smaller molecules. It does not build those molecules from carbon dioxide. A heterotroph that absorbs from a living host and harms the host is a parasite, not a saprobe. An animal that eats dead material takes that food into its body. A saprobe does not consume food that way. Many fungi are saprobes, but a fungus that feeds on a living host is not one."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are fungal cell walls made of?"
+      },
+      "options": [
+        "Cellulose",
+        "Peptidoglycan",
+        "Chitin",
+        "Silica"
+      ],
+      "answer": "Chitin",
+      "explanation": "Fungal cell walls are made of chitin. Cellulose builds plant cell walls. Water molds, the oomycetes, also have cellulose walls. They absorb nutrients through filaments, but that cellulose wall is one reason they are protists rather than fungi. Peptidoglycan builds bacterial cell walls. A glass-like silica wall belongs to diatoms."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes hyphae from a mushroom?"
+      },
+      "options": [
+        "Hyphae are the fruiting body. A mushroom is one filament that absorbs nutrients.",
+        "Hyphae are the filaments that make up a fungus. A mushroom is a fruiting body made of hyphae, and it produces spores.",
+        "Hyphae are spores. A mushroom is the entire feeding body of the fungus.",
+        "Hyphae are the chitin in the wall. A mushroom is a single fungal cell."
+      ],
+      "answer": "Hyphae are the filaments that make up a fungus. A mushroom is a fruiting body made of hyphae, and it produces spores.",
+      "explanation": "Hyphae are the tubular filaments of a fungus. Their walls contain chitin, and they release enzymes and absorb nutrients. A mushroom is not a separate organism and not the whole fungus. It is a fruiting body, a reproductive structure built from densely packed hyphae, that produces and releases spores. Most of the fungus is the feeding network of hyphae, often hidden in the soil or food. Spores are what the mushroom releases. A spore can germinate into new hyphae. Chitin is the wall material of a hypha, not the filament itself."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes hyphae with cross-walls from hyphae without cross-walls?"
+      },
+      "options": [
+        "Hyphae with cross-walls are one continuous cytoplasm with many nuclei. Hyphae without cross-walls are divided into compartments.",
+        "Hyphae with cross-walls form the mushroom. Hyphae without cross-walls are the only filaments that absorb nutrients.",
+        "Hyphae with cross-walls are divided into compartments. Hyphae without cross-walls are one continuous cytoplasm with many nuclei.",
+        "Hyphae with cross-walls are made of cellulose. Hyphae without cross-walls are made of chitin."
+      ],
+      "answer": "Hyphae with cross-walls are divided into compartments. Hyphae without cross-walls are one continuous cytoplasm with many nuclei.",
+      "explanation": "Cross-walls, also called septa, divide a hypha into compartments. Pores in those walls usually let cytoplasm and organelles move from one compartment to the next, so the compartments are not sealed cells. Hyphae without cross-walls are coenocytic. They are one continuous cytoplasmic tube containing many nuclei. Both kinds are hyphae, both can absorb nutrients, and both have chitin walls. A mushroom is a fruiting body made of hyphae. It is not the definition of a cross-wall. Cellulose is not the fungal wall material."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do fungi reproduce?"
+      },
+      "options": [
+        "They produce seeds in a fruiting body. A seed grows into a mushroom without forming hyphae.",
+        "The body is diploid and makes flagellated gametes by meiosis. The next body grows from the zygote without spores.",
+        "They divide by binary fission. Each new cell receives a copy of one circular chromosome.",
+        "They produce spores by mitosis or by meiosis. A spore can germinate and grow into hyphae."
+      ],
+      "answer": "They produce spores by mitosis or by meiosis. A spore can germinate and grow into hyphae.",
+      "explanation": "Fungi commonly reproduce by spores. An asexual spore is made by mitosis, so it is a copy of the parent. A sexual spore is made by meiosis after nuclei fuse. The diploid stage is brief, and the growing body of hyphae is usually haploid. A spore can germinate into hyphae. A mushroom is one structure that releases spores. It is not a fruit full of seeds, and not every fungus makes a mushroom. Seeds belong to plants. Binary fission, with a circular chromosome, is how bacteria divide. A diploid body that makes gametes by meiosis, with no spores, is a gametic life cycle. That is not how fungi reproduce. Some single-celled fungi can also bud."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is unique about the heterokaryotic stage of a fungus?"
+      },
+      "options": [
+        "Nuclei from the two parents have already fused, so the fungus is diploid, 2n.",
+        "Cytoplasms from two parents have fused, but their haploid nuclei have not. Different nuclei share one cytoplasm.",
+        "Cytoplasms have not fused. Each hypha still contains only nuclei from one parent.",
+        "Meiosis has finished, and this stage is a haploid spore that can grow into hyphae."
+      ],
+      "answer": "Cytoplasms from two parents have fused, but their haploid nuclei have not. Different nuclei share one cytoplasm.",
+      "explanation": "In the heterokaryotic stage, the cytoplasms of two parents have already fused, but the nuclei have not. Haploid nuclei from both parents share that cytoplasm and can divide while remaining separate. The stage is not diploid. A diploid nucleus, 2n, forms only when those nuclei later fuse, and that diploid stage is brief. Before the cytoplasms fuse, each hypha still has only its own nuclei. Meiosis comes after the nuclei fuse and produces haploid spores. Those spores can grow into hyphae, but they are not the heterokaryotic stage."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence identifying the stages before and after the heterokaryotic stage and what happens in each."
+      },
+      "sentence": [
+        "The stage before the heterokaryotic stage is ",
+        null,
+        ", when ",
+        null,
+        ". The stage after is ",
+        null,
+        ", when ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "plasmogamy",
+        "the cytoplasms of two parents fuse and their haploid nuclei stay separate",
+        "karyogamy",
+        "those haploid nuclei fuse and produce a diploid zygote"
+      ],
+      "bank": [
+        "plasmogamy",
+        "the cytoplasms of two parents fuse and their haploid nuclei stay separate",
+        "karyogamy",
+        "those haploid nuclei fuse and produce a diploid zygote",
+        "meiosis",
+        "the diploid zygote divides into haploid spores"
+      ],
+      "explanation": "Plasmogamy comes before the heterokaryotic stage. The cytoplasms of two parents fuse, and their haploid nuclei remain separate, which is what makes the following stage heterokaryotic. Karyogamy comes after. The haploid nuclei that have been sharing the cytoplasm fuse and produce a diploid zygote, 2n. That diploid stage is brief. Meiosis follows karyogamy. It is not the stage before or immediately after the heterokaryotic stage. Meiosis divides the diploid zygote into haploid spores, so spore production is not what happens when the cytoplasms fuse or when the nuclei first fuse."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is unique about Deuteromycota?"
+      },
+      "options": [
+        "They produce sexual spores in a sac, and meiosis happens in that sac.",
+        "They keep a heterokaryotic stage for most of the life cycle, and karyogamy happens in a mushroom.",
+        "They have no known sexual stage. They reproduce by asexual spores made by mitosis.",
+        "They produce flagellated spores, and the body never forms hyphae."
+      ],
+      "answer": "They have no known sexual stage. They reproduce by asexual spores made by mitosis.",
+      "explanation": "Deuteromycota are the imperfect fungi. No sexual stage has been observed, so there is no plasmogamy, heterokaryotic stage, or karyogamy to classify them by. They reproduce by asexual spores made by mitosis. They are a convenience group, not one clade. If a sexual stage is later found, the fungus is moved to the group that matches that stage. Sexual spores formed in a sac are an ascomycete trait. A long heterokaryotic stage that ends with karyogamy in a mushroom is a basidiomycete pattern. Flagellated spores are a chytrid trait. Deuteromycota still have chitin walls and can grow as hyphae."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 5 major phyla of fungi."
+      },
+      "bank": [
+        "Zygomycota",
+        "Deuteromycota",
+        "Ascomycota",
+        "Chytridiomycota",
+        "Oomycota",
+        "Basidiomycota",
+        "Glomeromycota"
+      ],
+      "answers": [
+        "Chytridiomycota",
+        "Zygomycota",
+        "Glomeromycota",
+        "Ascomycota",
+        "Basidiomycota"
+      ],
+      "explanation": "The five major phyla are Chytridiomycota, Zygomycota, Glomeromycota, Ascomycota, and Basidiomycota. Chytrids produce flagellated spores. Zygomycetes form a zygosporangium in sexual reproduction, and their hyphae lack cross-walls. Glomeromycetes form arbuscular mycorrhizae with plant roots. Ascomycetes, the sac fungi, produce sexual spores in an ascus. Basidiomycetes, the club fungi, produce sexual spores on a basidium, often in a mushroom. Deuteromycota are imperfect fungi with no known sexual stage. They are not one of these phyla. Oomycota are the water molds. They are protists with cellulose walls, not fungi."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What do the five major phyla of fungi have in common?"
+      },
+      "options": [
+        "Each phylum has flagellated spores, a zygosporangium, an ascus, and a basidium.",
+        "Their cell walls contain chitin, and they absorb nutrients.",
+        "They are imperfect fungi. No sexual stage is known in any of them.",
+        "They are protists. Filaments absorb nutrients through cellulose walls."
+      ],
+      "answer": "Their cell walls contain chitin, and they absorb nutrients.",
+      "explanation": "These five are the major phyla of fungi. Like other fungi, they have chitin in their cell walls and absorb nutrients rather than consuming food. They do not share one another's reproductive structures. Flagellated spores belong to Chytridiomycota. A zygosporangium belongs to Zygomycota. An ascus belongs to Ascomycota. A basidium belongs to Basidiomycota. Glomeromycota are distinguished by arbuscular mycorrhizae. A group with no known sexual stage is Deuteromycota, and that group is not one of these five phyla. Cellulose walls and filamentous absorption describe water molds, which are protists."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes Chytridiomycota from the other major fungal phyla?"
+      },
+      "options": [
+        "Sexual reproduction forms a resistant zygosporangium, and the hyphae lack cross-walls.",
+        "Flagellated spores, called zoospores, are produced.",
+        "Sexual spores form inside a sac called an ascus.",
+        "Hyphae enter plant root cells and form arbuscular mycorrhizae."
+      ],
+      "answer": "Flagellated spores, called zoospores, are produced.",
+      "explanation": "Chytridiomycota, the chytrids, produce flagellated spores called zoospores. Among the major fungal phyla, they are the ones with flagellated cells. Some chytrids are single cells, and some grow as hyphae. A zygosporangium and coenocytic hyphae are zygomycete traits. An ascus is an ascomycete trait. Arbuscular mycorrhizae are a glomeromycete trait."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes Zygomycota from the other major fungal phyla?"
+      },
+      "options": [
+        "Flagellated spores, called zoospores, are produced.",
+        "Sexual spores form on a club-shaped basidium, often in a mushroom.",
+        "Sexual spores form inside a sac called an ascus.",
+        "Sexual reproduction forms a resistant zygosporangium, and the hyphae lack cross-walls."
+      ],
+      "answer": "Sexual reproduction forms a resistant zygosporangium, and the hyphae lack cross-walls.",
+      "explanation": "Zygomycota form a zygosporangium during sexual reproduction. Karyogamy and then meiosis occur there, and the structure can withstand harsh conditions. Their hyphae are coenocytic, so they lack cross-walls except where reproductive cells form. Flagellated zoospores are a chytrid trait. An ascus is an ascomycete trait. A basidium in a mushroom is a basidiomycete trait."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes Glomeromycota from the other major fungal phyla?"
+      },
+      "options": [
+        "Hyphae enter plant root cells and branch into arbuscules, forming arbuscular mycorrhizae.",
+        "Flagellated spores, called zoospores, are produced.",
+        "No sexual stage is known, so the group is only a convenience category of imperfect fungi.",
+        "Sexual spores form on a club-shaped basidium after a long heterokaryotic stage."
+      ],
+      "answer": "Hyphae enter plant root cells and branch into arbuscules, forming arbuscular mycorrhizae.",
+      "explanation": "Glomeromycota form arbuscular mycorrhizae with plants. Their hyphae penetrate root cells and branch into tiny arbuscules. The fungus absorbs minerals for the plant, and the plant supplies sugars. That partnership is what sets this phylum apart. Flagellated zoospores are a chytrid trait. A long heterokaryotic stage ending at a basidium is a basidiomycete pattern. Deuteromycota are the imperfect fungi, a convenience group with no known sexual stage. Glomeromycota are a real phylum defined by the mycorrhizae, not by the absence of sex."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes Ascomycota from the other major fungal phyla?"
+      },
+      "options": [
+        "Sexual spores form on a club-shaped basidium after a long heterokaryotic stage.",
+        "Sexual reproduction forms a resistant zygosporangium, and the hyphae lack cross-walls.",
+        "Sexual spores form inside a sac called an ascus.",
+        "Flagellated spores, called zoospores, are produced."
+      ],
+      "answer": "Sexual spores form inside a sac called an ascus.",
+      "explanation": "Ascomycota are the sac fungi. Meiosis produces sexual spores inside an ascus. Many also release asexual spores, called conidia, from hyphae tips. Their hyphae have cross-walls. The dikaryotic stage that leads to the ascus is short compared with the long heterokaryotic stage of a mushroom-forming fungus. A basidium is a basidiomycete trait. A zygosporangium and coenocytic hyphae are zygomycete traits. Flagellated zoospores are a chytrid trait."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What distinguishes Basidiomycota from the other major fungal phyla?"
+      },
+      "options": [
+        "Sexual spores form inside a sac called an ascus.",
+        "Hyphae enter plant root cells and branch into arbuscules.",
+        "Flagellated spores, called zoospores, are produced.",
+        "Sexual spores form on a club-shaped basidium, often in a mushroom, after a long heterokaryotic stage."
+      ],
+      "answer": "Sexual spores form on a club-shaped basidium, often in a mushroom, after a long heterokaryotic stage.",
+      "explanation": "Basidiomycota are the club fungi. After a long heterokaryotic stage, karyogamy and meiosis occur in a club-shaped basidium and produce sexual spores. The mushroom is the fruiting body, built of hyphae, where those basidia are borne. Their hyphae have cross-walls. An ascus is an ascomycete trait, and that dikaryotic stage is brief. Arbuscular mycorrhizae are a glomeromycete trait. Flagellated zoospores are a chytrid trait."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What defines a lichen?"
+      },
+      "options": [
+        "A fungus whose hyphae enter plant root cells and branch into arbuscules.",
+        "A plant that photosynthesizes on its own and has no fungal partner.",
+        "A symbiotic association between a fungus and a photosynthetic green alga or cyanobacterium.",
+        "An imperfect fungus that has no known sexual stage and no photosynthetic partner."
+      ],
+      "answer": "A symbiotic association between a fungus and a photosynthetic green alga or cyanobacterium.",
+      "explanation": "A lichen is a partnership, not a single organism and not a plant. The fungus, most often an ascomycete, builds the body, absorbs water and minerals, and shelters the partner. The green alga or cyanobacterium photosynthesizes and supplies sugars. Hyphae that enter root cells and form arbuscules are arbuscular mycorrhizae, a partnership between Glomeromycota and a plant. That is not a lichen. An imperfect fungus with no photosynthetic partner belongs to Deuteromycota."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What defines mycorrhizae?"
+      },
+      "options": [
+        "A symbiotic association between a fungus and a photosynthetic green alga or cyanobacterium.",
+        "A parasitic association in which hyphae kill the root and absorb its organic molecules.",
+        "A mutualistic association between a fungus and plant roots. The plant supplies sugars, and the fungus supplies water and minerals.",
+        "A saprobe that absorbs nutrients from dead roots after the plant has died."
+      ],
+      "answer": "A mutualistic association between a fungus and plant roots. The plant supplies sugars, and the fungus supplies water and minerals.",
+      "explanation": "Mycorrhizae are mutualisms between a fungus and the roots of a living plant. The hyphae increase the surface that takes up water and minerals, and the plant supplies carbohydrates. Arbuscular mycorrhizae are one form of this partnership. In that form, Glomeromycota hyphae enter root cells and branch into arbuscules. A fungus living with a green alga or a cyanobacterium is a lichen, not a mycorrhiza. A parasite harms its host. A saprobe feeds on nonliving organic matter, not through a partnership with a living root."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What defines an animal-fungal mutualism?"
+      },
+      "options": [
+        "A mutualistic association between a fungus and plant roots. The plant supplies sugars, and the fungus supplies water and minerals.",
+        "A symbiotic association between a fungus and a photosynthetic green alga or cyanobacterium.",
+        "An association in which the fungus absorbs nutrients from a living animal and the animal is harmed.",
+        "A close association in which both the animal and the fungus benefit. The fungus often digests plant material, and the animal provides food, shelter, or both."
+      ],
+      "answer": "A close association in which both the animal and the fungus benefit. The fungus often digests plant material, and the animal provides food, shelter, or both.",
+      "explanation": "An animal-fungal mutualism benefits both partners. The fungus often breaks down plant material the animal cannot digest alone. The animal may supply that material and a place for the fungus to grow. Leaf-cutter ants, for example, feed leaves to a fungus they cultivate and then eat parts of that fungus. Some fungi also live in the guts of grazing mammals and help digest plant material while receiving a steady food supply. A fungus living with plant roots is a mycorrhiza. A fungus living with a green alga or a cyanobacterium is a lichen. If the fungus harms the animal, the association is parasitism, not mutualism."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a parasitic fungus?"
+      },
+      "options": [
+        "A heterotroph that absorbs nutrients from nonliving organic matter, such as dead organisms or wastes.",
+        "A fungus that absorbs nutrients from a living host and harms that host.",
+        "A mutualistic association between a fungus and plant roots. The plant supplies sugars, and the fungus supplies water and minerals.",
+        "A close association in which both the animal and the fungus benefit."
+      ],
+      "answer": "A fungus that absorbs nutrients from a living host and harms that host.",
+      "explanation": "A parasitic fungus absorbs nutrients from a living host, and the host is harmed. The host may be a plant or an animal. The fungus benefits. A saprobe absorbs from nonliving organic matter, so it does not harm a living host. In mycorrhizae, the fungus and the plant both benefit. In an animal-fungal mutualism, the animal and the fungus both benefit. Those partnerships are not parasitism."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A fungus builds a body around a green alga. The fungus absorbs water and minerals and shelters the alga. The alga photosynthesizes and supplies sugars. Which relationship is this?"
+      },
+      "options": [
+        "Mycorrhizae",
+        "A parasitic fungus",
+        "An animal-fungal mutualism",
+        "A lichen"
+      ],
+      "answer": "A lichen",
+      "explanation": "This is a lichen. The fungus is partnered with a photosynthetic green alga. The alga supplies sugars, and the fungus supplies water, minerals, and shelter. Mycorrhizae pair a fungus with plant roots, and no roots are involved here. An animal-fungal mutualism includes an animal. A parasitic fungus harms a living host. The alga is supported by the association rather than being destroyed by it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Fungal hyphae grow with the roots of a living plant. The plant passes sugars to the fungus. The fungus increases the plant's uptake of water and minerals. Both partners benefit. Which relationship is this?"
+      },
+      "options": [
+        "A lichen",
+        "Mycorrhizae",
+        "A parasitic fungus",
+        "An animal-fungal mutualism"
+      ],
+      "answer": "Mycorrhizae",
+      "explanation": "This is mycorrhizae. A fungus and a living plant's roots are both benefiting. The plant supplies sugars, and the fungus supplies water and minerals. A lichen pairs a fungus with a green alga or a cyanobacterium, not with plant roots. A parasitic fungus would harm the plant. An animal-fungal mutualism includes an animal, and no animal is involved here."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Leaf-cutter ants shelter a fungus and feed it pieces of leaves. The fungus digests the leaves. The ants then eat parts of the fungus. Both partners benefit. Which relationship is this?"
+      },
+      "options": [
+        "A parasitic fungus",
+        "A lichen",
+        "Mycorrhizae",
+        "An animal-fungal mutualism"
+      ],
+      "answer": "An animal-fungal mutualism",
+      "explanation": "This is an animal-fungal mutualism. The ants and the fungus both benefit. The fungus digests plant material, and the ants provide the leaves, shelter the fungus, and eat parts of it. Mycorrhizae are a partnership with plant roots, and the plant would also benefit. Here the leaves are food for the fungus, not a living root exchanging minerals. A lichen pairs a fungus with a green alga or a cyanobacterium. A parasitic fungus would harm its host. The ants are not harmed."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A fungus grows in the leaves of a living plant, absorbs sugars from those leaves, and the infected tissue dies. Which relationship is this?"
+      },
+      "options": [
+        "An animal-fungal mutualism",
+        "Mycorrhizae",
+        "A parasitic fungus",
+        "A lichen"
+      ],
+      "answer": "A parasitic fungus",
+      "explanation": "This is a parasitic fungus. It absorbs nutrients from a living plant, and the plant is harmed. Mycorrhizae also involve a living plant, but both partners benefit, and the exchange is at the roots. Here the leaf tissue dies, so the plant is not benefiting. An animal-fungal mutualism includes an animal, and both partners benefit. A lichen pairs a fungus with a green alga or a cyanobacterium. The plant is not that photosynthetic partner, and it is being harmed."
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "title": "Speciation and History of Life",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best defines speciation?"
+      },
+      "options": [
+        "Allele frequencies change within one population, and that population is then called a new species.",
+        "A few individuals colonize a new area, and their chance sample of alleles is a new species.",
+        "One species splits into two or more species when populations can no longer interbreed and produce fertile offspring.",
+        "Individuals acquire new traits during their lives, and those traits mark them as a separate species."
+      ],
+      "answer": "One species splits into two or more species when populations can no longer interbreed and produce fertile offspring.",
+      "explanation": "Speciation is the split of one species into two or more. The populations no longer interbreed and produce fertile offspring. A change in allele frequencies is evolution within a population. That change is speciation only when it leaves separate species. A few colonists are a founder effect. They are a new species only if they become reproductively isolated from the source population. Traits acquired during one life are not inherited, and they do not define a species."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing morphospecies, paleospecies, and phylogenetic species."
+      },
+      "sentence": [
+        "A morphospecies is grouped by ",
+        null,
+        ", a paleospecies is grouped by ",
+        null,
+        ", and a phylogenetic species is grouped by ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "shared body structure",
+        "fossil structure and its place in geologic time",
+        "shared ancestry on one branch of the tree of life"
+      ],
+      "bank": [
+        "shared body structure",
+        "fossil structure and its place in geologic time",
+        "shared ancestry on one branch of the tree of life",
+        "interbreeding that produces fertile offspring",
+        "the habitat occupied today"
+      ],
+      "explanation": "A morphospecies groups organisms by body structure. A paleospecies is recognized in the fossil record, so the grouping uses fossil structure and where those fossils sit in geologic time. A phylogenetic species is the smallest group that shares a common ancestor and forms one branch on the tree of life. Interbreeding that produces fertile offspring is the biological species concept. The habitat occupied today does not establish body structure, fossil age, or shared ancestry."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 5 pre-zygotic barriers to reproduction."
+      },
+      "bank": [
+        "Habitat isolation",
+        "Temporal isolation",
+        "Behavioral isolation",
+        "Mechanical isolation",
+        "Gametic isolation",
+        "Geographic isolation",
+        "Reduced hybrid viability",
+        "Reduced hybrid fertility",
+        "Hybrid breakdown"
+      ],
+      "answers": [
+        "Habitat isolation",
+        "Temporal isolation",
+        "Behavioral isolation",
+        "Mechanical isolation",
+        "Gametic isolation"
+      ],
+      "explanation": "Pre-zygotic barriers stop a zygote from forming. Habitat, temporal, and behavioral isolation keep individuals from mating. Mechanical isolation means their bodies do not fit for sperm transfer. Gametic isolation means the gametes do not fuse. Geographic isolation separates populations in space. It is not a barrier that blocks mating or fertilization when individuals meet. Reduced hybrid viability, reduced hybrid fertility, and hybrid breakdown act after a zygote has formed, so they are post-zygotic."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Two closely related frogs live in the same forest. One mates only in ponds, and the other mates only in tree holes, so they never meet. Which barrier is this?"
+      },
+      "options": [
+        "Temporal isolation",
+        "Habitat isolation",
+        "Behavioral isolation",
+        "Geographic isolation"
+      ],
+      "answer": "Habitat isolation",
+      "explanation": "They live in the same region but mate in different places, so they do not encounter each other. That is habitat isolation. Temporal isolation would be mating at different times. Behavioral isolation would be a difference in courtship after they meet. Geographic isolation would place the populations in separate regions."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Two wildflower species grow side by side. One flowers only in April, and the other flowers only in July. Which barrier is this?"
+      },
+      "options": [
+        "Temporal isolation",
+        "Habitat isolation",
+        "Gametic isolation",
+        "Mechanical isolation"
+      ],
+      "answer": "Temporal isolation",
+      "explanation": "They share a place, but they release gametes in different months, so their mating seasons do not overlap. That is temporal isolation. Habitat isolation would be different places, not different months. Mechanical isolation would be a mismatch of body structures during mating. Gametic isolation would be gametes that fail to fuse after they meet."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Females of two cricket species mate only after hearing their own species' song. A male singing the other song is ignored. Which barrier is this?"
+      },
+      "options": [
+        "Mechanical isolation",
+        "Temporal isolation",
+        "Gametic isolation",
+        "Behavioral isolation"
+      ],
+      "answer": "Behavioral isolation",
+      "explanation": "The difference is the courtship signal. Females reject the wrong song before mating. That is behavioral isolation. Mechanical isolation would be bodies that do not fit during mating. Temporal isolation would be singing in different seasons. Gametic isolation would be sperm and eggs that do not fuse."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Two snail species court and align for mating, but their shells coil in opposite directions, so their reproductive openings do not meet. Which barrier is this?"
+      },
+      "options": [
+        "Behavioral isolation",
+        "Mechanical isolation",
+        "Gametic isolation",
+        "Reduced hybrid fertility"
+      ],
+      "answer": "Mechanical isolation",
+      "explanation": "Courtship happens, but the body structures do not line up, so sperm is not transferred. That is mechanical isolation. Behavioral isolation would stop them earlier, through a rejected courtship signal. Gametic isolation would apply after sperm and egg meet and fail to fuse. Reduced hybrid fertility is post-zygotic: a hybrid forms, but it cannot produce functional gametes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Two sea urchin species release eggs and sperm into the same tide pool at the same time. The sperm cannot bind to the other species' eggs. Which barrier is this?"
+      },
+      "options": [
+        "Mechanical isolation",
+        "Temporal isolation",
+        "Gametic isolation",
+        "Habitat isolation"
+      ],
+      "answer": "Gametic isolation",
+      "explanation": "Eggs and sperm are in the same water at the same time, but they do not recognize each other, so no zygote forms. That is gametic isolation. Mechanical isolation is a mismatch of mating structures, and these animals are not coupling. Temporal isolation would be release at different times. Habitat isolation would be release in different places."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 3 post-zygotic barriers to reproduction."
+      },
+      "bank": [
+        "Reduced hybrid viability",
+        "Reduced hybrid fertility",
+        "Hybrid breakdown",
+        "Habitat isolation",
+        "Temporal isolation",
+        "Behavioral isolation",
+        "Mechanical isolation",
+        "Gametic isolation"
+      ],
+      "answers": [
+        "Reduced hybrid viability",
+        "Reduced hybrid fertility",
+        "Hybrid breakdown"
+      ],
+      "explanation": "Post-zygotic barriers act after a zygote has formed. Reduced hybrid viability means the hybrid fails to develop or survive to reproduce. Reduced hybrid fertility means the hybrid survives but cannot produce functional gametes. Hybrid breakdown means the first-generation hybrids are viable and fertile, but their offspring are weak or sterile. Habitat, temporal, behavioral, mechanical, and gametic isolation act before a zygote forms, so they are pre-zygotic."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Two fish species fertilize one another's eggs. The embryos start to develop and then die before hatching. Which barrier is this?"
+      },
+      "options": [
+        "Gametic isolation",
+        "Reduced hybrid viability",
+        "Reduced hybrid fertility",
+        "Hybrid breakdown"
+      ],
+      "answer": "Reduced hybrid viability",
+      "explanation": "Fertilization happens, so a zygote forms, but the embryo dies before it can reproduce. That is reduced hybrid viability. Gametic isolation would stop the sperm and egg from fusing in the first place. Reduced hybrid fertility would produce a living hybrid that cannot make functional gametes. Hybrid breakdown would show up in the offspring of fertile hybrids, not in this embryo."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A horse and a donkey mate and produce a healthy mule. The mule survives to adulthood but cannot produce functional gametes. Which barrier is this?"
+      },
+      "options": [
+        "Reduced hybrid viability",
+        "Hybrid breakdown",
+        "Mechanical isolation",
+        "Reduced hybrid fertility"
+      ],
+      "answer": "Reduced hybrid fertility",
+      "explanation": "The hybrid is healthy and reaches adulthood, but it cannot produce functional gametes. That is reduced hybrid fertility. Reduced hybrid viability would stop the mule from developing or surviving. Hybrid breakdown would appear in the next generation, after fertile hybrids reproduce. Mechanical isolation would have prevented the horse and donkey from transferring sperm."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Two plant species produce vigorous, fertile hybrids. When those hybrids mate with each other, their offspring are small and sterile. Which barrier is this?"
+      },
+      "options": [
+        "Hybrid breakdown",
+        "Reduced hybrid fertility",
+        "Reduced hybrid viability",
+        "Gametic isolation"
+      ],
+      "answer": "Hybrid breakdown",
+      "explanation": "The first-generation hybrids are vigorous and fertile. Their offspring are the ones that are small and sterile. That is hybrid breakdown. Reduced hybrid fertility would make those first hybrids unable to produce gametes. Reduced hybrid viability would make the first hybrids fail to develop or survive. Gametic isolation would prevent the original cross from forming a zygote."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best defines a species?"
+      },
+      "options": [
+        "A localized group of individuals that can interbreed and produce fertile offspring.",
+        "A group of populations whose members can interbreed in nature and produce fertile offspring, and do not do so with other such groups.",
+        "All organisms that share a body structure, including groups that cannot produce fertile offspring together.",
+        "Every descendant of one ancestor, including lineages that no longer interbreed."
+      ],
+      "answer": "A group of populations whose members can interbreed in nature and produce fertile offspring, and do not do so with other such groups.",
+      "explanation": "Under the biological species concept, a species is a group of populations that can interbreed and produce fertile offspring and are reproductively isolated from other such groups. One localized interbreeding group is a population, not the whole species. Shared body structure is how a morphospecies is grouped, and it can unite organisms that cannot produce fertile offspring. A phylogenetic species is one branch of shared ancestry, not every descendant of a distant ancestor."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing allopatric and sympatric speciation."
+      },
+      "sentence": [
+        "Allopatric speciation happens when ",
+        null,
+        ", while sympatric speciation happens when ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "a geographic barrier divides a population and gene flow stops",
+        "reproductive isolation arises without a geographic barrier"
+      ],
+      "bank": [
+        "a geographic barrier divides a population and gene flow stops",
+        "reproductive isolation arises without a geographic barrier",
+        "a few colonists keep interbreeding with the source population",
+        "hybrids of the two groups are vigorous and fertile"
+      ],
+      "explanation": "Allopatric speciation starts when a geographic barrier splits a population and stops gene flow. The separated groups can then diverge into species. Sympatric speciation produces reproductive isolation inside one geographic area, with no such barrier. Colonists that keep interbreeding with the source population are still exchanging genes, so they have not speciated. Vigorous, fertile hybrids show that reproductive isolation is absent."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A canyon divides a squirrel population. Gene flow between the two rims stops, and over time the groups can no longer produce fertile offspring. Which mode of speciation is this?"
+      },
+      "options": [
+        "Sympatric speciation",
+        "Founder effect",
+        "Allopatric speciation",
+        "Habitat isolation"
+      ],
+      "answer": "Allopatric speciation",
+      "explanation": "The canyon is a geographic barrier that stops gene flow, so this split is allopatric speciation. Sympatric speciation would occur without that barrier. A founder effect is a few individuals starting a new population, not a barrier dividing an existing one. Habitat isolation is a pre-zygotic barrier in which organisms in the same region use different places. It is not this geographic split."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Within one meadow, a plant doubles its chromosome number and can no longer produce fertile offspring with the surrounding parent plants. Which mode of speciation is this?"
+      },
+      "options": [
+        "Allopatric speciation",
+        "Reduced hybrid fertility",
+        "Gametic isolation",
+        "Sympatric speciation"
+      ],
+      "answer": "Sympatric speciation",
+      "explanation": "The new plants are in the same meadow as the parents. No geographic barrier separates them, so this is sympatric speciation. The chromosome change is what blocks fertile offspring with the parent plants. Allopatric speciation would require a geographic barrier. Reduced hybrid fertility names a post-zygotic barrier. It does not say whether the split happened with or without geography. Gametic isolation would be sperm and eggs that fail to fuse before a zygote forms."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement correctly describes vicariance and the mode of speciation it produces?"
+      },
+      "options": [
+        "A few individuals colonize a new area and stop interbreeding with the source population, which is allopatric speciation.",
+        "A barrier divides the existing range of a population and stops gene flow, which is allopatric speciation.",
+        "A barrier divides the existing range of a population, which is sympatric speciation because the groups began in the same place.",
+        "Reproductive isolation arises with no geographic barrier, which is sympatric speciation."
+      ],
+      "answer": "A barrier divides the existing range of a population and stops gene flow, which is allopatric speciation.",
+      "explanation": "Vicariance is a geographic barrier that splits a population's existing range and stops gene flow. Speciation that follows is allopatric. Individuals that colonize a new area are a dispersal event. That can also be allopatric, but it is not vicariance. Starting in the same place does not make the split sympatric once a barrier separates the groups. Sympatric speciation has no geographic barrier."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In a single lake, female cichlids mate only with males of one color pattern. Groups with different color preferences stop interbreeding, and no geographic barrier separates them. Which mode of speciation is this?"
+      },
+      "options": [
+        "Sympatric speciation",
+        "Allopatric speciation",
+        "Vicariance",
+        "Founder effect"
+      ],
+      "answer": "Sympatric speciation",
+      "explanation": "The cichlids live in the same lake. Different mate preferences divide them without a geographic barrier, so this is sympatric speciation. Allopatric speciation requires a barrier that stops gene flow across space. Vicariance is that kind of barrier splitting an existing range. A founder effect would be a few individuals starting a population in a new place."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Two plant species in the same field form a hybrid. Chromosome doubling produces a polyploid that can breed with other polyploids, but not with either parent species. Which mode of speciation is this?"
+      },
+      "options": [
+        "Allopatric speciation",
+        "Sympatric speciation",
+        "Reduced hybrid fertility",
+        "Hybrid breakdown"
+      ],
+      "answer": "Sympatric speciation",
+      "explanation": "The polyploid arises in the same field as both parent species. No geographic barrier separates them, so this is sympatric speciation. Allopatric speciation would require such a barrier. A hybrid that cannot produce functional gametes shows reduced hybrid fertility. Chromosome doubling is what lets the polyploid breed with other polyploids. Hybrid breakdown would make the offspring of fertile hybrids weak or sterile. Here the polyploids are the new fertile lineage."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing autopolyploid and allopolyploid speciation."
+      },
+      "sentence": [
+        "Autopolyploid speciation begins with ",
+        null,
+        ", while allopolyploid speciation begins with ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "chromosome doubling within a single species",
+        "a hybrid of two species whose chromosomes then double"
+      ],
+      "bank": [
+        "chromosome doubling within a single species",
+        "a hybrid of two species whose chromosomes then double",
+        "a geographic split of one plant population",
+        "a sterile hybrid whose chromosomes never double"
+      ],
+      "explanation": "Autopolyploid speciation is an extra set of chromosomes from a single species. The polyploid usually cannot produce fertile offspring with the diploid parent plants. Allopolyploid speciation starts when two species hybridize and the chromosome number then doubles, so the new plants carry chromosome sets from both parents and can breed with other allopolyploids. A geographic split is allopatric speciation, not polyploidy. A hybrid whose chromosomes never double remains sterile and does not become a self-sustaining polyploid species."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best defines a hybrid zone?"
+      },
+      "options": [
+        "A geographic barrier where two populations can no longer meet or mate.",
+        "The entire range of two species, with every individual a hybrid.",
+        "A region where members of two species meet, mate, and produce at least some offspring of mixed ancestry.",
+        "A polyploid population that has replaced both of its parent species."
+      ],
+      "answer": "A region where members of two species meet, mate, and produce at least some offspring of mixed ancestry.",
+      "explanation": "A hybrid zone is a region of contact. Members of two species meet and mate there, and at least some offspring have mixed ancestry. A barrier that stops meeting is the opposite of a hybrid zone. The zone is local. It does not turn every individual across both species' ranges into a hybrid. A polyploid population that replaces its parents is a completed speciation event, not an ongoing region of interbreeding."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Time runs from left to right. Which hybrid-zone outcome does this plot show?",
+        "image": "images/biology/speciation/zone_plot_1.svg",
+        "imageClass": "quiz-image--plot",
+        "imageAlt": "Two lines start together on the left and keep spreading farther apart toward the right."
+      },
+      "options": [
+        "Fusion",
+        "Stability",
+        "Reinforcement",
+        "Allopatric speciation"
+      ],
+      "answer": "Reinforcement",
+      "explanation": "The two lines keep spreading apart as time moves to the right. The difference between the groups keeps growing, so the reproductive barrier is strengthening. That is reinforcement. Fusion would bring the lines back into one. Stability would leave them a steady distance apart. Allopatric speciation is a geographic split. It is not this widening difference inside a hybrid zone."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Time runs from left to right. Which hybrid-zone outcome does this plot show?",
+        "image": "images/biology/speciation/zone_plot_2.svg",
+        "imageClass": "quiz-image--plot",
+        "imageAlt": "Two lines spread apart and then join into one line that continues to the right."
+      },
+      "options": [
+        "Fusion",
+        "Reinforcement",
+        "Stability",
+        "Hybrid breakdown"
+      ],
+      "answer": "Fusion",
+      "explanation": "The lines spread apart and then join into one line that continues to the right. The two groups are blending back into one. That is fusion. Reinforcement would keep the lines moving farther apart. Stability would keep two separate parallel lines. Hybrid breakdown makes later-generation hybrids weak or sterile. It does not join the two lineages into one."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Time runs from left to right. Which hybrid-zone outcome does this plot show?",
+        "image": "images/biology/speciation/zone_plot_3.svg",
+        "imageClass": "quiz-image--plot",
+        "imageAlt": "Two lines separate and then run parallel toward the right, a steady distance apart."
+      },
+      "options": [
+        "Reinforcement",
+        "Stability",
+        "Fusion",
+        "Vicariance"
+      ],
+      "answer": "Stability",
+      "explanation": "The lines separate and then stay a steady distance apart as time continues. The hybrid zone persists. That is stability. Reinforcement would keep widening the gap. Fusion would join the lines into one. Vicariance would be a new geographic barrier, not two lineages that remain distinct and continue side by side."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing gradualism and punctuated evolution."
+      },
+      "sentence": [
+        "Gradualism is ",
+        null,
+        ", while punctuated evolution is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "slow, steady change across a lineage",
+        "long periods of little change broken by rapid shifts"
+      ],
+      "bank": [
+        "slow, steady change across a lineage",
+        "long periods of little change broken by rapid shifts",
+        "two lineages that keep spreading farther apart",
+        "two lineages that rejoin into one"
+      ],
+      "explanation": "Gradualism changes a lineage a little in each interval of time, so many intermediate forms would appear. Punctuated evolution stays nearly the same for a long time, then changes quickly, often when a new species forms, so intermediates are rare. Two lineages that keep spreading apart are reinforcement in a hybrid zone. Two lineages that rejoin are fusion. Those patterns describe the fate of a hybrid zone, not the pace of change in one lineage."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Place these early steps in the history of life in order, from earliest to latest."
+      },
+      "sentence": [
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null
+      ],
+      "blanks": [
+        "Synthesis of non-living organic molecules",
+        "Abiotic synthesis of monomers",
+        "Polymers packaged in protocells",
+        "Arrival of RNA"
+      ],
+      "bank": [
+        "Synthesis of non-living organic molecules",
+        "Abiotic synthesis of monomers",
+        "Polymers packaged in protocells",
+        "Arrival of RNA",
+        "DNA as the first genetic material",
+        "A nucleus enclosing the genes"
+      ],
+      "explanation": "The early sequence is synthesis of non-living organic molecules, then abiotic synthesis of monomers, then polymers packaged in protocells, then the arrival of RNA. RNA can store information and act as a catalyst, so it can be genetic material before DNA. DNA as the first genetic material reverses that order. A nucleus enclosing the genes is a much later eukaryotic structure, not part of the first protocells."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes the role of plate tectonics in speciation?"
+      },
+      "options": [
+        "Moving plates push populations that already share a range into sympatric speciation.",
+        "Plate motion rewrites DNA, so a new species appears on a continent within one generation.",
+        "Plates cause speciation only through mass extinction, and each survivor is then a new species.",
+        "Separating continents divide populations and stop gene flow, so allopatric speciation can follow. Later collisions can bring those lineages back into contact."
+      ],
+      "answer": "Separating continents divide populations and stop gene flow, so allopatric speciation can follow. Later collisions can bring those lineages back into contact.",
+      "explanation": "Plate tectonics moves continents. When a landmass splits, populations are separated and gene flow stops. That split is vicariance, and speciation that follows is allopatric. When continents later collide, lineages that had been apart can meet again. Sympatric speciation does not require plates to push populations together. Plates do not rewrite DNA in one generation. Drifting continents can change climate and contribute to extinctions, and survivors may later diversify, but a survivor is not automatically a new species."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement best describes the relationship between mass extinctions and adaptive radiation?"
+      },
+      "options": [
+        "Adaptive radiation drives most species extinct by filling every niche, and that wave of loss is a mass extinction.",
+        "A mass extinction clears many ecological roles. Surviving lineages can then diversify into those open roles.",
+        "Each survivor of a mass extinction automatically becomes a new species, and that conversion is adaptive radiation.",
+        "A mass extinction removes the variation survivors would need, so adaptive radiation cannot follow."
+      ],
+      "answer": "A mass extinction clears many ecological roles. Surviving lineages can then diversify into those open roles.",
+      "explanation": "A mass extinction eliminates many species and leaves ecological roles open. Lineages that survive can later split into many species suited to those different roles. That burst of diversification is adaptive radiation. Radiation does not empty niches by killing most species. A survivor is not automatically a new species. The extinction removes competitors. It does not erase the heritable variation a surviving lineage can still carry."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing vicariance and dispersal."
+      },
+      "sentence": [
+        "Vicariance is ",
+        null,
+        ", while dispersal is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "a barrier that splits an existing range and stops gene flow",
+        "a few individuals colonizing a new area and no longer exchanging genes with the source population"
+      ],
+      "bank": [
+        "a barrier that splits an existing range and stops gene flow",
+        "a few individuals colonizing a new area and no longer exchanging genes with the source population",
+        "reproductive isolation with no geographic separation",
+        "two lineages in a hybrid zone rejoining into one"
+      ],
+      "explanation": "Both vicariance and dispersal can lead to allopatric speciation. Vicariance is a barrier that divides a population already spread across an area. Dispersal is movement: a few individuals reach a new place and stop exchanging genes with the source population. Reproductive isolation with no geographic separation is sympatric speciation. Two lineages rejoining is fusion in a hybrid zone."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing background extinction and a mass extinction."
+      },
+      "sentence": [
+        "Background extinction is ",
+        null,
+        ", while a mass extinction is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "the ongoing loss of species one by one",
+        "the loss of a large share of species worldwide in a geologically short interval"
+      ],
+      "bank": [
+        "the ongoing loss of species one by one",
+        "the loss of a large share of species worldwide in a geologically short interval",
+        "the automatic conversion of each survivor into a new species",
+        "slow, steady change within one lineage"
+      ],
+      "explanation": "Background extinction is the usual loss of species over time, one species here and another there. A mass extinction removes a large share of species across the planet in a geologically short interval. A survivor of that loss is not automatically a new species. Slow, steady change within one lineage is gradualism, not extinction."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Place these later steps in the history of life in order, from earliest to latest."
+      },
+      "sentence": [
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null,
+        "→",
+        null
+      ],
+      "blanks": [
+        "Prokaryotes",
+        "Oxygen from photosynthesis",
+        "Single-celled eukaryotes",
+        "Multicellular life",
+        "The move onto land"
+      ],
+      "bank": [
+        "Prokaryotes",
+        "Oxygen from photosynthesis",
+        "Single-celled eukaryotes",
+        "Multicellular life",
+        "The move onto land",
+        "A nucleus in the earliest cells",
+        "Animals before oxygen accumulated"
+      ],
+      "explanation": "The first organisms were prokaryotes. Photosynthetic prokaryotes later released oxygen. Single-celled eukaryotes, with a nucleus and other organelles, arose after that. Multicellular bodies came next. The move onto land came after multicellular life was already established in water. The earliest cells did not have a nucleus. Animals did not appear before oxygen had accumulated."
+    }
+  ]
+}
