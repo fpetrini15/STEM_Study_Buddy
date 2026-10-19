@@ -463,6 +463,24 @@
         ]
       },
       {
+        "name": "Practicals",
+        "course": "bio100b",
+        "quizzes": [
+          {
+            "id": "fungi_plant_practical",
+            "title": "Fungi and Plant Practical",
+            "icon": "🔬",
+            "description": "Identify fungi and plants from microscope photographs.",
+            "course": "bio100b",
+            "questionCount": 23,
+            "types": {
+              "multiple_choice": 22,
+              "drag_sentence": 1
+            }
+          }
+        ]
+      },
+      {
         "name": "Cell Signaling",
         "course": "bio100a",
         "quizzes": [
