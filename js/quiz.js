@@ -1465,6 +1465,13 @@ function renderDragSentenceQuestion(question) {
     promptBox.appendChild(img);
   }
 
+  if (question.prompt.caption) {
+    const caption = document.createElement("p");
+    caption.className = "quiz-image-caption";
+    setStemText(caption, question.prompt.caption);
+    promptBox.appendChild(caption);
+  }
+
   appendDragSentenceBuilder(question, categoriesContainer);
 
   checkWorksheetBtn.style.display = "inline-block";

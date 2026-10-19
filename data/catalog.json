@@ -472,10 +472,10 @@
             "icon": "🔬",
             "description": "Identify fungi and plants from microscope photographs.",
             "course": "bio100b",
-            "questionCount": 23,
+            "questionCount": 38,
             "types": {
-              "multiple_choice": 22,
-              "drag_sentence": 1
+              "multiple_choice": 32,
+              "drag_sentence": 6
             }
           }
         ]

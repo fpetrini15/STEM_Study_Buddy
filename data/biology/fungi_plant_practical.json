@@ -202,6 +202,24 @@
     {
       "type": "multiple_choice",
       "prompt": {
+        "text": "Which plant is shown?",
+        "image": "images/biology/fungi_plant_practical/macro_liverwort.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flat green lobes growing over a damp bank. The surface is divided into many small polygons, and each polygon has a tiny pale spot in the center.",
+        "caption": "Photograph by Lairich Rig, 20 April 2007. Wikimedia Commons, CC BY-SA 2.0."
+      },
+      "options": [
+        "A liverwort (Hepatophyta)",
+        "A moss (Bryophyta)",
+        "A club moss (Lycophyta)",
+        "A fern (Monilophyta)"
+      ],
+      "answer": "A liverwort (Hepatophyta)",
+      "explanation": "This is a liverwort, in Hepatophyta. The body is a flat green sheet, and the surface is divided into many small polygons, each with a pore. A moss in Bryophyta grows as leafy shoots and releases spores from a capsule on a stalk. A club moss in Lycophyta has upright stems covered with many small leaves. A fern in Monilophyta has broad leaves, often with sori on the underside. The photograph is by Lairich Rig and is licensed CC BY-SA 2.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
         "text": "What is the common name for Bryophyta?"
       },
       "options": [
@@ -341,7 +359,8 @@
         "text": "Which plant is shown?",
         "image": "images/biology/fungi_plant_practical/fern_sori.png",
         "imageClass": "quiz-image--specimen",
-        "imageAlt": "A cross section of a leaf. Round spore cases hang from the lower surface, partly covered by a thin flap."
+        "imageAlt": "A cross section of a leaf. Round spore cases hang from the lower surface, partly covered by a thin flap.",
+        "caption": "Light micrograph of a cross section by Jon Houseman and Matthew Ford, 2 July 2014. Wikimedia Commons, CC BY-SA 3.0. Labels removed."
       },
       "options": [
         "A fern (Monilophyta)",
@@ -350,7 +369,7 @@
         "*Lycopodium* (Lycophyta)"
       ],
       "answer": "A fern (Monilophyta)",
-      "explanation": "This is a fern, in Monilophyta. The section cuts through a sorus on the underside of a leaf. The round bodies are sporangia, and the thin flap over them is the indusium. *Equisetum* is also in Monilophyta, but it is a horsetail with a jointed stem and branches in whorls. *Psilotum* is a whisk fern in Monilophyta. Its stems fork into two equal branches, and it has no broad leaves. *Lycopodium* is a club moss in Lycophyta, and its stem is covered with many small leaves."
+      "explanation": "This is a fern, in Monilophyta. The section cuts through a sorus on the underside of a leaf. The round bodies are sporangia, and the thin flap over them is the indusium. *Equisetum* is also in Monilophyta, but it is a horsetail with a jointed stem and branches in whorls. *Psilotum* is a whisk fern in Monilophyta. Its stems fork into two equal branches, and it has no broad leaves. *Lycopodium* is a club moss in Lycophyta, and its stem is covered with many small leaves. The section is by Jon Houseman and Matthew Ford and is licensed CC BY-SA 3.0 on Wikimedia Commons. The letter labels were removed."
     },
     {
       "type": "drag_sentence",
@@ -379,6 +398,306 @@
         "a jointed stem with leaves in whorls"
       ],
       "explanation": "A sorus is a cluster of sporangia, usually on the underside of a fern leaf. An annulus is a ring of thick-walled cells on a sporangium. As those cells dry, the sporangium splits open and the annulus flings the spores outward. An indusium is a flap of tissue that covers a young sorus and protects the developing sporangia. The flat body that produces eggs and sperm is the gametophyte. A jointed stem with leaves in whorls is a horsetail, such as *Equisetum*."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which plant is shown?",
+        "image": "images/biology/fungi_plant_practical/macro_welwitschia.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Two views of a desert plant. Long strap-shaped leaves spread from a short crown and are torn into strips. The closer view shows broad green leaves and several upright ridged cones.",
+        "caption": "Photograph plate by Daniela Dutra Elliott. Botany in Hawaiʻi, Biology LibreTexts, CC BY-NC 4.0. Upper photo by Tris T7, CC BY 3.0. Lower photo by wolfgang.mller54, CC BY 2.0, via Wikimedia Commons."
+      },
+      "options": [
+        "A gnetophyte (Gnetophyta)",
+        "A conifer (Coniferophyta)",
+        "A cycad (Cycadophyta)",
+        "A ginkgo (Ginkgophyta)"
+      ],
+      "answer": "A gnetophyte (Gnetophyta)",
+      "explanation": "This is a gnetophyte, in Gnetophyta. The plant produces only two leaves. They grow from a short woody crown for the life of the plant, and wind splits them into long straps. Cones sit at the crown. A conifer in Coniferophyta has needle-like or scale-like leaves, and its cones are borne on woody branches. A cycad in Cycadophyta has a crown of many stiff, feather-like leaves. A ginkgo in Ginkgophyta has fan-shaped leaves. The plate is by Daniela Dutra Elliott, Botany in Hawaiʻi, Biology LibreTexts, CC BY-NC 4.0. The upper photo is by Tris T7, CC BY 3.0, and the lower photo is by wolfgang.mller54, CC BY 2.0, via Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/fungi_plant_practical/macro_ephedra.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Green jointed stems with no broad leaves. Small yellow clusters sit at the nodes.",
+        "caption": "Photograph by Paula Mejia Velasquez. Botany in Hawaiʻi, Biology LibreTexts, CC BY-NC-SA 2.0."
+      },
+      "options": [
+        "*Ephedra* (Gnetophyta)",
+        "*Equisetum* (Monilophyta)",
+        "*Psilotum* (Monilophyta)",
+        "A conifer (Coniferophyta)"
+      ],
+      "answer": "*Ephedra* (Gnetophyta)",
+      "explanation": "This is *Ephedra*, in Gnetophyta. The green stems are jointed and do the photosynthesis. The leaves are tiny scales at the nodes, and the yellow clusters there are cones. *Equisetum* is a horsetail in Monilophyta. Its stem is also jointed, but the leaves are in whorls and the spores form in a strobilus at the stem tip. *Psilotum* is a whisk fern in Monilophyta. Its stems fork into two equal branches, and yellow synangia sit along the stem. A conifer in Coniferophyta has needle-like or scale-like leaves and woody cones. The photograph is by Paula Mejia Velasquez, Botany in Hawaiʻi, Biology LibreTexts, CC BY-NC-SA 2.0."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which plant is shown?",
+        "image": "images/biology/fungi_plant_practical/macro_cycadophyta.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A short thick trunk covered in rough leaf bases. A crown of stiff feather-like leaves spreads from the top.",
+        "caption": "Photograph by Cookie, 5 September 2005. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "A cycad (Cycadophyta)",
+        "A gnetophyte (Gnetophyta)",
+        "A conifer (Coniferophyta)",
+        "A ginkgo (Ginkgophyta)"
+      ],
+      "answer": "A cycad (Cycadophyta)",
+      "explanation": "This is a cycad, in Cycadophyta. A short trunk carries a crown of many stiff, feather-like leaves. A gnetophyte in Gnetophyta either has two long strap-shaped leaves from a short woody crown, or green jointed stems with cones at the nodes, as in *Ephedra*. A conifer in Coniferophyta has needle-like or scale-like leaves and woody cones on the branches. A ginkgo in Ginkgophyta has fan-shaped leaves. The photograph is by Cookie and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which plant is shown?",
+        "image": "images/biology/fungi_plant_practical/macro_ginkophyta.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A woody branch with fan-shaped leaves. Round pale seeds hang in clusters from slender stalks.",
+        "caption": "Photograph by Kurt Stüber, 2004. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "A ginkgo (Ginkgophyta)",
+        "A cycad (Cycadophyta)",
+        "A gnetophyte (Gnetophyta)",
+        "A conifer (Coniferophyta)"
+      ],
+      "answer": "A ginkgo (Ginkgophyta)",
+      "explanation": "This is a ginkgo, in Ginkgophyta. The leaves are fan-shaped, and the round pale bodies are fleshy seeds on slender stalks. A cycad in Cycadophyta has a crown of many stiff, feather-like leaves on a short trunk. A gnetophyte in Gnetophyta either has two long strap-shaped leaves, or green jointed stems with cones at the nodes, as in *Ephedra*. A conifer in Coniferophyta has needle-like or scale-like leaves and woody cones. The photograph is by Kurt Stüber and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which plant is shown?",
+        "image": "images/biology/fungi_plant_practical/macro_ginkophyta2.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Several yellow leaves on a black background. Each leaf is fan-shaped, with veins spreading from the base of the blade, and a long slender stalk.",
+        "caption": "Photograph by Joe Schneid, 3 November 2006. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "A ginkgo (Ginkgophyta)",
+        "A cycad (Cycadophyta)",
+        "A gnetophyte (Gnetophyta)",
+        "A conifer (Coniferophyta)"
+      ],
+      "answer": "A ginkgo (Ginkgophyta)",
+      "explanation": "This is a ginkgo, in Ginkgophyta. The leaves are fan-shaped, and the veins spread from the base of the blade. A cycad in Cycadophyta has a crown of many stiff, feather-like leaves on a short trunk. A gnetophyte in Gnetophyta either has two long strap-shaped leaves, or green jointed stems with cones at the nodes, as in *Ephedra*. A conifer in Coniferophyta has needle-like or scale-like leaves and woody cones. The photograph is by Joe Schneid and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which structure is shown?",
+        "image": "images/biology/fungi_plant_practical/pine_female_cone.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A longitudinal section of a cone. Overlapping scales run along a central axis. Round bodies sit on the upper side of several scales.",
+        "caption": "Light micrograph of a longitudinal section by Iceclanl, 4 July 2012. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "A pine seed cone (Coniferophyta)",
+        "A *Selaginella* strobilus (Lycophyta)",
+        "A fern sorus (Monilophyta)",
+        "A *Lycopodium* strobilus (Lycophyta)"
+      ],
+      "answer": "A pine seed cone (Coniferophyta)",
+      "explanation": "This is a pine seed cone, in Coniferophyta. The section runs lengthwise through the cone. Scales along a central axis each carry an ovule on the upper surface. A *Selaginella* strobilus has sporangia with either many small microspores or a few large megaspores, not ovules on cone scales. A fern sorus is a cluster of sporangia on the underside of a leaf. A *Lycopodium* strobilus is a cone of spore-bearing leaves at the tip of an upright stem, and its spores are all one size. The light micrograph is by Iceclanl and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which structure is shown?",
+        "image": "images/biology/fungi_plant_practical/pine_pollen_grain.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Two oval bodies on a pale background. Each has a grainy center and a pale rounded bladder on either side. A short scale bar sits in the lower right.",
+        "caption": "Photomicrograph by Jon Houseman and Matthew Ford, 25 November 2014. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "A pine pollen grain (Coniferophyta)",
+        "A fern spore (Monilophyta)",
+        "A *Lycopodium* spore (Lycophyta)",
+        "A *Rhizopus* spore (Zygomycota)"
+      ],
+      "answer": "A pine pollen grain (Coniferophyta)",
+      "explanation": "This is a pine pollen grain, in Coniferophyta. Each grain has a grainy body and two pale air bladders, one on either side. The bladders carry the grain on the wind. A fern spore, a *Lycopodium* spore, and a *Rhizopus* spore do not have this pair of bladders. The photomicrograph is by Jon Houseman and Matthew Ford and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which structure is shown?",
+        "image": "images/biology/fungi_plant_practical/pinus_ovule.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A section of a pointed structure on a thick scale. Concentric layers surround a large pale oval, and two dark round bodies sit near the pointed end. A short scale bar is at the lower right.",
+        "caption": "Photomicrograph by Jon Houseman and Matthew Ford, 16 September 2014. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "A pine ovule (Coniferophyta)",
+        "A pine seed cone (Coniferophyta)",
+        "A moss archegonium (Bryophyta)",
+        "A *Selaginella* megasporangium (Lycophyta)"
+      ],
+      "answer": "A pine ovule (Coniferophyta)",
+      "explanation": "This is a pine ovule, in Coniferophyta. It is attached to a cone scale. Tissue layers enclose a large female gametophyte, and the two round bodies near the micropyle are eggs inside archegonia. A pine seed cone is the whole cone of those scales, not this single ovule. A moss archegonium is a single flask-shaped organ with one egg, not an ovule on a cone scale. A *Selaginella* megasporangium holds a few large megaspores and has no integument around a gametophyte. The photomicrograph is by Jon Houseman and Matthew Ford and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Identify the group and the organ.",
+        "image": "images/biology/fungi_plant_practical/monocot_stem.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A stained section with a curved outer edge. Oval bundles are spread through the tissue. They are smaller and closer together near the edge, and larger farther in. A dark ring surrounds each bundle.",
+        "caption": "Photomicrograph by Berkshire Community College Bioscience Image Library, 10 February 2014. Wikimedia Commons, CC0."
+      },
+      "sentence": [
+        "Group: ",
+        null,
+        ". Organ: ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "monocot",
+        "stem"
+      ],
+      "bank": [
+        "monocot",
+        "eudicot",
+        "root",
+        "stem",
+        "seed"
+      ],
+      "explanation": "This is a monocot stem. The vascular bundles are scattered through the ground tissue, with many small bundles near the edge and fewer larger bundles farther in. Each bundle has a sheath of thick-walled cells. An eudicot stem has its vascular bundles in a ring around a central pith. A root keeps its vascular tissue in one central cylinder, and a seed is an embryo with stored food, not a slice of stem. The photomicrograph is by the Berkshire Community College Bioscience Image Library and is dedicated to the public domain (CC0) on Wikimedia Commons."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Identify the group and the organ.",
+        "image": "images/biology/fungi_plant_practical/eudicot_stem.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A stained cross section of a round stem. Large pale cells fill the center. Dark bundles sit in a circle near the edge, with a green cap on the outer side of each bundle.",
+        "caption": "Photomicrograph by Berkshire Community College Bioscience Image Library, 10 February 2014. Wikimedia Commons, CC0."
+      },
+      "sentence": [
+        "Group: ",
+        null,
+        ". Organ: ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "eudicot",
+        "stem"
+      ],
+      "bank": [
+        "monocot",
+        "eudicot",
+        "root",
+        "stem",
+        "seed"
+      ],
+      "explanation": "This is an eudicot stem. The vascular bundles form a ring around a pith of large thin-walled cells. A green fiber cap sits on the outer side of each bundle. A monocot stem has vascular bundles scattered through the ground tissue. A root keeps its vascular tissue in one central cylinder, and a seed is an embryo with stored food, not a slice of stem. The photomicrograph is by the Berkshire Community College Bioscience Image Library and is dedicated to the public domain (CC0) on Wikimedia Commons."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Identify the group and the organ.",
+        "image": "images/biology/fungi_plant_practical/monocot_root.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A stained cross section. A wide band of thin-walled cells surrounds a dark ring. Inside that ring, large open vessels sit around a central core of smaller cells.",
+        "caption": "Photomicrograph by Berkshire Community College Bioscience Image Library, 10 February 2014. Wikimedia Commons, CC0."
+      },
+      "sentence": [
+        "Group: ",
+        null,
+        ". Organ: ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "monocot",
+        "root"
+      ],
+      "bank": [
+        "monocot",
+        "eudicot",
+        "root",
+        "stem",
+        "seed"
+      ],
+      "explanation": "This is a monocot root. A wide cortex surrounds the vascular cylinder. Inside a dark endodermis, large xylem vessels form a ring around a central pith. An eudicot root has a solid star of xylem in the center and no pith. A stem does not gather its vascular tissue in one central cylinder like this, and a seed is an embryo with stored food, not a root section. The photomicrograph is by the Berkshire Community College Bioscience Image Library and is dedicated to the public domain (CC0) on Wikimedia Commons."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Identify the group and the organ.",
+        "image": "images/biology/fungi_plant_practical/eudicot_root.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A stained cross section. A wide band of thin-walled cells surrounds a small central core. In that core, thick-walled cells form a star. A few hair-like cells stick out from the edge.",
+        "caption": "Photomicrograph by Berkshire Community College Bioscience Image Library, 10 February 2014. Wikimedia Commons, CC0."
+      },
+      "sentence": [
+        "Group: ",
+        null,
+        ". Organ: ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "eudicot",
+        "root"
+      ],
+      "bank": [
+        "monocot",
+        "eudicot",
+        "root",
+        "stem",
+        "seed"
+      ],
+      "explanation": "This is an eudicot root. The xylem forms a solid star in the center, and there is no pith. A monocot root has a ring of xylem vessels around a central pith. A stem does not put a solid star of xylem in the center like this, and a seed is an embryo with stored food, not a root section. The photomicrograph is by the Berkshire Community College Bioscience Image Library and is dedicated to the public domain (CC0) on Wikimedia Commons."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Identify each seed.",
+        "image": "images/biology/fungi_plant_practical/eudicot_vs_monocot_seed.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Two seed diagrams side by side. The left seed is split into two large pale halves with a small embryo between them. The right seed is one upright body, with a large stored-food region and a smaller embryo along one side.",
+        "caption": "Diagram from Botany by Melissa Ha, Maria Morrow, and Kammy Algiers, Biology LibreTexts, CC BY-SA 4.0. Bottom labels removed."
+      },
+      "sentence": [
+        "The seed on the left is ",
+        null,
+        ", and the seed on the right is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "eudicot",
+        "monocot"
+      ],
+      "bank": [
+        "monocot",
+        "eudicot"
+      ],
+      "explanation": "The seed on the left is an eudicot. Two large cotyledons fill the seed, and the embryo lies between them. The seed on the right is a monocot. It has one cotyledon beside a large endosperm. The diagram is from Botany by Melissa Ha, Maria Morrow, and Kammy Algiers and is licensed CC BY-SA 4.0 on Biology LibreTexts. The names under the seeds were removed."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which group is a major target of the black-market plant trade?"
+      },
+      "options": [
+        "Cycadophyta",
+        "Gnetophyta",
+        "Coniferophyta",
+        "Ginkgophyta"
+      ],
+      "answer": "Cycadophyta",
+      "explanation": "Cycadophyta are a major target of the black-market plant trade. Many cycads are rare and slow-growing, and collectors take them from the wild for ornamental planting. Coniferophyta are widely grown and harvested as timber. Ginkgophyta has one living species, and it is widely planted. Gnetophyta include *Ephedra* and the two-leaved desert plant, but they are not the group taken for this ornamental trade."
     },
     {
       "type": "multiple_choice",
