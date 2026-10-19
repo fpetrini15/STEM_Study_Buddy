@@ -1,0 +1,408 @@
+{
+  "title": "Fungi and Plant Practical",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/fungi_plant_practical/penicillium.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Blue-stained microscope view of branching filaments. Some filaments end in a brush of narrow cells tipped with chains of round spores.",
+        "caption": "Source photomicrograph at 570×. CDC / Dr. Lucille K. Georg, Public Health Image Library ID 26587."
+      },
+      "options": [
+        "*Penicillium* (Ascomycota)",
+        "*Aspergillus* (Ascomycota)",
+        "*Rhizopus* (Zygomycota)",
+        "*Saccharomyces* (Ascomycota)"
+      ],
+      "answer": "*Penicillium* (Ascomycota)",
+      "explanation": "This is *Penicillium*, in Ascomycota. The conidiophores end in brush-like clusters of conidia, called penicilli, and the hyphae have cross-walls. Ascomycetes make asexual spores called conidia at the tips of hyphae. *Aspergillus* is also in Ascomycota and also makes chains of conidia, but they radiate from a swollen vesicle rather than a branched brush. *Saccharomyces* is an ascomycete yeast of single budding cells, without these hyphae and conidiophores. *Rhizopus* is in Zygomycota and carries its spores inside a round sporangium. The photograph is a cropped detail from CDC / Dr. Lucille K. Georg, Public Health Image Library ID 26587."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/fungi_plant_practical/aspergillus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Microscope view of a stalk ending in a round swollen tip. Narrow cells radiate from that tip, and each ends in a chain of round spores.",
+        "caption": "Nomarski differential interference contrast micrograph by J Scott. Wikimedia Commons, CC0."
+      },
+      "options": [
+        "*Penicillium* (Ascomycota)",
+        "*Aspergillus* (Ascomycota)",
+        "*Rhizopus* (Zygomycota)",
+        "*Saccharomyces* (Ascomycota)"
+      ],
+      "answer": "*Aspergillus* (Ascomycota)",
+      "explanation": "This is *Aspergillus*, in Ascomycota. The conidiophore ends in a swollen vesicle, and chains of conidia radiate from cells covering that vesicle. *Penicillium* is also in Ascomycota, but its conidia form a branched brush rather than radiating from a round vesicle. *Saccharomyces* is an ascomycete yeast of single budding cells, without this stalk and vesicle. *Rhizopus* is in Zygomycota and carries its spores inside a round sporangium. The photograph is by J Scott and is dedicated to the public domain (CC0) on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/fungi_plant_practical/selaginella.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Longitudinal section of a cone. Scale-like leaves surround chambers. Some chambers hold many tiny red spores, and others hold a few much larger spores.",
+        "caption": "Longitudinal section of a strobilus. University of Wisconsin-Madison Department of Botany."
+      },
+      "options": [
+        "*Selaginella* (Lycophyta)",
+        "*Lycopodium* (Lycophyta)",
+        "*Equisetum* (Monilophyta)",
+        "Bryophyta"
+      ],
+      "answer": "*Selaginella* (Lycophyta)",
+      "explanation": "This is *Selaginella*, a spike moss in Lycophyta. The section is a strobilus, a cone of spore-bearing leaves. Some sporangia are packed with many small microspores, and others hold a few large megaspores. That difference in spore size is heterospory. *Lycopodium* is also in Lycophyta and also makes a strobilus, but its spores are all one size. *Equisetum* makes a strobilus too, but it is a horsetail in Monilophyta and its spores are one size. A moss in Bryophyta releases spores from a capsule on a stalk, not from a strobilus of sporophylls. The section is from the University of Wisconsin-Madison Department of Botany."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/fungi_plant_practical/peziza.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Microscope section of a dense row of long sacs. Dark oval spores sit inside the sacs, and looser filament tissue lies beneath that row.",
+        "caption": "Photo by Maria Morrow. A Photographic Atlas for Botany, Biology LibreTexts, CC BY-NC 4.0."
+      },
+      "options": [
+        "*Peziza* (Ascomycota)",
+        "*Coprinus* (Basidiomycota)",
+        "*Penicillium* (Ascomycota)",
+        "*Rhizopus* (Zygomycota)"
+      ],
+      "answer": "*Peziza* (Ascomycota)",
+      "explanation": "This is *Peziza*, a cup fungus in Ascomycota. The hymenium is a palisade of asci. Each ascus is a sac, and the dark oval ascospores are inside it. *Penicillium* is also in Ascomycota, but it releases asexual conidia from a brush rather than sexual spores from asci. *Coprinus* is a mushroom in Basidiomycota. Its hymenium is made of basidia, and the spores sit on the outside of those cells rather than inside a sac. *Rhizopus* is in Zygomycota and carries its spores inside a round sporangium."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/fungi_plant_practical/saccharomyces_cerevisiae.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Microscope view of many separate oval purple cells in loose clusters. No branching filaments or stalks are visible.",
+        "caption": "Gram-stained photomicrograph by Ajay Kumar Chaurasiya. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "*Saccharomyces* (Ascomycota)",
+        "*Penicillium* (Ascomycota)",
+        "*Aspergillus* (Ascomycota)",
+        "*Rhizopus* (Zygomycota)"
+      ],
+      "answer": "*Saccharomyces* (Ascomycota)",
+      "explanation": "This is *Saccharomyces*, a yeast in Ascomycota. The body is single oval cells, and new cells form by budding. There are no hyphae, conidiophores, or sporangia. *Penicillium* and *Aspergillus* are also in Ascomycota, but they grow as hyphae and release chains of conidia. *Rhizopus* is in Zygomycota and carries its spores inside a round sporangium. The photograph is by Ajay Kumar Chaurasiya and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/fungi_plant_practical/zygomycota_2.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Microscope view of blue filaments and several dark, thick-walled round bodies. Pale swollen hyphal ends sit against some of those bodies.",
+        "caption": "Light micrograph of a whole-mount slide by Curtis Clark. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "*Rhizopus* (Zygomycota)",
+        "*Penicillium* (Ascomycota)",
+        "*Aspergillus* (Ascomycota)",
+        "*Saccharomyces* (Ascomycota)"
+      ],
+      "answer": "*Rhizopus* (Zygomycota)",
+      "explanation": "This is *Rhizopus*, in Zygomycota. The dark, thick-walled bodies are zygosporangia, formed where two hyphae meet during sexual reproduction. The swollen cells against them are suspensors. The hyphae lack cross-walls. *Penicillium* and *Aspergillus* are in Ascomycota and release chains of conidia from hyphae that have cross-walls. *Saccharomyces* is an ascomycete yeast of single budding cells. The photograph is by Curtis Clark and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/fungi_plant_practical/basidiomycota.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Microscope section of a blue tissue band. Small oval bodies line the outer edge, and some darker oval bodies lie just outside that edge.",
+        "caption": "Light micrograph by Curtis Clark. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "*Coprinus* (Basidiomycota)",
+        "*Peziza* (Ascomycota)",
+        "*Penicillium* (Ascomycota)",
+        "*Rhizopus* (Zygomycota)"
+      ],
+      "answer": "*Coprinus* (Basidiomycota)",
+      "explanation": "This is *Coprinus*, a mushroom in Basidiomycota. The section cuts across a gill. Club-shaped basidia line the hymenium, and the spores sit on the outside of those cells. *Peziza* is in Ascomycota. Its hymenium is a palisade of asci, and the spores sit inside each sac. *Penicillium* is also in Ascomycota and releases asexual conidia from a brush. *Rhizopus* is in Zygomycota and carries its spores inside a round sporangium. The photograph is by Curtis Clark and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/fungi_plant_practical/bryophyta_antheridium.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Longitudinal section of a rounded tip. Several long sacs stand in the center. Slender filaments with swollen tips stand among them, and a few of those filaments are cut across as small circles.",
+        "caption": "Light micrograph by Kristi Yim, 2011. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Bryophyta",
+        "Hepatophyta",
+        "Lycophyta",
+        "Monilophyta"
+      ],
+      "answer": "Bryophyta",
+      "explanation": "This is a moss, so the phylum is Bryophyta. The section is a male head. The long sacs are antheridia, and sperm form inside them. The sterile filaments among the antheridia are paraphyses. A paraphysis cut across looks like a small circle, and many end in a swollen tip. Hepatophyta are the liverworts. Their sex organs are borne on a stalked receptacle, rather than in a leafy tip like this. Lycophyta, such as *Selaginella*, make spores in a strobilus. Monilophyta include the horsetails, such as *Equisetum*, and those spores also form in a strobilus. The photograph is by Kristi Yim and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/fungi_plant_practical/byrophyta_archegonia.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Longitudinal section of a tip. Flask-shaped bodies stand in the center, and one dark round cell sits inside one of them. Narrow rows of cells form the outer jacket.",
+        "caption": "Longitudinal section from BIOL 212: Botany Laboratory Manual, Brad Basehore and Rae Dennis. Biology LibreTexts, CC BY-NC 4.0."
+      },
+      "options": [
+        "Bryophyta",
+        "Hepatophyta",
+        "Lycophyta",
+        "Monilophyta"
+      ],
+      "answer": "Bryophyta",
+      "explanation": "This is a moss archegonial head, so the phylum is Bryophyta. The flask-shaped bodies are archegonia. The dark cell inside one of them is the egg. Hepatophyta are the liverworts. Their archegonia hang under a stalked archegoniophore, rather than standing in a leafy tip like this. Lycophyta, such as *Selaginella*, make spores in a strobilus. Monilophyta include the horsetails, such as *Equisetum*, and those spores also form in a strobilus. The section is from Brad Basehore and Rae Dennis, BIOL 212 Botany Laboratory Manual, Biology LibreTexts, CC BY-NC 4.0."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/fungi_plant_practical/hepatophyta_atheridium.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Longitudinal section of a stalk topped by a disk. Oval chambers are embedded in the upper part of the disk.",
+        "caption": "Prepared slide from Botany Lab Manual, Maria Morrow. Biology LibreTexts, CC BY-NC 4.0."
+      },
+      "options": [
+        "Hepatophyta",
+        "Bryophyta",
+        "Lycophyta",
+        "Monilophyta"
+      ],
+      "answer": "Hepatophyta",
+      "explanation": "This is a liverwort, so the phylum is Hepatophyta. The stalk ends in a disk. Chambers in the upper surface hold antheridia, and sperm form inside them. A moss in Bryophyta bears antheridia in a leafy tip, not in chambers on a stalked disk. Lycophyta, such as *Selaginella*, make spores in a strobilus. Monilophyta include the horsetails, such as *Equisetum*, and those spores also form in a strobilus. The section is from Maria Morrow, Botany Lab Manual, Biology LibreTexts, CC BY-NC 4.0."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/fungi_plant_practical/hepatophyta_archegonium.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Longitudinal section of a stalk topped by a lobed head. Dark round bodies sit along the upper edge of the lobes.",
+        "caption": "Prepared slide from Botany Lab Manual, Maria Morrow. Biology LibreTexts, CC BY-NC 4.0."
+      },
+      "options": [
+        "Hepatophyta",
+        "Bryophyta",
+        "Lycophyta",
+        "Monilophyta"
+      ],
+      "answer": "Hepatophyta",
+      "explanation": "This is a liverwort, so the phylum is Hepatophyta. The stalk ends in a lobed head. Archegonia hang along that head, and each holds one egg. A moss in Bryophyta bears archegonia upright in a leafy tip, rather than hanging under a lobed head. Lycophyta, such as *Selaginella*, make spores in a strobilus. Monilophyta include the horsetails, such as *Equisetum*, and those spores also form in a strobilus. The section is from Maria Morrow, Botany Lab Manual, Biology LibreTexts, CC BY-NC 4.0."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the common name for Bryophyta?"
+      },
+      "options": [
+        "Mosses",
+        "Liverworts",
+        "Horsetails",
+        "Spike mosses"
+      ],
+      "answer": "Mosses",
+      "explanation": "Bryophyta are the mosses. Hepatophyta are the liverworts. Horsetails, such as *Equisetum*, are in Monilophyta. Spike mosses, such as *Selaginella*, are in Lycophyta."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the common name for Hepatophyta?"
+      },
+      "options": [
+        "Liverworts",
+        "Mosses",
+        "Horsetails",
+        "Club mosses"
+      ],
+      "answer": "Liverworts",
+      "explanation": "Hepatophyta are the liverworts. Bryophyta are the mosses. Horsetails, such as *Equisetum*, are in Monilophyta. Club mosses, such as *Lycopodium*, are in Lycophyta."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/fungi_plant_practical/macro_lycopodium.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A dense stand of upright green shoots. Each shoot is covered with many small narrow leaves.",
+        "caption": "Photograph by Fyn Kynd, 1 August 2020. iNaturalist, via Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Lycophyta",
+        "Bryophyta",
+        "Hepatophyta",
+        "Monilophyta"
+      ],
+      "answer": "Lycophyta",
+      "explanation": "These are upright stems covered with many small leaves, so the phylum is Lycophyta. A moss in Bryophyta grows as a small cushion and releases spores from a capsule on a stalk. A liverwort in Hepatophyta has a flat body, or leaves in a flat plane, and bears its sex organs on a stalked receptacle. A horsetail in Monilophyta has a jointed stem, and its leaves are in whorls. The photograph is by Fyn Kynd and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/fungi_plant_practical/lycopodium.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Longitudinal section of a cone. Scale-like leaves surround chambers, and each chamber is packed with many small spores of one size.",
+        "caption": "Light micrograph of a longitudinal section by Curtis Clark. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "*Lycopodium* (Lycophyta)",
+        "*Selaginella* (Lycophyta)",
+        "*Equisetum* (Monilophyta)",
+        "Bryophyta"
+      ],
+      "answer": "*Lycopodium* (Lycophyta)",
+      "explanation": "This is *Lycopodium*, a club moss in Lycophyta. The section is a strobilus. Each sporangium is packed with many spores, and those spores are all one size, so it is homosporous. *Selaginella* is also in Lycophyta and also makes a strobilus, but it is heterosporous: some of its sporangia hold many small microspores and others hold a few large megaspores. *Equisetum* makes a strobilus too, but it is a horsetail in Monilophyta. Its stems are jointed, and the leaves are in whorls. A moss in Bryophyta releases spores from a capsule on a stalk, not from a strobilus of sporophylls. The photograph is by Curtis Clark and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/fungi_plant_practical/psilotum.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Green stems that fork into two equal branches. Small yellow spheres sit along the stems, and the stems have no broad leaves.",
+        "caption": "Photograph by Jon Houseman, 25 November 2014. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "*Psilotum* (Monilophyta)",
+        "*Equisetum* (Monilophyta)",
+        "*Lycopodium* (Lycophyta)",
+        "Bryophyta"
+      ],
+      "answer": "*Psilotum* (Monilophyta)",
+      "explanation": "This is *Psilotum*, a whisk fern in Monilophyta. The stems fork into two equal branches, and the yellow spheres are synangia, fused groups of sporangia, borne along the stem. The plant has no broad leaves. *Equisetum* is also in Monilophyta, but it is a horsetail with a jointed stem and leaves in whorls. *Lycopodium* is a club moss in Lycophyta, and its stem is covered with many small leaves. A moss in Bryophyta grows as a small cushion and releases spores from a capsule on a stalk. The photograph is by Jon Houseman and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/fungi_plant_practical/equisetum.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Upright green stems marked by dark bands. At each band, a ring of thin green branches spreads outward.",
+        "caption": "Photograph by Rror, 18 May 2008. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "*Equisetum* (Monilophyta)",
+        "*Psilotum* (Monilophyta)",
+        "*Lycopodium* (Lycophyta)",
+        "Bryophyta"
+      ],
+      "answer": "*Equisetum* (Monilophyta)",
+      "explanation": "This is *Equisetum*, a horsetail in Monilophyta. The stem is jointed, with a dark band at each joint, and the branches come off in whorls. *Psilotum* is also in Monilophyta, but it is a whisk fern: its stems fork into two equal branches, and yellow sporangia sit along those stems. *Lycopodium* is a club moss in Lycophyta, and its stem is covered with many small leaves. A moss in Bryophyta grows as a small cushion and releases spores from a capsule on a stalk. The photograph is by Rror and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which plant is shown?",
+        "image": "images/biology/fungi_plant_practical/macro_fern_sori.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "The underside of a divided green leaf. Dark round clusters are arranged in rows on the leaf segments.",
+        "caption": "Photograph by L. Shyamal, 2016. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "A fern (Monilophyta)",
+        "*Equisetum* (Monilophyta)",
+        "*Psilotum* (Monilophyta)",
+        "*Lycopodium* (Lycophyta)"
+      ],
+      "answer": "A fern (Monilophyta)",
+      "explanation": "This is a fern, in Monilophyta. The dark clusters on the underside of the leaf are sori, groups of sporangia. *Equisetum* is also in Monilophyta, but it is a horsetail with a jointed stem and branches in whorls. *Psilotum* is a whisk fern in Monilophyta. Its stems fork into two equal branches, and it has no broad leaves. *Lycopodium* is a club moss in Lycophyta, and its stem is covered with many small leaves. The photograph is by L. Shyamal and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum does this gametophyte belong to?",
+        "image": "images/biology/fungi_plant_practical/fern_gametophyte.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Two flat green bodies, each with a notch at one end and many hairlike filaments. The larger body has a small stalked leaf and a root growing from the notch.",
+        "caption": "Light micrograph of a whole-mount slide by Curtis Clark, 11 June 2012. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Monilophyta",
+        "Bryophyta",
+        "Hepatophyta",
+        "Lycophyta"
+      ],
+      "answer": "Monilophyta",
+      "explanation": "This gametophyte belongs to Monilophyta. The flat body has a notch, and hairlike rhizoids grow from the lower side. On the larger one, a small leaf and a root arise from the notch. Those belong to the young sporophyte, which is still attached to the gametophyte. A moss gametophyte in Bryophyta is a leafy shoot and releases spores from a capsule on a stalk. A liverwort gametophyte in Hepatophyta has a flat body and bears its sex organs on a stalked receptacle. A club moss in Lycophyta has a stem covered with many small leaves, and its gametophyte is not a free-living flat body like this. The photograph is by Curtis Clark and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which plant is shown?",
+        "image": "images/biology/fungi_plant_practical/fern_sori.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A cross section of a leaf. Round spore cases hang from the lower surface, partly covered by a thin flap."
+      },
+      "options": [
+        "A fern (Monilophyta)",
+        "*Equisetum* (Monilophyta)",
+        "*Psilotum* (Monilophyta)",
+        "*Lycopodium* (Lycophyta)"
+      ],
+      "answer": "A fern (Monilophyta)",
+      "explanation": "This is a fern, in Monilophyta. The section cuts through a sorus on the underside of a leaf. The round bodies are sporangia, and the thin flap over them is the indusium. *Equisetum* is also in Monilophyta, but it is a horsetail with a jointed stem and branches in whorls. *Psilotum* is a whisk fern in Monilophyta. Its stems fork into two equal branches, and it has no broad leaves. *Lycopodium* is a club moss in Lycophyta, and its stem is covered with many small leaves."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence identifying the function of a sorus, an annulus, and an indusium."
+      },
+      "sentence": [
+        "A sorus is ",
+        null,
+        ", an annulus is ",
+        null,
+        ", and an indusium is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "a cluster of sporangia on the underside of a leaf",
+        "the ring of cells that splits a sporangium open and flings out the spores",
+        "a flap of tissue that covers a young sorus"
+      ],
+      "bank": [
+        "a cluster of sporangia on the underside of a leaf",
+        "the ring of cells that splits a sporangium open and flings out the spores",
+        "a flap of tissue that covers a young sorus",
+        "the flat body that produces eggs and sperm",
+        "a jointed stem with leaves in whorls"
+      ],
+      "explanation": "A sorus is a cluster of sporangia, usually on the underside of a fern leaf. An annulus is a ring of thick-walled cells on a sporangium. As those cells dry, the sporangium splits open and the annulus flings the spores outward. An indusium is a flap of tissue that covers a young sorus and protects the developing sporangia. The flat body that produces eggs and sperm is the gametophyte. A jointed stem with leaves in whorls is a horsetail, such as *Equisetum*."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Is *Selaginella* homosporous or heterosporous?"
+      },
+      "options": [
+        "Heterosporous",
+        "Homosporous"
+      ],
+      "answer": "Heterosporous",
+      "explanation": "*Selaginella* is heterosporous. Some sporangia hold many small microspores, and others hold a few large megaspores. *Lycopodium* is homosporous. Its spores are all one size."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Is *Lycopodium* homosporous or heterosporous?"
+      },
+      "options": [
+        "Homosporous",
+        "Heterosporous"
+      ],
+      "answer": "Homosporous",
+      "explanation": "*Lycopodium* is homosporous. Its spores are all one size. *Selaginella* is heterosporous. Some of its sporangia hold many small microspores, and others hold a few large megaspores."
+    }
+  ]
+}

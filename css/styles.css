@@ -1476,6 +1476,28 @@ QUIZ AREA
   height: auto;
 }
 
+.quiz-image.quiz-image--specimen {
+  max-width: 100%;
+
+  width: 100%;
+
+  height: auto;
+}
+
+.quiz-image-caption {
+  margin: 0;
+
+  max-width: 520px;
+
+  color: white;
+
+  font-size: 13px;
+
+  font-weight: 500;
+
+  line-height: 1.4;
+}
+
 .image-instruction {
   font-size: 16px;
 
