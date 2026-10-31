@@ -444,7 +444,7 @@
         ]
       },
       {
-        "name": "Plant Form",
+        "name": "Plants",
         "course": "bio100b",
         "quizzes": [
           {
@@ -458,6 +458,59 @@
               "select_all": 3,
               "drag_sentence": 8,
               "multiple_choice": 31
+            }
+          },
+          {
+            "id": "plants_in_the_environment",
+            "title": "Plants in the Environment",
+            "icon": "🌿",
+            "description": "Plant hormones and how plants respond to their surroundings.",
+            "course": "bio100b",
+            "questionCount": 95,
+            "types": {
+              "drag_sentence": 11,
+              "drag_and_drop": 25,
+              "select_all": 9,
+              "multiple_choice": 50
+            }
+          },
+          {
+            "id": "seedless_plants",
+            "title": "Seedless Plants",
+            "icon": "🍀",
+            "description": "Mosses, ferns, and other plants that do not make seeds.",
+            "course": "bio100b",
+            "questionCount": 58,
+            "types": {
+              "multiple_choice": 42,
+              "select_all": 4,
+              "drag_sentence": 3,
+              "drag_and_drop": 9
+            }
+          },
+          {
+            "id": "seed_plants",
+            "title": "Seed Plants",
+            "icon": "🌰",
+            "description": "Seeds, pollen, and the plants that make them.",
+            "course": "bio100b",
+            "questionCount": 53,
+            "types": {
+              "select_all": 3,
+              "multiple_choice": 38,
+              "drag_and_drop": 12
+            }
+          },
+          {
+            "id": "plant_reproduction",
+            "title": "Plant Reproduction",
+            "icon": "🌸",
+            "description": "Flowers, fruits, and how a flowering plant reproduces.",
+            "course": "bio100b",
+            "questionCount": 71,
+            "types": {
+              "multiple_choice": 70,
+              "select_all": 1
             }
           }
         ]

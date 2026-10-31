@@ -1,0 +1,761 @@
+{
+  "title": "Seed Plants",
+  "questions": [
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every benefit of seeds."
+      },
+      "bank": [
+        "Can remain dormant for days or years",
+        "Have a supply of stored food",
+        "Can be transported long distances by wind or animals",
+        "Sperm must swim through water to reach the egg",
+        "Each one is a single cell with no stored food"
+      ],
+      "answers": [
+        "Can remain dormant for days or years",
+        "Have a supply of stored food",
+        "Can be transported long distances by wind or animals"
+      ],
+      "explanation": "A seed can stay dormant for days or years until conditions favor germination. It carries a supply of stored food for the embryo. Wind or animals can carry it a long distance from the parent plant. Sperm swimming through water is how seedless plants reproduce, and seeds remove that requirement. A spore is a single cell with no stored food. A seed is a multicellular embryo with food and a protective coat."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is pollination?"
+      },
+      "options": [
+        "The transfer of a pollen grain, the male gametophyte, to an ovule.",
+        "The fusion of a sperm with an egg inside an ovule.",
+        "The transport of a mature seed away from the parent plant by wind or animals.",
+        "The release of spores from a sporangium."
+      ],
+      "answer": "The transfer of a pollen grain, the male gametophyte, to an ovule.",
+      "explanation": "Pollination is the transfer of a pollen grain to an ovule. The pollen grain is the male gametophyte. Fusion of a sperm with an egg is fertilization, which happens after the pollen arrives. Carrying a mature seed away from the parent is seed dispersal. Releasing spores from a sporangium is how seedless plants reproduce. In flowering plants, the pollen grain usually lands on the stigma first, and a pollen tube then grows to the ovule. In conifers and other gymnosperms, the pollen grain is delivered to the ovule itself."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A fern gametophyte is a small green plant living on its own. A pine's gametophytes stay inside the parent and can be seen only with a microscope. What is true of all seed plants?"
+      },
+      "options": [
+        "Unlike their ancestors, seed plants have microscopic gametophytes.",
+        "Unlike their ancestors, seed plants have large free-living gametophytes.",
+        "Seed plants have no gametophyte. The sporophyte makes the gametes.",
+        "The gametophyte is the dominant body, and the sporophyte grows on it."
+      ],
+      "answer": "Unlike their ancestors, seed plants have microscopic gametophytes.",
+      "explanation": "All seed plants have reduced gametophytes. Unlike their ancestors, those gametophytes are microscopic and stay inside the parent sporophyte. A fern gametophyte is small, but it lives on its own and is not the seed-plant pattern. A dominant gametophyte with the sporophyte growing on it is the bryophyte pattern. Seed plants still have a gametophyte. The sporophyte makes spores by meiosis. The gametophyte makes the gametes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which spore condition do all seed plants share?"
+      },
+      "options": [
+        "Heterospory. They produce both megaspores and microspores.",
+        "Homospory. They produce one kind of spore that develops into a bisexual gametophyte.",
+        "They produce only microspores.",
+        "They produce only megaspores."
+      ],
+      "answer": "Heterospory. They produce both megaspores and microspores.",
+      "explanation": "All seed plants are heterosporous. They produce megaspores and microspores. Homospory is one spore type that typically develops into a bisexual gametophyte, which is the pattern of many seedless plants. A plant that made only microspores, or only megaspores, would not be heterosporous. Some seedless vascular plants, such as Selaginella, are also heterosporous. Heterospory is shared by every seed plant, and it is not limited to seed plants."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In a seed plant, what does a megaspore develop into?"
+      },
+      "options": [
+        "A female gametophyte.",
+        "A male gametophyte.",
+        "A bisexual gametophyte.",
+        "The embryo inside a seed."
+      ],
+      "answer": "A female gametophyte.",
+      "explanation": "A megaspore develops into a female gametophyte. A microspore develops into a male gametophyte. A bisexual gametophyte typically develops from the single spore type of a homosporous plant. The embryo forms later, after fertilization, inside the ovule."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In a seed plant, what does a microspore develop into?"
+      },
+      "options": [
+        "A male gametophyte.",
+        "A female gametophyte.",
+        "A bisexual gametophyte.",
+        "A fertilized ovule."
+      ],
+      "answer": "A male gametophyte.",
+      "explanation": "A microspore develops into a male gametophyte. In seed plants that male gametophyte is the pollen grain. A megaspore develops into a female gametophyte. A bisexual gametophyte typically develops from the single spore type of a homosporous plant. A fertilized ovule is a seed, and it forms only after the egg is fertilized."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What does a megasporangium contain?"
+      },
+      "options": [
+        "A megasporocyte.",
+        "A microspore.",
+        "An embryo.",
+        "A pollen grain."
+      ],
+      "answer": "A megasporocyte.",
+      "explanation": "A megasporangium contains a megasporocyte. That cell is the one that divides by meiosis. A microspore is produced in a microsporangium and develops into the male gametophyte, the pollen grain. An embryo is inside the ovule only after fertilization."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Inside an ovule, a megasporocyte divides by meiosis. What is the result?"
+      },
+      "options": [
+        "Four megaspores are produced, and only one persists to become the female gametophyte.",
+        "Four megaspores are produced, and all four become female gametophytes.",
+        "One megaspore is produced, and it becomes the male gametophyte.",
+        "Four microspores are produced, and each becomes a pollen grain."
+      ],
+      "answer": "Four megaspores are produced, and only one persists to become the female gametophyte.",
+      "explanation": "The megasporocyte divides by meiosis and produces four megaspores. Only one of those four persists, and that megaspore becomes the female gametophyte. The other three do not. Microspores, and the pollen grains that develop from them, come from meiosis of a microsporocyte in a microsporangium, not from the megasporocyte."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Fertilization has just occurred inside an ovule. What does that ovule contain now?"
+      },
+      "options": [
+        "An embryo.",
+        "Only a megasporocyte.",
+        "Four megaspores, and no embryo.",
+        "A pollen grain that has not yet reached an egg."
+      ],
+      "answer": "An embryo.",
+      "explanation": "After fertilization, the ovule contains an embryo. A megasporocyte is the cell present before meiosis. Four megaspores are the products of that meiosis, and only one of them becomes the female gametophyte, which happens before fertilization. A pollen grain that has not reached an egg has not fertilized anything yet, so no embryo has formed."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a seed?"
+      },
+      "options": [
+        "A fertilized ovule.",
+        "An ovule before fertilization.",
+        "A pollen grain.",
+        "A megaspore."
+      ],
+      "answer": "A fertilized ovule.",
+      "explanation": "A seed is a fertilized ovule. After fertilization that ovule contains an embryo, and the seed also has a supply of stored food and a protective coat. An ovule before fertilization is not yet a seed. A pollen grain is the male gametophyte. A megaspore develops into the female gametophyte."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is an integument?"
+      },
+      "options": [
+        "A protective layer around the megasporangium. It becomes the seed coat.",
+        "The cell inside a megasporangium that divides by meiosis.",
+        "The embryo inside a fertilized ovule.",
+        "The supply of stored food in a seed."
+      ],
+      "answer": "A protective layer around the megasporangium. It becomes the seed coat.",
+      "explanation": "An integument is a protective layer of tissue around the megasporangium. After fertilization it becomes the seed coat. The cell inside the megasporangium that divides by meiosis is the megasporocyte. The embryo is what the ovule contains after fertilization. The stored food is a separate part of the seed. A seedless plant such as Selaginella has a megasporangium with no integument around it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In a flower, in what structure does the pollen tube reside?"
+      },
+      "options": [
+        "The style.",
+        "The filament.",
+        "The anther.",
+        "A sepal."
+      ],
+      "answer": "The style.",
+      "explanation": "In a flower, the pollen tube resides in the style. A pollen grain lands on the stigma, and the tube grows down the style toward an ovule in the ovary. The style is the neck of the pistil, between the stigma and the ovary. The anther produces the pollen, and the filament holds the anther. A sepal is an outer part of the flower. The tube does not grow in any of those. Conifers and other gymnosperms have no style. Their pollen tube grows inside the ovule."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a gymnosperm?"
+      },
+      "options": [
+        "A seed plant with naked seeds. The seeds are not enclosed in an ovary.",
+        "A seed plant whose seeds develop inside an ovary, which becomes a fruit.",
+        "A vascular plant that has no seeds and releases spores from a strobilus.",
+        "A plant with a dominant free-living gametophyte and no vascular tissue."
+      ],
+      "answer": "A seed plant with naked seeds. The seeds are not enclosed in an ovary.",
+      "explanation": "A gymnosperm is a seed plant with naked seeds. The name means naked seed. The ovules, and later the seeds, are exposed, often on the scales of a cone. They are not enclosed in an ovary, and no fruit forms. A seed plant whose seeds develop inside an ovary is a flowering plant. A vascular plant with no seeds that releases spores from a strobilus is a lycophyte or a horsetail. A dominant free-living gametophyte and no vascular tissue is the bryophyte pattern."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every feature shared by all gymnosperms."
+      },
+      "bank": [
+        "Reduced megaphylls, consisting of simple leaves often in the form of needles or scales",
+        "A primary vascular system with a ring of separated vascular bundles, phloem outside and xylem inside",
+        "Secondary growth from a lateral vascular cambium, with secondary xylem to the inside and secondary phloem to the outside",
+        "A main stem with lateral branching",
+        "Almost all are woody, and most are trees",
+        "Seeds enclosed in an ovary",
+        "Microphylls, each with one unbranched vascular strand",
+        "Scattered vascular bundles, with xylem outside and phloem inside"
+      ],
+      "answers": [
+        "Reduced megaphylls, consisting of simple leaves often in the form of needles or scales",
+        "A primary vascular system with a ring of separated vascular bundles, phloem outside and xylem inside",
+        "Secondary growth from a lateral vascular cambium, with secondary xylem to the inside and secondary phloem to the outside",
+        "A main stem with lateral branching",
+        "Almost all are woody, and most are trees"
+      ],
+      "explanation": "All gymnosperms have reduced megaphylls: simple leaves, often needles or scales. The primary vascular system is a ring of separated vascular bundles, with phloem outside and xylem inside. Secondary growth comes from a lateral vascular cambium, which adds secondary xylem to the inside and secondary phloem to the outside. The body is a main stem with lateral branching. Almost all are woody, and most are trees. Seeds enclosed in an ovary are the flowering-plant pattern. Gymnosperm seeds are naked. A microphyll, with one unbranched vascular strand, is a lycophyte leaf. Scattered bundles with xylem outside and phloem inside are not the gymnosperm stem."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is unique about cycads (Cycadophyta)?"
+      },
+      "options": [
+        "A short trunk carries a crown of many stiff, feather-like leaves.",
+        "One living species has fan-shaped leaves, with veins spreading from the base of the blade, and fleshy seeds on slender stalks.",
+        "Needle-like or scale-like leaves, with woody cones on the branches.",
+        "Two long strap-shaped leaves, or green jointed stems with tiny scale leaves."
+      ],
+      "answer": "A short trunk carries a crown of many stiff, feather-like leaves.",
+      "explanation": "Cycads, in Cycadophyta, have a short trunk with a crown of many stiff, feather-like leaves. Fan-shaped leaves, veins spreading from the base of the blade, and fleshy seeds on slender stalks are the ginkgo, in Ginkgophyta, and that phylum has one living species. Needle-like or scale-like leaves and woody cones on the branches are conifers, in Coniferophyta. Two long strap-shaped leaves, or green jointed stems with tiny scale leaves, are gnetophytes, in Gnetophyta."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is unique about ginkgos (Ginkgophyta)?"
+      },
+      "options": [
+        "One living species has fan-shaped leaves, with veins spreading from the base of the blade, and fleshy seeds on slender stalks.",
+        "A short trunk carries a crown of many stiff, feather-like leaves.",
+        "Needle-like or scale-like leaves, with woody cones on the branches.",
+        "Two long strap-shaped leaves, or green jointed stems with tiny scale leaves."
+      ],
+      "answer": "One living species has fan-shaped leaves, with veins spreading from the base of the blade, and fleshy seeds on slender stalks.",
+      "explanation": "Ginkgos, in Ginkgophyta, have one living species. The leaves are fan-shaped, the veins spread from the base of the blade, and fleshy seeds hang on slender stalks. A short trunk with a crown of stiff, feather-like leaves is a cycad, in Cycadophyta. Needle-like or scale-like leaves and woody cones on the branches are conifers, in Coniferophyta. Two long strap-shaped leaves, or green jointed stems with tiny scale leaves, are gnetophytes, in Gnetophyta."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A pine tree carries both pollen cones and seed cones. In a cycad population, some plants produce only pollen cones and others produce only seed cones. What is the distinction?"
+      },
+      "options": [
+        "The pine is monoecious: male and female structures are on the same plant. The cycads are dioecious: those structures are on separate plants.",
+        "The pine is dioecious: male and female structures are on separate plants. The cycads are monoecious: both structures are on the same plant.",
+        "The pine is heterosporous. The cycads are homosporous.",
+        "The pine has a dominant sporophyte. The cycads have a dominant gametophyte."
+      ],
+      "answer": "The pine is monoecious: male and female structures are on the same plant. The cycads are dioecious: those structures are on separate plants.",
+      "explanation": "A monoecious plant has male and female reproductive structures on the same individual. A pine carries both pollen cones and seed cones, so it is monoecious. A dioecious species has those structures on separate plants. One cycad produces only pollen cones, and another produces only seed cones. Ginkgos are dioecious as well. Calling the pine dioecious and the cycads monoecious swaps the two terms. Heterospory means a plant makes both megaspores and microspores. All seed plants are heterosporous, whether they are monoecious or dioecious. A dominant sporophyte and a microscopic gametophyte is the pattern of every seed plant, including both the pine and the cycads."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is unique about reproduction in cycads and ginkgos?"
+      },
+      "options": [
+        "They have flagellated sperm.",
+        "Their seeds are enclosed in an ovary.",
+        "They produce one kind of spore, which develops into a bisexual gametophyte.",
+        "The gametophyte is the large free-living body."
+      ],
+      "answer": "They have flagellated sperm.",
+      "explanation": "Cycads and ginkgos have flagellated sperm. The pollen grain is the male gametophyte, and it carries those sperm. The sperm swim a short distance to the egg inside the ovule. They do not swim through water outside the plant. Conifers have nonmotile sperm carried by the pollen tube. Seeds enclosed in an ovary are the flowering-plant pattern. One spore type and a bisexual gametophyte is homospory, and all seed plants are heterosporous. A large free-living gametophyte is the bryophyte or fern pattern."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which description fits the reproductive cycle of a pine?"
+      },
+      "options": [
+        "The pine tree is the sporophyte. Pollen cones produce pollen grains, the male gametophytes. Seed cones bear ovules, and a megaspore inside an ovule develops into the female gametophyte. More than a year after pollination, a pollen tube delivers nonmotile sperm to an egg. The fertilized ovule becomes a seed on the cone scale.",
+        "The gametophyte is the pine tree. A dependent sporophyte grows on it and releases spores from a capsule.",
+        "One kind of spore grows into a free-living bisexual gametophyte, and flagellated sperm swim to the egg through water outside the plant.",
+        "Pollination and fertilization happen together. The fertilized ovule becomes a seed enclosed in a fruit."
+      ],
+      "answer": "The pine tree is the sporophyte. Pollen cones produce pollen grains, the male gametophytes. Seed cones bear ovules, and a megaspore inside an ovule develops into the female gametophyte. More than a year after pollination, a pollen tube delivers nonmotile sperm to an egg. The fertilized ovule becomes a seed on the cone scale.",
+      "explanation": "A pine tree is the sporophyte. It is monoecious, so pollen cones and seed cones are on the same tree. Meiosis in a pollen cone produces microspores, and each microspore develops into a pollen grain, the male gametophyte. In a seed cone, a megasporocyte inside an ovule produces four megaspores and one persists. That megaspore develops into the female gametophyte, which makes eggs. Wind carries pollen to the ovule. The pollen tube grows inside the ovule and delivers nonmotile sperm. Fertilization happens more than a year after pollination. The fertilized ovule is the seed, and it sits exposed on the cone scale. A dominant gametophyte with a spore capsule is the bryophyte pattern. One spore type, a free-living bisexual gametophyte, and sperm that swim through outside water is the homosporous seedless-plant pattern. Cycads and ginkgos have flagellated sperm. A seed enclosed in a fruit, with fertilization soon after pollination, is the flowering-plant pattern."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is unique about pine pollen grains?"
+      },
+      "options": [
+        "Each grain has two wings, or air bladders, that carry it on the wind.",
+        "Each grain has flagella and swims to the egg.",
+        "Each grain develops into a female gametophyte.",
+        "Each grain is a seed enclosed in a fruit."
+      ],
+      "answer": "Each grain has two wings, or air bladders, that carry it on the wind.",
+      "explanation": "A pine pollen grain has two wings, one on each side of the body. These wings are air bladders, and they carry the grain on the wind to a seed cone. The grain is the male gametophyte. It does not swim. Cycads and ginkgos have flagellated sperm. A megaspore develops into the female gametophyte. A seed is a fertilized ovule, and in a pine it sits on the cone scale."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What makes soft wood soft?"
+      },
+      "options": [
+        "It consists primarily of tracheids and lacks vessel elements.",
+        "It consists primarily of vessel elements and lacks tracheids.",
+        "It is made of living sieve-tube elements that conduct sugars.",
+        "It lacks lignin, so the water-conducting cells stay soft."
+      ],
+      "answer": "It consists primarily of tracheids and lacks vessel elements.",
+      "explanation": "Soft wood consists primarily of tracheids and lacks vessel elements. Tracheids are the least derived xylem cells, and they conduct water. This is the wood of conifers and other gymnosperms. Vessel elements arose later, in flowering plants. Wood that contains vessel elements is called hardwood. Sieve-tube elements are living phloem cells that conduct sugars. They are not the cells that make wood. Water-conducting cells in wood have lignin in their walls. Cells that conduct water and lack lignin are hydroids in some mosses, and those mosses do not make wood."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the role of resin in trees?"
+      },
+      "options": [
+        "It is an antiseptic and an insect deterrent.",
+        "It conducts water through the wood.",
+        "It conducts sugars from leaves to roots.",
+        "It is the stored food inside a seed."
+      ],
+      "answer": "It is an antiseptic and an insect deterrent.",
+      "explanation": "Resin is an antiseptic and an insect deterrent. In a conifer, it seals a wound and slows bacteria and fungi, and it deters insects that would bore into the tree. Water moves through tracheids in the wood. Sugars move through sieve-tube elements in the phloem. The stored food in a seed feeds the embryo. Resin does none of those jobs."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is unique about gnetophytes (Gnetophyta)?"
+      },
+      "options": [
+        "Two long strap-shaped leaves, or green jointed stems with tiny scale leaves.",
+        "A short trunk carries a crown of many stiff, feather-like leaves.",
+        "One living species has fan-shaped leaves, with veins spreading from the base of the blade, and fleshy seeds on slender stalks.",
+        "Needle-like or scale-like leaves, with woody cones on the branches."
+      ],
+      "answer": "Two long strap-shaped leaves, or green jointed stems with tiny scale leaves.",
+      "explanation": "Gnetophytes, in Gnetophyta, take two forms in this course. One produces only two long strap-shaped leaves from a short woody crown. Wind splits those leaves into strips, and cones sit at the crown. This plant is *Welwitschia*, the two-leaved desert plant. The other is *Ephedra*. Its green stems are jointed and do the photosynthesis, and the leaves are tiny scales at the nodes. The third genus, *Gnetum*, has broad leaves. A short trunk with a crown of stiff, feather-like leaves is a cycad, in Cycadophyta. Fan-shaped leaves and fleshy seeds on slender stalks are the ginkgo, in Ginkgophyta, and that phylum has one living species. Needle-like or scale-like leaves and woody cones on the branches are conifers, in Coniferophyta."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every genus in Gnetophyta."
+      },
+      "bank": [
+        "*Ephedra*",
+        "*Welwitschia*",
+        "*Gnetum*",
+        "*Ginkgo*",
+        "*Pinus*",
+        "*Cycas*",
+        "*Equisetum*"
+      ],
+      "answers": [
+        "*Ephedra*",
+        "*Welwitschia*",
+        "*Gnetum*"
+      ],
+      "explanation": "Gnetophyta has three genera: *Ephedra*, *Welwitschia*, and *Gnetum*. *Ephedra* has green jointed stems and tiny scale leaves. *Welwitschia* is the two-leaved desert plant, with two long strap-shaped leaves from a short woody crown. *Gnetum* has broad leaves. *Ginkgo* is the one living species in Ginkgophyta. *Pinus* is a pine, in Coniferophyta. *Cycas* is a cycad, in Cycadophyta. *Equisetum* is a horsetail, in Monilophyta. Its stem is jointed, but it is not *Ephedra*."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure A?",
+        "image": "images/biology/seed_plants/embryo_sac.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Embryo sac diagram with letters A through G. Leader lines connect A through E to cells. F marks the chalazal end and G marks the micropylar end.",
+        "caption": "Schematic of an angiosperm embryo sac, the female gametophyte. OpenStax Biology, CC BY. https://courses.lumenlearning.com/atd-herkimer-biologyfundamentals1/chapter/sexual-reproduction-in-angiosperms/"
+      },
+      "options": [
+        "The antipodal cells",
+        "The synergids",
+        "The egg cell",
+        "The polar nuclei"
+      ],
+      "answer": "The antipodal cells",
+      "explanation": "A is where the lines meet the three green cells at the top of the embryo sac. Those cells are the antipodal cells. They sit at the chalazal end, marked F, opposite the micropyle. The two dark dots inside the purple cell, labeled B, are the polar nuclei. The two orange cells, labeled C, are the synergids. The yellow cell nearest the micropyle, labeled D, is the egg. This embryo sac is the female gametophyte of a flowering plant. The diagram is from OpenStax Biology and is licensed CC BY on Lumen Learning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure B?",
+        "image": "images/biology/seed_plants/embryo_sac.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Embryo sac diagram with letters A through G. Leader lines connect A through E to cells. F marks the chalazal end and G marks the micropylar end.",
+        "caption": "Schematic of an angiosperm embryo sac, the female gametophyte. OpenStax Biology, CC BY. https://courses.lumenlearning.com/atd-herkimer-biologyfundamentals1/chapter/sexual-reproduction-in-angiosperms/"
+      },
+      "options": [
+        "The polar nuclei",
+        "The antipodal cells",
+        "The synergids",
+        "The egg cell"
+      ],
+      "answer": "The polar nuclei",
+      "explanation": "B is where the lines meet the two dark dots inside the purple cell. Those dots are the polar nuclei. The purple cell that holds them is the central cell, labeled E. In a flowering plant, one sperm joins the egg and the other sperm joins these two polar nuclei. The three green cells, labeled A, are the antipodal cells. The two orange cells, labeled C, are the synergids. The yellow cell, labeled D, is the egg. The diagram is from OpenStax Biology and is licensed CC BY on Lumen Learning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure C?",
+        "image": "images/biology/seed_plants/embryo_sac.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Embryo sac diagram with letters A through G. Leader lines connect A through E to cells. F marks the chalazal end and G marks the micropylar end.",
+        "caption": "Schematic of an angiosperm embryo sac, the female gametophyte. OpenStax Biology, CC BY. https://courses.lumenlearning.com/atd-herkimer-biologyfundamentals1/chapter/sexual-reproduction-in-angiosperms/"
+      },
+      "options": [
+        "The synergids",
+        "The egg cell",
+        "The antipodal cells",
+        "The polar nuclei"
+      ],
+      "answer": "The synergids",
+      "explanation": "C is where the lines meet the two orange cells beside the egg. Those cells are the synergids. They sit with the egg at the micropylar end, marked G, next to the small opening at the bottom of the ovule. The yellow cell, labeled D, is the egg. The three green cells, labeled A, are the antipodal cells, at the chalazal end. The two dark dots, labeled B, are the polar nuclei. The diagram is from OpenStax Biology and is licensed CC BY on Lumen Learning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure D?",
+        "image": "images/biology/seed_plants/embryo_sac.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Embryo sac diagram with letters A through G. Leader lines connect A through E to cells. F marks the chalazal end and G marks the micropylar end.",
+        "caption": "Schematic of an angiosperm embryo sac, the female gametophyte. OpenStax Biology, CC BY. https://courses.lumenlearning.com/atd-herkimer-biologyfundamentals1/chapter/sexual-reproduction-in-angiosperms/"
+      },
+      "options": [
+        "The egg cell",
+        "The synergids",
+        "The central cell",
+        "The polar nuclei"
+      ],
+      "answer": "The egg cell",
+      "explanation": "D points to the yellow cell nearest the micropyle, the small opening at the bottom of the ovule. That cell is the egg. One sperm joins this egg, and the fertilized ovule becomes the seed. The two orange cells beside the egg, labeled C, are the synergids. The purple cell, labeled E, is the central cell. The two dark dots inside it, labeled B, are the polar nuclei, and the other sperm joins those nuclei. The diagram is from OpenStax Biology and is licensed CC BY on Lumen Learning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure E?",
+        "image": "images/biology/seed_plants/embryo_sac.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Embryo sac diagram with letters A through G. Leader lines connect A through E to cells. F marks the chalazal end and G marks the micropylar end.",
+        "caption": "Schematic of an angiosperm embryo sac, the female gametophyte. OpenStax Biology, CC BY. https://courses.lumenlearning.com/atd-herkimer-biologyfundamentals1/chapter/sexual-reproduction-in-angiosperms/"
+      },
+      "options": [
+        "The central cell",
+        "The polar nuclei",
+        "The egg cell",
+        "The micropylar end"
+      ],
+      "answer": "The central cell",
+      "explanation": "E points to the large purple cell. That cell is the central cell, and it contains the two polar nuclei, labeled B. The yellow cell, labeled D, is the egg. The orange cells, labeled C, are the synergids. The three green cells, labeled A, are the antipodal cells. F marks the chalazal end of the sac, and G marks the micropylar end. The diagram is from OpenStax Biology and is licensed CC BY on Lumen Learning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure F?",
+        "image": "images/biology/seed_plants/embryo_sac.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Embryo sac diagram with letters A through G. Leader lines connect A through E to cells. F marks the chalazal end and G marks the micropylar end.",
+        "caption": "Schematic of an angiosperm embryo sac, the female gametophyte. OpenStax Biology, CC BY. https://courses.lumenlearning.com/atd-herkimer-biologyfundamentals1/chapter/sexual-reproduction-in-angiosperms/"
+      },
+      "options": [
+        "The chalazal end",
+        "The micropylar end",
+        "The central cell",
+        "The egg cell"
+      ],
+      "answer": "The chalazal end",
+      "explanation": "F sits above the embryo sac, where the label marked the chalazal end. The three green antipodal cells, labeled A, are at this end. G, below the sac, marks the micropylar end, where the egg and the synergids sit. The purple cell, labeled E, is the central cell. The yellow cell, labeled D, is the egg. The diagram is from OpenStax Biology and is licensed CC BY on Lumen Learning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure G?",
+        "image": "images/biology/seed_plants/embryo_sac.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Embryo sac diagram with letters A through G. Leader lines connect A through E to cells. F marks the chalazal end and G marks the micropylar end.",
+        "caption": "Schematic of an angiosperm embryo sac, the female gametophyte. OpenStax Biology, CC BY. https://courses.lumenlearning.com/atd-herkimer-biologyfundamentals1/chapter/sexual-reproduction-in-angiosperms/"
+      },
+      "options": [
+        "The micropylar end",
+        "The chalazal end",
+        "The egg cell",
+        "The antipodal cells"
+      ],
+      "answer": "The micropylar end",
+      "explanation": "G sits below the embryo sac, where the label marked the micropylar end. The micropyle is the small opening at the bottom of the ovule. The egg, labeled D, and the two synergids, labeled C, sit at this end. F, above the sac, marks the chalazal end, where the three green antipodal cells sit. Those green cells, labeled A, are the antipodal cells. The diagram is from OpenStax Biology and is licensed CC BY on Lumen Learning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What happens in double fertilization?",
+        "image": "images/biology/seed_plants/embryo_sac.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Embryo sac diagram with letters A through G. Leader lines connect A through E to cells. F marks the chalazal end and G marks the micropylar end.",
+        "caption": "Schematic of an angiosperm embryo sac, the female gametophyte. OpenStax Biology, CC BY. https://courses.lumenlearning.com/atd-herkimer-biologyfundamentals1/chapter/sexual-reproduction-in-angiosperms/"
+      },
+      "options": [
+        "One sperm joins the egg and forms the zygote. The other sperm joins the two polar nuclei and forms the endosperm.",
+        "One sperm joins the egg. The two polar nuclei are not fertilized.",
+        "Both sperm join the egg. The central cell is not fertilized.",
+        "One sperm joins a synergid, and the other sperm joins an antipodal cell."
+      ],
+      "answer": "One sperm joins the egg and forms the zygote. The other sperm joins the two polar nuclei and forms the endosperm.",
+      "explanation": "Double fertilization happens in a flowering plant, inside the embryo sac. Two sperm travel in the pollen tube. One sperm joins the egg, the yellow cell labeled D, and that fusion forms the zygote. The zygote develops into the embryo. The other sperm joins the two polar nuclei, labeled B, inside the central cell, labeled E. That fusion forms the endosperm, the seed's supply of stored food. The endosperm is triploid, because the sperm and each polar nucleus are haploid. A single fusion, one sperm with the egg and no fusion with the polar nuclei, is what happens in a pine. Both sperm do not join the egg, and the central cell is fertilized. The synergids, labeled C, and the antipodal cells, labeled A, do not fuse with the sperm. The integument becomes the seed coat, and the ovary wall becomes the fruit. The diagram is from OpenStax Biology and is licensed CC BY on Lumen Learning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the benefit of endosperm?"
+      },
+      "options": [
+        "It is a supply of stored food for the embryo.",
+        "It becomes the seed coat.",
+        "It is an antiseptic and an insect deterrent.",
+        "It conducts water through the plant."
+      ],
+      "answer": "It is a supply of stored food for the embryo.",
+      "explanation": "Endosperm is a supply of stored food for the embryo. In a flowering plant it forms when one sperm joins the two polar nuclei, and the seed carries that food until germination. The integument becomes the seed coat. Resin is an antiseptic and an insect deterrent. Water moves through tracheids in the wood. In a pine, the stored food is tissue of the female gametophyte. A pine does not make endosperm."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Endosperm is unique to angiosperms."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Endosperm is unique to angiosperms, the flowering plants. It forms in double fertilization, when one sperm joins the two polar nuclei, and it is the seed's supply of stored food. Gymnosperms also make seeds with stored food, but that food is tissue of the female gametophyte. A pine does not make endosperm."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Woody and slow-growing"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Gymnosperms",
+      "explanation": "These notes describe gymnosperms as woody and slow-growing. Angiosperms are described as herbaceous and fast-growing. A gymnosperm stem thickens by secondary growth from a vascular cambium, and almost all gymnosperms are woody. The angiosperm column in the notes pairs a herbaceous body with fast growth."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Herbaceous and fast-growing"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Angiosperms",
+      "explanation": "These notes describe angiosperms as herbaceous and fast-growing. Gymnosperms are described as woody and slow-growing. A herbaceous plant does not build a thick woody trunk. The gymnosperm column pairs a woody body with slow growth."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Lengthy reproductive cycles"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Gymnosperms",
+      "explanation": "These notes give gymnosperms lengthy reproductive cycles. Angiosperms have short reproductive cycles. In a pine, fertilization happens more than a year after pollination, and the seed then forms on the cone scale. A flowering plant can be pollinated and fertilized in one season."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Short reproductive cycles"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Angiosperms",
+      "explanation": "These notes give angiosperms short reproductive cycles. Gymnosperms have lengthy reproductive cycles. A flower can be pollinated and fertilized in one season, and the fertilized ovule becomes a seed inside a fruit. In a pine, fertilization happens more than a year after pollination."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A long juvenile stage"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Gymnosperms",
+      "explanation": "These notes give gymnosperms a long juvenile stage. Angiosperms have a short juvenile stage. The juvenile stage is the period before the plant can reproduce. It fits the gymnosperm column with slow growth and lengthy reproductive cycles. The angiosperm column pairs a short juvenile stage with fast growth and short reproductive cycles."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A short juvenile stage"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Angiosperms",
+      "explanation": "These notes give angiosperms a short juvenile stage. Gymnosperms have a long juvenile stage. A short juvenile stage means the plant can reproduce sooner. It fits the angiosperm column with fast growth and short reproductive cycles. The gymnosperm column pairs a long juvenile stage with slow growth."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Cotyledons and young leaves are thick, green, energetically expensive to make, and not changeable in shape"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Gymnosperms",
+      "explanation": "These notes describe gymnosperm cotyledons and young leaves as thick, green, energetically expensive to make, and not changeable in shape. Angiosperm cotyledons and leaves are thin, deciduous, energetically cheap to make, and variable in shape. A cotyledon is a seed leaf. The gymnosperm version costs more to build and keeps one shape."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Cotyledons and leaves are thin, deciduous, energetically cheap to make, and variable in shape"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Angiosperms",
+      "explanation": "These notes describe angiosperm cotyledons and leaves as thin, deciduous, energetically cheap to make, and variable in shape. Gymnosperm cotyledons and young leaves are thick, green, energetically expensive to make, and not changeable in shape. Deciduous leaves are shed. A cotyledon is a seed leaf. The angiosperm version costs less to build and can take more than one shape."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Tracheids and sieve tubes are relatively inefficient"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Gymnosperms",
+      "explanation": "These notes say gymnosperm tracheids and sieve tubes are relatively inefficient. Angiosperm vessels and sieve tubes are highly efficient. Tracheids conduct water and are the wood of a gymnosperm. Soft wood consists primarily of tracheids and lacks vessel elements. Sieve tubes conduct sugars. Vessel elements arose later, in flowering plants, and the notes treat that combination as the more efficient one."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Vessels and sieve tubes are highly efficient"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Angiosperms",
+      "explanation": "These notes say angiosperm vessels and sieve tubes are highly efficient. Gymnosperm tracheids and sieve tubes are relatively inefficient. Vessel elements conduct water and arose in flowering plants. A gymnosperm's wood consists primarily of tracheids and lacks vessel elements. Sieve tubes conduct sugars in both columns of the notes. The efficiency difference is the vessels."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A slow seedling growth rate"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Gymnosperms",
+      "explanation": "These notes give gymnosperms a slow seedling growth rate. Angiosperms have a rapid seedling growth rate. A gymnosperm seedling also has thick, costly cotyledons and a long juvenile stage. An angiosperm seedling has thin, cheap cotyledons and a short juvenile stage, so it grows faster."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A rapid seedling growth rate"
+      },
+      "categories": [
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "answer": "Angiosperms",
+      "explanation": "These notes give angiosperms a rapid seedling growth rate. Gymnosperms have a slow seedling growth rate. Thin, cheap, deciduous cotyledons and a short juvenile stage fit the faster angiosperm seedling. Thick, costly cotyledons and a long juvenile stage fit the slower gymnosperm seedling."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What are the components of a seed?" },
+      "options": [
+        "An embryo, a supply of stored food, and a seed coat.",
+        "A pollen grain, a stigma, and a style.",
+        "An ovary, a petal, and a sepal.",
+        "A megaspore, a microspore, and an integument that has not yet become a coat."
+      ],
+      "answer": "An embryo, a supply of stored food, and a seed coat.",
+      "explanation": "A seed is a fertilized ovule. It contains an embryo, a supply of stored food, and a seed coat. The seed coat develops from the integument. In a flowering plant the stored food is endosperm, or food the endosperm passed to the cotyledons. In a pine the stored food is tissue of the female gametophyte, not endosperm. A pollen grain is the male gametophyte. An ovary wall becomes a fruit in a flowering plant. A megaspore develops into the female gametophyte before fertilization."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "In a pine seed, what is the supply of stored food?" },
+      "options": [
+        "Tissue of the female gametophyte.",
+        "Endosperm formed when a sperm joins two polar nuclei.",
+        "The seed coat.",
+        "The embryo itself."
+      ],
+      "answer": "Tissue of the female gametophyte.",
+      "explanation": "In a pine seed the stored food is tissue of the female gametophyte. A pine does not make endosperm. Endosperm is the stored food of a flowering plant, formed when one sperm joins the two polar nuclei. The seed coat is the protective layer from the integument. The embryo is the new sporophyte, and it uses the stored food. It is not the food supply."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "How do the ovules differ between a pine and a flowering plant?" },
+      "options": [
+        "Pine ovules are exposed on a cone scale. Flowering-plant ovules are enclosed in an ovary.",
+        "Pine ovules are enclosed in an ovary that becomes a fruit. Flowering-plant ovules are exposed on a cone scale.",
+        "A pine has no ovules. Only flowering plants have ovules.",
+        "Both enclose the ovule in an ovary. Only the flowering plant makes endosperm."
+      ],
+      "answer": "Pine ovules are exposed on a cone scale. Flowering-plant ovules are enclosed in an ovary.",
+      "explanation": "A pine is a gymnosperm, so its ovules and later its seeds are exposed, often on a cone scale. They are not enclosed in an ovary, and no fruit forms. A flowering plant encloses its ovules in an ovary, and that ovary becomes the fruit. Both plants have ovules. Endosperm is a flowering-plant tissue. It is not the reason the ovules are enclosed."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "How does pollination differ between a pine and a flower?" },
+      "options": [
+        "Pine pollen is delivered to the ovule. In a flower the pollen grain lands on the stigma.",
+        "Pine pollen lands on a stigma. In a flower the pollen grain is delivered straight to the ovule.",
+        "A pine is pollinated when a sperm joins an egg. A flower is pollinated when pollen lands on the stigma.",
+        "Both deliver pollen to a stigma. Only the pine then grows a pollen tube."
+      ],
+      "answer": "Pine pollen is delivered to the ovule. In a flower the pollen grain lands on the stigma.",
+      "explanation": "A pine has no stigma. Wind carries its winged pollen grain to an ovule on a cone scale, and the pollen tube grows inside that ovule. In a flower the pollen grain, the male gametophyte, lands on the stigma. A tube then grows down the style to an ovule. Joining of a sperm with an egg is fertilization, which comes after pollination. A pine does not have a stigma."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "How does fertilization differ between a pine and a flowering plant?" },
+      "options": [
+        "In a pine, a pollen tube delivers nonmotile sperm to an egg more than a year after pollination. In a flowering plant, one sperm joins the egg and the other joins the two polar nuclei.",
+        "In a pine, one sperm joins the egg and the other joins two polar nuclei. In a flowering plant, a single sperm joins the egg more than a year later.",
+        "In both, flagellated sperm swim through water outside the plant to reach the egg.",
+        "In a pine, fertilization is the landing of pollen on the ovule. In a flowering plant, fertilization is the landing of pollen on the stigma."
+      ],
+      "answer": "In a pine, a pollen tube delivers nonmotile sperm to an egg more than a year after pollination. In a flowering plant, one sperm joins the egg and the other joins the two polar nuclei.",
+      "explanation": "In a pine, fertilization is one fusion: nonmotile sperm, delivered by a pollen tube, join an egg. It happens more than a year after pollination. There is no second fusion and no endosperm. In a flowering plant, fertilization is double. One sperm joins the egg and forms the zygote. The other joins the two polar nuclei and forms the endosperm. Cycads and ginkgos, which are other gymnosperms, have flagellated sperm. Those sperm swim a short distance inside the ovule. They do not swim through water outside the plant. Landing of pollen is pollination, not fertilization."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "How does seed dispersal differ between a pine and a flowering plant?" },
+      "options": [
+        "A pine seed is released from a cone scale. A flowering-plant seed is enclosed in a fruit.",
+        "A pine seed is enclosed in a fruit. A flowering-plant seed is released from a cone scale.",
+        "Both enclose the seed in a fruit. Only the pine fruit is woody.",
+        "A pine disperses spores from a sporangium. A flowering plant disperses a naked seed."
+      ],
+      "answer": "A pine seed is released from a cone scale. A flowering-plant seed is enclosed in a fruit.",
+      "explanation": "A pine seed sits exposed on the cone scale, and that is how it leaves the parent. A flowering-plant seed is enclosed in a fruit, the mature ovary, and the fruit helps move the seed. A pine does not make a fruit. A flowering plant does not carry its seeds on a cone scale. Spore release is the seedless-plant pattern."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "Which traits help explain why angiosperms became the dominant plants?" },
+      "options": [
+        "They often grow fast, with a short reproductive cycle, a short juvenile stage, and efficient vessels.",
+        "They are woody and slow-growing, with a long juvenile stage and tracheids rather than vessels.",
+        "Their seeds are exposed on cone scales, and fertilization takes more than a year.",
+        "Flagellated sperm swim to the egg through water outside the plant."
+      ],
+      "answer": "They often grow fast, with a short reproductive cycle, a short juvenile stage, and efficient vessels.",
+      "explanation": "These notes contrast angiosperms with gymnosperms. Angiosperms are often herbaceous and fast-growing. They have short reproductive cycles, a short juvenile stage, thin cheap leaves, efficient vessels, and rapid seedling growth. Those traits help explain their dominance. Woody, slow growth, long cycles, a long juvenile stage, and tracheids rather than vessels are the gymnosperm side of the same notes. Exposed seeds on cone scales and fertilization more than a year after pollination are the pine pattern. Flagellated sperm that swim through water outside the plant are the seedless-plant pattern. Cycad and ginkgo sperm swim only inside the ovule."
+    }
+  ]
+}
