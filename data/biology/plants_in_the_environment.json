@@ -1,0 +1,1344 @@
+{
+  "title": "Plants in the Environment",
+  "questions": [
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence naming the three steps of a signal transduction pathway, in order."
+      },
+      "sentence": [
+        "The three steps of a signal transduction pathway, in order, are ",
+        null,
+        ", ",
+        null,
+        ", and ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "reception",
+        "transduction",
+        "response"
+      ],
+      "bank": [
+        "response",
+        "reception",
+        "transduction"
+      ],
+      "explanation": "A signal transduction pathway links a signal to a cellular change in three steps. Reception comes first. A receptor protein detects the signal and changes shape. Transduction is next. The cell relays that message inward and often amplifies it, commonly through second messengers and a phosphorylation cascade, until the message reaches the proteins that will act. Response is last. The cell changes an activity, often by changing the activity of an enzyme or by changing which genes are transcribed."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Auxin"
+      },
+      "categories": ["Growth promoter", "Growth inhibitor"],
+      "answer": "Growth promoter",
+      "explanation": "Auxin is a growth promoter. It stimulates cell elongation in young stems, and it is the hormone that bends a shoot toward light and a root toward gravity. In apical dominance, auxin from the shoot tip keeps axillary buds from growing out. That local effect on side buds does not put auxin with the growth inhibitors. Abscisic acid and ethylene are the inhibitors among the five major plant hormones."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Cytokinins"
+      },
+      "categories": ["Growth promoter", "Growth inhibitor"],
+      "answer": "Growth promoter",
+      "explanation": "Cytokinins are growth promoters. They stimulate cell division, and they can slow the aging of leaves. They are made mainly in roots and move up the plant. They often act together with auxin, another promoter. Abscisic acid and ethylene slow growth. Cytokinins do not."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Gibberellins"
+      },
+      "categories": ["Growth promoter", "Growth inhibitor"],
+      "answer": "Growth promoter",
+      "explanation": "Gibberellins are growth promoters. They stimulate stem elongation, fruit growth, and seed germination. In a seed they help break dormancy and mobilize stored food. Abscisic acid does the opposite in a seed: it keeps the seed dormant. Gibberellins are not growth inhibitors."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Abscisic acid"
+      },
+      "categories": ["Growth promoter", "Growth inhibitor"],
+      "answer": "Growth inhibitor",
+      "explanation": "Abscisic acid is a growth inhibitor. It slows growth and keeps seeds dormant, and it closes stomata when the plant is short of water. The name suggests leaf drop, but abscisic acid is not the main hormone of abscission. Ethylene is. Auxin, cytokinins, and gibberellins are the growth promoters."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Ethylene"
+      },
+      "categories": ["Growth promoter", "Growth inhibitor"],
+      "answer": "Growth inhibitor",
+      "explanation": "Ethylene is a growth inhibitor. A seedling that hits an obstacle releases this gas and shows the triple response: stem elongation slows, the stem thickens, and growth turns horizontal. Ethylene also brings on fruit ripening, leaf drop, and aging. Ripening is a developmental change, not growth of the plant body. Auxin, cytokinins, and gibberellins are the growth promoters."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the sites where auxin is synthesized."
+      },
+      "bank": [
+        "Stem apex and young leaves",
+        "Developing embryos",
+        "Roots",
+        "Axillary buds",
+        "Ovary"
+      ],
+      "answers": [
+        "Stem apex and young leaves",
+        "Developing embryos"
+      ],
+      "explanation": "Auxin is synthesized in the stem apex and young leaves, and in developing embryos. Auxin from the stem apex and young leaves acts on expanding tissues, roots, axillary buds, the cambium, and leaves and fruits. Auxin from developing embryos acts on the ovary and promotes fruit development. Roots, axillary buds, and the ovary are sites where auxin acts. They are not sites where it is made."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does auxin have on expanding tissues?"
+      },
+      "options": [
+        "Promotes cell elongation",
+        "Initiates lateral roots",
+        "Inhibits growth",
+        "Promotes xylem differentiation"
+      ],
+      "answer": "Promotes cell elongation",
+      "explanation": "Auxin from the stem apex and young leaves promotes cell elongation in expanding tissues. That is how a young shoot lengthens. Initiating lateral roots is the effect in roots. Inhibiting growth is the effect in axillary buds. Promoting xylem differentiation is the effect in the cambium."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does auxin have on roots?"
+      },
+      "options": [
+        "Promotes cell elongation",
+        "Initiates lateral roots",
+        "Inhibits abscission",
+        "Promotes fruit development"
+      ],
+      "answer": "Initiates lateral roots",
+      "explanation": "Auxin from the stem apex and young leaves initiates lateral roots. Promoting cell elongation is the effect in expanding tissues. Inhibiting abscission is the effect in leaves and fruits. Promoting fruit development is the effect of auxin from developing embryos, and that auxin acts on the ovary."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does auxin have on axillary buds?"
+      },
+      "options": [
+        "Promotes cell elongation",
+        "Initiates lateral roots",
+        "Inhibits growth",
+        "Inhibits abscission"
+      ],
+      "answer": "Inhibits growth",
+      "explanation": "Auxin from the stem apex and young leaves inhibits growth of axillary buds. That is apical dominance: the shoot tip keeps side buds from growing out. Promoting cell elongation is the effect in expanding tissues. Initiating lateral roots is the effect in roots. Inhibiting abscission is the effect in leaves and fruits."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does auxin have on the cambium?"
+      },
+      "options": [
+        "Promotes cell elongation",
+        "Inhibits growth",
+        "Promotes xylem differentiation",
+        "Promotes fruit development"
+      ],
+      "answer": "Promotes xylem differentiation",
+      "explanation": "Auxin from the stem apex and young leaves promotes xylem differentiation in the cambium. Promoting cell elongation is the effect in expanding tissues. Inhibiting growth is the effect in axillary buds. Promoting fruit development is the effect of auxin from developing embryos on the ovary."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does auxin have on leaves and fruits?"
+      },
+      "options": [
+        "Initiates lateral roots",
+        "Promotes xylem differentiation",
+        "Inhibits abscission",
+        "Promotes fruit development"
+      ],
+      "answer": "Inhibits abscission",
+      "explanation": "Auxin from the stem apex and young leaves inhibits abscission of leaves and fruits, so it keeps them attached. Ethylene is the hormone that promotes leaf drop. Initiating lateral roots is the effect in roots. Promoting xylem differentiation is the effect in the cambium. Promoting fruit development is the effect of auxin from developing embryos on the ovary."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does auxin from developing embryos have on the ovary?"
+      },
+      "options": [
+        "Inhibits growth",
+        "Promotes xylem differentiation",
+        "Inhibits abscission",
+        "Promotes fruit development"
+      ],
+      "answer": "Promotes fruit development",
+      "explanation": "Auxin from developing embryos promotes fruit development in the ovary. The developing seeds supply that auxin, so a pollinated ovary grows into a fruit. Inhibiting growth is the effect of auxin from the stem apex and young leaves on axillary buds. Promoting xylem differentiation is the cambium effect. Inhibiting abscission is the effect in leaves and fruits."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence describing how auxin causes a stem cell to elongate."
+      },
+      "sentence": [
+        "Auxin flows down the stem from the shoot tip. It ",
+        null,
+        " proton pump activity. The extra protons ",
+        null,
+        " cellulose fibers in the cell wall, so the cell can ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "increases",
+        "loosen",
+        "expand"
+      ],
+      "bank": [
+        "decreases",
+        "increases",
+        "tighten",
+        "loosen",
+        "shrink",
+        "expand"
+      ],
+      "explanation": "Auxin made at the shoot tip flows down the stem. In an elongating cell it increases proton pump activity. The pumps send H+ into the cell wall, and the lower pH activates expansins. Expansins loosen the links between cellulose fibers, so the wall can yield. Water enters, turgor pushes on that loosened wall, and the cell expands. Decreasing proton pump activity would leave the wall less acidic. The fibers would stay tight, and the cell would not elongate."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing auxin concentration on the lit side and the shaded side of a shoot."
+      },
+      "sentence": [
+        "When light strikes one side of a shoot, auxin concentration is ",
+        null,
+        " on that lit side and ",
+        null,
+        " on the shaded side."
+      ],
+      "blanks": [
+        "lower",
+        "higher"
+      ],
+      "bank": [
+        "higher",
+        "lower"
+      ],
+      "explanation": "Light is sensed at the shoot tip, and young leaves there are one place auxin is made. Auxin then moves sideways, away from the light. The shaded side of the stem ends up with the higher auxin concentration, and the lit side has the lower concentration. Cells on the shaded side elongate more, so the shoot bends toward the light. A higher concentration on the lit side would bend the shoot away from the light."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is apical dominance?"
+      },
+      "options": [
+        "The shoot tip suppresses growth of the axillary buds below it.",
+        "The axillary buds suppress growth of the shoot tip above them.",
+        "The shoot tip stimulates growth of the axillary buds below it.",
+        "Developing embryos suppress development of the ovary."
+      ],
+      "answer": "The shoot tip suppresses growth of the axillary buds below it.",
+      "explanation": "Apical dominance is the shoot tip keeping the axillary buds below it from growing out. The apical bud produces auxin, and that auxin moves down the stem and inhibits those side buds. Cutting off the tip removes the auxin source, and the axillary buds then grow into branches. The side buds do not suppress the tip, and the tip does not stimulate them. Auxin from developing embryos promotes fruit development in the ovary. It does not suppress the ovary."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the sites where gibberellins are synthesized."
+      },
+      "bank": [
+        "Stem, apex, and young leaves",
+        "Embryo",
+        "Stem internode",
+        "Seed",
+        "Endosperm"
+      ],
+      "answers": [
+        "Stem, apex, and young leaves",
+        "Embryo"
+      ],
+      "explanation": "Gibberellins are synthesized in the stem, the apex, and young leaves, and in the embryo. Gibberellins from the stem, apex, and young leaves act on the stem internode and promote cell division and elongation. Gibberellins from the embryo act on the seed and promote germination. In a grass, gibberellins from the embryo also act on the endosperm and promote starch hydrolysis. The stem internode, the seed, and the endosperm are sites where gibberellins act. They are not sites where gibberellins are made."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect do gibberellins have on the stem internode?"
+      },
+      "options": [
+        "Promotes cell division and elongation",
+        "Promotes germination",
+        "Promotes starch hydrolysis"
+      ],
+      "answer": "Promotes cell division and elongation",
+      "explanation": "Gibberellins from the stem, the apex, and young leaves promote cell division and elongation in the stem internode. That is how the stem lengthens between nodes. Promoting germination is the effect of gibberellins from the embryo on the seed. Promoting starch hydrolysis is the effect of gibberellins from the grass embryo on the endosperm."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect do gibberellins from the embryo have on the seed?"
+      },
+      "options": [
+        "Promotes cell division and elongation",
+        "Promotes germination",
+        "Promotes starch hydrolysis"
+      ],
+      "answer": "Promotes germination",
+      "explanation": "Gibberellins from the embryo promote germination of the seed. They help break dormancy so the seed can sprout. Promoting cell division and elongation is the effect on the stem internode. Promoting starch hydrolysis is the effect of gibberellins from the grass embryo on the endosperm. Abscisic acid does the opposite in a seed: it keeps the seed dormant."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect do gibberellins from the grass embryo have on the endosperm?"
+      },
+      "options": [
+        "Promotes cell division and elongation",
+        "Promotes germination",
+        "Promotes starch hydrolysis"
+      ],
+      "answer": "Promotes starch hydrolysis",
+      "explanation": "Gibberellins from the embryo of a grass promote starch hydrolysis in the endosperm. The embryo releases gibberellin, the aleurone layer makes amylase, and that enzyme breaks starch into sugars the growing embryo can use. Promoting germination is the effect of embryonic gibberellins on the seed as a whole. Promoting cell division and elongation is the effect on the stem internode."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Increases cell wall plasticity"
+      },
+      "categories": ["Auxin", "Gibberellins"],
+      "answer": "Auxin",
+      "explanation": "Auxin increases cell wall plasticity. It raises proton pump activity, the wall acidifies, and expansins loosen cellulose fibers so the wall can stretch and the cell can elongate. Gibberellins also lengthen a stem, but they do it by promoting cell division and elongation in the internode. They are not the hormone that makes the wall plastic."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Inhibits axillary meristems"
+      },
+      "categories": ["Auxin", "Gibberellins"],
+      "answer": "Auxin",
+      "explanation": "Auxin from the shoot tip inhibits the axillary meristems. That is apical dominance: the side buds stay dormant while the tip is intact. Gibberellins promote growth of the stem internode. They do not suppress those axillary meristems."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Coordinates root and shoot growth"
+      },
+      "categories": ["Auxin", "Gibberellins"],
+      "answer": "Auxin",
+      "explanation": "Auxin coordinates growth of the root and the shoot. Auxin from the shoot moves down the plant, promotes shoot elongation, and initiates lateral roots, so the two systems stay in step. Gibberellins promote growth of the stem internode. They do not coordinate the root system with the shoot."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Stimulates growth of secondary xylem"
+      },
+      "categories": ["Auxin", "Gibberellins"],
+      "answer": "Auxin",
+      "explanation": "Auxin stimulates growth of secondary xylem, the wood produced by the vascular cambium. That is the cambium effect of auxin: it promotes xylem differentiation. Gibberellins stimulate growth of secondary phloem, the inner bark, not secondary xylem."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Promotes growth of the stem internode"
+      },
+      "categories": ["Auxin", "Gibberellins"],
+      "answer": "Gibberellins",
+      "explanation": "Gibberellins promote cell division and elongation in the stem internode, so the stem lengthens between nodes. Auxin increases cell wall plasticity and elongates cells in expanding tissues. On this comparison, growth of the internode belongs to gibberellins."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Stimulates growth of secondary phloem"
+      },
+      "categories": ["Auxin", "Gibberellins"],
+      "answer": "Gibberellins",
+      "explanation": "Gibberellins stimulate growth of secondary phloem, the inner bark produced by the vascular cambium. Auxin stimulates growth of secondary xylem instead. The two hormones split the cambium's products: auxin for secondary xylem, gibberellins for secondary phloem."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Gibberellin synthesis is particularly sensitive to changes in which conditions?"
+      },
+      "options": [
+        "Day length and cold temperature",
+        "Touch and gravity",
+        "Flooding and soil salinity",
+        "Wind and soil pH"
+      ],
+      "answer": "Day length and cold temperature",
+      "explanation": "Gibberellin synthesis is particularly sensitive to day length and cold. Longer days can raise gibberellin levels and make a rosette plant bolt, sending up a tall flowering stem. A period of cold can also change gibberellin levels, which helps some seeds germinate and some plants flower after winter. Touch, gravity, flooding, salinity, wind, and soil pH are other environmental signals. Gibberellin synthesis is not particularly sensitive to those."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which hormone is responsible for the bitter taste of a bolted plant?"
+      },
+      "options": [
+        "Gibberellins",
+        "Auxin",
+        "Abscisic acid",
+        "Ethylene"
+      ],
+      "answer": "Gibberellins",
+      "explanation": "Gibberellins cause bolting, the rapid stem elongation that lifts a flowering stalk out of a rosette such as lettuce. A plant that has bolted tastes bitter, so bolted lettuce is unpleasant to eat. Auxin elongates cells and causes phototropism. Abscisic acid slows growth and keeps seeds dormant. Ethylene ripens fruit and promotes leaf drop. None of those three makes a bolted plant taste bitter."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement describes how gibberellins use amylase in a germinating grass seed?"
+      },
+      "options": [
+        "Gibberellins promote amylase production. Amylase breaks starch in the endosperm into sugars the embryo can use.",
+        "Gibberellins inhibit amylase production. Amylase would otherwise break the embryo down into sugars.",
+        "Gibberellins promote amylase production. Amylase builds starch from sugars so the seed can store food.",
+        "Gibberellins promote cellulase production. Cellulase loosens cellulose fibers so a stem cell can elongate."
+      ],
+      "answer": "Gibberellins promote amylase production. Amylase breaks starch in the endosperm into sugars the embryo can use.",
+      "explanation": "In a germinating grass seed, the embryo releases gibberellin and the aleurone layer responds by making amylase. Amylase is important because it hydrolyzes starch stored in the endosperm. The sugars from that starch feed the growing embryo. Amylase does not build starch, and it does not digest the embryo. Loosening cellulose fibers is an auxin effect on a stem cell wall, not the job of amylase in the seed."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the site where cytokinins are synthesized."
+      },
+      "bank": [
+        "Root apex",
+        "Stem apex and axillary buds",
+        "Leaves"
+      ],
+      "answers": [
+        "Root apex"
+      ],
+      "explanation": "Cytokinins are synthesized in the root apex. They move up the plant from there. At the stem apex and axillary buds they promote cell division. In leaves they inhibit senescence, which slows aging of the leaf. The stem apex, axillary buds, and leaves are sites where cytokinins act. They are not sites where cytokinins are made."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect do cytokinins have on the stem apex and axillary buds?"
+      },
+      "options": [
+        "Promotes cell division",
+        "Inhibits senescence",
+        "Inhibits growth"
+      ],
+      "answer": "Promotes cell division",
+      "explanation": "Cytokinins from the root apex promote cell division at the stem apex and in axillary buds. That cell division can let an axillary bud grow out. Auxin does the opposite at those buds: it inhibits their growth, which is apical dominance. Inhibiting senescence is the cytokinin effect in leaves, not at the stem apex or axillary buds."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect do cytokinins have on leaves?"
+      },
+      "options": [
+        "Inhibits senescence",
+        "Promotes cell division",
+        "Promotes leaf drop"
+      ],
+      "answer": "Inhibits senescence",
+      "explanation": "Cytokinins from the root apex inhibit senescence in leaves. Senescence is the aging of the leaf, so this effect keeps the leaf alive and functional longer. Promoting cell division is the cytokinin effect at the stem apex and axillary buds. Promoting leaf drop is an ethylene effect, not a cytokinin effect."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence describing how auxin and cytokinin oppose each other in apical dominance."
+      },
+      "sentence": [
+        "Auxin from the shoot tip ",
+        null,
+        " axillary bud growth, and cytokinin from the roots ",
+        null,
+        " it."
+      ],
+      "blanks": [
+        "inhibits",
+        "promotes"
+      ],
+      "bank": [
+        "promotes",
+        "inhibits"
+      ],
+      "explanation": "Auxin and cytokinin pull an axillary bud in opposite directions. Auxin from the shoot tip moves down the stem and inhibits the bud, which is apical dominance. Cytokinin from the root apex moves up and promotes cell division in that bud, which pushes it to grow out. While the tip's auxin is the stronger signal, the bud stays dormant. If the shoot tip is cut off, that auxin source is gone, cytokinin's push wins, and the bud grows into a branch."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A plant's shoot tip is cut off. What happens to an axillary bud?"
+      },
+      "options": [
+        "Auxin from that shoot tip is lost, so cytokinin promotes the bud and it grows into a branch.",
+        "Auxin from that shoot tip is lost, so the bud stays dormant.",
+        "Cytokinin from that shoot tip is lost, so the bud stays dormant.",
+        "Cytokinin from that shoot tip is lost, so the bud grows into a branch."
+      ],
+      "answer": "Auxin from that shoot tip is lost, so cytokinin promotes the bud and it grows into a branch.",
+      "explanation": "The shoot tip makes the auxin that keeps axillary buds dormant. Cutting off the shoot tip removes that auxin. Cytokinin from the roots is then the stronger signal. It promotes cell division in the bud, and the bud grows into a branch. The shoot tip is not the source of that cytokinin. Leaving the shoot tip in place keeps the auxin signal, and the bud stays dormant."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the sites where abscisic acid is synthesized."
+      },
+      "bank": [
+        "Leaves",
+        "Ovule",
+        "Guard cells",
+        "Stem apex",
+        "Seed coat"
+      ],
+      "answers": [
+        "Leaves",
+        "Ovule"
+      ],
+      "explanation": "Abscisic acid is synthesized in leaves and in the ovule. Abscisic acid from leaves acts on guard cells and closes the stomata, and it acts on the stem apex and promotes formation of a dormant bud. Abscisic acid from the ovule acts on the seed coat and inhibits seed germination. Guard cells, the stem apex, and the seed coat are sites where abscisic acid acts. They are not sites where it is made."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does abscisic acid have on guard cells?"
+      },
+      "options": [
+        "Closes stomata",
+        "Promotes dormant bud formation",
+        "Inhibits seed germination"
+      ],
+      "answer": "Closes stomata",
+      "explanation": "Abscisic acid from the leaves closes the stomata by acting on the guard cells. That happens when the plant is short of water, so the leaf loses less water. Promoting dormant bud formation is the effect at the stem apex. Inhibiting seed germination is the effect of abscisic acid from the ovule on the seed coat."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does abscisic acid have on the stem apex?"
+      },
+      "options": [
+        "Closes stomata",
+        "Promotes dormant bud formation",
+        "Inhibits seed germination"
+      ],
+      "answer": "Promotes dormant bud formation",
+      "explanation": "Abscisic acid from the leaves promotes formation of a dormant bud at the stem apex. The terminal bud stops growing and stays dormant, as it does going into winter. This is not apical dominance. Apical dominance is auxin from the shoot tip inhibiting axillary buds. Closing stomata is the effect on guard cells. Inhibiting seed germination is the effect of abscisic acid from the ovule on the seed coat."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does abscisic acid from the ovule have on the seed coat?"
+      },
+      "options": [
+        "Closes stomata",
+        "Promotes dormant bud formation",
+        "Inhibits seed germination"
+      ],
+      "answer": "Inhibits seed germination",
+      "explanation": "Abscisic acid from the ovule inhibits seed germination by acting on the seed coat. The seed stays dormant. Gibberellins from the embryo do the opposite: they promote germination. Closing stomata is the effect of abscisic acid from the leaves on guard cells. Promoting dormant bud formation is the effect at the stem apex."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Protects seeds from dehydration during dormancy"
+      },
+      "categories": ["Abscisic acid", "Gibberellins"],
+      "answer": "Abscisic acid",
+      "explanation": "Abscisic acid protects a dormant seed from the drying that dormancy involves. The seed can stay dry without being killed, then germinate later. Gibberellins push the seed to germinate and to use stored starch as fuel. They do not protect the dormant seed from dehydration."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Tightens the seed coat and maintains dormancy in hot, dry conditions"
+      },
+      "categories": ["Abscisic acid", "Gibberellins"],
+      "answer": "Abscisic acid",
+      "explanation": "Abscisic acid encourages seed dormancy and tightens the seed coat, especially in hot, dry conditions, so the seed does not sprout until water is available. That is the ovule's abscisic acid acting on the seed coat to inhibit germination. Gibberellins loosen cell walls and promote germination. They do not tighten the seed coat."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Loosens cell walls so the embryo can elongate and germinate"
+      },
+      "categories": ["Abscisic acid", "Gibberellins"],
+      "answer": "Gibberellins",
+      "explanation": "Gibberellins encourage germination by loosening cell walls and letting cells elongate, so the embryo can grow out of the seed. Abscisic acid does the opposite in a dry seed: it tightens the seed coat and keeps the seed dormant. Auxin also loosens a wall, but that is in an elongating stem cell, not this seed effect."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Breaks down stored starch in the endosperm for fuel"
+      },
+      "categories": ["Abscisic acid", "Gibberellins"],
+      "answer": "Gibberellins",
+      "explanation": "Gibberellins promote production of amylase. Amylase breaks starch stored in the endosperm into sugars that fuel the embryo. Abscisic acid keeps the seed dormant. It does not mobilize that stored starch."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the conditions that trigger abscisic acid production."
+      },
+      "bank": [
+        "Water stress",
+        "Cold weather",
+        "Long days",
+        "Flooding",
+        "Touch"
+      ],
+      "answers": [
+        "Water stress",
+        "Cold weather"
+      ],
+      "explanation": "Water stress triggers abscisic acid production in the leaves. That abscisic acid closes the stomata, so the plant loses less water. It also tightens the seed coat and keeps seeds dormant in hot, dry conditions. Cold weather triggers abscisic acid as well, and that promotes formation of a dormant bud at the stem apex. Long days raise gibberellin levels and can cause bolting. Flooding raises ethylene. Touch is a mechanical signal. Those three do not trigger abscisic acid production."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the site where ethylene is synthesized."
+      },
+      "bank": [
+        "Wounded and aged tissues",
+        "Stem",
+        "Leaves",
+        "Fruit"
+      ],
+      "answers": [
+        "Wounded and aged tissues"
+      ],
+      "explanation": "Ethylene is synthesized in wounded and aged tissues. From there it acts on the stem and inhibits cell elongation, on leaves and promotes senescence, and on fruit and promotes ripening. The stem, leaves, and fruit are sites where ethylene acts. They are not sites where it is made."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does ethylene have on the stem?"
+      },
+      "options": [
+        "Inhibits cell elongation",
+        "Promotes senescence",
+        "Promotes ripening"
+      ],
+      "answer": "Inhibits cell elongation",
+      "explanation": "Ethylene from wounded and aged tissues inhibits cell elongation in the stem. A seedling that meets an obstacle releases ethylene and shows the triple response: elongation slows, the stem thickens, and growth turns horizontal. Promoting senescence is the effect in leaves. Promoting ripening is the effect in fruit."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does ethylene have on leaves?"
+      },
+      "options": [
+        "Inhibits cell elongation",
+        "Promotes senescence",
+        "Promotes ripening"
+      ],
+      "answer": "Promotes senescence",
+      "explanation": "Ethylene from wounded and aged tissues promotes senescence in leaves. Senescence is the aging of the leaf, and it leads toward leaf drop. Cytokinins do the opposite in leaves: they inhibit senescence. Auxin inhibits abscission and keeps leaves attached. Inhibiting cell elongation is the stem effect. Promoting ripening is the fruit effect."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What effect does ethylene have on fruit?"
+      },
+      "options": [
+        "Inhibits cell elongation",
+        "Promotes senescence",
+        "Promotes ripening"
+      ],
+      "answer": "Promotes ripening",
+      "explanation": "Ethylene from wounded and aged tissues promotes ripening of fruit. The gas can spread, so one ripe fruit can speed ripening in fruit nearby. Inhibiting cell elongation is the stem effect. Promoting senescence is the leaf effect."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence describing how auxin and ethylene levels change as a leaf ages."
+      },
+      "sentence": [
+        "When a leaf ages, the level of auxin ",
+        null,
+        " and the level of ethylene ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "decreases",
+        "increases"
+      ],
+      "bank": [
+        "increases",
+        "decreases"
+      ],
+      "explanation": "A young leaf produces auxin, and that auxin keeps the abscission zone at the base of the petiole from separating, so the leaf stays on the tree. As the leaf ages, auxin production decreases. The aged tissue produces ethylene, so the ethylene level increases. Ethylene then promotes senescence and abscission, and the leaf drops. An increase in auxin, or a decrease in ethylene, would keep the leaf attached."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the layer of cells at the base of the petiole where a leaf separates from the stem?"
+      },
+      "options": [
+        "The abscission zone",
+        "The shoot tip",
+        "A guard cell",
+        "The endosperm"
+      ],
+      "answer": "The abscission zone",
+      "explanation": "That layer is the abscission zone, the band of cells at the base of the petiole where the leaf stalk meets the stem. While the leaf is young, auxin keeps those cells from separating. As the leaf ages, auxin decreases and ethylene increases. Cells in the abscission zone then weaken and separate, and the leaf drops. The shoot tip, a guard cell, and the endosperm are other places hormones act. A leaf does not detach at those sites."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In autumn, an oak leaf detaches where the petiole meets the stem and falls. What is this process?"
+      },
+      "options": [
+        "Leaf abscission, separation of the leaf at the abscission zone, a layer of cells at the base of the petiole.",
+        "Senescence only. The leaf changes color but stays attached for the life of the tree.",
+        "A turgor movement. The petiole loses water pressure and the leaf folds, then opens again.",
+        "Phototropism. The leaf grows toward the light until it breaks off."
+      ],
+      "answer": "Leaf abscission, separation of the leaf at the abscission zone, a layer of cells at the base of the petiole.",
+      "explanation": "Leaf abscission is the drop of a leaf. The leaf separates at the abscission zone, the layer of cells at the base of the petiole. Senescence is the aging that comes before that drop, including the loss of chlorophyll. A turgor movement can fold a leaf and later open it. Phototropism bends growth toward light. Neither one detaches the leaf."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement describes chlorophyllases and proteases in an aging leaf?"
+      },
+      "options": [
+        "Ethylene activates their synthesis. Chlorophyllases break down chlorophyll, and proteases break down proteins, so the leaf can salvage those nutrients before it drops.",
+        "Auxin activates their synthesis. Chlorophyllases build chlorophyll, and proteases build proteins, so the leaf stays green.",
+        "Cytokinin activates their synthesis. Chlorophyllases break down chlorophyll, and proteases break down proteins.",
+        "Gibberellin activates their synthesis. Chlorophyllases and proteases break starch in the endosperm into sugars."
+      ],
+      "answer": "Ethylene activates their synthesis. Chlorophyllases break down chlorophyll, and proteases break down proteins, so the leaf can salvage those nutrients before it drops.",
+      "explanation": "As a leaf ages, ethylene increases and activates synthesis of chlorophyllases and proteases. Chlorophyllase breaks down chlorophyll, so the leaf loses its green color. Proteases break leaf proteins into amino acids. The plant moves those nutrients out of the leaf before the abscission zone separates and the leaf drops. Cytokinin inhibits senescence, so it does not turn these enzymes on. Auxin is falling in an aging leaf, and it does not build chlorophyll through these enzymes. Breaking endosperm starch into sugars is the job of amylase, which gibberellin promotes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which hormone from a ripe banana ripens nearby unripe bananas?"
+      },
+      "options": [
+        "Ethylene",
+        "Auxin",
+        "Gibberellins",
+        "Abscisic acid"
+      ],
+      "answer": "Ethylene",
+      "explanation": "Ethylene is a gas made by ripening fruit. It spreads from the ripe banana to the unripe bananas and promotes their ripening. Auxin keeps fruit attached. It does not ripen neighboring fruit. Gibberellins promote fruit growth, and abscisic acid keeps seeds dormant and closes stomata. Neither of those travels through the air from one banana to another."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Tropism"
+      },
+      "categories": ["Growth toward or away from a stimulus", "Growth toward or away from light", "Growth toward or away from gravity", "Growth toward or away from oxygen"],
+      "answer": "Growth toward or away from a stimulus",
+      "explanation": "A tropism is growth toward or away from a stimulus. The name of the stimulus is added when the response is specific. Phototropism is the response to light, gravitropism is the response to gravity, and aerotropism is the response to oxygen. Tropism by itself is not limited to one of those three."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Phototropism"
+      },
+      "categories": ["Growth toward or away from a stimulus", "Growth toward or away from light", "Growth toward or away from gravity", "Growth toward or away from oxygen"],
+      "answer": "Growth toward or away from light",
+      "explanation": "Phototropism is growth toward or away from light. A shoot bends toward light because auxin concentration is higher on the shaded side, so those cells elongate more. Gravitropism is the response to gravity. Aerotropism is the response to oxygen."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Gravitropism"
+      },
+      "categories": ["Growth toward or away from a stimulus", "Growth toward or away from light", "Growth toward or away from gravity", "Growth toward or away from oxygen"],
+      "answer": "Growth toward or away from gravity",
+      "explanation": "Gravitropism is growth toward or away from gravity. A root grows down, toward gravity. A shoot grows up, away from gravity. Auxin helps produce that bending. Phototropism is the response to light. Aerotropism is the response to oxygen."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence identifying positive and negative gravitropism."
+      },
+      "sentence": [
+        "Roots show ",
+        null,
+        " gravitropism, and shoots show ",
+        null,
+        " gravitropism."
+      ],
+      "blanks": [
+        "positive",
+        "negative"
+      ],
+      "bank": [
+        "negative",
+        "positive"
+      ],
+      "explanation": "Positive gravitropism is growth toward gravity, so a root grows down. Negative gravitropism is growth away from gravity, so a shoot grows up. Auxin helps produce that bending. Reversing the terms would send the root up and the shoot down."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are the small organelles that detect gravity?"
+      },
+      "options": [
+        "Statoliths",
+        "Chloroplasts",
+        "Mitochondria",
+        "Ribosomes"
+      ],
+      "answer": "Statoliths",
+      "explanation": "Statoliths are dense plastids packed with starch. In cells of the root cap they settle to the bottom of the cell, and that settling tells the root which way is down. The root then grows toward gravity, which is positive gravitropism. Chloroplasts capture light. Mitochondria make ATP. Ribosomes build proteins. None of those settle to the bottom of the cell to detect gravity."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Aerotropism"
+      },
+      "categories": ["Growth toward or away from a stimulus", "Growth toward or away from light", "Growth toward or away from gravity", "Growth toward or away from oxygen"],
+      "answer": "Growth toward or away from oxygen",
+      "explanation": "Aerotropism is growth toward or away from oxygen. Roots can grow toward higher oxygen, which matters when soil is waterlogged. Phototropism is the response to light. Gravitropism is the response to gravity."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a reversible plant movement caused by a change in turgor pressure, not by growth?"
+      },
+      "options": [
+        "Turgor movement",
+        "Tropism",
+        "Phototropism",
+        "Gravitropism"
+      ],
+      "answer": "Turgor movement",
+      "explanation": "A turgor movement happens when cells gain or lose water and their internal pressure changes. The organ moves, and it can move back. A leaf folding when touched, and a stoma opening or closing, are turgor movements. A tropism is growth toward or away from a stimulus. The cells elongate, so that bend is not undone by water moving back out. Phototropism and gravitropism are tropisms."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the role of bulliform cells?"
+      },
+      "options": [
+        "They lose turgor and roll the leaf, which reduces water loss.",
+        "They settle in a root-cap cell and detect gravity.",
+        "They separate so a leaf can drop from the stem.",
+        "They break down chlorophyll in an aging leaf."
+      ],
+      "answer": "They lose turgor and roll the leaf, which reduces water loss.",
+      "explanation": "Bulliform cells are large cells in the upper epidermis of a grass leaf. When the plant is short of water, they lose turgor and the leaf rolls or folds. A rolled leaf exposes less surface, so it loses less water. When water returns, the cells refill and the leaf opens. That is a turgor movement, not growth. Statoliths detect gravity. The abscission zone lets a leaf drop. Chlorophyllase breaks down chlorophyll."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A seedling is kept in the dark. It does not turn green, its shoot does not bend toward a window, and it does not flower when the nights reach the right length. Why is light a primary environmental cue?"
+      },
+      "options": [
+        "Plants use light for photosynthesis and as information. It cues germination, the direction of growth, and the timing of flowering.",
+        "Light only supplies energy for photosynthesis. It does not change when a plant germinates, grows, or flowers.",
+        "Light is a minor cue. Gravity and touch time germination and flowering.",
+        "Light is detected only by chlorophyll, which measures night length."
+      ],
+      "answer": "Plants use light for photosynthesis and as information. It cues germination, the direction of growth, and the timing of flowering.",
+      "explanation": "Light is a primary cue because a plant uses it in two ways. Chlorophyll captures it for photosynthesis. Pigments such as phytochrome also read it as information about direction and about night length. Those signals cue germination, growth toward light, and flowering. Gravity and touch do not set the flowering season. Chlorophyll does not measure night length. Phytochrome does."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Someone brushes a Mimosa leaf. The leaf folds within seconds, then opens again later. What response is this?"
+      },
+      "options": [
+        "A mechanical cue caused a turgor movement. Cells lost water pressure, and the leaf can open again because the movement is not growth.",
+        "A mechanical cue caused a tropism. The leaf grew into the folded shape and cannot open again.",
+        "Gravity moved statoliths, so the leaf folded downward.",
+        "Drought made bulliform cells roll the leaf, and it will stay rolled until the soil is watered."
+      ],
+      "answer": "A mechanical cue caused a turgor movement. Cells lost water pressure, and the leaf can open again because the movement is not growth.",
+      "explanation": "Touch is a mechanical cue. In Mimosa, cells at the base of the leaflet lose turgor and the leaf folds. Water can return to those cells, so the leaf opens again. A tropism is growth, and that bend does not reverse when water moves back. Statoliths detect gravity. Bulliform cells roll a grass leaf during drought."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A potted plant is laid on its side. By the next day the shoot has curved up and the root has curved down. What happened?"
+      },
+      "options": [
+        "Gravity. Statoliths settled in root-cap cells. The shoot showed negative gravitropism and the root showed positive gravitropism.",
+        "Light. The shoot and the root both bent toward the window.",
+        "Touch. A turgor change folded the shoot, and it will straighten as soon as the pot is left alone.",
+        "Flooding. Ethylene turned both the shoot and the root horizontal."
+      ],
+      "answer": "Gravity. Statoliths settled in root-cap cells. The shoot showed negative gravitropism and the root showed positive gravitropism.",
+      "explanation": "Statoliths are dense starch-filled plastids in root-cap cells. They settle to the low side and tell the root which way is down. The root then grows toward gravity, which is positive gravitropism. The shoot grows away from gravity, which is negative gravitropism. Phototropism is bending toward light. A touch response can reverse when turgor returns. Ethylene's triple response is a seedling's reaction to an obstacle, not this reorientation of a whole plant laid on its side."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A plant's roots are standing in waterlogged soil and are short of oxygen. What response fits this flooding?"
+      },
+      "options": [
+        "Ethylene rises, and roots can grow toward higher oxygen.",
+        "Abscisic acid closes the stomata and bulliform cells roll the leaves.",
+        "The plant accumulates extra solutes so water still enters from salty soil.",
+        "Statoliths settle and the roots grow upward, away from the water."
+      ],
+      "answer": "Ethylene rises, and roots can grow toward higher oxygen.",
+      "explanation": "Flooding raises ethylene. Roots short of oxygen can also show aerotropism and grow toward higher oxygen. Closing stomata and rolling leaves is a drought response, through abscisic acid and bulliform cells. Accumulating solutes is a response to salty soil. Positive gravitropism sends roots down, not up out of the water."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The soil dries out. A plant's stomata close, and a grass leaf rolls up. What response is this?"
+      },
+      "options": [
+        "Drought. Abscisic acid closes the stomata, and bulliform cells lose turgor so the leaf rolls and loses less water.",
+        "Flooding. Ethylene opens the stomata so the leaf can take in more oxygen.",
+        "A mechanical cue. The leaf folded because it was touched, and it will open again in seconds.",
+        "Salt. The plant accumulated solutes and the leaf rolled to store them."
+      ],
+      "answer": "Drought. Abscisic acid closes the stomata, and bulliform cells lose turgor so the leaf rolls and loses less water.",
+      "explanation": "Water stress triggers abscisic acid, and that abscisic acid closes the stomata. Bulliform cells in a grass leaf lose turgor and roll the leaf, which exposes less surface. Flooding raises ethylene rather than closing stomata this way. A touched Mimosa leaf folds by a turgor movement and can reopen. Accumulating solutes is a response to salty soil. It does not roll the leaf to store those solutes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A plant is growing in salty soil, and water tends to leave the roots. What can the plant do?"
+      },
+      "options": [
+        "Accumulate solutes in its cells so water still enters the roots.",
+        "Grow its roots toward the saltier soil.",
+        "Release ethylene and form the triple response until the salt is gone.",
+        "Shift flowering from night to morning."
+      ],
+      "answer": "Accumulate solutes in its cells so water still enters the roots.",
+      "explanation": "Salty soil lowers the water potential outside the roots, so water tends to leave the plant. Compatible solutes inside the cells lower the cell water potential and let water enter. Growing toward the salt would increase the stress. The triple response is ethylene's reaction when a seedling hits an obstacle. A flowering shift from night to morning is an induced defense of tobacco against hawkmoth larvae."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is photoperiodism?"
+      },
+      "options": [
+        "A response to the relative lengths of night and day that times events such as flowering and bolting.",
+        "Growth toward or away from light.",
+        "A reversible movement caused by a change in turgor pressure.",
+        "Growth toward or away from gravity."
+      ],
+      "answer": "A response to the relative lengths of night and day that times events such as flowering and bolting.",
+      "explanation": "Photoperiodism is a response to the relative lengths of night and day. Plants use that cue to tell the season. Flowering, and the rise in gibberellins that makes a plant bolt on long days, are photoperiodic responses. Phototropism is growth toward or away from the direction of light. It is not a response to how long the light lasts. A turgor movement is a reversible change in pressure. Gravitropism is growth toward or away from gravity."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a pigment that detects red and far-red light?"
+      },
+      "options": [
+        "A phytochrome",
+        "Chlorophyll",
+        "Ethylene",
+        "A statolith"
+      ],
+      "answer": "A phytochrome",
+      "explanation": "That pigment is a phytochrome. It detects red light and far-red light, and the plant uses that information for responses such as seed germination and flowering. Chlorophyll also absorbs light, but it captures that energy for photosynthesis. It does not measure red and far-red light. Ethylene is a hormone. A statolith is an organelle that detects gravity."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence describing how a phytochrome switches form in red and far-red light."
+      },
+      "sentence": [
+        "A phytochrome is made as ",
+        null,
+        ". Red light converts it to ",
+        null,
+        ", the active form. Far-red light converts it back."
+      ],
+      "blanks": [
+        "Pr",
+        "Pfr"
+      ],
+      "bank": [
+        "Pfr",
+        "Pr"
+      ],
+      "explanation": "A phytochrome is synthesized as Pr. Red light converts Pr to Pfr, and Pfr is the active form that triggers the plant's response. Far-red light converts Pfr back to Pr, which cancels that signal. In the dark, Pfr slowly converts back to Pr on its own. During a long night, little Pfr remains, which is one way a plant measures night length. A flash of red light in the night makes Pfr again. Far-red light just after that flash turns it back into Pr. Chlorophyll does not switch between these two forms."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A long-day plant flowers in early summer, when nights are short. A short-day plant flowers in autumn, when nights are long. What are these plants using to time flowering?"
+      },
+      "options": [
+        "Night length. A long-day plant flowers when the night is shorter than a critical length. A short-day plant flowers when the night is longer than a critical length.",
+        "Day length alone. The names mean a long-day plant needs many hours of light and a short-day plant needs few, and night does not matter.",
+        "The direction of light. Both plants flower when the shoot bends toward the sun.",
+        "Gravity. Both plants flower after statoliths settle in the shoot."
+      ],
+      "answer": "Night length. A long-day plant flowers when the night is shorter than a critical length. A short-day plant flowers when the night is longer than a critical length.",
+      "explanation": "Long-day and short-day are named for the day, but the plants measure the night. A long-day plant flowers when the night is shorter than a critical length. A short-day plant flowers when the night is longer than a critical length. Phototropism bends a shoot toward light and does not set the flowering season. Statoliths detect gravity."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A short-day plant is on long nights and is about to flower. A red flash in the middle of a night stops flowering. Far-red light immediately after that red flash lets flowering proceed. What did the flashes do?"
+      },
+      "options": [
+        "Red light converted phytochrome to active Pfr and broke the long night. Far-red light converted Pfr back to Pr, so the plant again counted a long night.",
+        "Red light converted phytochrome to Pr and lengthened the night. Far-red light made Pfr and canceled flowering.",
+        "Red light destroyed the phytochrome. Far-red light built a new pigment that ignores night length.",
+        "The flashes changed day length. Night length was not involved."
+      ],
+      "answer": "Red light converted phytochrome to active Pfr and broke the long night. Far-red light converted Pfr back to Pr, so the plant again counted a long night.",
+      "explanation": "A short-day plant flowers only if the night stays longer than a critical length. A red flash converts Pr to Pfr, the active form, and that break makes the night count as short, so flowering stops. Far-red light right afterward converts Pfr back to Pr and cancels the flash, so the plant again registers one long night and can flower. The same red flash can let a long-day plant flower during an otherwise long night, because that plant flowers when the night counts as short."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A long-day plant is on long nights and is not flowering. A red flash in the middle of a night makes it flower. Why?"
+      },
+      "options": [
+        "The red flash made active Pfr and broke the long night. A long-day plant flowers when the night counts as shorter than a critical length.",
+        "The red flash lengthened the night. A long-day plant flowers only when the night is longer than a critical length.",
+        "The red flash converted Pfr back to Pr, which is the signal for a long-day plant to flower.",
+        "The flash was far-red light, and far-red light alone makes every plant flower."
+      ],
+      "answer": "The red flash made active Pfr and broke the long night. A long-day plant flowers when the night counts as shorter than a critical length.",
+      "explanation": "A long-day plant flowers when the night is shorter than a critical length. A red flash converts Pr to Pfr and splits one long night into two short dark periods, so the night counts as short and the plant flowers. Converting Pfr back to Pr is what far-red light does, and that cancels a red flash. Far-red light by itself does not make every plant flower."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is PAMP-triggered immunity?"
+      },
+      "options": [
+        "The first defense. A receptor recognizes a molecule common to many pathogens, and signaling leads to antimicrobial chemicals and a tougher cell wall.",
+        "The second defense. An R protein activated by a specific effector turns on the hypersensitive response and systemic acquired resistance.",
+        "A barrier, such as the cuticle, that is already in place before any pathogen arrives.",
+        "A response to the relative lengths of night and day."
+      ],
+      "answer": "The first defense. A receptor recognizes a molecule common to many pathogens, and signaling leads to antimicrobial chemicals and a tougher cell wall.",
+      "explanation": "PAMP-triggered immunity is the first inducible defense. A receptor recognizes a pathogen-associated molecular pattern, a molecule shared by many microbes, such as bacterial flagellin or fungal chitin. Signaling then leads to antimicrobial chemicals and toughening of the cell wall. Effector-triggered immunity is the second defense. An R protein, the product of an R gene, recognizes a specific effector, and that turns on the hypersensitive response and systemic acquired resistance. The cuticle is a barrier already in place. Photoperiodism is a response to night length and day length."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sequence of PAMP-triggered immunity, in order."
+      },
+      "sentence": [
+        null,
+        " → ",
+        null,
+        " → ",
+        null
+      ],
+      "blanks": [
+        "A receptor binds a PAMP",
+        "A signal transduction pathway carries the message",
+        "The cell makes antimicrobial chemicals and strengthens its wall"
+      ],
+      "bank": [
+        "The cell makes antimicrobial chemicals and strengthens its wall",
+        "A receptor binds a PAMP",
+        "An R protein binds a specific effector",
+        "A signal transduction pathway carries the message"
+      ],
+      "explanation": "PAMP-triggered immunity starts when a receptor binds a pathogen-associated molecular pattern, such as flagellin or chitin. A signal transduction pathway carries that message inside the cell. The cell then makes antimicrobial chemicals and strengthens its wall. An R protein binding a specific effector is effector-triggered immunity, the second defense. It is not a step of this sequence."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sequence of effector-triggered immunity, in order."
+      },
+      "sentence": [
+        null,
+        " → ",
+        null,
+        " → ",
+        null
+      ],
+      "blanks": [
+        "Effectors suppress PAMP-triggered immunity",
+        "An R protein binds a specific effector",
+        "A hypersensitive response and systemic acquired resistance begin"
+      ],
+      "bank": [
+        "A hypersensitive response and systemic acquired resistance begin",
+        "Effectors suppress PAMP-triggered immunity",
+        "A receptor binds a PAMP",
+        "An R protein binds a specific effector"
+      ],
+      "explanation": "Some pathogens inject effectors, proteins that suppress PAMP-triggered immunity. An R gene codes for an R protein. That protein binds one specific effector, also called an avr gene product. Binding turns on effector-triggered immunity. Cells near the infection die in the hypersensitive response, which confines the pathogen, and systemic acquired resistance prepares the rest of the plant. A receptor binding a PAMP is the first defense, not this one. If no R protein recognizes the effector, the plant can succumb to disease."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence comparing where the hypersensitive response and systemic acquired resistance act."
+      },
+      "sentence": [
+        "The hypersensitive response is ",
+        null,
+        ". Systemic acquired resistance is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "local cell death at the infection site",
+        "a defense response in distant tissues"
+      ],
+      "bank": [
+        "a defense response in distant tissues",
+        "local cell death at the infection site",
+        "the first defense triggered by a PAMP"
+      ],
+      "explanation": "The hypersensitive response is local cell and tissue death at the infection site. Those cells also produce chemicals that attack the pathogen, tighten the cell wall to confine it, and die in a way that cuts off its nutrient supply. Systemic acquired resistance is plant-wide expression of defense genes. It protects the plant from a variety of pathogens for several days, and the distant cells do not die. The first defense triggered by a PAMP is PAMP-triggered immunity. It is neither of these two responses."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which statement compares the hypersensitive response with systemic acquired resistance?"
+      },
+      "options": [
+        "The hypersensitive response isolates the pathogen by local cell death, chemicals that attack it, a tighter cell wall, and a cut-off nutrient supply. Systemic acquired resistance turns on defense genes throughout the plant and protects it from many pathogens for several days.",
+        "The hypersensitive response protects the whole plant for a long time. Systemic acquired resistance is local cell death at the infection site.",
+        "Both responses kill cells throughout the plant.",
+        "Both responses are the first defense, set off when a receptor binds a PAMP."
+      ],
+      "answer": "The hypersensitive response isolates the pathogen by local cell death, chemicals that attack it, a tighter cell wall, and a cut-off nutrient supply. Systemic acquired resistance turns on defense genes throughout the plant and protects it from many pathogens for several days.",
+      "explanation": "The hypersensitive response is local. Cells and tissue at the infection die. They produce chemicals that attack the pathogen, make the cell wall tighter to confine it, and their death cuts off the pathogen's nutrient supply. Systemic acquired resistance does not kill cells across the plant. It turns on defense genes throughout the plant and provides protection from a variety of pathogens for several days. Neither response is PAMP-triggered immunity."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A leaf is already covered by a cuticle when a bacterium lands. Receptors then detect flagellin, and the cells make antimicrobial chemicals and strengthen the wall. Which defense is which?"
+      },
+      "options": [
+        "The cuticle already in place is constitutive. The chemicals and stronger wall after flagellin is detected are induced.",
+        "The cuticle is induced by flagellin. The chemicals and stronger wall were already present before any bacterium arrived.",
+        "Both are constitutive. Flagellin does not change the leaf.",
+        "Both are herbivore defenses. Flagellin is a signal from a chewing insect."
+      ],
+      "answer": "The cuticle already in place is constitutive. The chemicals and stronger wall after flagellin is detected are induced.",
+      "explanation": "A constitutive pathogen defense is already present. The cuticle is that kind of barrier. An induced defense turns on after the pathogen is detected. Flagellin is a PAMP, and the receptor response that makes antimicrobial chemicals and strengthens the wall is PAMP-triggered immunity. Flagellin is a bacterial molecule, not a signal from a chewing insect."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A fungus infects one leaf. Cells beside the infection die and confine it. The rest of that plant turns on defense genes. A volatile from the infected plant causes a neighbor to turn on defenses before the fungus reaches it. What are these three responses?"
+      },
+      "options": [
+        "Local cell death is the hypersensitive response. Defense genes through the rest of the infected plant are systemic acquired resistance. The neighbor is primed by the volatile.",
+        "Local cell death is systemic acquired resistance. Defense genes in distant leaves are the hypersensitive response. The neighbor is not affected by a volatile.",
+        "All three are constitutive barriers that were already in place before the fungus arrived.",
+        "The volatile attracts an insect that eats the fungus, and neither plant changes its own defenses."
+      ],
+      "answer": "Local cell death is the hypersensitive response. Defense genes through the rest of the infected plant are systemic acquired resistance. The neighbor is primed by the volatile.",
+      "explanation": "Cells next to the infection die in the hypersensitive response and confine the pathogen. Systemic acquired resistance then turns on defense genes in the rest of that same plant. A volatile leaving the infected plant can prime a neighboring plant to turn on defenses before it is infected. None of these three was sitting in place unchanged before the fungus arrived. A volatile that recruits a wasp is the herbivore response. This signal is priming another plant's pathogen defenses."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Local cell and tissue death"
+      },
+      "categories": ["Hypersensitive response", "Systemic acquired resistance"],
+      "answer": "Hypersensitive response",
+      "explanation": "Local cell and tissue death is the hypersensitive response. Cells at the infection site die and isolate the pathogen. Systemic acquired resistance does not kill tissue. It turns on defense genes throughout the plant."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Chemicals that attack the pathogen"
+      },
+      "categories": ["Hypersensitive response", "Systemic acquired resistance"],
+      "answer": "Hypersensitive response",
+      "explanation": "During the hypersensitive response, cells at the infection produce chemicals that attack the pathogen. Systemic acquired resistance protects the rest of the plant by expressing defense genes. It is not this local chemical attack."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "A tighter cell wall that confines the pathogen"
+      },
+      "categories": ["Hypersensitive response", "Systemic acquired resistance"],
+      "answer": "Hypersensitive response",
+      "explanation": "The hypersensitive response makes the cell wall tighter so the pathogen is confined at the infection site. Systemic acquired resistance acts throughout the plant by turning on defense genes. It does not tighten the wall around this one infection."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Death of surrounding cells, which cuts off nutrients"
+      },
+      "categories": ["Hypersensitive response", "Systemic acquired resistance"],
+      "answer": "Hypersensitive response",
+      "explanation": "In the hypersensitive response, cells around the infection die and cut off the pathogen's nutrient supply. Systemic acquired resistance leaves distant cells alive. Those cells express defense genes and help protect the plant for several days."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Plant-wide expression of defense genes"
+      },
+      "categories": ["Hypersensitive response", "Systemic acquired resistance"],
+      "answer": "Systemic acquired resistance",
+      "explanation": "Systemic acquired resistance turns on defense genes throughout the plant, not only at the infection. The hypersensitive response is local cell and tissue death, plus chemicals and a tighter wall at that site. It does not spread gene expression through the whole plant."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Protection from many pathogens for several days"
+      },
+      "categories": ["Hypersensitive response", "Systemic acquired resistance"],
+      "answer": "Systemic acquired resistance",
+      "explanation": "Systemic acquired resistance protects the plant from a variety of pathogens for several days. The hypersensitive response is the local death of cells that confines one infection. It does not give the whole plant that broader protection."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do plants protect themselves from herbivores?"
+      },
+      "options": [
+        "With constitutive defenses that are already present, and induced defenses that are produced after an attack.",
+        "Only with constitutive defenses, which are produced after an attack.",
+        "Only with induced defenses, which are already present before any herbivore arrives.",
+        "Only with PAMP-triggered immunity against microbes."
+      ],
+      "answer": "With constitutive defenses that are already present, and induced defenses that are produced after an attack.",
+      "explanation": "Plants use both constitutive and induced defenses against herbivory. Constitutive defenses are already part of the plant before an herbivore arrives. Induced defenses are turned on by the attack. PAMP-triggered immunity is a defense against microbes. It is not the name for these herbivore defenses."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A cactus bears spines that deter animals from eating it. The spines were already on the plant before any herbivore arrived. What kind of defense are the spines?"
+      },
+      "options": [
+        "A constitutive defense",
+        "An induced defense",
+        "PAMP-triggered immunity",
+        "Systemic acquired resistance"
+      ],
+      "answer": "A constitutive defense",
+      "explanation": "The cactus spines are a constitutive defense. They are already part of the plant before an herbivore arrives. An induced defense is produced after an attack, such as a change in flowering or a volatile signal released when a leaf is eaten. PAMP-triggered immunity and systemic acquired resistance are defenses against microbes, not names for spines that were already present."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Hawkmoth larvae begin eating a tobacco plant. Only after that feeding does flowering shift from night to morning. What kind of defense is the shift?"
+      },
+      "options": [
+        "An induced defense",
+        "A constitutive defense",
+        "PAMP-triggered immunity",
+        "A physical barrier that was already on the plant, such as spines"
+      ],
+      "answer": "An induced defense",
+      "explanation": "The flowering shift is an induced defense. It begins after the hawkmoth larvae attack. A constitutive defense is already present before any herbivore arrives. Cactus spines are that kind of defense. PAMP-triggered immunity is a defense against microbes. Spines that were already on the plant are not produced by this attack."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the chemical compounds used as molecular-level defenses against herbivores."
+      },
+      "bank": [
+        "Terpenoids",
+        "Phenolics",
+        "Alkaloids",
+        "Trichomes",
+        "Spines"
+      ],
+      "answers": [
+        "Terpenoids",
+        "Phenolics",
+        "Alkaloids"
+      ],
+      "explanation": "Terpenoids, phenolics, and alkaloids are chemical defenses at the molecular level. Trichomes are specialized cells. Spines armor the plant body. Those are not the chemical compounds themselves."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the cellular-level defenses against herbivores."
+      },
+      "bank": [
+        "Trichomes",
+        "Cells that store chemical deterrents",
+        "Cells that produce irritants",
+        "Terpenoids",
+        "Sclerenchyma"
+      ],
+      "answers": [
+        "Trichomes",
+        "Cells that store chemical deterrents",
+        "Cells that produce irritants"
+      ],
+      "explanation": "At the cellular level, cells can form trichomes, store chemical deterrents, or produce irritants. Terpenoids are molecules, not a cell specialization. Sclerenchyma toughens a leaf as a tissue. It is a leaf defense, not one of these cell specializations."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the defenses that toughen or armor a leaf."
+      },
+      "bank": [
+        "Sclerenchyma",
+        "Spines",
+        "Thorns",
+        "Prickles",
+        "Volatile signals",
+        "Alkaloids"
+      ],
+      "answers": [
+        "Sclerenchyma",
+        "Spines",
+        "Thorns",
+        "Prickles"
+      ],
+      "explanation": "Sclerenchyma tissue toughens the leaf. Spines, thorns, and prickles armor it. Alkaloids are molecular chemical defenses. Volatile signals are released after damage so the plant can communicate. They do not armor the leaf."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How can a tobacco plant respond when hawkmoth larvae feed on it?"
+      },
+      "options": [
+        "It changes flowering from night to morning.",
+        "It changes flowering from morning to night.",
+        "It grows a covering of spines within minutes of the first bite.",
+        "It stops making terpenoids, phenolics, and alkaloids."
+      ],
+      "answer": "It changes flowering from night to morning.",
+      "explanation": "Feeding by hawkmoth larvae can induce a change in the tobacco plant's physiology. Flowering shifts from night to morning. That is an induced response to herbivory. The plant does not grow a new covering of spines at the moment of the bite, and it does not shut down its chemical defenses."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What can a volatile chemical signal from an injured plant do?"
+      },
+      "options": [
+        "Prepare neighboring plants for an attack, and attract insects that eat the herbivore.",
+        "Turn the neighboring plants' flowers from night to morning.",
+        "Grow trichomes on the neighboring plants.",
+        "Armor the injured leaf with spines, thorns, and prickles."
+      ],
+      "answer": "Prepare neighboring plants for an attack, and attract insects that eat the herbivore.",
+      "explanation": "Injured plants can release volatile chemicals. Those signals can reach other plants and cause them to prepare for herbivory. The same kind of signal can attract insects that eat the herbivore feeding on the plant. The volatiles do not build trichomes or spines, and they do not reset a neighbor's flowering time."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sequence in which a plant recruits a wasp against a caterpillar, in order."
+      },
+      "sentence": [
+        null,
+        " → ",
+        null,
+        " → ",
+        null
+      ],
+      "blanks": [
+        "A volatile signal is released as the caterpillar eats a leaf",
+        "A female wasp follows the signal and lays eggs on the caterpillar",
+        "Wasp larvae eat the caterpillar, not the plant"
+      ],
+      "bank": [
+        "Wasp larvae eat the caterpillar, not the plant",
+        "A volatile signal is released as the caterpillar eats a leaf",
+        "Wasp larvae eat the leaf and leave the caterpillar",
+        "A female wasp follows the signal and lays eggs on the caterpillar"
+      ],
+      "explanation": "As the caterpillar eats, the leaf releases a volatile signal. A female wasp follows that signal, finds the caterpillar, and lays eggs. The wasp larvae then eat the caterpillar. They keep feeding after it dies, and they do not eat the plant. Afterward they spin cocoons and pupate. The larvae do not switch to eating the leaf."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What can mycorrhizal networks do for the plants they connect?"
+      },
+      "options": [
+        "Share resources and carry communication about threats.",
+        "Only move sugars from the fungus into the plant.",
+        "Release volatile signals from injured leaves into the air.",
+        "Armor leaves with spines, thorns, and prickles."
+      ],
+      "answer": "Share resources and carry communication about threats.",
+      "explanation": "Mycorrhizal networks connect plants through fungi on their roots. Through those connections, plants can share resources and communicate, including about threats. Volatile signals are a different route. They leave injured leaves and travel through the air. Spines, thorns, and prickles are physical armor on the plant body. The fungal network does not build them."
+    }
+  ]
+}

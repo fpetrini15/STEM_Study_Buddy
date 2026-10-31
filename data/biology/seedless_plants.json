@@ -1,0 +1,836 @@
+{
+  "title": "Seedless Plants",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which protists are the closest ancestors of modern plants?"
+      },
+      "options": [
+        "Charophytes",
+        "Chlorophytes",
+        "Red algae",
+        "Brown algae"
+      ],
+      "answer": "Charophytes",
+      "explanation": "Charophytes are the green algae from which land plants arose, so they are the closest protist ancestors of modern plants. They remain protists. Chlorophytes are the other group of green algae, and they are not the closest relatives of land plants. Red algae belong to the same broader clade as green algae and plants, but they are more distant. Brown algae can look plant-like, but they are stramenopiles, not ancestors of land plants."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every way charophyceans are similar to land plants."
+      },
+      "bank": [
+        "Photosynthetic",
+        "Many exhibit multicellularity",
+        "Share pigments with land plants",
+        "Similar cell wall components",
+        "Carbohydrates stored as starch",
+        "Embryos retained on the parent",
+        "Produce seeds"
+      ],
+      "answers": [
+        "Photosynthetic",
+        "Many exhibit multicellularity",
+        "Share pigments with land plants",
+        "Similar cell wall components",
+        "Carbohydrates stored as starch"
+      ],
+      "explanation": "Charophyceans resemble land plants in five ways. They photosynthesize. Many are multicellular. They share pigments with land plants. Their cell walls have similar components. They store carbohydrates as starch. An embryo retained on the parent is a land-plant trait, so charophyceans do not do that. Charophyceans also do not produce seeds."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every benefit of plants moving onto land."
+      },
+      "bank": [
+        "Saturation of sunlight",
+        "Abundance of CO2",
+        "Little to no predators or pathogens",
+        "Nutrient-rich soil",
+        "Vast amounts of space",
+        "No longer submerged in fluid",
+        "No longer had the support of water",
+        "Reproduction without water"
+      ],
+      "answers": [
+        "Saturation of sunlight",
+        "Abundance of CO2",
+        "Little to no predators or pathogens",
+        "Nutrient-rich soil",
+        "Vast amounts of space"
+      ],
+      "explanation": "Moving onto land offered unfiltered, saturated sunlight, abundant carbon dioxide, nutrient-rich soil, vast amounts of space, and at first little to no predators or pathogens. No longer being submerged in fluid, losing the support of water, and having to reproduce without water were challenges of life on land, not benefits."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every challenge of plants moving onto land."
+      },
+      "bank": [
+        "No longer submerged in fluid",
+        "No longer had the support of water",
+        "Reproduction without water",
+        "Saturation of sunlight",
+        "Abundance of CO2",
+        "Nutrient-rich soil"
+      ],
+      "answers": [
+        "No longer submerged in fluid",
+        "No longer had the support of water",
+        "Reproduction without water"
+      ],
+      "explanation": "On land, plants were no longer submerged in fluid, no longer had the support of water, and had to reproduce without water. Saturation of sunlight, abundant carbon dioxide, and nutrient-rich soil were benefits of moving onto land, not challenges."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence describing the sporic life history of plants."
+      },
+      "sentence": [
+        "In the sporic life history of plants, the diploid sporophyte produces ",
+        null,
+        " by meiosis, and each grows into a multicellular ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "haploid spores",
+        "gametophyte that produces gametes by mitosis"
+      ],
+      "bank": [
+        "haploid spores",
+        "gametophyte that produces gametes by mitosis",
+        "haploid gametes",
+        "sporophyte that produces spores by meiosis"
+      ],
+      "explanation": "Plants have a sporic life history, so two multicellular bodies alternate. The sporophyte is diploid. Meiosis in the sporophyte produces haploid spores, and each spore grows into a gametophyte. The gametophyte is haploid and produces gametes by mitosis. Fertilization then makes a diploid zygote that grows into the next sporophyte. A cycle in which meiosis produces gametes directly is gametic, and that cycle has no multicellular gametophyte. The spore does not grow into another sporophyte. The zygote does."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every derived trait that land plants have and charophyceans lack."
+      },
+      "bank": [
+        "Alternation of multicellular generations",
+        "Multicellular dependent embryos",
+        "Walled spores",
+        "Multicellular gametangia",
+        "Waxy cuticle",
+        "Carbohydrates stored as starch",
+        "Seeds"
+      ],
+      "answers": [
+        "Alternation of multicellular generations",
+        "Multicellular dependent embryos",
+        "Walled spores",
+        "Multicellular gametangia",
+        "Waxy cuticle"
+      ],
+      "explanation": "Land plants share five derived traits that charophyceans lack. They alternate multicellular generations. Their embryos are multicellular and depend on the parent. Their spores have tough walls. Their gametes form in multicellular gametangia. A waxy cuticle covers the body. Storing carbohydrates as starch is shared with charophyceans, so it is not unique to plants. Seeds evolved later, in seed plants, and seedless plants do not have them."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence identifying the egg-producing and sperm-producing tissues."
+      },
+      "sentence": [
+        "The ",
+        null,
+        " is the egg-producing tissue, and the ",
+        null,
+        " is the sperm-producing tissue."
+      ],
+      "blanks": [
+        "archegonium",
+        "antheridium"
+      ],
+      "bank": [
+        "archegonium",
+        "antheridium",
+        "sporangium",
+        "sporophyte"
+      ],
+      "explanation": "An archegonium is the multicellular gametangium that produces an egg. The plural is archegonia. An antheridium is the multicellular gametangium that produces sperm. The plural is antheridia. A sporangium produces spores, not gametes. The sporophyte is the diploid multicellular generation. It is not a gamete-producing tissue."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which group were the first land plants?"
+      },
+      "options": [
+        "Bryophytes",
+        "Lycophyta",
+        "Monilophyta",
+        "Coniferophyta"
+      ],
+      "answer": "Bryophytes",
+      "explanation": "Bryophytes were the first land plants. They are the nonvascular plants, including liverworts, mosses, and hornworts. Lycophyta are the club mosses and spike mosses. They are seedless vascular plants, so they came later. Monilophyta are the ferns, horsetails, and whisk ferns. They are also seedless vascular plants. Coniferophyta are the conifers. They are seed plants, and they came later still."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the common name for Marchantiophyta?"
+      },
+      "options": [
+        "Liverworts",
+        "Hornworts",
+        "Mosses",
+        "Ferns"
+      ],
+      "answer": "Liverworts",
+      "explanation": "Marchantiophyta are the liverworts. Hornworts are Anthocerotophyta. Mosses are Bryophyta. Ferns are Monilophyta, a group of seedless vascular plants."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum contains the liverworts?"
+      },
+      "options": [
+        "Marchantiophyta",
+        "Anthocerotophyta",
+        "Bryophyta",
+        "Monilophyta"
+      ],
+      "answer": "Marchantiophyta",
+      "explanation": "Liverworts are Marchantiophyta. Anthocerotophyta are the hornworts. Bryophyta are the mosses. Monilophyta are the ferns, horsetails, and whisk ferns."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the common name for Anthocerotophyta?"
+      },
+      "options": [
+        "Hornworts",
+        "Liverworts",
+        "Mosses",
+        "Ferns"
+      ],
+      "answer": "Hornworts",
+      "explanation": "Anthocerotophyta are the hornworts. Liverworts are Marchantiophyta. Mosses are Bryophyta. Ferns are Monilophyta, a group of seedless vascular plants."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum contains the hornworts?"
+      },
+      "options": [
+        "Anthocerotophyta",
+        "Marchantiophyta",
+        "Bryophyta",
+        "Monilophyta"
+      ],
+      "answer": "Anthocerotophyta",
+      "explanation": "Hornworts are Anthocerotophyta. Marchantiophyta are the liverworts. Bryophyta are the mosses. Monilophyta are the ferns, horsetails, and whisk ferns."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the common name for Bryophyta?"
+      },
+      "options": [
+        "Mosses",
+        "Liverworts",
+        "Hornworts",
+        "Ferns"
+      ],
+      "answer": "Mosses",
+      "explanation": "Bryophyta are the mosses. Liverworts are Marchantiophyta. Hornworts are Anthocerotophyta. Ferns are Monilophyta, a group of seedless vascular plants."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum contains the mosses?"
+      },
+      "options": [
+        "Bryophyta",
+        "Marchantiophyta",
+        "Anthocerotophyta",
+        "Monilophyta"
+      ],
+      "answer": "Bryophyta",
+      "explanation": "Mosses are Bryophyta. Marchantiophyta are the liverworts. Anthocerotophyta are the hornworts. Monilophyta are the ferns, horsetails, and whisk ferns."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Bryophytes are just emerging onto land. Where are they most likely to appear?"
+      },
+      "options": [
+        "Freshwater seeps and springs covering rocks and soil.",
+        "The open ocean, on submerged rocks.",
+        "Dry, exposed rock with no surface water.",
+        "The bottom of a deep lake, fully submerged."
+      ],
+      "answer": "Freshwater seeps and springs covering rocks and soil.",
+      "explanation": "Bryophytes most likely emerged where freshwater seeps and springs kept rocks and soil wet. That film of water let sperm swim to eggs while the plants lived on land. Their charophyte ancestors were freshwater algae, so the open ocean is the wrong kind of water. Dry, exposed rock has no water for that sperm. The bottom of a deep lake keeps the body fully submerged, which is the aquatic life they were leaving."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which of these did bryophytes have?"
+      },
+      "options": [
+        "Vascular tissue",
+        "Roots",
+        "Stems",
+        "None of the above"
+      ],
+      "answer": "None of the above",
+      "explanation": "Bryophytes had none of these. They lack vascular tissue, true roots, and true stems. They absorb water across the body and hold on with rhizoids. Stem-like parts of a moss are not true stems, because a true stem has vascular tissue. Vascular tissue, roots, and stems appear in later vascular plants, such as Lycophyta and Monilophyta."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which description fits the sporic life history of bryophytes?"
+      },
+      "options": [
+        "The gametophyte is the dominant, free-living body. A dependent sporophyte grows on it and produces spores by meiosis.",
+        "The sporophyte is the dominant, free-living body. A small gametophyte also lives on its own.",
+        "The sporophyte is the dominant body. A microscopic gametophyte depends on it.",
+        "The multicellular body is haploid, the zygote is the only diploid cell, and there is no multicellular sporophyte."
+      ],
+      "answer": "The gametophyte is the dominant, free-living body. A dependent sporophyte grows on it and produces spores by meiosis.",
+      "explanation": "Bryophytes have a sporic life history in which the gametophyte is the dominant, free-living body. The sporophyte grows on that gametophyte and stays attached to it. Meiosis in the sporophyte produces spores, and each spore grows into a new gametophyte. A free-living sporophyte with a small independent gametophyte is the pattern of seedless vascular plants, such as ferns. A dominant sporophyte with a microscopic dependent gametophyte is the pattern of seed plants. A cycle with no multicellular sporophyte, where the zygote is the only diploid cell, is zygotic. That is the cycle of many charophyte algae, not bryophytes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Liverworts can reproduce both sexually and asexually."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Liverworts use both kinds of reproduction. Sexually, sperm from an antheridium swim to an egg in an archegonium, and the sporophyte then releases spores. Asexually, a liverwort such as Marchantia makes gemmae in gemma cups, and a piece of the body can also grow into a new plant. They are not limited to only sexual or only asexual reproduction."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does the sporic life history of hornworts differ from that of liverworts and mosses?"
+      },
+      "options": [
+        "The hornwort sporophyte is present year-round. Liverwort and moss sporophytes are seasonal.",
+        "The hornwort sporophyte appears briefly and then dies. Liverwort and moss sporophytes are present year-round.",
+        "The hornwort gametophyte depends on a free-living sporophyte. Liverwort and moss gametophytes are the dominant body.",
+        "Hornworts have no multicellular sporophyte. The zygote is the only diploid cell."
+      ],
+      "answer": "The hornwort sporophyte is present year-round. Liverwort and moss sporophytes are seasonal.",
+      "explanation": "Hornworts are unique among these three because the sporophyte is present year-round. Liverwort and moss sporophytes are seasonal. They mature, release spores, and are not present all year. All three still have a dominant free-living gametophyte, and the sporophyte grows on it. A cycle in which the gametophyte depends on a free-living sporophyte is not the bryophyte pattern. A cycle with no multicellular sporophyte is zygotic, and that is not the hornwort cycle."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a columella?"
+      },
+      "options": [
+        "A column of sterile tissue in the center of a sporangium.",
+        "The tissue in a sporangium that produces the spores.",
+        "The stalk that raises a moss capsule above the gametophyte.",
+        "A ring of cells that splits a sporangium open and flings the spores out."
+      ],
+      "answer": "A column of sterile tissue in the center of a sporangium.",
+      "explanation": "A columella is a column of sterile tissue in the center of a sporangium. Spores form in the tissue around it. The columella itself does not make spores. Mosses and hornworts have a columella. Liverwort sporangia do not. The stalk that raises a moss capsule is the seta. A ring of thick-walled cells that opens a sporangium and flings the spores is an annulus."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is an elater?"
+      },
+      "options": [
+        "An elongated sterile cell in a liverwort sporangium that twists as it dries and helps scatter the spores.",
+        "A column of sterile tissue in the center of a sporangium.",
+        "A small asexual body produced in a gemma cup.",
+        "A tooth on the rim of a moss capsule that helps release spores."
+      ],
+      "answer": "An elongated sterile cell in a liverwort sporangium that twists as it dries and helps scatter the spores.",
+      "explanation": "An elater is an elongated sterile cell in a liverwort sporangium. Spiral thickenings in its wall make it twist as it dries, and that motion helps scatter the spores. It does not produce spores. A column of sterile tissue in the center of a sporangium is a columella, found in mosses and hornworts, not in liverworts. A small asexual body in a gemma cup is a gemma. A tooth on the rim of a moss capsule is part of the peristome."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a protonema?"
+      },
+      "options": [
+        "A filament that grows from a moss spore and later produces the leafy gametophyte.",
+        "The leafy moss body that bears the antheridia and archegonia.",
+        "A column of sterile tissue in the center of a sporangium.",
+        "An elongated sterile cell that twists as it dries and scatters spores."
+      ],
+      "answer": "A filament that grows from a moss spore and later produces the leafy gametophyte.",
+      "explanation": "A protonema is the first stage of a moss gametophyte. A haploid spore germinates into a branching green filament. Buds on that filament grow into the leafy shoots, which bear the antheridia and archegonia. Those leafy shoots are the gametophores, not the protonema. A column of sterile tissue in a sporangium is a columella. An elongated cell that twists and scatters spores is an elater."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Conducts water"
+      },
+      "categories": ["Hydroids", "Leptoids"],
+      "answer": "Hydroids",
+      "explanation": "Hydroids conduct water in some mosses. Leptoids conduct sugars. Both are conducting cells, but neither is true vascular tissue. Hydroid walls lack lignin, so they are not xylem. Bryophytes still lack true vascular tissue, roots, and stems."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Conducts sugars"
+      },
+      "categories": ["Hydroids", "Leptoids"],
+      "answer": "Leptoids",
+      "explanation": "Leptoids conduct sugars in some mosses. Hydroids conduct water. Leptoids resemble phloem sieve cells, but they are not true phloem. Bryophytes still lack true vascular tissue."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Dead at maturity"
+      },
+      "categories": ["Hydroids", "Leptoids"],
+      "answer": "Hydroids",
+      "explanation": "Hydroids are dead and empty at maturity, which leaves a passage for water. Leptoids are living at maturity and conduct sugars. A hydroid is still not a tracheid, because its wall lacks lignin."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Living at maturity"
+      },
+      "categories": ["Hydroids", "Leptoids"],
+      "answer": "Leptoids",
+      "explanation": "Leptoids are living at maturity and conduct sugars. Hydroids are dead at maturity and conduct water. A living leptoid is not a true phloem sieve cell."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "In the center of the stem"
+      },
+      "categories": ["Hydroids", "Leptoids"],
+      "answer": "Hydroids",
+      "explanation": "In some moss stems, hydroids form the central strand and conduct water. Leptoids lie around that strand and conduct sugars. This arrangement resembles a vascular strand, but the cells are not xylem and phloem."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Surrounds the water-conducting cells"
+      },
+      "categories": ["Hydroids", "Leptoids"],
+      "answer": "Leptoids",
+      "explanation": "Leptoids surround the hydroids and conduct sugars. Hydroids are the water-conducting cells in the center. The two cell types together are still not true vascular tissue."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which bryophytes are the most derived?"
+      },
+      "options": [
+        "Mosses",
+        "Liverworts",
+        "Hornworts",
+        "All three groups are equally derived"
+      ],
+      "answer": "Mosses",
+      "explanation": "Mosses are the most derived bryophytes. Their sporophytes are the most complex of the three groups, and some mosses have hydroids and leptoids. Liverworts and hornworts are the other two bryophyte groups, and neither is the most derived. The three groups are not equally derived."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What differentiates seedless vascular plants from bryophytes?"
+      },
+      "options": [
+        "They have true vascular tissue, and the sporophyte is the dominant free-living body.",
+        "They lack vascular tissue, and the gametophyte is the dominant free-living body.",
+        "They produce seeds, and the gametophyte depends on the sporophyte.",
+        "They have hydroids and leptoids instead of xylem and phloem, and the sporophyte stays attached to the gametophyte."
+      ],
+      "answer": "They have true vascular tissue, and the sporophyte is the dominant free-living body.",
+      "explanation": "Seedless vascular plants, such as Lycophyta and Monilophyta, have true xylem and phloem. The sporophyte is the large free-living plant, and the gametophyte is small and independent. Bryophytes lack true vascular tissue. Their gametophyte is the dominant free-living body, and the sporophyte grows on it. Hydroids and leptoids in some mosses are not xylem and phloem. Seeds, and a gametophyte that depends on the sporophyte, distinguish seed plants from both of these groups. Seedless vascular plants do not make seeds."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Xylem"
+      },
+      "categories": ["Conducts water and minerals", "Conducts sugars", "Provides support"],
+      "answer": "Conducts water and minerals",
+      "explanation": "Xylem conducts water and dissolved minerals from the roots toward the shoots. Its conducting cells are dead at maturity. Phloem conducts sugars, and its conducting cells are alive at maturity. Sclerenchyma has thick walls and supports the plant. It does not conduct water or sugars."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Phloem"
+      },
+      "categories": ["Conducts water and minerals", "Conducts sugars", "Provides support"],
+      "answer": "Conducts sugars",
+      "explanation": "Phloem conducts sugars from sources to sinks. Its conducting cells are alive at maturity. Xylem conducts water and dissolved minerals, and its conducting cells are dead at maturity. Sclerenchyma supports the plant with thick walls. It does not conduct sugars."
+    },
+    {
+      "type": "drag_and_drop",
+      "prompt": {
+        "text": "Sclerenchyma"
+      },
+      "categories": ["Conducts water and minerals", "Conducts sugars", "Provides support"],
+      "answer": "Provides support",
+      "explanation": "Sclerenchyma cells have thick walls and support the plant. They are dead at maturity, and they do not conduct water or sugars. Xylem conducts water and dissolved minerals. Phloem conducts sugars."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a leaf with a single vascular strand?"
+      },
+      "options": [
+        "A microphyll",
+        "A megaphyll",
+        "A sporophyll",
+        "A sorus"
+      ],
+      "answer": "A microphyll",
+      "explanation": "A microphyll is a leaf with one vascular strand. That strand is unbranched. Lycophytes, in Lycophyta, have microphylls. A megaphyll has branched vascular tissue, so it has more than one vein. Ferns and seed plants have megaphylls. A sporophyll is a leaf that bears sporangia. It may be a microphyll or a megaphyll. A sorus is a cluster of sporangia on the underside of a fern leaf, not a type of leaf."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a leaf with branched vascular tissue?"
+      },
+      "options": [
+        "A megaphyll",
+        "A microphyll",
+        "A sporophyll",
+        "A sorus"
+      ],
+      "answer": "A megaphyll",
+      "explanation": "A megaphyll is a leaf with branched vascular tissue, so it has more than one vein. Ferns, in Monilophyta, and seed plants have megaphylls. A microphyll has one unbranched vascular strand. Lycophytes have microphylls. A sporophyll is a leaf that bears sporangia. It may be a megaphyll or a microphyll. A sorus is a cluster of sporangia on the underside of a fern leaf, not a type of leaf."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are sori?"
+      },
+      "options": [
+        "Clusters of sporangia, usually on the underside of a fern leaf.",
+        "Flaps of tissue that cover young clusters of sporangia.",
+        "Rings of cells that split a sporangium open and fling the spores out.",
+        "Leaves with one unbranched vascular strand."
+      ],
+      "answer": "Clusters of sporangia, usually on the underside of a fern leaf.",
+      "explanation": "Sori are clusters of sporangia, usually on the underside of a fern leaf. One cluster is a sorus. Ferns are in Monilophyta. A flap that covers a young sorus is an indusium. A ring of thick-walled cells that opens a sporangium and flings the spores is an annulus. A leaf with one unbranched vascular strand is a microphyll."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are strobili?"
+      },
+      "options": [
+        "Cones of spore-bearing leaves.",
+        "Clusters of sporangia, usually on the underside of a fern leaf.",
+        "Flaps of tissue that cover young clusters of sporangia.",
+        "Leaves with branched vascular tissue."
+      ],
+      "answer": "Cones of spore-bearing leaves.",
+      "explanation": "Strobili are cones of spore-bearing leaves, called sporophylls. One cone is a strobilus. Lycophytes such as Lycopodium and Selaginella, and horsetails such as Equisetum, bear their spores in a strobilus. Sori are clusters of sporangia on the underside of a fern leaf. An indusium is a flap that covers a young sorus. A megaphyll is a leaf with branched vascular tissue."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are tracheophytes?"
+      },
+      "options": [
+        "The first vascular plants, the seedless vascular plants, named because they possess tracheids.",
+        "All vascular plants, including flowering plants, named because they possess vessel elements.",
+        "Nonvascular plants, including liverworts, mosses, and hornworts.",
+        "The green algae closest to land plants."
+      ],
+      "answer": "The first vascular plants, the seedless vascular plants, named because they possess tracheids.",
+      "explanation": "The first vascular plants, the seedless vascular plants, are sometimes called tracheophytes because they possess tracheids. Tracheids are the least derived xylem tissue. Vessel elements arose later, in flowering plants. Bryophytes are nonvascular, so they are not tracheophytes. Charophytes are the green algae closest to land plants. They are not vascular plants."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In homosporous production, what does a sporangium on a sporophyll produce?"
+      },
+      "options": [
+        "A single type of spore",
+        "A megaspore",
+        "A microspore",
+        "Eggs and sperm"
+      ],
+      "answer": "A single type of spore",
+      "explanation": "In homosporous production, a sporangium on a sporophyll produces a single type of spore. A megaspore comes from a megasporangium on a megasporophyll. A microspore comes from a microsporangium on a microsporophyll. Eggs and sperm are made later, by the gametophyte, not by the sporangium."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In homosporous production, what does the single type of spore grow into?"
+      },
+      "options": [
+        "Typically a bisexual gametophyte",
+        "A female gametophyte",
+        "A male gametophyte",
+        "A sporophyte"
+      ],
+      "answer": "Typically a bisexual gametophyte",
+      "explanation": "In homosporous production, the single type of spore typically grows into a bisexual gametophyte. A female gametophyte grows from a megaspore. A male gametophyte grows from a microspore. The sporophyte is the plant that made the spore. The spore does not grow into another sporophyte."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What does a bisexual gametophyte produce?"
+      },
+      "options": [
+        "Eggs and sperm",
+        "Only eggs",
+        "Only sperm",
+        "A single type of spore"
+      ],
+      "answer": "Eggs and sperm",
+      "explanation": "A bisexual gametophyte produces both eggs and sperm. A female gametophyte produces only eggs. A male gametophyte produces only sperm. A single type of spore is produced by a sporangium on a sporophyll, not by the gametophyte."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In heterosporous production, what does a megasporangium on a megasporophyll produce?"
+      },
+      "options": [
+        "A megaspore",
+        "A microspore",
+        "A single type of spore that grows into a bisexual gametophyte",
+        "Eggs"
+      ],
+      "answer": "A megaspore",
+      "explanation": "In heterosporous production, a megasporangium on a megasporophyll produces a megaspore. A microspore comes from a microsporangium on a microsporophyll. A single type of spore that grows into a bisexual gametophyte is the homosporous path. Eggs are produced later, by the female gametophyte."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What does a megaspore grow into?"
+      },
+      "options": [
+        "A female gametophyte",
+        "A male gametophyte",
+        "A bisexual gametophyte",
+        "A sporophyte"
+      ],
+      "answer": "A female gametophyte",
+      "explanation": "A megaspore grows into a female gametophyte. A microspore grows into a male gametophyte. A bisexual gametophyte typically grows from the single type of spore in homosporous production. The sporophyte is the generation that produced the megaspore."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What does a female gametophyte produce?"
+      },
+      "options": [
+        "Eggs",
+        "Sperm",
+        "Eggs and sperm",
+        "Megaspores"
+      ],
+      "answer": "Eggs",
+      "explanation": "A female gametophyte produces eggs. Sperm are produced by a male gametophyte. Eggs and sperm together come from a bisexual gametophyte. Megaspores are produced by a megasporangium on a megasporophyll, not by the gametophyte."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In heterosporous production, what does a microsporangium on a microsporophyll produce?"
+      },
+      "options": [
+        "A microspore",
+        "A megaspore",
+        "A single type of spore that grows into a bisexual gametophyte",
+        "Sperm"
+      ],
+      "answer": "A microspore",
+      "explanation": "In heterosporous production, a microsporangium on a microsporophyll produces a microspore. A megaspore comes from a megasporangium on a megasporophyll. A single type of spore that grows into a bisexual gametophyte is the homosporous path. Sperm are produced later, by the male gametophyte."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What does a microspore grow into?"
+      },
+      "options": [
+        "A male gametophyte",
+        "A female gametophyte",
+        "A bisexual gametophyte",
+        "A sporophyte"
+      ],
+      "answer": "A male gametophyte",
+      "explanation": "A microspore grows into a male gametophyte. A megaspore grows into a female gametophyte. A bisexual gametophyte typically grows from the single type of spore in homosporous production. The sporophyte is the generation that produced the microspore."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What does a male gametophyte produce?"
+      },
+      "options": [
+        "Sperm",
+        "Eggs",
+        "Eggs and sperm",
+        "Microspores"
+      ],
+      "answer": "Sperm",
+      "explanation": "A male gametophyte produces sperm. Eggs are produced by a female gametophyte. Eggs and sperm together come from a bisexual gametophyte. Microspores are produced by a microsporangium on a microsporophyll, not by the gametophyte."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which group were the first seedless vascular plants?"
+      },
+      "options": [
+        "Lycophytes",
+        "Bryophytes",
+        "Monilophyta",
+        "Coniferophyta"
+      ],
+      "answer": "Lycophytes",
+      "explanation": "Lycophytes were the first seedless vascular plants. They include the club mosses and spike mosses, and their leaves are microphylls. Bryophytes were the first land plants, but they lack true vascular tissue. Monilophyta are the ferns, horsetails, and whisk ferns. They are also seedless vascular plants, but they came later. Coniferophyta are the conifers. They are seed plants, and they came later still."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In general, how are the two generations arranged in land plants?"
+      },
+      "options": [
+        "The sporophyte is dominant, and the gametophyte is greatly reduced.",
+        "The gametophyte is dominant, and the sporophyte is greatly reduced.",
+        "The sporophyte and the gametophyte are both large and free-living.",
+        "The gametophyte is the only multicellular generation."
+      ],
+      "answer": "The sporophyte is dominant, and the gametophyte is greatly reduced.",
+      "explanation": "In land plants in general, the sporophyte is the dominant generation and the gametophyte is greatly reduced. That pattern holds for vascular plants, and in seed plants the gametophyte is microscopic. Bryophytes are the exception. In bryophytes the gametophyte is the dominant free-living body, and the sporophyte grows on it. A cycle with no multicellular sporophyte is zygotic, and land plants do not have that cycle."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What are monilophytes?"
+      },
+      "options": [
+        "Ferns, horsetails, and whisk ferns.",
+        "Club mosses and spike mosses.",
+        "Liverworts, mosses, and hornworts.",
+        "Conifers."
+      ],
+      "answer": "Ferns, horsetails, and whisk ferns.",
+      "explanation": "Monilophytes are the ferns, horsetails, and whisk ferns. They are the phylum Monilophyta. They are seedless vascular plants. Ferns have megaphylls. Whisk ferns lack true leaves and roots. Club mosses and spike mosses are lycophytes, and their leaves are microphylls. Liverworts, mosses, and hornworts are bryophytes, and they lack true vascular tissue. Conifers are Coniferophyta, and they are seed plants."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is unique about whisk ferns?"
+      },
+      "options": [
+        "Evenly forking green stems, no true leaves or roots, and bisexual gametophytes.",
+        "Jointed stems, leaves in whorls, and a strobilus at the stem tip.",
+        "Broad leaves with sori on the underside.",
+        "Upright stems covered with many small leaves that have one vascular strand."
+      ],
+      "answer": "Evenly forking green stems, no true leaves or roots, and bisexual gametophytes.",
+      "explanation": "Whisk ferns, such as Psilotum, are monilophytes with evenly forking green stems. Those stems lack true leaves and true roots, and the gametophytes are bisexual. Horsetails, such as Equisetum, have jointed stems, leaves in whorls, and a strobilus at the stem tip. Typical ferns have broad megaphylls with sori on the underside. Lycophytes have upright stems covered with microphylls, each with one vascular strand."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is unique about horsetails?"
+      },
+      "options": [
+        "Their leaves are actually stems, and abrasive silica is deposited in the epidermis.",
+        "Evenly forking green stems, no true leaves or roots, and bisexual gametophytes.",
+        "Broad leaves with sori on the underside.",
+        "Upright stems covered with many small leaves that have one vascular strand."
+      ],
+      "answer": "Their leaves are actually stems, and abrasive silica is deposited in the epidermis.",
+      "explanation": "Horsetails, also called horsetail ferns, such as Equisetum, are monilophytes. The organs that look like their leaves are stems, and abrasive silica is deposited in the epidermis. Whisk ferns have evenly forking green stems and lack true leaves and roots. Typical ferns have broad megaphylls with sori on the underside. Lycophytes have upright stems covered with microphylls, each with one vascular strand."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a flap of tissue that covers a young sorus?"
+      },
+      "options": [
+        "An indusium",
+        "An annulus",
+        "A sorus",
+        "A strobilus"
+      ],
+      "answer": "An indusium",
+      "explanation": "An indusium is a flap of tissue that covers a young sorus and protects the developing sporangia. An annulus is a ring of thick-walled cells on a sporangium. As those cells dry, the sporangium splits open and the annulus flings the spores out. A sorus is the cluster of sporangia itself, usually on the underside of a fern leaf. A strobilus is a cone of spore-bearing leaves."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a ring of thick-walled cells that splits a sporangium open and flings the spores out?"
+      },
+      "options": [
+        "An annulus",
+        "An indusium",
+        "An elater",
+        "A columella"
+      ],
+      "answer": "An annulus",
+      "explanation": "An annulus is a ring of thick-walled cells on a fern sporangium. As those cells dry, the sporangium splits open and the annulus flings the spores outward. An indusium is a flap that covers a young sorus. An elater is an elongated sterile cell in a liverwort sporangium that twists as it dries and helps scatter the spores. A columella is a column of sterile tissue in the center of a sporangium."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A tree places charophyceans nearest the base, then bryophytes, then lycophytes, then monilophytes. What does that order show about life on land?"
+      },
+      "options": [
+        "Each later branch adds an adaptation to land. Bryophytes are the first land plants and lack vascular tissue. Lycophytes are the first vascular plants and have microphylls. Monilophytes have vascular tissue and megaphylls.",
+        "The four groups share one body plan. The order only shows which habitat each group prefers today.",
+        "Monilophytes are the first land plants. Bryophytes are the most recent, and they have seeds.",
+        "Charophyceans are the land plants with vascular tissue. Bryophytes, lycophytes, and monilophytes are algae."
+      ],
+      "answer": "Each later branch adds an adaptation to land. Bryophytes are the first land plants and lack vascular tissue. Lycophytes are the first vascular plants and have microphylls. Monilophytes have vascular tissue and megaphylls.",
+      "explanation": "The land-plant tree records adaptations to life out of the water. Charophyceans are the algal relatives at the base. Bryophytes are the first land plants, and they lack true vascular tissue. Lycophytes are the first vascular plants, and their leaves are microphylls, each with one vein. Monilophytes arise later among the seedless vascular plants, and ferns have megaphylls with branched veins. The order is not a list of today's habitats, and charophyceans are not the vascular plants."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A moss, a club moss, and a fern grow on the same bank. The moss has no true roots or stems. The club moss has roots, stems, and leaves with one vein. The fern has roots, stems, and fronds with branched veins. How do their bodies compare?"
+      },
+      "options": [
+        "The moss, a bryophyte, lacks vascular tissue and true roots and stems. The club moss, a lycophyte, has vascular tissue and microphylls. The fern, a monilophyte, has vascular tissue and megaphylls. A whisk fern is the monilophyte that has vascular tissue but no true leaves or roots.",
+        "All three have vascular tissue, roots, and megaphylls. Only the moss makes seeds.",
+        "The fern lacks vascular tissue. The moss and the club moss have megaphylls and woody trunks.",
+        "The club moss lacks vascular tissue. The moss and the fern have microphylls and no roots."
+      ],
+      "answer": "The moss, a bryophyte, lacks vascular tissue and true roots and stems. The club moss, a lycophyte, has vascular tissue and microphylls. The fern, a monilophyte, has vascular tissue and megaphylls. A whisk fern is the monilophyte that has vascular tissue but no true leaves or roots.",
+      "explanation": "Bryophytes, including mosses and liverworts, lack true vascular tissue, roots, and stems. Lycophytes, such as club mosses, have vascular tissue and microphylls. Most monilophytes, including ferns, have vascular tissue and megaphylls. Whisk ferns are the exception among monilophytes: they have vascular tissue, but their evenly forking stems lack true leaves and roots."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "On that bank, the green moss is the gametophyte, with a spore capsule on a stalk. The club moss and the fern are sporophytes. The club moss has a cone of spore-bearing leaves. The fern has clusters of sporangia under the fronds. Sperm of all three must swim. How does reproduction compare?"
+      },
+      "options": [
+        "Bryophytes have a dominant gametophyte, and the sporophyte grows on it and releases spores from a capsule. Lycophytes and monilophytes have a dominant sporophyte. Lycophytes bear spores in a strobilus, and ferns bear them in sori. All three still need water for sperm to swim.",
+        "All three have a dominant gametophyte, and none needs water for sperm.",
+        "The fern has a dominant gametophyte. The moss and the club moss make seeds in sori.",
+        "The club moss releases spores from a capsule on the gametophyte. The moss and the fern bear seeds in a strobilus."
+      ],
+      "answer": "Bryophytes have a dominant gametophyte, and the sporophyte grows on it and releases spores from a capsule. Lycophytes and monilophytes have a dominant sporophyte. Lycophytes bear spores in a strobilus, and ferns bear them in sori. All three still need water for sperm to swim.",
+      "explanation": "In a moss or liverwort, the gametophyte is the plant you see. The sporophyte stays attached and sheds spores from a capsule. In a lycophyte or a monilophyte, the sporophyte is the plant you see, and the gametophyte is small. A club moss bears its sporangia in a strobilus. A fern bears them in sori. Sperm of bryophytes, lycophytes, and monilophytes still swim through a film of water. Seeds are absent from all three."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Order these seedless plants from the earliest to evolve to the latest."
+      },
+      "sentence": [
+        null,
+        " → ",
+        null,
+        " → ",
+        null
+      ],
+      "blanks": [
+        "Bryophytes",
+        "Lycophytes",
+        "Monilophytes"
+      ],
+      "bank": [
+        "Bryophytes",
+        "Lycophytes",
+        "Monilophytes",
+        "Charophyceans",
+        "Coniferophyta"
+      ],
+      "explanation": "Bryophytes evolved first. They are the first land plants, and they lack vascular tissue. Lycophytes evolved next. They are the first seedless vascular plants, and their leaves are microphylls. Monilophytes evolved later. Ferns in that group have megaphylls. Charophyceans are the algal ancestors and are not seedless plants. Coniferophyta are seed plants, and they evolved after these seedless groups."
+    }
+  ]
+}

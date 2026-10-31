@@ -1,0 +1,972 @@
+{
+  "title": "Plant Reproduction",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure A?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "The stigma",
+        "The anther",
+        "The style",
+        "The ovule"
+      ],
+      "answer": "The stigma",
+      "explanation": "A points to the stigma, the lobed tip of the pistil where pollen lands. F points to an anther, the orange tip of a stamen, where pollen is made. B is the style, the neck below the stigma. K is the ovule inside the ovary. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure B?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "The style",
+        "The filament",
+        "The stigma",
+        "The stalk, or pedicel"
+      ],
+      "answer": "The style",
+      "explanation": "B points to the style, the neck of the pistil between the stigma and the ovary. A pollen tube grows through it. G is a filament, the stalk of a stamen. A is the stigma. L is the stalk of the whole flower, the pedicel. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure C?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "The ovary",
+        "The ovule",
+        "The receptacle",
+        "The anther"
+      ],
+      "answer": "The ovary",
+      "explanation": "C points to the ovary, the swollen base of the pistil. It contains the ovule and becomes the fruit. K is the ovule inside it, which becomes the seed. E is the receptacle, where the flower parts attach. F is an anther. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure D?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "The pistil",
+        "A stamen",
+        "The receptacle",
+        "A sepal"
+      ],
+      "answer": "The pistil",
+      "explanation": "D marks the whole pistil: stigma, style, and ovary, the structures labeled A, B, and C. H marks a whole stamen. E is the receptacle. J is a sepal. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure E?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "The receptacle",
+        "The ovary",
+        "The ovule",
+        "The stalk, or pedicel"
+      ],
+      "answer": "The receptacle",
+      "explanation": "E points to the receptacle, the swollen tip of the stalk where the sepals, petals, stamens, and pistil attach. C is the ovary, above that attachment. K is the ovule inside the ovary. L is the stalk, or pedicel, below the receptacle. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure F?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "The anther",
+        "The stigma",
+        "The filament",
+        "The ovule"
+      ],
+      "answer": "The anther",
+      "explanation": "F points to an anther, the orange tip of a stamen, where pollen is produced. A is the stigma, where pollen lands. G is the filament under the anther. K is the ovule. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure G?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "The filament",
+        "The style",
+        "The stalk, or pedicel",
+        "The anther"
+      ],
+      "answer": "The filament",
+      "explanation": "G points to the filament, the slender stalk that holds an anther. B is the style, the neck of the pistil. L is the pedicel, the stalk of the whole flower. F is the anther at the tip of the filament. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure H?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "A stamen",
+        "The pistil",
+        "The style",
+        "A sepal"
+      ],
+      "answer": "A stamen",
+      "explanation": "H marks a whole stamen: the anther and filament labeled F and G. D marks the whole pistil. B is only the style. J is a sepal. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure I?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "A petal",
+        "A sepal",
+        "A stamen",
+        "The pistil"
+      ],
+      "answer": "A petal",
+      "explanation": "I points to a petal, one of the large yellow structures. Together the petals are the corolla. J is a sepal, a green leaflike part below the petals. H is a stamen. D is the pistil. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure J?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "A sepal",
+        "A petal",
+        "The filament",
+        "The receptacle"
+      ],
+      "answer": "A sepal",
+      "explanation": "J points to a sepal, one of the green leaflike structures below the petals. Together the sepals are the calyx. I is a petal. G is a filament. E is the receptacle. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure K?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "The ovule",
+        "The ovary",
+        "The stigma",
+        "A pollen grain"
+      ],
+      "answer": "The ovule",
+      "explanation": "K points to the ovule, the pink curved structure inside the ovary. After fertilization it becomes the seed. C is the ovary, the wall around the ovule, which becomes the fruit. A is the stigma. Pollen is produced in an anther, labeled F. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is structure L?",
+        "image": "images/biology/plant_reproduction/flower_parts.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Flower diagram with letters A through L in place of the part names. Leader lines connect each letter to a structure.",
+        "caption": "Diagram by Anjubaba. Wikimedia Commons, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Parts-of-a-flower.png"
+      },
+      "options": [
+        "The stalk, or pedicel",
+        "The style",
+        "The filament",
+        "The receptacle"
+      ],
+      "answer": "The stalk, or pedicel",
+      "explanation": "L points to the stalk under the flower. For a single flower, that stalk is the pedicel. B is the style, the neck of the pistil. G is a filament. E is the receptacle at the top of the stalk, where the other parts attach. The diagram is by Anjubaba and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a calyx?"
+      },
+      "options": [
+        "All of the sepals of a flower.",
+        "All of the petals of a flower.",
+        "The stigma, style, and ovary together.",
+        "The anther and filament together."
+      ],
+      "answer": "All of the sepals of a flower.",
+      "explanation": "A calyx is all of the sepals of a flower. A sepal is one green leaflike part below the petals. All of the petals together are the corolla. The stigma, style, and ovary together are the pistil. The anther and filament together are a stamen."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a corolla?"
+      },
+      "options": [
+        "All of the petals of a flower.",
+        "All of the sepals of a flower.",
+        "The swollen tip of the stalk where the flower parts attach.",
+        "The stalk of a single flower, the pedicel."
+      ],
+      "answer": "All of the petals of a flower.",
+      "explanation": "A corolla is all of the petals of a flower. A petal is one of the large colored parts. All of the sepals together are the calyx. The swollen tip of the stalk where the flower parts attach is the receptacle. The stalk of a single flower is the pedicel."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Sepals are modified leaves of a flower. What is their role?"
+      },
+      "options": [
+        "They enclose and protect the flower bud.",
+        "They attract pollinators, and they often have nectaries with nectar rewards.",
+        "They are the male part. Their anthers contain the microsporangia that produce pollen grains.",
+        "They are the female part. The sticky stigma receives pollen."
+      ],
+      "answer": "They enclose and protect the flower bud.",
+      "explanation": "Sepals enclose and protect the flower bud. Together the sepals are the calyx. A sepal is a green leaflike part below the petals. Petals, collectively the corolla, attract pollinators, and they often have nectaries with nectar rewards. Stamens are the male part. Their anthers contain the microsporangia that produce pollen grains. The carpel, also called the pistil, is the female part. Its sticky stigma receives pollen."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Petals are modified leaves of a flower. What is their role?"
+      },
+      "options": [
+        "They attract pollinators, and they often have nectaries with nectar rewards.",
+        "They enclose and protect the flower bud.",
+        "They are the male part. Their anthers contain the microsporangia that produce pollen grains.",
+        "They are the female part. The sticky stigma receives pollen."
+      ],
+      "answer": "They attract pollinators, and they often have nectaries with nectar rewards.",
+      "explanation": "Petals attract pollinators, and they often have nectaries with nectar rewards. Together the petals are the corolla. Sepals, collectively the calyx, enclose and protect the flower bud. Stamens are the male part. Their anthers contain the microsporangia that produce pollen grains. The carpel, also called the pistil, is the female part. Its sticky stigma receives pollen."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Stamens are modified leaves of a flower. What is their role?"
+      },
+      "options": [
+        "They are the male part. Their anthers contain the microsporangia that produce pollen grains.",
+        "They enclose and protect the flower bud.",
+        "They attract pollinators, and they often have nectaries with nectar rewards.",
+        "They are the female part. The sticky stigma receives pollen."
+      ],
+      "answer": "They are the male part. Their anthers contain the microsporangia that produce pollen grains.",
+      "explanation": "Stamens are the male part of the flower. Each stamen is an anther borne on a filament. The anthers contain the microsporangia. A microsporangium produces microspores, and each microspore develops into a pollen grain. Sepals enclose and protect the flower bud. Petals attract pollinators, and they often have nectaries with nectar rewards. The carpel, also called the pistil, is the female part. Its sticky stigma receives pollen."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The carpel, also called the pistil, is a modified leaf of a flower. What is its role?"
+      },
+      "options": [
+        "It is the female part. The sticky stigma receives pollen, and the style encloses the pollen tubes that grow to the ovules in the ovary.",
+        "It encloses and protects the flower bud.",
+        "It attracts pollinators, and it often has nectaries with nectar rewards.",
+        "It is the male part. Its anthers contain the microsporangia that produce pollen grains."
+      ],
+      "answer": "It is the female part. The sticky stigma receives pollen, and the style encloses the pollen tubes that grow to the ovules in the ovary.",
+      "explanation": "The carpel, also called the pistil, is the female part of the flower. The sticky stigma receives pollen. The slender style encloses the pollen tubes that grow down to the ovules. Those ovules are contained in the ovary, which protects them. Sepals enclose and protect the flower bud. Petals attract pollinators, and they often have nectaries with nectar rewards. Stamens are the male part. Their anthers contain the microsporangia that produce pollen grains."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a pedicel?"
+      },
+      "options": [
+        "The stalk of a single flower.",
+        "A cluster of flowers on one stem.",
+        "The swollen tip of the stalk where the flower parts attach.",
+        "The slender stalk that holds an anther."
+      ],
+      "answer": "The stalk of a single flower.",
+      "explanation": "A pedicel is the stalk of a single flower. The sepals, petals, stamens, and carpel attach at the receptacle, the swollen tip of that stalk. A cluster of flowers on one stem is an inflorescence. Each flower in that cluster has its own pedicel. The slender stalk that holds an anther is a filament."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is an inflorescence?"
+      },
+      "options": [
+        "A cluster of flowers on one stem.",
+        "The stalk of a single flower.",
+        "All of the petals of a flower.",
+        "The female part of one flower."
+      ],
+      "answer": "A cluster of flowers on one stem.",
+      "explanation": "An inflorescence is a cluster of flowers on one stem. The stalk of a single flower in that cluster is a pedicel. All of the petals of one flower are the corolla. The female part of one flower is the carpel, also called the pistil."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a complete flower?"
+      },
+      "options": [
+        "It has all the flower parts: sepals, petals, stamens, and a carpel.",
+        "It lacks one or more flower parts.",
+        "It has only stamens.",
+        "It has only a carpel."
+      ],
+      "answer": "It has all the flower parts: sepals, petals, stamens, and a carpel.",
+      "explanation": "A complete flower has all the flower parts: sepals, petals, stamens, and a carpel. A flower that lacks one or more of those parts is incomplete. A flower with only stamens is staminate. A flower with only a carpel is pistillate. Both of those are imperfect, and both are incomplete because a flower part is missing."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is an incomplete flower?"
+      },
+      "options": [
+        "It lacks one or more flower parts.",
+        "It has all the flower parts: sepals, petals, stamens, and a carpel.",
+        "It has both stamens and a carpel, and no part is missing.",
+        "It is any flower in a cluster."
+      ],
+      "answer": "It lacks one or more flower parts.",
+      "explanation": "An incomplete flower lacks one or more flower parts. Those parts are the sepals, petals, stamens, and carpel. A complete flower has all of them. A flower that has both stamens and a carpel, with no part missing, is complete. A cluster of flowers is an inflorescence, and the flowers in it can be complete or incomplete. An imperfect flower, which has only stamens or only a carpel, is always incomplete."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a perfect flower?"
+      },
+      "options": [
+        "It has both stamens and a carpel.",
+        "It has only stamens or only a carpel.",
+        "It must have sepals and petals, whether or not it has stamens and a carpel.",
+        "It has only stamens."
+      ],
+      "answer": "It has both stamens and a carpel.",
+      "explanation": "A perfect flower has both the male part and the female part: stamens and a carpel. An imperfect flower has only stamens or only a carpel. Sepals and petals are not what makes a flower perfect. A flower can lack petals and still be perfect if it has both stamens and a carpel. That flower is incomplete and perfect. A flower with only stamens is staminate."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is an imperfect flower?"
+      },
+      "options": [
+        "It has only stamens or only a carpel.",
+        "It has both stamens and a carpel.",
+        "It lacks petals but has both stamens and a carpel.",
+        "It has all four flower parts."
+      ],
+      "answer": "It has only stamens or only a carpel.",
+      "explanation": "An imperfect flower has only the male part or only the female part. Only stamens makes it staminate. Only a carpel makes it pistillate. A flower with both stamens and a carpel is perfect. Missing petals while keeping both stamens and a carpel makes the flower incomplete and perfect, not imperfect. A flower with all four parts is complete, and it is also perfect."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a staminate flower?"
+      },
+      "options": [
+        "An imperfect flower with only stamens.",
+        "An imperfect flower with only a carpel.",
+        "A flower with both stamens and a carpel.",
+        "A flower with all four flower parts."
+      ],
+      "answer": "An imperfect flower with only stamens.",
+      "explanation": "A staminate flower is imperfect and has only the male part, the stamens. It has no carpel, so it is also incomplete. An imperfect flower with only a carpel is pistillate. A flower with both stamens and a carpel is perfect. A flower with all four parts is complete. This name describes one flower. A plant may bear staminate flowers, pistillate flowers, or both."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a pistillate flower?"
+      },
+      "options": [
+        "An imperfect flower with only a carpel.",
+        "An imperfect flower with only stamens.",
+        "A flower with both stamens and a carpel.",
+        "A flower with all four flower parts."
+      ],
+      "answer": "An imperfect flower with only a carpel.",
+      "explanation": "A pistillate flower is imperfect and has only the female part, the carpel, also called the pistil. It has no stamens, so it is also incomplete. An imperfect flower with only stamens is staminate. A flower with both stamens and a carpel is perfect. A flower with all four parts is complete. This name describes one flower. A plant may bear pistillate flowers, staminate flowers, or both."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A flower has sepals, petals, and stamens. It has no carpel. Which description fits it?"
+      },
+      "options": [
+        "It is incomplete, imperfect, and staminate.",
+        "It is incomplete, imperfect, and pistillate.",
+        "It is incomplete and perfect.",
+        "It is complete."
+      ],
+      "answer": "It is incomplete, imperfect, and staminate.",
+      "explanation": "The flower lacks a carpel, so it is incomplete. It has only the male part, the stamens, so it is imperfect, and an imperfect flower with only stamens is staminate. A pistillate flower would have a carpel and no stamens. A perfect flower has both stamens and a carpel. A complete flower has sepals, petals, stamens, and a carpel."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a monoecious plant?"
+      },
+      "options": [
+        "Male and female reproductive structures are on the same plant.",
+        "Male and female reproductive structures are on separate plants.",
+        "One flower has both stamens and a carpel.",
+        "One flower has only stamens or only a carpel."
+      ],
+      "answer": "Male and female reproductive structures are on the same plant.",
+      "explanation": "A monoecious plant has male and female reproductive structures on the same individual. A dioecious species has those structures on separate plants. One flower with both stamens and a carpel is a perfect flower. One flower with only stamens or only a carpel is an imperfect flower. Those terms describe a flower. Monoecious describes the plant."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a dioecious plant?"
+      },
+      "options": [
+        "Male and female reproductive structures are on separate plants.",
+        "Male and female reproductive structures are on the same plant.",
+        "One flower has both stamens and a carpel.",
+        "One flower has all four flower parts."
+      ],
+      "answer": "Male and female reproductive structures are on separate plants.",
+      "explanation": "A dioecious plant has male and female reproductive structures on separate plants. A monoecious plant has both structures on the same individual. One flower with both stamens and a carpel is a perfect flower. One flower with all four flower parts is a complete flower. Those terms describe a flower. Dioecious describes the plant."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the ABC hypothesis?"
+      },
+      "options": [
+        "A genes alone specify sepals. A and B genes together specify petals. B and C genes together specify stamens. C genes alone specify carpels.",
+        "C genes alone specify sepals. B and C genes together specify petals. A and B genes together specify stamens. A genes alone specify carpels.",
+        "A genes specify stamens. B genes specify petals. C genes specify sepals and carpels.",
+        "The hypothesis sorts flowers into complete, incomplete, perfect, and imperfect."
+      ],
+      "answer": "A genes alone specify sepals. A and B genes together specify petals. B and C genes together specify stamens. C genes alone specify carpels.",
+      "explanation": "The ABC hypothesis says three classes of genes give each flower organ its identity. From the outside of the flower inward, A genes alone specify sepals, A and B genes together specify petals, B and C genes together specify stamens, and C genes alone specify carpels. The carpel is also called the pistil. A genes and C genes repress each other, so both are not active in the same whorl. Swapping A and C reverses the organs. Assigning one gene class to each organ, with A as the stamens, is not the hypothesis. Complete, incomplete, perfect, and imperfect describe which parts a flower has. They are not the ABC hypothesis."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a capsule?" },
+      "options": [
+        "A dry fruit from compound ovaries. It splits open along the top. An iris fruit is a capsule.",
+        "A dry fruit from one carpel. It splits open along two sides. A pea fruit is one.",
+        "A dry fruit from one carpel. It splits open along one side. A milkweed fruit is one.",
+        "A dry fruit from one ovary with one seed. It does not split open, and the pericarp is hard. An acorn is one."
+      ],
+      "answer": "A dry fruit from compound ovaries. It splits open along the top. An iris fruit is a capsule.",
+      "explanation": "A capsule is derived from compound ovaries. It is dry at maturity and dehisces, which means it splits open, in various ways along the top surface. An iris fruit is a capsule. A pea fruit is a legume. It comes from one carpel and splits along two sides. A milkweed fruit is a follicle. It comes from one carpel and opens along one side. An acorn is a nut. It is indehiscent, so it does not split open, and the pericarp is hard or stony. The pericarp is the fruit wall, formed from the ovary wall."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a legume?" },
+      "options": [
+        "A dry fruit from a single carpel. It splits open along two sides. A pea fruit is a legume.",
+        "A dry fruit from a single carpel. It splits open along one side. A milkweed fruit is one.",
+        "A dry fruit from compound ovaries. It splits open along the top. An iris fruit is one.",
+        "A dry fruit from one ovary with one seed. The pericarp is fused to the seed coat. A corn fruit is one."
+      ],
+      "answer": "A dry fruit from a single carpel. It splits open along two sides. A pea fruit is a legume.",
+      "explanation": "A legume arises from a single carpel. It is dry at maturity and dehisces along two sides. A pea fruit is a legume. A follicle also comes from one carpel, but it opens along one side. A milkweed fruit is a follicle. A capsule comes from compound ovaries and splits along the top. An iris fruit is a capsule. A grain does not split open, and the pericarp is fused to the seed coat. A corn fruit is a grain."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a follicle?" },
+      "options": [
+        "A dry fruit from a single carpel. It splits open along one side. A milkweed fruit is a follicle.",
+        "A dry fruit from a single carpel. It splits open along two sides. A pea fruit is one.",
+        "A dry fruit from compound ovaries. It splits open along the top. An iris fruit is one.",
+        "A dry fruit with one seed. The pericarp is loosely attached to the seed coat. A sunflower fruit is one."
+      ],
+      "answer": "A dry fruit from a single carpel. It splits open along one side. A milkweed fruit is a follicle.",
+      "explanation": "A follicle develops from a single carpel. It is dry and dehiscent, and it opens along one side. A milkweed fruit is a follicle. A legume also comes from one carpel, but it splits along two sides. A pea fruit is a legume. A capsule comes from compound ovaries and splits along the top. An iris fruit is a capsule. An achene does not split open. A sunflower fruit is an achene."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is an achene?" },
+      "options": [
+        "A dry fruit from one ovary with one seed. It does not split open, and the pericarp is loosely attached to the seed coat. A sunflower fruit is an achene.",
+        "A dry fruit from one ovary with one seed. It does not split open, and the pericarp is fused to the seed coat. A corn fruit is one.",
+        "A dry fruit from one ovary with one seed. It does not split open, and the pericarp is hard or stony. An acorn is one.",
+        "A dry fruit from a single ovary with a wing formed by the ovary wall. An elm fruit is one."
+      ],
+      "answer": "A dry fruit from one ovary with one seed. It does not split open, and the pericarp is loosely attached to the seed coat. A sunflower fruit is an achene.",
+      "explanation": "An achene is derived from one ovary with one seed. It is dry at maturity and indehiscent, so it does not split open. The pericarp, the fruit wall, is loosely attached to the seed coat. A sunflower fruit is an achene. A grain also has one seed and does not split open, but the pericarp and seed coat are fused. A corn fruit is a grain. A nut has a hard or stony pericarp. An acorn is a nut. A samara has a wing formed by outgrowths of the ovary wall. An elm fruit is a samara."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a samara?" },
+      "options": [
+        "A dry fruit from a single ovary with one or two seeds. It does not split open, and outgrowths of the ovary wall form a wing. An elm fruit has one seed, and a maple fruit has two.",
+        "A dry fruit from one ovary with one seed. It does not split open, and the pericarp is loosely attached to the seed coat. A sunflower fruit is one.",
+        "A dry fruit from one ovary with one seed. The pericarp is fused to the seed coat. A corn fruit is one.",
+        "A dry fruit from a single carpel. It splits open along two sides. A pea fruit is one."
+      ],
+      "answer": "A dry fruit from a single ovary with one or two seeds. It does not split open, and outgrowths of the ovary wall form a wing. An elm fruit has one seed, and a maple fruit has two.",
+      "explanation": "A samara is derived from a single ovary with either one seed or two. It is dry and indehiscent, so it does not split open. The winged fruit falls whole. Outgrowths of the ovary wall form a wing-like structure. An elm samara has one seed. A maple samara has two. An achene has no wing, and the pericarp is loosely attached to the seed coat. A sunflower fruit is an achene. A grain has the pericarp fused to the seed coat. A corn fruit is a grain. A legume splits along two sides and has no wing. A pea fruit is a legume."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a grain?" },
+      "options": [
+        "A dry fruit from a single ovary with one seed. It does not split open, and the pericarp is fused to the seed coat. A corn fruit is a grain.",
+        "A dry fruit from one ovary with one seed. It does not split open, and the pericarp is loosely attached to the seed coat. A sunflower fruit is one.",
+        "A dry fruit from one ovary with one seed. It does not split open, and the pericarp is hard or stony. An acorn is one.",
+        "A dry fruit with a wing formed by the ovary wall. A maple fruit is one."
+      ],
+      "answer": "A dry fruit from a single ovary with one seed. It does not split open, and the pericarp is fused to the seed coat. A corn fruit is a grain.",
+      "explanation": "A grain is derived from a single ovary with one seed. It is dry and indehiscent at maturity. The pericarp and the seed coat are fused. A corn fruit is a grain. An achene also has one seed and does not split open, but the pericarp is only loosely attached to the seed coat. A sunflower fruit is an achene. A nut has a hard or stony pericarp. An acorn is a nut. A samara has a wing. A maple fruit is a samara."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a nut?" },
+      "options": [
+        "A dry fruit from a single ovary with one seed. It does not split open, and the pericarp is hard or stony. An acorn is a nut.",
+        "A dry fruit from a single ovary with one seed. The pericarp is fused to the seed coat. A corn fruit is one.",
+        "A dry fruit from one ovary with one seed. The pericarp is loosely attached to the seed coat. A sunflower fruit is one.",
+        "A fruit with one seed, a hard endocarp, a fleshy mesocarp, and a thin exocarp. A cherry is one."
+      ],
+      "answer": "A dry fruit from a single ovary with one seed. It does not split open, and the pericarp is hard or stony. An acorn is a nut.",
+      "explanation": "A nut is derived from a single ovary with one seed. It is dry and indehiscent at maturity, and the pericarp is hard or stony. An acorn is a nut. A grain has the pericarp fused to the seed coat, and that wall is not stony. A corn fruit is a grain. An achene has a loose pericarp. A sunflower fruit is an achene. A drupe has one seed and a hard inner wall, but that wall is the endocarp, and the mesocarp is fleshy. A cherry is a drupe. The endocarp, mesocarp, and exocarp are the inner, middle, and outer layers of the pericarp."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a berry?" },
+      "options": [
+        "A fleshy fruit from a compound superior ovary with many seeds. The seeds are embedded in the fleshy mesocarp. A tomato is a berry.",
+        "A fruit with one seed, a hard endocarp, a fleshy mesocarp, and a thin exocarp. A cherry is one.",
+        "A fleshy fruit from an inferior compound ovary. The enlarged receptacle is the fleshy part. An apple is one.",
+        "A dry fruit from compound ovaries. It splits open along the top. An iris fruit is one."
+      ],
+      "answer": "A fleshy fruit from a compound superior ovary with many seeds. The seeds are embedded in the fleshy mesocarp. A tomato is a berry.",
+      "explanation": "A berry is derived from a compound superior ovary with many seeds. The mesocarp is fleshy, and the seeds are embedded in that flesh. A tomato is a berry. A superior ovary sits above the attachment of the other flower parts. A drupe has one seed and a hard endocarp. A cherry is a drupe. A pome comes from an inferior compound ovary, and the enlarged receptacle is the fleshy accessory tissue. An apple is a pome. A capsule is dry and splits open. An iris fruit is a capsule."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a drupe?" },
+      "options": [
+        "A fruit with one seed, a hard endocarp, a fleshy mesocarp, and a thin exocarp. A cherry is a drupe.",
+        "A fleshy fruit from a compound superior ovary with many seeds. The seeds are embedded in the flesh. A tomato is one.",
+        "A dry fruit with one seed and a hard or stony pericarp. An acorn is one.",
+        "A fleshy fruit from an inferior compound ovary. The enlarged receptacle is the fleshy part. An apple is one."
+      ],
+      "answer": "A fruit with one seed, a hard endocarp, a fleshy mesocarp, and a thin exocarp. A cherry is a drupe.",
+      "explanation": "A drupe has a single seed, a hard endocarp, a fleshy mesocarp, and a thin exocarp. A cherry is a drupe. Those three layers are the pericarp, the fruit wall. The endocarp is the inner layer, the mesocarp the middle, and the exocarp the outer. A berry has many seeds embedded in fleshy tissue, with no hard endocarp around one seed. A tomato is a berry. A nut is dry, and the whole pericarp is hard or stony. An acorn is a nut. A pome is fleshy because the receptacle enlarges. An apple is a pome."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a pome?" },
+      "options": [
+        "A fleshy fruit from an inferior compound ovary with many seeds. The enlarged receptacle is the fleshy accessory tissue. An apple is a pome.",
+        "A fleshy fruit from a compound superior ovary with many seeds. The seeds are embedded in the flesh. A tomato is one.",
+        "A fruit with one seed, a hard endocarp, a fleshy mesocarp, and a thin exocarp. A cherry is one.",
+        "A dry fruit from compound ovaries. It splits open along the top. An iris fruit is one."
+      ],
+      "answer": "A fleshy fruit from an inferior compound ovary with many seeds. The enlarged receptacle is the fleshy accessory tissue. An apple is a pome.",
+      "explanation": "A pome is derived from a flower with an inferior compound ovary and many seeds. An inferior ovary sits below the attachment of the other flower parts. The receptacle enlarges and becomes the fleshy part of this accessory fruit. An apple is a pome. Accessory tissue is fruit tissue that did not come from the ovary. A berry comes from a superior ovary, and the flesh is the mesocarp. A tomato is a berry. A drupe has one seed and a hard endocarp. A cherry is a drupe. A capsule is dry and splits open. An iris fruit is a capsule."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a simple fruit?" },
+      "options": [
+        "It forms from one ovary. That ovary may be simple or compound.",
+        "It is composed of more than one ovary.",
+        "It forms from many separate ovaries of a single flower.",
+        "It forms from the ovaries of several flowers that have grown together."
+      ],
+      "answer": "It forms from one ovary. That ovary may be simple or compound.",
+      "explanation": "A simple fruit forms from one ovary. That ovary may be a simple ovary, from one carpel, or a compound ovary, from more than one carpel. A tomato is a simple fruit: it comes from one compound ovary. An iris capsule is also a simple fruit. A simple fruit may be fleshy, like a tomato, or dry, like a capsule. A compound fruit is composed of more than one ovary. An aggregate fruit, such as a blackberry, comes from many separate ovaries of one flower. A multiple fruit, such as a pineapple, comes from the ovaries of several flowers that have grown together."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a fleshy fruit?" },
+      "options": [
+        "Animals disperse it. The seeds have a hard seed coat that breaks during digestion.",
+        "It may split open at maturity or remain closed.",
+        "It is composed of more than one ovary.",
+        "A significant portion of the edible flesh develops from tissue outside the ovaries."
+      ],
+      "answer": "Animals disperse it. The seeds have a hard seed coat that breaks during digestion.",
+      "explanation": "A fleshy fruit is dispersed by animals. Its seeds have a hard seed coat that breaks during digestion. A tomato, a cherry, and an apple are fleshy fruits. A dry fruit may split open at maturity, which is dehiscent, or remain closed, which is indehiscent. A capsule splits open. A grain remains closed. A compound fruit is composed of more than one ovary. An accessory fruit has a significant portion of its edible flesh from tissue outside the ovaries. An apple is both fleshy and accessory. Accessory names the source of the flesh. Fleshy names the animal-dispersed fruit with that hard seed coat."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a dry fruit?" },
+      "options": [
+        "It may split open at maturity, which is dehiscent, or remain closed, which is indehiscent.",
+        "Animals disperse it. The seeds have a hard seed coat that breaks during digestion.",
+        "It forms from many separate ovaries of a single flower.",
+        "It forms from the ovaries of several flowers that have grown together."
+      ],
+      "answer": "It may split open at maturity, which is dehiscent, or remain closed, which is indehiscent.",
+      "explanation": "A dry fruit may be dehiscent or indehiscent. Dehiscent means it splits open at maturity. A capsule, a legume, and a follicle are dehiscent. Indehiscent means it remains closed. An achene, a samara, a grain, and a nut are indehiscent. A fleshy fruit is dispersed by animals, and the seed coat breaks during digestion. An aggregate fruit, such as a blackberry, forms from many separate ovaries of one flower. A multiple fruit, such as a pineapple, forms from several flowers grown together."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a compound fruit?" },
+      "options": [
+        "It is composed of more than one ovary.",
+        "It forms from one ovary, and that ovary may be compound.",
+        "Animals disperse it. The seeds have a hard seed coat that breaks during digestion.",
+        "It may split open at maturity or remain closed."
+      ],
+      "answer": "It is composed of more than one ovary.",
+      "explanation": "A compound fruit is composed of more than one ovary. It falls into two categories. An aggregate fruit is derived from many separate ovaries of a single flower. A blackberry is an aggregate fruit. A multiple fruit is derived from the enlarged ovaries of multiple flowers that have grown together. A pineapple is a multiple fruit. A simple fruit forms from one ovary, even when that ovary is compound. A tomato and an iris capsule are simple fruits. A fleshy fruit is the animal-dispersed type. A dry fruit splits open or remains closed."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is an aggregate fruit?" },
+      "options": [
+        "It is derived from many separate ovaries of a single flower. A blackberry is an aggregate fruit.",
+        "It is derived from the enlarged ovaries of multiple flowers that have grown together. A pineapple is one.",
+        "It forms from one ovary. That ovary may be simple or compound.",
+        "A significant portion of the edible flesh develops from tissue outside the ovaries. An apple is one."
+      ],
+      "answer": "It is derived from many separate ovaries of a single flower. A blackberry is an aggregate fruit.",
+      "explanation": "An aggregate fruit is a compound fruit derived from many separate ovaries of a single flower. A blackberry is an aggregate fruit. A multiple fruit comes from the enlarged ovaries of multiple flowers that have grown together. A pineapple is a multiple fruit. A simple fruit forms from one ovary. A tomato is a simple fruit. An accessory fruit gets a significant portion of its edible flesh from tissue outside the ovaries. An apple is an accessory fruit."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a multiple fruit?" },
+      "options": [
+        "It is derived from the enlarged ovaries of multiple flowers that have grown together. A pineapple is a multiple fruit.",
+        "It is derived from many separate ovaries of a single flower. A blackberry is one.",
+        "It forms from one ovary. That ovary may be simple or compound.",
+        "A significant portion of the edible flesh develops from tissue outside the ovaries. An apple is one."
+      ],
+      "answer": "It is derived from the enlarged ovaries of multiple flowers that have grown together. A pineapple is a multiple fruit.",
+      "explanation": "A multiple fruit is a compound fruit derived from the enlarged ovaries of multiple flowers that have grown together. A pineapple is a multiple fruit. An aggregate fruit comes from many separate ovaries of one flower. A blackberry is an aggregate fruit. A simple fruit forms from one ovary. A tomato is a simple fruit. An accessory fruit gets a significant portion of its edible flesh from tissue outside the ovaries. An apple is an accessory fruit."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is an accessory fruit?" },
+      "options": [
+        "A significant portion of the edible flesh develops from plant tissues outside the ovaries. An apple is an accessory fruit.",
+        "It is derived from many separate ovaries of a single flower. A blackberry is one.",
+        "It is derived from the enlarged ovaries of multiple flowers that have grown together. A pineapple is one.",
+        "It forms from one compound ovary, and the seeds are embedded in the ovary wall. A tomato is one."
+      ],
+      "answer": "A significant portion of the edible flesh develops from plant tissues outside the ovaries. An apple is an accessory fruit.",
+      "explanation": "An accessory fruit gets a significant portion of its edible flesh from plant tissues outside the ovaries. In an apple, that tissue is the enlarged receptacle. An apple is also a pome. A blackberry is an aggregate fruit, from many separate ovaries of one flower. A pineapple is a multiple fruit, from the ovaries of several flowers grown together. A tomato forms from one compound ovary, and the seeds are embedded in the fleshy mesocarp of that ovary. A tomato is a berry, and it is a simple fruit."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "In a flower, what is pollination?" },
+      "options": [
+        "The transfer of a pollen grain, the male gametophyte, to the stigma.",
+        "One sperm joins the egg and forms the zygote. The other sperm joins the two polar nuclei and forms the endosperm.",
+        "The pollen tube grows down the style toward an ovule.",
+        "A mature seed is carried away from the parent plant."
+      ],
+      "answer": "The transfer of a pollen grain, the male gametophyte, to the stigma.",
+      "explanation": "In a flower, pollination is the transfer of a pollen grain to the stigma. The pollen grain is the male gametophyte. After it lands, a pollen tube grows down the style toward an ovule. Growth of that tube is not pollination, and it is not fertilization. Fertilization is the fusion that follows: one sperm joins the egg and forms the zygote, and the other sperm joins the two polar nuclei and forms the endosperm. Carrying a mature seed away from the parent is seed dispersal. In conifers and other gymnosperms, pollen is delivered to the ovule itself, because those plants have no stigma."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "In a flower, what is fertilization?" },
+      "options": [
+        "One sperm joins the egg and forms the zygote. The other sperm joins the two polar nuclei and forms the endosperm.",
+        "A pollen grain, the male gametophyte, is transferred to the stigma.",
+        "The pollen tube grows down the style toward an ovule.",
+        "A mature seed is carried away from the parent plant."
+      ],
+      "answer": "One sperm joins the egg and forms the zygote. The other sperm joins the two polar nuclei and forms the endosperm.",
+      "explanation": "In a flower, fertilization is the fusion of the sperm with the cells of the embryo sac. One sperm joins the egg and forms the zygote. The zygote develops into the embryo. The other sperm joins the two polar nuclei and forms the endosperm, the seed's supply of stored food. This pair of fusions is double fertilization. Pollination happens earlier: a pollen grain, the male gametophyte, is transferred to the stigma. The pollen tube then grows down the style and carries the sperm to the ovule. Growth of the tube is not itself fertilization. Carrying a mature seed away from the parent is seed dispersal."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a fruit?" },
+      "options": [
+        "A mature ovary. It encloses the seeds and helps disperse them.",
+        "A fertilized ovule. It contains the embryo and the stored food.",
+        "A seed exposed on a cone scale.",
+        "The receptacle of every flower, whether or not an ovary is present."
+      ],
+      "answer": "A mature ovary. It encloses the seeds and helps disperse them.",
+      "explanation": "A fruit is a mature ovary of a flowering plant. The ovary wall becomes the pericarp, and the fruit encloses the seeds and helps disperse them. A seed is a fertilized ovule, and it is what the fruit contains. A pine seed sits exposed on a cone scale. A pine does not make a fruit. The receptacle becomes the fleshy part of an accessory fruit such as an apple, but the fruit still develops in connection with the ovary. A receptacle without a matured ovary is not a fruit."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "How did the sepals, petals, stamens, and carpels of a flower evolve?" },
+      "options": [
+        "They evolved as modified leaves.",
+        "They evolved as modified roots.",
+        "They evolved as four separate kinds of stems.",
+        "They evolved from the cone scales of a pine."
+      ],
+      "answer": "They evolved as modified leaves.",
+      "explanation": "The four organs of a flower evolved as modified leaves. Sepals enclose and protect the bud. Petals attract pollinators. Stamens are the male part and produce pollen. The carpel, also called the pistil, is the female part and receives pollen. The ABC hypothesis says which of those leaf-derived organs develops where. Roots absorb water. A stem is the axis that bears the leaves. Pine cone scales are gymnosperm structures. They are not the four organs of a flower."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "Which living plant is the sister group to all other living flowering plants?" },
+      "options": [
+        "Amborella.",
+        "A water lily.",
+        "A magnoliid, such as a magnolia.",
+        "A monocot, such as a grass."
+      ],
+      "answer": "Amborella.",
+      "explanation": "In the usual flowering-plant tree, Amborella is the sister group to all other living angiosperms. Water lilies, star anise and its relatives, and magnoliids branch off after Amborella. Monocots and eudicots are the two clades that include most living flowering plants. A grass is a monocot. It is not the sister group to every other flowering plant."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "Which two groups include most living flowering plants?" },
+      "options": [
+        "Monocots and eudicots.",
+        "Amborella and the water lilies.",
+        "Magnoliids and star anise.",
+        "Conifers and cycads."
+      ],
+      "answer": "Monocots and eudicots.",
+      "explanation": "Monocots and eudicots include most living flowering plants. A monocot embryo has one cotyledon. An eudicot embryo has two. Amborella, water lilies, star anise and its relatives, and magnoliids are smaller branches that split off before those two large clades. Conifers and cycads are gymnosperms. They do not make flowers."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "A flower is small and green. It has no nectar, and it releases a large amount of pollen. How is it most likely pollinated?" },
+      "options": [
+        "By the wind.",
+        "By an animal seeking nectar.",
+        "By a bee that must land on a broad petal.",
+        "By water that carries a single heavy pollen grain."
+      ],
+      "answer": "By the wind.",
+      "explanation": "Wind-pollinated flowers are often small and green, without nectar or showy petals, and they release a large amount of pollen. Grasses are a common example. An animal-pollinated flower usually offers a reward, such as nectar, and has petals that attract the visitor. A bee landing on a broad petal is animal pollination. Water pollination is uncommon, and those grains are not the dry, abundant pollen of a wind-pollinated flower."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "A flower has bright petals and nectaries that offer a nectar reward. How is it most likely pollinated?" },
+      "options": [
+        "By an animal.",
+        "By the wind.",
+        "By releasing spores from a sporangium.",
+        "By the seed falling from a cone scale."
+      ],
+      "answer": "By an animal.",
+      "explanation": "Bright petals and nectar rewards attract an animal, which carries pollen from one flower to another. Petals are the corolla, and their role is to attract pollinators. Wind-pollinated flowers usually lack nectar and showy petals. Releasing spores is the seedless-plant pattern. A seed falling from a cone scale is gymnosperm seed dispersal, not pollination of a flower."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "A plant's pollen cannot fertilize the carpels of that same plant. What strategy is this?" },
+      "options": [
+        "Self-incompatibility.",
+        "The stamens and the carpels mature at different times.",
+        "Wind pollination of a flower with no petals.",
+        "Dispersal of the fruit by an animal."
+      ],
+      "answer": "Self-incompatibility.",
+      "explanation": "Self-incompatibility means a plant's own pollen cannot fertilize its own carpels, so the offspring are not produced by self-pollination. Maturation of stamens and carpels at different times is a different strategy. The pollen is released when the stigma of that flower cannot receive it, or the stigma is ready before the pollen. Wind pollination is a way to move pollen. It does not by itself stop self-pollination. Fruit dispersal moves seeds. It happens after fertilization. A dioecious species also avoids self-pollination, because the staminate and pistillate flowers are on separate plants."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "A flower releases its pollen several days before its stigma can receive pollen. What strategy is this?" },
+      "options": [
+        "The stamens and the carpels mature at different times.",
+        "Self-incompatibility. The pollen cannot fertilize that plant's own carpels.",
+        "The flower is pollinated by the wind.",
+        "The plant produces seeds without fertilization."
+      ],
+      "answer": "The stamens and the carpels mature at different times.",
+      "explanation": "If the stamens and the carpels mature at different times, the flower's own pollen is not available when its stigma can receive pollen. That reduces self-pollination. Self-incompatibility is a different strategy: the pollen lands, but it cannot fertilize that same plant. Wind pollination is a means of moving pollen, not a timing strategy. Seeds produced without fertilization are apomixis, a form of asexual reproduction."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "In a mature bean seed, an eudicot, where is most of the stored food?" },
+      "options": [
+        "In the two cotyledons. The endosperm was absorbed as the seed developed.",
+        "In the endosperm. The cotyledons absorb it only after germination begins.",
+        "In the seed coat.",
+        "In tissue of the female gametophyte, as in a pine."
+      ],
+      "answer": "In the two cotyledons. The endosperm was absorbed as the seed developed.",
+      "explanation": "A bean is an eudicot, so the embryo has two cotyledons. As the seed develops, those cotyledons absorb the endosperm, and the mature seed stores most of its food there. A corn grain is a monocot. Its endosperm remains, and the single cotyledon absorbs that food during germination. The seed coat is the protective layer, not the food. Female-gametophyte tissue is the stored food of a pine, which does not make endosperm."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "In a mature corn grain, a monocot, where is most of the stored food?" },
+      "options": [
+        "In the endosperm. The single cotyledon absorbs it during germination.",
+        "In two cotyledons. The endosperm was absorbed before the seed matured.",
+        "In the seed coat.",
+        "In tissue of the female gametophyte."
+      ],
+      "answer": "In the endosperm. The single cotyledon absorbs it during germination.",
+      "explanation": "A corn grain is a monocot fruit with one seed. The embryo has one cotyledon. Most of the stored food remains in the endosperm, and that cotyledon absorbs it during germination. Gibberellins from the grass embryo also trigger starch breakdown in the endosperm. A bean stores the food in two cotyledons after the endosperm has been absorbed. The seed coat is not the food. Female-gametophyte tissue is the food supply of a pine."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "As a bean seedling emerges, what pulls the cotyledons above the soil?" },
+      "options": [
+        "A hook in the hypocotyl, the embryonic stem below the cotyledons.",
+        "A coleoptile, a sheath around the young shoot.",
+        "The endosperm, which pushes the seed coat upward.",
+        "The radicle, which is the embryonic root."
+      ],
+      "answer": "A hook in the hypocotyl, the embryonic stem below the cotyledons.",
+      "explanation": "In a bean, the hypocotyl forms a hook that pulls the cotyledons above the soil. The hook then straightens. A coleoptile is the sheath that protects a corn shoot as it grows up through the soil. Corn does not pull two cotyledons above ground. The endosperm is stored food. It does not push the seed coat up. The radicle is the embryonic root. It emerges first and grows down."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "As a corn seedling emerges, what protects the young shoot?" },
+      "options": [
+        "A coleoptile, a sheath around the shoot.",
+        "A hook in the hypocotyl that pulls two cotyledons above the soil.",
+        "The seed coat, which grows up with the shoot.",
+        "The endosperm, which surrounds the leaves after they emerge."
+      ],
+      "answer": "A coleoptile, a sheath around the shoot.",
+      "explanation": "A corn shoot is protected by a coleoptile, a sheath, as it pushes through the soil. The leaves then break out of that sheath. A bean uses a hypocotyl hook to pull its two cotyledons above the soil. Corn has one cotyledon, and it stays with the endosperm in the grain. The seed coat does not grow up with the shoot. The endosperm is the stored food left in the grain. It does not surround the emerged leaves."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "A strawberry plant grows a runner, and a new plant forms at the tip. What kind of reproduction is this?" },
+      "options": [
+        "Asexual reproduction. The new plant grows from the parent without fertilization.",
+        "Sexual reproduction. The runner is a fruit that carries a fertilized seed.",
+        "Pollination. The runner transfers pollen to a stigma.",
+        "Apomixis. The runner is a seed produced without fertilization."
+      ],
+      "answer": "Asexual reproduction. The new plant grows from the parent without fertilization.",
+      "explanation": "A runner is a form of asexual, or vegetative, reproduction. The new plant grows from the body of the parent, with no fertilization, so it is genetically the same as that parent apart from mutation. A fruit carries seeds produced after fertilization. Pollination moves a pollen grain. Apomixis is asexual production of a seed, without fertilization. A runner is not a seed."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is apomixis?" },
+      "options": [
+        "Production of seeds without fertilization.",
+        "Production of a new plant from a runner or a tuber.",
+        "Transfer of pollen from one plant to the stigma of another.",
+        "Fusion of one sperm with the egg and one sperm with the polar nuclei."
+      ],
+      "answer": "Production of seeds without fertilization.",
+      "explanation": "Apomixis is the production of seeds without fertilization. The embryo develops without the fusion of sperm and egg, so the reproduction is asexual. A runner or a tuber also produces a new plant without fertilization, but that new plant does not come from a seed. Transfer of pollen is pollination. Fusion of a sperm with the egg and a sperm with the polar nuclei is double fertilization, which is sexual."
+    },
+    {
+      "type": "select_all",
+      "prompt": { "text": "Select every way people depend on plants." },
+      "bank": [
+        "Food, including grains, fruits, and vegetables",
+        "Oxygen released during photosynthesis",
+        "Wood, paper, and plant fibers such as cotton",
+        "Medicines first identified in plants",
+        "Dietary vitamin B12",
+        "The nitrogen gas that makes up most of the atmosphere"
+      ],
+      "answers": [
+        "Food, including grains, fruits, and vegetables",
+        "Oxygen released during photosynthesis",
+        "Wood, paper, and plant fibers such as cotton",
+        "Medicines first identified in plants"
+      ],
+      "explanation": "People depend on plants for food, for oxygen released during photosynthesis, for wood, paper, and fibers such as cotton, and for medicines first identified in plants. Dietary vitamin B12 is produced by bacteria, not by plants. The nitrogen gas that makes up most of the atmosphere is not a product plants supply to people. Some plants host bacteria that fix nitrogen into a form the plant can use. That is not the same as producing the nitrogen gas in the air."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is artificial selection?" },
+      "options": [
+        "People choose which individuals breed, and the population changes over generations.",
+        "A plant inserts a new gene into its own wild relatives by wind pollination.",
+        "Natural differences in survival change a population, with no human choice of parents.",
+        "A farmer plants a refuge of unmodified crop beside a modified crop."
+      ],
+      "answer": "People choose which individuals breed, and the population changes over generations.",
+      "explanation": "Artificial selection means people choose which individuals breed. Over generations the crop changes in the direction of the chosen traits. A new gene moving into wild relatives is gene flow. It is a concern with genetically modified crops, not the definition of artificial selection. Change caused by differences in survival, with no person choosing the parents, is natural selection. A refuge of unmodified crop is a way to slow pest resistance to a Bt crop."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "How has artificial selection been used on crop plants?" },
+      "options": [
+        "People have bred crops for traits such as larger, more edible seeds. Maize was bred from teosinte.",
+        "People have waited for natural selection to change wild plants, without choosing parents.",
+        "People have moved one gene from a bacterium into a crop by genetic engineering.",
+        "People have stopped all reproduction so the crop stays identical to its wild ancestor."
+      ],
+      "answer": "People have bred crops for traits such as larger, more edible seeds. Maize was bred from teosinte.",
+      "explanation": "Artificial selection has been used extensively on crops. People saved seed from plants with traits they wanted, such as larger grains or fruits that are easier to eat. Maize was bred from teosinte by that repeated choice. Natural selection does not depend on a person choosing the parents. Moving a bacterial gene into a crop is genetic engineering, a later and more direct method. Stopping reproduction would not produce maize from teosinte."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is one benefit of a genetically modified crop such as a Bt crop?" },
+      "options": [
+        "The plant makes a protein that kills certain insect pests, so the harvest is protected.",
+        "The plant no longer needs sunlight or water.",
+        "The new gene cannot move to any other plant.",
+        "Pests cannot evolve resistance to the new protein."
+      ],
+      "answer": "The plant makes a protein that kills certain insect pests, so the harvest is protected.",
+      "explanation": "A Bt crop has a gene, originally from a bacterium, for a protein that kills certain insect pests. The benefit is a protected harvest with less dependence on sprayed insecticide. The plant still needs sunlight and water. Pollen or seed can still move a nuclear gene to another plant. Pests can evolve resistance, which is why a refuge of non-Bt plants is planted nearby."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is one cost of planting a genetically modified crop?" },
+      "options": [
+        "A pest can evolve resistance, and the new gene can spread to wild relatives.",
+        "The crop can no longer produce seeds of any kind.",
+        "Photosynthesis stops because the new gene replaces chlorophyll.",
+        "The crop loses its flowers, so it cannot be an angiosperm."
+      ],
+      "answer": "A pest can evolve resistance, and the new gene can spread to wild relatives.",
+      "explanation": "Two costs are widely discussed. Insect pests can evolve resistance to a Bt protein, so the protection fails. A new gene can also spread to wild relatives by pollen. A modified crop can still make seeds. Photosynthesis continues. The plant remains a flowering plant if it was one. The benefit of a Bt crop is that the plant itself kills certain insect pests."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "A Bt crop kills certain insect pests. What practice slows the evolution of resistance in those pests?" },
+      "options": [
+        "Plant a refuge of non-Bt crop, so susceptible insects survive and mate with resistant ones.",
+        "Spray a broad insecticide over every neighboring species, including insects that do not eat the crop.",
+        "Remove all flowers so the crop cannot make pollen.",
+        "Plant only Bt seed, with no unmodified plants anywhere nearby."
+      ],
+      "answer": "Plant a refuge of non-Bt crop, so susceptible insects survive and mate with resistant ones.",
+      "explanation": "A refuge of non-Bt crop lets some susceptible insects survive. They mate with resistant insects, and many of the offspring are still killed by the Bt protein. That slows the spread of resistance. Spraying every neighboring insect harms non-target species. It is not the refuge strategy. Removing all flowers would stop reproduction of the crop. Planting only Bt seed, with no refuge, is the condition under which resistance evolves fastest. A separate way to limit spread of a nuclear gene is to put the gene in the chloroplast, because pollen usually does not carry chloroplast genes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a micropyle?" },
+      "options": [
+        "The small opening in the integuments. The pollen tube enters the ovule through it.",
+        "A protective layer around the megasporangium. It becomes the seed coat.",
+        "The supply of stored food formed when a sperm joins the two polar nuclei.",
+        "The mature ovary that encloses the seeds."
+      ],
+      "answer": "The small opening in the integuments. The pollen tube enters the ovule through it.",
+      "explanation": "A micropyle is the small opening left where the integuments do not completely cover the megasporangium. The pollen tube enters the ovule through that opening. The egg and the two synergids sit at this micropylar end of the embryo sac. An integument is the protective layer around the megasporangium, and it becomes the seed coat. Endosperm is the stored food formed when a sperm joins the two polar nuclei. A fruit is a mature ovary."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is an integument?" },
+      "options": [
+        "A protective layer around the megasporangium. It becomes the seed coat.",
+        "The small opening where the pollen tube enters the ovule.",
+        "The embryo inside a fertilized ovule.",
+        "The supply of stored food in a seed."
+      ],
+      "answer": "A protective layer around the megasporangium. It becomes the seed coat.",
+      "explanation": "An integument is a protective layer of tissue around the megasporangium. After fertilization it becomes the seed coat. The integuments do not close completely. The remaining opening is the micropyle, and the pollen tube enters through it. The embryo is what the fertilized ovule contains. The stored food is a separate part of the seed. In a flowering plant that food is endosperm. A seedless plant such as Selaginella has a megasporangium with no integument around it."
+    }
+  ]
+}
