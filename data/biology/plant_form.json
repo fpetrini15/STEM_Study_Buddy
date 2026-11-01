@@ -61,7 +61,7 @@
     {
       "type": "multiple_choice",
       "prompt": {
-        "text": "What defines an eudicot?"
+        "text": "What defines a eudicot?"
       },
       "options": [
         "The embryo has one cotyledon. Leaf veins are usually parallel, vascular bundles are scattered in a complex arrangement, and floral parts are usually in multiples of three.",
@@ -70,7 +70,7 @@
         "The embryo has two cotyledons. Leaf veins are usually netlike, vascular bundles form a ring, and floral parts are usually in multiples of four or five."
       ],
       "answer": "The embryo has two cotyledons. Leaf veins are usually netlike, vascular bundles form a ring, and floral parts are usually in multiples of four or five.",
-      "explanation": "An eudicot has an embryo with two cotyledons, or seed leaves. Its leaf veins are usually netlike. Its vascular bundles form a ring in the stem. Its floral parts are usually in multiples of four or five. A taproot is also common. One cotyledon, parallel veins, vascular bundles scattered in a complex arrangement, and floral parts in threes are the monocot pattern. Two cotyledons do not come with that monocot pattern. A ring of bundles is an eudicot trait, but parallel veins and floral parts in threes are not."
+      "explanation": "A eudicot has an embryo with two cotyledons, or seed leaves. Its leaf veins are usually netlike. Its vascular bundles form a ring in the stem. Its floral parts are usually in multiples of four or five. A taproot is also common. One cotyledon, parallel veins, vascular bundles scattered in a complex arrangement, and floral parts in threes are the monocot pattern. Two cotyledons do not come with that monocot pattern. A ring of bundles is a eudicot trait, but parallel veins and floral parts in threes are not."
     },
     {
       "type": "multiple_choice",
@@ -80,7 +80,7 @@
       "options": [
         "Mature vascular tissue. Its cells have stopped dividing and transport water or sugars.",
         "A region of undifferentiated cells that keep dividing and produce new cells for growth.",
-        "A seed leaf. A monocot has one, and an eudicot has two.",
+        "A seed leaf. A monocot has one, and a eudicot has two.",
         "The below-ground system. It absorbs water and minerals and anchors the plant."
       ],
       "answer": "A region of undifferentiated cells that keep dividing and produce new cells for growth.",

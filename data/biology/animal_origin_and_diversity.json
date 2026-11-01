@@ -1,0 +1,529 @@
+{
+  "title": "Animal Origin and Diversity",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: All animals are multicellular."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "All animals are multicellular. An animal's body is made of many cells, and those cells have different jobs. A unicellular organism that engulfs food is not an animal. It is a protist. Choanoflagellates are the closest living relatives of animals, and they are unicellular, but they are protists, not animals. A fungus is also not an animal. A fungus absorbs food after releasing enzymes outside its body, and it may be unicellular or multicellular."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Animal cells have cell walls."
+      },
+      "options": [
+        "False",
+        "True"
+      ],
+      "answer": "False",
+      "explanation": "Animal cells do not have cell walls. The outer boundary of an animal cell is the plasma membrane. A plant cell has a cellulose cell wall outside its plasma membrane. That wall keeps the cell from bursting when water enters, so the cell becomes turgid. An animal cell has no wall, so in the same situation it may burst. A fungal cell has a wall too, and that wall contains chitin, not cellulose. The absence of a cell wall is one way an animal cell differs from a plant cell and a fungal cell."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do animals obtain the organic molecules they metabolize?"
+      },
+      "options": [
+        "Animals are heterotrophs. They consume food by taking it into the body and digesting it there.",
+        "Animals are autotrophs. They build organic molecules from carbon dioxide.",
+        "Animals are heterotrophs. They release enzymes outside the body and absorb the smaller organic molecules.",
+        "Animals are heterotrophs. They engulf prey with pseudopodia and digest it inside a single cell."
+      ],
+      "answer": "Animals are heterotrophs. They consume food by taking it into the body and digesting it there.",
+      "explanation": "Animals are heterotrophs. They use organic molecules made by other organisms, and they have no chloroplasts that could build those molecules from carbon dioxide. An animal takes food into its body and digests it there. A plant is an autotroph. It builds organic molecules from carbon dioxide by photosynthesis. A fungus is a heterotroph too, but it does not consume food. It releases enzymes outside the body and absorbs the smaller molecules. Some protists engulf prey with pseudopodia and digest it inside one cell. An animal is multicellular, and its digestion is inside the body, not inside a single cell that engulfs prey that way."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What was the most recent common ancestor of all animals?"
+      },
+      "options": [
+        "Choanoflagellates",
+        "Sponges",
+        "Cnidarians",
+        "Dinoflagellates"
+      ],
+      "answer": "Choanoflagellates",
+      "explanation": "Choanoflagellates are the most recent common ancestor of all animals. They are flagellated protists, and the animal kingdom arose from a colonial form of that group. Sponges are animals. They branch off near the base of the animal tree, but they are descendants, not the ancestor of every animal. Cnidarians are animals with tissues, and they arose later. Dinoflagellates are protists too, but they are not that ancestor. Many have cellulose plates and two flagella, and some photosynthesize. Animals did not arise from them."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every reason the animal kingdom diversified so quickly during the Cambrian explosion."
+      },
+      "bank": [
+        "New predator-prey relationships",
+        "Movement onto land",
+        "Evolution of the Hox genes",
+        "Expansion of ecological niches",
+        "A rise in atmospheric oxygen",
+        "The extinction of the dinosaurs",
+        "The origin of flowering plants"
+      ],
+      "answers": [
+        "New predator-prey relationships",
+        "Evolution of the Hox genes",
+        "Expansion of ecological niches",
+        "A rise in atmospheric oxygen"
+      ],
+      "explanation": "Four changes help explain the Cambrian explosion, a rapid diversification of animals in the sea. New predator-prey relationships created an arms race. Shells, spines, and new ways of catching food appeared, and each change opened another. A rise in atmospheric oxygen supported larger, more active bodies. Evolution of the Hox genes changed how embryos lay out a body, so new body plans could form. Those animals then expanded into ecological niches that had not been occupied. The older Ediacaran biota, mostly soft-bodied organisms, declined as this explosion began. New predators and new body plans are a possible cause of that decline. Movement onto land came later. The Cambrian animals lived in the sea. The extinction of the dinosaurs was hundreds of millions of years later, and so was the origin of flowering plants. Neither one caused this explosion."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a Hox gene?"
+      },
+      "options": [
+        "A regulatory gene that tells an embryo which body part to form at each position along the head-to-tail axis.",
+        "A regulatory gene that tells an embryo which body part to form at each position along the back-to-belly axis.",
+        "A gene that codes for digestive enzymes and makes an animal a heterotroph.",
+        "A gene found only in animals that moved onto land, and absent from animals that live in the sea."
+      ],
+      "answer": "A regulatory gene that tells an embryo which body part to form at each position along the head-to-tail axis.",
+      "explanation": "A Hox gene is a regulatory gene. It tells cells along the head-to-tail axis which structures to build, so each position gets the body part that belongs there. The protein it encodes is a transcription factor, and the genes are lined up in a cluster in the same order as the body regions they control. A change in where a Hox gene is used can give one region the identity of another. That is how changes in these genes helped new body plans appear during the Cambrian explosion. The back-to-belly axis uses other positional cues, not the Hox genes. A Hox gene does not code for the digestive enzymes of a heterotroph. These genes are ancient. Animals in the sea already had them. They did not first appear when animals moved onto land."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why are Hox genes important?"
+      },
+      "options": [
+        "A change in where a Hox gene is used can give one body region the identity of another, so a new body plan can form.",
+        "A change in a Hox gene only changes body size. The arrangement of body parts stays the same.",
+        "Hox genes determine the sex of the embryo, and a change in them turns a male body plan into a female one.",
+        "Hox genes are used only while an animal moves onto land. Animals in the sea develop without them."
+      ],
+      "answer": "A change in where a Hox gene is used can give one body region the identity of another, so a new body plan can form.",
+      "explanation": "Hox genes are important because they assign identity along the head-to-tail axis. Each one tells the embryo which body part belongs at that position. A change in where a Hox gene is used can give one region the identity of another, and that can produce a new body plan. Changes of this kind helped animals diversify during the Cambrian explosion. The genes do not merely scale the whole body up or down while leaving the arrangement unchanged. They do not determine whether the embryo is male or female. They are ancient regulatory genes. Animals in the sea already had them, and they are not used only during a move onto land."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence differentiating a larva, a juvenile, and an adult."
+      },
+      "sentence": [
+        "A larva is ",
+        null,
+        ". A juvenile is ",
+        null,
+        ". An adult is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "sexually immature, has a body form different from the adult, and later undergoes metamorphosis",
+        "sexually immature, and its body already resembles the adult",
+        "sexually mature and can reproduce"
+      ],
+      "bank": [
+        "sexually immature, has a body form different from the adult, and later undergoes metamorphosis",
+        "sexually immature, and its body already resembles the adult",
+        "sexually mature and can reproduce",
+        "sexually immature, already looks like the adult, and must undergo metamorphosis",
+        "a nonfeeding resting stage, such as a pupa, between the larva and the adult"
+      ],
+      "explanation": "A larva is sexually immature. Its body form differs from the adult, and it becomes an adult by metamorphosis. A caterpillar and a tadpole are larvae. A juvenile is also sexually immature, but its body already resembles the adult. It grows into the adult without that change of form. An adult is sexually mature and can reproduce. A pupa, such as the chrysalis of a butterfly, is a resting stage between the larva and the adult. It is not the larva, the juvenile, or the adult. In plants, the juvenile stage is simply the period before reproduction. In animals, juvenile is narrower: the young animal already looks like the adult and cannot yet reproduce."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a blastula?"
+      },
+      "options": [
+        "A hollow ball of cells with a fluid-filled cavity, the blastocoel. It forms by cleavage and comes before gastrulation.",
+        "A solid ball of cells with no cavity. It forms before the hollow stage.",
+        "An embryo that has folded inward and is forming the germ layers.",
+        "A sexually immature animal whose body form differs from the adult."
+      ],
+      "answer": "A hollow ball of cells with a fluid-filled cavity, the blastocoel. It forms by cleavage and comes before gastrulation.",
+      "explanation": "A blastula is an early animal embryo. Cleavage divides the zygote into many cells without much growth, and those cells form a hollow ball. The fluid-filled cavity inside is the blastocoel. Gastrulation comes next. The blastula folds inward and becomes a gastrula, and the germ layers start to form. A solid ball of cells with no cavity is a morula. It can come before the blastula. A larva is a later, free-living stage. It is sexually immature, its body differs from the adult, and it is not this hollow ball of embryonic cells."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a gastrula?"
+      },
+      "options": [
+        "An embryo formed when the blastula folds inward. Germ layers begin to form, and the opening is the blastopore.",
+        "A hollow ball of cells with a fluid-filled cavity, the blastocoel. It forms by cleavage and comes before gastrulation.",
+        "A solid ball of cells with no cavity. It forms before the hollow stage.",
+        "A sexually immature animal whose body form differs from the adult."
+      ],
+      "answer": "An embryo formed when the blastula folds inward. Germ layers begin to form, and the opening is the blastopore.",
+      "explanation": "A gastrula is the embryo produced by gastrulation. A blastula, the hollow ball of cells with a blastocoel, folds inward. That folding produces germ layers. The outer layer is the ectoderm, and the inner layer is the endoderm. Most animals also form a middle layer, the mesoderm. The opening into the embryo is the blastopore. In some animals that opening becomes the mouth, and in others it becomes the anus. A hollow ball that has not folded is still a blastula. A solid ball of cells with no cavity is a morula. A larva is a later, free-living stage. It is sexually immature, and its body differs from the adult."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence identifying the three germ layers of a gastrula."
+      },
+      "sentence": [
+        "The ",
+        null,
+        " is the outer germ layer. The ",
+        null,
+        " is the middle germ layer. The ",
+        null,
+        " is the inner germ layer."
+      ],
+      "blanks": [
+        "ectoderm",
+        "mesoderm",
+        "endoderm"
+      ],
+      "bank": [
+        "ectoderm",
+        "mesoderm",
+        "endoderm",
+        "blastocoel",
+        "blastopore"
+      ],
+      "explanation": "The ectoderm is the outer germ layer. It forms the body covering and the nervous system. The mesoderm is the middle germ layer. It forms the muscles and most of the organs between the gut and the outer covering. The endoderm is the inner germ layer. It forms the lining of the digestive tract and organs that develop from that lining, such as the liver. Most animals have all three layers. Cnidarians have only the ectoderm and the endoderm. Sponges do not have true germ layers. The blastocoel is the fluid-filled cavity of the blastula, not a layer. The blastopore is the opening of the gastrula, not a layer."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the role of the ectoderm?"
+      },
+      "options": [
+        "It forms the body covering and the nervous system.",
+        "It forms the muscles and most of the organs between the gut and the body covering.",
+        "It forms the lining of the digestive tract and organs that develop from that lining, such as the liver.",
+        "It is the opening of the gastrula, and it becomes either the mouth or the anus."
+      ],
+      "answer": "It forms the body covering and the nervous system.",
+      "explanation": "The ectoderm is the outer germ layer. It forms the body covering and the nervous system. The mesoderm is the middle layer. It forms the muscles and most of the organs between the gut and the body covering. The endoderm is the inner layer. It forms the lining of the digestive tract and organs that develop from that lining, such as the liver. The blastopore is the opening of the gastrula. In some animals it becomes the mouth, and in others it becomes the anus. It is not a germ layer."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the role of the mesoderm?"
+      },
+      "options": [
+        "It forms the muscles and most of the organs between the gut and the body covering.",
+        "It forms the body covering and the nervous system.",
+        "It forms the lining of the digestive tract and organs that develop from that lining, such as the liver.",
+        "It is the opening of the gastrula, and it becomes either the mouth or the anus."
+      ],
+      "answer": "It forms the muscles and most of the organs between the gut and the body covering.",
+      "explanation": "The mesoderm is the middle germ layer. It forms the muscles and most of the organs between the gut and the body covering. The ectoderm is the outer layer. It forms the body covering and the nervous system. The endoderm is the inner layer. It forms the lining of the digestive tract and organs that develop from that lining, such as the liver. Most animals have a mesoderm. Cnidarians have only ectoderm and endoderm, and sponges do not have true germ layers. The blastopore is the opening of the gastrula, not a germ layer."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the role of the endoderm?"
+      },
+      "options": [
+        "It forms the lining of the digestive tract and organs that develop from that lining, such as the liver.",
+        "It forms the body covering and the nervous system.",
+        "It forms the muscles and most of the organs between the gut and the body covering.",
+        "It is the opening of the gastrula, and it becomes either the mouth or the anus."
+      ],
+      "answer": "It forms the lining of the digestive tract and organs that develop from that lining, such as the liver.",
+      "explanation": "The endoderm is the inner germ layer. It forms the lining of the digestive tract and organs that develop from that lining, such as the liver. The ectoderm is the outer layer. It forms the body covering and the nervous system. The mesoderm is the middle layer. It forms the muscles and most of the organs between the gut and the body covering. The blastopore is the opening of the gastrula. In some animals it becomes the mouth, and in others it becomes the anus. It is not a germ layer, and it is not the lining that the endoderm forms."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does cleavage differ in protostomes and deuterostomes?"
+      },
+      "options": [
+        "Protostome cleavage is spiral and determinate. Deuterostome cleavage is radial and indeterminate.",
+        "Protostome cleavage is radial and indeterminate. Deuterostome cleavage is spiral and determinate.",
+        "Both groups have spiral, determinate cleavage.",
+        "Both groups have radial, indeterminate cleavage."
+      ],
+      "answer": "Protostome cleavage is spiral and determinate. Deuterostome cleavage is radial and indeterminate.",
+      "explanation": "Protostome cleavage is spiral and determinate. The new cells sit in the grooves between the cells below them, and the fate of each cell is fixed early. Remove one cell and that part of the embryo is missing. Deuterostome cleavage is radial and indeterminate. The cells sit directly above one another, and an early cell can still develop into a whole animal. The two patterns are not shared by both groups, and they are not reversed."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does the coelom form in protostomes and deuterostomes?"
+      },
+      "options": [
+        "In protostomes, solid masses of mesoderm split and form the coelom. In deuterostomes, folds of the archenteron form the coelom.",
+        "In protostomes, folds of the archenteron form the coelom. In deuterostomes, solid masses of mesoderm split and form the coelom.",
+        "In both groups, solid masses of mesoderm split and form the coelom.",
+        "In both groups, folds of the archenteron form the coelom."
+      ],
+      "answer": "In protostomes, solid masses of mesoderm split and form the coelom. In deuterostomes, folds of the archenteron form the coelom.",
+      "explanation": "The coelom is a body cavity lined by mesoderm. In protostomes, solid masses of mesoderm split and the cavity forms in the split. That pattern is called schizocoelous. In deuterostomes, the archenteron, the primitive gut formed by the infolding of the gastrula, pushes out folds. Those folds pinch off and become the coelom. That pattern is called enterocoelous. The two groups do not form the coelom the same way, and the patterns are not reversed."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the fate of the blastopore in protostomes and deuterostomes?"
+      },
+      "options": [
+        "In protostomes, the mouth develops from the blastopore. In deuterostomes, the anus develops from the blastopore.",
+        "In protostomes, the anus develops from the blastopore. In deuterostomes, the mouth develops from the blastopore.",
+        "In both groups, the mouth develops from the blastopore.",
+        "In both groups, the anus develops from the blastopore."
+      ],
+      "answer": "In protostomes, the mouth develops from the blastopore. In deuterostomes, the anus develops from the blastopore.",
+      "explanation": "The blastopore is the opening of the gastrula. In protostomes, the mouth develops from the blastopore. The name means mouth first. In deuterostomes, the anus develops from the blastopore, and the mouth forms later at the other end. The name means mouth second. The opening does not become the mouth in both groups, and it does not become the anus in both groups."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a body plan?"
+      },
+      "options": [
+        "A set of morphological and developmental traits, integrated into a functional whole, the living animal.",
+        "Only the symmetry of the animal, either radial or bilateral.",
+        "A Hox gene, which assigns each body region its identity along the head-to-tail axis.",
+        "The hollow ball of cells that forms by cleavage, before gastrulation."
+      ],
+      "answer": "A set of morphological and developmental traits, integrated into a functional whole, the living animal.",
+      "explanation": "A body plan is a set of morphological and developmental traits, integrated into a functional whole, the living animal. Morphological traits are the shape and arrangement of the parts, such as symmetry, the body cavity, segmentation, and external appendages. Developmental traits are the way the embryo is built, such as the pattern of cleavage, how the coelom forms, and whether the blastopore becomes the mouth or the anus. Symmetry is one trait in that set. It is not the whole body plan. A Hox gene helps assign which body part forms at each position, and a change in it can produce a new body plan, but the gene is not the body plan. The hollow ball of cells is a blastula, an early stage of the embryo, not the set of traits that make up the animal."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every key feature of an animal body plan."
+      },
+      "bank": [
+        "Symmetry",
+        "How the animal obtains food",
+        "Body cavity (coelom)",
+        "The life stage, such as a larva, a juvenile, or an adult",
+        "Segmentation",
+        "A Hox gene",
+        "External appendages"
+      ],
+      "answers": [
+        "Symmetry",
+        "Body cavity (coelom)",
+        "Segmentation",
+        "External appendages"
+      ],
+      "explanation": "Four structural features are used to describe an animal body plan. Symmetry is the arrangement of body parts around an axis. The body cavity, the coelom, is a fluid-filled space lined by mesoderm. Segmentation divides the body into repeated units. External appendages are structures that project from the body, such as legs or antennae. How the animal obtains food is a nutritional trait. Animals are heterotrophs, and they digest food inside the body. That describes how they feed, not the layout of the body. The life stage, such as a larva, a juvenile, or an adult, says where the animal is in its life cycle. A Hox gene helps assign which part forms along the head-to-tail axis. The gene helps build the body plan, and it is not one of the structural features."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In an animal body plan, what is symmetry?"
+      },
+      "options": [
+        "The arrangement of body parts around an axis, so the body has matching halves.",
+        "A fluid-filled body cavity lined by mesoderm.",
+        "Division of the body into a series of repeated units.",
+        "A structure that projects from the outside of the body, such as a leg or an antenna."
+      ],
+      "answer": "The arrangement of body parts around an axis, so the body has matching halves.",
+      "explanation": "Symmetry is the arrangement of body parts around an axis, so the body has matching halves. In radial symmetry the halves meet around a central axis, as in a sea anemone. In bilateral symmetry the left and right sides mirror each other, and the animal usually has a distinct head. A fluid-filled cavity lined by mesoderm is the coelom. Division into repeated units is segmentation. A leg or an antenna is an external appendage. Each of those is its own feature of the body plan."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In an animal body plan, what is the body cavity called the coelom?"
+      },
+      "options": [
+        "A fluid-filled body cavity lined by mesoderm.",
+        "The arrangement of body parts around an axis, so the body has matching halves.",
+        "Division of the body into a series of repeated units.",
+        "A structure that projects from the outside of the body, such as a leg or an antenna."
+      ],
+      "answer": "A fluid-filled body cavity lined by mesoderm.",
+      "explanation": "The coelom is a fluid-filled body cavity lined by mesoderm. The fluid cushions the organs suspended in it, and in some animals the cavity acts as a hydrostatic skeleton. A true coelom is lined on all sides by mesoderm. An animal with that cavity is a coelomate, such as an earthworm. An animal with no body cavity is an acoelomate, such as a flatworm. An animal with a cavity lined by mesoderm on only one side is a pseudocoelomate, such as a nematode. Symmetry is the arrangement of body parts around an axis. Segmentation is division of the body into repeated units. A leg or an antenna is an external appendage."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In an animal body plan, what is segmentation?"
+      },
+      "options": [
+        "Division of the body into a series of repeated units.",
+        "The arrangement of body parts around an axis, so the body has matching halves.",
+        "A fluid-filled body cavity lined by mesoderm.",
+        "A structure that projects from the outside of the body, such as a leg or an antenna."
+      ],
+      "answer": "Division of the body into a series of repeated units.",
+      "explanation": "Segmentation is division of the body into a series of repeated units, called segments. The segments lie along the body axis. They may look alike, or later become specialized for different jobs, as in an earthworm, an insect, or a vertebrate. Symmetry is the arrangement of body parts around an axis. The coelom is a fluid-filled cavity lined by mesoderm. An external appendage, such as a leg or an antenna, projects from the body. A segment is a unit of the body itself, not a part that sticks out from it."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In an animal body plan, what is an external appendage?"
+      },
+      "options": [
+        "A structure that projects from the outside of the body, such as a leg or an antenna.",
+        "The arrangement of body parts around an axis, so the body has matching halves.",
+        "A fluid-filled body cavity lined by mesoderm.",
+        "Division of the body into a series of repeated units."
+      ],
+      "answer": "A structure that projects from the outside of the body, such as a leg or an antenna.",
+      "explanation": "An external appendage is a structure that projects from the outside of the body. Legs, antennae, wings, and fins are appendages. An animal can use them to move, feed, or sense the surroundings. Symmetry is the arrangement of body parts around an axis. The coelom is a fluid-filled cavity lined by mesoderm. Segmentation divides the body into repeated units. A segment is part of the trunk. An appendage is a structure that sticks out from the body."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is common to all ecdysozoans?"
+      },
+      "options": [
+        "They shed a tough external cuticle as they grow.",
+        "They have jointed appendages, such as legs and antennae.",
+        "Their bodies are divided into a series of repeated segments.",
+        "They have a true coelom, lined on all sides by mesoderm."
+      ],
+      "answer": "They shed a tough external cuticle as they grow.",
+      "explanation": "All ecdysozoans shed a tough external cuticle as they grow. That shedding is called ecdysis, and the group is named for it. The cuticle is a nonliving outer covering. In an arthropod it is hardened into an exoskeleton, and the animal sheds it in order to grow. A nematode also molts a cuticle. It does not have jointed legs or antennae, and its body is not divided into repeated segments. Its body cavity is not a true coelom lined on all sides by mesoderm. Ecdysozoans are protostomes, so the mouth develops from the blastopore, as it does in other protostomes. The trait that sets this group apart is the cuticle that is shed."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "When did animals originate?"
+      },
+      "options": [
+        "About 770 million years ago.",
+        "About 560 million years ago, when the Ediacaran fossils formed.",
+        "About 535 to 525 million years ago, during the Cambrian explosion.",
+        "About 66 million years ago, when the dinosaurs became extinct."
+      ],
+      "answer": "About 770 million years ago.",
+      "explanation": "Animals originated about 770 million years ago. That date comes from a molecular clock for the common ancestor of living animals. The oldest fossils widely accepted as animals are from the Ediacaran biota, about 560 million years ago. Those fossils are later than the origin. The Cambrian explosion, about 535 to 525 million years ago, was a burst of new body plans in the sea. It was not the origin of animals. The dinosaur extinction, about 66 million years ago, was hundreds of millions of years later."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every line of evidence that choanoflagellates are the closest living relatives of animals."
+      },
+      "bank": [
+        "Choanoflagellate cells and the collar cells of sponges are nearly identical.",
+        "Similar collar cells occur in other animals, and they are unknown in plants, fungi, and other protists.",
+        "DNA sequences identify choanoflagellates as the closest living relatives of animals, and choanoflagellates have genes for animal cell-adhesion and signaling proteins.",
+        "Choanoflagellates are multicellular animals with tissues.",
+        "Both groups have cellulose cell walls.",
+        "Choanoflagellates photosynthesize, and animals inherited that photosynthesis."
+      ],
+      "answers": [
+        "Choanoflagellate cells and the collar cells of sponges are nearly identical.",
+        "Similar collar cells occur in other animals, and they are unknown in plants, fungi, and other protists.",
+        "DNA sequences identify choanoflagellates as the closest living relatives of animals, and choanoflagellates have genes for animal cell-adhesion and signaling proteins."
+      ],
+      "explanation": "Three lines of evidence connect choanoflagellates to animals. A choanoflagellate cell and a sponge collar cell are nearly identical. Each has a flagellum surrounded by a collar. In a sponge that cell is called a choanocyte. Similar collar cells occur in other animals, and they are unknown in plants, fungi, and other protists. DNA sequences place choanoflagellates as the closest living relatives of animals. Choanoflagellates also have genes for cell-adhesion and signaling proteins otherwise known from animals. The animal kingdom arose from a colonial form of that group. A living choanoflagellate is a unicellular protist, not a multicellular animal with tissues. Animal cells have no cell wall, so the two groups do not share cellulose walls. Animals are heterotrophs. They did not inherit photosynthesis from choanoflagellates. Some dinoflagellates photosynthesize, and animals did not arise from them."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The Ediacaran biota were mostly soft-bodied organisms that lived before the Cambrian explosion. What is a possible cause of their decline?"
+      },
+      "options": [
+        "New Cambrian predators, a rise in oxygen, and new body plans changed the seas, and these soft-bodied organisms declined.",
+        "They moved onto land during the Cambrian and could not survive out of the water.",
+        "The extinction of the dinosaurs removed the Ediacaran animals' food.",
+        "Flowering plants replaced them as the main organisms in the sea."
+      ],
+      "answer": "New Cambrian predators, a rise in oxygen, and new body plans changed the seas, and these soft-bodied organisms declined.",
+      "explanation": "The Ediacaran biota were mostly soft-bodied organisms from before the Cambrian explosion. They declined as that explosion began. New predator-prey relationships, a rise in atmospheric oxygen, and new body plans made possible by Hox genes are possible causes. Soft-bodied animals would have been vulnerable to the new predators. Those same changes help explain the Cambrian explosion itself. The Cambrian animals lived in the sea. Movement onto land came later. The extinction of the dinosaurs and the origin of flowering plants were hundreds of millions of years later."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every trait that distinguishes animals."
+      },
+      "bank": [
+        "They are multicellular.",
+        "Their cells lack cell walls.",
+        "Their cells are held together by structural proteins such as collagen.",
+        "They are heterotrophs that take food into the body and digest it there.",
+        "Most have muscle cells and nerve cells.",
+        "Their cells have cellulose cell walls.",
+        "They are autotrophs that build organic molecules from carbon dioxide.",
+        "They release enzymes outside the body and absorb the smaller molecules."
+      ],
+      "answers": [
+        "They are multicellular.",
+        "Their cells lack cell walls.",
+        "Their cells are held together by structural proteins such as collagen.",
+        "They are heterotrophs that take food into the body and digest it there.",
+        "Most have muscle cells and nerve cells."
+      ],
+      "explanation": "Animals are multicellular. Their cells lack cell walls, and structural proteins such as collagen hold the cells together. Animals are heterotrophs. They take food into the body and digest it there. Most animals have muscle cells and nerve cells. Nerve cells develop from the ectoderm, and muscle cells develop from the mesoderm. A sponge is an animal without true tissues, which is why the muscle and nerve trait is stated as most animals. A plant cell has a cellulose cell wall, and a plant is an autotroph that builds organic molecules from carbon dioxide. A fungus releases enzymes outside the body and absorbs the smaller molecules. A fungal cell also has a wall, and that wall contains chitin."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does radial symmetry differ from bilateral symmetry?"
+      },
+      "options": [
+        "Radial symmetry arranges body parts around a central axis. Bilateral symmetry has a left side that mirrors the right, and the animal usually has a distinct head.",
+        "Radial symmetry has a left side that mirrors the right and a distinct head. Bilateral symmetry arranges body parts around a central axis.",
+        "Both arrange body parts around a central axis, and neither has a left and right side.",
+        "Both have a left side that mirrors the right, and neither arranges parts around a central axis."
+      ],
+      "answer": "Radial symmetry arranges body parts around a central axis. Bilateral symmetry has a left side that mirrors the right, and the animal usually has a distinct head.",
+      "explanation": "Radial symmetry arranges body parts around a central axis, so many slices through that axis make matching halves. A sea anemone has this arrangement. Bilateral symmetry has one plane that divides the body into a left side and a right side that mirror each other. The animal usually has a distinct head, where sensory organs are concentrated. An earthworm, an insect, and a vertebrate have this arrangement. The two patterns are not reversed, and one pattern is not shared by both kinds of animal."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every embryonic tissue of a triploblastic animal."
+      },
+      "bank": [
+        "Ectoderm",
+        "Mesoderm",
+        "Endoderm",
+        "Blastocoel",
+        "Blastopore",
+        "Coelom"
+      ],
+      "answers": [
+        "Ectoderm",
+        "Mesoderm",
+        "Endoderm"
+      ],
+      "explanation": "A triploblastic animal forms three embryonic tissues, the germ layers. The ectoderm is the outer layer. It forms the body covering and the nervous system. The mesoderm is the middle layer. It forms the muscles and most of the organs between the gut and the body covering. The endoderm is the inner layer. It forms the lining of the digestive tract and organs that develop from that lining, such as the liver. A diploblastic animal, such as a cnidarian, has only ectoderm and endoderm. A sponge has no true germ layers. The blastocoel is the fluid-filled cavity of the blastula. The blastopore is the opening of the gastrula. The coelom is a body cavity lined by mesoderm. None of those three is an embryonic tissue."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence distinguishing an acoelomate, a pseudocoelomate, and a coelomate."
+      },
+      "sentence": [
+        "An acoelomate, such as a flatworm, has ",
+        null,
+        ". A pseudocoelomate, such as a nematode, has ",
+        null,
+        ". A coelomate, such as an earthworm, has ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "no body cavity between the gut and the outer body wall",
+        "a body cavity lined by mesoderm on the outer side only",
+        "a fluid-filled body cavity lined on all sides by mesoderm"
+      ],
+      "bank": [
+        "no body cavity between the gut and the outer body wall",
+        "a body cavity lined by mesoderm on the outer side only",
+        "a fluid-filled body cavity lined on all sides by mesoderm",
+        "a hollow ball of cells with a blastocoel",
+        "an opening that becomes the mouth or the anus"
+      ],
+      "explanation": "An acoelomate has no body cavity between the gut and the outer body wall. A flatworm is an acoelomate. A pseudocoelomate has a body cavity lined by mesoderm on the outer side only, not on all sides. A nematode is a pseudocoelomate. Its cavity is not a true coelom. A coelomate has a fluid-filled body cavity lined on all sides by mesoderm. An earthworm is a coelomate. The blastocoel is the cavity inside a blastula, a hollow ball of cells. It is not one of these body cavities. The blastopore is the opening of the gastrula. It becomes the mouth in protostomes and the anus in deuterostomes. It is not a body cavity."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does a molecular phylogeny of animals differ from a morphological phylogeny?"
+      },
+      "options": [
+        "A morphological phylogeny groups animals by body-plan traits, such as the body cavity. A molecular phylogeny groups them by shared gene sequences, so a nematode and an arthropod are both ecdysozoans.",
+        "A morphological phylogeny groups animals by shared gene sequences, so a nematode and an arthropod are both ecdysozoans. A molecular phylogeny groups them by the body cavity.",
+        "Both phylogenies group animals only by the body cavity, so a nematode stays apart from an arthropod.",
+        "Both phylogenies group animals only by gene sequences, so a morphological tree uses the same characters as a molecular tree."
+      ],
+      "answer": "A morphological phylogeny groups animals by body-plan traits, such as the body cavity. A molecular phylogeny groups them by shared gene sequences, so a nematode and an arthropod are both ecdysozoans.",
+      "explanation": "A morphological phylogeny groups animals by body-plan traits, such as symmetry, tissues, the body cavity, and protostome or deuterostome development. A nematode has no true coelom, so those traits put it apart from an arthropod. A molecular phylogeny groups animals by shared gene sequences. A nematode and an arthropod both shed a cuticle, and the sequences place both in the ecdysozoans. The body cavity is still a real feature of a body plan. It is a weak guide to relatedness, because the same kind of cavity evolved more than once. The molecular tree is the better-supported working hypothesis for this grouping. Later evidence can revise it. The other large group of protostomes on that molecular tree is the lophotrochozoans."
+    }
+  ]
+}

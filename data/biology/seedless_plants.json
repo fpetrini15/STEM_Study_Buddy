@@ -795,7 +795,7 @@
     {
       "type": "multiple_choice",
       "prompt": {
-        "text": "On that bank, the green moss is the gametophyte, with a spore capsule on a stalk. The club moss and the fern are sporophytes. The club moss has a cone of spore-bearing leaves. The fern has clusters of sporangia under the fronds. Sperm of all three must swim. How does reproduction compare?"
+        "text": "A moss, a club moss, and a fern grow on the same bank. The green moss is the gametophyte, with a spore capsule on a stalk. The club moss and the fern are sporophytes. The club moss has a cone of spore-bearing leaves. The fern has clusters of sporangia under the fronds. Sperm of all three must swim. How does reproduction compare?"
       },
       "options": [
         "Bryophytes have a dominant gametophyte, and the sporophyte grows on it and releases spores from a capsule. Lycophytes and monilophytes have a dominant sporophyte. Lycophytes bear spores in a strobilus, and ferns bear them in sori. All three still need water for sperm to swim.",
