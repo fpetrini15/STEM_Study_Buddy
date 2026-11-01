@@ -605,25 +605,73 @@
       "type": "multiple_choice",
       "prompt": { "text": "What is a fleshy fruit?" },
       "options": [
-        "Animals disperse it. The seeds have a hard seed coat that breaks during digestion.",
-        "It may split open at maturity or remain closed.",
+        "The pericarp, the fruit wall, is soft at maturity. A tomato, a cherry, and an apple are fleshy fruits.",
+        "The pericarp is dry at maturity. A capsule, a grain, and an acorn are dry fruits.",
         "It is composed of more than one ovary.",
         "A significant portion of the edible flesh develops from tissue outside the ovaries."
       ],
-      "answer": "Animals disperse it. The seeds have a hard seed coat that breaks during digestion.",
-      "explanation": "A fleshy fruit is dispersed by animals. Its seeds have a hard seed coat that breaks during digestion. A tomato, a cherry, and an apple are fleshy fruits. A dry fruit may split open at maturity, which is dehiscent, or remain closed, which is indehiscent. A capsule splits open. A grain remains closed. A compound fruit is composed of more than one ovary. An accessory fruit has a significant portion of its edible flesh from tissue outside the ovaries. An apple is both fleshy and accessory. Accessory names the source of the flesh. Fleshy names the animal-dispersed fruit with that hard seed coat."
+      "answer": "The pericarp, the fruit wall, is soft at maturity. A tomato, a cherry, and an apple are fleshy fruits.",
+      "explanation": "A fleshy fruit has a soft pericarp at maturity. The pericarp is the fruit wall, formed from the ovary wall. A tomato, a cherry, and an apple are fleshy fruits. Animals often eat these fruits and carry the seeds away. The seeds have a hard seed coat that breaks during digestion. That is how many fleshy fruits are dispersed. It is not what makes the fruit fleshy. A dry fruit has a dry pericarp at maturity. It may split open, which is dehiscent, or remain closed, which is indehiscent. A capsule splits open. A grain remains closed. A compound fruit is composed of more than one ovary. An accessory fruit has a significant portion of its edible flesh from tissue outside the ovaries. An apple is both fleshy and accessory. Accessory names the source of the flesh. Fleshy names the soft fruit wall."
     },
     {
       "type": "multiple_choice",
       "prompt": { "text": "What is a dry fruit?" },
       "options": [
-        "It may split open at maturity, which is dehiscent, or remain closed, which is indehiscent.",
-        "Animals disperse it. The seeds have a hard seed coat that breaks during digestion.",
+        "The pericarp, the fruit wall, is dry at maturity. A capsule, a grain, and an acorn are dry fruits.",
+        "The pericarp is soft at maturity. A tomato, a cherry, and an apple are fleshy fruits.",
         "It forms from many separate ovaries of a single flower.",
         "It forms from the ovaries of several flowers that have grown together."
       ],
-      "answer": "It may split open at maturity, which is dehiscent, or remain closed, which is indehiscent.",
-      "explanation": "A dry fruit may be dehiscent or indehiscent. Dehiscent means it splits open at maturity. A capsule, a legume, and a follicle are dehiscent. Indehiscent means it remains closed. An achene, a samara, a grain, and a nut are indehiscent. A fleshy fruit is dispersed by animals, and the seed coat breaks during digestion. An aggregate fruit, such as a blackberry, forms from many separate ovaries of one flower. A multiple fruit, such as a pineapple, forms from several flowers grown together."
+      "answer": "The pericarp, the fruit wall, is dry at maturity. A capsule, a grain, and an acorn are dry fruits.",
+      "explanation": "A dry fruit has a dry pericarp at maturity. The pericarp is the fruit wall. It may be papery, like a capsule, or hard, like a nut. A capsule, a grain, and an acorn are dry fruits. A dry fruit may also be dehiscent or indehiscent. Dehiscent means it splits open at maturity. A capsule, a legume, and a follicle are dehiscent. Indehiscent means it remains closed. An achene, a samara, a grain, and a nut are indehiscent. Splitting or staying closed describes how the seeds leave. The dry wall is what makes the fruit dry. A fleshy fruit has a soft pericarp. Animals often eat it and disperse the seeds, and the seed coat breaks during digestion. An aggregate fruit, such as a blackberry, forms from many separate ovaries of one flower. A multiple fruit, such as a pineapple, forms from several flowers grown together."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "How are the seeds of a fleshy fruit spread? A tomato, a cherry, and an apple are fleshy fruits." },
+      "options": [
+        "Animals eat the fruit and carry the seeds away. The seeds have a hard seed coat that breaks during digestion.",
+        "The fruit may split open at maturity, which is dehiscent, or remain closed, which is indehiscent.",
+        "The seeds swim through a film of water to reach the soil.",
+        "The fruit stays on the parent, and the seeds never leave."
+      ],
+      "answer": "Animals eat the fruit and carry the seeds away. The seeds have a hard seed coat that breaks during digestion.",
+      "explanation": "Animals spread the seeds of a fleshy fruit. An animal eats the soft fruit, and the seeds have a hard seed coat that breaks during digestion. A tomato, a cherry, and an apple are fleshy fruits. A dry fruit releases seeds in another way. It may split open at maturity, which is dehiscent, or remain closed, which is indehiscent. A capsule splits open. A grain remains closed. Sperm of a moss or a fern swim through water. Fruit seeds do not. A fruit encloses the seeds and helps them leave the parent."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "How are the seeds of a dry fruit spread? A capsule, a grain, and an acorn are dry fruits." },
+      "options": [
+        "The fruit may split open at maturity, which is dehiscent, or remain closed, which is indehiscent.",
+        "Animals eat the fruit and carry the seeds away. The seeds have a hard seed coat that breaks during digestion.",
+        "The seeds swim through a film of water to reach the soil.",
+        "The fruit stays on the parent, and the seeds never leave."
+      ],
+      "answer": "The fruit may split open at maturity, which is dehiscent, or remain closed, which is indehiscent.",
+      "explanation": "A dry fruit spreads its seeds in one of two ways. It may split open at maturity, which is dehiscent. A capsule, a legume, and a follicle split open. Or it may remain closed, which is indehiscent. An achene, a samara, a grain, and a nut stay closed. A capsule, a grain, and an acorn are dry fruits. Animals spread the seeds of a fleshy fruit by eating it. Those seeds have a hard seed coat that breaks during digestion. A tomato is a fleshy fruit. Sperm of a moss or a fern swim through water. Fruit seeds do not. A fruit encloses the seeds and helps them leave the parent."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a dehiscent fruit?" },
+      "options": [
+        "It splits open at maturity and releases the seeds. A capsule, a legume, and a follicle are dehiscent.",
+        "It remains closed at maturity. An achene, a samara, a grain, and a nut are indehiscent.",
+        "Animals eat the fruit and carry the seeds away. The seeds have a hard seed coat that breaks during digestion.",
+        "The pericarp, the fruit wall, is soft at maturity. A tomato is one."
+      ],
+      "answer": "It splits open at maturity and releases the seeds. A capsule, a legume, and a follicle are dehiscent.",
+      "explanation": "A dehiscent fruit splits open at maturity, and the seeds are released from the open fruit. A capsule, a legume, and a follicle are dehiscent. An iris capsule splits along the top. A pea legume splits along two sides. A milkweed follicle opens along one side. An indehiscent fruit remains closed. An achene, a samara, a grain, and a nut are indehiscent. A sunflower achene, a corn grain, and an acorn stay closed. Animals eat a fleshy fruit and carry the seeds away. Those seeds have a hard seed coat that breaks during digestion. A tomato has a soft pericarp, so it is a fleshy fruit. A soft wall does not mean the fruit splits open."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is an indehiscent fruit?" },
+      "options": [
+        "It remains closed at maturity. An achene, a samara, a grain, and a nut are indehiscent.",
+        "It splits open at maturity and releases the seeds. A capsule, a legume, and a follicle are dehiscent.",
+        "Animals eat the fruit and carry the seeds away. The seeds have a hard seed coat that breaks during digestion.",
+        "The pericarp, the fruit wall, is soft at maturity. A tomato is one."
+      ],
+      "answer": "It remains closed at maturity. An achene, a samara, a grain, and a nut are indehiscent.",
+      "explanation": "An indehiscent fruit remains closed at maturity. The seeds leave inside the whole fruit. An achene, a samara, a grain, and a nut are indehiscent. A sunflower achene, an elm samara, a corn grain, and an acorn stay closed. A dehiscent fruit splits open and releases the seeds. A capsule, a legume, and a follicle are dehiscent. An iris capsule splits along the top. Animals eat a fleshy fruit and carry the seeds away. Those seeds have a hard seed coat that breaks during digestion. A tomato has a soft pericarp, so it is a fleshy fruit. A soft wall does not mean the fruit stays closed."
     },
     {
       "type": "multiple_choice",
@@ -631,11 +679,11 @@
       "options": [
         "It is composed of more than one ovary.",
         "It forms from one ovary, and that ovary may be compound.",
-        "Animals disperse it. The seeds have a hard seed coat that breaks during digestion.",
-        "It may split open at maturity or remain closed."
+        "The pericarp is soft at maturity. A tomato is one.",
+        "The pericarp is dry at maturity. A capsule is one."
       ],
       "answer": "It is composed of more than one ovary.",
-      "explanation": "A compound fruit is composed of more than one ovary. It falls into two categories. An aggregate fruit is derived from many separate ovaries of a single flower. A blackberry is an aggregate fruit. A multiple fruit is derived from the enlarged ovaries of multiple flowers that have grown together. A pineapple is a multiple fruit. A simple fruit forms from one ovary, even when that ovary is compound. A tomato and an iris capsule are simple fruits. A fleshy fruit is the animal-dispersed type. A dry fruit splits open or remains closed."
+      "explanation": "A compound fruit is composed of more than one ovary. It falls into two categories. An aggregate fruit is derived from many separate ovaries of a single flower. A blackberry is an aggregate fruit. A multiple fruit is derived from the enlarged ovaries of multiple flowers that have grown together. A pineapple is a multiple fruit. A simple fruit forms from one ovary, even when that ovary is compound. A tomato and an iris capsule are simple fruits. A fleshy fruit has a soft pericarp at maturity. A tomato is fleshy. A dry fruit has a dry pericarp at maturity. A capsule is dry."
     },
     {
       "type": "multiple_choice",
@@ -743,7 +791,7 @@
         "Conifers and cycads."
       ],
       "answer": "Monocots and eudicots.",
-      "explanation": "Monocots and eudicots include most living flowering plants. A monocot embryo has one cotyledon. An eudicot embryo has two. Amborella, water lilies, star anise and its relatives, and magnoliids are smaller branches that split off before those two large clades. Conifers and cycads are gymnosperms. They do not make flowers."
+      "explanation": "Monocots and eudicots include most living flowering plants. A monocot embryo has one cotyledon. A eudicot embryo has two. Amborella, water lilies, star anise and its relatives, and magnoliids are smaller branches that split off before those two large clades. Conifers and cycads are gymnosperms. They do not make flowers."
     },
     {
       "type": "multiple_choice",
@@ -795,7 +843,7 @@
     },
     {
       "type": "multiple_choice",
-      "prompt": { "text": "In a mature bean seed, an eudicot, where is most of the stored food?" },
+      "prompt": { "text": "In a mature bean seed, a eudicot, where is most of the stored food?" },
       "options": [
         "In the two cotyledons. The endosperm was absorbed as the seed developed.",
         "In the endosperm. The cotyledons absorb it only after germination begins.",
@@ -803,7 +851,7 @@
         "In tissue of the female gametophyte, as in a pine."
       ],
       "answer": "In the two cotyledons. The endosperm was absorbed as the seed developed.",
-      "explanation": "A bean is an eudicot, so the embryo has two cotyledons. As the seed develops, those cotyledons absorb the endosperm, and the mature seed stores most of its food there. A corn grain is a monocot. Its endosperm remains, and the single cotyledon absorbs that food during germination. The seed coat is the protective layer, not the food. Female-gametophyte tissue is the stored food of a pine, which does not make endosperm."
+      "explanation": "A bean is a eudicot, so the embryo has two cotyledons. As the seed develops, those cotyledons absorb the endosperm, and the mature seed stores most of its food there. A corn grain is a monocot. Its endosperm remains, and the single cotyledon absorbs that food during germination. The seed coat is the protective layer, not the food. Female-gametophyte tissue is the stored food of a pine, which does not make endosperm."
     },
     {
       "type": "multiple_choice",
@@ -894,7 +942,7 @@
         "A farmer plants a refuge of unmodified crop beside a modified crop."
       ],
       "answer": "People choose which individuals breed, and the population changes over generations.",
-      "explanation": "Artificial selection means people choose which individuals breed. Over generations the crop changes in the direction of the chosen traits. A new gene moving into wild relatives is gene flow. It is a concern with genetically modified crops, not the definition of artificial selection. Change caused by differences in survival, with no person choosing the parents, is natural selection. A refuge of unmodified crop is a way to slow pest resistance to a Bt crop."
+      "explanation": "Artificial selection means people choose which individuals breed. Over generations the crop changes in the direction of the chosen traits. A new gene moving into wild relatives is gene flow. It is a concern with genetically modified crops, not the definition of artificial selection. Change caused by differences in survival, with no person choosing the parents, is natural selection. Planting unmodified crop beside a modified crop is a way to slow pest resistance. It is not artificial selection."
     },
     {
       "type": "multiple_choice",
@@ -910,15 +958,15 @@
     },
     {
       "type": "multiple_choice",
-      "prompt": { "text": "What is one benefit of a genetically modified crop such as a Bt crop?" },
+      "prompt": { "text": "A crop is given a new gene so the plant itself makes a protein that kills the insects that eat it. What is one benefit?" },
       "options": [
-        "The plant makes a protein that kills certain insect pests, so the harvest is protected.",
+        "The harvest is protected with less need to spray insecticide.",
         "The plant no longer needs sunlight or water.",
         "The new gene cannot move to any other plant.",
-        "Pests cannot evolve resistance to the new protein."
+        "Those insects cannot evolve resistance to the new protein."
       ],
-      "answer": "The plant makes a protein that kills certain insect pests, so the harvest is protected.",
-      "explanation": "A Bt crop has a gene, originally from a bacterium, for a protein that kills certain insect pests. The benefit is a protected harvest with less dependence on sprayed insecticide. The plant still needs sunlight and water. Pollen or seed can still move a nuclear gene to another plant. Pests can evolve resistance, which is why a refuge of non-Bt plants is planted nearby."
+      "answer": "The harvest is protected with less need to spray insecticide.",
+      "explanation": "The new gene lets the plant make a protein that kills the insects that eat it. The benefit is a protected harvest with less sprayed insecticide. The plant still needs sunlight and water. Pollen or seed can still move a gene in the nucleus to another plant. The insects can evolve resistance, which is why unmodified plants are grown nearby."
     },
     {
       "type": "multiple_choice",
@@ -930,19 +978,19 @@
         "The crop loses its flowers, so it cannot be an angiosperm."
       ],
       "answer": "A pest can evolve resistance, and the new gene can spread to wild relatives.",
-      "explanation": "Two costs are widely discussed. Insect pests can evolve resistance to a Bt protein, so the protection fails. A new gene can also spread to wild relatives by pollen. A modified crop can still make seeds. Photosynthesis continues. The plant remains a flowering plant if it was one. The benefit of a Bt crop is that the plant itself kills certain insect pests."
+      "explanation": "Two costs are widely discussed. Insects that eat the crop can evolve so the plant's new protein no longer kills them, and the protection fails. A new gene can also spread to wild relatives by pollen. A modified crop can still make seeds. Photosynthesis continues. The plant remains a flowering plant if it was one. The benefit, when the protein still works, is that the plant itself kills the insects that eat it, with less sprayed insecticide."
     },
     {
       "type": "multiple_choice",
-      "prompt": { "text": "A Bt crop kills certain insect pests. What practice slows the evolution of resistance in those pests?" },
+      "prompt": { "text": "A modified crop makes a protein that kills the insects that eat it. Some of those insects are no longer killed. What slows the spread of that resistance?" },
       "options": [
-        "Plant a refuge of non-Bt crop, so susceptible insects survive and mate with resistant ones.",
+        "Plant unmodified crop nearby, so insects that can still be killed survive and mate with resistant ones.",
         "Spray a broad insecticide over every neighboring species, including insects that do not eat the crop.",
         "Remove all flowers so the crop cannot make pollen.",
-        "Plant only Bt seed, with no unmodified plants anywhere nearby."
+        "Plant only the modified seed, with no unmodified plants anywhere nearby."
       ],
-      "answer": "Plant a refuge of non-Bt crop, so susceptible insects survive and mate with resistant ones.",
-      "explanation": "A refuge of non-Bt crop lets some susceptible insects survive. They mate with resistant insects, and many of the offspring are still killed by the Bt protein. That slows the spread of resistance. Spraying every neighboring insect harms non-target species. It is not the refuge strategy. Removing all flowers would stop reproduction of the crop. Planting only Bt seed, with no refuge, is the condition under which resistance evolves fastest. A separate way to limit spread of a nuclear gene is to put the gene in the chloroplast, because pollen usually does not carry chloroplast genes."
+      "answer": "Plant unmodified crop nearby, so insects that can still be killed survive and mate with resistant ones.",
+      "explanation": "Unmodified crop nearby lets insects that are still killed by the protein survive. They mate with resistant insects, and many of the offspring are still killed by the protein. That slows the spread of resistance. Spraying every neighboring insect harms species that do not eat the crop. Removing all flowers would stop the crop from reproducing. Planting only the modified seed, with no unmodified plants nearby, is the condition under which resistance spreads fastest. A separate way to limit spread of a gene in the nucleus is to put that gene in the chloroplast, because pollen usually does not carry chloroplast genes."
     },
     {
       "type": "multiple_choice",

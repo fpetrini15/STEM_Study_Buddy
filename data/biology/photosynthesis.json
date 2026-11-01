@@ -1,0 +1,401 @@
+{
+  "title": "Photosynthesis",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A plant captures light energy and stores that energy in the chemical bonds of sugar. What is this process called?"
+      },
+      "options": [
+        "Photosynthesis",
+        "Cellular respiration",
+        "Transpiration",
+        "Translocation"
+      ],
+      "answer": "Photosynthesis",
+      "explanation": "Photosynthesis is the process in which a plant captures light energy and stores that energy in the chemical bonds of sugar. The plant builds the sugar, and the captured energy is held in those bonds. Cellular respiration releases energy by breaking the chemical bonds of sugar. It does not capture light or store energy in new sugar. Transpiration is the loss of water vapor from the plant after water has moved up through the xylem. Translocation is the movement of sugars through the phloem from a source to a sink. Neither one captures light energy."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A plant builds sugar and stores energy in the chemical bonds of the sugar. What form of energy does the plant capture to put into the bonds?"
+      },
+      "options": [
+        "Light energy",
+        "Chemical energy released by breaking sugar",
+        "Heat energy from the soil",
+        "Energy from water moving up the xylem"
+      ],
+      "answer": "Light energy",
+      "explanation": "A plant that builds sugar and stores energy in the chemical bonds of the sugar captures light energy to put into the bonds. Chemical energy released by breaking sugar is what cellular respiration frees from bonds that were already made. It is not the energy the plant captures for building sugar. Heat from the soil is not the energy source for building sugar. Water moving up the xylem is pulled by transpiration. That flow supplies water to the leaf. It is not the energy stored in the sugar."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Sunlight strikes a leaf, and the plant captures that light energy. Where does the plant store the captured energy?"
+      },
+      "options": [
+        "In the chemical bonds of the sugar it builds",
+        "In the water vapor that leaves through open stomata",
+        "On the clay particles that hold nutrient ions in the soil",
+        "As light that the leaf gives back off"
+      ],
+      "answer": "In the chemical bonds of the sugar it builds",
+      "explanation": "After the plant captures light energy, it stores that energy in the chemical bonds of the sugar it builds. The sugar can later move through the phloem or be broken down to release the energy. Water vapor leaving through open stomata is transpiration. That vapor does not hold the captured light energy. Clay holds nutrient cations such as potassium, calcium, and magnesium so rain does not leach them. That is ionic exchange, not storage of light energy. A leaf can reflect some light, but the energy the plant keeps is stored in sugar. It is not stored by giving the light back off."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A plant stores energy in the chemical bonds of glucose. Why does the plant break the glucose down?"
+      },
+      "options": [
+        "To transfer the energy stored in glucose into ATP, which the cell uses to do work.",
+        "To capture light energy. ATP is the light the leaf absorbs.",
+        "To store energy for the first time. Glucose cannot hold energy in its chemical bonds.",
+        "To release the stored energy as heat, which is the form the cell uses to do work."
+      ],
+      "answer": "To transfer the energy stored in glucose into ATP, which the cell uses to do work.",
+      "explanation": "Glucose holds captured energy in its chemical bonds, but the cell spends ATP to do work. The plant breaks the glucose down, in cellular respiration, to transfer that stored energy into ATP. ATP is not light, and breaking down glucose does not capture a new supply of sunlight. The leaf already stored the light energy when it built the glucose. Glucose can hold that energy. The breakdown is not the first time the energy is stored. Some energy is lost as heat during the breakdown, but heat is not the form the cell uses to do work. The useful product is ATP."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why is ATP important to a cell, and what makes ATP unique?"
+      },
+      "options": [
+        "The cell uses ATP to do work. ATP is high in energy and unstable because of its phosphate groups, so removing a phosphate releases energy the cell can use.",
+        "The cell stores ATP for a long time in place of sugar. ATP is low in energy and stable because of its adenine base, so the energy stays locked in the cell.",
+        "ATP captures light in the leaf. Hydrogen bonds in ATP make it the pigment that absorbs sunlight.",
+        "ATP is the sugar moved through the phloem. Its ribose sugar lets a source send ATP to a sink."
+      ],
+      "answer": "The cell uses ATP to do work. ATP is high in energy and unstable because of its phosphate groups, so removing a phosphate releases energy the cell can use.",
+      "explanation": "ATP is important because the cell uses it to do work. What makes ATP unique is that it is high in energy and unstable. The usable energy is in its phosphate groups. Removing a phosphate releases energy the cell can use right away. Glucose can hold energy in a more stable form. ATP does not take the place of that stored sugar. The adenine base and the ribose sugar are parts of ATP, but they are not the source of the usable energy. Hydrogen bonds do not make ATP able to power work, and ATP is not a pigment that absorbs sunlight. Sugars, not ATP, move through the phloem from a source to a sink."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Light strikes a leaf. The plant uses that light to split water, release oxygen, and form ATP and NADPH. What are these reactions called?"
+      },
+      "options": [
+        "The light-dependent reactions",
+        "The light-independent reactions",
+        "Cellular respiration",
+        "Transpiration"
+      ],
+      "answer": "The light-dependent reactions",
+      "explanation": "These are the light-dependent reactions. They use light directly. The plant splits water, releases oxygen, and holds the captured energy for a short time in ATP and NADPH. The light-independent reactions do not use light directly. They spend ATP and NADPH to build sugar from carbon dioxide, which stores the energy in the chemical bonds of the sugar. Many texts call those sugar-building reactions the Calvin cycle. An older name is the dark reactions, but they do not require darkness. They can run in the light as long as ATP and NADPH are available. In the chloroplast, the light-dependent reactions occur at the thylakoid membrane. Cellular respiration breaks sugar down and uses oxygen. It does not split water with light. Transpiration is water vapor leaving through open stomata. It is not the splitting of water that releases oxygen."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Carbon dioxide enters a leaf. The plant spends ATP and NADPH to build sugar from that carbon dioxide, and these reactions do not use light directly. What are these reactions called?"
+      },
+      "options": [
+        "The light-independent reactions",
+        "The light-dependent reactions",
+        "Cellular respiration",
+        "Transpiration"
+      ],
+      "answer": "The light-independent reactions",
+      "explanation": "These are the light-independent reactions. They do not use light directly. The plant spends ATP and NADPH to build sugar from carbon dioxide, and the captured energy is stored in the chemical bonds of that sugar. Many texts call this set of reactions the Calvin cycle. An older name is the dark reactions, but they do not require darkness. They can run while the leaf is in the light. The light-dependent reactions are the ones that use light directly. They split water, release oxygen, and form the ATP and NADPH. In the chloroplast, the light-independent reactions occur in the stroma, and the light-dependent reactions occur at the thylakoid membrane. Cellular respiration breaks sugar down. It does not build sugar from carbon dioxide. Transpiration is water vapor leaving through open stomata. It does not build sugar."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why is the palisade mesophyll important for photosynthesis?"
+      },
+      "options": [
+        "Its cells are tightly packed with chloroplasts just under the upper epidermis, where the leaf receives the most light, so this layer carries out most of the leaf's photosynthesis.",
+        "Its cells are loosely packed near the lower surface. Air spaces there let carbon dioxide reach the cells that build sugar.",
+        "Its cells border each stoma and open the pore. Opening that pore is the light-dependent reaction.",
+        "Its cells load sugar into a sieve tube. Moving that sugar to a sink is the photosynthesis."
+      ],
+      "answer": "Its cells are tightly packed with chloroplasts just under the upper epidermis, where the leaf receives the most light, so this layer carries out most of the leaf's photosynthesis.",
+      "explanation": "The palisade mesophyll is the upper mesophyll of the leaf. Its cells are elongated and tightly packed just under the upper epidermis, and they contain many chloroplasts. This layer receives the most light, so it captures most of the light energy and carries out most of the leaf's photosynthesis. The spongy mesophyll is the loosely packed layer near the lower surface. Its air spaces let carbon dioxide and oxygen move between the stomata and the photosynthetic cells. Guard cells border a stoma and open or close that pore. They do not carry out most of the photosynthesis, and opening the pore is not itself the light-dependent reaction. Phloem sieve tubes move sugar from a source to a sink. That movement is translocation. It happens after the sugar has been built."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why is the spongy mesophyll important for photosynthesis?"
+      },
+      "options": [
+        "Its cells are loosely packed near the lower surface. The air spaces let carbon dioxide reach the cells that build sugar and let oxygen from the splitting of water move out.",
+        "Its cells are tightly packed with chloroplasts just under the upper epidermis and carry out most of the leaf's photosynthesis.",
+        "It is the waxy covering of the leaf. It blocks carbon dioxide so sugar can be built without gas exchange.",
+        "It carries water from the roots through dead cells. That water flow is the light-independent reaction."
+      ],
+      "answer": "Its cells are loosely packed near the lower surface. The air spaces let carbon dioxide reach the cells that build sugar and let oxygen from the splitting of water move out.",
+      "explanation": "The spongy mesophyll is ground tissue near the lower epidermis. Its cells are loosely packed, with air spaces between them. Those spaces let carbon dioxide from the stomata reach the cells that build sugar, and they let oxygen produced when water is split move back out. The palisade mesophyll, the upper mesophyll, is tightly packed just under the upper epidermis. It receives the most light and carries out most of the leaf's photosynthesis. The cuticle is the waxy covering that reduces water loss. It does not block all gas exchange, and blocking carbon dioxide would stop sugar from being built. Xylem carries water through dead conducting cells. That flow supplies water. It is not the light-independent reaction."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the role of chlorophyll and the other pigments that take part in photosynthesis?"
+      },
+      "options": [
+        "They absorb light and capture that light energy for the light-dependent reactions.",
+        "They measure night length and use that information to time flowering.",
+        "They build sugar from carbon dioxide. They do not absorb light.",
+        "They open the stomata so water vapor can leave the leaf."
+      ],
+      "answer": "They absorb light and capture that light energy for the light-dependent reactions.",
+      "explanation": "Chlorophyll and the other pigments that take part in photosynthesis absorb light. They capture that light energy for the light-dependent reactions, which split water, release oxygen, and form ATP and NADPH. The light-independent reactions then spend ATP and NADPH to store the energy in the chemical bonds of sugar. The pigments do not build that sugar themselves. Measuring night length and timing flowering is the job of a different pigment, phytochrome, which detects red and far-red light. Chlorophyll does not measure night length. Guard cells open and close the stomata. Pigments do not. Water vapor leaving those pores is transpiration."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence distinguishing chlorophyll a, chlorophyll b, carotenoids, and xanthophylls."
+      },
+      "sentence": [
+        "Chlorophyll a: ",
+        null,
+        ". Chlorophyll b: ",
+        null,
+        ". Carotenoids: ",
+        null,
+        ". Xanthophylls: ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "the main pigment that absorbs light and drives the light-dependent reactions",
+        "an accessory pigment that absorbs slightly different wavelengths and passes that energy to chlorophyll a",
+        "accessory pigments that absorb blue-green light, pass some energy to chlorophyll, and protect the leaf from excess light",
+        "yellow carotenoids that contain oxygen"
+      ],
+      "bank": [
+        "the main pigment that absorbs light and drives the light-dependent reactions",
+        "an accessory pigment that absorbs slightly different wavelengths and passes that energy to chlorophyll a",
+        "accessory pigments that absorb blue-green light, pass some energy to chlorophyll, and protect the leaf from excess light",
+        "yellow carotenoids that contain oxygen",
+        "the pigment that measures night length and times flowering",
+        "pigments that build sugar from carbon dioxide and do not absorb light"
+      ],
+      "explanation": "Chlorophyll a is the main pigment. It absorbs light and drives the light-dependent reactions. It looks blue-green. Chlorophyll b is an accessory pigment. It absorbs slightly different wavelengths and passes that energy to chlorophyll a. It looks yellow-green. Carotenoids are also accessory pigments. They absorb blue-green light, pass some energy to chlorophyll, and protect the leaf by releasing excess light energy as heat. They look yellow, orange, or red. Xanthophylls are the yellow carotenoids, and their molecules contain oxygen. They are one kind of carotenoid, not a separate group. Carotenes are the orange carotenoids, and they do not contain oxygen. A phytochrome measures night length and times flowering. It is not one of these photosynthetic pigments. None of these pigments builds sugar from carbon dioxide. The light-independent reactions do that, using ATP and NADPH."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A graph shows how much light a pigment absorbs at each wavelength. Chlorophyll absorbs a lot of violet-blue and red light and little green light. What is this graph called?"
+      },
+      "options": [
+        "An absorption spectrum",
+        "An action spectrum",
+        "An emission spectrum",
+        "A photoperiod"
+      ],
+      "answer": "An absorption spectrum",
+      "explanation": "An absorption spectrum shows how much light a pigment absorbs at each wavelength. Chlorophyll absorbs a lot of violet-blue and red light and little green light, which is why a leaf looks green. An action spectrum is a different graph. It shows how well each wavelength drives photosynthesis, not how much a pigment absorbs. The two graphs have a similar shape, because the wavelengths a pigment absorbs are the ones that can power photosynthesis. The action spectrum is a little broader than the absorption spectrum of chlorophyll a alone, because chlorophyll b and the carotenoids also absorb light and pass energy to chlorophyll a. An emission spectrum shows the wavelengths of light a substance gives off. A photoperiod is the relative length of night and day. Plants use it as information to time flowering. It is not a graph of wavelengths."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A graph shows how well each wavelength of light drives photosynthesis. The rate is high in violet-blue and red light and low in green light. What is this graph called?"
+      },
+      "options": [
+        "An action spectrum",
+        "An absorption spectrum",
+        "An emission spectrum",
+        "A photoperiod"
+      ],
+      "answer": "An action spectrum",
+      "explanation": "An action spectrum shows how well each wavelength of light drives photosynthesis. The rate is high in violet-blue and red light and low in green light. An absorption spectrum is a different graph. It shows how much light a pigment absorbs at each wavelength, not the rate of photosynthesis. The two graphs have a similar shape, because the wavelengths a pigment absorbs are the ones that can power photosynthesis. The action spectrum is a little broader than the absorption spectrum of chlorophyll a alone, because chlorophyll b and the carotenoids also absorb light and pass energy to chlorophyll a. An emission spectrum shows the wavelengths of light a substance gives off. A photoperiod is the relative length of night and day. Plants use it as information to time flowering. It is not a graph of wavelengths."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the role of photosystem II in the light-dependent reactions?"
+      },
+      "options": [
+        "It absorbs light, splits water and releases oxygen, and sends electrons along a chain that forms ATP.",
+        "It absorbs light and passes excited electrons to NADP+, forming NADPH.",
+        "It builds sugar from carbon dioxide and does not use light.",
+        "It carries sugar through the phloem from a source to a sink."
+      ],
+      "answer": "It absorbs light, splits water and releases oxygen, and sends electrons along a chain that forms ATP.",
+      "explanation": "Photosystem II absorbs light. Chlorophyll a in its reaction center loses electrons, and those electrons are replaced by splitting water, which releases oxygen. The electrons move along a chain toward photosystem I, and that chain forms ATP. Photosystem II acts first in this path, even though its number is higher. Its reaction center is called P680. Photosystem I is the one that passes excited electrons to NADP+ and forms NADPH. Its reaction center is called P700. Building sugar from carbon dioxide is the light-independent reactions. They spend ATP and NADPH, and they do not use light directly. Carrying sugar through the phloem is translocation. It moves sugar that has already been built."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the role of photosystem I in the light-dependent reactions?"
+      },
+      "options": [
+        "It absorbs light and passes excited electrons to NADP+, forming NADPH.",
+        "It absorbs light, splits water and releases oxygen, and sends electrons along a chain that forms ATP.",
+        "It builds sugar from carbon dioxide and does not use light.",
+        "It carries sugar through the phloem from a source to a sink."
+      ],
+      "answer": "It absorbs light and passes excited electrons to NADP+, forming NADPH.",
+      "explanation": "Photosystem I absorbs light and passes excited electrons to NADP+, forming NADPH. In the noncyclic path those electrons first came from photosystem II. Photosystem I acts second, and its reaction center is called P700. Photosystem II is the one that splits water, releases oxygen, and sends electrons along the chain that forms ATP. Its reaction center is called P680. In cyclic electron flow, electrons from photosystem I return to the chain and can form more ATP without forming NADPH or releasing oxygen. Building sugar from carbon dioxide is the light-independent reactions. They spend ATP and NADPH, and they do not use light directly. Carrying sugar through the phloem is translocation."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is chemiosmosis in the light-dependent reactions?"
+      },
+      "options": [
+        "Hydrogen ions flow down their gradient through ATP synthase, and that flow forms ATP.",
+        "Hydrogen ions are pumped against their gradient, and the pumping itself forms ATP.",
+        "Excited electrons are passed to NADP+, forming NADPH. No hydrogen-ion gradient is used.",
+        "Carbon dioxide is built into sugar, and that building forms ATP."
+      ],
+      "answer": "Hydrogen ions flow down their gradient through ATP synthase, and that flow forms ATP.",
+      "explanation": "Chemiosmosis is the flow of hydrogen ions, H+, down their gradient through ATP synthase. That flow forms ATP. In the chloroplast, the electron transport chain pumps H+ into the thylakoid space, and splitting water adds more H+ there. The ions then flow back out to the stroma through ATP synthase. The ATP is released in the stroma, where the light-independent reactions spend it. Pumping H+ in stores energy in the gradient. The pumping itself does not form ATP. Passing excited electrons to NADP+ forms NADPH. That is the role of photosystem I, not chemiosmosis. Building sugar from carbon dioxide spends ATP. It does not form ATP. Cellular respiration uses chemiosmosis too. There the chain pumps H+ into the space between the mitochondrial membranes, and the ions flow back through ATP synthase."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Where do the light-independent reactions take place, as opposed to the light-dependent reactions?"
+      },
+      "options": [
+        "The light-independent reactions take place in the stroma. The light-dependent reactions take place at the thylakoid membrane.",
+        "The light-independent reactions take place at the thylakoid membrane. The light-dependent reactions take place in the stroma.",
+        "Both take place in the space between the mitochondrial membranes.",
+        "Both take place in the cytosol, outside the chloroplast."
+      ],
+      "answer": "The light-independent reactions take place in the stroma. The light-dependent reactions take place at the thylakoid membrane.",
+      "explanation": "The light-independent reactions take place in the stroma of the chloroplast. They do not use light directly. They spend ATP and NADPH to build sugar from carbon dioxide. The light-dependent reactions take place at the thylakoid membrane. They use light to split water, release oxygen, and form ATP and NADPH. Hydrogen ions collect in the thylakoid space during those reactions, but the light-independent reactions are not located in that space. They are in the stroma, where the ATP is released. The space between the mitochondrial membranes is where cellular respiration pumps H+ to form ATP. Photosynthesis does not take place there. The reactions of photosynthesis are inside the chloroplast, not in the cytosol."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence with the three steps of the Calvin cycle, in order."
+      },
+      "sentence": [
+        "In the Calvin cycle, ",
+        null,
+        ". Then ",
+        null,
+        ". Then ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "carbon fixation attaches carbon dioxide to RuBP",
+        "reduction uses ATP and NADPH to make G3P",
+        "regeneration uses some G3P to rebuild RuBP"
+      ],
+      "bank": [
+        "carbon fixation attaches carbon dioxide to RuBP",
+        "reduction uses ATP and NADPH to make G3P",
+        "regeneration uses some G3P to rebuild RuBP",
+        "light splits water and oxygen is released",
+        "NADP+ gains electrons and NADPH is formed"
+      ],
+      "explanation": "The Calvin cycle is the light-independent set of reactions in the stroma. It has three steps. Carbon fixation attaches carbon dioxide to RuBP. The enzyme is rubisco, and the first stable product is 3-PGA. Reduction then uses ATP and NADPH to make G3P from that 3-PGA. Regeneration uses some G3P to rebuild RuBP so the cycle can continue. The G3P that is not used for regeneration leaves the cycle and is used to build sugar, so the energy from ATP and NADPH is stored in the chemical bonds of the sugar. For every three carbon dioxide molecules, six G3P are made, one G3P leaves, and five G3P rebuild three RuBP. Each turn of the cycle fixes one carbon dioxide, so that count is three turns. Light splitting water and releasing oxygen is a light-dependent reaction at the thylakoid membrane. So is the gain of electrons by NADP+ that forms NADPH. Those steps supply the ATP and NADPH. They are not steps of the Calvin cycle."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What happens in each turn of the Calvin cycle?"
+      },
+      "options": [
+        "One carbon dioxide is fixed by attachment to RuBP. Three turns are required before one G3P leaves the cycle.",
+        "Three carbon dioxide molecules are fixed, six G3P are made, and one G3P leaves the cycle.",
+        "One glucose is released, and six molecules of oxygen are produced.",
+        "Water is split, oxygen is released, and NADPH is formed."
+      ],
+      "answer": "One carbon dioxide is fixed by attachment to RuBP. Three turns are required before one G3P leaves the cycle.",
+      "explanation": "Each turn of the Calvin cycle fixes one carbon dioxide by attaching it to RuBP. One turn does not release a sugar. Three turns fix three carbon dioxide molecules. Those three turns make six G3P. One G3P leaves the cycle and is used to build sugar, and five G3P rebuild three RuBP. Two G3P are needed to build one glucose, so that takes six turns. The three-carbon-dioxide count is three turns, not one turn. One turn also does not release oxygen. Water is split, oxygen is released, and NADPH is formed in the light-dependent reactions at the thylakoid membrane. Those reactions supply the ATP and NADPH that the Calvin cycle spends in the stroma."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "The Calvin cycle produces G3P. Why is G3P important?"
+      },
+      "options": [
+        "The G3P that leaves the cycle is used to build sugar, which stores the captured energy in its chemical bonds.",
+        "All of the G3P stays in the cycle to rebuild RuBP, so none of it can be used to build sugar.",
+        "G3P absorbs light at the thylakoid membrane and splits water.",
+        "G3P leaves the leaf as water vapor through open stomata."
+      ],
+      "answer": "The G3P that leaves the cycle is used to build sugar, which stores the captured energy in its chemical bonds.",
+      "explanation": "G3P is important because the molecules that leave the Calvin cycle are used to build sugar. The energy captured from light, and carried by ATP and NADPH, is stored in the chemical bonds of that sugar. Not every G3P leaves. For every three carbon dioxide molecules, six G3P are made, five rebuild RuBP so the cycle can continue, and one leaves. Two of the G3P molecules that leave can build one glucose. G3P can also be used to build other carbohydrates, such as starch and cellulose. G3P does not absorb light or split water. Those are jobs of the pigments and photosystem II at the thylakoid membrane. G3P is not water vapor. Water vapor leaving through open stomata is transpiration."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is photorespiration?"
+      },
+      "options": [
+        "Rubisco attaches oxygen to RuBP instead of carbon dioxide. ATP is used, carbon dioxide is released, and no sugar is built.",
+        "Rubisco attaches carbon dioxide to RuBP. The Calvin cycle then builds sugar.",
+        "Glucose is broken down, and the cell gains ATP.",
+        "Light splits water, oxygen is released, and NADPH is formed."
+      ],
+      "answer": "Rubisco attaches oxygen to RuBP instead of carbon dioxide. ATP is used, carbon dioxide is released, and no sugar is built.",
+      "explanation": "Photorespiration happens when rubisco attaches oxygen to RuBP instead of carbon dioxide. The leaf uses ATP and releases carbon dioxide, and no sugar is built, so some of the work of the Calvin cycle is undone. This is more likely when the stomata close on a hot, dry day. Carbon dioxide cannot enter, and oxygen from the light-dependent reactions builds up in the leaf. Normal carbon fixation is the opposite: rubisco attaches carbon dioxide to RuBP, and the Calvin cycle builds sugar. Cellular respiration breaks glucose down and produces ATP. Photorespiration does not. Light splitting water, releasing oxygen, and forming NADPH is the light-dependent reactions. Those reactions make the oxygen that rubisco may bind. They are not photorespiration. Some plants reduce photorespiration by concentrating carbon dioxide where rubisco is. C4 plants and CAM plants do this."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A C4 plant keeps building sugar even though carbon dioxide in the leaf is low. What makes that possible?"
+      },
+      "options": [
+        "Mesophyll cells fix the carbon dioxide into malate. Malate carries it into bundle-sheath cells and releases it, so rubisco can keep running the Calvin cycle.",
+        "Malate stored overnight releases carbon dioxide during the day while the stomata stay closed.",
+        "Rubisco attaches oxygen to RuBP, and the leaf builds sugar from that oxygen.",
+        "The light-dependent reactions stop, and the leaf builds sugar from glucose it has already stored."
+      ],
+      "answer": "Mesophyll cells fix the carbon dioxide into malate. Malate carries it into bundle-sheath cells and releases it, so rubisco can keep running the Calvin cycle.",
+      "explanation": "A C4 plant can keep photosynthesizing when carbon dioxide in the leaf is low because the mesophyll cells fix that carbon dioxide into malate. PEP carboxylase attaches the carbon dioxide even at a low concentration, and it does not bind oxygen the way rubisco does. Malate, a four-carbon compound, carries the carbon into a bundle-sheath cell and releases carbon dioxide there. Rubisco then runs the Calvin cycle and sugar is still built. CAM plants also use malate, but they store it overnight and release the carbon dioxide during the day while the stomata stay closed. A C4 plant moves malate from the mesophyll to the bundle-sheath cells during the day. It does not rely on overnight storage. Rubisco attaching oxygen to RuBP is photorespiration. That releases carbon dioxide and builds no sugar. Stopping the light-dependent reactions would cut off ATP and NADPH. Stored glucose can be broken down later to make ATP, but that does not fix new carbon when carbon dioxide is low."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why is a C4 plant less efficient than a C3 plant in a cooler climate?"
+      },
+      "options": [
+        "The C4 plant spends extra ATP sending carbon dioxide to rubisco as malate. In a cooler climate photorespiration is low, so that extra cost is not repaid.",
+        "Cool air stops the light-dependent reactions, so the C4 plant cannot form ATP or NADPH.",
+        "A cooler climate closes the stomata, so the C4 plant receives less carbon dioxide than a C3 plant.",
+        "Malate releases oxygen instead of carbon dioxide when the leaf is cool, and rubisco builds no sugar."
+      ],
+      "answer": "The C4 plant spends extra ATP sending carbon dioxide to rubisco as malate. In a cooler climate photorespiration is low, so that extra cost is not repaid.",
+      "explanation": "A C4 plant spends extra ATP to fix carbon dioxide into malate and release it at rubisco in the bundle-sheath cells. That cost is worthwhile in a hot climate. Stomata close, carbon dioxide in the leaf falls, and a C3 plant would lose carbon and ATP to photorespiration. In a cooler climate the stomata can stay open, carbon dioxide stays available, and photorespiration stays low. A C3 plant then fixes carbon without the extra ATP, so it is more efficient. The C4 plant can still photosynthesize, but the malate shuttle spends ATP that a C3 plant does not spend. Cool air does not stop the light-dependent reactions. A cooler climate does not force the stomata to close. Hot, dry conditions do that. Malate still releases carbon dioxide in the bundle-sheath cells. It does not switch to releasing oxygen."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is unique about how a CAM plant fixes carbon?"
+      },
+      "options": [
+        "Stomata open at night, when less water is lost, and carbon dioxide is stored in malate. During the day the stomata close and save water, and malate releases the stored carbon dioxide for the Calvin cycle.",
+        "Mesophyll cells carry malate into bundle-sheath cells during the day and release carbon dioxide there.",
+        "Stomata open during the day, and rubisco in the mesophyll fixes carbon dioxide into a three-carbon compound.",
+        "Rubisco attaches oxygen to RuBP. ATP is used, carbon dioxide is released, and no sugar is built."
+      ],
+      "answer": "Stomata open at night, when less water is lost, and carbon dioxide is stored in malate. During the day the stomata close and save water, and malate releases the stored carbon dioxide for the Calvin cycle.",
+      "explanation": "A CAM plant separates carbon fixation by time. At night the stomata open, when less water is lost, and carbon dioxide is stored in malate. During the day the stomata close, which saves water. Malate then releases the stored carbon dioxide, and the Calvin cycle uses it to build sugar while the light-dependent reactions supply ATP and NADPH. The name CAM comes from crassulacean acid metabolism, and the malate is stored in the vacuole. A C4 plant also uses malate, but it moves malate from mesophyll cells to bundle-sheath cells during the day. It does not store the night's carbon dioxide for later. A C3 plant opens its stomata during the day and rubisco fixes carbon dioxide directly. The first stable product is 3-PGA. Rubisco attaching oxygen to RuBP is photorespiration. It builds no sugar. Many CAM plants, such as cacti and other succulents, live in hot, dry places. They grow slowly because only the carbon dioxide stored overnight is available for the day's Calvin cycle."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do C4 plants and CAM plants minimize photorespiration?"
+      },
+      "options": [
+        "Both supply carbon dioxide to rubisco from malate, so rubisco binds carbon dioxide instead of oxygen.",
+        "Both attach oxygen to RuBP and build sugar from that oxygen.",
+        "Both keep their stomata open all day in hot, dry air so rubisco receives oxygen.",
+        "Both stop the light-dependent reactions, so no oxygen is released near rubisco."
+      ],
+      "answer": "Both supply carbon dioxide to rubisco from malate, so rubisco binds carbon dioxide instead of oxygen.",
+      "explanation": "Photorespiration happens when rubisco attaches oxygen to RuBP instead of carbon dioxide. C4 plants and CAM plants both keep carbon dioxide high around rubisco by supplying it from malate, so rubisco binds carbon dioxide and the Calvin cycle still builds sugar. A C4 plant moves malate from mesophyll cells into bundle-sheath cells during the day. A CAM plant stores malate at night, closes the stomata during the day, and releases that carbon dioxide while the leaf is in the light. Neither plant builds sugar from oxygen. Leaving the stomata open all day in hot, dry air would lose water, and it would not keep oxygen away from rubisco. Stopping the light-dependent reactions would cut off the ATP and NADPH the Calvin cycle needs."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why is photosynthesis considered a redox process?"
+      },
+      "options": [
+        "Water is oxidized when it is split and loses electrons. Carbon dioxide is reduced when those electrons are used to build sugar.",
+        "Carbon dioxide is oxidized when it is split and loses electrons. Water is reduced when those electrons are used to build sugar.",
+        "Sugar is oxidized in the chloroplast, and the electrons are stored as light.",
+        "Oxygen is reduced to water in the thylakoid, and that reaction builds sugar."
+      ],
+      "answer": "Water is oxidized when it is split and loses electrons. Carbon dioxide is reduced when those electrons are used to build sugar.",
+      "explanation": "Photosynthesis is a redox process because electrons move from one molecule to another. Water is oxidized in the light-dependent reactions: photosystem II splits water, oxygen is released, and the electrons are removed from water. Those electrons are passed along and used to form NADPH. In the Calvin cycle, carbon dioxide is reduced: the electrons from NADPH are added as sugar is built. The reverse, oxidizing carbon dioxide and reducing water, is not what the chloroplast does. Cellular respiration oxidizes sugar and reduces oxygen to water. Photosynthesis does not store the electrons as light, and it does not build sugar by reducing oxygen."
+    }
+  ]
+}

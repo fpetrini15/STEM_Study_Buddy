@@ -1,0 +1,811 @@
+{
+  "title": "Plant Transport and Nutrients",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Water moves up through the xylem, into the stems and then the leaves. Water vapor then leaves a leaf through open stomata. What is this loss of water vapor from the plant called?"
+      },
+      "options": [
+        "Transpiration",
+        "Translocation",
+        "Guttation",
+        "Root pressure"
+      ],
+      "answer": "Transpiration",
+      "explanation": "Transpiration is the loss of water vapor from the plant. The water reaches the leaf by moving up through the xylem, into the stem and then the leaf. Most of that vapor then leaves through stomata, the pores in the leaf surface. Two guard cells border each stoma. When they take up water and swell, the pore opens, carbon dioxide can enter, and water vapor can leave. Translocation is the movement of sugars through the phloem. Guttation is liquid water forced out of the leaf as droplets, often when the stomata are closed. Root pressure is a push on xylem sap from the roots. It helps move water, but it is not the name of the vapor leaving the leaf. When the plant is short of water, abscisic acid closes the stomata, and less water vapor is lost."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Sugars move through the phloem from a leaf, a source, into the stem and then to a growing root, a sink. What is this movement of sugars called?"
+      },
+      "options": [
+        "Translocation",
+        "Transpiration",
+        "Guttation",
+        "Root pressure"
+      ],
+      "answer": "Translocation",
+      "explanation": "Translocation is the movement of sugars through the phloem from a source to a sink. A leaf can be the source, where sugar is available, and a growing root can be the sink, where sugar is used or stored. The sugars move into the stem and then to the root. A source can also supply a growing shoot, a fruit, or a seed, so the flow is not always toward the roots. The conducting cells of phloem are alive at maturity. Transpiration is the loss of water vapor from the plant after water has moved up through the xylem to the leaves. Guttation is liquid water forced out of the leaf as droplets. Root pressure is a push on xylem sap from the roots. Those move water, not sugars in the phloem."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 5 factors that affect soil formation."
+      },
+      "bank": [
+        "Climate, through temperature, rain, wind, etc.",
+        "Soil texture, the mix of sand, silt, and clay already in the soil",
+        "Bedrock breaking down through physical and chemical processes",
+        "Microorganisms, through decomposition and soil mixing (bioturbation)",
+        "Humus, the decayed organic matter already in the soil",
+        "Plant roots, through the rhizosphere",
+        "Topography",
+        "Soil pH, how acidic or basic the soil is"
+      ],
+      "answers": [
+        "Bedrock breaking down through physical and chemical processes",
+        "Climate, through temperature, rain, wind, etc.",
+        "Microorganisms, through decomposition and soil mixing (bioturbation)",
+        "Plant roots, through the rhizosphere",
+        "Topography"
+      ],
+      "explanation": "Five factors affect soil formation. Bedrock breaking down through physical and chemical processes produces pieces that become part of the soil. Climate acts through temperature, rain, wind, and similar conditions, which change how fast rock weathers and how fast organic matter breaks down. Microorganisms decompose organic matter and mix the soil. That mixing is bioturbation. Plant roots act in the rhizosphere, the soil immediately around the roots. Topography is the shape of the land, including its slope, and it affects where soil stays or moves. Soil texture, humus, and soil pH describe soil that has already formed. Texture is the mix of sand, silt, and clay. Humus is decayed organic matter, a product of decomposition by microorganisms. Soil pH is how acidic or basic that soil is. Those are results, not factors that form the soil."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A vertical cut through soil shows its layers, from the surface down toward the bedrock. What is this cross-section called?"
+      },
+      "options": [
+        "A soil profile",
+        "A soil horizon",
+        "The rhizosphere",
+        "Topography"
+      ],
+      "answer": "A soil profile",
+      "explanation": "A soil profile is a vertical cross-section of the soil. It shows the layers from the surface down toward the bedrock. Each of those layers is a soil horizon. A horizon is one layer, not the whole cross-section. The rhizosphere is the soil immediately around a plant root. Topography is the shape of the land, including its slope. It affects where soil forms. It is not the layered cross-section."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is humus?" },
+      "options": [
+        "Decayed organic matter in the soil. Microorganisms produce it by decomposition.",
+        "One layer in a soil profile.",
+        "The mix of sand, silt, and clay in the soil.",
+        "The soil immediately around a plant root."
+      ],
+      "answer": "Decayed organic matter in the soil. Microorganisms produce it by decomposition.",
+      "explanation": "Humus is decayed organic matter in the soil. Microorganisms produce it when they decompose dead material. It is generally found in the O horizon. It is a result of soil formation, not one of the five factors. A soil horizon is one layer in a soil profile. Soil texture is the mix of sand, silt, and clay. The rhizosphere is the soil immediately around a plant root."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a soil horizon?" },
+      "options": [
+        "One layer in a soil profile.",
+        "The whole vertical cross-section of the soil, from the surface down toward the bedrock.",
+        "Decayed organic matter in the soil.",
+        "The shape of the land, including its slope."
+      ],
+      "answer": "One layer in a soil profile.",
+      "explanation": "A soil horizon is one layer in a soil profile. The profile is the whole vertical cross-section, from the surface down toward the bedrock, and it is made of these layers. Humus is decayed organic matter in the soil, produced when microorganisms decompose dead material. Topography is the shape of the land, including its slope. It affects where soil forms. It is not a layer in the profile."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "Humus is decayed organic matter in the soil. Where is it generally found?" },
+      "options": [
+        "The O horizon",
+        "The A horizon",
+        "The B horizon",
+        "The C horizon"
+      ],
+      "answer": "The O horizon",
+      "explanation": "Humus is generally found in the O horizon, the surface layer of organic matter. The A horizon is the layer of maximum biological activity. Leached materials such as clays, aluminum, iron, and silicates reside in the B horizon. Weathered rock or sediment deposits are found in the C horizon."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "Which soil horizon is the layer of maximum biological activity?" },
+      "options": [
+        "The A horizon",
+        "The O horizon",
+        "The B horizon",
+        "The C horizon"
+      ],
+      "answer": "The A horizon",
+      "explanation": "The A horizon is the layer of maximum biological activity. Roots, microorganisms, and other organisms are most active there. Humus is generally found in the O horizon. Leached materials such as clays, aluminum, iron, and silicates reside in the B horizon. Weathered rock or sediment deposits are found in the C horizon."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "Water moving down through the soil carries materials out of the upper layers. Where do leached materials such as clays, aluminum, iron, and silicates reside?" },
+      "options": [
+        "The B horizon",
+        "The O horizon",
+        "The A horizon",
+        "The C horizon"
+      ],
+      "answer": "The B horizon",
+      "explanation": "Leached materials are carried down from the upper layers and then reside in the B horizon. Those materials include clays, aluminum, iron, and silicates. Humus is generally found in the O horizon. The A horizon is the layer of maximum biological activity. Weathered rock or sediment deposits are found in the C horizon."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "Where are weathered rock or sediment deposits found in a soil profile?" },
+      "options": [
+        "The C horizon",
+        "The O horizon",
+        "The A horizon",
+        "The B horizon"
+      ],
+      "answer": "The C horizon",
+      "explanation": "The C horizon is where weathered rock or sediment deposits are found. It lies below the other horizons and above solid bedrock. Humus is generally found in the O horizon. The A horizon is the layer of maximum biological activity. Leached materials such as clays, aluminum, iron, and silicates reside in the B horizon."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is the importance of ionic exchange in soil?" },
+      "options": [
+        "It holds mineral cations on soil particles so rain does not wash them away, and roots can absorb those ions.",
+        "It holds anions such as nitrate on positive soil particles so rain does not wash nitrogen away.",
+        "It weathers bedrock into mineral ions, and that breakdown is what keeps the ions from leaching.",
+        "It carries cations up the xylem from the C horizon without the ions ever binding to soil particles."
+      ],
+      "answer": "It holds mineral cations on soil particles so rain does not wash them away, and roots can absorb those ions.",
+      "explanation": "Ionic exchange keeps plant nutrients in the soil. Clay and humus particles are negatively charged, so they hold cations such as potassium, calcium, and magnesium. Rain then does not leach those cations away, and a root can absorb them after they are released. Anions such as nitrate are not held by those negative particles, so nitrate leaches more easily. Breaking bedrock into smaller pieces is weathering. It helps form soil, but it is not the exchange that holds the ions. Xylem carries water and dissolved minerals up through the plant after the root has absorbed them. The ions are held on soil particles first."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "How does ionic exchange work?" },
+      "options": [
+        "Negatively charged clay and humus bind cations such as potassium, calcium, and magnesium. A hydrogen ion displaces a cation into the soil water, and the root absorbs it.",
+        "Positively charged sand binds anions such as nitrate. A hydroxide ion displaces an anion into the soil water, and the root absorbs it.",
+        "The Casparian strip binds the mineral ions. Water pressure in the xylem knocks the ions loose as water moves up the stem.",
+        "Humus dissolves in the O horizon, and the root absorbs that dissolved organic matter as its mineral ions."
+      ],
+      "answer": "Negatively charged clay and humus bind cations such as potassium, calcium, and magnesium. A hydrogen ion displaces a cation into the soil water, and the root absorbs it.",
+      "explanation": "Clay and humus particles are negatively charged. They bind cations such as potassium, calcium, and magnesium. A root releases hydrogen ions into the soil. A hydrogen ion displaces a mineral cation from a particle. That cation enters the soil water, and the root absorbs it. Carbon dioxide from the root and from soil organisms can also form carbonic acid with water, and that acid supplies more hydrogen ions. Sand has little charge, so it does not run this exchange. Anions such as nitrate are poorly held and leach more easily. The Casparian strip is a waxy band in the endodermis. It forces water and minerals to cross an endodermal membrane before they enter the xylem. It does not bind ions in the soil. Humus holds the cations. The root absorbs the released mineral ions, not the humus itself."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Clay and humus particles hold mineral cations such as potassium, calcium, and magnesium. A root normally releases hydrogen ions to displace some of those cations into the soil water. Acid rain adds many more hydrogen ions. What problem does that cause?"
+      },
+      "options": [
+        "The extra hydrogen ions displace the nutrient cations, and rainwater washes those cations away before roots can absorb them.",
+        "The extra hydrogen ions bind the nutrient cations more tightly, so a root can no longer release them.",
+        "The extra hydrogen ions make the particles positive, so the soil holds nitrate and stops holding potassium, calcium, and magnesium.",
+        "The extra hydrogen ions dissolve humus, and the root absorbs that organic matter in place of mineral ions."
+      ],
+      "answer": "The extra hydrogen ions displace the nutrient cations, and rainwater washes those cations away before roots can absorb them.",
+      "explanation": "Acid rain adds hydrogen ions faster than roots can use the displaced nutrients. Those hydrogen ions take the places of cations such as potassium, calcium, and magnesium on the negatively charged clay and humus. The freed cations then wash away in the rainwater, and the exchange sites are left occupied by hydrogen ions. A normal root releases only enough hydrogen ions to free some cations for absorption. Acid rain does not bind the nutrients more tightly, and it does not reverse the negative charge of the particles. Nitrate is an anion and was already poorly held. The root still needs the mineral cations. It does not switch to absorbing dissolved humus. Acid conditions can also free aluminum ions, which can damage roots."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Fungal hyphae grow with the roots of a living plant. The plant passes sugars to the fungus. The fungus increases the plant's uptake of water and minerals. Which relationship is this?"
+      },
+      "options": [
+        "Mutualism. The plant gains water and minerals, and the fungus gains sugars.",
+        "Parasitism. The fungus takes sugars, and the plant is harmed.",
+        "Commensalism. The fungus gains sugars, and the plant is unaffected.",
+        "Competition. Both need the same minerals, and each one reduces the other's supply."
+      ],
+      "answer": "Mutualism. The plant gains water and minerals, and the fungus gains sugars.",
+      "explanation": "This is mutualism. Both partners benefit from living in close association. The plant gains water and minerals, and the fungus gains sugars. This partnership is a mycorrhiza. Parasitism would benefit the fungus and harm the plant. The plant is not harmed here. It receives water and minerals. Commensalism would leave the plant unaffected. The plant gains from the extra uptake. Competition would mean the two reduce each other's supply of the same resource. The fungus is supplying minerals, not using up the plant's supply."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "An orchid grows on the bark of a tree. It collects water and minerals from rain and debris, and it makes its own sugars. It does not take food or water from the tree, and the tree grows as it did before. Which relationship is this?"
+      },
+      "options": [
+        "Commensalism. The orchid gains a place to grow, and the tree is unaffected.",
+        "Mutualism. The orchid gains a place to grow, and the tree gains sugars from the orchid.",
+        "Parasitism. The orchid takes water and sugars from the tree, and the tree is harmed.",
+        "Competition. The orchid and the tree reduce each other's supply of rain."
+      ],
+      "answer": "Commensalism. The orchid gains a place to grow, and the tree is unaffected.",
+      "explanation": "This is commensalism. The orchid benefits from a place to grow, and the tree is neither helped nor harmed. The orchid makes its own sugars and collects its own water and minerals. Mutualism would require the tree to benefit too. The tree does not receive sugars or any other gain. Parasitism would harm the tree by taking its food or water. That does not happen here. Competition would mean the two reduce a shared supply. The orchid is not taking the tree's rain or minerals."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A dodder vine has little chlorophyll. It grows into the stem of another plant and draws sugars out of that plant's phloem. The host grows poorly. Which relationship is this?"
+      },
+      "options": [
+        "Parasitism. The dodder gains sugars, and the host is harmed.",
+        "Mutualism. The dodder gains sugars, and the host gains water from the dodder.",
+        "Commensalism. The dodder gains sugars, and the host is unaffected.",
+        "Competition. Both plants make sugars in their own leaves and reduce each other's light."
+      ],
+      "answer": "Parasitism. The dodder gains sugars, and the host is harmed.",
+      "explanation": "This is parasitism. The dodder benefits by taking sugars from the host's phloem, and the host is harmed. The host grows poorly. Mutualism would require the host to benefit as well. The host does not gain water or anything else from the dodder. Commensalism would leave the host unaffected. The poor growth shows that it is harmed. Competition would mean both make their own sugars and reduce a shared resource such as light. The dodder has little chlorophyll and is taking sugars the host made. That makes it a full parasite. A hemiparasite, such as mistletoe, still photosynthesizes and takes water and minerals from the host."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a hemiparasite?" },
+      "options": [
+        "A photosynthetic parasite that also takes water and minerals from its host. Mistletoe is a hemiparasite.",
+        "A parasite with little or no chlorophyll that takes sugars from its host. Dodder is one.",
+        "A fungus that increases a plant's uptake of water and minerals, while the plant supplies sugars.",
+        "A plant that grows on another plant, makes its own sugars, and leaves the host unaffected."
+      ],
+      "answer": "A photosynthetic parasite that also takes water and minerals from its host. Mistletoe is a hemiparasite.",
+      "explanation": "A hemiparasite photosynthesizes, so it makes sugars, and it also takes water and minerals from its host. Mistletoe is a hemiparasite. Its green leaves make sugars, and it draws water and minerals from the tree. A full parasite has little or no chlorophyll and takes sugars from the host. Dodder is a full parasite. A mycorrhizal fungus increases water and mineral uptake and receives sugars, and the plant benefits, so that partnership is mutualism. An orchid that grows on bark and leaves the tree unaffected is a commensal, not a parasite."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a full parasite?" },
+      "options": [
+        "A parasite with little or no chlorophyll that takes sugars from its host. Dodder is a full parasite.",
+        "A photosynthetic parasite that also takes water and minerals from its host. Mistletoe is one.",
+        "A fungus that increases a plant's uptake of water and minerals, while the plant supplies sugars.",
+        "A plant that grows on another plant, makes its own sugars, and leaves the host unaffected."
+      ],
+      "answer": "A parasite with little or no chlorophyll that takes sugars from its host. Dodder is a full parasite.",
+      "explanation": "A full parasite has little or no chlorophyll and takes sugars from its host. Dodder is a full parasite. It draws sugars from the host's phloem, and the host grows poorly. Many texts call a full parasite a holoparasite. A hemiparasite still photosynthesizes and takes water and minerals from the host. Mistletoe is a hemiparasite. A mycorrhizal fungus and its plant both benefit, so that partnership is mutualism. An orchid on bark that leaves the tree unaffected is a commensal."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "How can you easily tell a full parasite from a hemiparasite?" },
+      "options": [
+        "A full parasite is generally not green, because it has no chlorophyll. A hemiparasite is green and photosynthesizes.",
+        "A full parasite is green, and a hemiparasite is generally not green.",
+        "A full parasite grows in the soil, and a hemiparasite grows only on tree bark.",
+        "A full parasite supplies water and minerals, and a hemiparasite supplies sugars."
+      ],
+      "answer": "A full parasite is generally not green, because it has no chlorophyll. A hemiparasite is green and photosynthesizes.",
+      "explanation": "Color is the easy difference. A full parasite is generally not green because it has no chlorophyll, so it cannot make its own sugars and takes them from the host. Dodder is generally not green. A hemiparasite has chlorophyll, so it is green and photosynthesizes, and it still takes water and minerals from the host. Mistletoe is green. Where the plant grows does not separate them. Both can grow attached to a host. Supplying water and minerals in exchange for sugars is a mycorrhiza, and both partners benefit."
+    },
+    {
+      "type": "select_all",
+      "prompt": { "text": "Select every way mycorrhizal fungi help plants." },
+      "bank": [
+        "They increase the plant's uptake of water.",
+        "They supply sugars to the plant.",
+        "They increase the plant's uptake of minerals.",
+        "They act as antibiotics, protecting the plant from pathogens in the soil.",
+        "They fix nitrogen gas into a form the plant can use.",
+        "A network of these fungi lets connected plants share resources and communicate about threats."
+      ],
+      "answers": [
+        "They increase the plant's uptake of water.",
+        "They increase the plant's uptake of minerals.",
+        "They act as antibiotics, protecting the plant from pathogens in the soil.",
+        "A network of these fungi lets connected plants share resources and communicate about threats."
+      ],
+      "explanation": "Mycorrhizal fungi help a plant take up water and minerals. Their hyphae add surface area around the roots, and the plant supplies sugars in return. They act as antibiotics, protecting the plant from pathogens in the soil. A network of these fungi can also connect plants, so the plants share resources and communicate about threats. The fungus does not supply the sugars. The plant does. Nitrogen fixation is a different partnership. Bacteria of the genus *Rhizobium* live in nodules on a legume and supply usable nitrogen. A mycorrhizal fungus does not do that job."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a concentration gradient?" },
+      "options": [
+        "A difference in the concentration of a substance between two regions. The substance tends to move from higher concentration toward lower concentration.",
+        "A pump that spends ATP to move a substance from lower concentration toward higher concentration.",
+        "Movement of water only, from the side with more solute toward the side with less solute.",
+        "An equal concentration of a solute on both sides of a membrane."
+      ],
+      "answer": "A difference in the concentration of a substance between two regions. The substance tends to move from higher concentration toward lower concentration.",
+      "explanation": "A concentration gradient is a difference in concentration between two regions. A substance is more concentrated on one side than the other. It tends to spread from the higher concentration toward the lower concentration. A pump that spends ATP to move a substance the other way is active transport. That movement is against the gradient. Water moving across a membrane is osmosis, and water moves toward the side with more solute, not toward the side with less. Equal concentrations on both sides means there is no gradient. That is equilibrium."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is passive transport, and does it use energy?" },
+      "options": [
+        "Movement of a substance down its concentration gradient. It does not use cellular energy.",
+        "Movement of a substance against its concentration gradient. It uses ATP.",
+        "Movement of a substance down its concentration gradient. It uses ATP.",
+        "Movement of water only, from lower solute concentration toward higher solute concentration, using ATP."
+      ],
+      "answer": "Movement of a substance down its concentration gradient. It does not use cellular energy.",
+      "explanation": "Passive transport moves a substance down its concentration gradient, from higher concentration toward lower concentration. The cell does not spend ATP on that movement. Facilitated diffusion is still passive. It uses a channel or carrier protein, but it does not use cellular energy. Active transport moves a substance against its gradient and does use energy. Osmosis is one kind of passive transport. It is the movement of water, and it does not use ATP."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is osmosis?" },
+      "options": [
+        "The passive movement of water across a selectively permeable membrane, from lower solute concentration toward higher solute concentration.",
+        "The pumping of water against its gradient. The cell spends ATP.",
+        "The movement of solute from higher concentration toward lower concentration, using a protein and ATP.",
+        "The movement of sugars through the phloem from a source to a sink."
+      ],
+      "answer": "The passive movement of water across a selectively permeable membrane, from lower solute concentration toward higher solute concentration.",
+      "explanation": "Osmosis is the diffusion of water across a selectively permeable membrane. Water moves from where solute is less concentrated toward where solute is more concentrated. That is passive transport, so the cell does not spend ATP. A root cell is often hypertonic to the soil water around it, so water enters the cell and the cell becomes turgid. Pumping a substance against its gradient is active transport. Sugar movement in the phloem is translocation, not osmosis."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a hypertonic solution?" },
+      "options": [
+        "It has a higher solute concentration than the cell. Water leaves the cell, and a plant cell's membrane pulls away from the wall.",
+        "It has a lower solute concentration than the cell. Water enters the cell, and a plant cell becomes turgid.",
+        "It has the same solute concentration as the cell. There is no net movement of water, and a plant cell is flaccid.",
+        "It has a higher solute concentration than the cell, so water enters the cell."
+      ],
+      "answer": "It has a higher solute concentration than the cell. Water leaves the cell, and a plant cell's membrane pulls away from the wall.",
+      "explanation": "A hypertonic solution has a higher solute concentration than the cell. Water leaves the cell by osmosis. In a plant cell the membrane pulls away from the wall. That is plasmolysis. An animal cell in the same solution shrivels. A hypotonic solution has a lower solute concentration than the cell, so water enters. A plant cell then becomes turgid, and an animal cell may burst. An isotonic solution matches the cell's solute concentration, so there is no net movement of water and a plant cell is flaccid. A higher solute concentration outside the cell does not pull water in. Water moves toward the higher solute concentration, which is outside the cell, so water leaves."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a hypotonic solution?" },
+      "options": [
+        "It has a lower solute concentration than the cell. Water enters the cell, and a plant cell becomes turgid.",
+        "It has a higher solute concentration than the cell. Water leaves the cell, and a plant cell's membrane pulls away from the wall.",
+        "It has the same solute concentration as the cell. There is no net movement of water, and a plant cell is flaccid.",
+        "It has a lower solute concentration than the cell, so water leaves the cell."
+      ],
+      "answer": "It has a lower solute concentration than the cell. Water enters the cell, and a plant cell becomes turgid.",
+      "explanation": "A hypotonic solution has a lower solute concentration than the cell. Water enters the cell by osmosis. A plant cell becomes turgid, pressed against its wall. The wall keeps it from bursting. This is the usual case for a plant cell: the cell is hypertonic to the soil solution, so that solution is hypotonic to the cell. An animal cell has no wall, so in a hypotonic solution it may swell and burst. A hypertonic solution has more solute than the cell, so water leaves and a plant cell's membrane pulls away from the wall. An isotonic solution matches the cell, so there is no net movement of water and a plant cell is flaccid. A lower solute concentration outside does not send water out of the cell."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is an isotonic solution?" },
+      "options": [
+        "It has the same solute concentration as the cell. There is no net movement of water, and a plant cell is flaccid.",
+        "It has a higher solute concentration than the cell. Water leaves the cell, and a plant cell's membrane pulls away from the wall.",
+        "It has a lower solute concentration than the cell. Water enters the cell, and a plant cell becomes turgid.",
+        "It has the same solute concentration as the cell, so the cell spends ATP to pump water in."
+      ],
+      "answer": "It has the same solute concentration as the cell. There is no net movement of water, and a plant cell is flaccid.",
+      "explanation": "An isotonic solution has the same solute concentration as the cell. Water still crosses the membrane, but there is no net movement, and the cell does not spend ATP. A plant cell in this solution is flaccid. It is not firm and turgid. An animal cell in an isotonic solution keeps its normal shape. A hypertonic solution has more solute than the cell, so water leaves. A hypotonic solution has less solute than the cell, so water enters and a plant cell becomes turgid. Animal cells are usually isotonic with the fluid around them. Plant cells are usually hypertonic to their surroundings, so the surrounding solution is hypotonic and the cells are turgid."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "How do water's cohesion and hydrophilic nature let it move up a stem against gravity?" },
+      "options": [
+        "Cohesion keeps water molecules stuck together in one column. Water's hydrophilic nature lets that column cling to the xylem walls, so transpiration can pull it upward.",
+        "Cohesion pushes water molecules apart. Water's hydrophobic nature lets the column bead up and roll down the xylem.",
+        "Root pressure alone pumps the water up, and cohesion is not needed to hold the column together.",
+        "The phloem pushes sugar sap up the stem, and water follows that sap against gravity."
+      ],
+      "answer": "Cohesion keeps water molecules stuck together in one column. Water's hydrophilic nature lets that column cling to the xylem walls, so transpiration can pull it upward.",
+      "explanation": "Cohesion is hydrogen bonding between water molecules, so they stay together as one continuous column in the xylem. Water is attracted to hydrophilic surfaces. The cellulose walls of the xylem are hydrophilic, so the column clings to them instead of pulling away as it is lifted. That clinging is adhesion. Transpiration, the loss of water vapor from the leaves, pulls on the column and draws water up the stem against gravity. Root pressure can push xylem sap from below, but it does not hold a tall column together. The phloem moves sugars. It is not the path that lifts this water column."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is water potential?" },
+      "options": [
+        "The overall tendency of water to move. It combines solute potential and pressure potential, and water moves from higher water potential toward lower water potential.",
+        "Only the effect of dissolved solutes. It is zero in pure water and negative when solutes are present.",
+        "Only the physical pressure on water. In a turgid cell this pressure is positive.",
+        "The concentration of solute. Water moves from lower solute concentration toward higher water potential."
+      ],
+      "answer": "The overall tendency of water to move. It combines solute potential and pressure potential, and water moves from higher water potential toward lower water potential.",
+      "explanation": "Water potential is the overall tendency of water to move. It combines solute potential and pressure potential. Water moves from higher water potential toward lower water potential, and the cell does not spend ATP on that movement. Solute potential is only the effect of dissolved solutes. It is one part of water potential, not the whole thing. Pressure potential is the physical pressure. Turgor makes it positive and can raise water potential. Pure water at atmospheric pressure has a water potential of zero. Adding solute lowers water potential, which is why water moves toward the side with more solute."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is solute potential?" },
+      "options": [
+        "The part of water potential caused by dissolved solutes. It is zero in pure water and becomes negative as solutes are added.",
+        "The overall tendency of water to move, including both solutes and physical pressure.",
+        "The positive pressure of a turgid cell pushing outward on its wall.",
+        "The pull of transpiration that lifts a water column up the xylem."
+      ],
+      "answer": "The part of water potential caused by dissolved solutes. It is zero in pure water and becomes negative as solutes are added.",
+      "explanation": "Solute potential is only the effect of dissolved solutes on water potential. Pure water has a solute potential of zero. Adding solute makes solute potential negative, and a more concentrated solution has a more negative solute potential. That lowers water potential, so water moves toward the higher solute concentration. Solute potential does not include turgor. Turgor is pressure potential, and it can be positive. Water potential is the sum of solute potential and pressure potential. The pull that lifts water up the xylem is transpiration, acting on a cohesive column. It is not solute potential."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "Water and ions soak through the cell walls and the spaces between cells in a root. They have not crossed a plasma membrane. Which route is this?" },
+      "options": [
+        "The apoplastic pathway",
+        "The symplastic pathway",
+        "Both the apoplastic and the symplastic pathways",
+        "The phloem"
+      ],
+      "answer": "The apoplastic pathway",
+      "explanation": "This is the apoplastic pathway. The apoplast is the cell walls and the spaces between cells. Water and ions can soak through that path without crossing a plasma membrane. The symplastic pathway is the cytoplasm of living cells, connected by plasmodesmata. That route has already crossed a membrane. In the epidermis and cortex, before the endodermis, both routes are open. The phloem carries sugars. It does not bring soil water into the root."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "Water and ions enter a root hair and then pass from cell to cell through plasmodesmata, the cytoplasmic connections between cells. Which route is this?" },
+      "options": [
+        "The symplastic pathway",
+        "The apoplastic pathway",
+        "Both the apoplastic and the symplastic pathways",
+        "The phloem"
+      ],
+      "answer": "The symplastic pathway",
+      "explanation": "This is the symplastic pathway. The symplast is the connected cytoplasm of living cells. Plasmodesmata are the cytoplasmic channels that link those cells. Water and ions on this route have crossed a plasma membrane to enter the root hair. The apoplastic pathway stays in the cell walls and the spaces between cells and has not crossed a membrane. Both routes are open in the epidermis and cortex. The phloem carries sugars through the plant. It is not this root-hair path."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "In the epidermis and cortex, before the endodermis, water and ions can travel through cell walls or through cytoplasm connected by plasmodesmata. Which routes are open there?" },
+      "options": [
+        "Both the apoplastic and the symplastic pathways.",
+        "Only the apoplastic pathway. The cytoplasm is closed until the xylem.",
+        "Only the symplastic pathway. Cell walls cannot carry water.",
+        "Neither pathway. Soil water enters the root only through the phloem."
+      ],
+      "answer": "Both the apoplastic and the symplastic pathways.",
+      "explanation": "Before the endodermis, both routes are open. The apoplastic pathway moves water and ions through cell walls and the spaces between cells, without crossing a plasma membrane. The symplastic pathway moves them through cytoplasm connected by plasmodesmata. Cell walls can carry water, and the cytoplasm is not closed in the cortex. Soil water does not enter the root through the phloem. At the endodermis the choice narrows: the Casparian strip blocks the apoplast."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "At the endodermis, the Casparian strip blocks the cell walls. Water and ions must cross an endodermal membrane to reach the xylem. Which route passes that barrier?" },
+      "options": [
+        "The symplastic pathway",
+        "The apoplastic pathway",
+        "Both the apoplastic and the symplastic pathways",
+        "The phloem"
+      ],
+      "answer": "The symplastic pathway",
+      "explanation": "The Casparian strip is a waxy band of suberin in the walls of endodermal cells. It blocks the apoplastic pathway, so water and ions cannot reach the xylem by soaking through cell walls. They must cross the membrane of an endodermal cell and continue in the symplast. The endodermis can then control which ions enter the vascular tissue. After that crossing, the water can enter the xylem. Xylem conducting cells are dead, so the water then moves through their empty interiors. The phloem carries sugars. It does not pass soil water across the endodermis."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence describing the rate of transpiration in the morning, at midday, and at night."
+      },
+      "sentence": [
+        "In the morning, the rate of transpiration ",
+        null,
+        ". At midday, it ",
+        null,
+        ". At night, it ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "increases",
+        "peaks",
+        "decreases"
+      ],
+      "bank": [
+        "increases",
+        "peaks",
+        "decreases"
+      ],
+      "explanation": "In the morning, light opens the stomata and the rate of transpiration increases. At midday the rate peaks. Water vapor is leaving the leaves fastest then, and that pull on the xylem column is strongest. At night the stomata close, so the rate decreases. The night rate is not the peak, and the morning rise has not yet reached the midday high. If the plant is short of water, abscisic acid can close the stomata and lower the rate, but the usual daily pattern is an increase in the morning, a peak at midday, and a decrease at night."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What is a plant boundary layer?" },
+      "options": [
+        "The thin layer of still air that clings to a leaf. Water vapor must diffuse across it before it joins the moving air.",
+        "The waxy band in endodermal cell walls that blocks water in the cell walls.",
+        "The waxy covering on a leaf that keeps water vapor in except at the stomata.",
+        "The connected cytoplasm of root cells, linked by plasmodesmata."
+      ],
+      "answer": "The thin layer of still air that clings to a leaf. Water vapor must diffuse across it before it joins the moving air.",
+      "explanation": "A plant boundary layer is the thin layer of still air against the leaf surface. Water vapor leaving the stomata has to diffuse across that layer before it mixes with the air farther from the leaf. A thicker layer slows transpiration. Wind thins the layer, so water vapor leaves more readily. The waxy band in the endodermis is the Casparian strip. The waxy covering on a leaf is the cuticle. The connected cytoplasm of cells is the symplast."
+    },
+    {
+      "type": "select_all",
+      "prompt": { "text": "Select every way a plant increases its boundary layer." },
+      "bank": [
+        "Leaf hairs trap still air against the leaf.",
+        "Small, narrow leaves let moving air sweep the surface.",
+        "Stomatal chambers hold still air over the pores.",
+        "A smooth leaf in the wind loses that still air.",
+        "Larger leaves keep a thicker layer of still air."
+      ],
+      "answers": [
+        "Leaf hairs trap still air against the leaf.",
+        "Stomatal chambers hold still air over the pores.",
+        "Larger leaves keep a thicker layer of still air."
+      ],
+      "explanation": "A plant boundary layer is the still air against the leaf. A thicker layer slows transpiration, because water vapor must diffuse farther before it joins the moving air. Leaf hairs trap that still air. Stomatal chambers sink the pores in a pocket of still air. A larger leaf keeps a thicker layer, because air travels farther across the surface before it mixes. Small, narrow leaves and a smooth leaf in the wind do the opposite. Moving air sweeps the surface and thins the layer, so water vapor leaves more readily."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence with the steps that open a stoma and the steps that close it."
+      },
+      "sentence": [
+        "To open a stoma, guard cells ",
+        null,
+        ". Then ",
+        null,
+        ". Then ",
+        null,
+        ". To close a stoma, ",
+        null,
+        ". Then ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "pump hydrogen ions out",
+        "potassium ions enter",
+        "water enters by osmosis and the cells swell",
+        "potassium ions leave the guard cells",
+        "water leaves by osmosis and the cells shrink"
+      ],
+      "bank": [
+        "pump hydrogen ions out",
+        "potassium ions enter",
+        "water enters by osmosis and the cells swell",
+        "potassium ions leave the guard cells",
+        "water leaves by osmosis and the cells shrink",
+        "sugars enter from the phloem",
+        "water leaves and the cells swell"
+      ],
+      "explanation": "A stoma opens when its two guard cells take up water and swell. The guard cells first pump hydrogen ions out. Potassium ions then enter, water follows by osmosis, and the swollen cells bow the pore open. Carbon dioxide can enter, and water vapor can leave. A stoma closes when that movement reverses. Potassium ions leave the guard cells, water leaves by osmosis, and the cells shrink, so the pore closes. Abscisic acid from the leaves triggers this closing when the plant is short of water. Sugars moving in the phloem do not open or close the pore. Water leaving the cells makes them shrink. It does not make them swell."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What effect does sunlight have on guard cells and the stomata?" },
+      "options": [
+        "It stimulates the guard cells. They take up ions and water, and the stomata open.",
+        "It makes the leaves produce abscisic acid, and the stomata close.",
+        "It closes the stomata at dawn and opens them at dusk.",
+        "It raises carbon dioxide in the leaf, and the stomata close."
+      ],
+      "answer": "It stimulates the guard cells. They take up ions and water, and the stomata open.",
+      "explanation": "Sunlight stimulates the guard cells. They pump hydrogen ions out, potassium ions enter, water enters by osmosis, and the cells swell, so the stomata open. Low carbon dioxide inside a leaf also opens the stomata. A biological clock opens them during the day and closes them at night. A plant short of water produces abscisic acid, and that acid closes the stomata. Sunlight does not start that closing."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What effect does low carbon dioxide in a leaf have on guard cells and the stomata?" },
+      "options": [
+        "It stimulates the guard cells, and the stomata open.",
+        "It makes the leaves produce abscisic acid, and the stomata close.",
+        "It closes the stomata so the leaf can hold on to the carbon dioxide it has.",
+        "It has no effect. Only sunlight changes the stomata."
+      ],
+      "answer": "It stimulates the guard cells, and the stomata open.",
+      "explanation": "Low carbon dioxide inside a leaf stimulates the guard cells, and the stomata open. That lets more carbon dioxide in for photosynthesis. Sunlight also opens the stomata. A biological clock opens them during the day and closes them at night. Closing the stomata to keep carbon dioxide in is the wrong response to a low level. A plant short of water, not a low carbon dioxide level, produces abscisic acid and closes the stomata."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "What effect does a guard cell's biological clock have on the stomata?" },
+      "options": [
+        "It opens the stomata during the day and closes them at night.",
+        "It keeps the stomata open all night and closed all day.",
+        "It closes the stomata whenever sunlight reaches the leaf.",
+        "It makes the leaf produce abscisic acid and close the stomata in the morning."
+      ],
+      "answer": "It opens the stomata during the day and closes them at night.",
+      "explanation": "A biological clock in the guard cells opens the stomata during the day and closes them at night. That daily rhythm continues even when the outside cues do not change. Sunlight and low carbon dioxide in the leaf also open the stomata. A plant short of water produces abscisic acid, and that acid closes the stomata. The clock does not close them at dawn or produce abscisic acid in the morning."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "A plant is short of water. What effect does that water stress have on guard cells and the stomata?" },
+      "options": [
+        "The leaves produce abscisic acid. The guard cells lose water, and the stomata close.",
+        "Sunlight-like signals make the guard cells take up water, and the stomata open.",
+        "Low carbon dioxide makes the guard cells swell, and the stomata open wider.",
+        "The biological clock keeps the stomata open until the soil is wet again."
+      ],
+      "answer": "The leaves produce abscisic acid. The guard cells lose water, and the stomata close.",
+      "explanation": "Water stress makes the leaves produce abscisic acid. That acid acts on the guard cells. Potassium ions leave, water leaves by osmosis, the cells shrink, and the stomata close, so the leaf loses less water. Sunlight and low carbon dioxide in the leaf open the stomata. The biological clock opens them during the day and closes them at night. None of those three is the water-stress response."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "At night the stomata are closed. Root pressure pushes xylem sap up, and liquid water comes out as droplets at the leaf edges. What is this loss of liquid water called?"
+      },
+      "options": [
+        "Guttation",
+        "Transpiration",
+        "Translocation",
+        "Root pressure"
+      ],
+      "answer": "Guttation",
+      "explanation": "Guttation is the loss of liquid water from the leaf as droplets. It happens when the stomata are closed and root pressure pushes xylem sap up. The droplets usually leave through hydathodes at the leaf edges. Transpiration is water vapor leaving through open stomata. Translocation is the movement of sugars through the phloem. Root pressure is the push from the roots that can force the sap upward. It causes guttation. It is not the name of the droplets themselves."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": { "text": "True or false: Translocation is bidirectional." },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Translocation is bidirectional. Sugars move in the phloem from a source to a sink, and that direction can be up or down the plant. A mature leaf can send sugars down to a growing root or up to a growing shoot, a fruit, or a seed. Xylem sap moves from the roots toward the leaves. It does not reverse in that way. In one sieve tube at one time, the sap flows from the source toward the sink. Another tube, or the same tube at another time, can flow the other way."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence with the steps of translocation, from a source to a sink."
+      },
+      "sentence": [
+        "At a source, ",
+        null,
+        ". Then ",
+        null,
+        ". Then ",
+        null,
+        ". At a sink, ",
+        null,
+        ". Then ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "sugar is loaded into a sieve tube",
+        "water enters the sieve tube from the xylem by osmosis",
+        "pressure pushes the sap toward the sink",
+        "sugar is unloaded",
+        "water leaves the sieve tube and returns to the xylem"
+      ],
+      "bank": [
+        "sugar is loaded into a sieve tube",
+        "water enters the sieve tube from the xylem by osmosis",
+        "pressure pushes the sap toward the sink",
+        "sugar is unloaded",
+        "water leaves the sieve tube and returns to the xylem",
+        "sugar is loaded into a tracheid",
+        "transpiration pulls the sap toward the sink"
+      ],
+      "explanation": "Translocation moves sugar through a sieve tube from a source to a sink. At the source, sugar is loaded into the sieve tube. A companion cell, which keeps its nucleus, assists that loading, and the loading often uses ATP. The added sugar lowers the water potential in the tube, so water enters from the xylem by osmosis. The rising pressure pushes the sap toward the sink. The sink may be below the leaf or above it. At the sink, sugar is unloaded. Water then leaves the sieve tube and returns to the xylem, and the pressure falls. A tracheid carries water in the xylem. It does not carry the sugar sap. Transpiration pulls the xylem column. It does not pull phloem sap."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence identifying whether transpiration and translocation are active or passive."
+      },
+      "sentence": [
+        "Transpiration, the loss of water vapor that pulls xylem sap up the stem, is ",
+        null,
+        ". Translocation, the movement of sugars through the phloem, is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "passive",
+        "active"
+      ],
+      "bank": [
+        "passive",
+        "active"
+      ],
+      "explanation": "Transpiration is passive. Water vapor leaves the leaf, and cohesion pulls the xylem column up the stem. The plant does not spend ATP on that flow. Translocation is active. Sugar is loaded into a sieve tube at the source, and that loading uses ATP. Water then enters by osmosis, and pressure pushes the sap toward the sink. The push along the tube does not spend more ATP. The energy was spent when the sugar was loaded. A companion cell assists that loading."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select the 6 essential mineral macronutrients that plants obtain from the soil."
+      },
+      "bank": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Calcium",
+        "Magnesium",
+        "Sulfur",
+        "Iron",
+        "Zinc",
+        "Copper"
+      ],
+      "answers": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Calcium",
+        "Magnesium",
+        "Sulfur"
+      ],
+      "explanation": "The six essential mineral macronutrients from the soil are nitrogen, phosphorus, potassium, calcium, magnesium, and sulfur. Plants need them in relatively large amounts. Carbon, hydrogen, and oxygen are also macronutrients, but they are not taken from the soil as mineral ions. Carbon comes from carbon dioxide in the air, and hydrogen and oxygen come from water. Iron, zinc, and copper are essential too, but they are micronutrients. The plant needs them only in small amounts."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a major determinant of where plants grow and how well they grow?"
+      },
+      "options": [
+        "The soil's supply of water and mineral nutrients.",
+        "The direction sugar moves in the phloem.",
+        "Whether the leaves are simple or compound.",
+        "The amount of oxygen the leaves release."
+      ],
+      "answer": "The soil's supply of water and mineral nutrients.",
+      "explanation": "A major determinant of plant distribution and growth is the soil's supply of water and mineral nutrients. Roots can take up only what the soil holds and releases. Poor soil or dry soil limits where a plant can live and how large it can grow. The direction of sugar flow in the phloem changes with source and sink. It does not decide where the species can live. Simple and compound leaves are leaf shapes. They do not set the plant's distribution. Oxygen released by the light-dependent reactions is a product of photosynthesis. It is not the factor that determines where the plant grows."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does soil texture affect the water available to a plant?"
+      },
+      "options": [
+        "Sand drains quickly, so little water stays near the roots. Clay holds water tightly, and some of that water is too tightly bound for roots to take. A mix that includes silt holds water the roots can absorb.",
+        "Sand holds water so tightly that roots cannot take it. Clay drains at once, so no water remains.",
+        "Soil texture does not affect water. Every soil supplies the same amount to the roots.",
+        "Only humus in the C horizon holds water. Sand, silt, and clay do not."
+      ],
+      "answer": "Sand drains quickly, so little water stays near the roots. Clay holds water tightly, and some of that water is too tightly bound for roots to take. A mix that includes silt holds water the roots can absorb.",
+      "explanation": "Soil texture changes how much water roots can use. Sand has large spaces, so water drains away and little remains near the roots. Clay particles are tiny and charged. They hold water tightly, and some of that water is bound so strongly that roots cannot absorb it. Silt is intermediate. A mixture of sand, silt, and clay can hold water without binding all of it, so more of the water is available. Humus also helps soil hold water, but it is generally in the O horizon, not the C horizon. The C horizon is weathered rock or sediment. Texture is not irrelevant. Sand and clay do not behave in the opposite way."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why are legumes efficient at obtaining nitrogen, and how does *Rhizobium* benefit?"
+      },
+      "options": [
+        "*Rhizobium* in root nodules fixes nitrogen gas into a form the legume can use. The legume supplies the bacteria with carbohydrates.",
+        "The legume fixes nitrogen gas in its leaves. *Rhizobium* receives water and gives the plant nothing.",
+        "*Rhizobium* digests insects for the legume. The bacteria receive the insect's sugar.",
+        "The legume takes nitrogen from fungal hyphae. *Rhizobium* receives the plant's oxygen."
+      ],
+      "answer": "*Rhizobium* in root nodules fixes nitrogen gas into a form the legume can use. The legume supplies the bacteria with carbohydrates.",
+      "explanation": "Legumes are efficient at obtaining nitrogen because *Rhizobium* bacteria live in nodules on their roots and fix nitrogen gas into a form the plant can use. Most plants cannot use nitrogen gas directly. The relationship is mutualism. The bacteria benefit because the legume supplies carbohydrates. The plant does not fix nitrogen gas in its leaves, and the bacteria are not unpaid. Digesting insects for nitrogen is what a carnivorous plant does in poor soil. It is not the legume partnership. A mycorrhizal fungus can help a plant take up mineral nitrogen already in the soil. It does not fix nitrogen gas, and it is not *Rhizobium*."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Why do carnivorous plants digest insects?"
+      },
+      "options": [
+        "The soil is poor in nitrogen. The insects supply nitrogen and other minerals. The plant still builds sugar by photosynthesis.",
+        "The plant cannot photosynthesize, so the insects supply the sugar it uses for energy.",
+        "The insects supply carbon dioxide, which the leaves cannot take from the air.",
+        "The insects open the stomata, and digestion is how the plant loses water vapor."
+      ],
+      "answer": "The soil is poor in nitrogen. The insects supply nitrogen and other minerals. The plant still builds sugar by photosynthesis.",
+      "explanation": "Carnivorous plants, also called insectivorous plants, live where the soil is poor in nitrogen, such as a bog. Digesting insects supplies nitrogen and other minerals that the soil does not provide. These plants are green. They still capture light and build sugar by photosynthesis. The insects are not their source of sugar or of carbon dioxide. Carbon dioxide enters from the air. Digestion is not transpiration, and insects do not open the stomata."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is the major contributor to the dry biomass of a plant?"
+      },
+      "options": [
+        "Carbon from carbon dioxide in the air, built into organic molecules by photosynthesis.",
+        "Mineral ions taken from the soil, especially nitrogen and potassium.",
+        "Water held in the xylem and the vacuoles.",
+        "Oxygen released when water is split in the light-dependent reactions."
+      ],
+      "answer": "Carbon from carbon dioxide in the air, built into organic molecules by photosynthesis.",
+      "explanation": "Most of a plant's dry biomass is carbon from carbon dioxide in the air. Photosynthesis builds that carbon into sugars and other organic molecules, so the dry mass is mostly those molecules. Mineral ions from the soil are essential, but they make up only a small part of the dry mass. Water is most of the fresh mass. It is gone once the plant is dried, so it is not the dry biomass. Oxygen released when water is split leaves the plant. It is not stored as the bulk of the dry mass."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does pressure potential affect water potential?"
+      },
+      "options": [
+        "Pressure potential is the physical pressure on water. Positive pressure, such as turgor, raises water potential. Negative pressure, such as the pull in the xylem, lowers it.",
+        "Pressure potential is the effect of dissolved solutes. It is zero in pure water and negative when solutes are added.",
+        "Pressure potential replaces water potential. Solutes and physical pressure do not affect it.",
+        "Pressure potential is always negative, so turgor makes water leave the cell."
+      ],
+      "answer": "Pressure potential is the physical pressure on water. Positive pressure, such as turgor, raises water potential. Negative pressure, such as the pull in the xylem, lowers it.",
+      "explanation": "Water potential combines solute potential and pressure potential. Pressure potential is the physical pressure on the water. Positive pressure, such as the turgor of a plant cell pressed against its wall, raises water potential. Negative pressure, such as the tension from transpiration pulling on the xylem column, lowers water potential. Solute potential is the other part. It is zero in pure water and becomes negative as solutes are added, which also lowers water potential. Turgor does not force water out. A turgid cell has high pressure potential, and water has entered. Water still moves from higher water potential toward lower water potential."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence with the steps of water transport through a plant, in order."
+      },
+      "sentence": [
+        "First, ",
+        null,
+        ". Then ",
+        null,
+        ". Then ",
+        null,
+        ". Then ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "water from the soil enters through a root hair",
+        "water crosses the root and enters the xylem",
+        "transpiration pulls the cohesive water column up to the leaves",
+        "water vapor leaves through open stomata"
+      ],
+      "bank": [
+        "water from the soil enters through a root hair",
+        "water crosses the root and enters the xylem",
+        "transpiration pulls the cohesive water column up to the leaves",
+        "water vapor leaves through open stomata",
+        "sugar is loaded into a sieve tube",
+        "root pressure pushes water vapor out through closed stomata"
+      ],
+      "explanation": "Water transport begins when water from the soil enters through a root hair. It crosses the epidermis and cortex by the apoplastic pathway, the symplastic pathway, or both. At the endodermis the Casparian strip blocks the cell walls, so the water must cross an endodermal membrane before it enters the xylem. Cohesion keeps the water in one column, and the column clings to the hydrophilic xylem walls. Transpiration pulls that column up to the leaves. Water vapor then leaves through open stomata. The plant does not spend ATP on this flow. Sugar loaded into a sieve tube is translocation in the phloem, not this path. Root pressure can push liquid xylem sap, and guttation is liquid water at the leaf edge when the stomata are closed. It does not push water vapor out through closed stomata."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do solutes cross the plasma membrane of a plant cell?"
+      },
+      "options": [
+        "Some move passively down their gradient. A proton pump spends ATP to push hydrogen ions out, and that gradient can bring other solutes in by cotransport.",
+        "Every solute crosses only by osmosis, and the membrane has no transport proteins.",
+        "The Casparian strip pumps every solute into the cell, and no ATP is used.",
+        "Pressure in the phloem pushes every solute across the membrane from lower concentration toward higher concentration, with no protein and no ATP."
+      ],
+      "answer": "Some move passively down their gradient. A proton pump spends ATP to push hydrogen ions out, and that gradient can bring other solutes in by cotransport.",
+      "explanation": "Solutes cross a plant plasma membrane in more than one way. Some move passively down their concentration gradient. No ATP is spent. A channel or carrier can help, and that facilitated diffusion is still passive. A proton pump spends ATP to push hydrogen ions out of the cell. The hydrogen-ion gradient and the charge difference store energy. Cotransport uses that gradient to bring other solutes, such as nitrate or sugar, back in with the hydrogen ions. The membrane quiz makes the same distinction: active transport can be powered directly by ATP or by energy stored in a gradient. Osmosis is the passive movement of water, not the path of every solute. The Casparian strip is a waxy band in the endodermis. It blocks the apoplast. It is not a pump. Phloem pressure moves sap in bulk through sieve tubes. It does not push every solute across a membrane against its gradient without a protein."
+    }
+  ]
+}

@@ -488,11 +488,7 @@
     {
       "type": "multiple_choice",
       "prompt": {
-        "text": "What happens in double fertilization?",
-        "image": "images/biology/seed_plants/embryo_sac.png",
-        "imageClass": "quiz-image--specimen",
-        "imageAlt": "Embryo sac diagram with letters A through G. Leader lines connect A through E to cells. F marks the chalazal end and G marks the micropylar end.",
-        "caption": "Schematic of an angiosperm embryo sac, the female gametophyte. OpenStax Biology, CC BY. https://courses.lumenlearning.com/atd-herkimer-biologyfundamentals1/chapter/sexual-reproduction-in-angiosperms/"
+        "text": "What happens in double fertilization?"
       },
       "options": [
         "One sperm joins the egg and forms the zygote. The other sperm joins the two polar nuclei and forms the endosperm.",
@@ -501,7 +497,7 @@
         "One sperm joins a synergid, and the other sperm joins an antipodal cell."
       ],
       "answer": "One sperm joins the egg and forms the zygote. The other sperm joins the two polar nuclei and forms the endosperm.",
-      "explanation": "Double fertilization happens in a flowering plant, inside the embryo sac. Two sperm travel in the pollen tube. One sperm joins the egg, the yellow cell labeled D, and that fusion forms the zygote. The zygote develops into the embryo. The other sperm joins the two polar nuclei, labeled B, inside the central cell, labeled E. That fusion forms the endosperm, the seed's supply of stored food. The endosperm is triploid, because the sperm and each polar nucleus are haploid. A single fusion, one sperm with the egg and no fusion with the polar nuclei, is what happens in a pine. Both sperm do not join the egg, and the central cell is fertilized. The synergids, labeled C, and the antipodal cells, labeled A, do not fuse with the sperm. The integument becomes the seed coat, and the ovary wall becomes the fruit. The diagram is from OpenStax Biology and is licensed CC BY on Lumen Learning."
+      "explanation": "Double fertilization happens in a flowering plant, inside the embryo sac. Two sperm travel in the pollen tube. One sperm joins the egg, and that fusion forms the zygote. The zygote develops into the embryo. The other sperm joins the two polar nuclei inside the central cell. That fusion forms the endosperm, the seed's supply of stored food. The endosperm is triploid, because the sperm and each polar nucleus are haploid. A single fusion, one sperm with the egg and no fusion with the polar nuclei, is what happens in a pine. Both sperm do not join the egg, and the central cell is fertilized. The synergids and the antipodal cells do not fuse with the sperm. The integument becomes the seed coat, and the ovary wall becomes the fruit."
     },
     {
       "type": "multiple_choice",
@@ -539,7 +535,7 @@
         "Angiosperms"
       ],
       "answer": "Gymnosperms",
-      "explanation": "These notes describe gymnosperms as woody and slow-growing. Angiosperms are described as herbaceous and fast-growing. A gymnosperm stem thickens by secondary growth from a vascular cambium, and almost all gymnosperms are woody. The angiosperm column in the notes pairs a herbaceous body with fast growth."
+      "explanation": "Gymnosperms are woody and slow-growing. Angiosperms are herbaceous and fast-growing. A gymnosperm stem thickens by secondary growth from a vascular cambium, and almost all gymnosperms are woody. A herbaceous body and fast growth go together in angiosperms."
     },
     {
       "type": "drag_and_drop",
@@ -551,7 +547,7 @@
         "Angiosperms"
       ],
       "answer": "Angiosperms",
-      "explanation": "These notes describe angiosperms as herbaceous and fast-growing. Gymnosperms are described as woody and slow-growing. A herbaceous plant does not build a thick woody trunk. The gymnosperm column pairs a woody body with slow growth."
+      "explanation": "Angiosperms are herbaceous and fast-growing. Gymnosperms are woody and slow-growing. A herbaceous plant does not build a thick woody trunk. A woody body and slow growth go together in gymnosperms."
     },
     {
       "type": "drag_and_drop",
@@ -563,7 +559,7 @@
         "Angiosperms"
       ],
       "answer": "Gymnosperms",
-      "explanation": "These notes give gymnosperms lengthy reproductive cycles. Angiosperms have short reproductive cycles. In a pine, fertilization happens more than a year after pollination, and the seed then forms on the cone scale. A flowering plant can be pollinated and fertilized in one season."
+      "explanation": "Gymnosperms have lengthy reproductive cycles. Angiosperms have short reproductive cycles. In a pine, fertilization happens more than a year after pollination, and the seed then forms on the cone scale. A flowering plant can be pollinated and fertilized in one season."
     },
     {
       "type": "drag_and_drop",
@@ -575,7 +571,7 @@
         "Angiosperms"
       ],
       "answer": "Angiosperms",
-      "explanation": "These notes give angiosperms short reproductive cycles. Gymnosperms have lengthy reproductive cycles. A flower can be pollinated and fertilized in one season, and the fertilized ovule becomes a seed inside a fruit. In a pine, fertilization happens more than a year after pollination."
+      "explanation": "Angiosperms have short reproductive cycles. Gymnosperms have lengthy reproductive cycles. A flower can be pollinated and fertilized in one season, and the fertilized ovule becomes a seed inside a fruit. In a pine, fertilization happens more than a year after pollination."
     },
     {
       "type": "drag_and_drop",
@@ -587,7 +583,7 @@
         "Angiosperms"
       ],
       "answer": "Gymnosperms",
-      "explanation": "These notes give gymnosperms a long juvenile stage. Angiosperms have a short juvenile stage. The juvenile stage is the period before the plant can reproduce. It fits the gymnosperm column with slow growth and lengthy reproductive cycles. The angiosperm column pairs a short juvenile stage with fast growth and short reproductive cycles."
+      "explanation": "Gymnosperms have a long juvenile stage. Angiosperms have a short juvenile stage. The juvenile stage is the period before the plant can reproduce. In gymnosperms it goes with slow growth and lengthy reproductive cycles. In angiosperms a short juvenile stage goes with fast growth and short reproductive cycles."
     },
     {
       "type": "drag_and_drop",
@@ -599,7 +595,7 @@
         "Angiosperms"
       ],
       "answer": "Angiosperms",
-      "explanation": "These notes give angiosperms a short juvenile stage. Gymnosperms have a long juvenile stage. A short juvenile stage means the plant can reproduce sooner. It fits the angiosperm column with fast growth and short reproductive cycles. The gymnosperm column pairs a long juvenile stage with slow growth."
+      "explanation": "Angiosperms have a short juvenile stage. Gymnosperms have a long juvenile stage. A short juvenile stage means the plant can reproduce sooner. In angiosperms it goes with fast growth and short reproductive cycles. In gymnosperms a long juvenile stage goes with slow growth."
     },
     {
       "type": "drag_and_drop",
@@ -611,7 +607,7 @@
         "Angiosperms"
       ],
       "answer": "Gymnosperms",
-      "explanation": "These notes describe gymnosperm cotyledons and young leaves as thick, green, energetically expensive to make, and not changeable in shape. Angiosperm cotyledons and leaves are thin, deciduous, energetically cheap to make, and variable in shape. A cotyledon is a seed leaf. The gymnosperm version costs more to build and keeps one shape."
+      "explanation": "Gymnosperm cotyledons and young leaves are thick, green, energetically expensive to make, and not changeable in shape. Angiosperm cotyledons and leaves are thin, deciduous, energetically cheap to make, and variable in shape. A cotyledon is a seed leaf. The gymnosperm version costs more to build and keeps one shape."
     },
     {
       "type": "drag_and_drop",
@@ -623,7 +619,7 @@
         "Angiosperms"
       ],
       "answer": "Angiosperms",
-      "explanation": "These notes describe angiosperm cotyledons and leaves as thin, deciduous, energetically cheap to make, and variable in shape. Gymnosperm cotyledons and young leaves are thick, green, energetically expensive to make, and not changeable in shape. Deciduous leaves are shed. A cotyledon is a seed leaf. The angiosperm version costs less to build and can take more than one shape."
+      "explanation": "Angiosperm cotyledons and leaves are thin, deciduous, energetically cheap to make, and variable in shape. Gymnosperm cotyledons and young leaves are thick, green, energetically expensive to make, and not changeable in shape. Deciduous leaves are shed. A cotyledon is a seed leaf. The angiosperm version costs less to build and can take more than one shape."
     },
     {
       "type": "drag_and_drop",
@@ -635,7 +631,7 @@
         "Angiosperms"
       ],
       "answer": "Gymnosperms",
-      "explanation": "These notes say gymnosperm tracheids and sieve tubes are relatively inefficient. Angiosperm vessels and sieve tubes are highly efficient. Tracheids conduct water and are the wood of a gymnosperm. Soft wood consists primarily of tracheids and lacks vessel elements. Sieve tubes conduct sugars. Vessel elements arose later, in flowering plants, and the notes treat that combination as the more efficient one."
+      "explanation": "Gymnosperm tracheids and sieve tubes are relatively inefficient. Angiosperm vessels and sieve tubes are highly efficient. Tracheids conduct water and are the wood of a gymnosperm. Soft wood consists primarily of tracheids and lacks vessel elements. Sieve tubes conduct sugars. Vessel elements arose later, in flowering plants, and that combination is the more efficient one."
     },
     {
       "type": "drag_and_drop",
@@ -647,7 +643,7 @@
         "Angiosperms"
       ],
       "answer": "Angiosperms",
-      "explanation": "These notes say angiosperm vessels and sieve tubes are highly efficient. Gymnosperm tracheids and sieve tubes are relatively inefficient. Vessel elements conduct water and arose in flowering plants. A gymnosperm's wood consists primarily of tracheids and lacks vessel elements. Sieve tubes conduct sugars in both columns of the notes. The efficiency difference is the vessels."
+      "explanation": "Angiosperm vessels and sieve tubes are highly efficient. Gymnosperm tracheids and sieve tubes are relatively inefficient. Vessel elements conduct water and arose in flowering plants. A gymnosperm's wood consists primarily of tracheids and lacks vessel elements. Sieve tubes conduct sugars in both groups. The efficiency difference is the vessels."
     },
     {
       "type": "drag_and_drop",
@@ -659,7 +655,7 @@
         "Angiosperms"
       ],
       "answer": "Gymnosperms",
-      "explanation": "These notes give gymnosperms a slow seedling growth rate. Angiosperms have a rapid seedling growth rate. A gymnosperm seedling also has thick, costly cotyledons and a long juvenile stage. An angiosperm seedling has thin, cheap cotyledons and a short juvenile stage, so it grows faster."
+      "explanation": "Gymnosperms have a slow seedling growth rate. Angiosperms have a rapid seedling growth rate. A gymnosperm seedling also has thick, costly cotyledons and a long juvenile stage. An angiosperm seedling has thin, cheap cotyledons and a short juvenile stage, so it grows faster."
     },
     {
       "type": "drag_and_drop",
@@ -671,7 +667,7 @@
         "Angiosperms"
       ],
       "answer": "Angiosperms",
-      "explanation": "These notes give angiosperms a rapid seedling growth rate. Gymnosperms have a slow seedling growth rate. Thin, cheap, deciduous cotyledons and a short juvenile stage fit the faster angiosperm seedling. Thick, costly cotyledons and a long juvenile stage fit the slower gymnosperm seedling."
+      "explanation": "Angiosperms have a rapid seedling growth rate. Gymnosperms have a slow seedling growth rate. Thin, cheap, deciduous cotyledons and a short juvenile stage fit the faster angiosperm seedling. Thick, costly cotyledons and a long juvenile stage fit the slower gymnosperm seedling."
     },
     {
       "type": "multiple_choice",
@@ -755,7 +751,7 @@
         "Flagellated sperm swim to the egg through water outside the plant."
       ],
       "answer": "They often grow fast, with a short reproductive cycle, a short juvenile stage, and efficient vessels.",
-      "explanation": "These notes contrast angiosperms with gymnosperms. Angiosperms are often herbaceous and fast-growing. They have short reproductive cycles, a short juvenile stage, thin cheap leaves, efficient vessels, and rapid seedling growth. Those traits help explain their dominance. Woody, slow growth, long cycles, a long juvenile stage, and tracheids rather than vessels are the gymnosperm side of the same notes. Exposed seeds on cone scales and fertilization more than a year after pollination are the pine pattern. Flagellated sperm that swim through water outside the plant are the seedless-plant pattern. Cycad and ginkgo sperm swim only inside the ovule."
+      "explanation": "Angiosperms are often herbaceous and fast-growing. They have short reproductive cycles, a short juvenile stage, thin cheap leaves, efficient vessels, and rapid seedling growth. Those traits help explain their dominance. Woody, slow growth, long cycles, a long juvenile stage, and tracheids rather than vessels are the gymnosperm pattern. Exposed seeds on cone scales and fertilization more than a year after pollination are the pine pattern. Flagellated sperm that swim through water outside the plant are the seedless-plant pattern. Cycad and ginkgo sperm swim only inside the ovule."
     }
   ]
 }

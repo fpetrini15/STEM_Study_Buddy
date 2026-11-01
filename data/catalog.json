@@ -299,6 +299,19 @@
         "course": "bio100a",
         "quizzes": [
           {
+            "id": "animal_origin_and_diversity",
+            "title": "Animal Origin and Diversity",
+            "icon": "🐾",
+            "description": "How animals arose and how their body plans differ.",
+            "course": "bio100b",
+            "questionCount": 32,
+            "types": {
+              "multiple_choice": 24,
+              "select_all": 5,
+              "drag_sentence": 3
+            }
+          },
+          {
             "id": "animal_form_and_function",
             "title": "Animal Form and Function",
             "icon": "🦎",
@@ -507,10 +520,35 @@
             "icon": "🌸",
             "description": "Flowers, fruits, and how a flowering plant reproduces.",
             "course": "bio100b",
-            "questionCount": 71,
+            "questionCount": 75,
             "types": {
-              "multiple_choice": 70,
+              "multiple_choice": 74,
               "select_all": 1
+            }
+          },
+          {
+            "id": "plant_transport",
+            "title": "Plant Transport and Nutrients",
+            "icon": "💧",
+            "description": "How plants move water and sugars, and how they get mineral nutrients.",
+            "course": "bio100b",
+            "questionCount": 54,
+            "types": {
+              "multiple_choice": 45,
+              "select_all": 4,
+              "drag_sentence": 5
+            }
+          },
+          {
+            "id": "photosynthesis",
+            "title": "Photosynthesis",
+            "icon": "☀️",
+            "description": "How a plant captures light and builds sugars.",
+            "course": "bio100b",
+            "questionCount": 26,
+            "types": {
+              "multiple_choice": 24,
+              "drag_sentence": 2
             }
           }
         ]
