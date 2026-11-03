@@ -1817,6 +1817,7 @@ function renderDragTableQuestion(question) {
       const td = document.createElement("td");
       const blank = document.createElement("span");
       const column = question.columns[columnIndex];
+      td.dataset.column = plainStemLabel(column);
       blank.className = "sentence-blank";
       blank.setAttribute("tabindex", "0");
       blank.setAttribute("role", "button");

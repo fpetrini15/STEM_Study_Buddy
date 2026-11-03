@@ -546,6 +546,8 @@ async function testDragTableUsesEveryChipOnce() {
   const blanks = document.querySelectorAll(".drag-table .sentence-blank");
   const chips = document.querySelectorAll(".sentence-chip");
   assert.strictEqual(blanks.length, 6);
+  assert.strictEqual(blanks[0].parentElement.dataset.column, "Coelom");
+  assert.strictEqual(blanks[1].parentElement.dataset.column, "Gut");
   assert.strictEqual(chips.length, 6);
 
   const labels = chips.map((chip) => chip.textContent).sort();
