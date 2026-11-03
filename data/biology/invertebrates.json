@@ -1,0 +1,1413 @@
+{
+  "title": "Invertebrates",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is the only animal phylum that is not eumetazoan?"
+      },
+      "options": [
+        "Porifera",
+        "Cnidaria",
+        "Platyhelminthes",
+        "Arthropoda"
+      ],
+      "answer": "Porifera",
+      "explanation": "Eumetazoans are animals with true tissues. Porifera, the sponges, is the only animal phylum outside that group. A sponge has no true tissues and no true germ layers. Cnidaria have true tissues. A cnidarian forms two germ layers, the ectoderm and the endoderm. Platyhelminthes, the flatworms, have three germ layers. Arthropoda have three germ layers, and an arthropod sheds a tough external cuticle as it grows. Those three phyla are eumetazoans."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every trait that unifies the eumetazoans."
+      },
+      "bank": [
+        "Embryos with distinct germ layers",
+        "A fluid-filled body cavity lined on all sides by mesoderm",
+        "True tissues",
+        "A cuticle that is shed as the animal grows",
+        "True body symmetry",
+        "A backbone of vertebrae"
+      ],
+      "answers": [
+        "Embryos with distinct germ layers",
+        "True tissues",
+        "True body symmetry"
+      ],
+      "explanation": "Three traits unify the eumetazoans. Their embryos form distinct germ layers. They have true tissues. Their bodies have true symmetry, either parts arranged around a central axis or a left side that mirrors the right. Porifera, the sponges, lack all three, which is why that phylum is not eumetazoan. A fluid-filled cavity lined on all sides by mesoderm is a coelom. A cnidarian and a flatworm are eumetazoans, and neither has that cavity. A cuticle that is shed as the animal grows unites the ecdysozoans, such as a nematode and an arthropod. It is not a trait of every eumetazoan. A backbone of vertebrae is a vertebrate trait. A cnidarian is a eumetazoan and has no vertebrae. Distinct germ layers do not mean three layers in every embryo. A cnidarian has two, the ectoderm and the endoderm."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How do sponges reproduce?"
+      },
+      "options": [
+        "Most sponges are hermaphrodites and reproduce sexually. They also reproduce asexually by budding or fragmentation.",
+        "Sponges reproduce only sexually. Each sponge is either male or female, and it never makes both eggs and sperm.",
+        "Sponges reproduce only asexually, by budding. They do not make eggs or sperm.",
+        "Sponges release spores, and a spore grows into a new sponge without fertilization."
+      ],
+      "answer": "Most sponges are hermaphrodites and reproduce sexually. They also reproduce asexually by budding or fragmentation.",
+      "explanation": "Most sponges are hermaphrodites. One sponge makes both eggs and sperm, often acting as one sex and then the other. Most sponges have hermaphroditic gonads, which produce both eggs and sperm. Eggs develop from amoebocytes, and sperm develop from choanocytes. Sperm are released into the water and drawn into another sponge, where fertilization occurs. The zygote develops into a flagellated larva. That larva is sexually immature, its body differs from the sessile adult, and it settles and becomes the adult. Sponges also reproduce asexually. A bud or a fragment can grow into a new sponge. Freshwater sponges can form gemmules, clusters of cells that survive harsh conditions and later grow. A sponge is not locked into one sex. Asexual budding does not replace eggs and sperm. A sponge does not release spores."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every structure found in sponges."
+      },
+      "bank": [
+        "Spicules",
+        "Hermaphroditic gonads",
+        "Amoebocytes",
+        "Nematocysts",
+        "Choanocytes",
+        "A gastrovascular cavity",
+        "Spongin"
+      ],
+      "answers": [
+        "Spicules",
+        "Hermaphroditic gonads",
+        "Amoebocytes",
+        "Choanocytes",
+        "Spongin"
+      ],
+      "explanation": "Sponges have spicules, amoebocytes, choanocytes, spongin, and hermaphroditic gonads. A choanocyte is a flagellated collar cell that draws water through the sponge and traps food. An amoebocyte is a mobile cell that digests food, carries nutrients, and produces skeletal material. Spicules are hard skeletal elements of calcium carbonate or silica. Spongin is a network of flexible protein fibers. A sponge may be supported by spicules, by spongin, or by both. Most sponges have hermaphroditic gonads, which produce both eggs and sperm. A nematocyst is a stinging capsule of a cnidarian. A gastrovascular cavity is the digestive sac of a cnidarian. A sponge has neither one."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In a sponge, what does a choanocyte do?"
+      },
+      "options": [
+        "Its flagellum draws water through the sponge, and its collar traps food.",
+        "It moves through the body, digests food, carries nutrients, and produces skeletal material.",
+        "It is a hard skeletal element made of calcium carbonate or silica.",
+        "It is a network of flexible protein fibers that supports the body.",
+        "It produces both eggs and sperm."
+      ],
+      "answer": "Its flagellum draws water through the sponge, and its collar traps food.",
+      "explanation": "A choanocyte is a collar cell. A flagellum surrounded by a collar of microvilli beats and draws water through small pores and out through a larger opening, the osculum. The collar traps food particles from that current. An amoebocyte then digests the food, carries nutrients, and can produce the skeleton. A spicule is a hard skeletal element of calcium carbonate or silica. Spongin is a network of flexible protein fibers. A hermaphroditic gonad produces both eggs and sperm. Sperm develop from choanocytes, but the choanocyte's job in feeding is the current and the collar. A choanocyte is not the skeleton."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In a sponge, what does an amoebocyte do?"
+      },
+      "options": [
+        "It moves through the body, digests food, carries nutrients, and produces skeletal material.",
+        "Its flagellum draws water through the sponge, and its collar traps food.",
+        "It is a hard skeletal element made of calcium carbonate or silica.",
+        "It is a network of flexible protein fibers that supports the body.",
+        "It produces both eggs and sperm."
+      ],
+      "answer": "It moves through the body, digests food, carries nutrients, and produces skeletal material.",
+      "explanation": "An amoebocyte moves through the mesohyl, the gelatinous layer inside the sponge. It takes food from choanocytes, digests it, and carries nutrients to other cells. It also produces spicules and spongin, and it can become other kinds of cells. Another name for this cell is an archaeocyte. Eggs develop from amoebocytes inside the hermaphroditic gonads. A choanocyte uses its flagellum and collar to draw water through the sponge and trap food. A spicule is a hard skeletal element of calcium carbonate or silica. Spongin is a network of flexible protein fibers. A hermaphroditic gonad produces both eggs and sperm. The amoebocyte makes skeletal material and can give rise to eggs. It is not itself the skeleton or the gonad."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In a sponge, what does a spicule do?"
+      },
+      "options": [
+        "It is a hard skeletal element made of calcium carbonate or silica.",
+        "Its flagellum draws water through the sponge, and its collar traps food.",
+        "It moves through the body, digests food, carries nutrients, and produces skeletal material.",
+        "It is a network of flexible protein fibers that supports the body.",
+        "It produces both eggs and sperm."
+      ],
+      "answer": "It is a hard skeletal element made of calcium carbonate or silica.",
+      "explanation": "A spicule supports the sponge. It is a hard element made of calcium carbonate or silica, and it can also make the sponge difficult to eat. Amoebocytes produce spicules. Spongin is the other kind of support, a network of flexible protein fibers. A sponge may have spicules, spongin, or both. A choanocyte draws water through the sponge and traps food. An amoebocyte digests that food and carries nutrients. A hermaphroditic gonad produces both eggs and sperm. None of those is a spicule."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In a sponge, what does spongin do?"
+      },
+      "options": [
+        "It is a network of flexible protein fibers that supports the body.",
+        "Its flagellum draws water through the sponge, and its collar traps food.",
+        "It moves through the body, digests food, carries nutrients, and produces skeletal material.",
+        "It is a hard skeletal element made of calcium carbonate or silica.",
+        "It produces both eggs and sperm."
+      ],
+      "answer": "It is a network of flexible protein fibers that supports the body.",
+      "explanation": "Spongin supports the sponge. It is a network of flexible protein fibers, a form of collagen. Amoebocytes produce it. A spicule is the hard kind of support, made of calcium carbonate or silica. A sponge may have spongin, spicules, or both. A bath sponge is mostly spongin. A choanocyte draws water through the sponge and traps food. An amoebocyte digests that food, carries nutrients, and produces the skeleton. A hermaphroditic gonad produces both eggs and sperm. The fibers are not a cell, not a mineral needle, and not a gonad."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In a sponge, what does a hermaphroditic gonad do?"
+      },
+      "options": [
+        "It produces both eggs and sperm.",
+        "Its flagellum draws water through the sponge, and its collar traps food.",
+        "It moves through the body, digests food, carries nutrients, and produces skeletal material.",
+        "It is a hard skeletal element made of calcium carbonate or silica.",
+        "It is a network of flexible protein fibers that supports the body."
+      ],
+      "answer": "It produces both eggs and sperm.",
+      "explanation": "Most sponges have hermaphroditic gonads. A hermaphroditic gonad produces both eggs and sperm in the same sponge. Eggs develop from amoebocytes, and sperm develop from choanocytes. A choanocyte draws water through the sponge and traps food with its collar. An amoebocyte digests food, carries nutrients, and produces skeletal material. A spicule is a hard element of calcium carbonate or silica. Spongin is a network of flexible protein fibers. Those structures support the sponge or handle food. They are not the gonad."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How does a sponge feed?"
+      },
+      "options": [
+        "Water enters through pores and passes through canals and chambers lined by choanocytes. The choanocytes trap food, and the water leaves through the osculum.",
+        "Water enters through the osculum and passes through canals and chambers. The choanocytes trap food, and the water leaves through the pores.",
+        "Food enters a gastrovascular cavity through one opening. Cells lining that cavity digest the food, and waste leaves through the same opening.",
+        "Amoebocytes on the outer surface engulf food. Water does not pass through canals or chambers, and the sponge has no osculum."
+      ],
+      "answer": "Water enters through pores and passes through canals and chambers lined by choanocytes. The choanocytes trap food, and the water leaves through the osculum.",
+      "explanation": "A sponge feeds by filtering water. Water enters through pores, called ostia, and passes through canals and chambers lined by choanocytes. The flagellum of a choanocyte keeps the current moving, and the collar traps food particles. An amoebocyte then digests that food and carries the nutrients. The filtered water leaves through the osculum, a larger opening. The current does not enter through the osculum and leave through the pores. A sponge has no gastrovascular cavity. Amoebocytes digest food inside the body. They do not replace the water path through the canals, the chambers, and the osculum."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What makes Ctenophora unique?"
+      },
+      "options": [
+        "Eight rows of comb-like cilia move the animal, and sticky colloblasts capture prey.",
+        "A contracting bell moves the animal, and stinging nematocysts capture prey.",
+        "Choanocytes draw water through canals and chambers, and the water leaves through an osculum.",
+        "A tough external cuticle is shed as the animal grows, and jointed appendages move the body."
+      ],
+      "answer": "Eight rows of comb-like cilia move the animal, and sticky colloblasts capture prey.",
+      "explanation": "Ctenophora are the comb jellies. Eight rows of fused cilia, called combs, beat and move the animal. That is the trait the phylum is named for. Sticky colloblasts capture prey by releasing adhesive threads. A ctenophore does not make nematocysts. A cnidarian often swims by contracting a bell and captures prey with stinging nematocysts. Its gut is a gastrovascular cavity with one opening. Many ctenophores have a mouth and anal pores, so the gut has two openings. A sponge feeds with choanocytes. Water passes through canals and chambers and leaves through an osculum. An arthropod sheds a tough external cuticle and moves with jointed appendages. Ctenophores have two germ layers, the ectoderm and the endoderm, as a cnidarian does. The combs and the colloblasts are what set Ctenophora apart."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What makes Cnidaria unique?"
+      },
+      "options": [
+        "Stinging cells called cnidocytes contain nematocysts, which discharge to capture prey and for defense.",
+        "Eight rows of comb-like cilia move the animal, and sticky colloblasts capture prey.",
+        "Choanocytes draw water through canals and chambers, and the water leaves through an osculum.",
+        "A tough external cuticle is shed as the animal grows, and jointed appendages move the body."
+      ],
+      "answer": "Stinging cells called cnidocytes contain nematocysts, which discharge to capture prey and for defense.",
+      "explanation": "Cnidaria are the jellies, sea anemones, corals, and hydrozoans. Stinging cells called cnidocytes are unique to this phylum, and the phylum is named for them. A capsule inside each cnidocyte, the nematocyst, discharges to capture prey and for defense. The body is a sac with a gastrovascular cavity. One opening serves as both mouth and anus. A cnidarian has two germ layers, the ectoderm and the endoderm. The two body forms are the polyp, which is sessile, and the medusa, which swims. A sea anemone and a coral live as polyps. A jellyfish is a medusa. Some hydrozoans have both forms, and some cnidarians have only one. Eight rows of comb-like cilia and sticky colloblasts belong to Ctenophora, the comb jellies. A ctenophore does not make nematocysts. Choanocytes, canals, chambers, and an osculum are how a sponge feeds. An arthropod sheds a tough external cuticle and moves with jointed appendages."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every trait of Cnidaria."
+      },
+      "bank": [
+        "They are diploblastic.",
+        "They are triploblastic.",
+        "They are radially symmetric.",
+        "They are bilaterally symmetric.",
+        "They have tissues.",
+        "They have organs.",
+        "They have cnidocytes."
+      ],
+      "answers": [
+        "They are diploblastic.",
+        "They are radially symmetric.",
+        "They have tissues.",
+        "They have cnidocytes."
+      ],
+      "explanation": "Cnidarians are diploblastic. The embryo has two germ layers, the ectoderm and the endoderm, and it does not form a mesoderm. They are radially symmetric. Body parts are arranged around a central axis. They have tissues, and they do not have organs. Cnidocytes are their stinging cells. A nematocyst inside each cnidocyte discharges to capture prey and for defense. Triploblastic means three germ layers, including a mesoderm. Bilateral symmetry means a left side that mirrors the right. A cnidarian has neither of those traits, and it has no organs."
+    },
+    {
+      "type": "drag_sentence",
+      "prompt": {
+        "text": "Complete the sentence differentiating a cnidarian polyp and a medusa."
+      },
+      "sentence": [
+        "A polyp is ",
+        null,
+        ". A medusa is ",
+        null,
+        "."
+      ],
+      "blanks": [
+        "sessile and cylindrical, with the mouth and tentacles pointing up",
+        "free-swimming and bell-shaped, with the mouth and tentacles pointing down"
+      ],
+      "bank": [
+        "sessile and cylindrical, with the mouth and tentacles pointing up",
+        "free-swimming and bell-shaped, with the mouth and tentacles pointing down",
+        "free-swimming and bell-shaped, with the mouth and tentacles pointing up",
+        "sessile and cylindrical, with the mouth and tentacles pointing down"
+      ],
+      "explanation": "A polyp is sessile and cylindrical. Its mouth and tentacles point up, and the other end is attached to a surface. A sea anemone and a coral live as polyps. A medusa is free-swimming and bell-shaped. Its mouth and tentacles point down, and it moves by contracting the bell. A jellyfish is a medusa. The two descriptions are not reversed. Some hydrozoans have both forms, and some cnidarians have only one."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: A sessile cnidarian polyp can move."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "A sessile cnidarian polyp can move. Sessile means it lives attached to a surface. It does not mean the body is frozen. The polyp can bend, contract, and move its tentacles. A sea anemone can also creep slowly along that surface. A hydra can somersault and attach in a new place. A coral polyp stays fixed to the colony, but it can still extend and retract. This movement is not the free swimming of a medusa. A medusa is bell-shaped and swims with its mouth and tentacles pointing down."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A hydrozoan spends part of its life attached as a polyp and part of its life as a free-swimming medusa. What is the benefit of each form?"
+      },
+      "options": [
+        "The polyp stays in a feeding spot and the colony grows by budding. The medusa reproduces sexually and disperses to new places.",
+        "The polyp swims away and reproduces sexually. The medusa stays attached, feeds, and the colony grows by budding.",
+        "Both forms stay attached and feed. Neither form reproduces or disperses.",
+        "Both forms swim and reproduce sexually. Neither form stays in place to feed and grow."
+      ],
+      "answer": "The polyp stays in a feeding spot and the colony grows by budding. The medusa reproduces sexually and disperses to new places.",
+      "explanation": "In a hydrozoan with both stages, the polyp and the medusa do different jobs. The polyp remains attached in a place where it can feed. It can still bend, creep, or move its tentacles, but it does not leave to disperse. New polyps bud from the colony, so the colony grows without sex. The medusa is the free-swimming form. It produces eggs and sperm, and it can carry that sexual reproduction to a new place. A larva, the planula, settles and grows into a polyp. The two jobs are not reversed. A sea anemone and a coral have the polyp form only. A jellyfish may live as a medusa. This split of feeding and growth from sexual dispersal applies to a hydrozoan that has both forms."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every category of Cnidaria."
+      },
+      "bank": [
+        "Hydrozoa",
+        "Ctenophora",
+        "Scyphozoa",
+        "Porifera",
+        "Anthozoa",
+        "Platyhelminthes"
+      ],
+      "answers": [
+        "Hydrozoa",
+        "Scyphozoa",
+        "Anthozoa"
+      ],
+      "explanation": "Cnidaria has three categories. Hydrozoa includes hydras and many colonial forms. A hydrozoan may have both a polyp and a medusa. Scyphozoa includes the jellies. The medusa is the conspicuous stage. Anthozoa includes the sea anemones and corals. They live as polyps and have no medusa stage. Ctenophora is the phylum of comb jellies. Porifera is the phylum of sponges. Platyhelminthes is the phylum of flatworms. None of those three is a category of Cnidaria."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common anthozoan?"
+      },
+      "options": [
+        "A sea anemone",
+        "A hydra",
+        "A jellyfish",
+        "A comb jelly"
+      ],
+      "answer": "A sea anemone",
+      "explanation": "A sea anemone is a common anthozoan. A coral is an anthozoan too. Anthozoans live as polyps. The mouth and tentacles point up, and there is no medusa stage. A hydra is a hydrozoan. A jellyfish is a medusa, the conspicuous stage of a scyphozoan, and it is not an anthozoan. A comb jelly is a ctenophore. It moves with eight rows of comb-like cilia and captures prey with colloblasts. It is not in Cnidaria."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common hydrozoan?"
+      },
+      "options": [
+        "A hydra",
+        "A sea anemone",
+        "A jellyfish",
+        "A comb jelly"
+      ],
+      "answer": "A hydra",
+      "explanation": "A hydra is a common hydrozoan. It lives as a polyp, with the mouth and tentacles pointing up, and it has no medusa stage. Other hydrozoans may also produce a free-swimming medusa. A sea anemone is an anthozoan, as is a coral. A jellyfish is a medusa, the conspicuous stage of a scyphozoan. A comb jelly is a ctenophore. It moves with eight rows of comb-like cilia and captures prey with colloblasts. It is not in Cnidaria."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common scyphozoan?"
+      },
+      "options": [
+        "A jellyfish",
+        "A sea anemone",
+        "A hydra",
+        "A comb jelly"
+      ],
+      "answer": "A jellyfish",
+      "explanation": "A jellyfish is a common scyphozoan. The medusa is the conspicuous stage. It is bell-shaped and free-swimming, with the mouth and tentacles pointing down. A sea anemone is an anthozoan and lives as a polyp, with no medusa stage. A hydra is a hydrozoan and also lives as a polyp. A comb jelly is a ctenophore. It moves with eight rows of comb-like cilia and captures prey with colloblasts. It is not in Cnidaria."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In Hydrozoa, what is the relationship between the polyp and the medusa?"
+      },
+      "options": [
+        "The polyp is the dominant form. A medusa may be produced, but some species live only as a polyp.",
+        "The medusa is the dominant form. A polyp occurs, but it is reduced.",
+        "Only the polyp occurs. There is no medusa stage.",
+        "Only the medusa occurs. There is no polyp stage."
+      ],
+      "answer": "The polyp is the dominant form. A medusa may be produced, but some species live only as a polyp.",
+      "explanation": "In Hydrozoa, the polyp is the dominant form. A hydra lives only as a polyp and has no medusa. Other hydrozoans bud a free-swimming medusa. That medusa reproduces sexually and disperses, while the polyp colony stays in place, feeds, and grows by budding. The medusa is not the dominant form. Scyphozoa is the reverse. The medusa dominates, and the polyp is reduced. Anthozoa has no medusa stage at all. None of these three groups lives only as a medusa."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In Scyphozoa, what is the relationship between the polyp and the medusa?"
+      },
+      "options": [
+        "The medusa is the dominant form. A polyp occurs, but it is reduced.",
+        "The polyp is the dominant form. A medusa may be produced, but some species live only as a polyp.",
+        "Only the polyp occurs. There is no medusa stage.",
+        "Only the medusa occurs. There is no polyp stage."
+      ],
+      "answer": "The medusa is the dominant form. A polyp occurs, but it is reduced.",
+      "explanation": "In Scyphozoa, the medusa is the dominant form. A jellyfish is bell-shaped and free-swimming, with the mouth and tentacles pointing down. A polyp does occur. It is small and short-lived, and it buds young medusae. The polyp is not absent, and it is not the dominant form. In Hydrozoa the polyp dominates, and a medusa may be absent, as in a hydra. In Anthozoa only the polyp occurs. A sea anemone and a coral have no medusa stage. No group of these three lives only as a medusa."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "In Anthozoa, what is the relationship between the polyp and the medusa?"
+      },
+      "options": [
+        "Only the polyp occurs. There is no medusa stage.",
+        "The polyp is the dominant form. A medusa may be produced, but some species live only as a polyp.",
+        "The medusa is the dominant form. A polyp occurs, but it is reduced.",
+        "Only the medusa occurs. There is no polyp stage."
+      ],
+      "answer": "Only the polyp occurs. There is no medusa stage.",
+      "explanation": "In Anthozoa, only the polyp occurs. There is no medusa stage. A sea anemone and a coral are cylindrical and sessile, with the mouth and tentacles pointing up. They can still bend, creep, or move their tentacles, but they do not produce a swimming medusa. Hydrozoa is different. The polyp dominates, and some species also produce a medusa. Scyphozoa is the reverse. The medusa dominates, and a reduced polyp buds young medusae. No group of these three lives only as a medusa."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What makes Lophotrochozoa unique?"
+      },
+      "options": [
+        "Some members have a lophophore, a crown of ciliated tentacles used for feeding, and some have a trochophore larva.",
+        "Eight rows of comb-like cilia move the animal, and sticky colloblasts capture prey.",
+        "Stinging cells called cnidocytes contain nematocysts, which discharge to capture prey and for defense.",
+        "Every member sheds a tough external cuticle as it grows."
+      ],
+      "answer": "Some members have a lophophore, a crown of ciliated tentacles used for feeding, and some have a trochophore larva.",
+      "explanation": "Lophotrochozoa is named for two features, and each feature occurs in some members rather than in all of them. A lophophore is a crown of ciliated tentacles used for feeding. A trochophore is a larva with a band of cilia. Many annelids and molluscs have a trochophore larva. A flatworm has neither a lophophore nor a trochophore larva. Lophotrochozoans are protostomes, so the mouth develops from the blastopore. They are the other large protostome group beside the ecdysozoans. Shedding a cuticle is the ecdysozoan trait, as in a nematode or an arthropod. Comb rows and colloblasts belong to Ctenophora. Cnidocytes belong to Cnidaria."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every group in Lophotrochozoa."
+      },
+      "bank": [
+        "Platyhelminthes",
+        "Nematoda",
+        "Syndermata",
+        "Arthropoda",
+        "Ectoprocta",
+        "Cnidaria",
+        "Brachiopoda",
+        "Echinodermata",
+        "Mollusca",
+        "Annelida"
+      ],
+      "answers": [
+        "Platyhelminthes",
+        "Syndermata",
+        "Ectoprocta",
+        "Brachiopoda",
+        "Mollusca",
+        "Annelida"
+      ],
+      "explanation": "Six groups belong to Lophotrochozoa. Platyhelminthes are the flatworms. Syndermata includes the rotifers and the acanthocephalans. Ectoprocta, the bryozoans, and Brachiopoda, the lamp shells, both feed with a lophophore. Mollusca includes snails, clams, and squids. Annelida includes the segmented worms, such as an earthworm. Many annelids and molluscs have a trochophore larva. Nematoda and Arthropoda are ecdysozoans. They shed a cuticle. Cnidaria includes the jellies, sea anemones, and corals. Echinodermata includes the sea stars. Echinoderms are deuterostomes, so the anus develops from the blastopore. None of those four is a lophotrochozoan group."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every trait shared by lophotrochozoans."
+      },
+      "bank": [
+        "They are bilaterally symmetric.",
+        "They are radially symmetric.",
+        "They have tissues.",
+        "They have organs.",
+        "Every member is a coelomate.",
+        "They have a gastrovascular cavity.",
+        "Every member is a hermaphrodite."
+      ],
+      "answers": [
+        "They are bilaterally symmetric.",
+        "They have tissues.",
+        "They have organs."
+      ],
+      "explanation": "Lophotrochozoans share bilateral symmetry, tissues, and organs. The left side mirrors the right. They have three germ layers, so they can form organs. A flatworm has organs even though it has no coelom. The coelom is not the same in every member. A flatworm is an acoelomate, and an earthworm is a coelomate. A gastrovascular cavity, with one opening, occurs in a flatworm. An earthworm and a mollusc have a mouth and an anus. A flatworm and an earthworm are hermaphrodites. Many other lophotrochozoans have separate sexes. Radial symmetry is the cnidarian pattern, with parts arranged around a central axis."
+    },
+    {
+      "type": "drag_table",
+      "prompt": {
+        "text": "Drag a chip into every cell for these lophotrochozoan groups. Each chip is used once."
+      },
+      "columns": [
+        "Example",
+        "Coelom",
+        "Gut",
+        "Sexual form"
+      ],
+      "rows": [
+        {
+          "label": "*Platyhelminthes*",
+          "note": "A thin body, flattened from back to belly",
+          "cells": [
+            "A planarian",
+            "Acoelomate",
+            "Gastrovascular cavity",
+            "Hermaphrodites"
+          ]
+        },
+        {
+          "label": "*Syndermata*",
+          "note": "A crown of cilia, or a hooked proboscis",
+          "cells": [
+            "A rotifer",
+            "Pseudocoelomate",
+            "A rotifer has a mouth and an anus. An acanthocephalan has no digestive tract.",
+            "Separate sexes"
+          ]
+        },
+        {
+          "label": "*Ectoprocta*",
+          "note": "A sessile colony that feeds with a lophophore",
+          "cells": [
+            "A moss animal",
+            "Coelomate",
+            "Mouth and an anus",
+            "Hermaphrodites"
+          ]
+        },
+        {
+          "label": "*Brachiopoda*",
+          "note": "Dorsal and ventral shells on a stalk",
+          "cells": [
+            "A lamp shell",
+            "Coelomate",
+            "Mouth and an anus",
+            "Separate sexes"
+          ]
+        },
+        {
+          "label": "*Mollusca*",
+          "note": "A foot, a visceral mass, and a mantle",
+          "cells": [
+            "A snail",
+            "Coelomate",
+            "Mouth and an anus",
+            "Some members are hermaphrodites, and some have separate sexes."
+          ]
+        },
+        {
+          "label": "*Annelida*",
+          "note": "A body built from repeated rings",
+          "cells": [
+            "An earthworm",
+            "Coelomate",
+            "Mouth and an anus",
+            "Some members are hermaphrodites, and some have separate sexes."
+          ]
+        }
+      ],
+      "explanation": "The example is one familiar animal from the group, and the other chips are traits. Repeated trait chips are separate copies. A planarian is a flatworm in Platyhelminthes. A fluke and a tapeworm are flatworms too. Flatworms are acoelomate and have a gastrovascular cavity. One opening serves as both mouth and anus. A tapeworm is an exception. It has no mouth and no gastrovascular cavity, and it absorbs food across its body surface. A planarian is a hermaphrodite, and a tapeworm is a hermaphrodite. A blood fluke has separate sexes, so it is an exception inside Platyhelminthes. A rotifer is the familiar member of Syndermata. An acanthocephalan, with a hooked proboscis, is in that group too. A rotifer draws food with a crown of cilia. The group is pseudocoelomate. The body cavity is lined by mesoderm on the outer side only. A rotifer has a mouth and an anus. An acanthocephalan has no digestive tract and absorbs nutrients across the body wall. Both have separate sexes. Many rotifers also reproduce by parthenogenesis. Females produce more females from unfertilized eggs. A moss animal is an ectoproct, also called a bryozoan. The colony is sessile, and each animal feeds with a lophophore, a crown of ciliated tentacles. A lamp shell is a brachiopod. The two shells are dorsal and ventral, and a stalk often holds the animal to the seafloor. Ectoprocts and brachiopods are coelomate and have a mouth and an anus. An ectoproct's anus opens outside the lophophore. Most ectoprocts are hermaphrodites. Most brachiopods have separate sexes. A snail is a mollusc. A clam and a squid are molluscs too. The body has a foot, a visceral mass, and a mantle. An earthworm is an annelid, a segmented worm with a body of repeated rings. A leech is an annelid too. Molluscs and annelids are coelomate and have a mouth and an anus. In a mollusc the coelom is reduced, and the main body cavity is a hemocoel. The anus opens into the mantle cavity. In an earthworm the coelom is partitioned by septa. Some members of each group are hermaphrodites, and some have separate sexes. Most molluscs have separate sexes, and many snails are hermaphrodites. An earthworm is a hermaphrodite, and many marine annelids have separate sexes. A nematode is also pseudocoelomate, but it is an ecdysozoan, so it is not in this table."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is a visceral mass?"
+      },
+      "options": [
+        "The part of a mollusc that contains most of the internal organs.",
+        "The muscular part of a mollusc that is used for movement.",
+        "A fold of tissue that drapes over the internal organs and secretes the shell.",
+        "The fluid-filled body cavity lined on all sides by mesoderm."
+      ],
+      "answer": "The part of a mollusc that contains most of the internal organs.",
+      "explanation": "A visceral mass is the part of a mollusc that contains most of the internal organs. A snail, a clam, and a squid each have one. The other two parts of the mollusc body are the foot and the mantle. The foot is muscular and is used for movement. The mantle is a fold of tissue that drapes over the visceral mass and secretes the shell, if one is present. The fluid-filled body cavity lined on all sides by mesoderm is the coelom. In a mollusc the coelom is reduced. In most molluscs the circulatory system is open, so the main body cavity is a hemocoel. A squid or an octopus has a closed circulatory system, and the blood stays in vessels. Neither cavity is the visceral mass."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every key trait of Mollusca."
+      },
+      "bank": [
+        "A visceral mass that contains most of the internal organs.",
+        "A tough external cuticle that is shed as the animal grows.",
+        "A muscular foot used for movement.",
+        "A lophophore, a crown of ciliated tentacles used for feeding.",
+        "A radula, a strap of teeth used for feeding.",
+        "A gastrovascular cavity with one opening.",
+        "A shell in many members, but not in all.",
+        "A shell in every member."
+      ],
+      "answers": [
+        "A visceral mass that contains most of the internal organs.",
+        "A muscular foot used for movement.",
+        "A radula, a strap of teeth used for feeding.",
+        "A shell in many members, but not in all."
+      ],
+      "explanation": "Molluscs have a visceral mass, which contains most of the internal organs, and a muscular foot, used for movement. Many feed with a radula, a strap of backward-curved teeth that scrapes food. A clam is a bivalve and has no radula. Many members have a shell, but not all. A slug, a squid, and an octopus have a reduced shell or none, so a shell in every member is not a trait of the group. A mantle, a fold of tissue over the visceral mass, secretes the shell when one is present. A tough external cuticle that is shed is the ecdysozoan trait, as in a nematode. A lophophore is the feeding crown of an ectoproct or a brachiopod. A gastrovascular cavity, with one opening, is the gut of a flatworm."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every special trait of Gastropoda."
+      },
+      "bank": [
+        "They usually show torsion, a twist of the visceral mass that puts the anus above the head, and have a coiled shell.",
+        "The head and the foot form a single structure.",
+        "They have a radula and feed in more than one way.",
+        "They include the land molluscs and the marine nudibranchs.",
+        "They have two shells joined by a hinge.",
+        "They have no radula and feed by filtering.",
+        "The foot forms a siphon, and the mouth is at the base of the foot.",
+        "They have eight shell plates."
+      ],
+      "answers": [
+        "They usually show torsion, a twist of the visceral mass that puts the anus above the head, and have a coiled shell.",
+        "The head and the foot form a single structure.",
+        "They have a radula and feed in more than one way.",
+        "They include the land molluscs and the marine nudibranchs."
+      ],
+      "explanation": "Gastropoda includes the snails and the slugs. Most show torsion. During development the visceral mass twists, and the anus ends up above the head. Most also have a coiled shell. A nudibranch is a marine gastropod with no shell, so the coiled shell is usual rather than universal. The head and the foot form one structure. They have a radula, a strap of teeth, and they do not all eat the same way. Some graze, and some are predators. The land snails and land slugs are gastropods, as are the marine nudibranchs. Two shells joined by a hinge are the bivalve shell, as in a clam, a mussel, or a scallop. Having no radula and feeding by filtering is the bivalve way. A siphon formed from the foot, with the mouth at the base of that foot, is the cephalopod arrangement, as in a squid or an octopus. Eight shell plates belong to a chiton."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every special trait of Bivalvia."
+      },
+      "bank": [
+        "They have two shells joined by a hinge.",
+        "The foot is highly reduced.",
+        "The mantle forms an incurrent siphon and an excurrent siphon.",
+        "They have no radula and feed by filtering.",
+        "They usually show torsion and have a coiled shell.",
+        "They have a circle of tentacles and a closed circulatory system.",
+        "They have eight shell plates.",
+        "The head and the foot form a single structure."
+      ],
+      "answers": [
+        "They have two shells joined by a hinge.",
+        "The foot is highly reduced.",
+        "The mantle forms an incurrent siphon and an excurrent siphon.",
+        "They have no radula and feed by filtering."
+      ],
+      "explanation": "Bivalvia includes the clams, the mussels, and the scallops. The two shells are joined by a hinge. The foot is highly reduced. It is not the large crawling foot of a snail, though many bivalves still use it to burrow. The mantle forms an incurrent siphon and an excurrent siphon. Those siphons are folds of the mantle. Water enters through the incurrent siphon, food is filtered from that water, and the water leaves through the excurrent siphon. A bivalve has no radula. It is a filter feeder. Torsion and a coiled shell are the usual gastropod traits. A circle of tentacles and a closed circulatory system belong to a squid or an octopus. Eight shell plates belong to a chiton. A bivalve has no distinct head, so the head and the foot do not form one structure."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every special trait of Cephalopoda."
+      },
+      "bank": [
+        "A squid has a small shell, and an octopus has none.",
+        "The foot forms a siphon.",
+        "They have a circle of tentacles.",
+        "They have a beak-like jaw and a radula.",
+        "The mouth is at the base of the foot.",
+        "They have a closed circulatory system.",
+        "They have two shells joined by a hinge.",
+        "They have no radula and feed by filtering.",
+        "They have eight shell plates.",
+        "They usually have a coiled shell, and the head and the foot form one structure."
+      ],
+      "answers": [
+        "A squid has a small shell, and an octopus has none.",
+        "The foot forms a siphon.",
+        "They have a circle of tentacles.",
+        "They have a beak-like jaw and a radula.",
+        "The mouth is at the base of the foot.",
+        "They have a closed circulatory system."
+      ],
+      "explanation": "Cephalopoda, in this grouping, includes the squids and the octopuses. A squid has a small internal shell, and an octopus has no shell. The foot forms a siphon, which the animal uses to jet water. Tentacles form a circle around the mouth. The mouth has a beak-like jaw and a radula, and it sits at the base of the foot. The circulatory system is closed, so the blood stays in vessels. Most other molluscs have an open circulatory system, and the hemolymph passes through a hemocoel. Two hinged shells are the bivalve shell. A clam has no radula and feeds by filtering. Eight shell plates belong to a chiton. A coiled shell, with the head and the foot as one structure, is the usual gastropod body. A chambered nautilus is also a cephalopod, and it has an external shell. The shell chip here is only about a squid and an octopus."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every special trait of Polyplacophora."
+      },
+      "bank": [
+        "They have eight shell plates.",
+        "They have a radula and are typically herbivores.",
+        "They have two shells joined by a hinge.",
+        "They have no radula and feed by filtering.",
+        "The foot forms a siphon, and they have a closed circulatory system.",
+        "They usually show torsion and have a coiled shell."
+      ],
+      "answers": [
+        "They have eight shell plates.",
+        "They have a radula and are typically herbivores."
+      ],
+      "explanation": "Polyplacophora are the chitons. A chiton has eight shell plates across its back. It has a radula and is typically a herbivore, scraping algae from the rock. Two shells joined by a hinge are the bivalve shell, as in a clam. A bivalve has no radula and feeds by filtering. A siphon formed from the foot, and a closed circulatory system, belong to a squid or an octopus. Torsion and a coiled shell are the usual gastropod traits."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which mollusc group includes a snail?"
+      },
+      "options": [
+        "Gastropoda",
+        "Bivalvia",
+        "Cephalopoda",
+        "Polyplacophora"
+      ],
+      "answer": "Gastropoda",
+      "explanation": "A snail is a gastropod. Most gastropods show torsion, so the anus ends up above the head, and most have a coiled shell. The head and the foot form one structure. A slug is a gastropod too. A clam, a mussel, and a scallop are bivalves. They have two hinged shells and no radula. A squid and an octopus are cephalopods. The foot forms a siphon. A chiton is a polyplacophoran. It has eight shell plates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which mollusc group includes a slug?"
+      },
+      "options": [
+        "Gastropoda",
+        "Bivalvia",
+        "Cephalopoda",
+        "Polyplacophora"
+      ],
+      "answer": "Gastropoda",
+      "explanation": "A slug is a gastropod. It is one of the land molluscs, and many slugs have no coiled shell. The head and the foot still form one structure. A snail is a gastropod too. A clam, a mussel, and a scallop are bivalves, with two hinged shells and no radula. A squid and an octopus are cephalopods. A chiton is a polyplacophoran and has eight shell plates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which mollusc group includes a clam?"
+      },
+      "options": [
+        "Bivalvia",
+        "Gastropoda",
+        "Cephalopoda",
+        "Polyplacophora"
+      ],
+      "answer": "Bivalvia",
+      "explanation": "A clam is a bivalve. It has two shells joined by a hinge, a highly reduced foot, and no radula. It feeds by filtering. A mussel and a scallop are bivalves too. A snail and a slug are gastropods. A squid and an octopus are cephalopods. A chiton is a polyplacophoran and has eight shell plates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which mollusc group includes a mussel?"
+      },
+      "options": [
+        "Bivalvia",
+        "Gastropoda",
+        "Cephalopoda",
+        "Polyplacophora"
+      ],
+      "answer": "Bivalvia",
+      "explanation": "A mussel is a bivalve. It has two shells joined by a hinge and no radula, and it feeds by filtering. A clam and a scallop are bivalves too. A snail and a slug are gastropods. A squid and an octopus are cephalopods. A chiton is a polyplacophoran and has eight shell plates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which mollusc group includes a scallop?"
+      },
+      "options": [
+        "Bivalvia",
+        "Gastropoda",
+        "Cephalopoda",
+        "Polyplacophora"
+      ],
+      "answer": "Bivalvia",
+      "explanation": "A scallop is a bivalve. It has two shells joined by a hinge and no radula, and it feeds by filtering. A clam and a mussel are bivalves too. A snail and a slug are gastropods. A squid and an octopus are cephalopods. A chiton is a polyplacophoran and has eight shell plates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which mollusc group includes a squid?"
+      },
+      "options": [
+        "Cephalopoda",
+        "Gastropoda",
+        "Bivalvia",
+        "Polyplacophora"
+      ],
+      "answer": "Cephalopoda",
+      "explanation": "A squid is a cephalopod. It has a small internal shell. The foot forms a siphon, the mouth is at the base of the foot, and the circulatory system is closed. An octopus is a cephalopod too, and it has no shell. A snail and a slug are gastropods. A clam, a mussel, and a scallop are bivalves. A chiton is a polyplacophoran and has eight shell plates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which mollusc group includes an octopus?"
+      },
+      "options": [
+        "Cephalopoda",
+        "Gastropoda",
+        "Bivalvia",
+        "Polyplacophora"
+      ],
+      "answer": "Cephalopoda",
+      "explanation": "An octopus is a cephalopod. It has no shell. The foot forms a siphon, tentacles circle the mouth, and the circulatory system is closed. A squid is a cephalopod too, and it has a small internal shell. A snail and a slug are gastropods. A clam, a mussel, and a scallop are bivalves. A chiton is a polyplacophoran and has eight shell plates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which mollusc group includes a chiton?"
+      },
+      "options": [
+        "Polyplacophora",
+        "Gastropoda",
+        "Bivalvia",
+        "Cephalopoda"
+      ],
+      "answer": "Polyplacophora",
+      "explanation": "A chiton is a polyplacophoran. It has eight shell plates, a radula, and it is typically a herbivore. A snail and a slug are gastropods. A clam, a mussel, and a scallop are bivalves, with two hinged shells and no radula. A squid and an octopus are cephalopods."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every major group in Annelida."
+      },
+      "bank": [
+        "Errantia",
+        "Hirudinea",
+        "Sedentaria",
+        "Nematoda",
+        "Platyhelminthes",
+        "Mollusca"
+      ],
+      "answers": [
+        "Errantia",
+        "Sedentaria"
+      ],
+      "explanation": "Annelida has two major groups, the errantians and the sedentarians. Errantia move. Many are marine, and each segment has a pair of paddle-like parapodia with many bristles. Sedentaria move less. Some live in tubes or burrows. An earthworm and a leech are sedentarians. Hirudinea is a name sometimes used for leeches alone, so it is not one of the two groups. Nematoda is the roundworms. A nematode is an ecdysozoan and sheds a cuticle. Platyhelminthes is the flatworms. Mollusca includes a snail, a clam, and a squid. None of those three is a group inside Annelida."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Many rotifers produce females from unfertilized eggs. What is that form of reproduction called?"
+      },
+      "options": [
+        "Parthenogenesis",
+        "Hermaphroditism",
+        "Budding",
+        "Fragmentation"
+      ],
+      "answer": "Parthenogenesis",
+      "explanation": "Parthenogenesis is reproduction in which females produce more females from unfertilized eggs. Many rotifers do this. Hermaphroditism means one animal makes both eggs and sperm, as a planarian does. Budding and fragmentation are asexual reproduction in a sponge. A new individual grows from the body, or a piece of the body becomes a new sponge. Neither one is a female producing offspring from an unfertilized egg."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "True or false: Nematoda is an ecdysozoan phylum."
+      },
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "Nematoda is an ecdysozoan phylum. A nematode sheds a tough external cuticle as it grows. That shedding is ecdysis, and it is the trait shared by ecdysozoans. A nematode is not a lophotrochozoan. It has no lophophore and no trochophore larva. It does have a pseudocoelom. The body cavity is lined by mesoderm on the outer side only, and the body is not divided into segments. An arthropod is an ecdysozoan too. It sheds a cuticle and hardens that cuticle into an exoskeleton, and it has jointed appendages. An earthworm is an annelid. It is a lophotrochozoan, so it is not an ecdysozoan."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What makes Arthropoda unique?"
+      },
+      "options": [
+        "A tough external cuticle is shed as the animal grows, and jointed appendages move the body.",
+        "Eight rows of comb-like cilia move the animal, and sticky colloblasts capture prey.",
+        "Stinging cells called cnidocytes contain nematocysts, which discharge to capture prey and for defense.",
+        "Some members have a lophophore, a crown of ciliated tentacles used for feeding, and some have a trochophore larva."
+      ],
+      "answer": "A tough external cuticle is shed as the animal grows, and jointed appendages move the body.",
+      "explanation": "Arthropoda is named for jointed appendages. The body is covered by a tough external cuticle that hardens into an exoskeleton, and that cuticle is shed as the animal grows. Shedding the cuticle is ecdysis, so an arthropod is an ecdysozoan. A nematode also sheds a cuticle, but it has no jointed appendages and its body is not divided into segments. An earthworm has body segments, but it does not shed a cuticle and it does not have jointed appendages. Comb rows and colloblasts belong to Ctenophora. Cnidocytes belong to Cnidaria. A lophophore and a trochophore larva occur in some lophotrochozoans."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every structural trait of Arthropoda."
+      },
+      "bank": [
+        "They are bilaterally symmetric.",
+        "They are radially symmetric.",
+        "They have jointed appendages.",
+        "The body is divided into segments.",
+        "The body is not divided into segments.",
+        "They feed with a lophophore."
+      ],
+      "answers": [
+        "They are bilaterally symmetric.",
+        "They have jointed appendages.",
+        "The body is divided into segments."
+      ],
+      "explanation": "An arthropod is bilaterally symmetric. The left side mirrors the right. It has jointed appendages, and the body is divided into segments. A nematode sheds a cuticle, but its body is not divided into segments and it has no jointed appendages. An earthworm is segmented, but it has no jointed appendages and it does not shed a cuticle. Radial symmetry, with parts arranged around a central axis, is the cnidarian pattern. A lophophore is the feeding crown of an ectoproct or a brachiopod."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every major class of Arthropoda."
+      },
+      "bank": [
+        "Chelicerata",
+        "Nematoda",
+        "Myriapoda",
+        "Annelida",
+        "Crustacea",
+        "Hexapoda",
+        "Gastropoda"
+      ],
+      "answers": [
+        "Chelicerata",
+        "Myriapoda",
+        "Crustacea",
+        "Hexapoda"
+      ],
+      "explanation": "Four major classes of Arthropoda are Chelicerata, Myriapoda, Crustacea, and Hexapoda. Chelicerata includes the arachnids, such as a spider, a scorpion, and a mite. Myriapoda includes a centipede and a millipede. Crustacea includes a lobster, a crab, and a shrimp. Hexapoda includes the insects, such as a butterfly. Nematoda is the roundworms. A nematode sheds a cuticle and has no jointed appendages. Annelida is the segmented worms, such as an earthworm. Gastropoda is the snails and slugs. None of those three is a class of Arthropoda."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every trait that makes Chelicerata unique."
+      },
+      "bank": [
+        "They have chelicerae, claw-like feeding appendages.",
+        "They have pedipalps, a second pair of feeding appendages.",
+        "The body is a cephalothorax and an abdomen.",
+        "They lack antennae.",
+        "They have a distinct head with antennae and mandibles.",
+        "A centipede has one pair of legs on each segment, and a millipede has two.",
+        "They all have gills and antennae.",
+        "A bottom-dwelling crab has a free-floating larva called a zoea.",
+        "They have three pairs of legs and one pair of antennae."
+      ],
+      "answers": [
+        "They have chelicerae, claw-like feeding appendages.",
+        "They have pedipalps, a second pair of feeding appendages.",
+        "The body is a cephalothorax and an abdomen.",
+        "They lack antennae."
+      ],
+      "explanation": "Chelicerata includes the arachnids: a spider, a scorpion, and a mite. Chelicerae are the claw-like feeding appendages the group is named for. Pedipalps are the second pair of feeding appendages. The body has two regions. The cephalothorax is a fused head and thorax, and the abdomen is the region behind it. Chelicerates lack antennae. A distinct head with antennae and mandibles is the myriapod head, as in a centipede or a millipede. One pair of legs on a centipede segment, and two pairs on a millipede segment, are myriapod traits. Gills and antennae belong to a crustacean, such as a lobster, a crab, or a shrimp. A zoea is the free-floating larva of a bottom-dwelling crab. Three pairs of legs and one pair of antennae belong to a hexapod, such as a butterfly. Its body is a head, a thorax, and an abdomen."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every trait that makes Myriapoda unique."
+      },
+      "bank": [
+        "The body is highly segmented, with legs on the segments.",
+        "They have a distinct head with antennae and mandibles.",
+        "A centipede has one pair of legs on each segment.",
+        "A millipede has two pairs of legs on each segment.",
+        "Centipedes are venomous carnivores.",
+        "Millipedes are detritivores, and their tissues contain cyanide.",
+        "They have chelicerae and pedipalps, and they lack antennae.",
+        "The body is a cephalothorax and an abdomen.",
+        "The body is a head, a thorax, and an abdomen.",
+        "They all have gills.",
+        "Many have a calcified exoskeleton."
+      ],
+      "answers": [
+        "The body is highly segmented, with legs on the segments.",
+        "They have a distinct head with antennae and mandibles.",
+        "A centipede has one pair of legs on each segment.",
+        "A millipede has two pairs of legs on each segment.",
+        "Centipedes are venomous carnivores.",
+        "Millipedes are detritivores, and their tissues contain cyanide."
+      ],
+      "explanation": "Myriapoda includes a centipede and a millipede. The body is highly segmented, and the segments bear legs. The head is distinct and has antennae and mandibles. A centipede has one pair of legs on each segment and is a venomous carnivore. A millipede has two pairs of legs on each segment. It is a detritivore, and its tissues contain cyanide, which is toxic. Chelicerae, pedipalps, and a lack of antennae are chelicerate traits. A cephalothorax and an abdomen are the two body regions of a chelicerate, such as a spider. Gills, and a calcified exoskeleton in many species, belong to a crustacean. A head, a thorax, and an abdomen are the three body regions of a hexapod, such as a butterfly."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every trait that makes Crustacea unique."
+      },
+      "bank": [
+        "Most are marine and have appendages for swimming, crawling, and feeding.",
+        "Many have a calcified exoskeleton.",
+        "They all have gills and antennae.",
+        "Many use different parts of the ocean at different stages of the life cycle.",
+        "A bottom-dwelling crab has a free-floating larva called a zoea.",
+        "They lack antennae and have chelicerae.",
+        "The body is a cephalothorax and an abdomen, and they have no antennae.",
+        "A centipede has one pair of legs on each segment and is a venomous carnivore.",
+        "A millipede has two pairs of legs on each segment, and its tissues contain cyanide.",
+        "Most are terrestrial, with three pairs of legs and one pair of antennae."
+      ],
+      "answers": [
+        "Most are marine and have appendages for swimming, crawling, and feeding.",
+        "Many have a calcified exoskeleton.",
+        "They all have gills and antennae.",
+        "Many use different parts of the ocean at different stages of the life cycle.",
+        "A bottom-dwelling crab has a free-floating larva called a zoea."
+      ],
+      "explanation": "Crustacea includes a lobster, a crab, and a shrimp. Most are marine. Their appendages are used for swimming, crawling, and feeding. Many have a calcified exoskeleton. All have gills and antennae. Many use different parts of the ocean as the life cycle changes. A crab that lives on the bottom has a planktonic larva, a free-floating larva called a zoea. Chelicerae and a lack of antennae are chelicerate traits. A cephalothorax and an abdomen without antennae describe a spider, a scorpion, or a mite. One pair of legs and a venomous bite describe a centipede. Two pairs of legs and cyanide in the tissues describe a millipede. A mostly terrestrial animal with three pairs of legs and one pair of antennae is a hexapod, such as a butterfly."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every trait that makes Hexapoda unique."
+      },
+      "bank": [
+        "They are the most abundant and diverse arthropod class.",
+        "Most are terrestrial.",
+        "The body is a head, a thorax, and an abdomen.",
+        "They have three pairs of legs and one pair of antennae.",
+        "Some have wings.",
+        "Like a crustacean, the larva is morphologically very different from the adult.",
+        "Some undergo complete metamorphosis, including a butterfly.",
+        "Some undergo incomplete metamorphosis.",
+        "The body is a cephalothorax and an abdomen.",
+        "They lack antennae.",
+        "A centipede has one pair of legs on each segment.",
+        "Most are marine and have gills."
+      ],
+      "answers": [
+        "They are the most abundant and diverse arthropod class.",
+        "Most are terrestrial.",
+        "The body is a head, a thorax, and an abdomen.",
+        "They have three pairs of legs and one pair of antennae.",
+        "Some have wings.",
+        "Like a crustacean, the larva is morphologically very different from the adult.",
+        "Some undergo complete metamorphosis, including a butterfly.",
+        "Some undergo incomplete metamorphosis."
+      ],
+      "explanation": "Hexapoda is the most abundant and diverse arthropod class, and most members are terrestrial. The body has three regions: a head, a thorax, and an abdomen. There are three pairs of legs and one pair of antennae. Some members have wings, and some do not. As in a crustacean, the larva is morphologically very different from the adult. Some undergo complete metamorphosis. The animal passes through a larva and a pupa, and the adult looks different from the larva. A butterfly does this. Some undergo incomplete metamorphosis. There is no pupa, and the young form changes gradually toward the adult. A cephalothorax and an abdomen, and a lack of antennae, are chelicerate traits, as in a spider. One pair of legs on each segment is a centipede. A mostly marine life and gills belong to a crustacean, such as a lobster or a crab."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which arthropod class includes a spider?"
+      },
+      "options": [
+        "Chelicerata",
+        "Myriapoda",
+        "Crustacea",
+        "Hexapoda"
+      ],
+      "answer": "Chelicerata",
+      "explanation": "A spider is a chelicerate. Chelicerates have chelicerae and pedipalps, a cephalothorax and an abdomen, and no antennae. A scorpion and a mite are chelicerates too. A centipede and a millipede are myriapods. A lobster, a crab, and a shrimp are crustaceans. A butterfly is a hexapod. It has a head, a thorax, and an abdomen, with three pairs of legs and one pair of antennae."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which arthropod class includes a scorpion?"
+      },
+      "options": [
+        "Chelicerata",
+        "Myriapoda",
+        "Crustacea",
+        "Hexapoda"
+      ],
+      "answer": "Chelicerata",
+      "explanation": "A scorpion is a chelicerate. It has chelicerae, pedipalps, a cephalothorax and an abdomen, and no antennae. A spider and a mite are chelicerates too. A centipede and a millipede are myriapods. A lobster, a crab, and a shrimp are crustaceans. A butterfly is a hexapod. It has three pairs of legs and one pair of antennae, and some hexapods have wings."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which arthropod class includes a mite?"
+      },
+      "options": [
+        "Chelicerata",
+        "Myriapoda",
+        "Crustacea",
+        "Hexapoda"
+      ],
+      "answer": "Chelicerata",
+      "explanation": "A mite is a chelicerate. Chelicerates lack antennae and have chelicerae and pedipalps. A spider and a scorpion are chelicerates too. A centipede and a millipede are myriapods. They have antennae. A lobster, a crab, and a shrimp are crustaceans. They have gills and antennae. A butterfly is a hexapod. It has one pair of antennae. A mite has none."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which arthropod class includes a centipede?"
+      },
+      "options": [
+        "Myriapoda",
+        "Chelicerata",
+        "Crustacea",
+        "Hexapoda"
+      ],
+      "answer": "Myriapoda",
+      "explanation": "A centipede is a myriapod. It has one pair of legs on each segment and is a venomous carnivore. The head has antennae and mandibles. A millipede is a myriapod too. It has two pairs of legs on each segment. A spider, a scorpion, and a mite are chelicerates. They lack antennae. A lobster, a crab, and a shrimp are crustaceans. A butterfly is a hexapod. Its body is a head, a thorax, and an abdomen, with three pairs of legs."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which arthropod class includes a millipede?"
+      },
+      "options": [
+        "Myriapoda",
+        "Chelicerata",
+        "Crustacea",
+        "Hexapoda"
+      ],
+      "answer": "Myriapoda",
+      "explanation": "A millipede is a myriapod. It has two pairs of legs on each segment. It is a detritivore, and its tissues contain cyanide. A centipede is a myriapod too. It has one pair of legs on each segment and is a venomous carnivore. A spider, a scorpion, and a mite are chelicerates. A lobster, a crab, and a shrimp are crustaceans. A butterfly is a hexapod. It has three pairs of legs, not two pairs on each segment."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which arthropod class includes a lobster?"
+      },
+      "options": [
+        "Crustacea",
+        "Chelicerata",
+        "Myriapoda",
+        "Hexapoda"
+      ],
+      "answer": "Crustacea",
+      "explanation": "A lobster is a crustacean. Crustaceans have gills and antennae, and many have a calcified exoskeleton. A crab and a shrimp are crustaceans too. A spider, a scorpion, and a mite are chelicerates. They lack antennae. A centipede and a millipede are myriapods. A butterfly is a hexapod. Most hexapods are terrestrial, and they have three pairs of legs and one pair of antennae."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which arthropod class includes a crab?"
+      },
+      "options": [
+        "Crustacea",
+        "Chelicerata",
+        "Myriapoda",
+        "Hexapoda"
+      ],
+      "answer": "Crustacea",
+      "explanation": "A crab is a crustacean. It has gills and antennae. A bottom-dwelling crab has a free-floating larva called a zoea. A lobster and a shrimp are crustaceans too. A spider, a scorpion, and a mite are chelicerates. A centipede and a millipede are myriapods. A butterfly is a hexapod. Its larva is morphologically very different from the adult, as a crustacean larva is. A butterfly has three pairs of legs and one pair of antennae."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which arthropod class includes a shrimp?"
+      },
+      "options": [
+        "Crustacea",
+        "Chelicerata",
+        "Myriapoda",
+        "Hexapoda"
+      ],
+      "answer": "Crustacea",
+      "explanation": "A shrimp is a crustacean. Most crustaceans are marine, and they have gills, antennae, and appendages for swimming, crawling, and feeding. A lobster and a crab are crustaceans too. A spider, a scorpion, and a mite are chelicerates. A centipede and a millipede are myriapods. A butterfly is a hexapod. Most hexapods are terrestrial. A shrimp is marine."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which arthropod class includes a butterfly?"
+      },
+      "options": [
+        "Hexapoda",
+        "Chelicerata",
+        "Myriapoda",
+        "Crustacea"
+      ],
+      "answer": "Hexapoda",
+      "explanation": "A butterfly is a hexapod. The body is a head, a thorax, and an abdomen, with three pairs of legs and one pair of antennae. Some hexapods have wings. A butterfly undergoes complete metamorphosis. It passes through a larva and a pupa, and the adult looks different from the larva. A spider, a scorpion, and a mite are chelicerates. They have a cephalothorax and an abdomen, and they lack antennae. A centipede and a millipede are myriapods. A lobster, a crab, and a shrimp are crustaceans. Most crustaceans are marine and have gills."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every key trait of Echinodermata."
+      },
+      "bank": [
+        "They have a complete digestive system, with a mouth and an anus.",
+        "They have an open circulatory system.",
+        "They are triploblastic, with three tissue layers.",
+        "The adult has secondary radial symmetry. The larva is bilateral, and the adult is radial.",
+        "They often have five arms.",
+        "Most have no head and no anterior or posterior end. They have an oral surface and an aboral surface.",
+        "The body is not divided into segments.",
+        "They have an endoskeleton.",
+        "They have a water vascular system.",
+        "They have tube feet.",
+        "A madreporite, a porous plate, is the entry and the control point for water in the water vascular system.",
+        "They have a gastrovascular cavity, with one opening.",
+        "They have a closed circulatory system.",
+        "The adult is bilaterally symmetric and has a distinct head.",
+        "The body is divided into segments.",
+        "They shed a tough external cuticle as they grow.",
+        "Every member has five arms."
+      ],
+      "answers": [
+        "They have a complete digestive system, with a mouth and an anus.",
+        "They have an open circulatory system.",
+        "They are triploblastic, with three tissue layers.",
+        "The adult has secondary radial symmetry. The larva is bilateral, and the adult is radial.",
+        "They often have five arms.",
+        "Most have no head and no anterior or posterior end. They have an oral surface and an aboral surface.",
+        "The body is not divided into segments.",
+        "They have an endoskeleton.",
+        "They have a water vascular system.",
+        "They have tube feet.",
+        "A madreporite, a porous plate, is the entry and the control point for water in the water vascular system."
+      ],
+      "explanation": "An echinoderm has a complete digestive system, so the gut has a mouth and an anus. Echinoderms are deuterostomes, and the anus develops from the blastopore. The circulatory system is open. A squid has a closed system, and that is a cephalopod trait. Three tissue layers make the animal triploblastic: ectoderm, mesoderm, and endoderm. A cnidarian is diploblastic and has only two. The larva is bilateral. The adult is radial, with parts around a central axis, and that adult pattern is secondary radial symmetry. A sea anemone is radial as an adult. Members often have five arms, and not every member does. A sea star usually has five. A sea urchin and a sea cucumber have no arms. Most members have no head and no anterior or posterior end. The mouth is on the oral surface, and the aboral surface is opposite the mouth. A sea cucumber is the exception. It has true anterior and posterior ends. The body is not divided into segments. An earthworm and an arthropod are segmented. The skeleton is an endoskeleton. An arthropod sheds a tough external cuticle. A water vascular system is a network of water-filled canals. Tube feet connect to it and are used for movement. A madreporite is a porous plate. Water enters there, and that plate controls water in the water vascular system. It is separate from the open blood circulation. A gastrovascular cavity, with one opening, is the gut of a flatworm or a cnidarian."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every major class of Echinodermata."
+      },
+      "bank": [
+        "Asteroidea",
+        "Ophiuroidea",
+        "Echinoidea",
+        "Holothuroidea",
+        "Hexapoda",
+        "Gastropoda",
+        "Anthozoa"
+      ],
+      "answers": [
+        "Asteroidea",
+        "Ophiuroidea",
+        "Echinoidea",
+        "Holothuroidea"
+      ],
+      "explanation": "Four major classes of Echinodermata are Asteroidea, Ophiuroidea, Echinoidea, and Holothuroidea. Asteroidea includes a sea star. Ophiuroidea includes a brittle star. Echinoidea includes a sea urchin and a sand dollar. Holothuroidea includes a sea cucumber. Hexapoda is the insects, such as a butterfly. Gastropoda is the snails and slugs. Anthozoa is the sea anemones. None of those three is a class of Echinodermata."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every special trait of Asteroidea."
+      },
+      "bank": [
+        "They usually have five arms.",
+        "The tube feet have suction cups.",
+        "They are typically covered in ossicles.",
+        "Flexible arms start from a distinct central disc.",
+        "They are round or flattened and covered with movable spines.",
+        "They have a specialized set of jaws.",
+        "They are worm-like and have true anterior and posterior ends.",
+        "The tube feet lack suction cups and can be modified for feeding."
+      ],
+      "answers": [
+        "They usually have five arms.",
+        "The tube feet have suction cups.",
+        "They are typically covered in ossicles."
+      ],
+      "explanation": "Asteroidea includes a sea star. A sea star usually has five arms. The tube feet end in suction cups. The body is typically covered in ossicles, the small calcareous plates of the endoskeleton. Flexible arms that start from a distinct central disc are the brittle star body. A brittle star is generally smaller than a sea star. A sea urchin or a sand dollar is round or flattened and covered with movable spines, and it has a specialized set of jaws. A sea cucumber is worm-like. It has true anterior and posterior ends, and its tube feet lack suction cups and can be modified for feeding."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every special trait of Ophiuroidea."
+      },
+      "bank": [
+        "They are generally smaller than a sea star.",
+        "Flexible arms start from a distinct central disc.",
+        "They usually have five arms, and the tube feet have suction cups.",
+        "They are round or flattened and covered with movable spines.",
+        "They have a specialized set of jaws.",
+        "They are worm-like, and the tube feet lack suction cups."
+      ],
+      "answers": [
+        "They are generally smaller than a sea star.",
+        "Flexible arms start from a distinct central disc."
+      ],
+      "explanation": "Ophiuroidea includes a brittle star. A brittle star is generally smaller than a sea star. The arms are flexible and start from a distinct central disc. A sea star usually has five arms, its tube feet have suction cups, and it is typically covered in ossicles. A sea urchin is round or flattened, covered with movable spines, and has a specialized set of jaws. A sea cucumber is worm-like, and its tube feet lack suction cups."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every special trait of Echinoidea."
+      },
+      "bank": [
+        "They are round or flattened, with a rigid test of fused plates.",
+        "They are covered with movable spines.",
+        "They have a specialized set of jaws.",
+        "They usually have five arms, and the tube feet have suction cups.",
+        "Flexible arms start from a distinct central disc.",
+        "They are worm-like and have true anterior and posterior ends.",
+        "The tube feet lack suction cups and can be modified for feeding."
+      ],
+      "answers": [
+        "They are round or flattened, with a rigid test of fused plates.",
+        "They are covered with movable spines.",
+        "They have a specialized set of jaws."
+      ],
+      "explanation": "Echinoidea includes a sea urchin and a sand dollar. A sea urchin is round. A sand dollar is flattened. Both are covered with movable spines and have a specialized set of jaws. The covering is a rigid test of fused plates in the body wall. That test is an endoskeleton. An arthropod sheds a tough external cuticle. The jaw apparatus of a sea urchin is often called Aristotle's lantern. A sea star usually has five arms and suction-cup tube feet. A brittle star has flexible arms from a central disc. A sea cucumber is worm-like and has true anterior and posterior ends. Its tube feet lack suction cups and can be modified for feeding."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every special trait of Holothuroidea."
+      },
+      "bank": [
+        "They have true anterior and posterior ends.",
+        "They are worm-like.",
+        "The tube feet lack suction cups and can be modified for feeding.",
+        "They usually have five arms, and the tube feet have suction cups.",
+        "Flexible arms start from a distinct central disc.",
+        "They are round or flattened and covered with movable spines.",
+        "They have a specialized set of jaws."
+      ],
+      "answers": [
+        "They have true anterior and posterior ends.",
+        "They are worm-like.",
+        "The tube feet lack suction cups and can be modified for feeding."
+      ],
+      "explanation": "Holothuroidea includes a sea cucumber. A sea cucumber has true anterior and posterior ends. Most other echinoderms have an oral surface and an aboral surface and no anterior or posterior end. The body is worm-like. The tube feet lack suction cups and can be modified for feeding. A sea star has suction-cup tube feet, usually has five arms, and is typically covered in ossicles. A brittle star has flexible arms from a central disc. A sea urchin is round or flattened, covered with movable spines, and has a specialized set of jaws."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which echinoderm class includes a sea star?"
+      },
+      "options": [
+        "Asteroidea",
+        "Ophiuroidea",
+        "Echinoidea",
+        "Holothuroidea"
+      ],
+      "answer": "Asteroidea",
+      "explanation": "A sea star is in Asteroidea. It usually has five arms, suction-cup tube feet, and a covering of ossicles. A brittle star is in Ophiuroidea. It is generally smaller, with flexible arms from a distinct central disc. A sea urchin and a sand dollar are in Echinoidea. A sea cucumber is in Holothuroidea."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which echinoderm class includes a brittle star?"
+      },
+      "options": [
+        "Ophiuroidea",
+        "Asteroidea",
+        "Echinoidea",
+        "Holothuroidea"
+      ],
+      "answer": "Ophiuroidea",
+      "explanation": "A brittle star is in Ophiuroidea. It is generally smaller than a sea star, and flexible arms start from a distinct central disc. A sea star is in Asteroidea. A sea urchin and a sand dollar are in Echinoidea. A sea cucumber is in Holothuroidea."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which echinoderm class includes a sea urchin?"
+      },
+      "options": [
+        "Echinoidea",
+        "Asteroidea",
+        "Ophiuroidea",
+        "Holothuroidea"
+      ],
+      "answer": "Echinoidea",
+      "explanation": "A sea urchin is in Echinoidea. It is round, covered with movable spines, and has a specialized set of jaws. A sand dollar is in Echinoidea too, and it is flattened. A sea star is in Asteroidea. A brittle star is in Ophiuroidea. A sea cucumber is in Holothuroidea."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which echinoderm class includes a sand dollar?"
+      },
+      "options": [
+        "Echinoidea",
+        "Asteroidea",
+        "Ophiuroidea",
+        "Holothuroidea"
+      ],
+      "answer": "Echinoidea",
+      "explanation": "A sand dollar is in Echinoidea. It is flattened, covered with movable spines, and has a specialized set of jaws. A sea urchin is in Echinoidea too, and it is round. A sea star is in Asteroidea. A brittle star is in Ophiuroidea. A sea cucumber is in Holothuroidea."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which echinoderm class includes a sea cucumber?"
+      },
+      "options": [
+        "Holothuroidea",
+        "Asteroidea",
+        "Ophiuroidea",
+        "Echinoidea"
+      ],
+      "answer": "Holothuroidea",
+      "explanation": "A sea cucumber is in Holothuroidea. It is worm-like, with true anterior and posterior ends. The tube feet lack suction cups and can be modified for feeding. A sea star is in Asteroidea. A brittle star is in Ophiuroidea. A sea urchin and a sand dollar are in Echinoidea."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every key trait of Chordata."
+      },
+      "bank": [
+        "They are deuterostomes.",
+        "They are the only animals with all four of these traits for at least part of their lives.",
+        "A dorsal hollow nerve cord is present for at least part of their lives.",
+        "A notochord is present for at least part of their lives. It is a flexible, supportive, longitudinal rod between the digestive tract and the nerve cord.",
+        "Pharyngeal gill slits are present for at least part of their lives.",
+        "A muscular post-anal tail is present for at least part of their lives.",
+        "They are protostomes.",
+        "The nerve cord is solid and ventral.",
+        "The notochord is a column of vertebrae.",
+        "Every adult keeps all four traits.",
+        "They have a water vascular system."
+      ],
+      "answers": [
+        "They are deuterostomes.",
+        "They are the only animals with all four of these traits for at least part of their lives.",
+        "A dorsal hollow nerve cord is present for at least part of their lives.",
+        "A notochord is present for at least part of their lives. It is a flexible, supportive, longitudinal rod between the digestive tract and the nerve cord.",
+        "Pharyngeal gill slits are present for at least part of their lives.",
+        "A muscular post-anal tail is present for at least part of their lives."
+      ],
+      "explanation": "Chordates are deuterostomes, so the anus develops from the blastopore. An echinoderm is a deuterostome too. A protostome, such as an earthworm, develops the mouth from the blastopore. Chordates are the only animals that have all four of these traits for at least part of their lives. The nerve cord is dorsal and hollow. It lies along the back. Many other invertebrates have a solid nerve cord along the belly. The notochord is a flexible, supportive rod running the length of the body, between the digestive tract and the nerve cord. A column of vertebrae is a backbone. The notochord is a flexible rod. Pharyngeal gill slits are openings in the pharynx. A muscular post-anal tail extends past the anus. A cephalochordate keeps all four traits in the larva and in the adult. A urochordate larva has the nerve cord and the notochord, and the adult lacks those two. A water vascular system belongs to an echinoderm, such as a sea star."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every invertebrate subphylum of Chordata."
+      },
+      "bank": [
+        "Cephalochordata",
+        "Urochordata",
+        "Asteroidea",
+        "Hexapoda",
+        "Gastropoda"
+      ],
+      "answers": [
+        "Cephalochordata",
+        "Urochordata"
+      ],
+      "explanation": "Cephalochordata and Urochordata are invertebrate subphyla of Chordata. Cephalochordata includes a small fish-like invertebrate. A lancelet is the familiar animal in that subphylum. Urochordata includes a tunicate. Asteroidea is a sea star, an echinoderm. Hexapoda includes a butterfly. Gastropoda is the snails and slugs. None of those three is a chordate subphylum."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every special trait of Cephalochordata."
+      },
+      "bank": [
+        "They are small, fish-like invertebrates.",
+        "All four chordate traits are present in the larva and in the adult.",
+        "Adults are typically sessile filter feeders.",
+        "Adults lack the nerve cord and the notochord that the larva has.",
+        "They feed with an incurrent siphon and an excurrent siphon.",
+        "A hard cellulose sac called a tunic covers the body."
+      ],
+      "answers": [
+        "They are small, fish-like invertebrates.",
+        "All four chordate traits are present in the larva and in the adult."
+      ],
+      "explanation": "Cephalochordata includes a small fish-like invertebrate. A lancelet is the familiar animal. The larva and the adult both have a dorsal hollow nerve cord, a notochord, pharyngeal gill slits, and a muscular post-anal tail. A tunicate adult is typically a sessile filter feeder. Sessile means attached to a surface. The tunicate adult lacks the nerve cord and the notochord that its larva has. It feeds with an incurrent siphon and an excurrent siphon, and a hard cellulose sac called a tunic covers the body."
+    },
+    {
+      "type": "select_all",
+      "prompt": {
+        "text": "Select every special trait of Urochordata."
+      },
+      "bank": [
+        "Adults are typically sessile filter feeders.",
+        "Adults lack the nerve cord and the notochord that the larva has.",
+        "They feed with an incurrent siphon and an excurrent siphon.",
+        "A hard cellulose sac called a tunic covers the body.",
+        "They are small, fish-like invertebrates.",
+        "All four chordate traits are present in the larva and in the adult.",
+        "They have suction-cup tube feet.",
+        "They have a cephalothorax and an abdomen."
+      ],
+      "answers": [
+        "Adults are typically sessile filter feeders.",
+        "Adults lack the nerve cord and the notochord that the larva has.",
+        "They feed with an incurrent siphon and an excurrent siphon.",
+        "A hard cellulose sac called a tunic covers the body."
+      ],
+      "explanation": "Urochordata includes a tunicate. The adult is typically a sessile filter feeder. Sessile means attached to a surface. The larva has a dorsal hollow nerve cord and a notochord. The adult lacks those two. Water enters through an incurrent siphon and leaves through an excurrent siphon. A clam has those two siphons too. In a clam they are folds of the mantle, and a clam is a bivalve. A hard cellulose sac called a tunic covers the tunicate. The tunic is a body covering. Tunicate cells have no cell wall. A plant cell has a cellulose wall outside the plasma membrane. A small fish-like invertebrate that keeps all four chordate traits in the larva and in the adult is a cephalochordate. Suction-cup tube feet belong to a sea star. A cephalothorax and an abdomen belong to a chelicerate, such as a spider."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which chordate subphylum includes a small fish-like invertebrate?"
+      },
+      "options": [
+        "Cephalochordata",
+        "Urochordata",
+        "Asteroidea",
+        "Hexapoda"
+      ],
+      "answer": "Cephalochordata",
+      "explanation": "A small fish-like invertebrate is in Cephalochordata. A lancelet is the familiar animal. The larva and the adult both have all four chordate traits. A tunicate is in Urochordata. The adult is typically a sessile filter feeder and lacks the nerve cord and the notochord that the larva has. A sea star is in Asteroidea. A butterfly is in Hexapoda."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which chordate subphylum includes a tunicate?"
+      },
+      "options": [
+        "Urochordata",
+        "Cephalochordata",
+        "Asteroidea",
+        "Hexapoda"
+      ],
+      "answer": "Urochordata",
+      "explanation": "A tunicate is in Urochordata. The adult is typically a sessile filter feeder. It feeds with an incurrent siphon and an excurrent siphon, and a hard cellulose sac called a tunic covers the body. The adult lacks the nerve cord and the notochord that the larva has. A small fish-like invertebrate is in Cephalochordata and keeps all four chordate traits in the larva and in the adult. A sea star is in Asteroidea. A butterfly is in Hexapoda."
+    }
+  ]
+}

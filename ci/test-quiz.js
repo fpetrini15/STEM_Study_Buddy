@@ -48,6 +48,33 @@ class FakeClassList {
   }
 }
 
+function matchesSelector(element, selector) {
+  const parts = String(selector).trim().split(/\s+/);
+  if (parts.length === 1) {
+    return matchesSimpleSelector(element, parts[0]);
+  }
+
+  const last = parts[parts.length - 1];
+  if (!matchesSimpleSelector(element, last)) return false;
+
+  let node = element.parentNode;
+  const ancestors = parts.slice(0, -1).reverse();
+  for (const part of ancestors) {
+    while (node && !matchesSimpleSelector(node, part)) {
+      node = node.parentNode;
+    }
+    if (!node) return false;
+    node = node.parentNode;
+  }
+  return true;
+}
+
+function matchesSimpleSelector(element, selector) {
+  if (!element || !selector.startsWith(".")) return false;
+  const classes = selector.slice(1).split(".").filter(Boolean);
+  return classes.every((name) => element.classList.contains(name));
+}
+
 class FakeElement {
   constructor(document, tagName = "div", id = "") {
     this.document = document;
@@ -87,6 +114,37 @@ class FakeElement {
     return child;
   }
 
+  append(...children) {
+    children.forEach((child) => this.appendChild(child));
+  }
+
+  get parentElement() {
+    return this.parentNode || null;
+  }
+
+  closest(selector) {
+    let node = this;
+    while (node) {
+      if (matchesSelector(node, selector)) return node;
+      node = node.parentNode;
+    }
+    return null;
+  }
+
+  querySelector(selector) {
+    return this.querySelectorAll(selector)[0] || null;
+  }
+
+  querySelectorAll(selector) {
+    const found = [];
+    const visit = (element) => {
+      if (matchesSelector(element, selector)) found.push(element);
+      element.children.forEach(visit);
+    };
+    this.children.forEach(visit);
+    return found;
+  }
+
   replaceChildren(...children) {
     this.children.forEach((child) => {
       child.parentNode = null;
@@ -117,10 +175,6 @@ class FakeElement {
 
   setAttribute(name, value) {
     this.attributes[name] = String(value);
-  }
-
-  querySelectorAll() {
-    return [];
   }
 }
 
@@ -161,7 +215,7 @@ class FakeDocument {
     if (selector === ".instruction-container") return this.instructionContainer;
     if (selector === ".science-emoji") return this.loaderEmoji;
     if (selector === 'meta[name="description"]') return this.metaDescription;
-    return null;
+    return this.querySelectorAll(selector)[0] || null;
   }
 
   querySelectorAll(selector) {
@@ -169,7 +223,9 @@ class FakeDocument {
       return this.allElements.filter((element) => element.classList.contains("mc-option"));
     }
 
-    return [];
+    return this.allElements.filter(
+      (element) => element.parentNode && matchesSelector(element, selector),
+    );
   }
 }
 
@@ -404,10 +460,138 @@ async function testReferenceTableToggle() {
   assert.ok(panel.classList.contains("reference-panel--collapsed"));
 }
 
+async function testTrueFalseStaysLeftToRight() {
+  const trueFalseQuiz = {
+    title: "True False Order",
+    questions: [
+      {
+        type: "multiple_choice",
+        prompt: { text: "Stored with false first." },
+        options: ["False", "True"],
+        answer: "True",
+      },
+    ],
+  };
+  const { document } = await loadQuizContext({
+    search: "?quiz=biology/true-false-order&mode=practice",
+    math: { floor: Math.floor, random: () => 0 },
+    quizData: trueFalseQuiz,
+  });
+
+  const categories = document.getElementById("categories");
+  const trueFalseButtons = document
+    .querySelectorAll(".mc-option")
+    .filter((button) => button.parentNode === categories);
+
+  assert.ok(
+    categories.classList.contains("categories--true-false"),
+    "true/false choices should sit side by side",
+  );
+  assert.deepStrictEqual(
+    trueFalseButtons.map((button) => button.textContent),
+    ["True", "False"],
+  );
+
+  const { document: ordinaryDocument } = await loadQuizContext({
+    search: "?quiz=biology/ordinary-order&mode=practice",
+    math: { floor: Math.floor, random: () => 0 },
+    quizData: {
+      title: "Ordinary Order",
+      questions: [
+        {
+          type: "multiple_choice",
+          prompt: { text: "An ordinary choice." },
+          options: ["A", "B"],
+          answer: "A",
+        },
+      ],
+    },
+  });
+
+  const ordinaryCategories = ordinaryDocument.getElementById("categories");
+  const ordinaryButtons = ordinaryDocument
+    .querySelectorAll(".mc-option")
+    .filter((button) => button.parentNode === ordinaryCategories);
+
+  assert.ok(!ordinaryCategories.classList.contains("categories--true-false"));
+  assert.deepStrictEqual(
+    ordinaryButtons.map((button) => button.textContent),
+    ["B", "A"],
+    "ordinary choices should still be shuffled",
+  );
+}
+
+async function testDragTableUsesEveryChipOnce() {
+  const { document } = await loadQuizContext({
+    search: "?quiz=biology/drag-table&mode=practice",
+    math: { floor: Math.floor, random: () => 0 },
+    quizData: {
+      title: "Drag Table",
+      questions: [
+        {
+          type: "drag_table",
+          prompt: { text: "Fill the table." },
+          columns: ["Coelom", "Gut"],
+          rows: [
+            { label: "Flatworm", cells: ["Acoelomate", "Gastrovascular cavity"] },
+            { label: "Earthworm", cells: ["Coelomate", "Mouth and an anus"] },
+            { label: "Mollusc", cells: ["Coelomate", "Mouth and an anus"] },
+          ],
+          explanation: "Two groups share both a coelom and a complete gut.",
+        },
+      ],
+    },
+  });
+
+  const blanks = document.querySelectorAll(".drag-table .sentence-blank");
+  const chips = document.querySelectorAll(".sentence-chip");
+  assert.strictEqual(blanks.length, 6);
+  assert.strictEqual(chips.length, 6);
+
+  const labels = chips.map((chip) => chip.textContent).sort();
+  assert.deepStrictEqual(labels, [
+    "Acoelomate",
+    "Coelomate",
+    "Coelomate",
+    "Gastrovascular cavity",
+    "Mouth and an anus",
+    "Mouth and an anus",
+  ]);
+
+  const checkBtn = document.getElementById("check-worksheet-btn");
+  assert.strictEqual(checkBtn.disabled, true);
+
+  const expected = [
+    "Acoelomate",
+    "Gastrovascular cavity",
+    "Coelomate",
+    "Mouth and an anus",
+    "Coelomate",
+    "Mouth and an anus",
+  ];
+  expected.forEach((value, index) => {
+    const chip = document
+      .querySelectorAll(".sentence-bank .sentence-chip")
+      .find((item) => item.textContent === value);
+    assert.ok(chip, "missing chip " + value);
+    chip.click();
+    blanks[index].click();
+  });
+
+  assert.strictEqual(checkBtn.disabled, false);
+  checkBtn.click();
+  assert.equal(document.getElementById("score").textContent, 1);
+
+  const headline = document.querySelector(".feedback-headline");
+  assert.strictEqual(headline.textContent, "Correct!");
+}
+
 async function main() {
   await testContinueIsSingleUse();
   await testFillInScoringAndSkills();
   await testReferenceTableToggle();
+  await testTrueFalseStaysLeftToRight();
+  await testDragTableUsesEveryChipOnce();
   console.log("Quiz flow tests passed.");
 }
 

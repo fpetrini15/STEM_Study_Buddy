@@ -49,7 +49,7 @@
             "id": "study_of_biology",
             "title": "The Study of Biology",
             "icon": "🔍",
-            "description": "What biology studies, life's properties, levels of organization, and scientific inquiry.",
+            "description": "Hypotheses and theories, the properties of life, the hierarchy of life, and how species are named.",
             "course": "bio100b",
             "questionCount": 14,
             "types": {
@@ -62,7 +62,7 @@
             "id": "evidence_of_evolution",
             "title": "Evidence of Evolution",
             "icon": "🦴",
-            "description": "Lines of evidence used to support evolution.",
+            "description": "Fossils, biogeography, homologous and analogous traits, and vestigial structures.",
             "course": "bio100b",
             "questionCount": 16,
             "types": {
@@ -75,7 +75,7 @@
             "id": "evolution_of_populations",
             "title": "Evolution of Populations",
             "icon": "🐇",
-            "description": "How populations change genetically across generations.",
+            "description": "Mutation, drift, gene flow, natural selection, and Hardy-Weinberg equilibrium.",
             "course": "bio100b",
             "questionCount": 34,
             "types": {
@@ -88,7 +88,7 @@
             "id": "speciation_and_history_of_life",
             "title": "Speciation and History of Life",
             "icon": "🦕",
-            "description": "How new species form and how life has changed through time.",
+            "description": "Reproductive barriers, allopatric and sympatric speciation, extinctions, and the history of life.",
             "course": "bio100b",
             "questionCount": 31,
             "types": {
@@ -101,7 +101,7 @@
             "id": "systematics",
             "title": "Systematics",
             "icon": "🌳",
-            "description": "How organisms are named and grouped by evolutionary relationship.",
+            "description": "Clades, monophyletic groups, parsimony, shared characters, and how to read a phylogeny.",
             "course": "bio100b",
             "questionCount": 17,
             "types": {
@@ -302,13 +302,27 @@
             "id": "animal_origin_and_diversity",
             "title": "Animal Origin and Diversity",
             "icon": "🐾",
-            "description": "How animals arose and how their body plans differ.",
+            "description": "Choanoflagellates, the Cambrian explosion, germ layers, body plans, and protostomes versus deuterostomes.",
             "course": "bio100b",
             "questionCount": 32,
             "types": {
               "multiple_choice": 24,
               "select_all": 5,
               "drag_sentence": 3
+            }
+          },
+          {
+            "id": "invertebrates",
+            "title": "Invertebrates",
+            "icon": "🪼",
+            "description": "The major invertebrate groups and how their body plans differ.",
+            "course": "bio100b",
+            "questionCount": 77,
+            "types": {
+              "multiple_choice": 47,
+              "select_all": 28,
+              "drag_sentence": 1,
+              "drag_table": 1
             }
           },
           {
@@ -407,7 +421,7 @@
             "id": "prokaryotes",
             "title": "Prokaryotes",
             "icon": "🦠",
-            "description": "How bacteria and archaea are built and how they live.",
+            "description": "Cell structure, Gram stain, plasmids, nutrition, and the difference between Bacteria and Archaea.",
             "course": "bio100b",
             "questionCount": 24,
             "types": {
@@ -426,7 +440,7 @@
             "id": "protists",
             "title": "Protists",
             "icon": "🧫",
-            "description": "How protists are built and how they live.",
+            "description": "Excavates, SAR, archaeplastids, unikonts, and protist life cycles.",
             "course": "bio100b",
             "questionCount": 46,
             "types": {
@@ -445,7 +459,7 @@
             "id": "fungi",
             "title": "Fungi",
             "icon": "🍄",
-            "description": "How fungi are built and how they live.",
+            "description": "Hyphae, the five fungal phyla, lichens, mycorrhizae, and how fungi get nutrients.",
             "course": "bio100b",
             "questionCount": 24,
             "types": {
@@ -464,7 +478,7 @@
             "id": "plant_form",
             "title": "Plant Form",
             "icon": "🌱",
-            "description": "How the plant body is built.",
+            "description": "Organs, tissues, meristems, and the structure of roots, stems, and leaves.",
             "course": "bio100b",
             "questionCount": 42,
             "types": {
@@ -477,7 +491,7 @@
             "id": "plants_in_the_environment",
             "title": "Plants in the Environment",
             "icon": "🌿",
-            "description": "Plant hormones and how plants respond to their surroundings.",
+            "description": "Auxin, gibberellins, cytokinins, abscisic acid, ethylene, tropisms, photoperiod, and defense.",
             "course": "bio100b",
             "questionCount": 95,
             "types": {
@@ -491,7 +505,7 @@
             "id": "seedless_plants",
             "title": "Seedless Plants",
             "icon": "🍀",
-            "description": "Mosses, ferns, and other plants that do not make seeds.",
+            "description": "Charophytes, bryophytes, lycophytes, and ferns, from the move onto land through vascular tissue.",
             "course": "bio100b",
             "questionCount": 58,
             "types": {
@@ -505,7 +519,7 @@
             "id": "seed_plants",
             "title": "Seed Plants",
             "icon": "🌰",
-            "description": "Seeds, pollen, and the plants that make them.",
+            "description": "Ovules, pollen, gymnosperms, and how seeds and fertilization differ in flowering plants.",
             "course": "bio100b",
             "questionCount": 53,
             "types": {
@@ -518,7 +532,7 @@
             "id": "plant_reproduction",
             "title": "Plant Reproduction",
             "icon": "🌸",
-            "description": "Flowers, fruits, and how a flowering plant reproduces.",
+            "description": "Flower parts, fruit types, pollination, seed food storage, and seedling emergence.",
             "course": "bio100b",
             "questionCount": 75,
             "types": {
@@ -530,7 +544,7 @@
             "id": "plant_transport",
             "title": "Plant Transport and Nutrients",
             "icon": "💧",
-            "description": "How plants move water and sugars, and how they get mineral nutrients.",
+            "description": "Soil and nutrients, water potential, stomata, transpiration, and sugar transport in the phloem.",
             "course": "bio100b",
             "questionCount": 54,
             "types": {
@@ -543,7 +557,7 @@
             "id": "photosynthesis",
             "title": "Photosynthesis",
             "icon": "☀️",
-            "description": "How a plant captures light and builds sugars.",
+            "description": "Light reactions, the Calvin cycle, pigments, photorespiration, and C4 and CAM plants.",
             "course": "bio100b",
             "questionCount": 26,
             "types": {
@@ -561,7 +575,7 @@
             "id": "fungi_plant_practical",
             "title": "Fungi and Plant Practical",
             "icon": "🔬",
-            "description": "Identify fungi and plants from microscope photographs.",
+            "description": "Identify fungal genera and plant groups from photographs, including sori, seeds, and spores.",
             "course": "bio100b",
             "questionCount": 38,
             "types": {

@@ -2439,6 +2439,26 @@ MOBILE
   background: #ffecec;
 }
 
+.categories.categories--true-false {
+  flex-wrap: nowrap;
+
+  max-width: 520px;
+
+  margin-right: auto;
+
+  margin-left: auto;
+}
+
+.categories.categories--true-false .mc-option {
+  flex: 1 1 0;
+
+  width: auto;
+
+  max-width: none;
+
+  margin: 0;
+}
+
 .categories.categories--worksheet {
   display: block;
 
@@ -2935,6 +2955,103 @@ DRAG SENTENCE
   border-color: var(--incorrect);
 
   background: #ffecec;
+}
+
+.categories.categories--table {
+  display: block;
+
+  width: 100%;
+
+  max-width: 980px;
+}
+
+.drag-table {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+.drag-table-scroll {
+  overflow-x: auto;
+}
+
+.drag-table-grid {
+  width: 100%;
+
+  min-width: 960px;
+
+  border-collapse: separate;
+
+  border-spacing: 8px;
+}
+
+.drag-table-grid th {
+  font-family: var(--font-study);
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  line-height: 1.3;
+
+  text-align: left;
+
+  color: var(--text);
+}
+
+.drag-table-grid td {
+  vertical-align: top;
+}
+
+.drag-table-group {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 4px;
+
+  min-width: 168px;
+
+  padding: 8px 10px;
+
+  background: color-mix(in srgb, var(--primary) 9%, transparent);
+
+  border-radius: var(--radius-sm);
+}
+
+.drag-table-group-name,
+.drag-table-group-note {
+  display: block;
+}
+
+.drag-table-group-name {
+  font-size: 15px;
+}
+
+.drag-table-group-note {
+  font-size: 13px;
+
+  font-weight: 500;
+
+  line-height: 1.35;
+
+  color: color-mix(in srgb, var(--text) 76%, transparent);
+}
+
+.drag-table .sentence-blank {
+  display: flex;
+
+  width: 100%;
+
+  min-width: 0;
+
+  box-sizing: border-box;
+}
+
+.drag-table .sentence-chip {
+  white-space: normal;
 }
 
 .sentence-bank {
