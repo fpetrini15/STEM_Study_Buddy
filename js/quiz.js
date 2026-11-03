@@ -94,6 +94,30 @@ function shuffle(array) {
   return array;
 }
 
+function trueFalseLabel(option) {
+  return String(option).trim().toLowerCase();
+}
+
+function isTrueFalseQuestion(question) {
+  if (
+    !question ||
+    question.type !== "multiple_choice" ||
+    !Array.isArray(question.options) ||
+    question.options.length !== 2
+  ) {
+    return false;
+  }
+
+  const labels = question.options.map(trueFalseLabel).sort();
+  return labels[0] === "false" && labels[1] === "true";
+}
+
+function orderTrueFalseOptions(options) {
+  const trueOption = options.find((option) => trueFalseLabel(option) === "true");
+  const falseOption = options.find((option) => trueFalseLabel(option) === "false");
+  return [trueOption, falseOption];
+}
+
 function isTouchDevice() {
   return window.matchMedia("(hover: none) and (pointer: coarse)").matches;
 }
@@ -108,7 +132,9 @@ function prepareQuestions(sourceQuestions) {
       if (q.type === "multiple_choice") {
         return {
           ...q,
-          options: shuffle([...q.options]),
+          options: isTrueFalseQuestion(q)
+            ? orderTrueFalseOptions(q.options)
+            : shuffle([...q.options]),
         };
       }
       if (q.type === "drug_worksheet") {
@@ -128,6 +154,16 @@ function prepareQuestions(sourceQuestions) {
         return {
           ...q,
           bank: shuffle([...q.bank]),
+        };
+      }
+      if (q.type === "drag_table") {
+        const bank = [];
+        q.rows.forEach((row) => {
+          row.cells.forEach((cell) => bank.push(cell));
+        });
+        return {
+          ...q,
+          bank: shuffle(bank),
         };
       }
       return q;
@@ -239,6 +275,7 @@ function lockQuestionInteraction(question) {
 
   if (
     question.type === "drag_sentence" ||
+    question.type === "drag_table" ||
     question.type === "net_ionic" ||
     question.type === "select_all"
   ) {
@@ -261,6 +298,7 @@ function lockQuestionInteraction(question) {
   if (
     question.type === "drug_worksheet" ||
     question.type === "drag_sentence" ||
+    question.type === "drag_table" ||
     question.type === "fill_in" ||
     question.type === "net_ionic" ||
     question.type === "select_all"
@@ -336,6 +374,8 @@ function resetQuestionUI() {
     "categories--fill-in",
     "categories--net-ionic",
     "categories--select-all",
+    "categories--true-false",
+    "categories--table",
   );
   feedback.replaceChildren();
   feedback.classList.remove("show");
@@ -368,6 +408,7 @@ const questionRenderers = {
   multiple_choice: renderMultipleChoiceQuestion,
   drug_worksheet: renderDrugWorksheetQuestion,
   drag_sentence: renderDragSentenceQuestion,
+  drag_table: renderDragTableQuestion,
   fill_in: renderFillInQuestion,
   net_ionic: renderNetIonicQuestion,
   select_all: renderSelectAllQuestion,
@@ -378,6 +419,7 @@ const answerCheckers = {
   multiple_choice: checkMultipleChoiceAnswer,
   drug_worksheet: checkDrugWorksheetAnswer,
   drag_sentence: checkDragSentenceAnswer,
+  drag_table: checkDragTableAnswer,
   fill_in: checkFillInAnswer,
   net_ionic: checkNetIonicAnswer,
   select_all: checkSelectAllAnswer,
@@ -1003,7 +1045,15 @@ function renderMultipleChoiceQuestion(question) {
     promptBox.appendChild(caption);
   }
 
-  question.options.forEach((option) => {
+  const options = isTrueFalseQuestion(question)
+    ? orderTrueFalseOptions(question.options)
+    : question.options;
+
+  if (options !== question.options) {
+    categoriesContainer.classList.add("categories--true-false");
+  }
+
+  options.forEach((option) => {
     const btn = document.createElement("button");
     btn.className = "mc-option";
     btn.dataset.value = option;
@@ -1256,6 +1306,11 @@ function updateDragSentenceCheckEnabled() {
 
   if (question.type === "net_ionic") {
     updateNetIonicCheckEnabled();
+    return;
+  }
+
+  if (question.type === "drag_table") {
+    checkWorksheetBtn.disabled = !getDragTableSelections().every(Boolean);
     return;
   }
 
@@ -1568,6 +1623,228 @@ function appendDragSentenceBuilder(question, parent) {
   wrapper.appendChild(sentenceEl);
   wrapper.appendChild(bank);
   parent.appendChild(wrapper);
+}
+
+function plainStemLabel(value) {
+  return String(value).replace(/\*/g, "");
+}
+
+function dragTableSlots(question) {
+  const slots = [];
+  question.rows.forEach((row) => {
+    row.cells.forEach((answer, columnIndex) => {
+      slots.push({
+        label: plainStemLabel(row.label),
+        column: question.columns[columnIndex],
+        answer,
+      });
+    });
+  });
+  return slots;
+}
+
+function getDragTableSelections() {
+  return [...document.querySelectorAll(".drag-table .sentence-blank")].map((blank) => {
+    const chip = blank.querySelector(".sentence-chip");
+    return chip ? chip.dataset.value : null;
+  });
+}
+
+function formatDragTableAnswerSummary(question) {
+  return dragTableSlots(question).map(
+    (slot) => `${slot.label}, ${slot.column}: ${slot.answer}`,
+  );
+}
+
+function applyDragTableResultStyles(question, selections) {
+  clearSentenceBlankStates();
+  const blanks = document.querySelectorAll(".drag-table .sentence-blank");
+  dragTableSlots(question).forEach((slot, index) => {
+    const blank = blanks[index];
+    if (!blank) return;
+    setSentenceBlankState(blank, selections[index] === slot.answer);
+  });
+}
+
+function revealDragTableAnswers(question) {
+  const bank = document.querySelector(".drag-table .sentence-bank");
+  const blanks = document.querySelectorAll(".drag-table .sentence-blank");
+  const chipsByValue = new Map();
+
+  document.querySelectorAll(".drag-table .sentence-chip").forEach((chip) => {
+    const value = chip.dataset.value;
+    if (!chipsByValue.has(value)) {
+      chipsByValue.set(value, []);
+    }
+    chipsByValue.get(value).push(chip);
+  });
+
+  dragTableSlots(question).forEach((slot, index) => {
+    const blank = blanks[index];
+    if (!blank) return;
+
+    const existing = blank.querySelector(".sentence-chip");
+    if (existing && existing.dataset.value === slot.answer) {
+      return;
+    }
+
+    if (existing && bank) {
+      returnChipToBank(existing, bank);
+    }
+
+    const pool = chipsByValue.get(slot.answer) || [];
+    const chip =
+      pool.find((item) => item.parentElement === bank) || pool[0] || null;
+    if (chip) {
+      placeChipInBlank(chip, blank, bank);
+    }
+  });
+
+  applyDragTableResultStyles(
+    question,
+    dragTableSlots(question).map((slot) => slot.answer),
+  );
+}
+
+function attachSentenceBlank(blank, bank) {
+  blank.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    if (!categoriesContainer.classList.contains("locked")) {
+      blank.classList.add("sentence-blank--dragover");
+    }
+  });
+
+  blank.addEventListener("dragleave", () => {
+    blank.classList.remove("sentence-blank--dragover");
+  });
+
+  blank.addEventListener("drop", (e) => {
+    e.preventDefault();
+    blank.classList.remove("sentence-blank--dragover");
+    if (categoriesContainer.classList.contains("locked")) return;
+
+    const value = e.dataTransfer.getData("text/plain");
+    const moving = findChipForDrop(value, bank);
+    if (moving) {
+      placeChipInBlank(moving, blank, bank);
+    }
+  });
+
+  blank.addEventListener("click", () => {
+    if (categoriesContainer.classList.contains("locked")) return;
+
+    if (selectedSentenceChip) {
+      placeChipInBlank(selectedSentenceChip, blank, bank);
+      return;
+    }
+
+    const placed = blank.querySelector(".sentence-chip");
+    if (placed) {
+      returnChipToBank(placed, bank);
+      updateDragSentenceCheckEnabled();
+    }
+  });
+}
+
+function renderDragTableQuestion(question) {
+  draggable.classList.add("hidden");
+  promptContainer.style.display = "block";
+  promptContainer.classList.add("prompt-static");
+  interactionArea.style.display = "none";
+  categoriesContainer.classList.add("categories--table");
+  categoriesContainer.style.display = "block";
+  selectedSentenceChip = null;
+
+  instructionText.textContent = isTouchDevice()
+    ? "Tap a chip, then tap a cell. Every chip is used once. Tap a filled cell to clear it."
+    : "Drag a chip into every cell. Every chip is used once.";
+
+  if (question.prompt.text) {
+    const text = document.createElement("div");
+    setStemText(text, question.prompt.text);
+    promptBox.appendChild(text);
+  }
+
+  const wrapper = document.createElement("div");
+  wrapper.className = "drag-table";
+
+  const scroll = document.createElement("div");
+  scroll.className = "drag-table-scroll";
+
+  const table = document.createElement("table");
+  table.className = "drag-table-grid";
+
+  const thead = document.createElement("thead");
+  const headRow = document.createElement("tr");
+  const corner = document.createElement("th");
+  corner.setAttribute("scope", "col");
+  corner.textContent = "Group";
+  headRow.appendChild(corner);
+  question.columns.forEach((column) => {
+    const th = document.createElement("th");
+    th.setAttribute("scope", "col");
+    setStemText(th, column);
+    headRow.appendChild(th);
+  });
+  thead.appendChild(headRow);
+  table.appendChild(thead);
+
+  const tbody = document.createElement("tbody");
+  const bank = document.createElement("div");
+  bank.className = "sentence-bank";
+  bank.setAttribute("aria-label", "Trait chips");
+
+  question.rows.forEach((row) => {
+    const tr = document.createElement("tr");
+    const rowHeader = document.createElement("th");
+    rowHeader.setAttribute("scope", "row");
+    const group = document.createElement("span");
+    group.className = "drag-table-group";
+    const name = document.createElement("span");
+    name.className = "drag-table-group-name";
+    setStemText(name, row.label);
+    group.appendChild(name);
+    if (row.note) {
+      const note = document.createElement("span");
+      note.className = "drag-table-group-note";
+      setStemText(note, row.note);
+      group.appendChild(note);
+    }
+    rowHeader.appendChild(group);
+    tr.appendChild(rowHeader);
+
+    row.cells.forEach((answer, columnIndex) => {
+      const td = document.createElement("td");
+      const blank = document.createElement("span");
+      const column = question.columns[columnIndex];
+      td.dataset.column = plainStemLabel(column);
+      blank.className = "sentence-blank";
+      blank.setAttribute("tabindex", "0");
+      blank.setAttribute("role", "button");
+      blank.setAttribute(
+        "aria-label",
+        `${plainStemLabel(row.label)}, ${column}. Drop or tap a chip here.`,
+      );
+      attachSentenceBlank(blank, bank);
+      td.appendChild(blank);
+      tr.appendChild(td);
+    });
+
+    tbody.appendChild(tr);
+  });
+
+  question.bank.forEach((word) => {
+    bank.appendChild(createSentenceChip(word, bank));
+  });
+
+  table.appendChild(tbody);
+  scroll.appendChild(table);
+  wrapper.appendChild(scroll);
+  wrapper.appendChild(bank);
+  categoriesContainer.appendChild(wrapper);
+
+  checkWorksheetBtn.style.display = "inline-block";
+  checkWorksheetBtn.disabled = true;
 }
 
 /* NET IONIC */
@@ -2381,6 +2658,47 @@ function checkDragSentenceAnswer(selections, question) {
   updateScoreDisplay();
 }
 
+function checkDragTableAnswer(selections, question) {
+  const misses = [];
+  let allCorrect = true;
+
+  dragTableSlots(question).forEach((slot, index) => {
+    if (selections[index] !== slot.answer) {
+      allCorrect = false;
+      misses.push(`${slot.label}, ${slot.column}: ${slot.answer}`);
+    }
+  });
+
+  if (!isExamMode()) {
+    applyDragTableResultStyles(question, selections);
+  }
+
+  answeredCount++;
+
+  if (allCorrect) {
+    correctCount++;
+  } else {
+    wrongQuestions.push(question);
+  }
+
+  checkWorksheetBtn.style.display = "none";
+  checkWorksheetBtn.disabled = true;
+
+  if (isExamMode()) {
+    showExamAdvance(question);
+    updateScoreDisplay();
+    return;
+  }
+
+  if (allCorrect) {
+    showQuestionFeedback("Correct!", question, "correct");
+  } else {
+    showQuestionFeedback("Wrong!", question, "incorrect", null, misses);
+  }
+
+  updateScoreDisplay();
+}
+
 /* SKIP */
 
 skipBtn.addEventListener("click", () => {
@@ -2409,6 +2727,18 @@ skipBtn.addEventListener("click", () => {
       "skipped",
       null,
       formatDragSentenceAnswerSummary(question),
+    );
+    return;
+  }
+
+  if (question.type === "drag_table") {
+    revealDragTableAnswers(question);
+    showQuestionFeedback(
+      "Skipped.",
+      question,
+      "skipped",
+      null,
+      formatDragTableAnswerSummary(question),
     );
     return;
   }
@@ -2455,6 +2785,11 @@ checkWorksheetBtn.addEventListener("click", () => {
 
   if (question.type === "drag_sentence") {
     handleAnswer(getDragSentenceSelections());
+    return;
+  }
+
+  if (question.type === "drag_table") {
+    handleAnswer(getDragTableSelections());
     return;
   }
 

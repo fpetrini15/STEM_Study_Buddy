@@ -99,6 +99,7 @@ const CatalogUtils = {
     if (types.drag_and_drop) labels.push("Drag & drop");
     if (types.drug_worksheet) labels.push("Drug worksheet");
     if (types.drag_sentence) labels.push("Drag sentence");
+    if (types.drag_table) labels.push("Drag table");
     if (types.select_all) labels.push("Select all");
     if (types.fill_in) labels.push("Fill in");
     if (types.net_ionic) labels.push("Net ionic");

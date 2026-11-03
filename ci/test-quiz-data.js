@@ -6,6 +6,7 @@ const VALID_TYPES = new Set([
   "multiple_choice",
   "drug_worksheet",
   "drag_sentence",
+  "drag_table",
   "fill_in",
   "net_ionic",
   "select_all",
@@ -187,6 +188,69 @@ function validateQuestion(filePath, quiz, question, index) {
             `${label}: bank[${wordIndex}] must be a non-empty string.`,
           );
         }
+      });
+    }
+
+    return errors;
+  }
+
+  if (question.type === "drag_table") {
+    if (!Array.isArray(question.columns) || question.columns.length === 0) {
+      errors.push(`${label}: drag_table columns are required.`);
+    } else {
+      const seenColumns = new Set();
+      question.columns.forEach((column, columnIndex) => {
+        if (typeof column !== "string" || column.length === 0) {
+          errors.push(`${label}: columns[${columnIndex}] must be a non-empty string.`);
+        } else if (seenColumns.has(column)) {
+          errors.push(`${label}: duplicate column "${column}".`);
+        } else {
+          seenColumns.add(column);
+        }
+      });
+    }
+
+    if (!Array.isArray(question.rows) || question.rows.length === 0) {
+      errors.push(`${label}: drag_table rows are required.`);
+    } else {
+      const seenRows = new Set();
+      question.rows.forEach((row, rowIndex) => {
+        const rowLabel = `${label} rows[${rowIndex}]`;
+        if (!row || typeof row.label !== "string" || row.label.length === 0) {
+          errors.push(`${rowLabel}: label must be a non-empty string.`);
+        } else if (seenRows.has(row.label)) {
+          errors.push(`${rowLabel}: duplicate label "${row.label}".`);
+        } else {
+          seenRows.add(row.label);
+        }
+
+        if (
+          row &&
+          row.note !== undefined &&
+          (typeof row.note !== "string" || row.note.length === 0)
+        ) {
+          errors.push(`${rowLabel}: note must be a non-empty string.`);
+        }
+
+        if (!Array.isArray(row.cells)) {
+          errors.push(`${rowLabel}: cells are required.`);
+          return;
+        }
+
+        if (
+          Array.isArray(question.columns) &&
+          row.cells.length !== question.columns.length
+        ) {
+          errors.push(
+            `${rowLabel}: cells has ${row.cells.length} answer(s) but columns has ${question.columns.length}.`,
+          );
+        }
+
+        row.cells.forEach((cell, cellIndex) => {
+          if (typeof cell !== "string" || cell.length === 0) {
+            errors.push(`${rowLabel}: cells[${cellIndex}] must be a non-empty string.`);
+          }
+        });
       });
     }
 
