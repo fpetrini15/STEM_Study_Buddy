@@ -1744,6 +1744,482 @@
       ],
       "answer": "A rat",
       "explanation": "A rat is a common mammal. A mammal has hair and mammary glands. A kangaroo and a platypus are mammals too. A frog is an amphibian. It has moist skin and typically lays its eggs in water. A turtle is a reptile. It has scales and a shell. A trout is in Osteichthyes. Its skeleton is bone, and an operculum covers the gills."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Porifera?"
+      },
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Class",
+        "Order"
+      ],
+      "answer": "Phylum",
+      "explanation": "Porifera is a phylum. A sponge is in this phylum. Kingdom is the broader rank. Animals are a kingdom, and that kingdom contains Porifera along with many other phyla. Class is a narrower rank inside a phylum. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Cnidaria?"
+      },
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Class",
+        "Order"
+      ],
+      "answer": "Phylum",
+      "explanation": "Cnidaria is a phylum. A jellyfish, a sea anemone, and a hydra are cnidarians. Scyphozoa, Anthozoa, and Hydrozoa are classes inside this phylum. Kingdom is the broader rank. Animals are a kingdom, and Cnidaria is one phylum inside it. Class is a narrower rank. Order is a rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Scyphozoa?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Scyphozoa is a class. A jellyfish is a scyphozoan. The medusa is the conspicuous stage. This class is inside the phylum Cnidaria. Kingdom is the broader rank above a phylum. Phylum is the rank of Cnidaria, and Scyphozoa is one class inside that phylum. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Anthozoa?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Anthozoa is a class. A sea anemone is an anthozoan. A coral is an anthozoan too. Members live as polyps and have no medusa stage. This class is inside the phylum Cnidaria. Kingdom is the broader rank above a phylum. Phylum is the rank of Cnidaria. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Hydrozoa?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Hydrozoa is a class. A hydra is a hydrozoan. A hydrozoan may have both a polyp and a medusa. This class is inside the phylum Cnidaria. Kingdom is the broader rank above a phylum. Phylum is the rank of Cnidaria. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Platyhelminthes?"
+      },
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Class",
+        "Order"
+      ],
+      "answer": "Phylum",
+      "explanation": "Platyhelminthes is a phylum. A planarian is a flatworm in this phylum. A flatworm has a thin body, flattened from back to belly. Kingdom is the broader rank. Animals are a kingdom, and Platyhelminthes is one phylum inside it. Class is a narrower rank inside a phylum. Order is a rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Nematoda?"
+      },
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Class",
+        "Order"
+      ],
+      "answer": "Phylum",
+      "explanation": "Nematoda is a phylum. A roundworm is a nematode. A nematode sheds a tough external cuticle as it grows. Kingdom is the broader rank. Animals are a kingdom, and Nematoda is one phylum inside it. Class is a narrower rank inside a phylum. Order is a rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Annelida?"
+      },
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Class",
+        "Order"
+      ],
+      "answer": "Phylum",
+      "explanation": "Annelida is a phylum. An earthworm is an annelid. The body is built from repeated rings. Sedentaria and Errantia are classes inside this phylum. Kingdom is the broader rank. Animals are a kingdom, and Annelida is one phylum inside it. Class is a narrower rank. Order is a rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Sedentaria?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Sedentaria is a class. An earthworm is a sedentarian. A leech is a sedentarian too. This class is inside the phylum Annelida. Kingdom is the broader rank above a phylum. Phylum is the rank of Annelida, and Sedentaria is one class inside that phylum. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Errantia?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Errantia is a class. A marine worm with paddle-like parapodia is an errantian. This class is inside the phylum Annelida. Kingdom is the broader rank above a phylum. Phylum is the rank of Annelida. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Mollusca?"
+      },
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Class",
+        "Order"
+      ],
+      "answer": "Phylum",
+      "explanation": "Mollusca is a phylum. A snail is a mollusc. The body has a foot, a visceral mass, and a mantle. Polyplacophora, Gastropoda, Bivalvia, and Cephalopoda are classes inside this phylum. Kingdom is the broader rank. Animals are a kingdom, and Mollusca is one phylum inside it. Class is a narrower rank. Order is a rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Polyplacophora?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Polyplacophora is a class. A chiton is in this class. A chiton has a shell of overlapping plates. This class is inside the phylum Mollusca. Kingdom is the broader rank above a phylum. Phylum is the rank of Mollusca. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Gastropoda?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Gastropoda is a class. A snail is a gastropod. A slug is a gastropod too. This class is inside the phylum Mollusca. Kingdom is the broader rank above a phylum. Phylum is the rank of Mollusca. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Bivalvia?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Bivalvia is a class. A clam is a bivalve. A mussel and a scallop are bivalves too. This class is inside the phylum Mollusca. Kingdom is the broader rank above a phylum. Phylum is the rank of Mollusca. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Cephalopoda?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Cephalopoda is a class. An octopus is a cephalopod. A squid is a cephalopod too. This class is inside the phylum Mollusca. Kingdom is the broader rank above a phylum. Phylum is the rank of Mollusca. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Arthropoda?"
+      },
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Class",
+        "Order"
+      ],
+      "answer": "Phylum",
+      "explanation": "Arthropoda is a phylum. A spider, a crab, and a butterfly are arthropods. An arthropod sheds a tough external cuticle as it grows. Chelicerata, Myriapoda, Hexapoda, and Crustacea are classes inside this phylum. Kingdom is the broader rank. Animals are a kingdom, and Arthropoda is one phylum inside it. Class is a narrower rank. Order is a rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Chelicerata?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Chelicerata is a class. A spider is a chelicerate. A scorpion and a mite are chelicerates too. This class is inside the phylum Arthropoda. Kingdom is the broader rank above a phylum. Phylum is the rank of Arthropoda. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Myriapoda?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Myriapoda is a class. A centipede is in this class. A millipede is in this class too. This class is inside the phylum Arthropoda. Kingdom is the broader rank above a phylum. Phylum is the rank of Arthropoda. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Hexapoda?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Hexapoda is a class. A butterfly is a hexapod. An ant is a hexapod too. This class is inside the phylum Arthropoda. Kingdom is the broader rank above a phylum. Phylum is the rank of Arthropoda. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Crustacea?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Crustacea is a class. A crab is a crustacean. A lobster and a shrimp are crustaceans too. This class is inside the phylum Arthropoda. Kingdom is the broader rank above a phylum. Phylum is the rank of Arthropoda. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Echinodermata?"
+      },
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Class",
+        "Order"
+      ],
+      "answer": "Phylum",
+      "explanation": "Echinodermata is a phylum. A sea star is an echinoderm. Asteroidea, Ophiuroidea, Echinoidea, and Holothuroidea are classes inside this phylum. Kingdom is the broader rank. Animals are a kingdom, and Echinodermata is one phylum inside it. Class is a narrower rank. Order is a rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Asteroidea?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Asteroidea is a class. A sea star is in this class. A sea star usually has five arms, and the tube feet have suction cups. This class is inside the phylum Echinodermata. Kingdom is the broader rank above a phylum. Phylum is the rank of Echinodermata. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Ophiuroidea?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Ophiuroidea is a class. A brittle star is in this class. This class is inside the phylum Echinodermata. Kingdom is the broader rank above a phylum. Phylum is the rank of Echinodermata. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Echinoidea?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Echinoidea is a class. A sea urchin is in this class. A sand dollar is in this class too. The rigid test is an endoskeleton. This class is inside the phylum Echinodermata. Kingdom is the broader rank above a phylum. Phylum is the rank of Echinodermata. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Holothuroidea?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Holothuroidea is a class. A sea cucumber is in this class. This class is inside the phylum Echinodermata. Kingdom is the broader rank above a phylum. Phylum is the rank of Echinodermata. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Chordata?"
+      },
+      "options": [
+        "Phylum",
+        "Kingdom",
+        "Class",
+        "Order"
+      ],
+      "answer": "Phylum",
+      "explanation": "Chordata is a phylum. A lancelet, a sea squirt, and a vertebrate are chordates. Urochordata, Cephalochordata, and Vertebrata are subphyla inside this phylum. Kingdom is the broader rank. Animals are a kingdom, and Chordata is one phylum inside it. Class is a narrower rank inside a subphylum. Order is a rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Urochordata?"
+      },
+      "options": [
+        "Subphylum",
+        "Phylum",
+        "Class",
+        "Order"
+      ],
+      "answer": "Subphylum",
+      "explanation": "Urochordata is a subphylum. A sea squirt is a urochordate. The adult is typically a sessile filter feeder, and a tunic covers the body. This subphylum is inside the phylum Chordata. Phylum is the rank of Chordata. Class is a narrower rank inside a subphylum. Order is a rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Cephalochordata?"
+      },
+      "options": [
+        "Subphylum",
+        "Phylum",
+        "Class",
+        "Order"
+      ],
+      "answer": "Subphylum",
+      "explanation": "Cephalochordata is a subphylum. A lancelet is in this subphylum. The larva and the adult both keep all four chordate traits. This subphylum is inside the phylum Chordata. Phylum is the rank of Chordata. Class is a narrower rank inside a subphylum. Order is a rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Vertebrata?"
+      },
+      "options": [
+        "Subphylum",
+        "Phylum",
+        "Class",
+        "Order"
+      ],
+      "answer": "Subphylum",
+      "explanation": "Vertebrata is a subphylum. A vertebrate has a backbone of vertebrae. A shark, a frog, and a rat are vertebrates. This subphylum is inside the phylum Chordata. Chondrichthyes, Actinopterygii, Amphibia, Reptilia, and Mammalia are classes inside Vertebrata. Phylum is the rank of Chordata. Class is a narrower rank. Order is a rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Chondrichthyes?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Chondrichthyes is a class. A shark is in this class. A ray and a skate are in this class too. The skeleton is cartilage. This class is inside the subphylum Vertebrata, in the phylum Chordata. Kingdom is the broader rank above a phylum. Phylum is the rank of Chordata. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Actinopterygii?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Actinopterygii is a class. A trout is a ray-finned fish in this class. A blue tang is in this class too. The skeleton is bone, and an operculum covers the gills. This class is inside the subphylum Vertebrata, in the phylum Chordata. Kingdom is the broader rank above a phylum. Phylum is the rank of Chordata. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Amphibia?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Amphibia is a class. A frog is an amphibian. An amphibian has moist skin and typically lays eggs in water. A salamander is an amphibian too, and an adult salamander keeps a tail. This class is inside the subphylum Vertebrata, in the phylum Chordata. Kingdom is the broader rank above a phylum. Phylum is the rank of Chordata. Order is a narrower rank inside a class."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Reptilia?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Reptilia is a class. A turtle is a reptile. A turtle has scales and a shell. A bird is in this class too. This class is inside the subphylum Vertebrata, in the phylum Chordata. Kingdom is the broader rank above a phylum. Phylum is the rank of Chordata. Order is a narrower rank inside a class. Passeriformes is an order inside Reptilia."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "What is Mammalia?"
+      },
+      "options": [
+        "Class",
+        "Kingdom",
+        "Phylum",
+        "Order"
+      ],
+      "answer": "Class",
+      "explanation": "Mammalia is a class. A rat is a mammal. A mammal has hair and mammary glands. A kangaroo and a platypus are mammals too. This class is inside the subphylum Vertebrata, in the phylum Chordata. Kingdom is the broader rank above a phylum. Phylum is the rank of Chordata. Order is a narrower rank inside a class."
     }
   ]
 }
