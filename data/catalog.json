@@ -582,6 +582,17 @@
               "multiple_choice": 32,
               "drag_sentence": 6
             }
+          },
+          {
+            "id": "animal_practical",
+            "title": "Animal Practical",
+            "icon": "🐠",
+            "description": "Identify animal phyla and their classes, from sponges through the vertebrate classes.",
+            "course": "bio100b",
+            "questionCount": 104,
+            "types": {
+              "multiple_choice": 104
+            }
           }
         ]
       },

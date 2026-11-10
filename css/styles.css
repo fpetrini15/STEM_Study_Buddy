@@ -1499,6 +1499,20 @@ QUIZ AREA
   height: auto;
 }
 
+.quiz-image.quiz-image--scaled {
+  width: 70%;
+
+  max-width: 100%;
+
+  height: auto;
+
+  padding: 0;
+
+  background: transparent;
+
+  box-shadow: none;
+}
+
 .quiz-image-caption {
   margin: 0;
 

@@ -1,0 +1,1749 @@
+{
+  "title": "Animal Practical",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which genus and phylum are shown?",
+        "image": "images/biology/animal_practical/grantia.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Orange-stained microscope view of two body cross sections. Each has a pale central space, and the wall is divided into many narrow radial canals.",
+        "caption": "Cropped from a cross section by M. Readey. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "*Grantia* (Porifera)",
+        "*Hydra* (Cnidaria)",
+        "*Ascaris* (Nematoda)",
+        "*Lumbricus* (Annelida)"
+      ],
+      "answer": "*Grantia* (Porifera)",
+      "explanation": "This is *Grantia*, a sponge in Porifera. The section cuts across two neighboring members of a colony. Each body has a central cavity, and the wall is divided into many narrow canals. Those canals are lined by choanocytes. A choanocyte draws water with its flagellum, and the collar traps food. *Hydra* is a hydrozoan in Cnidaria. A polyp section has a gastrovascular cavity and two tissue layers, and its stinging cells are cnidocytes. *Ascaris* is a nematode. A cross section shows a round body, a pseudocoelom, and internal organs. *Lumbricus* is an earthworm, a sedentarian annelid. Its cross section has a coelom and a gut. The photograph is a cropped detail by M. Readey and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which structure is shown?",
+        "image": "images/biology/animal_practical/grantia_spicules.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Microscope view of many small clear pieces scattered on a pale field. Some pieces are straight needles, and others have three rays that meet at a center.",
+        "caption": "Figure 7.4 by Nikolaus Sucher, Laboratory Manual for SCI104 Biology II, Roxbury Community College, CC BY-SA 3.0."
+      },
+      "options": [
+        "Spicules",
+        "Choanocytes",
+        "Spongin",
+        "Cnidocytes"
+      ],
+      "answer": "Spicules",
+      "explanation": "These are spicules, the hard skeletal elements of a sponge. This slide is from *Grantia*, a calcareous sponge in Porifera, so the spicules are calcium carbonate. Some are straight needles, and others have three rays that meet at a center. A choanocyte is a collar cell that lines a sponge canal. Its flagellum draws water, and the collar traps food. Spongin is a network of flexible protein fibers. A cnidocyte is the stinging cell of a cnidarian, such as a hydra, and it contains a nematocyst. The photograph is Figure 7.4 from Nikolaus Sucher, Laboratory Manual for SCI104 Biology II at Roxbury Community College, and is licensed CC BY-SA 3.0."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/medusa.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A translucent bell-shaped animal in dark water. The bell margin is faintly purple, and thick frilled arms hang beneath the bell.",
+        "caption": "Cropped from a photograph by Luis Miguel Bugallo Sánchez (Lmbuga), taken at Loro Parque, Tenerife. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Scyphozoa (Cnidaria)",
+        "Hydrozoa (Cnidaria)",
+        "Anthozoa (Cnidaria)",
+        "Asteroidea (Echinodermata)"
+      ],
+      "answer": "Scyphozoa (Cnidaria)",
+      "explanation": "This is a jellyfish, a medusa in the class Scyphozoa, in the phylum Cnidaria. The medusa is the conspicuous stage. It is bell-shaped and free-swimming, and the oral arms hang beneath the bell. Hydrozoa is also in Cnidaria. The polyp is the dominant form. A hydra lives only as a polyp, with the mouth and tentacles pointing up. Anthozoa is also in Cnidaria. A sea anemone lives only as a polyp and has no medusa stage. Asteroidea is a class of Echinodermata. A sea star has arms and a water vascular system, and it is not a medusa. The photograph is a cropped detail by Luis Miguel Bugallo Sánchez (Lmbuga), taken at Loro Parque, Tenerife, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/polyp.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A cluster of yellow polyps on a rock. Each has an orange center and a ring of pale tentacles.",
+        "caption": "Resized from a photograph by Diego Delso, Arrábida Natural Park, Portugal. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Anthozoa (Cnidaria)",
+        "Scyphozoa (Cnidaria)",
+        "Hydrozoa (Cnidaria)",
+        "Asteroidea (Echinodermata)"
+      ],
+      "answer": "Anthozoa (Cnidaria)",
+      "explanation": "This is a colony of polyps in the class Anthozoa, in the phylum Cnidaria. Each polyp is cylindrical, with the mouth and tentacles pointing up. Anthozoans live as polyps and have no medusa stage. These polyps are *Parazoanthus axinellae*. They are joined by a shared sheet of tissue. A true sea anemone is usually solitary, but it is an anthozoan too. Scyphozoa is also in Cnidaria. A jellyfish is a medusa, bell-shaped and free-swimming, with the oral arms hanging beneath the bell. Hydrozoa is also in Cnidaria. A hydra is a solitary polyp, and other hydrozoans may also produce a medusa. Asteroidea is a class of Echinodermata. A sea star has arms and a water vascular system, and it is not a polyp. The photograph was resized from an image by Diego Delso, taken in Arrábida Natural Park, Portugal, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/metridium.png",
+        "imageClass": "quiz-image--scaled",
+        "imageAlt": "A white animal attached to a rock in dark water. A tall column ends in a dense crown of fine tentacles. A brown fish is beside the column.",
+        "caption": "Resized from a photograph by Betty Wills (Atsme), New England Aquarium. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Anthozoa (Cnidaria)",
+        "Scyphozoa (Cnidaria)",
+        "Hydrozoa (Cnidaria)",
+        "Asteroidea (Echinodermata)"
+      ],
+      "answer": "Anthozoa (Cnidaria)",
+      "explanation": "This is a sea anemone in the class Anthozoa, in the phylum Cnidaria. The body is one polyp. A column rises from the rock, and the mouth and a crown of fine tentacles point up. Anthozoans live as polyps and have no medusa stage. This species is *Metridium farcimen*. The fish beside the column is another animal. Scyphozoa is also in Cnidaria. A jellyfish is a medusa, bell-shaped and free-swimming, with the oral arms hanging beneath the bell. Hydrozoa is also in Cnidaria. A hydra is a solitary polyp with a small ring of tentacles, and other hydrozoans may also produce a medusa. Asteroidea is a class of Echinodermata. A sea star has arms and a water vascular system, and it is not a polyp. The photograph was resized from an image by Betty Wills (Atsme), taken at the New England Aquarium, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/galaxea.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A brown colony on a reef, covered with many small green centers. Each center has a ring of short pale tentacles.",
+        "caption": "Resized from a photograph by Diego Delso, Red Sea, Egypt. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Anthozoa (Cnidaria)",
+        "Scyphozoa (Cnidaria)",
+        "Hydrozoa (Cnidaria)",
+        "Asteroidea (Echinodermata)"
+      ],
+      "answer": "Anthozoa (Cnidaria)",
+      "explanation": "This is a coral in the class Anthozoa, in the phylum Cnidaria. The colony is a hard skeleton covered by many polyps. Each polyp has a ring of tentacles pointing up. Anthozoans live as polyps and have no medusa stage. This species is *Galaxea fascicularis*. A sea anemone is an anthozoan too, but it is usually one polyp and it does not build this shared hard skeleton. Scyphozoa is also in Cnidaria. A jellyfish is a medusa, bell-shaped and free-swimming, with the oral arms hanging beneath the bell. Hydrozoa is also in Cnidaria. A hydra is a solitary polyp, and other hydrozoans may also produce a medusa. Asteroidea is a class of Echinodermata. A sea star has arms and a water vascular system, and it is not a colony of polyps. The photograph was resized from an image by Diego Delso, taken in the Red Sea, Egypt, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which subphylum and phylum are shown?",
+        "image": "images/biology/animal_practical/rhopalea.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A translucent blue sac attached to a reef. The sac has two round openings, and a fine net shows through the body wall.",
+        "caption": "Cropped and resized from a photograph by Bernard Dupont, Bunaken Island, Sulawesi, Indonesia. Wikimedia Commons, CC BY-SA 2.0."
+      },
+      "options": [
+        "Urochordata (Chordata)",
+        "Cephalochordata (Chordata)",
+        "Vertebrata (Chordata)",
+        "Hydrozoa (Cnidaria)"
+      ],
+      "answer": "Urochordata (Chordata)",
+      "explanation": "This is a sea squirt, a tunicate in the subphylum Urochordata, in the phylum Chordata. The adult is a sessile filter feeder. A hard cellulose sac called a tunic covers the body. The two openings are an incurrent siphon and an excurrent siphon. Water enters through one and leaves through the other. The adult lacks the nerve cord and the notochord that the larva has. Cephalochordata is the other invertebrate chordate subphylum. A lancelet is a small fish-like invertebrate, and the larva and the adult both keep all four chordate traits. Vertebrata is the subphylum with a backbone of vertebrae. Hydrozoa is a class of Cnidaria, not a chordate subphylum. A hydra is a polyp, with the mouth and tentacles pointing up. The photograph was cropped and resized from an image by Bernard Dupont, taken at Bunaken Island, Sulawesi, Indonesia, and is licensed CC BY-SA 2.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/physalia.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A blue and pink translucent float lying on wet sand. A ridged crest runs along the top.",
+        "caption": "Cropped and resized from a photograph by Yorkiebrit, Hunting Island State Park, South Carolina. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Hydrozoa (Cnidaria)",
+        "Scyphozoa (Cnidaria)",
+        "Anthozoa (Cnidaria)",
+        "Asteroidea (Echinodermata)"
+      ],
+      "answer": "Hydrozoa (Cnidaria)",
+      "explanation": "This is a Portuguese man-of-war, *Physalia physalis*, in the class Hydrozoa, in the phylum Cnidaria. It is a colony, not one medusa. The part on the sand is a gas-filled float, with a crest along the top. Polyps hang beneath the float, and their tentacles carry nematocysts. A hydra is also a hydrozoan, but it is one polyp and it has no float. Scyphozoa is a jellyfish. The medusa is one bell, and the oral arms hang beneath that bell. Anthozoa lives only as a polyp. A sea anemone or a coral is attached, with the mouth and tentacles pointing up, and it has no gas-filled float. Asteroidea is a class of Echinodermata. A sea star has arms and a water vascular system. The photograph was cropped and resized from an image by Yorkiebrit, taken at Hunting Island State Park, South Carolina, and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "A hydroid and a scyphozoan can both have a polyp and a medusa. How does the life cycle tell them apart?"
+      },
+      "options": [
+        "In a hydroid, the polyp is dominant, and a medusa may be absent. In a scyphozoan, the medusa is dominant, and the polyp is reduced.",
+        "In a scyphozoan, the polyp is dominant, and a medusa may be absent. In a hydroid, the medusa is dominant, and the polyp is reduced.",
+        "A hydroid lives only as a medusa. A scyphozoan lives only as a polyp.",
+        "Both live only as a medusa, and neither has a polyp."
+      ],
+      "answer": "In a hydroid, the polyp is dominant, and a medusa may be absent. In a scyphozoan, the medusa is dominant, and the polyp is reduced.",
+      "explanation": "A hydroid is a hydrozoan. The polyp is the dominant form. A hydra lives only as a polyp and has no medusa. Other hydroids bud a free-swimming medusa. That medusa reproduces sexually and disperses, while the polyp colony stays in place and grows by budding. In a scyphozoan, the medusa is the dominant form. A jellyfish is bell-shaped and free-swimming, with the mouth and tentacles pointing down. A polyp does occur. It is small and short-lived, and it buds young medusae. The polyp is not absent. The reversed choice swaps those life cycles. A hydroid does not live only as a medusa, and a scyphozoan does not live only as a polyp. Neither group lacks a polyp in every member. An anthozoan is the group with no medusa stage."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/animal_practical/dugesia.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A translucent brown animal on a black field. The body is thin and flat, broader at one end, and that end has two dark spots.",
+        "caption": "Cropped from a photograph by Eduard Solà. An asexual specimen from Santa Fe, Montseny, Catalonia. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Platyhelminthes",
+        "Nematoda",
+        "Annelida",
+        "Cnidaria"
+      ],
+      "answer": "Platyhelminthes",
+      "explanation": "This is a planarian, *Dugesia subtentaculata*, in the phylum Platyhelminthes. The body is thin and flattened from back to belly. The broader end is the head, and it has two eyespots. Flatworms are acoelomate and have a gastrovascular cavity. One opening serves as both mouth and anus. A planarian is a hermaphrodite, and it can also reproduce asexually by splitting. Nematoda is the roundworms. A nematode has a round body, a pseudocoelom, and a mouth and an anus. Annelida is the segmented worms. An earthworm has a body built from repeated rings and a coelom. Cnidaria includes a hydra, a jellyfish, and a coral. A cnidarian is radially symmetric and has cnidocytes. A planarian is bilaterally symmetric and has no cnidocytes. The photograph was cropped from an image by Eduard Solà of an asexual specimen from Santa Fe, Montseny, Catalonia, and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/obelia.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A microscope view of a branching pink stalk on a pale field. Small cup-shaped and club-shaped bodies grow along the branches, and some end in short tentacles.",
+        "caption": "Whole mount by Daniel J. Drew, Yale Peabody Museum IZ 092522. Wikimedia Commons, CC0."
+      },
+      "options": [
+        "Hydrozoa (Cnidaria)",
+        "Scyphozoa (Cnidaria)",
+        "Anthozoa (Cnidaria)",
+        "Asteroidea (Echinodermata)"
+      ],
+      "answer": "Hydrozoa (Cnidaria)",
+      "explanation": "This is a colonial hydroid, *Obelia*, in the class Hydrozoa, in the phylum Cnidaria. The colony is a branching stalk of polyps. The polyp is the dominant form. This colony also buds a free-swimming medusa. A hydra is a hydrozoan too, but it is one polyp and it has no medusa. Scyphozoa is a jellyfish. The medusa is the dominant form, one bell, and the polyp is reduced. Anthozoa lives only as a polyp. A sea anemone or a coral has the mouth and tentacles pointing up, and it has no medusa stage. Asteroidea is a class of Echinodermata. A sea star has arms and a water vascular system. The photograph is a whole mount by Daniel J. Drew, Yale Peabody Museum specimen IZ 092522, and is dedicated to the public domain (CC0) on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/obelia_medusa.jpg",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A small stained bell on a pale microscope field, with a dark center and many thin tentacles around the margin. A scale bar reads 0.25 mm.",
+        "caption": "Whole mount of the medusa by Daniel J. Drew, Yale Peabody Museum IZ 077036. Wikimedia Commons, CC0."
+      },
+      "options": [
+        "Hydrozoa (Cnidaria)",
+        "Scyphozoa (Cnidaria)",
+        "Anthozoa (Cnidaria)",
+        "Asteroidea (Echinodermata)"
+      ],
+      "answer": "Hydrozoa (Cnidaria)",
+      "explanation": "This is the medusa of *Obelia dichotoma*, a colonial hydroid in the class Hydrozoa, in the phylum Cnidaria. The polyp colony buds this free-swimming medusa. The medusa reproduces sexually and disperses. It is not the dominant form. The polyp colony stays in place and grows by budding. The scale bar is 0.25 mm, so this bell is tiny. A hydra is a hydrozoan too, but it is one polyp and it has no medusa. Scyphozoa is a jellyfish. The medusa is the dominant form, one bell, and the polyp is reduced. Anthozoa lives only as a polyp. A sea anemone or a coral has no medusa stage. Asteroidea is a class of Echinodermata. A sea star has arms and a water vascular system. The photograph is a whole mount by Daniel J. Drew, Yale Peabody Museum specimen IZ 077036, and is dedicated to the public domain (CC0) on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/animal_practical/dipylidium.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A long gray chain of rounded pieces on a pale background. One end narrows into a short pointed tip, and the other end is made of larger pieces.",
+        "caption": "Adult *Dipylidium caninum* by Alan R Walker. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Platyhelminthes",
+        "Nematoda",
+        "Annelida",
+        "Cnidaria"
+      ],
+      "answer": "Platyhelminthes",
+      "explanation": "This is a tapeworm, *Dipylidium caninum*, in the phylum Platyhelminthes. The body is a long chain of repeated pieces. A tapeworm is flat and acoelomate. It has no mouth and no gastrovascular cavity, and it absorbs food across its body surface. A tapeworm is a hermaphrodite. A planarian is a flatworm too. A planarian has a gastrovascular cavity and two eyespots. Nematoda is the roundworms. A nematode has a round body, a pseudocoelom, and a mouth and an anus. Annelida is the segmented worms. An earthworm has a body built from repeated rings, a coelom, a mouth, and an anus. Cnidaria includes a hydra, a jellyfish, and a coral. A cnidarian is radially symmetric and has cnidocytes. The photograph is by Alan R Walker and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/animal_practical/clonorchis.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A pink leaf-shaped animal on a white background. One end is narrower, and dark branched structures show through the body.",
+        "caption": "Further cropped from Figure 2 in Sripa et al., PLoS Medicine, 2007. CC BY 2.5."
+      },
+      "options": [
+        "Platyhelminthes",
+        "Nematoda",
+        "Annelida",
+        "Cnidaria"
+      ],
+      "answer": "Platyhelminthes",
+      "explanation": "This is a liver fluke, *Clonorchis sinensis*, in the phylum Platyhelminthes. The body is flat and leaf-shaped. Flatworms are acoelomate. A liver fluke has a gastrovascular cavity, and it is a hermaphrodite. A blood fluke is a flatworm too, but it has separate sexes. A tapeworm is a flatworm with no mouth and no gastrovascular cavity. A planarian is a flatworm with a gastrovascular cavity and two eyespots. Nematoda is the roundworms. A nematode has a round body, a pseudocoelom, and a mouth and an anus. Annelida is the segmented worms. An earthworm has a body built from repeated rings, a coelom, a mouth, and an anus. Cnidaria includes a hydra, a jellyfish, and a coral. A cnidarian is radially symmetric and has cnidocytes. The photograph was further cropped from Figure 2 in Sripa et al., PLoS Medicine 4(7): e201, 2007, and is licensed CC BY 2.5."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/animal_practical/fasciola.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A red leaf-shaped animal on a white background. One end narrows into a cone, and the body widens behind that cone.",
+        "caption": "Cropped and resized from a longitudinal section by Wilfredor. The background was already removed. Wikimedia Commons, CC0."
+      },
+      "options": [
+        "Platyhelminthes",
+        "Nematoda",
+        "Annelida",
+        "Cnidaria"
+      ],
+      "answer": "Platyhelminthes",
+      "explanation": "This is a liver fluke, *Fasciola hepatica*, in the phylum Platyhelminthes. The body is flat and leaf-shaped, with a cone at the front and broad shoulders behind the cone. Flatworms are acoelomate. A liver fluke has a gastrovascular cavity, and it is a hermaphrodite. *Clonorchis* is a liver fluke too, but it is narrower and has no shoulders. A blood fluke is a flatworm with separate sexes. A tapeworm is a flatworm with no mouth and no gastrovascular cavity. A planarian is a flatworm with a gastrovascular cavity and two eyespots. Nematoda is the roundworms. A nematode has a round body, a pseudocoelom, and a mouth and an anus. Annelida is the segmented worms. An earthworm has a body built from repeated rings, a coelom, a mouth, and an anus. Cnidaria includes a hydra, a jellyfish, and a coral. A cnidarian is radially symmetric and has cnidocytes. The photograph was cropped and resized from a longitudinal section by Wilfredor. The background had already been removed, and the image is dedicated to the public domain (CC0) on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/animal_practical/nematode.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A microscope view of a slender brown worm curved into an S on a pale field.",
+        "caption": "Cropped from a photograph by Vyzhdova V. Wikimedia Commons, CC BY 4.0."
+      },
+      "options": [
+        "Nematoda",
+        "Platyhelminthes",
+        "Annelida",
+        "Cnidaria"
+      ],
+      "answer": "Nematoda",
+      "explanation": "This is a nematode, a roundworm in the phylum Nematoda. The body is slender and round, and it is not divided into segments. A nematode has a pseudocoelom. The body cavity is lined by mesoderm on the outer side only. It has a mouth and an anus, and it sheds a tough external cuticle as it grows. That shedding is ecdysis, so a nematode is an ecdysozoan. It has no jointed appendages. Platyhelminthes is the flatworms. A planarian is flat, with two eyespots, and it has a gastrovascular cavity. A tapeworm is flat and has no mouth and no gastrovascular cavity. Annelida is the segmented worms. An earthworm has a body built from repeated rings and a coelom. Cnidaria includes a hydra, a jellyfish, and a coral. A cnidarian is radially symmetric and has cnidocytes. The photograph was cropped from an image by Vyzhdova V and is licensed CC BY 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/animal_practical/ascaris.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Cream-colored smooth worms packed inside a gray tube that has been cut open. Metal forceps hold the tube against a blue background.",
+        "caption": "Cropped and resized from a photograph by the Department of Pathology, Calicut Medical College. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Nematoda",
+        "Platyhelminthes",
+        "Annelida",
+        "Cnidaria"
+      ],
+      "answer": "Nematoda",
+      "explanation": "The cream-colored worms are adults of *Ascaris lumbricoides*, roundworms in the phylum Nematoda. They are packed inside a piece of small intestine that has been cut open. The intestine is host tissue. The worms are the animals to identify. A nematode has a round body, and the body is not divided into segments. It has a pseudocoelom, lined by mesoderm on the outer side only, a mouth and an anus, and a tough external cuticle that is shed as it grows. That shedding is ecdysis, so a nematode is an ecdysozoan. It has no jointed appendages. Platyhelminthes is the flatworms. A planarian is flat and has a gastrovascular cavity. A tapeworm is flat and has no mouth and no gastrovascular cavity. Annelida is the segmented worms. An earthworm has a body built from repeated rings and a coelom. Cnidaria includes a hydra, a jellyfish, and a coral. A cnidarian is radially symmetric and has cnidocytes. The photograph was cropped and resized from an image by the Department of Pathology, Calicut Medical College, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which phylum is shown?",
+        "image": "images/biology/animal_practical/annelid.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A pinkish-brown worm lying across pale green lichen. The long body is divided into many narrow rings.",
+        "caption": "Photograph by Ryan Hodnett, Kitchener, Ontario. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Annelida",
+        "Nematoda",
+        "Platyhelminthes",
+        "Cnidaria"
+      ],
+      "answer": "Annelida",
+      "explanation": "This is a segmented worm in the phylum Annelida. The body is built from repeated rings. Annelids are coelomate and have a mouth and an anus. An earthworm is a sedentarian with this body plan. Nematoda is the roundworms. A nematode has a round body that is not divided into segments, a pseudocoelom, and a cuticle that is shed. Platyhelminthes is the flatworms. A planarian is flat and has a gastrovascular cavity. A tapeworm is flat and has no mouth and no gastrovascular cavity. Cnidaria includes a hydra, a jellyfish, and a coral. A cnidarian is radially symmetric and has cnidocytes. The photograph is by Ryan Hodnett, taken in Kitchener, Ontario, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which group and phylum are shown?",
+        "image": "images/biology/animal_practical/marphysa.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A pink segmented worm on a black background. Many pale bristles line the sides, and one end is a rounded head with short projections.",
+        "caption": "Cropped from a photograph by Hans Hillewaert, Belgian part of the North Sea. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Errantia (Annelida)",
+        "Sedentaria (Annelida)",
+        "Platyhelminthes",
+        "Nematoda"
+      ],
+      "answer": "Errantia (Annelida)",
+      "explanation": "This is *Marphysa sanguinea*, an errantian in the phylum Annelida. The body is built from repeated rings. Errantians move. Many are marine, and each segment has a pair of paddle-like parapodia with many bristles. The bristles line the sides of this worm. Annelids are coelomate and have a mouth and an anus. Sedentaria move less. An earthworm and a leech are sedentarians. Some live in tubes or burrows. Platyhelminthes is the flatworms. A planarian is flat and has a gastrovascular cavity. A tapeworm is flat and has no mouth and no gastrovascular cavity. Nematoda is the roundworms. A nematode has a round body that is not divided into segments, a pseudocoelom, and a cuticle that is shed. The photograph was cropped from an image by Hans Hillewaert, taken in the Belgian part of the North Sea, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "How can an errantian be distinguished from a sedentarian?"
+      },
+      "options": [
+        "An errantian moves. Many are marine, and each segment has paddle-like parapodia with many bristles. A sedentarian moves less. Some live in tubes or burrows.",
+        "A sedentarian moves. Many are marine, and each segment has paddle-like parapodia with many bristles. An errantian moves less. Some live in tubes or burrows.",
+        "An errantian sheds a tough external cuticle. A sedentarian has a gastrovascular cavity and no anus.",
+        "An errantian is a leech. A sedentarian is the only annelid with a body built from repeated rings."
+      ],
+      "answer": "An errantian moves. Many are marine, and each segment has paddle-like parapodia with many bristles. A sedentarian moves less. Some live in tubes or burrows.",
+      "explanation": "Errantia and Sedentaria are the two major groups of Annelida. An errantian moves. Many are marine, and each segment has a pair of paddle-like parapodia with many bristles. A sedentarian moves less. Some live in tubes or burrows. An earthworm and a leech are sedentarians. Both groups have a body built from repeated rings. Both are coelomate and have a mouth and an anus. The reversed choice swaps the two groups. Shedding a cuticle is the nematode trait. A gastrovascular cavity, with no anus, is the flatworm gut. A leech is a sedentarian."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which group and phylum are shown?",
+        "image": "images/biology/animal_practical/hirudo.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A dark flattened worm on skin. The body is glossy, with fine rings, and the rear end is narrowed and attached to the skin.",
+        "caption": "Cropped from a photograph by GlebK. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Sedentaria (Annelida)",
+        "Errantia (Annelida)",
+        "Platyhelminthes",
+        "Nematoda"
+      ],
+      "answer": "Sedentaria (Annelida)",
+      "explanation": "This is a leech, *Hirudo medicinalis*, a sedentarian in the phylum Annelida. Sedentarians move less. Some live in tubes or burrows. An earthworm is a sedentarian too. The body is built from repeated rings. Annelids are coelomate and have a mouth and an anus. Platyhelminthes is the flatworms. A planarian is flat and has a gastrovascular cavity. Errantians move. Many are marine, and each segment has a pair of paddle-like parapodia with many bristles. Nematoda is the roundworms. A nematode has a round body that is not divided into segments, a pseudocoelom, and a cuticle that is shed. The photograph was cropped from an image by GlebK and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/chiton.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "An oval animal clinging to a rock. Overlapping brown plates run along its back, and a dark fringe borders the plates.",
+        "caption": "Cropped and resized from a photograph by Oleksandr Hovorun. Wikimedia Commons, CC BY 4.0."
+      },
+      "options": [
+        "Polyplacophora (Mollusca)",
+        "Gastropoda (Mollusca)",
+        "Bivalvia (Mollusca)",
+        "Cephalopoda (Mollusca)"
+      ],
+      "answer": "Polyplacophora (Mollusca)",
+      "explanation": "This is a chiton in the class Polyplacophora, in the phylum Mollusca. Eight shell plates cross the back. A chiton has a radula and is typically a herbivore, scraping algae from the rock. The file does not identify a genus. Gastropoda is also in Mollusca. A snail and a slug are gastropods. Most have a coiled shell, and the head and the foot form one structure. Bivalvia is also in Mollusca. A clam, a mussel, and a scallop have two shells joined by a hinge and no radula. Cephalopoda is also in Mollusca. A squid has a small internal shell, and an octopus has none. The foot forms a siphon. The photograph was cropped and resized from an image by Oleksandr Hovorun and is licensed CC BY 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/chiton_tuberculatus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "An oval animal on a gray rock. Pale overlapping plates run along its back, and a beaded border surrounds the plates. Small red patches cover the rock.",
+        "caption": "Resized from a photograph by James St. John, San Salvador Island, Bahamas. Wikimedia Commons, CC BY 2.0."
+      },
+      "options": [
+        "Polyplacophora (Mollusca)",
+        "Gastropoda (Mollusca)",
+        "Bivalvia (Mollusca)",
+        "Cephalopoda (Mollusca)"
+      ],
+      "answer": "Polyplacophora (Mollusca)",
+      "explanation": "This is a West Indian green chiton, *Chiton tuberculatus*, in the class Polyplacophora, in the phylum Mollusca. Eight shell plates cross the back. A chiton has a radula and is typically a herbivore, scraping algae from the rock. The red spots on the rock are foraminifera, not part of the chiton. Gastropoda is also in Mollusca. A snail and a slug are gastropods. Most have a coiled shell, and the head and the foot form one structure. Bivalvia is also in Mollusca. A clam, a mussel, and a scallop have two shells joined by a hinge and no radula. Cephalopoda is also in Mollusca. A squid has a small internal shell, and an octopus has none. The foot forms a siphon. The photograph was resized from an image by James St. John, taken on San Salvador Island, Bahamas, and is licensed CC BY 2.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/bivalves.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Several shells on a dark wood surface. Some are ribbed, one is long and smooth, one is heart-shaped, and a large spiny shell sits near the top. One shell is open.",
+        "caption": "Resized from a photograph by Bricktop, May 2005. Wikimedia Commons, CC BY 2.5."
+      },
+      "options": [
+        "Bivalvia (Mollusca)",
+        "Gastropoda (Mollusca)",
+        "Polyplacophora (Mollusca)",
+        "Cephalopoda (Mollusca)"
+      ],
+      "answer": "Bivalvia (Mollusca)",
+      "explanation": "These shells are from several animals in the class Bivalvia, in the phylum Mollusca. A bivalve has two shells joined by a hinge. One shell in the picture is open, so both valves show. A clam, a mussel, and a scallop are bivalves. The foot is highly reduced. The mantle forms an incurrent siphon and an excurrent siphon, and those siphons are folds of the mantle. A bivalve has no radula and feeds by filtering. It has no distinct head. Gastropoda is also in Mollusca. A snail and a slug are gastropods. Most have a coiled shell, and the head and the foot form one structure. Polyplacophora is also in Mollusca. A chiton has eight shell plates, a radula, and is typically a herbivore. Cephalopoda is also in Mollusca. A squid has a small internal shell, and an octopus has none. The foot forms a siphon. The photograph was resized from an image by Bricktop and is licensed CC BY 2.5 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/mytilus_edulis.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Three views of one dark shell on a pale background. One view shows the outside. One view shows the hinge. The lower view is open, with the soft body between the two halves.",
+        "caption": "Cropped and resized from a photograph by Rainer Zenz, 2006. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Bivalvia (Mollusca)",
+        "Gastropoda (Mollusca)",
+        "Polyplacophora (Mollusca)",
+        "Cephalopoda (Mollusca)"
+      ],
+      "answer": "Bivalvia (Mollusca)",
+      "explanation": "This is a blue mussel, *Mytilus edulis*, in the class Bivalvia, in the phylum Mollusca. The picture shows one animal: the outside of the shell, the hinge, and the shell opened so both valves and the soft body show. The shell was opened by cutting the muscle that closes the valves. A bivalve has two shells joined by a hinge. A clam and a scallop are bivalves too. The foot is highly reduced. The mantle forms an incurrent siphon and an excurrent siphon, and those siphons are folds of the mantle. A bivalve has no radula and feeds by filtering. It has no distinct head. Gastropoda is also in Mollusca. A snail and a slug are gastropods. Most have a coiled shell, and the head and the foot form one structure. Polyplacophora is also in Mollusca. A chiton has eight shell plates, a radula, and is typically a herbivore. Cephalopoda is also in Mollusca. A squid has a small internal shell, and an octopus has none. The foot forms a siphon. The photograph was cropped and resized from an image by Rainer Zenz and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/snail.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A pale coiled shell on a wet surface, with a soft tan body emerging beneath it. Two pairs of tentacles extend from the head, and the animal is reflected in the surface.",
+        "caption": "Resized from a photograph by Beocheck, 25 July 2016. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Gastropoda (Mollusca)",
+        "Bivalvia (Mollusca)",
+        "Polyplacophora (Mollusca)",
+        "Cephalopoda (Mollusca)"
+      ],
+      "answer": "Gastropoda (Mollusca)",
+      "explanation": "This is a snail in the class Gastropoda, in the phylum Mollusca. Most gastropods show torsion. During development the visceral mass twists, and the anus ends up above the head. Most also have a coiled shell. The head and the foot form one structure. A gastropod has a radula, and gastropods do not all eat the same way. Some graze, and some are predators. A slug is a gastropod too. A nudibranch is a marine gastropod with no shell, so the coiled shell is usual rather than universal. The shape under the animal is a reflection on the wet surface, not a second animal. The file does not name a species. Bivalvia is also in Mollusca. A clam, a mussel, and a scallop have two shells joined by a hinge and no radula. Polyplacophora is also in Mollusca. A chiton has eight shell plates, a radula, and is typically a herbivore. Cephalopoda is also in Mollusca. A squid has a small internal shell, and an octopus has none. The foot forms a siphon. The photograph was resized from an image by Beocheck and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/ariolimax.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A long yellow animal on gray pavement. The body is glossy, tentacles extend from the head, and the other end is a narrow tail.",
+        "caption": "Resized from a photograph by Steven Pavlov, Pacific County, Washington, 25 May 2013. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Gastropoda (Mollusca)",
+        "Bivalvia (Mollusca)",
+        "Polyplacophora (Mollusca)",
+        "Cephalopoda (Mollusca)"
+      ],
+      "answer": "Gastropoda (Mollusca)",
+      "explanation": "This is a banana slug, *Ariolimax*, in the class Gastropoda, in the phylum Mollusca. A banana slug is a land slug. This one has no coiled shell. Many slugs have no coiled shell. The head and the foot still form one structure. Most gastropods show torsion. During development the visceral mass twists, and the anus ends up above the head. A gastropod has a radula, and gastropods do not all eat the same way. Some graze, and some are predators. A snail is a gastropod too, and most snails have a coiled shell. A nudibranch is a marine gastropod with no shell. The file names the genus and does not name a species. Bivalvia is also in Mollusca. A clam, a mussel, and a scallop have two shells joined by a hinge and no radula. Polyplacophora is also in Mollusca. A chiton has eight shell plates, a radula, and is typically a herbivore. Cephalopoda is also in Mollusca. A squid has a small internal shell, and an octopus has none. The foot forms a siphon. The photograph was resized from an image by Steven Pavlov, taken in Pacific County, Washington, and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/goniobranchus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A yellow animal with pale spots and a purple ruffled edge, resting on a rock underwater. Two striped tentacles project from the front, and a feathery tuft sits at the rear.",
+        "caption": "Resized from a photograph by Chad Ordelheide, 12 May 2010. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Gastropoda (Mollusca)",
+        "Bivalvia (Mollusca)",
+        "Polyplacophora (Mollusca)",
+        "Cephalopoda (Mollusca)"
+      ],
+      "answer": "Gastropoda (Mollusca)",
+      "explanation": "This is a nudibranch, *Goniobranchus rufomaculatus*, in the class Gastropoda, in the phylum Mollusca. The file also lists the older name *Chromodoris rufomaculata*. A nudibranch is a marine gastropod with no shell, so the coiled shell is usual rather than universal. The head and the foot form one structure. Most gastropods show torsion. During development the visceral mass twists, and the anus ends up above the head. A gastropod has a radula, and gastropods do not all eat the same way. Some graze, and some are predators. A snail is a gastropod too, and most snails have a coiled shell. A slug is a land gastropod, and many slugs have no coiled shell. Bivalvia is also in Mollusca. A clam, a mussel, and a scallop have two shells joined by a hinge and no radula. Polyplacophora is also in Mollusca. A chiton has eight shell plates, a radula, and is typically a herbivore. Cephalopoda is also in Mollusca. A squid has a small internal shell, and an octopus has none. The foot forms a siphon. The photograph was resized from an image by Chad Ordelheide and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which structure is shown?",
+        "image": "images/biology/animal_practical/leptoxis.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Six gray microscope panels labeled A through F. Each panel shows rows of small pointed or comb-like pieces, and each panel has a scale bar.",
+        "caption": "Resized from Figure 6 of Whelan, Johnson, and Harris, PLoS ONE 7(8): e42499, 2012. Wikimedia Commons, CC BY 2.5."
+      },
+      "options": [
+        "Radula",
+        "Mantle",
+        "Siphon",
+        "Visceral mass"
+      ],
+      "answer": "Radula",
+      "explanation": "These are views of a radula, a strap of backward-curved teeth that a mollusc uses to scrape food. The panels are scanning electron micrographs of the oblong rocksnail, *Leptoxis compacta*, a gastropod. Panels A through E are from snails collected in May 2011, and panel F is from a snail collected in 1881. The scale bars show that the teeth are microscopic. A gastropod has a radula. A chiton has a radula and is typically a herbivore. A squid or an octopus has a radula too, along with a beak-like jaw. A bivalve has no radula and feeds by filtering. The mantle is a fold of tissue over the visceral mass, and it secretes the shell when one is present. A siphon in a squid or an octopus is formed from the foot. In a bivalve, the incurrent siphon and the excurrent siphon are folds of the mantle. The visceral mass contains most of the internal organs. The figure was resized from Figure 6 of Whelan, Johnson, and Harris, PLoS ONE 2012, and is licensed CC BY 2.5 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/sepia_officinalis.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A mottled animal swimming above a reef. Arms and two longer tentacles extend from the head, a W-shaped pupil shows in the eye, and a pale fin runs along the side of the body.",
+        "caption": "Resized from a photograph by Diego Delso, Arrábida Natural Park, Portugal, 21 July 2020. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Cephalopoda (Mollusca)",
+        "Gastropoda (Mollusca)",
+        "Bivalvia (Mollusca)",
+        "Polyplacophora (Mollusca)"
+      ],
+      "answer": "Cephalopoda (Mollusca)",
+      "explanation": "This is a common cuttlefish, *Sepia officinalis*, in the class Cephalopoda, in the phylum Mollusca. A cuttlefish is a cephalopod, as are a squid and an octopus. The foot forms a siphon, which the animal uses to jet water. Tentacles form a circle around the mouth. The mouth has a beak-like jaw and a radula, and it sits at the base of the foot. The circulatory system is closed. A squid has a small internal shell, and an octopus has none. A cuttlefish has an internal shell, the cuttlebone. A chambered nautilus is also a cephalopod, and it has an external shell. Gastropoda is also in Mollusca. A snail and a slug are gastropods. Most have a coiled shell, and the head and the foot form one structure. Bivalvia is also in Mollusca. A clam, a mussel, and a scallop have two shells joined by a hinge and no radula. Polyplacophora is also in Mollusca. A chiton has eight shell plates, a radula, and is typically a herbivore. The photograph was resized from an image by Diego Delso, taken in Arrábida Natural Park, Portugal, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/amphioctopus_marginatus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A soft pale animal on sand, holding a dark rounded shell and a ribbed brown shell. Arms with pale suckers wrap around the shells, and a large eye faces the camera.",
+        "caption": "Resized from a photograph by Nick Hobgood, Sandy Bottom, East Timor, 27 February 2006. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Cephalopoda (Mollusca)",
+        "Gastropoda (Mollusca)",
+        "Bivalvia (Mollusca)",
+        "Polyplacophora (Mollusca)"
+      ],
+      "answer": "Cephalopoda (Mollusca)",
+      "explanation": "This is an octopus, *Amphioctopus marginatus*, in the class Cephalopoda, in the phylum Mollusca. The file also lists the older name *Octopus marginatus*. An octopus has no shell. The two shells in the picture are objects the animal is holding for shelter. They are not part of its body. The foot forms a siphon, which the animal uses to jet water. Tentacles form a circle around the mouth. The mouth has a beak-like jaw and a radula, and it sits at the base of the foot. The circulatory system is closed. A squid is a cephalopod too, and it has a small internal shell. A cuttlefish is a cephalopod and has an internal shell, the cuttlebone. A chambered nautilus is also a cephalopod, and it has an external shell. Gastropoda is also in Mollusca. A snail has a coiled shell that is part of the animal, and the head and the foot form one structure. A slug is a gastropod too. Bivalvia is also in Mollusca. A clam, a mussel, and a scallop have two shells joined by a hinge and no radula. Polyplacophora is also in Mollusca. A chiton has eight shell plates, a radula, and is typically a herbivore. The photograph was resized from an image by Nick Hobgood, taken at Sandy Bottom, East Timor, and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/sepioteuthis_sepioidea.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A slender mottled animal in open water. A large eye sits on the side of the head, fins rise from the rear of the body, and the head narrows to a point.",
+        "caption": "Resized from a photograph by Betty Wills (Atsme), Bari Reef, Bonaire, 25 February 2006. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Cephalopoda (Mollusca)",
+        "Gastropoda (Mollusca)",
+        "Bivalvia (Mollusca)",
+        "Polyplacophora (Mollusca)"
+      ],
+      "answer": "Cephalopoda (Mollusca)",
+      "explanation": "This is a Caribbean reef squid, *Sepioteuthis sepioidea*, in the class Cephalopoda, in the phylum Mollusca. A squid is a cephalopod. It has a small internal shell. The foot forms a siphon, which the animal uses to jet water. Tentacles form a circle around the mouth. The mouth has a beak-like jaw and a radula, and it sits at the base of the foot. The circulatory system is closed. An octopus is a cephalopod too, and it has no shell. A cuttlefish is a cephalopod and has an internal shell, the cuttlebone. A chambered nautilus is also a cephalopod, and it has an external shell. The genus name looks like the cuttlefish genus *Sepia*, but this animal is a squid. Gastropoda is also in Mollusca. A snail and a slug are gastropods. Most have a coiled shell, and the head and the foot form one structure. Bivalvia is also in Mollusca. A clam, a mussel, and a scallop have two shells joined by a hinge and no radula. Polyplacophora is also in Mollusca. A chiton has eight shell plates, a radula, and is typically a herbivore. The photograph was resized from an image by Betty Wills (Atsme), taken at Bari Reef, Bonaire, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/chelicerates.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Six animals in separate panels. One has long thin legs and a small body. One has a broad brown shield and a long spike. One is a dark fossil of a segmented animal. One has a patterned round body and long legs on a web. One is yellow, with large pincers and a curved tail. One is small, red, and velvety.",
+        "caption": "Collage of photographs by Ken-ichi Ueda, Hans Hillewaert, Luis Fernández García, Lucarelli, Bernard Dupont, and Kurt Kulac. Some photographs were rotated. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Chelicerata (Arthropoda)",
+        "Myriapoda (Arthropoda)",
+        "Crustacea (Arthropoda)",
+        "Hexapoda (Arthropoda)"
+      ],
+      "answer": "Chelicerata (Arthropoda)",
+      "explanation": "These animals are in the class Chelicerata, in the phylum Arthropoda. The collage shows a sea spider, *Ammothea hilgendorfi*; a horseshoe crab, *Limulus polyphemus*; a fossil sea scorpion, *Eurypterus remipes*; a spider, *Araneus diadematus*; a scorpion, *Buthus occitanus*; and a mite, *Trombidium holosericeum*. Chelicerata includes the arachnids, such as a spider, a scorpion, and a mite. Chelicerae are the claw-like feeding appendages the group is named for. Pedipalps are the second pair of feeding appendages. The body has two regions. The cephalothorax is a fused head and thorax, and the abdomen is the region behind it. Chelicerates lack antennae. Myriapoda is also in Arthropoda. A centipede and a millipede have a distinct head with antennae and mandibles. Crustacea is also in Arthropoda. A lobster, a crab, and a shrimp have gills and antennae. Hexapoda is also in Arthropoda. A butterfly has a head, a thorax, and an abdomen, with three pairs of legs and one pair of antennae. The collage is by Ken-ichi Ueda, Hans Hillewaert, Luis Fernández García, Lucarelli, Bernard Dupont, and Kurt Kulac, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/latrodectus_hesperus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A glossy black animal hanging in a web. A red mark shows on the rounded abdomen, and long jointed legs spread across the silk.",
+        "caption": "Resized from a photograph by Dllu, San Jose, California, 10 August 2025. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Chelicerata (Arthropoda)",
+        "Myriapoda (Arthropoda)",
+        "Crustacea (Arthropoda)",
+        "Hexapoda (Arthropoda)"
+      ],
+      "answer": "Chelicerata (Arthropoda)",
+      "explanation": "This is a female western black widow, *Latrodectus hesperus*, in the class Chelicerata, in the phylum Arthropoda. A black widow is a spider. Chelicerata includes the arachnids, such as a spider, a scorpion, and a mite. Chelicerae are the claw-like feeding appendages the group is named for. Pedipalps are the second pair of feeding appendages. The body has two regions. The cephalothorax is a fused head and thorax, and the abdomen is the region behind it. The red mark is on the abdomen. Chelicerates lack antennae. Myriapoda is also in Arthropoda. A centipede and a millipede have a distinct head with antennae and mandibles. Crustacea is also in Arthropoda. A lobster, a crab, and a shrimp have gills and antennae. Hexapoda is also in Arthropoda. A butterfly has a head, a thorax, and an abdomen, with three pairs of legs and one pair of antennae. The photograph was resized from an image by Dllu, taken in San Jose, California, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/scolopendra.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A long segmented animal curled on dark soil. One pair of pale legs comes from each body ring, two antennae extend from the head, and the rear end has longer legs.",
+        "caption": "Photograph by Eric Guinther, Kawai Nui, Oahu, Hawaii, 5 January 2002. Uploaded by Marshman. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Myriapoda (Arthropoda)",
+        "Chelicerata (Arthropoda)",
+        "Crustacea (Arthropoda)",
+        "Hexapoda (Arthropoda)"
+      ],
+      "answer": "Myriapoda (Arthropoda)",
+      "explanation": "This is a centipede, *Scolopendra*, in the class Myriapoda, in the phylum Arthropoda. The file does not name a species. The body is highly segmented, and the segments bear legs. Each segment has one pair of legs. A centipede is a venomous carnivore. The head is distinct and has antennae and mandibles. A millipede is a myriapod too. It has two pairs of legs on each segment. It is a detritivore, and its tissues contain cyanide, which is toxic. Chelicerata is also in Arthropoda. A spider, a scorpion, and a mite have chelicerae and pedipalps, a cephalothorax and an abdomen, and no antennae. Crustacea is also in Arthropoda. A lobster, a crab, and a shrimp have gills and antennae. Hexapoda is also in Arthropoda. A butterfly has a head, a thorax, and an abdomen, with three pairs of legs and one pair of antennae. The photograph is by Eric Guinther, taken at Kawai Nui, Oahu, Hawaii, and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/cylindroiulus_caeruleocinctus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A dark cylindrical animal with many narrow rings, resting on a hand. Short legs line the underside, and two short antennae extend from the rounded head.",
+        "caption": "Resized from a photograph by Darkone, 15 April 2005. Wikimedia Commons, CC BY-SA 2.5."
+      },
+      "options": [
+        "Myriapoda (Arthropoda)",
+        "Chelicerata (Arthropoda)",
+        "Crustacea (Arthropoda)",
+        "Hexapoda (Arthropoda)"
+      ],
+      "answer": "Myriapoda (Arthropoda)",
+      "explanation": "This is a millipede, *Cylindroiulus caeruleocinctus*, in the class Myriapoda, in the phylum Arthropoda. The body is highly segmented, and the segments bear legs. A millipede has two pairs of legs on each segment. It is a detritivore, and its tissues contain cyanide, which is toxic. The head is distinct and has antennae and mandibles. A centipede is a myriapod too. It has one pair of legs on each segment and is a venomous carnivore. Chelicerata is also in Arthropoda. A spider, a scorpion, and a mite have chelicerae and pedipalps, a cephalothorax and an abdomen, and no antennae. Crustacea is also in Arthropoda. A lobster, a crab, and a shrimp have gills and antennae. Hexapoda is also in Arthropoda. A butterfly has a head, a thorax, and an abdomen, with three pairs of legs and one pair of antennae. The photograph was resized from an image by Darkone and is licensed CC BY-SA 2.5 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/acarus_siro.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A small brown animal on a pale microscope field. Short jointed legs and long fine hairs extend from the body.",
+        "caption": "Resized from a photograph by Joel Mills, 13 January 2007. The view is at 100x. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Chelicerata (Arthropoda)",
+        "Myriapoda (Arthropoda)",
+        "Crustacea (Arthropoda)",
+        "Hexapoda (Arthropoda)"
+      ],
+      "answer": "Chelicerata (Arthropoda)",
+      "explanation": "This is a grain mite, *Acarus siro*, in the class Chelicerata, in the phylum Arthropoda. The view is at 100x through a microscope. A mite is a chelicerate. Chelicerates lack antennae and have chelicerae and pedipalps. The long hairs are not antennae. The body has two regions. The cephalothorax is a fused head and thorax, and the abdomen is the region behind it. A spider and a scorpion are chelicerates too. This grain mite is not a parasite. It can turn up in a fecal sample when stored food has spoiled. Myriapoda is also in Arthropoda. A centipede has one pair of legs on each segment and has antennae. A millipede has two pairs of legs on each segment and has antennae. Crustacea is also in Arthropoda. A lobster, a crab, and a shrimp have gills and antennae. Hexapoda is also in Arthropoda. A butterfly has one pair of antennae. A mite has none. The photograph was resized from an image by Joel Mills and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/flesh_fly.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A gray animal with large reddish eyes on a wooden board. Clear wings lie over the body, six jointed legs grip the wood, and short antennae project from the head.",
+        "caption": "Photograph by Gilles Gonthier, Lower Saint Lawrence, Quebec, Canada. Wikimedia Commons, CC BY 2.5."
+      },
+      "options": [
+        "Hexapoda (Arthropoda)",
+        "Chelicerata (Arthropoda)",
+        "Myriapoda (Arthropoda)",
+        "Crustacea (Arthropoda)"
+      ],
+      "answer": "Hexapoda (Arthropoda)",
+      "explanation": "This is a flesh fly in the class Hexapoda, in the phylum Arthropoda. The file places it in the family Sarcophagidae and does not name a species. Hexapoda includes the insects, such as a butterfly. The body has three regions: a head, a thorax, and an abdomen. There are three pairs of legs and one pair of antennae. Some hexapods have wings, and some do not. This fly has wings. Most hexapods are terrestrial. A butterfly undergoes complete metamorphosis. It passes through a larva and a pupa, and the adult looks different from the larva. Chelicerata is also in Arthropoda. A spider, a scorpion, and a mite have a cephalothorax and an abdomen, and they lack antennae. Myriapoda is also in Arthropoda. A centipede has one pair of legs on each segment. A millipede has two pairs of legs on each segment. Crustacea is also in Arthropoda. A lobster, a crab, and a shrimp have gills, and most crustaceans are marine. The photograph is by Gilles Gonthier, taken in the Lower Saint Lawrence region, Quebec, Canada, and is licensed CC BY 2.5 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/zonocerus_variegatus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A colorful animal on a brown twig. Long antennae extend from the head, a large eye shows on the side, and jointed legs grip the twig. Green wings lie along the back.",
+        "caption": "Resized from a photograph by Charles J. Sharp, Bobiri Forest, Ghana, 14 April 2017. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Hexapoda (Arthropoda)",
+        "Chelicerata (Arthropoda)",
+        "Myriapoda (Arthropoda)",
+        "Crustacea (Arthropoda)"
+      ],
+      "answer": "Hexapoda (Arthropoda)",
+      "explanation": "This is a female variegated grasshopper, *Zonocerus variegatus*, in the class Hexapoda, in the phylum Arthropoda. Hexapoda includes the insects, such as a butterfly. The body has three regions: a head, a thorax, and an abdomen. There are three pairs of legs and one pair of antennae. Some hexapods have wings, and some do not. This grasshopper has wings. Most hexapods are terrestrial. A grasshopper undergoes incomplete metamorphosis. There is no pupa, and the young form changes gradually toward the adult. A butterfly undergoes complete metamorphosis. It passes through a larva and a pupa, and the adult looks different from the larva. Chelicerata is also in Arthropoda. A spider, a scorpion, and a mite have a cephalothorax and an abdomen, and they lack antennae. Myriapoda is also in Arthropoda. A centipede has one pair of legs on each segment. A millipede has two pairs of legs on each segment. Crustacea is also in Arthropoda. A lobster, a crab, and a shrimp have gills, and most crustaceans are marine. The photograph was resized from an image by Charles J. Sharp, taken in Bobiri Forest, Ghana, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/camponotus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A black animal on pale stone. A narrow waist separates a rounded rear from the middle of the body, six long legs grip the stone, and two antennae extend from the head.",
+        "caption": "Resized from a cropped photograph by Muhammad Mahdi Karim, Tanzania, 5 July 2009. Wikimedia Commons, GFDL 1.2."
+      },
+      "options": [
+        "Hexapoda (Arthropoda)",
+        "Chelicerata (Arthropoda)",
+        "Myriapoda (Arthropoda)",
+        "Crustacea (Arthropoda)"
+      ],
+      "answer": "Hexapoda (Arthropoda)",
+      "explanation": "This is a carpenter ant, *Camponotus*, in the class Hexapoda, in the phylum Arthropoda. The file does not name a species. Hexapoda includes the insects, such as a butterfly. The body has three regions: a head, a thorax, and an abdomen. A narrow waist separates the thorax from the abdomen. There are three pairs of legs and one pair of antennae. Some hexapods have wings, and some do not. This ant has no wings. Most hexapods are terrestrial. An ant undergoes complete metamorphosis, as a butterfly does. It passes through a larva and a pupa, and the adult looks different from the larva. A grasshopper undergoes incomplete metamorphosis. There is no pupa, and the young form changes gradually toward the adult. Chelicerata is also in Arthropoda. A spider, a scorpion, and a mite have a cephalothorax and an abdomen, and they lack antennae. Myriapoda is also in Arthropoda. A centipede has one pair of legs on each segment. A millipede has two pairs of legs on each segment. Crustacea is also in Arthropoda. A lobster, a crab, and a shrimp have gills, and most crustaceans are marine. The photograph was resized from a cropped image by Muhammad Mahdi Karim, taken in Tanzania, and is licensed GFDL 1.2 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/coenobita_scaevola.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A pale animal on sand, carrying a coiled striped shell. Stalked eyes and long antennae extend from the front, and jointed legs grip the sand.",
+        "caption": "Resized from a photograph by Diego Delso, Red Sea, Egypt, 18 April 2023. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Crustacea (Arthropoda)",
+        "Chelicerata (Arthropoda)",
+        "Myriapoda (Arthropoda)",
+        "Hexapoda (Arthropoda)"
+      ],
+      "answer": "Crustacea (Arthropoda)",
+      "explanation": "This is a hermit crab, *Coenobita scaevola*, in the class Crustacea, in the phylum Arthropoda. The coiled shell is a snail shell that the crab is carrying. It is not part of the crab. A lobster, a crab, and a shrimp are crustaceans too. Crustaceans have gills and antennae. Many have a calcified exoskeleton. Most are marine. A bottom-dwelling crab has a free-floating larva called a zoea. This hermit crab lives on the shore. Chelicerata is also in Arthropoda. A spider, a scorpion, and a mite lack antennae. Myriapoda is also in Arthropoda. A centipede has one pair of legs on each segment. A millipede has two pairs of legs on each segment. Hexapoda is also in Arthropoda. A butterfly has a head, a thorax, and an abdomen, with three pairs of legs and one pair of antennae. Most hexapods are terrestrial. The photograph was resized from an image by Diego Delso, taken at the Red Sea, Egypt, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/homarus_gammarus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A dark animal on a rocky seabed. Two large claws are held in front, long antennae reach across the rock, and a jointed tail extends behind the body.",
+        "caption": "Resized from a photograph by Bart Braun, Den Osse, Zeeland. Wikimedia Commons, public domain."
+      },
+      "options": [
+        "Crustacea (Arthropoda)",
+        "Chelicerata (Arthropoda)",
+        "Myriapoda (Arthropoda)",
+        "Hexapoda (Arthropoda)"
+      ],
+      "answer": "Crustacea (Arthropoda)",
+      "explanation": "This is a European lobster, *Homarus gammarus*, in the class Crustacea, in the phylum Arthropoda. A lobster is a crustacean. Crustaceans have gills and antennae, and many have a calcified exoskeleton. Most are marine. A crab and a shrimp are crustaceans too. A hermit crab is a crustacean as well. The shell a hermit crab carries is a snail shell, not part of the crab. Chelicerata is also in Arthropoda. A spider, a scorpion, and a mite lack antennae. Myriapoda is also in Arthropoda. A centipede has one pair of legs on each segment. A millipede has two pairs of legs on each segment. Hexapoda is also in Arthropoda. A butterfly has a head, a thorax, and an abdomen, with three pairs of legs and one pair of antennae. Most hexapods are terrestrial. The photograph was resized from an image by Bart Braun, taken at Den Osse, Zeeland, and is in the public domain on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/grapsus_grapsus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A red and yellow animal on wet black rock. Two claws are held in front, stalked eyes sit on the front of the shell, and jointed legs grip the rock.",
+        "caption": "Resized from a photograph by Lieutenant Elizabeth Crapo, NOAA Corps, Galápagos Islands. Wikimedia Commons, public domain."
+      },
+      "options": [
+        "Crustacea (Arthropoda)",
+        "Chelicerata (Arthropoda)",
+        "Myriapoda (Arthropoda)",
+        "Hexapoda (Arthropoda)"
+      ],
+      "answer": "Crustacea (Arthropoda)",
+      "explanation": "This is a Sally Lightfoot crab, *Grapsus grapsus*, in the class Crustacea, in the phylum Arthropoda. A crab is a crustacean. It has gills and antennae. Many crustaceans have a calcified exoskeleton. Most are marine. A bottom-dwelling crab has a free-floating larva called a zoea. This crab lives on the rock at the shore. A lobster and a shrimp are crustaceans too. A hermit crab is a crustacean as well. The shell a hermit crab carries is a snail shell, not part of the crab. Chelicerata is also in Arthropoda. A spider, a scorpion, and a mite lack antennae. Myriapoda is also in Arthropoda. A centipede has one pair of legs on each segment. A millipede has two pairs of legs on each segment. Hexapoda is also in Arthropoda. A butterfly has a head, a thorax, and an abdomen, with three pairs of legs and one pair of antennae. Most hexapods are terrestrial. The photograph was resized from an image by Lieutenant Elizabeth Crapo, NOAA Corps, taken in the Galápagos Islands, and is in the public domain on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/echinaster_sepositus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A bright orange animal with long arms spread on a rock in an aquarium. The arms meet at a center, and the surface looks bumpy. Sand fills the foreground.",
+        "caption": "Cropped and resized from a photograph by Marek Ślusarczyk, L'Oceanogràfic, Valencia, Spain, 9 October 2010. Wikimedia Commons, CC BY 3.0."
+      },
+      "options": [
+        "Asteroidea (Echinodermata)",
+        "Ophiuroidea (Echinodermata)",
+        "Echinoidea (Echinodermata)",
+        "Holothuroidea (Echinodermata)"
+      ],
+      "answer": "Asteroidea (Echinodermata)",
+      "explanation": "This is a Mediterranean red sea star, *Echinaster sepositus*, in the class Asteroidea, in the phylum Echinodermata. A sea star usually has five arms. Not every member has five. The tube feet end in suction cups. The body is typically covered in ossicles, the small calcareous plates of the endoskeleton. Echinoderms have a water vascular system. Tube feet connect to it and are used for movement. A madreporite is a porous plate. Water enters there, and that plate controls water in the water vascular system. Most echinoderms have no head and no anterior or posterior end. The mouth is on the oral surface, and the aboral surface is opposite the mouth. Ophiuroidea is also in Echinodermata. A brittle star is generally smaller than a sea star, and flexible arms start from a distinct central disc. Echinoidea is also in Echinodermata. A sea urchin is round, and a sand dollar is flattened. Both are covered with movable spines. Holothuroidea is also in Echinodermata. A sea cucumber is worm-like and has true anterior and posterior ends. Its tube feet lack suction cups. The photograph was cropped and resized from an image by Marek Ślusarczyk, taken at L'Oceanogràfic in Valencia, Spain, and is licensed CC BY 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/asteroidea.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Several orange and pink animals with long arms rest on rocks in a tank. The arms meet at a center, and the surfaces look bumpy. A small pale fish and some shells are also visible.",
+        "caption": "Resized from a photograph by AgainErick, Diergaarde Blijdorp, Rotterdam, 4 September 2011. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Asteroidea (Echinodermata)",
+        "Ophiuroidea (Echinodermata)",
+        "Echinoidea (Echinodermata)",
+        "Holothuroidea (Echinodermata)"
+      ],
+      "answer": "Asteroidea (Echinodermata)",
+      "explanation": "These are sea stars in the class Asteroidea, in the phylum Echinodermata. A sea star usually has five arms. The tube feet end in suction cups. One arm is turned, and the tube feet show on that underside. The body is typically covered in ossicles, the small calcareous plates of the endoskeleton. Echinoderms have a water vascular system. Tube feet connect to it and are used for movement. A madreporite is a porous plate. Water enters there, and that plate controls water in the water vascular system. Most echinoderms have no head and no anterior or posterior end. The mouth is on the oral surface, and the aboral surface is opposite the mouth. The shells and the small fish are other animals in the tank. Ophiuroidea is also in Echinodermata. A brittle star is generally smaller than a sea star, and flexible arms start from a distinct central disc. Echinoidea is also in Echinodermata. A sea urchin is round, and a sand dollar is flattened. Both are covered with movable spines. Holothuroidea is also in Echinodermata. A sea cucumber is worm-like and has true anterior and posterior ends. Its tube feet lack suction cups. The photograph was resized from an image by AgainErick, taken at Diergaarde Blijdorp in Rotterdam on 4 September 2011, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/ophiura_ophiura.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A tan animal on a black background. Five long, narrow arms start from a small round center, and the arms look jointed.",
+        "caption": "Cropped from a photograph by Hans Hillewaert, research vessel Belgica, Belgian North Sea, March 2005. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Ophiuroidea (Echinodermata)",
+        "Asteroidea (Echinodermata)",
+        "Echinoidea (Echinodermata)",
+        "Holothuroidea (Echinodermata)"
+      ],
+      "answer": "Ophiuroidea (Echinodermata)",
+      "explanation": "This is a common brittle star, *Ophiura ophiura*, in the class Ophiuroidea, in the phylum Echinodermata. A brittle star is generally smaller than a sea star. The arms are flexible and start from a distinct central disc. Echinoderms have a water vascular system. Tube feet connect to it and are used for movement. A madreporite is a porous plate. Water enters there, and that plate controls water in the water vascular system. Most echinoderms have no head and no anterior or posterior end. The mouth is on the oral surface, and the aboral surface is opposite the mouth. Asteroidea is also in Echinodermata. A sea star usually has five arms. The tube feet end in suction cups. The body is typically covered in ossicles, the small calcareous plates of the endoskeleton. Echinoidea is also in Echinodermata. A sea urchin is round, and a sand dollar is flattened. Both are covered with movable spines. Holothuroidea is also in Echinodermata. A sea cucumber is worm-like and has true anterior and posterior ends. Its tube feet lack suction cups. The photograph was cropped from an image by Hans Hillewaert, taken aboard the research vessel Belgica in the Belgian North Sea in March 2005, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/amphiodia_occidentalis.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A pale animal on wet rock. Five very long, narrow arms start from a small center and wind across the rock. A small shell sits near the upper right.",
+        "caption": "Resized from a photograph by Don Loarie, McKerricher State Park, California, 27 May 2012. Wikimedia Commons, CC BY 4.0."
+      },
+      "options": [
+        "Ophiuroidea (Echinodermata)",
+        "Asteroidea (Echinodermata)",
+        "Echinoidea (Echinodermata)",
+        "Holothuroidea (Echinodermata)"
+      ],
+      "answer": "Ophiuroidea (Echinodermata)",
+      "explanation": "This is a long-armed brittle star, *Amphiodia occidentalis*, in the class Ophiuroidea, in the phylum Echinodermata. A brittle star is generally smaller than a sea star. The arms are flexible and start from a distinct central disc. On this animal the arms are very long, and they bend as they cross the rock. Some arm tips pass out of the frame. The small shell is another animal. Echinoderms have a water vascular system. Tube feet connect to it and are used for movement. A madreporite is a porous plate. Water enters there, and that plate controls water in the water vascular system. Most echinoderms have no head and no anterior or posterior end. The mouth is on the oral surface, and the aboral surface is opposite the mouth. Asteroidea is also in Echinodermata. A sea star usually has five arms. The tube feet end in suction cups. The body is typically covered in ossicles, the small calcareous plates of the endoskeleton. Echinoidea is also in Echinodermata. A sea urchin is round, and a sand dollar is flattened. Both are covered with movable spines. Holothuroidea is also in Echinodermata. A sea cucumber is worm-like and has true anterior and posterior ends. Its tube feet lack suction cups. The photograph was resized from an image by Don Loarie, taken at McKerricher State Park, California, on 27 May 2012. It was posted on iNaturalist and is licensed CC BY 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/sphaerechinus_granularis.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A round purple animal covered in long spines sits on a rock underwater. The spines point outward from the body.",
+        "caption": "Resized from a photograph by Diego Delso, Garajau Marine Nature Reserve, Madeira, Portugal, 31 May 2019. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Echinoidea (Echinodermata)",
+        "Asteroidea (Echinodermata)",
+        "Ophiuroidea (Echinodermata)",
+        "Holothuroidea (Echinodermata)"
+      ],
+      "answer": "Echinoidea (Echinodermata)",
+      "explanation": "This is a purple sea urchin, *Sphaerechinus granularis*, in the class Echinoidea, in the phylum Echinodermata. A sea urchin is round. It is covered with movable spines. It has a specialized set of jaws. That jaw apparatus is often called Aristotle's lantern. The covering is a rigid test of fused plates in the body wall. That test is an endoskeleton. An arthropod sheds a tough external cuticle. A sand dollar is in Echinoidea too, and it is flattened. Echinoderms have a water vascular system. Tube feet connect to it and are used for movement. A madreporite is a porous plate. Water enters there, and that plate controls water in the water vascular system. Most echinoderms have no head and no anterior or posterior end. The mouth is on the oral surface, and the aboral surface is opposite the mouth. Asteroidea is also in Echinodermata. A sea star usually has five arms. The tube feet end in suction cups. The body is typically covered in ossicles. Ophiuroidea is also in Echinodermata. A brittle star is generally smaller than a sea star, and flexible arms start from a distinct central disc. Holothuroidea is also in Echinodermata. A sea cucumber is worm-like and has true anterior and posterior ends. Its tube feet lack suction cups. The photograph was resized from an image by Diego Delso, taken at Garajau Marine Nature Reserve, Madeira, Portugal, on 31 May 2019, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/strongylocentrotus_purpuratus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Many round purple animals covered in spines crowd a rocky surface underwater. The spines point outward from each body.",
+        "caption": "Resized from a photograph by Ed Bierman, Ventura, California, 21 July 2012. Wikimedia Commons, CC BY 2.0."
+      },
+      "options": [
+        "Echinoidea (Echinodermata)",
+        "Asteroidea (Echinodermata)",
+        "Ophiuroidea (Echinodermata)",
+        "Holothuroidea (Echinodermata)"
+      ],
+      "answer": "Echinoidea (Echinodermata)",
+      "explanation": "These are purple sea urchins, *Strongylocentrotus purpuratus*, in the class Echinoidea, in the phylum Echinodermata. A sea urchin is round. It is covered with movable spines. It has a specialized set of jaws. That jaw apparatus is often called Aristotle's lantern. The covering is a rigid test of fused plates in the body wall. That test is an endoskeleton. An arthropod sheds a tough external cuticle. A sand dollar is in Echinoidea too, and it is flattened. Some of these animals are cut by the edge of the frame. Echinoderms have a water vascular system. Tube feet connect to it and are used for movement. A madreporite is a porous plate. Water enters there, and that plate controls water in the water vascular system. Most echinoderms have no head and no anterior or posterior end. The mouth is on the oral surface, and the aboral surface is opposite the mouth. Asteroidea is also in Echinodermata. A sea star usually has five arms. The tube feet end in suction cups. The body is typically covered in ossicles. Ophiuroidea is also in Echinodermata. A brittle star is generally smaller than a sea star, and flexible arms start from a distinct central disc. Holothuroidea is also in Echinodermata. A sea cucumber is worm-like and has true anterior and posterior ends. Its tube feet lack suction cups. The photograph was resized from an image by Ed Bierman, taken at Ventura, California, on 21 July 2012. It was posted on Flickr and is licensed CC BY 2.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/clypeasteroida.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A flat white disc lies on sand. A five-part star is marked on it, and several slots pass through it. A small tan piece sits beside the disc.",
+        "caption": "Cropped and resized from a photograph by Mateussf, Área de Proteção Ambiental de Guadalupe, Brazil, 14 April 2026. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Echinoidea (Echinodermata)",
+        "Asteroidea (Echinodermata)",
+        "Ophiuroidea (Echinodermata)",
+        "Holothuroidea (Echinodermata)"
+      ],
+      "answer": "Echinoidea (Echinodermata)",
+      "explanation": "This is a sand dollar in the class Echinoidea, in the phylum Echinodermata. The file identifies the order Clypeasteroida and does not name a species. A sand dollar is flattened. A sea urchin is round. Both are covered with movable spines and have a specialized set of jaws. The jaw apparatus of a sea urchin is often called Aristotle's lantern. The covering is a rigid test of fused plates in the body wall. That test is an endoskeleton. An arthropod sheds a tough external cuticle. This photograph shows the test on the sand. The spines are gone. A five-part star shows on the test, and slots pass through it. A sand dollar has no arms. The small piece beside it is a shell fragment. Echinoderms have a water vascular system. Tube feet connect to it and are used for movement. A madreporite is a porous plate. Water enters there, and that plate controls water in the water vascular system. Most echinoderms have no head and no anterior or posterior end. The mouth is on the oral surface, and the aboral surface is opposite the mouth. Asteroidea is also in Echinodermata. A sea star usually has five arms. The tube feet end in suction cups. The body is typically covered in ossicles. Ophiuroidea is also in Echinodermata. A brittle star is generally smaller than a sea star, and flexible arms start from a distinct central disc. Holothuroidea is also in Echinodermata. A sea cucumber is worm-like and has true anterior and posterior ends. Its tube feet lack suction cups. The photograph was cropped and resized from an image by Mateussf, taken at Área de Proteção Ambiental de Guadalupe, Brazil, on 14 April 2026, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/holothuroidea.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Eight animals in separate panels. One is red, with a crown of branching tentacles. One is broad and bumpy on sand. One is long and banded. One is dark and covered in pale spots. One is pink and translucent, with fins. One is pale and partly buried. One is a smooth pale cylinder. One is a gray fossil.",
+        "caption": "Resized from a collage by Diego Delso, 27 July 2025. Photographs by prilfish, Diego Delso, Micha Baum, the NOAA Okeanos Explorer Program, smeckert, Bribiesca-Contreras and others, and Oilshale. Some photographs were cropped or rotated. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Holothuroidea (Echinodermata)",
+        "Asteroidea (Echinodermata)",
+        "Ophiuroidea (Echinodermata)",
+        "Echinoidea (Echinodermata)"
+      ],
+      "answer": "Holothuroidea (Echinodermata)",
+      "explanation": "These are sea cucumbers in the class Holothuroidea, in the phylum Echinodermata. A sea cucumber is worm-like and has true anterior and posterior ends. Most other echinoderms have an oral surface and an aboral surface and no anterior or posterior end. The tube feet lack suction cups and can be modified for feeding. The collage shows a sea apple, *Pseudocolochirus*, with a crown of tube feet used for feeding; a pineapple sea cucumber, *Thelenota ananas*; a snake sea cucumber, *Synapta maculata*; a black sea cucumber, *Holothuria forskali*; a swimming sea cucumber, *Enypniastes*; a sweet potato sea cucumber, *Caudina arenicola*; *Molpadiodemas*; and a fossil sea cucumber, *Palaeocucumaria hunsrueckiana*. Echinoderms have a water vascular system. Tube feet connect to it and are used for movement. A madreporite is a porous plate. Water enters there, and that plate controls water in the water vascular system. Asteroidea is also in Echinodermata. A sea star usually has five arms. The tube feet end in suction cups. The body is typically covered in ossicles. Ophiuroidea is also in Echinodermata. A brittle star is generally smaller than a sea star, and flexible arms start from a distinct central disc. Echinoidea is also in Echinodermata. A sea urchin is round, and a sand dollar is flattened. Both are covered with movable spines and have a specialized set of jaws. The collage was resized from an image assembled by Diego Delso on 27 July 2025. The source photographs are by prilfish, Diego Delso, Micha Baum, the NOAA Okeanos Explorer Program, smeckert, Bribiesca-Contreras and others, and Oilshale. Some of those photographs were cropped or rotated. The *Molpadiodemas* panel is from Bribiesca-Contreras and others, ZooKeys 1113, 2022. The collage is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which subphylum and phylum are shown?",
+        "image": "images/biology/animal_practical/branchiostoma.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A long, slender animal in side view, pointed at both ends. The body is cut open, with a pale rod along the back, blocks of muscle, and many slanted lines in the front half. Short threads fringe the mouth.",
+        "caption": "Labels removed from a diagram by Systematicist, 2 January 2021. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Cephalochordata (Chordata)",
+        "Urochordata (Chordata)",
+        "Vertebrata (Chordata)",
+        "Hydrozoa (Cnidaria)"
+      ],
+      "answer": "Cephalochordata (Chordata)",
+      "explanation": "This is a lancelet, *Branchiostoma*, in the subphylum Cephalochordata, in the phylum Chordata. The file does not name a species. A lancelet is a small fish-like invertebrate. The larva and the adult both have a dorsal hollow nerve cord, a notochord, pharyngeal gill slits, and a muscular post-anal tail. The notochord is a flexible rod, not a column of vertebrae. Urochordata is the other invertebrate chordate subphylum. A tunicate, such as a sea squirt, is in Urochordata. The adult is typically a sessile filter feeder. It feeds with an incurrent siphon and an excurrent siphon, and a hard cellulose sac called a tunic covers the body. The adult lacks the nerve cord and the notochord that the larva has. Vertebrata is the subphylum with a backbone of vertebrae. Hydrozoa is a class of Cnidaria, not a chordate subphylum. A hydra is a polyp, with the mouth and tentacles pointing up. The labels were removed from a diagram by Systematicist, and the diagram is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/carcharhinus_amblyrhynchos.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A gray animal swimming in blue water. The body is long, with a pointed head, a tall fin on the back, side fins, and a tail with a longer upper lobe.",
+        "caption": "Resized from a photograph by Kevin Lino, NOAA, Kingman Reef, 2015. Wikimedia Commons, CC BY 2.0."
+      },
+      "options": [
+        "Chondrichthyes (Chordata)",
+        "Osteichthyes (Chordata)",
+        "Amphibia (Chordata)",
+        "Mammalia (Chordata)"
+      ],
+      "answer": "Chondrichthyes (Chordata)",
+      "explanation": "This is a grey reef shark, *Carcharhinus amblyrhynchos*, in the class Chondrichthyes, in the phylum Chordata. A shark is a cartilaginous fish. The skeleton, including the vertebrae, is cartilage. It is not bone. Chondrichthyes is a class in the subphylum Vertebrata. A shark has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. A ray and a skate are in Chondrichthyes too. This shark has jaws and paired fins. Gill slits show along the side. They are separate openings. A bony fish has a bony flap, an operculum, over the gills. Osteichthyes is also in Chordata. A bony fish, such as a trout, has a skeleton of bone. Amphibia is also in Chordata. A frog has moist skin and typically lays its eggs in water. Mammalia is also in Chordata. A mammal has hair and mammary glands. A shark has neither. The photograph was resized from an image by Kevin Lino, NOAA, taken at Kingman Reef in 2015. It was posted on Flickr and is licensed CC BY 2.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/hypanus_americanus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A flat brown animal resting on pale sand in blue water. The body is a wide disc, with eyes on top and a long thin tail trailing behind.",
+        "caption": "Resized from a photograph by Matthew Hoelscher, off Miami, 11 March 2007. Wikimedia Commons, CC BY-SA 2.0."
+      },
+      "options": [
+        "Chondrichthyes (Chordata)",
+        "Osteichthyes (Chordata)",
+        "Amphibia (Chordata)",
+        "Mammalia (Chordata)"
+      ],
+      "answer": "Chondrichthyes (Chordata)",
+      "explanation": "This is a southern stingray, *Hypanus americanus*, in the class Chondrichthyes, in the phylum Chordata. The file uses the older name *Dasyatis americana*. A stingray is a ray. A ray is a cartilaginous fish, as a shark and a skate are. The skeleton, including the vertebrae, is cartilage. It is not bone. The body is flattened, the side fins form a wide disc, and the tail is long and whip-like. A skate is in Chondrichthyes too. Its tail is usually thicker. Chondrichthyes is a class in the subphylum Vertebrata. A ray has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Osteichthyes is also in Chordata. A bony fish, such as a trout, has a skeleton of bone. Amphibia is also in Chordata. A frog has moist skin and typically lays its eggs in water. Mammalia is also in Chordata. A mammal has hair and mammary glands. A ray has neither. The photograph was resized from an image by Matthew Hoelscher, taken off Miami on 11 March 2007. It was posted on Flickr and is licensed CC BY-SA 2.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/mobula_birostris.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A wide white animal swimming in blue water. A dark band crosses the back, two rounded lobes sit by the front of the head, and one side extends out of the frame.",
+        "caption": "Resized from a photograph by Kevin Lino, NOAA, Baker Island, 2012. Wikimedia Commons, CC BY 2.0."
+      },
+      "options": [
+        "Chondrichthyes (Chordata)",
+        "Osteichthyes (Chordata)",
+        "Amphibia (Chordata)",
+        "Mammalia (Chordata)"
+      ],
+      "answer": "Chondrichthyes (Chordata)",
+      "explanation": "This is an oceanic manta ray, *Mobula birostris*, in the class Chondrichthyes, in the phylum Chordata. The file uses the older name *Manta birostris*. A manta ray is a ray. A ray is a cartilaginous fish, as a shark and a skate are. The skeleton, including the vertebrae, is cartilage. It is not bone. The body is flattened, and the side fins form a wide disc. Two lobes sit beside the mouth. They are part of this animal. One side fin passes out of the frame. A stingray is a ray too. Its tail is long and whip-like. A skate is in Chondrichthyes too. Its tail is usually thicker. Chondrichthyes is a class in the subphylum Vertebrata. A ray has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Osteichthyes is also in Chordata. A bony fish, such as a trout, has a skeleton of bone. Amphibia is also in Chordata. A frog has moist skin and typically lays its eggs in water. Mammalia is also in Chordata. A mammal has hair and mammary glands. A ray has neither. The photograph was resized from an image by Kevin Lino, NOAA, taken at Baker Island in 2012. It was posted on Flickr and is licensed CC BY 2.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/amphiprion_ocellaris.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Two orange animals with white bands swim among long pale tentacles. Each animal has a dark edge on the fins. Part of a third animal shows at the lower left.",
+        "caption": "Resized from a photograph by Nick Hobgood, Papua New Guinea, 29 March 2013. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Osteichthyes (Chordata)",
+        "Chondrichthyes (Chordata)",
+        "Amphibia (Chordata)",
+        "Mammalia (Chordata)"
+      ],
+      "answer": "Osteichthyes (Chordata)",
+      "explanation": "These are clown anemonefish, *Amphiprion ocellaris*, in the class Osteichthyes, in the phylum Chordata. A clown anemonefish is a bony fish. The skeleton, including the vertebrae, is bone. A bony flap, an operculum, covers the gills. Osteichthyes is a class in the subphylum Vertebrata. A bony fish has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. The tentacles around the fish belong to a sea anemone. A sea anemone is in the class Anthozoa, in the phylum Cnidaria. It is not part of the fish. Part of a third fish shows at the lower left. Chondrichthyes is also in Chordata. A shark, a ray, and a skate have a skeleton of cartilage. Their gill slits are separate openings. Amphibia is also in Chordata. A frog has moist skin and typically lays its eggs in water. Mammalia is also in Chordata. A mammal has hair and mammary glands. A bony fish has neither. The photograph was resized from an image by Nick Hobgood, taken in Papua New Guinea on 29 March 2013, and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/paracanthurus_hepatus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A blue and black animal in side view, in front of coral. A yellow tail extends behind, and a dark oval marking sits on the body.",
+        "caption": "Resized from a photograph by DerHans04, Zoo Münster, Germany, 28 June 2010. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Osteichthyes (Chordata)",
+        "Chondrichthyes (Chordata)",
+        "Amphibia (Chordata)",
+        "Mammalia (Chordata)"
+      ],
+      "answer": "Osteichthyes (Chordata)",
+      "explanation": "This is a blue tang, *Paracanthurus hepatus*, in the class Osteichthyes, in the phylum Chordata. A blue tang is a bony fish. The skeleton, including the vertebrae, is bone. A bony flap, an operculum, covers the gills. Osteichthyes is a class in the subphylum Vertebrata. A bony fish has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. The coral behind the fish is not part of the animal. A coral is in the class Anthozoa, in the phylum Cnidaria. Chondrichthyes is also in Chordata. A shark, a ray, and a skate have a skeleton of cartilage. Their gill slits are separate openings. Amphibia is also in Chordata. A frog has moist skin and typically lays its eggs in water. Mammalia is also in Chordata. A mammal has hair and mammary glands. A bony fish has neither. The photograph was resized from an image by DerHans04, taken at Zoo Münster, Germany, on 28 June 2010, and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/agalychnis_callidryas.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A green animal clings to a stem. The eyes are red, the toes are orange, and blue and yellow marks show along the sides.",
+        "caption": "Photograph by Charlie Jackson, Sarapiquí Region, Costa Rica, 4 February 2020. Wikimedia Commons, CC BY 2.0."
+      },
+      "options": [
+        "Amphibia (Chordata)",
+        "Osteichthyes (Chordata)",
+        "Chondrichthyes (Chordata)",
+        "Mammalia (Chordata)"
+      ],
+      "answer": "Amphibia (Chordata)",
+      "explanation": "This is a red-eyed leaf frog, *Agalychnis callidryas*, in the class Amphibia, in the phylum Chordata. A frog has moist skin and typically lays its eggs in water. It has four limbs, and the toes grip the stem. Amphibia is a class in the subphylum Vertebrata. A frog has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Osteichthyes is also in Chordata. A bony fish, such as a trout, has a skeleton of bone and an operculum over the gills. Chondrichthyes is also in Chordata. A shark, a ray, and a skate have a skeleton of cartilage. Mammalia is also in Chordata. A mammal has hair and mammary glands. A frog has neither. The photograph is by Charlie Jackson, taken in the Sarapiquí Region, Costa Rica, on 4 February 2020. It was posted on Flickr and is licensed CC BY 2.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/notophthalmus_viridescens.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A small spotted animal stands on a rock underwater. The body is long, with four legs and a tail that trails behind.",
+        "caption": "Resized from a photograph by Brian Gratwicke, 2 August 2009. Wikimedia Commons, CC BY 2.0."
+      },
+      "options": [
+        "Amphibia (Chordata)",
+        "Osteichthyes (Chordata)",
+        "Chondrichthyes (Chordata)",
+        "Mammalia (Chordata)"
+      ],
+      "answer": "Amphibia (Chordata)",
+      "explanation": "This is a red-spotted newt, *Notophthalmus viridescens viridescens*, in the class Amphibia, in the phylum Chordata. It is a subspecies of the eastern newt, and this animal is an adult. A newt is a salamander. A salamander has moist skin, four limbs, and a tail as an adult, and it typically lays its eggs in water. A frog is an amphibian too. An adult frog has no tail. Amphibia is a class in the subphylum Vertebrata. A salamander has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Osteichthyes is also in Chordata. A bony fish, such as a trout, has a skeleton of bone and an operculum over the gills. Chondrichthyes is also in Chordata. A shark, a ray, and a skate have a skeleton of cartilage. Mammalia is also in Chordata. A mammal has hair and mammary glands. A salamander has neither. The photograph was resized from an image by Brian Gratwicke, taken on 2 August 2009. It was posted on Flickr and is licensed CC BY 2.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/bufo_bufo.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A dark, bumpy animal sits on soil among stones and leaves. The body is broad, with two eyes on top and front toes on the ground.",
+        "caption": "Resized from a photograph by Tythatguy1312, Saltash, Cornwall, 16 June 2024. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Amphibia (Chordata)",
+        "Osteichthyes (Chordata)",
+        "Chondrichthyes (Chordata)",
+        "Mammalia (Chordata)"
+      ],
+      "answer": "Amphibia (Chordata)",
+      "explanation": "This is a common toad, *Bufo bufo*, in the class Amphibia, in the phylum Chordata. A toad is an amphibian, as a frog is. It has moist skin and typically lays its eggs in water. The skin is bumpy. It has four limbs, and an adult has no tail. A salamander is an amphibian too. A salamander keeps a tail as an adult. Amphibia is a class in the subphylum Vertebrata. A toad has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Osteichthyes is also in Chordata. A bony fish, such as a trout, has a skeleton of bone and an operculum over the gills. Chondrichthyes is also in Chordata. A shark, a ray, and a skate have a skeleton of cartilage. Mammalia is also in Chordata. A mammal has hair and mammary glands. A toad has neither. The photograph was resized from an image by Tythatguy1312, taken at Saltash, Cornwall, on 16 June 2024, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/ambystoma_texanum.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A dark animal lies on mossy bark. The body is long, with four legs and a tail curled along the left side.",
+        "caption": "Resized from a photograph by MH Herpetology, 11 May 2024. The name Madden Haag is printed on the photograph. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Amphibia (Chordata)",
+        "Osteichthyes (Chordata)",
+        "Chondrichthyes (Chordata)",
+        "Mammalia (Chordata)"
+      ],
+      "answer": "Amphibia (Chordata)",
+      "explanation": "This is a smallmouth salamander, *Ambystoma texanum*, in the class Amphibia, in the phylum Chordata. A salamander has moist skin, four limbs, and a tail as an adult, and it typically lays its eggs in water. A frog and a toad are amphibians too. An adult frog or an adult toad has no tail. A newt is a salamander too. Amphibia is a class in the subphylum Vertebrata. A salamander has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Osteichthyes is also in Chordata. A bony fish, such as a trout, has a skeleton of bone and an operculum over the gills. Chondrichthyes is also in Chordata. A shark, a ray, and a skate have a skeleton of cartilage. Mammalia is also in Chordata. A mammal has hair and mammary glands. A salamander has neither. The photograph was resized from an image by MH Herpetology, taken on 11 May 2024 along the edge of a vernal pool. The name Madden Haag is printed on the photograph. It is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/chelonia_mydas.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A broad, patterned animal rests on black sand beside the water. A large rounded shell covers the body, and the head has dark patches.",
+        "caption": "Resized from a photograph by Kyle Porter, Punaluʻu Beach, Hawaii, 4 July 2012. The photograph is marked Porter. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Reptilia (Chordata)",
+        "Amphibia (Chordata)",
+        "Osteichthyes (Chordata)",
+        "Mammalia (Chordata)"
+      ],
+      "answer": "Reptilia (Chordata)",
+      "explanation": "This is a green sea turtle, *Chelonia mydas*, in the class Reptilia, in the phylum Chordata. A turtle has scales and a shell, and four limbs. A reptile typically lays shelled eggs on land. A sea turtle lives in the sea, and it comes ashore. Reptilia is a class in the subphylum Vertebrata. A turtle has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Amphibia is also in Chordata. A frog has moist skin and typically lays its eggs in water. A frog has no shell. Osteichthyes is also in Chordata. A bony fish, such as a trout, has a skeleton of bone and an operculum over the gills. Mammalia is also in Chordata. A mammal has hair and mammary glands. A sea turtle has neither. The photograph was resized from an image by Kyle Porter, taken at Punaluʻu Beach, Hawaii, on 4 July 2012. The photograph is marked Porter. It is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which order and class are shown?",
+        "image": "images/biology/animal_practical/passeriformes.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "Six animals are arranged in a grid. Five grip a branch, a stem, or a rail. One is in flight over water, with both wings spread.",
+        "caption": "Resized from a collage by MathKnight, 24 April 2016, based on photographs by Mohammed Badarin, Dawn Huczek, Thomas Quine, Dick Daniels, Luc Viatour, and the hooded crow file. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Passeriformes (Reptilia)",
+        "Galliformes (Reptilia)",
+        "Anseriformes (Reptilia)",
+        "Falconiformes (Reptilia)"
+      ],
+      "answer": "Passeriformes (Reptilia)",
+      "explanation": "These are passerines, in the order Passeriformes, in the class Reptilia. A passerine is a perching bird. Three toes point forward and one toe points back, so the foot can grip a perch. Five of these birds are perched, and one is in flight. The six birds are a southern masked weaver, *Ploceus velatus*, photographed in captivity; a Palestine sunbird, *Cinnyris osea*; a hooded crow, *Corvus cornix sharpii*; a blue jay, *Cyanocitta cristata*; a great tit, *Parus major*; and a male house sparrow, *Passer domesticus*. A bird has feathers, wings, and a bill. A bird is a reptile. Reptilia includes the birds. A group of reptiles that leaves the birds out is paraphyletic: it keeps the ancestor but leaves some descendants out. A turtle is a reptile too. A turtle has scales and a shell. Reptilia is a class in the subphylum Vertebrata, in the phylum Chordata. A bird has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Galliformes is also in Reptilia. A chicken, a turkey, and a quail have heavy bodies and spend much of their time on the ground. Anseriformes is also in Reptilia. A duck, a goose, and a swan have a broad, flattened bill and webbed feet. Falconiformes is also in Reptilia. A hawk and an eagle have a hooked bill and talons.  A hooded crow is a passerine. A crow has a stout bill. A mammal has hair and mammary glands. A bat has wings, and a bat is a mammal. The collage was resized from an image by MathKnight, made on 24 April 2016, and is licensed CC BY-SA 4.0 on Wikimedia Commons. The source photographs are by Mohammed Badarin (Palestine sunbird, CC BY 2.0), Dawn Huczek (blue jay, CC BY 2.0), Thomas Quine (house sparrow, CC BY 2.0), Dick Daniels (southern masked weaver, captive at Birds of Eden, South Africa, CC BY-SA 3.0), and Luc Viatour (great tit, CC BY-SA 3.0). The hooded crow was photographed at Isfahan, Iran, in 2012. That file lists the author as Self and is licensed CC BY-SA 3.0."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which order and class are shown?",
+        "image": "images/biology/animal_practical/gallus_gallus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A feathered animal stands on a rock, with green plants behind it. The body is dark, the neck is reddish, and a red flap hangs beside the bill. Long dark feathers extend behind.",
+        "caption": "Resized from a photograph by Frank Schulenburg, Kapaʻa, Kauaʻi, 18 May 2018. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Galliformes (Reptilia)",
+        "Falconiformes (Reptilia)",
+        "Passeriformes (Reptilia)",
+        "Anseriformes (Reptilia)"
+      ],
+      "answer": "Galliformes (Reptilia)",
+      "explanation": "This is a feral rooster, a male chicken, *Gallus gallus*, in the order Galliformes, in the class Reptilia. A chicken has a heavy body and spends much of its time on the ground. This rooster stands on a rock. It has feathers, wings, and a bill, and a comb and wattles on the head. A bird is a reptile. Reptilia includes the birds. A group of reptiles that leaves the birds out is paraphyletic: it keeps the ancestor but leaves some descendants out. A turtle is a reptile too. A turtle has scales and a shell. Reptilia is a class in the subphylum Vertebrata, in the phylum Chordata. A chicken has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Falconiformes is also in Reptilia. A hawk and an eagle have a hooked bill and talons. Passeriformes is also in Reptilia. A passerine is a perching bird, such as a sparrow. Three toes point forward and one toe points back, so the foot can grip a perch. Anseriformes is also in Reptilia. A duck, a goose, and a swan have a broad, flattened bill and webbed feet. A mammal has hair and mammary glands. A bat has wings, and a bat is a mammal. The photograph was resized from an image by Frank Schulenburg, taken at Kapaʻa, Kauaʻi, on 18 May 2018, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which order and class are shown?",
+        "image": "images/biology/animal_practical/meleagris_gallopavo.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A large feathered animal stands in grass. The tail is raised in a broad fan, the body feathers are dark and pale-barred, and the bare head is blue and red.",
+        "caption": "Resized from a photograph by Frank Schulenburg, Deer Island Open Space Preserve near Novato, Marin County, California, 24 March 2019. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Galliformes (Reptilia)",
+        "Falconiformes (Reptilia)",
+        "Passeriformes (Reptilia)",
+        "Anseriformes (Reptilia)"
+      ],
+      "answer": "Galliformes (Reptilia)",
+      "explanation": "This is an adult male wild turkey, *Meleagris gallopavo intermedia*, in the order Galliformes, in the class Reptilia. It is a subspecies of the wild turkey, *Meleagris gallopavo*. A turkey has a heavy body and spends much of its time on the ground. This one is strutting in the grass. The tail is fanned, and the bare head shows red and blue skin. A chicken and a quail are galliforms too. A bird is a reptile. Reptilia includes the birds. A group of reptiles that leaves the birds out is paraphyletic: it keeps the ancestor but leaves some descendants out. A turtle is a reptile too. A turtle has scales and a shell. Reptilia is a class in the subphylum Vertebrata, in the phylum Chordata. A turkey has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Falconiformes is also in Reptilia. A hawk and an eagle have a hooked bill and talons. Passeriformes is also in Reptilia. A passerine is a perching bird, such as a sparrow. Three toes point forward and one toe points back, so the foot can grip a perch. Anseriformes is also in Reptilia. A duck, a goose, and a swan have a broad, flattened bill and webbed feet. A mammal has hair and mammary glands. A bat has wings, and a bat is a mammal. The photograph was resized from an image by Frank Schulenburg, taken at Deer Island Open Space Preserve near Novato, Marin County, California, on 24 March 2019, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which order and class are shown?",
+        "image": "images/biology/animal_practical/anas_platyrhynchos.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A feathered animal floats on calm water. The head is green, the bill is yellow and broad, and one orange foot shows beneath the body.",
+        "caption": "Resized from a photograph by Don Ramey Logan, 25 February 2015. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Anseriformes (Reptilia)",
+        "Falconiformes (Reptilia)",
+        "Galliformes (Reptilia)",
+        "Passeriformes (Reptilia)"
+      ],
+      "answer": "Anseriformes (Reptilia)",
+      "explanation": "This is a male mallard, *Anas platyrhynchos*, in the order Anseriformes, in the class Reptilia. A duck has a broad, flattened bill and webbed feet. This mallard is swimming, and one orange webbed foot shows beneath the body. The shape in the water is the reflection of the same animal. A goose and a swan are anseriforms too. A bird is a reptile. Reptilia includes the birds. A group of reptiles that leaves the birds out is paraphyletic: it keeps the ancestor but leaves some descendants out. A turtle is a reptile too. A turtle has scales and a shell. Reptilia is a class in the subphylum Vertebrata, in the phylum Chordata. A duck has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Falconiformes is also in Reptilia. A hawk and an eagle have a hooked bill and talons. Galliformes is also in Reptilia. A chicken and a turkey have heavy bodies and spend much of their time on the ground. Passeriformes is also in Reptilia. A passerine is a perching bird, such as a sparrow. Three toes point forward and one toe points back, so the foot can grip a perch. A mammal has hair and mammary glands. A bat has wings, and a bat is a mammal. The photograph was resized from an image by Don Ramey Logan, taken on 25 February 2015, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which order and class are shown?",
+        "image": "images/biology/animal_practical/haliaeetus_leucocephalus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A dark feathered animal perches on a bare branch, with snowy mountains behind it. The head is pale, the bill is hooked and yellow, and both wings are lifted. The feet grip the branch with long claws.",
+        "caption": "Resized from a photograph by Andy Morffew, Kachemak Bay, Alaska, 15 March 2016. Wikimedia Commons, CC BY 2.0."
+      },
+      "options": [
+        "Falconiformes (Reptilia)",
+        "Passeriformes (Reptilia)",
+        "Galliformes (Reptilia)",
+        "Anseriformes (Reptilia)"
+      ],
+      "answer": "Falconiformes (Reptilia)",
+      "explanation": "This is a bald eagle, *Haliaeetus leucocephalus*, in the order Falconiformes, in the class Reptilia. The white head is the adult plumage. A falconiform has a hooked bill and talons. This eagle grips a branch, and both wings are lifted. A hawk is a falconiform too. A bird is a reptile. Reptilia includes the birds. A group of reptiles that leaves the birds out is paraphyletic: it keeps the ancestor but leaves some descendants out. A turtle is a reptile too. A turtle has scales and a shell. Reptilia is a class in the subphylum Vertebrata, in the phylum Chordata. An eagle has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Passeriformes is also in Reptilia. A passerine is a perching bird, such as a sparrow. Three toes point forward and one toe points back, so the foot can grip a perch. Galliformes is also in Reptilia. A chicken and a turkey have heavy bodies and spend much of their time on the ground. Anseriformes is also in Reptilia. A duck, a goose, and a swan have a broad, flattened bill and webbed feet. A mammal has hair and mammary glands. A bat has wings, and a bat is a mammal. The photograph was resized from an image by Andy Morffew, taken at Kachemak Bay, Alaska, on 15 March 2016. It was posted on Flickr and is licensed CC BY 2.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which order and class are shown?",
+        "image": "images/biology/animal_practical/bubo_bubo.png",
+        "imageClass": "quiz-image--scaled",
+        "imageAlt": "A feathered animal faces the camera from a rock. The eyes are large and yellow, a pale disc of feathers surrounds the face, and two feather tufts stand on the head.",
+        "caption": "Resized from a photograph by Carlos Delgado, Community of Madrid, 18 October 2014. The animal is in captivity. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Strigiformes (Reptilia)",
+        "Falconiformes (Reptilia)",
+        "Passeriformes (Reptilia)",
+        "Galliformes (Reptilia)"
+      ],
+      "answer": "Strigiformes (Reptilia)",
+      "explanation": "This is a Eurasian eagle-owl, *Bubo bubo sibiricus*, in the order Strigiformes, in the class Reptilia. It is a subspecies of *Bubo bubo*, and this animal is in captivity. A strigiform is an owl. The eyes face forward, and a facial disc of feathers surrounds the face. Feather tufts stand on the head. An owl has a hooked bill and talons too. A bird is a reptile. Reptilia includes the birds. A group of reptiles that leaves the birds out is paraphyletic: it keeps the ancestor but leaves some descendants out. A turtle is a reptile too. A turtle has scales and a shell. Reptilia is a class in the subphylum Vertebrata, in the phylum Chordata. An owl has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Falconiformes is also in Reptilia. A hawk and an eagle have a hooked bill and talons. The facial disc and the forward-facing eyes are the owl traits. Passeriformes is also in Reptilia. A passerine is a perching bird, such as a sparrow. Three toes point forward and one toe points back, so the foot can grip a perch. Galliformes is also in Reptilia. A chicken and a turkey have heavy bodies and spend much of their time on the ground. A mammal has hair and mammary glands. A bat has wings, and a bat is a mammal. The photograph was resized from an image by Carlos Delgado, taken in the Community of Madrid on 18 October 2014. The owl is in captivity. It is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which order and class are shown?",
+        "image": "images/biology/animal_practical/microcarbo_melanoleucos.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A black and white feathered animal stands on a rock beside blue water. The neck is long, the bill is orange and hooked, and both wings are spread.",
+        "caption": "Resized from a photograph by JJ Harrison, Austins Ferry, Tasmania, 29 June 2009. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Suliformes (Reptilia)",
+        "Anseriformes (Reptilia)",
+        "Falconiformes (Reptilia)",
+        "Strigiformes (Reptilia)"
+      ],
+      "answer": "Suliformes (Reptilia)",
+      "explanation": "This is a little pied cormorant, *Microcarbo melanoleucos*, in the order Suliformes, in the class Reptilia. A cormorant has a long neck and a hooked bill, and all four toes are joined by a web. This one stands on a rock beside the water, and both wings are spread. A gannet and a booby are suliforms too. A bird is a reptile. Reptilia includes the birds. A group of reptiles that leaves the birds out is paraphyletic: it keeps the ancestor but leaves some descendants out. A turtle is a reptile too. A turtle has scales and a shell. Reptilia is a class in the subphylum Vertebrata, in the phylum Chordata. A cormorant has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Anseriformes is also in Reptilia. A duck, a goose, and a swan have a broad, flattened bill and webbed feet. Falconiformes is also in Reptilia. A hawk and an eagle have a hooked bill and talons. A cormorant has a hooked bill too. The long neck and the web joining all four toes are the suliform traits. Strigiformes is also in Reptilia. A strigiform is an owl. The eyes face forward, and a facial disc of feathers surrounds the face. A mammal has hair and mammary glands. A bat has wings, and a bat is a mammal. The photograph was resized from an image by JJ Harrison, taken at Austins Ferry, Tasmania, on 29 June 2009, and is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which order and class are shown?",
+        "image": "images/biology/animal_practical/sula_nebouxii.png",
+        "imageClass": "quiz-image--scaled",
+        "imageAlt": "A pale and brown feathered animal stands on a dark rock. The bill is long and pointed, and the feet are bright blue.",
+        "caption": "Resized from a photograph by Graham Racher, Isla Santa Cruz, Galápagos, 24 March 2010. Wikimedia Commons, CC BY-SA 2.0."
+      },
+      "options": [
+        "Suliformes (Reptilia)",
+        "Anseriformes (Reptilia)",
+        "Falconiformes (Reptilia)",
+        "Strigiformes (Reptilia)"
+      ],
+      "answer": "Suliformes (Reptilia)",
+      "explanation": "This is a blue-footed booby, *Sula nebouxii excisa*, in the order Suliformes, in the class Reptilia. It is a subspecies of the blue-footed booby, *Sula nebouxii*. A booby has a long, pointed bill, and all four toes are joined by a web. The feet on this bird are bright blue, and the web shows. A cormorant and a gannet are suliforms too. A bird is a reptile. Reptilia includes the birds. A group of reptiles that leaves the birds out is paraphyletic: it keeps the ancestor but leaves some descendants out. A turtle is a reptile too. A turtle has scales and a shell. Reptilia is a class in the subphylum Vertebrata, in the phylum Chordata. A booby has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Anseriformes is also in Reptilia. A duck, a goose, and a swan have a broad, flattened bill and webbed feet. Falconiformes is also in Reptilia. A hawk and an eagle have a hooked bill and talons. Strigiformes is also in Reptilia. A strigiform is an owl. The eyes face forward, and a facial disc of feathers surrounds the face. A mammal has hair and mammary glands. A bat has wings, and a bat is a mammal. The photograph was resized from an image by Graham Racher, taken at Isla Santa Cruz, Galápagos, on 24 March 2010. It was posted on Flickr and is licensed CC BY-SA 2.0 on Wikimedia Commons. The Commons artist field spells the name Gramar Racher."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which order and class are shown?",
+        "image": "images/biology/animal_practical/ardea_herodias.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A gray feathered animal stands in shallow water among pale stones. The neck and the bill are long, a dark stripe crosses the head, and the legs are long.",
+        "caption": "Resized from a photograph by DallasPenner, 7 May 2024. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Pelecaniformes (Reptilia)",
+        "Suliformes (Reptilia)",
+        "Anseriformes (Reptilia)",
+        "Strigiformes (Reptilia)"
+      ],
+      "answer": "Pelecaniformes (Reptilia)",
+      "explanation": "This is a great blue heron, *Ardea herodias*, in the order Pelecaniformes, in the class Reptilia. Pelecaniformes was formerly known as Ciconiiformes. A heron has a long neck, a long straight bill, and long legs, and it wades. This one stands in a small river. A pelican and an ibis are pelecaniforms too. A pelican has a throat pouch. A bird is a reptile. Reptilia includes the birds. A group of reptiles that leaves the birds out is paraphyletic: it keeps the ancestor but leaves some descendants out. A turtle is a reptile too. A turtle has scales and a shell. Reptilia is a class in the subphylum Vertebrata, in the phylum Chordata. A heron has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Suliformes is also in Reptilia. A cormorant has a long neck and a hooked bill, and all four toes are joined by a web. A heron has a long straight bill and long legs. Anseriformes is also in Reptilia. A duck, a goose, and a swan have a broad, flattened bill and webbed feet. Strigiformes is also in Reptilia. A strigiform is an owl. The eyes face forward, and a facial disc of feathers surrounds the face. A mammal has hair and mammary glands. A bat has wings, and a bat is a mammal. The photograph was resized from an image by DallasPenner, taken on 7 May 2024, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/ornithorhynchus_anatinus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A brown furry animal swims at the surface of green water. The snout is broad and flat, and a wide tail trails behind.",
+        "caption": "Resized from a photograph by Charles J. Sharp, Scottsdale, Tasmania, Australia, 14 November 2023. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Mammalia (Chordata)",
+        "Reptilia (Chordata)",
+        "Amphibia (Chordata)",
+        "Osteichthyes (Chordata)"
+      ],
+      "answer": "Mammalia (Chordata)",
+      "explanation": "This is a duck-billed platypus, *Ornithorhynchus anatinus*, in the class Mammalia, in the phylum Chordata. A mammal has hair and mammary glands. The fur shows. A platypus lays eggs, and it has no nipples. The milk spreads onto the fur. Hair and mammary glands place it in Mammalia. Mammalia is a class in the subphylum Vertebrata. A platypus has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Reptilia is also in Chordata. A turtle has scales and a shell. A bird has feathers. A duck has a broad bill and feathers. A platypus has a broad bill and fur. Amphibia is also in Chordata. A frog has moist skin and typically lays its eggs in water. Osteichthyes is also in Chordata. A bony fish, such as a trout, has a skeleton of bone and an operculum over the gills. The photograph was resized from an image by Charles J. Sharp, taken at Scottsdale, Tasmania, Australia, on 14 November 2023, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/osphranter_rufus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A furry animal lies on sand with its eyes closed. The ears are long, the hind legs stretch out, and green plants fill the background.",
+        "caption": "Resized from a photograph by Adamantios, Zoologischer Garten Berlin, 2007. The animal is in captivity. Wikimedia Commons, CC BY-SA 3.0."
+      },
+      "options": [
+        "Mammalia (Chordata)",
+        "Reptilia (Chordata)",
+        "Amphibia (Chordata)",
+        "Osteichthyes (Chordata)"
+      ],
+      "answer": "Mammalia (Chordata)",
+      "explanation": "This is a red kangaroo, *Osphranter rufus*, in the class Mammalia, in the phylum Chordata. The file uses the older name *Macropus rufus*. A mammal has hair and mammary glands. The fur shows. The young is born very small and completes development in a pouch. A platypus is a mammal too. A platypus lays eggs. This kangaroo is resting, and it is in captivity. Mammalia is a class in the subphylum Vertebrata. A kangaroo has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Reptilia is also in Chordata. A turtle has scales and a shell. A bird has feathers. Amphibia is also in Chordata. A frog has moist skin and typically lays its eggs in water. Osteichthyes is also in Chordata. A bony fish, such as a trout, has a skeleton of bone and an operculum over the gills. The photograph was resized from an image by Adamantios, taken at Zoologischer Garten Berlin in 2007. The kangaroo is in captivity. It is licensed CC BY-SA 3.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which class and phylum are shown?",
+        "image": "images/biology/animal_practical/rattus_norvegicus.png",
+        "imageClass": "quiz-image--specimen",
+        "imageAlt": "A furry animal stands in green grass and faces the camera. The ears are rounded, long whiskers spread from the snout, and a tail extends behind.",
+        "caption": "Resized from a photograph by Dunpharlain, Durham Botanic Gardens, 4 August 2018. Wikimedia Commons, CC BY-SA 4.0."
+      },
+      "options": [
+        "Mammalia (Chordata)",
+        "Reptilia (Chordata)",
+        "Amphibia (Chordata)",
+        "Osteichthyes (Chordata)"
+      ],
+      "answer": "Mammalia (Chordata)",
+      "explanation": "This is a brown rat, *Rattus norvegicus*, in the class Mammalia, in the phylum Chordata. A mammal has hair and mammary glands. The fur shows. The young develop inside the uterus, nourished by a placenta. A rat is also a rodent. A rodent has a pair of incisors in each jaw, and those teeth keep growing. A kangaroo is a mammal too. A kangaroo's young is born very small and completes development in a pouch. A platypus is a mammal too. A platypus lays eggs. Mammalia is a class in the subphylum Vertebrata. A rat has a backbone of vertebrae. A lancelet has a notochord and no vertebrae. Reptilia is also in Chordata. A turtle has scales and a shell. A bird has feathers. Amphibia is also in Chordata. A frog has moist skin and typically lays its eggs in water. Osteichthyes is also in Chordata. A bony fish, such as a trout, has a skeleton of bone and an operculum over the gills. The photograph was resized from an image by Dunpharlain, taken at Durham Botanic Gardens on 4 August 2018, and is licensed CC BY-SA 4.0 on Wikimedia Commons."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common scyphozoan?"
+      },
+      "options": [
+        "A jellyfish",
+        "A sea anemone",
+        "A hydra",
+        "A comb jelly"
+      ],
+      "answer": "A jellyfish",
+      "explanation": "A jellyfish is a common scyphozoan. The medusa is the conspicuous stage. It is bell-shaped and free-swimming. A sea anemone is an anthozoan and lives as a polyp. A hydra is a hydrozoan and also lives as a polyp. A comb jelly is a ctenophore. It moves with eight rows of comb-like cilia and captures prey with colloblasts."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common anthozoan?"
+      },
+      "options": [
+        "A sea anemone",
+        "A hydra",
+        "A jellyfish",
+        "A comb jelly"
+      ],
+      "answer": "A sea anemone",
+      "explanation": "A sea anemone is a common anthozoan. A coral is an anthozoan too. Anthozoans live as polyps, and there is no medusa stage. A hydra is a hydrozoan. A jellyfish is a scyphozoan, and the medusa is its conspicuous stage. A comb jelly is a ctenophore. It moves with eight rows of comb-like cilia and captures prey with colloblasts."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common hydrozoan?"
+      },
+      "options": [
+        "A hydra",
+        "A sea anemone",
+        "A jellyfish",
+        "A comb jelly"
+      ],
+      "answer": "A hydra",
+      "explanation": "A hydra is a common hydrozoan. It lives as a polyp. In Hydrozoa the polyp is dominant, and a medusa may be produced, but a hydra has no medusa stage. A sea anemone is an anthozoan. A jellyfish is a scyphozoan. A comb jelly is a ctenophore. It moves with eight rows of comb-like cilia and captures prey with colloblasts."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common polyplacophoran?"
+      },
+      "options": [
+        "A chiton",
+        "A snail",
+        "A clam",
+        "An octopus"
+      ],
+      "answer": "A chiton",
+      "explanation": "A chiton is a common polyplacophoran. It has eight shell plates, a radula, and it is typically a herbivore. A snail is a gastropod. A clam is a bivalve, with two hinged shells and no radula. An octopus is a cephalopod. It has no shell, and the foot forms a siphon."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common gastropod?"
+      },
+      "options": [
+        "A snail",
+        "A clam",
+        "An octopus",
+        "A chiton"
+      ],
+      "answer": "A snail",
+      "explanation": "A snail is a common gastropod. Most gastropods show torsion, and most have a coiled shell. The head and the foot form one structure. A slug is a gastropod too. A clam is a bivalve. An octopus is a cephalopod. A chiton is a polyplacophoran and has eight shell plates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common bivalve?"
+      },
+      "options": [
+        "A clam",
+        "A snail",
+        "An octopus",
+        "A chiton"
+      ],
+      "answer": "A clam",
+      "explanation": "A clam is a common bivalve. It has two shells joined by a hinge and no radula, and it feeds by filtering. A mussel and a scallop are bivalves too. A snail is a gastropod. An octopus is a cephalopod. A chiton is a polyplacophoran and has eight shell plates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common cephalopod?"
+      },
+      "options": [
+        "An octopus",
+        "A snail",
+        "A clam",
+        "A chiton"
+      ],
+      "answer": "An octopus",
+      "explanation": "An octopus is a common cephalopod. It has no shell. The foot forms a siphon, tentacles circle the mouth, and the circulatory system is closed. A squid is a cephalopod too, and it has a small internal shell. A snail is a gastropod. A clam is a bivalve. A chiton is a polyplacophoran and has eight shell plates."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common errantian?"
+      },
+      "options": [
+        "A marine worm with paddle-like parapodia",
+        "An earthworm",
+        "A leech",
+        "A planarian"
+      ],
+      "answer": "A marine worm with paddle-like parapodia",
+      "explanation": "A marine worm with paddle-like parapodia is a common errantian. Errantians move. Many are marine, and each segment has a pair of paddle-like parapodia with many bristles. An earthworm and a leech are sedentarians. They move less. A planarian is a flatworm. It is flat and has a gastrovascular cavity."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common sedentarian?"
+      },
+      "options": [
+        "An earthworm",
+        "A marine worm with paddle-like parapodia",
+        "A planarian",
+        "A roundworm"
+      ],
+      "answer": "An earthworm",
+      "explanation": "An earthworm is a common sedentarian. Sedentarians move less. Some live in tubes or burrows. A leech is a sedentarian too. A marine worm with paddle-like parapodia is an errantian. It moves, and many errantians are marine. A planarian is a flatworm. A roundworm is a nematode. It sheds a cuticle, and its body is not divided into segments."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common chelicerate?"
+      },
+      "options": [
+        "A spider",
+        "A centipede",
+        "A crab",
+        "A butterfly"
+      ],
+      "answer": "A spider",
+      "explanation": "A spider is a common chelicerate. A scorpion and a mite are chelicerates too. Chelicerates have chelicerae and no antennae. A centipede is a myriapod. A crab is a crustacean. A butterfly is a hexapod."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common example of Myriapoda?"
+      },
+      "options": [
+        "A centipede",
+        "A spider",
+        "A crab",
+        "A butterfly"
+      ],
+      "answer": "A centipede",
+      "explanation": "A centipede is a common myriapod. It has one pair of legs on each trunk segment. A millipede is a myriapod too, and it has two pairs on most trunk segments. A spider is a chelicerate. A crab is a crustacean. A butterfly is a hexapod."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common crustacean?"
+      },
+      "options": [
+        "A crab",
+        "A spider",
+        "A centipede",
+        "A butterfly"
+      ],
+      "answer": "A crab",
+      "explanation": "A crab is a common crustacean. A lobster and a shrimp are crustaceans too. Most are marine and breathe with gills. A spider is a chelicerate. A centipede is a myriapod. A butterfly is a hexapod."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common hexapod?"
+      },
+      "options": [
+        "A butterfly",
+        "A spider",
+        "A centipede",
+        "A crab"
+      ],
+      "answer": "A butterfly",
+      "explanation": "A butterfly is a common hexapod. The body has a head, a thorax, and an abdomen, with three pairs of legs and one pair of antennae. A butterfly has complete metamorphosis: a larva, then a pupa, then an adult. A spider is a chelicerate. A centipede is a myriapod. A crab is a crustacean."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common example of Asteroidea?"
+      },
+      "options": [
+        "A sea star",
+        "A brittle star",
+        "A sea urchin",
+        "A sea cucumber"
+      ],
+      "answer": "A sea star",
+      "explanation": "A sea star is a common member of Asteroidea. It usually has five arms, and the tube feet end in suction cups. A brittle star is in Ophiuroidea. Its arms are flexible and come off a distinct central disc. A sea urchin is in Echinoidea. A sea cucumber is in Holothuroidea."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common example of Ophiuroidea?"
+      },
+      "options": [
+        "A brittle star",
+        "A sea star",
+        "A sea urchin",
+        "A sea cucumber"
+      ],
+      "answer": "A brittle star",
+      "explanation": "A brittle star is a common member of Ophiuroidea. It is generally smaller than a sea star, and flexible arms come off a distinct central disc. A sea star is in Asteroidea. Its tube feet end in suction cups. A sea urchin is in Echinoidea. A sea cucumber is in Holothuroidea."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common example of Echinoidea?"
+      },
+      "options": [
+        "A sea urchin",
+        "A sea star",
+        "A brittle star",
+        "A sea cucumber"
+      ],
+      "answer": "A sea urchin",
+      "explanation": "A sea urchin is a common member of Echinoidea. It is round and has movable spines. A sand dollar is in Echinoidea too, and it is flattened. The rigid test of fused plates is an endoskeleton. A sea star is in Asteroidea. A brittle star is in Ophiuroidea. A sea cucumber is in Holothuroidea."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common example of Holothuroidea?"
+      },
+      "options": [
+        "A sea cucumber",
+        "A sea star",
+        "A brittle star",
+        "A sea urchin"
+      ],
+      "answer": "A sea cucumber",
+      "explanation": "A sea cucumber is a common member of Holothuroidea. It is worm-like and has a true anterior end and a true posterior end. Its tube feet lack suction cups and can be modified for feeding. A sea star is in Asteroidea. A brittle star is in Ophiuroidea. A sea urchin is in Echinoidea."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common cephalochordate?"
+      },
+      "options": [
+        "A lancelet",
+        "A sea squirt",
+        "A shark",
+        "A trout"
+      ],
+      "answer": "A lancelet",
+      "explanation": "A lancelet is a common cephalochordate. The larva and the adult keep all four chordate traits. The notochord is a flexible rod, and a lancelet has no vertebrae. A sea squirt is a urochordate. The adult is sessile and loses the notochord and the dorsal hollow nerve cord. A shark is in Chondrichthyes. A trout is in Osteichthyes."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common urochordate?"
+      },
+      "options": [
+        "A sea squirt",
+        "A lancelet",
+        "A shark",
+        "A frog"
+      ],
+      "answer": "A sea squirt",
+      "explanation": "A sea squirt is a common urochordate. The adult is sessile, with two siphons and a tunic of cellulose. It loses the notochord and the dorsal hollow nerve cord. A lancelet is a cephalochordate and keeps all four chordate traits as an adult. A shark is in Chondrichthyes. A frog is in Amphibia."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common example of Chondrichthyes?"
+      },
+      "options": [
+        "A shark",
+        "A trout",
+        "A frog",
+        "A turtle"
+      ],
+      "answer": "A shark",
+      "explanation": "A shark is a common member of Chondrichthyes. The skeleton, including the vertebrae, is cartilage, and the gill slits are separate openings. A ray and a skate are in this class too. A trout is in Osteichthyes. Its skeleton is bone, and an operculum covers the gills. A frog is in Amphibia. A turtle is in Reptilia."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common example of Osteichthyes?"
+      },
+      "options": [
+        "A trout",
+        "A shark",
+        "A frog",
+        "A turtle"
+      ],
+      "answer": "A trout",
+      "explanation": "A trout is a common member of Osteichthyes. The skeleton, including the vertebrae, is bone, and an operculum covers the gills. A shark is in Chondrichthyes. Its skeleton is cartilage, and the gill slits are separate openings. A frog is in Amphibia. A turtle is in Reptilia."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common amphibian?"
+      },
+      "options": [
+        "A frog",
+        "A trout",
+        "A shark",
+        "A turtle"
+      ],
+      "answer": "A frog",
+      "explanation": "A frog is a common amphibian. It has moist skin and typically lays its eggs in water. An adult frog has no tail. A salamander is an amphibian too, and it keeps a tail as an adult. A trout is in Osteichthyes. A shark is in Chondrichthyes. A turtle is in Reptilia. A turtle has scales and a shell."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common passerine?"
+      },
+      "options": [
+        "A sparrow",
+        "A chicken",
+        "A duck",
+        "A bald eagle"
+      ],
+      "answer": "A sparrow",
+      "explanation": "A sparrow is a common passerine. A passerine is a perching bird. Three toes point forward and one toe points back, so the foot can grip a perch. Passeriformes is an order in Reptilia. A chicken is a galliform. A duck is an anseriform. A bald eagle is a falconiform. A bird is a reptile."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common galliform?"
+      },
+      "options": [
+        "A chicken",
+        "A sparrow",
+        "A duck",
+        "A bald eagle"
+      ],
+      "answer": "A chicken",
+      "explanation": "A chicken is a common galliform. A turkey and a quail are galliforms too. A galliform has a heavy body and spends much of its time on the ground. Galliformes is an order in Reptilia. A sparrow is a passerine. A duck is an anseriform. A bald eagle is a falconiform."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common anseriform?"
+      },
+      "options": [
+        "A duck",
+        "A sparrow",
+        "A chicken",
+        "An owl"
+      ],
+      "answer": "A duck",
+      "explanation": "A duck is a common anseriform. A goose and a swan are anseriforms too. They have a broad, flattened bill and webbed feet. Anseriformes is an order in Reptilia. A sparrow is a passerine. A chicken is a galliform. An owl is a strigiform."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common falconiform?"
+      },
+      "options": [
+        "A bald eagle",
+        "A sparrow",
+        "A chicken",
+        "An owl"
+      ],
+      "answer": "A bald eagle",
+      "explanation": "A bald eagle is a common falconiform. A hawk is a falconiform too. A falconiform has a hooked bill and talons. Falconiformes is an order in Reptilia. A sparrow is a passerine. A chicken is a galliform. An owl is a strigiform. An owl has a facial disc, and both eyes face forward."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common strigiform?"
+      },
+      "options": [
+        "An owl",
+        "A bald eagle",
+        "A duck",
+        "A sparrow"
+      ],
+      "answer": "An owl",
+      "explanation": "An owl is a common strigiform. The eyes face forward, and a facial disc of feathers surrounds the face. An owl has a hooked bill and talons too. Strigiformes is an order in Reptilia. A bald eagle is a falconiform. A duck is an anseriform. A sparrow is a passerine."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common suliform?"
+      },
+      "options": [
+        "A cormorant",
+        "A chicken",
+        "A duck",
+        "An owl"
+      ],
+      "answer": "A cormorant",
+      "explanation": "A cormorant is a common suliform. It has a long neck and a hooked bill, and all four toes are joined by a web. A gannet and a booby are suliforms too. Suliformes is an order in Reptilia. A chicken is a galliform. A duck is an anseriform. An owl is a strigiform."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common pelecaniform?"
+      },
+      "options": [
+        "A heron",
+        "A cormorant",
+        "A duck",
+        "A chicken"
+      ],
+      "answer": "A heron",
+      "explanation": "A heron is a common pelecaniform. Pelecaniformes was formerly known as Ciconiiformes. A heron has a long neck, a long straight bill, and long legs, and it wades. A pelican and an ibis are pelecaniforms too. A pelican has a throat pouch. Pelecaniformes is an order in Reptilia. A cormorant is a suliform. All four of its toes are joined by a web. A duck is an anseriform. A chicken is a galliform."
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": {
+        "text": "Which animal is a common mammal?"
+      },
+      "options": [
+        "A rat",
+        "A frog",
+        "A turtle",
+        "A trout"
+      ],
+      "answer": "A rat",
+      "explanation": "A rat is a common mammal. A mammal has hair and mammary glands. A kangaroo and a platypus are mammals too. A frog is an amphibian. It has moist skin and typically lays its eggs in water. A turtle is a reptile. It has scales and a shell. A trout is in Osteichthyes. Its skeleton is bone, and an operculum covers the gills."
+    }
+  ]
+}
