@@ -589,9 +589,9 @@
             "icon": "🐠",
             "description": "Identify animal phyla and their classes, from sponges through the vertebrate classes.",
             "course": "bio100b",
-            "questionCount": 104,
+            "questionCount": 138,
             "types": {
-              "multiple_choice": 104
+              "multiple_choice": 138
             }
           }
         ]
